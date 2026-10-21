@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../../../core/theme/app_design_tokens.dart';
-import '../../../../core/widgets/app_empty_state.dart';
-import '../../../../core/widgets/app_error_state.dart';
-import '../../../../l10n/app_localizations.dart';
-import '../../application/favorites_provider.dart';
-import '../../../recipes/application/recipe_providers.dart';
-import '../../../recipes/presentation/screens/recipe_detail_screen.dart';
-import '../../../recipes/presentation/widgets/recipe_card.dart';
+import '../../../core/theme/app_design_tokens.dart';
+import '../../../core/widgets/app_empty_state.dart';
+import '../../../core/widgets/app_error_state.dart';
+import '../../../l10n/app_localizations.dart';
+import '../application/favorites_provider.dart';
+import '../../recipes/application/recipe_providers.dart';
+import '../../recipes/presentation/screens/recipe_detail_screen.dart';
+import '../../recipes/presentation/widgets/recipe_card.dart';
 
 class FavoritesScreen extends ConsumerWidget {
   const FavoritesScreen({super.key});
