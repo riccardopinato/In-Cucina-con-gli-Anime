@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../../../core/theme/app_design_tokens.dart';
-import '../../../../core/widgets/app_empty_state.dart';
-import '../../../../l10n/app_localizations.dart';
-import '../../application/shopping_provider.dart';
+import '../../../core/theme/app_design_tokens.dart';
+import '../../../core/widgets/app_empty_state.dart';
+import '../../../l10n/app_localizations.dart';
+import '../application/shopping_provider.dart';
 
 class ShoppingListScreen extends ConsumerWidget {
   const ShoppingListScreen({super.key});
