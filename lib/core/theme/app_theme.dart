@@ -23,42 +23,17 @@ abstract final class AppTheme {
           : const Color(0xFF171915),
     );
 
-    final baseText = ThemeData(
-      useMaterial3: true,
-      brightness: brightness,
-      colorScheme: colors,
-    ).textTheme;
-
-    final roundedText = GoogleFonts.nunitoTextTheme(baseText);
-    final typography = roundedText.copyWith(
-      displaySmall: GoogleFonts.caveat(
-        textStyle: roundedText.displaySmall,
-        fontWeight: FontWeight.w700,
-        height: 1.05,
-      ),
-      headlineMedium: GoogleFonts.caveat(
-        textStyle: roundedText.headlineMedium,
-        fontWeight: FontWeight.w700,
-        height: 1.1,
-      ),
-      titleLarge: roundedText.titleLarge?.copyWith(
-        fontWeight: FontWeight.w800,
-      ),
-      titleMedium: roundedText.titleMedium?.copyWith(
-        fontWeight: FontWeight.w700,
-      ),
-      bodyLarge: roundedText.bodyLarge?.copyWith(height: 1.5),
-      bodyMedium: roundedText.bodyMedium?.copyWith(height: 1.45),
-      labelMedium: roundedText.labelMedium?.copyWith(
-        fontWeight: FontWeight.w700,
-      ),
+    final displayStyle = GoogleFonts.caveat(
+      fontSize: 28,
+      fontWeight: FontWeight.w700,
+      color: colors.onSurface,
+      height: 1.05,
     );
 
     return ThemeData(
       useMaterial3: true,
       brightness: brightness,
       colorScheme: colors,
-      textTheme: typography,
       scaffoldBackgroundColor: colors.surface,
       appBarTheme: AppBarTheme(
         centerTitle: false,
@@ -67,9 +42,7 @@ abstract final class AppTheme {
         surfaceTintColor: colors.surface,
         elevation: AppElevation.none,
         scrolledUnderElevation: AppElevation.none,
-        titleTextStyle: typography.titleLarge?.copyWith(
-          color: colors.onSurface,
-        ),
+        titleTextStyle: displayStyle,
       ),
       cardTheme: CardThemeData(
         color: colors.surfaceContainerLow,
