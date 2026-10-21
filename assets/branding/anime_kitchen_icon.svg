@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="paper" x1="120" y1="80" x2="900" y2="930" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFDF8"/>
+      <stop offset="1" stop-color="#F6EAD9"/>
+    </linearGradient>
+    <linearGradient id="bowl" x1="260" y1="500" x2="780" y2="820" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5F9270"/>
+      <stop offset="1" stop-color="#365E43"/>
+    </linearGradient>
+    <linearGradient id="ember" x1="420" y1="280" x2="650" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F39A72"/>
+      <stop offset="1" stop-color="#D95F4B"/>
+    </linearGradient>
+  </defs>
+  <rect x="36" y="36" width="952" height="952" rx="212" fill="url(#paper)"/>
+  <circle cx="512" cy="512" r="392" fill="#A8DADC" opacity=".20"/>
+  <g fill="none" stroke="#E07A5F" stroke-width="34" stroke-linecap="round">
+    <path d="M346 322C298 269 326 215 374 178"/>
+    <path d="M500 310C452 249 484 198 526 158"/>
+    <path d="M650 326C604 267 638 219 684 184"/>
+  </g>
+  <path d="M223 533C246 724 354 823 512 823C670 823 778 724 801 533Z" fill="url(#bowl)"/>
+  <path d="M233 532C312 570 712 570 791 532" fill="none" stroke="#2B2D42" stroke-width="24" stroke-linecap="round"/>
+  <ellipse cx="512" cy="526" rx="279" ry="92" fill="#FFF9EE" stroke="#2B2D42" stroke-width="24"/>
+  <path d="M334 512C403 425 470 451 529 507C588 562 653 557 706 493" fill="none" stroke="#E9B44C" stroke-width="34" stroke-linecap="round"/>
+  <path d="M354 548C420 476 480 500 530 545C583 592 646 587 691 531" fill="none" stroke="#E9B44C" stroke-width="30" stroke-linecap="round"/>
+  <circle cx="437" cy="473" r="42" fill="url(#ember)"/>
+  <circle cx="589" cy="472" r="38" fill="#4A7C59"/>
+  <path d="M725 260L829 674" stroke="#2B2D42" stroke-width="26" stroke-linecap="round"/>
+  <path d="M786 244L869 655" stroke="#2B2D42" stroke-width="26" stroke-linecap="round"/>
+  <path d="M240 809C319 886 411 920 512 920C615 920 708 884 785 808" fill="none" stroke="#E07A5F" stroke-width="24" stroke-linecap="round" opacity=".8"/>
+</svg>
