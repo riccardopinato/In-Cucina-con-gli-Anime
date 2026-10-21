@@ -1,0 +1,30 @@
+name: animekitchen
+description: "A warm, local-first cooking companion inspired by food seen in anime."
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.13.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  flutter_riverpod: ^3.4.3
+  shared_preferences: ^2.5.3
+  google_fonts: ^9.0.0
+  flutter_staggered_animations: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  launcher_icons: 0.16.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/branding/

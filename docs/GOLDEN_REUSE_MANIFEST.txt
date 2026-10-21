@@ -1,0 +1,55 @@
+IN CUCINA CON GLI ANIME — GOLDEN REUSE MANIFEST v0.1
+Factory baseline: riccardopinato/App-Factory-Core @ 47c47f49a7b46812e3bd6f1231c3524f2b52b826
+Master: 26.6
+Golden Index: 18
+
+RULE
+COPY FIRST. EXTEND BEFORE DUPLICATE.
+
+USED NOW
+
+1) Localization
+Source: golden/ui/GOLDEN_LOCALIZATION_FLUTTER_v1.txt
+Targets: l10n.yaml, lib/core/localization/*, lib/l10n/*.arb
+Delta: app-specific strings + persistent locale adapter.
+
+2) Theme Material 3
+Source: golden/ui/GOLDEN_THEME_M3_FLUTTER_v1.txt
+Targets: lib/core/theme/app_design_tokens.dart, lib/core/theme/app_theme.dart
+Delta: warm cookbook palette + Caveat/Nunito typography + wider content grid.
+
+3) CI + Web Deploy
+Source: golden/release/GOLDEN_CI_RELEASE_WEB_DEPLOY_FLUTTER_v2.txt
+Targets: .github/workflows/dev-checks.yml, .github/workflows/deploy-pages.yml
+Delta: deterministic platform generation. Production signing deferred.
+
+4) Entitlement Contract
+Source: golden/monetization/GOLDEN_ENTITLEMENT_CONTRACT_FLUTTER_v1.txt
+Targets: lib/core/monetization/*
+Boundary: provider-agnostic only; no billing SDK claim.
+
+5) Agent Governance / Code Hygiene
+Sources:
+- golden/governance/GOLDEN_AGENT_GOVERNANCE_v1.txt
+- golden/governance/GOLDEN_CODE_HYGIENE_v1.txt
+Targets: AGENTS.md + governance/agents/*
+
+PROCESS GUIDANCE APPLIED
+- golden/governance/GOLDEN_APP_BOOTSTRAP_FLUTTER_v1_DRAFT.txt
+- golden/ui/GOLDEN_APP_ICON_BRANDING_FLUTTER_v1_DRAFT.txt
+- golden/ui/GOLDEN_APP_SHELL_RESPONSIVE_VISUAL_QA_FLUTTER_v1_DRAFT.txt
+- golden/data/GOLDEN_VERSIONED_EDITORIAL_CATALOG_FLUTTER_v1_DRAFT.txt
+- golden/release/GOLDEN_APPLAB_QA_CERTIFICATION_v1.txt
+
+NOT MOUNTED YET
+- Google Auth: no login required.
+- AdMob SDK: planned, not live.
+- Billing provider: planned, not live.
+- Notifications: no current need.
+- Backup/Recovery: later.
+- Offline Content Packs: later.
+
+EXTERNAL PLANNING REFERENCE
+mattpocock/skills (MIT), reviewed 21/10/2026.
+Concepts used: to-spec synthesis, tracer-bullet tickets, deep modules/high seams, compact context pointers.
+No external skill runtime code is vendored.

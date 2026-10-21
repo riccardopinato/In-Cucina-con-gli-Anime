@@ -1,0 +1,69 @@
+name: Development checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: anime-kitchen-dev-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2.23.0
+        with:
+          flutter-version: "3.47.3"
+          channel: stable
+          cache: true
+
+      - name: Generate platform scaffold
+        run: ./tool/bootstrap_platforms.sh
+
+      - name: Resolve dependencies
+        run: flutter pub get
+
+      - name: Validate repository structure
+        run: python3 tool/validate_structure.py
+
+      - name: Generate localization
+        run: flutter gen-l10n
+
+      - name: Generate launcher icons
+        run: dart run launcher_icons
+
+      - name: Analyze
+        run: flutter analyze
+
+      - name: Test
+        run: flutter test
+
+      - name: Build Web release
+        run: flutter build web --release --base-href "/In-Cucina-con-gli-Anime/"
+
+      - name: Build Android ARM64 internal gate
+        if: github.event_name != 'pull_request'
+        run: |
+          flutter build apk --release --split-per-abi --tree-shake-icons
+          test -s build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
+
+      - name: Upload Android ARM64 internal APK
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: in-cucina-con-gli-anime-arm64-internal
+          path: build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
+          if-no-files-found: error
+          retention-days: 14

@@ -1,0 +1,69 @@
+app_name: "In Cucina con gli Anime"
+project_name: "animekitchen"
+package_name: "com.riccardopinato.animekitchen"
+bundle_id: "com.riccardopinato.animekitchen"
+version: "0.1.0+1"
+platforms: [android, ios, web]
+flutter_version: "3.47.3"
+default_locale: en
+supported_locales: [en, it, es, fr, de, pt]
+
+brand:
+  icon: "assets/branding/anime_kitchen_icon.svg"
+  theme_seed: "#4A7C59"
+  visual_direction: "warm watercolor-inspired editorial cooking; original assets only"
+
+auth:
+  required_at_startup: false
+  google_sign_in: optional_future
+
+persistence:
+  user_state_engine: shared_preferences
+  editorial_catalog: versioned_local_catalog_future
+  local_first: true
+
+backup:
+  enabled: false
+  planned: true
+
+notifications:
+  enabled: false
+
+premium:
+  enabled: true
+  provider: none_yet
+  contract: provider_agnostic
+
+ads:
+  enabled: false
+  planned: true
+  strategy: "safe adaptive banner on browse surfaces; never on active cooking flow"
+
+web_preview:
+  enabled: true
+  boundary: "shared UI/navigation only"
+
+native_capabilities: []
+
+content:
+  imported_recipes: 0
+  note: "No recipe from the attached PDF is imported in this bootstrap."
+
+goldens:
+  - app_bootstrap
+  - agent_governance
+  - code_hygiene
+  - theme_m3
+  - localization
+  - app_shell_responsive_visual_qa
+  - app_icon_branding
+  - ci_release_web_deploy
+  - entitlement_contract
+  - versioned_editorial_catalog
+  - applab_qa_certification
+
+factory_baseline:
+  repository: "riccardopinato/App-Factory-Core"
+  master: "26.6"
+  golden_index: "18"
+  commit: "47c47f49a7b46812e3bd6f1231c3524f2b52b826"

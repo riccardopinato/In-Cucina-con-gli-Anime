@@ -1,0 +1,6 @@
+launcher_icons:
+  image_path: "assets/branding/anime_kitchen_icon.svg"
+  android:
+    generate: true
+  ios:
+    generate: true
