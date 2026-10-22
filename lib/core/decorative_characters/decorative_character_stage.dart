@@ -192,18 +192,25 @@ class _DecorativeCharacterPainter extends CustomPainter {
     switch (definition.id) {
       case 'kitsune':
         _paintKitsune(canvas);
+        break;
       case 'kappa':
         _paintKappa(canvas);
+        break;
       case 'tanuki':
         _paintTanuki(canvas);
+        break;
       case 'oni':
         _paintOni(canvas);
+        break;
       case 'sun_wukong':
         _paintMonkeyKing(canvas);
+        break;
       case 'chinese_dragon':
         _paintDragon(canvas);
+        break;
       default:
         _paintFallback(canvas);
+        break;
     }
 
     canvas.restore();
