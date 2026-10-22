@@ -4,9 +4,9 @@ Flutter app for original/adapted editorial recipes inspired by food seen in anim
 
 ## Current state
 
-**v0.3 — F2 recipe authoring/import pipeline complete. Production catalog intentionally contains zero real recipes.**
+**v0.4 — F3A first real editorial batch complete: 5 production recipes, fully localized and compiled through the F2 pipeline.**
 
-F1 remains the runtime contract. F2 adds a separate JSON authoring workspace, deterministic compiler, localization/asset checks, Duplicate & Similarity Review Gate, review memory and synthetic Flutter Web preview. Adding content no longer requires editing Dart.
+F1 remains the runtime contract and F2 remains the authoring/build layer. F3A proves the pipeline with the first five real recipes, all published in EN/IT/ES/FR/DE/PT without editing Dart. F3B is the visual redesign phase.
 
 ## Stack
 
