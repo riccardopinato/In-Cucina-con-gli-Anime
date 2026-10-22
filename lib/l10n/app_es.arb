@@ -56,5 +56,14 @@
   "manualItemSource": "Manual",
   "exploreTagline": "Cocina las escenas que recuerdas.",
   "exploreIntro": "Un recetario ilustrado inspirado en la comida vista en el anime.",
-  "servingsLabel": "Raciones"
+  "servingsLabel": "Raciones",
+  "settingsPrivacyAds": "Privacidad y anuncios",
+  "privacyAdsDescription": "Los anuncios permanecen desactivados hasta que tu preferencia y cualquier comprobación de consentimiento necesaria del proveedor los permitan. Las recetas principales nunca requieren una cuenta.",
+  "privacyStatusLabel": "Elección actual",
+  "privacyStatusUnresolved": "Sin elegir",
+  "privacyStatusAllow": "Permitir anuncios",
+  "privacyStatusBlock": "Bloquear anuncios",
+  "privacyAllowAds": "Permitir solicitudes de anuncios",
+  "privacyBlockAds": "Bloquear solicitudes de anuncios",
+  "privacyResetChoice": "Restablecer elección"
 }
