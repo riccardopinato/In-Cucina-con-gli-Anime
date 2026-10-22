@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
 
 import '../../../../core/theme/app_design_tokens.dart';
+import '../../../../core/theme/app_palette.dart';
 import '../../../../core/widgets/app_empty_state.dart';
 import '../../../../core/widgets/app_error_state.dart';
 import '../../../../l10n/app_localizations.dart';
@@ -55,127 +55,171 @@ class _RecipeListScreenState extends ConsumerState<RecipeListScreen> {
     final selectedDifficulty = ref.watch(selectedDifficultyProvider);
     final hasActiveFilters = ref.watch(hasActiveRecipeFiltersProvider);
     final favorites = ref.watch(favoritesProvider);
+    final colors = Theme.of(context).colorScheme;
 
     return SafeArea(
       top: false,
-      child: Padding(
-        padding: const EdgeInsets.fromLTRB(
-          AppSpacing.medium,
-          AppSpacing.small,
-          AppSpacing.medium,
-          0,
+      child: DecoratedBox(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+            colors: [
+              colors.surface,
+              colors.surfaceContainerLowest,
+            ],
+          ),
         ),
-        child: Column(
-          children: [
-            Row(
-              children: [
-                Expanded(
-                  child: TextField(
-                    controller: _searchController,
-                    onChanged: ref.read(searchQueryProvider.notifier).setQuery,
-                    textInputAction: TextInputAction.search,
-                    decoration: InputDecoration(
-                      hintText: l10n.searchHint,
-                      prefixIcon: const Icon(Icons.search),
+        child: CustomScrollView(
+          slivers: [
+            SliverToBoxAdapter(
+              child: Center(
+                child: ConstrainedBox(
+                  constraints: const BoxConstraints(
+                    maxWidth: AppLayout.contentMaxWidth,
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.fromLTRB(
+                      AppSpacing.medium,
+                      AppSpacing.large,
+                      AppSpacing.medium,
+                      AppSpacing.medium,
                     ),
+                    child: _ExploreHeader(l10n: l10n),
                   ),
                 ),
-                if (hasActiveFilters) ...[
-                  const SizedBox(width: AppSpacing.small),
-                  IconButton(
-                    onPressed: _resetFilters,
-                    tooltip: l10n.resetFilters,
-                    icon: const Icon(Icons.filter_alt_off),
-                  ),
-                ],
-              ],
+              ),
             ),
-            const SizedBox(height: AppSpacing.small),
-            SizedBox(
-              height: 44,
-              child: animeSources.when(
-                data: (items) => ListView(
-                  scrollDirection: Axis.horizontal,
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.only(right: AppSpacing.small),
-                      child: FilterChip(
-                        selected: selectedAnime == null,
-                        label: Text(l10n.filterAllAnime),
-                        onSelected: (_) {
-                          ref.read(selectedAnimeProvider.notifier).select(null);
-                        },
-                      ),
+            SliverToBoxAdapter(
+              child: Center(
+                child: ConstrainedBox(
+                  constraints: const BoxConstraints(
+                    maxWidth: AppLayout.contentMaxWidth,
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: AppSpacing.medium,
                     ),
-                    for (final source in items)
-                      Padding(
-                        padding: const EdgeInsets.only(right: AppSpacing.small),
-                        child: FilterChip(
-                          selected: selectedAnime == source,
-                          label: Text(source),
-                          onSelected: (_) {
-                            ref
-                                .read(selectedAnimeProvider.notifier)
-                                .select(source);
-                          },
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      children: [
+                        Row(
+                          children: [
+                            Expanded(
+                              child: TextField(
+                                controller: _searchController,
+                                onChanged: ref
+                                    .read(searchQueryProvider.notifier)
+                                    .setQuery,
+                                textInputAction: TextInputAction.search,
+                                decoration: InputDecoration(
+                                  hintText: l10n.searchHint,
+                                  prefixIcon:
+                                      const Icon(Icons.search_rounded),
+                                ),
+                              ),
+                            ),
+                            if (hasActiveFilters) ...[
+                              const SizedBox(width: AppSpacing.small),
+                              IconButton.filledTonal(
+                                onPressed: _resetFilters,
+                                tooltip: l10n.resetFilters,
+                                icon:
+                                    const Icon(Icons.filter_alt_off_rounded),
+                              ),
+                            ],
+                          ],
                         ),
-                      ),
-                  ],
-                ),
-                loading: () => const SizedBox.shrink(),
-                error: (_, _) => const SizedBox.shrink(),
-              ),
-            ),
-            const SizedBox(height: AppSpacing.small),
-            SizedBox(
-              height: 44,
-              child: ListView(
-                scrollDirection: Axis.horizontal,
-                children: [
-                  Padding(
-                    padding: const EdgeInsets.only(right: AppSpacing.small),
-                    child: FilterChip(
-                      selected: selectedDifficulty == null,
-                      label: Text(l10n.filterAllDifficulty),
-                      onSelected: (_) {
-                        ref
-                            .read(selectedDifficultyProvider.notifier)
-                            .select(null);
-                      },
+                        const SizedBox(height: AppSpacing.medium),
+                        _FilterRail(
+                          children: [
+                            FilterChip(
+                              selected: selectedAnime == null,
+                              label: Text(l10n.filterAllAnime),
+                              onSelected: (_) {
+                                ref
+                                    .read(selectedAnimeProvider.notifier)
+                                    .select(null);
+                              },
+                            ),
+                            ...animeSources.maybeWhen(
+                              data: (items) => [
+                                for (final source in items)
+                                  FilterChip(
+                                    selected: selectedAnime == source,
+                                    label: Text(source),
+                                    onSelected: (_) {
+                                      ref
+                                          .read(
+                                            selectedAnimeProvider.notifier,
+                                          )
+                                          .select(source);
+                                    },
+                                  ),
+                              ],
+                              orElse: () => const <Widget>[],
+                            ),
+                          ],
+                        ),
+                        const SizedBox(height: AppSpacing.small),
+                        _FilterRail(
+                          children: [
+                            FilterChip(
+                              selected: selectedDifficulty == null,
+                              label: Text(l10n.filterAllDifficulty),
+                              onSelected: (_) {
+                                ref
+                                    .read(
+                                      selectedDifficultyProvider.notifier,
+                                    )
+                                    .select(null);
+                              },
+                            ),
+                            for (final difficulty
+                                in RecipeDifficulty.values)
+                              FilterChip(
+                                selected:
+                                    selectedDifficulty == difficulty,
+                                label: Text(
+                                  _difficultyLabel(l10n, difficulty),
+                                ),
+                                onSelected: (_) {
+                                  ref
+                                      .read(
+                                        selectedDifficultyProvider.notifier,
+                                      )
+                                      .select(difficulty);
+                                },
+                              ),
+                          ],
+                        ),
+                        const SizedBox(height: AppSpacing.large),
+                      ],
                     ),
                   ),
-                  for (final difficulty in RecipeDifficulty.values)
-                    Padding(
-                      padding: const EdgeInsets.only(right: AppSpacing.small),
-                      child: FilterChip(
-                        selected: selectedDifficulty == difficulty,
-                        label: Text(_difficultyLabel(l10n, difficulty)),
-                        onSelected: (_) {
-                          ref
-                              .read(selectedDifficultyProvider.notifier)
-                              .select(difficulty);
-                        },
-                      ),
-                    ),
-                ],
+                ),
               ),
             ),
-            const SizedBox(height: AppSpacing.medium),
-            Expanded(
-              child: filtered.when(
-                loading: () => const Center(
-                  child: CircularProgressIndicator(),
-                ),
-                error: (_, _) => AppErrorState(
+            filtered.when(
+              loading: () => const SliverFillRemaining(
+                hasScrollBody: false,
+                child: Center(child: CircularProgressIndicator()),
+              ),
+              error: (_, _) => SliverFillRemaining(
+                hasScrollBody: false,
+                child: AppErrorState(
                   title: l10n.errorTitle,
                   retryLabel: l10n.retry,
                   onRetry: () => ref.invalidate(allRecipesProvider),
                 ),
-                data: (recipes) {
-                  if (recipes.isEmpty) {
-                    return AppEmptyState(
+              ),
+              data: (recipes) {
+                if (recipes.isEmpty) {
+                  return SliverFillRemaining(
+                    hasScrollBody: false,
+                    child: AppEmptyState(
                       icon: hasActiveFilters
-                          ? Icons.search_off
+                          ? Icons.search_off_rounded
                           : Icons.menu_book_outlined,
                       title: hasActiveFilters
                           ? l10n.noResultsTitle
@@ -183,60 +227,190 @@ class _RecipeListScreenState extends ConsumerState<RecipeListScreen> {
                       body: hasActiveFilters
                           ? l10n.noResultsBody
                           : l10n.emptyCatalogBody,
-                    );
-                  }
+                    ),
+                  );
+                }
 
-                  return AnimationLimiter(
-                    child: GridView.builder(
-                      padding: const EdgeInsets.only(
-                        bottom: AppSpacing.xLarge,
-                      ),
-                      gridDelegate:
-                          const SliverGridDelegateWithMaxCrossAxisExtent(
-                        maxCrossAxisExtent: 420,
-                        mainAxisExtent: 310,
-                        crossAxisSpacing: AppSpacing.medium,
-                        mainAxisSpacing: AppSpacing.medium,
-                      ),
-                      itemCount: recipes.length,
-                      itemBuilder: (context, index) {
+                return SliverPadding(
+                  padding: const EdgeInsets.fromLTRB(
+                    AppSpacing.medium,
+                    0,
+                    AppSpacing.medium,
+                    AppSpacing.xxxLarge,
+                  ),
+                  sliver: SliverGrid(
+                    gridDelegate:
+                        const SliverGridDelegateWithMaxCrossAxisExtent(
+                      maxCrossAxisExtent: 390,
+                      mainAxisExtent: 322,
+                      crossAxisSpacing: AppSpacing.medium,
+                      mainAxisSpacing: AppSpacing.medium,
+                    ),
+                    delegate: SliverChildBuilderDelegate(
+                      (context, index) {
                         final recipe = recipes[index];
-                        return AnimationConfiguration.staggeredGrid(
-                          position: index,
-                          columnCount: 2,
-                          duration: const Duration(milliseconds: 360),
-                          child: SlideAnimation(
-                            verticalOffset: 28,
-                            child: FadeInAnimation(
-                              child: RecipeCard(
-                                recipe: recipe,
-                                isFavorite: favorites.contains(recipe.id),
-                                onFavoritePressed: () {
-                                  ref
-                                      .read(favoritesProvider.notifier)
-                                      .toggle(recipe.id);
-                                },
-                                onTap: () {
-                                  Navigator.of(context).push(
-                                    MaterialPageRoute<void>(
-                                      builder: (_) => RecipeDetailScreen(
-                                        recipe: recipe,
-                                      ),
+                        return Center(
+                          child: ConstrainedBox(
+                            constraints: const BoxConstraints(
+                              maxWidth: 390,
+                            ),
+                            child: RecipeCard(
+                              recipe: recipe,
+                              isFavorite:
+                                  favorites.contains(recipe.id),
+                              onFavoritePressed: () {
+                                ref
+                                    .read(favoritesProvider.notifier)
+                                    .toggle(recipe.id);
+                              },
+                              onTap: () {
+                                Navigator.of(context).push(
+                                  MaterialPageRoute<void>(
+                                    builder: (_) =>
+                                        RecipeDetailScreen(
+                                      recipe: recipe,
                                     ),
-                                  );
-                                },
-                              ),
+                                  ),
+                                );
+                              },
                             ),
                           ),
                         );
                       },
+                      childCount: recipes.length,
                     ),
-                  );
-                },
-              ),
+                  ),
+                );
+              },
             ),
           ],
         ),
+      ),
+    );
+  }
+}
+
+class _ExploreHeader extends StatelessWidget {
+  const _ExploreHeader({required this.l10n});
+
+  final AppLocalizations l10n;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final colors = theme.colorScheme;
+    final isDark = theme.brightness == Brightness.dark;
+
+    return Container(
+      padding: const EdgeInsets.all(AppSpacing.xLarge),
+      decoration: BoxDecoration(
+        color: colors.surfaceContainerLow,
+        borderRadius: BorderRadius.circular(AppRadii.hero),
+        border: Border.all(
+          color: colors.outlineVariant.withValues(alpha: 0.62),
+        ),
+      ),
+      child: Stack(
+        children: [
+          Positioned(
+            right: -26,
+            top: -42,
+            child: Container(
+              width: 156,
+              height: 156,
+              decoration: BoxDecoration(
+                color: (isDark
+                        ? colors.primaryContainer
+                        : AppPalette.apricot)
+                    .withValues(alpha: 0.72),
+                shape: BoxShape.circle,
+              ),
+            ),
+          ),
+          Positioned(
+            right: 52,
+            bottom: -68,
+            child: Container(
+              width: 136,
+              height: 136,
+              decoration: BoxDecoration(
+                border: Border.all(
+                  color: colors.primary.withValues(alpha: 0.18),
+                  width: 18,
+                ),
+                shape: BoxShape.circle,
+              ),
+            ),
+          ),
+          ConstrainedBox(
+            constraints: const BoxConstraints(maxWidth: 720),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Container(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 12,
+                    vertical: 7,
+                  ),
+                  decoration: BoxDecoration(
+                    color: colors.primary.withValues(alpha: 0.10),
+                    borderRadius: BorderRadius.circular(AppRadii.pill),
+                  ),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Icon(
+                        Icons.restaurant_menu_rounded,
+                        size: 17,
+                        color: colors.primary,
+                      ),
+                      const SizedBox(width: 7),
+                      Text(
+                        l10n.appName,
+                        style: theme.textTheme.labelLarge?.copyWith(
+                          color: colors.primary,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(height: AppSpacing.large),
+                Text(
+                  l10n.exploreTagline,
+                  style: theme.textTheme.displayMedium,
+                ),
+                const SizedBox(height: AppSpacing.small),
+                Text(
+                  l10n.exploreIntro,
+                  style: theme.textTheme.bodyLarge?.copyWith(
+                    color: colors.onSurfaceVariant,
+                    height: 1.45,
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _FilterRail extends StatelessWidget {
+  const _FilterRail({required this.children});
+
+  final List<Widget> children;
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      height: 42,
+      child: ListView.separated(
+        scrollDirection: Axis.horizontal,
+        itemCount: children.length,
+        separatorBuilder: (_, _) =>
+            const SizedBox(width: AppSpacing.small),
+        itemBuilder: (_, index) => children[index],
       ),
     );
   }

@@ -4,9 +4,9 @@ Flutter app for original/adapted editorial recipes inspired by food seen in anim
 
 ## Current state
 
-**v0.5 — F3A complete supplied-document batch: 10 production recipes, fully localized and compiled through the F2 pipeline.**
+**v0.6 — F3B visual identity redesign complete across the full 10-recipe catalog.**
 
-F1 remains the runtime contract and F2 remains the authoring/build layer. F3A now contains all 10 recipes from the supplied reference document, published in EN/IT/ES/FR/DE/PT without editing Dart. F3B is the visual redesign phase.
+F1 remains the runtime contract and F2 remains the authoring/build layer. F3A contains all 10 supplied recipes; F3B gives them a Japanese-contemporary editorial identity with lightweight procedural artwork, redesigned cards, responsive detail layouts and no dependency on third-party food photography. F3C is the decorative-character phase.
 
 ## Stack
 

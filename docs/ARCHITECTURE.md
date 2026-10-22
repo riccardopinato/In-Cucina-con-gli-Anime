@@ -125,7 +125,11 @@ UI asks ProductLimits/capabilities, not a store SDK. Billing/RevenueCat/Play/Sto
 - NavigationRail on wide width;
 - Explore, Favorites, Shopping primary destinations;
 - Settings secondary;
-- recipe detail pushed route.
+- recipe detail pushed route;
+- F3B presentation tokens sit above Material 3 so visual identity can evolve without changing domain/application seams;
+- `RecipeArtwork` is a lightweight procedural no-photo fallback keyed by stable recipe ID;
+- the artwork layer contains no recipe business data and can be replaced by an original/licensed `imageAsset` without changing cards or detail navigation;
+- recipe detail switches from a single-column phone layout to a two-column ingredients/timer + preparation composition on wider surfaces.
 
 ## Preview boundary
 
