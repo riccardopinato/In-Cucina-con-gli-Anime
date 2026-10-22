@@ -1,5 +1,215 @@
 {
   "schemaVersion": 1,
   "locale": "es",
-  "recipes": {}
+  "recipes": {
+    "recipe_000001": {
+      "title": "Huevos a la sartén con bacon crujiente",
+      "ingredientTexts": {
+        "smoked_bacon": {
+          "name": "Bacon ahumado de corte grueso",
+          "note": "4 lonchas"
+        },
+        "eggs": {
+          "name": "Huevos grandes frescos",
+          "note": null
+        },
+        "butter": {
+          "name": "Mantequilla",
+          "note": null
+        },
+        "black_pepper": {
+          "name": "Pimienta negra recién molida",
+          "note": "al gusto"
+        },
+        "country_bread": {
+          "name": "Pan rústico de masa madre",
+          "note": "para acompañar"
+        }
+      },
+      "stepTexts": {
+        "heat_pan": "Calienta una sartén de hierro o de fondo grueso a fuego medio y derrite la mantequilla.",
+        "crisp_bacon": "Cocina el bacon hasta que los bordes queden dorados y crujientes.",
+        "add_eggs": "Aparta el bacon hacia los lados y casca los huevos en el centro procurando no romper las yemas.",
+        "finish_eggs": "Baja el fuego y cocina suavemente hasta que las claras cuajen y las yemas sigan tiernas.",
+        "season_serve": "Añade pimienta negra y sirve de inmediato con pan rústico tostado."
+      }
+    },
+    "recipe_000002": {
+      "title": "Ramen de miso con chashu",
+      "ingredientTexts": {
+        "ramen_noodles": {
+          "name": "Fideos ramen",
+          "note": "frescos o secos"
+        },
+        "concentrated_broth": {
+          "name": "Caldo concentrado de pollo o cerdo",
+          "note": null
+        },
+        "miso_paste": {
+          "name": "Pasta de miso",
+          "note": "puede sustituirse por salsa de soja para un sabor más ligero"
+        },
+        "chashu": {
+          "name": "Chashu de cerdo braseado",
+          "note": "4 lonchas"
+        },
+        "ajitsuke_eggs": {
+          "name": "Ajitsuke tamago",
+          "note": "huevos marinados de yema tierna"
+        },
+        "narutomaki": {
+          "name": "Narutomaki",
+          "note": "4 rodajas"
+        },
+        "spring_onions": {
+          "name": "Cebolletas",
+          "note": "finamente cortadas"
+        },
+        "bean_sprouts": {
+          "name": "Brotes de soja",
+          "note": "para terminar"
+        },
+        "nori": {
+          "name": "Alga nori",
+          "note": "cortada en porciones"
+        }
+      },
+      "stepTexts": {
+        "season_broth": "Calienta el caldo suavemente e incorpora el miso hasta que quede bien disuelto. Mantenlo caliente.",
+        "cook_noodles": "Cuece los fideos ramen por separado según el tiempo del envase y escúrrelos bien.",
+        "fill_bowls": "Reparte los fideos calientes en dos cuencos y añade el caldo.",
+        "add_toppings": "Coloca encima el chashu, los huevos marinados partidos por la mitad, el narutomaki, la cebolleta, los brotes y el nori.",
+        "serve": "Sirve en cuanto termines el montaje."
+      }
+    },
+    "recipe_000003": {
+      "title": "Katsudon de la victoria",
+      "ingredientTexts": {
+        "tonkatsu": {
+          "name": "Chuletas de cerdo empanadas con panko",
+          "note": "ya fritas"
+        },
+        "onion": {
+          "name": "Cebolla dorada",
+          "note": "cortada fina"
+        },
+        "eggs": {
+          "name": "Huevos grandes",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Arroz japonés al vapor",
+          "note": null
+        },
+        "dashi": {
+          "name": "Caldo dashi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "garnish": {
+          "name": "Guisantes o cebollino",
+          "note": "para decorar"
+        }
+      },
+      "stepTexts": {
+        "simmer_onion": "Pon en una sartén pequeña el dashi, la salsa de soja, el mirin y el azúcar. Añade la cebolla y cocina suavemente hasta que se ablande.",
+        "add_tonkatsu": "Corta las chuletas fritas en tiras y colócalas sobre la cebolla.",
+        "add_eggs": "Bate los huevos apenas y viértelos sobre el cerdo sin homogeneizarlos por completo.",
+        "steam_finish": "Tapa y cocina brevemente, dejando el huevo suave y cremoso.",
+        "assemble_bowl": "Reparte el arroz caliente en dos cuencos, coloca encima la mezcla de cerdo y huevo y termina con guisantes o cebollino."
+      }
+    },
+    "recipe_000004": {
+      "title": "Dorayaki con anko",
+      "ingredientTexts": {
+        "eggs": {
+          "name": "Huevos",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "honey": {
+          "name": "Miel",
+          "note": null
+        },
+        "flour": {
+          "name": "Harina de trigo",
+          "note": null
+        },
+        "baking_powder": {
+          "name": "Levadura química",
+          "note": null
+        },
+        "water": {
+          "name": "Agua",
+          "note": null
+        },
+        "anko": {
+          "name": "Pasta dulce de judías rojas (anko)",
+          "note": "puede sustituirse por crema de avellanas"
+        }
+      },
+      "stepTexts": {
+        "whisk_base": "Bate los huevos con el azúcar y la miel hasta obtener una mezcla más clara y ligeramente espumosa.",
+        "finish_batter": "Disuelve la levadura en el agua, añádela al bol e incorpora la harina tamizada hasta conseguir una masa lisa.",
+        "rest_batter": "Deja reposar la masa 15 minutos en el frigorífico.",
+        "cook_first_side": "Calienta una sartén antiadherente a fuego bajo, engrásala apenas y forma discos pequeños con la masa. Cocina hasta que aparezcan burbujas.",
+        "cook_second_side": "Da la vuelta a los discos y cocina brevemente la segunda cara hasta que se dore.",
+        "fill_dorayaki": "Deja enfriar, une los discos de dos en dos con anko en el centro y presiona suavemente los bordes."
+      }
+    },
+    "recipe_000005": {
+      "title": "Onigiri de atún y mayonesa",
+      "ingredientTexts": {
+        "sushi_rice": {
+          "name": "Arroz para sushi o de grano corto",
+          "note": null
+        },
+        "water": {
+          "name": "Agua",
+          "note": null
+        },
+        "tuna": {
+          "name": "Atún escurrido",
+          "note": null
+        },
+        "japanese_mayo": {
+          "name": "Mayonesa japonesa",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": "una pizca y un poco más para formar"
+        },
+        "nori": {
+          "name": "Hojas de nori",
+          "note": "cortadas en tiras"
+        },
+        "sesame_or_furikake": {
+          "name": "Sésamo tostado o furikake",
+          "note": "opcional"
+        }
+      },
+      "stepTexts": {
+        "wash_cook_rice": "Lava el arroz varias veces hasta que el agua salga mucho más clara. Cuécelo tapado con el agua medida a fuego bajo.",
+        "rest_rice": "Apaga el fuego y deja reposar el arroz tapado durante 10 minutos.",
+        "make_filling": "Mezcla el atún escurrido con la mayonesa japonesa y una pequeña pizca de sal.",
+        "fill_shape": "Humedece y sala ligeramente las manos. Aplana una porción de arroz tibio, añade relleno en el centro, cubre con más arroz y forma un triángulo compacto.",
+        "finish_nori": "Coloca una tira de nori en la base. Añade sésamo o furikake si quieres y sirve con el arroz todavía templado."
+      }
+    }
+  }
 }
