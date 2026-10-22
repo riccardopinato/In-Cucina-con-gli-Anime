@@ -80,11 +80,11 @@ production_authoring = sorted(
 )
 expected_recipe_ids = {
     f"recipe_{index:06d}"
-    for index in range(1, 6)
+    for index in range(1, 11)
 }
-if len(production_authoring) != 5:
+if len(production_authoring) != 10:
     raise SystemExit(
-        "F3A must contain exactly 5 production authoring "
+        "F3A must contain exactly 10 production authoring "
         f"recipes, found {len(production_authoring)}"
     )
 
@@ -98,7 +98,7 @@ for path in production_authoring:
 
 if authoring_ids != expected_recipe_ids:
     raise SystemExit(
-        "F3A authoring IDs do not match expected first-batch IDs"
+        "F3A authoring IDs do not match expected ten-recipe batch IDs"
     )
 
 catalog = json.loads(
@@ -107,9 +107,9 @@ catalog = json.loads(
     ).read_text(encoding="utf-8")
 )
 runtime_recipes = catalog.get("recipes")
-if not isinstance(runtime_recipes, list) or len(runtime_recipes) != 5:
+if not isinstance(runtime_recipes, list) or len(runtime_recipes) != 10:
     raise SystemExit(
-        "F3A runtime catalog must contain exactly 5 recipes"
+        "F3A runtime catalog must contain exactly 10 recipes"
     )
 
 runtime_ids = {
