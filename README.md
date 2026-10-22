@@ -4,9 +4,9 @@ Flutter app for original/adapted editorial recipes inspired by food seen in anim
 
 ## Current state
 
-**v0.2 — F1 versioned recipe catalog contract complete. Production catalog intentionally contains zero recipes.**
+**v0.3 — F2 recipe authoring/import pipeline complete. Production catalog intentionally contains zero real recipes.**
 
-The app now loads a deterministic JSON catalog contract with stable recipe IDs, schema/catalog/content versioning, structured ingredients/steps, locale fallback and fail-closed validation. Real recipe authoring starts in F2.
+F1 remains the runtime contract. F2 adds a separate JSON authoring workspace, deterministic compiler, localization/asset checks, Duplicate & Similarity Review Gate, review memory and synthetic Flutter Web preview. Adding content no longer requires editing Dart.
 
 ## Stack
 
@@ -14,7 +14,9 @@ The app now loads a deterministic JSON catalog contract with stable recipe IDs, 
 - Riverpod
 - SharedPreferences for small user-owned state
 - Flutter gen_l10n: EN / IT / ES / FR / DE / PT
-- JSON-only versioned recipe catalog
+- JSON-only versioned runtime recipe catalog
+- JSON-only build-time recipe authoring pipeline
+- deterministic duplicate/similarity review
 - Material 3 foundation with custom brand tokens
 - Android / iOS / Web scaffold generated deterministically
 
@@ -28,13 +30,28 @@ dart run launcher_icons
 flutter run
 ```
 
+## Recipe authoring
+
+Production records belong in `authoring/recipes/`. Raw copied source material should remain transient and uncommitted.
+
+```bash
+python3 tool/compile_recipe_catalog.py --check
+python3 tool/review_recipe_similarity.py path/to/candidate.json
+python3 tool/build_recipe_preview.py
+```
+
+See `docs/RECIPE_AUTHORING_PIPELINE.md`.
+
 ## Validation
 
 ```bash
 python3 tool/validate_structure.py
+python3 tool/compile_recipe_catalog.py --check
+python3 -m unittest discover -s tool/tests -p 'test_*.py'
 python3 tool/validate_recipe_catalog.py
 flutter analyze
 flutter test
+python3 tool/build_recipe_preview.py
 flutter build web --release
 ```
 
@@ -44,8 +61,9 @@ flutter build web --release
 - Roadmap: `ROADMAP.md`
 - Architecture: `docs/ARCHITECTURE.md`
 - Catalog contract: `docs/RECIPE_CATALOG_CONTRACT.md`
+- Authoring pipeline: `docs/RECIPE_AUTHORING_PIPELINE.md`
 - Rights/editorial policy: `docs/CONTENT_RIGHTS_POLICY.md`
 - Agent contract: `AGENTS.md`
 - Golden reuse: `docs/GOLDEN_REUSE_MANIFEST.txt`
 
-Factory baseline: App-Factory-Core Master 26.6 / Golden Index 18 @ `47c47f49a7b46812e3bd6f1231c3524f2b52b826`.
+Factory baseline: App-Factory-Core Master 26.6 / Golden Index 19 @ `55247b294b44914dba8da6c176c9e50d5fe0e13e`.
