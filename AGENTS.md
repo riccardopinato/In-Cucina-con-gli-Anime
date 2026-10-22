@@ -5,10 +5,11 @@ Execution truth: `ROADMAP.md`.
 Architecture truth: `docs/ARCHITECTURE.md`.
 Reuse map: `docs/GOLDEN_REUSE_MANIFEST.txt`.
 Rights policy: `docs/CONTENT_RIGHTS_POLICY.md`.
+Authoring truth: `docs/RECIPE_AUTHORING_PIPELINE.md`.
 
-Factory baseline for this bootstrap:
-`riccardopinato/App-Factory-Core@47c47f49a7b46812e3bd6f1231c3524f2b52b826`
-(Master 26.6 / Golden Index 18).
+Factory baseline for the current implementation:
+`riccardopinato/App-Factory-Core@55247b294b44914dba8da6c176c9e50d5fe0e13e`
+(Master 26.6 / Golden Index 19).
 
 Load only the project guidance relevant to the current task:
 - cleanup/replacement work -> `governance/agents/code-hygiene.md`
@@ -20,8 +21,12 @@ Project rules:
 - Flutter/Dart, local-first, no mandatory login.
 - Keep `main` stable; substantive changes land through PRs.
 - Recipes are editorial content, not source code. Stable IDs must preserve user state.
+- Runtime recipe JSON is generated from `authoring/recipes/*.json`; do not edit generated catalog files as the primary authoring workflow.
+- Raw copied recipe prose/source material is transient input and must not be committed to `authoring/`.
+- Similarity scores are review aids, not authority for automatic delete/overwrite.
+- Fingerprint-bound duplicate/variant decisions live in `authoring/reviews/decisions.json`.
 - Do not copy recipe prose or copyrighted anime artwork into the app.
-- The attached PDF is context only for this bootstrap: import zero recipes from it.
-- Web Preview validates shared UI/navigation, not native/store capability.
+- The attached historical PDF remains context only; import zero recipes from it unless the user explicitly selects content for editorial processing.
+- Web Preview validates shared UI/navigation/content wiring, not native/store capability.
 - Prefer deep modules with small interfaces; add a seam only when behaviour actually varies.
 - Update Product Bible/Roadmap when product or execution truth changes materially.
