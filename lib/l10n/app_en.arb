@@ -56,5 +56,14 @@
   "manualItemSource": "Manual",
   "exploreTagline": "Cook the scenes you remember.",
   "exploreIntro": "An illustrated cookbook inspired by food seen in anime.",
-  "servingsLabel": "Servings"
+  "servingsLabel": "Servings",
+  "settingsPrivacyAds": "Privacy & ads",
+  "privacyAdsDescription": "Ads stay off until both your preference and any required provider consent check allow them. Core recipes never require an account.",
+  "privacyStatusLabel": "Current choice",
+  "privacyStatusUnresolved": "Not chosen",
+  "privacyStatusAllow": "Allow ads",
+  "privacyStatusBlock": "Block ads",
+  "privacyAllowAds": "Allow ad requests",
+  "privacyBlockAds": "Block ad requests",
+  "privacyResetChoice": "Reset choice"
 }
