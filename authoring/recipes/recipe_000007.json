@@ -1,0 +1,174 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000007",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "One Piece / My Hero Academia",
+  "prepMinutes": 20,
+  "cookMinutes": 15,
+  "servings": 3,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; three servings are an editorial estimate from the listed quantities.",
+  "imageAssetId": null,
+  "ingredients": [
+    {"id": "octopus", "quantity": 100, "unit": "g"},
+    {"id": "flour", "quantity": 150, "unit": "g"},
+    {"id": "dashi", "quantity": 400, "unit": "ml"},
+    {"id": "egg", "quantity": 1, "unit": null},
+    {"id": "beni_shoga", "quantity": 2, "unit": "tbsp"},
+    {"id": "tenkasu", "quantity": 2, "unit": "tbsp"},
+    {"id": "spring_onion", "quantity": null, "unit": null},
+    {"id": "takoyaki_sauce", "quantity": null, "unit": null},
+    {"id": "japanese_mayo", "quantity": null, "unit": null},
+    {"id": "katsuobushi", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"id": "make_batter", "timerSeconds": null},
+    {"id": "heat_pan", "timerSeconds": null},
+    {"id": "fill_moulds", "timerSeconds": null},
+    {"id": "add_fillings", "timerSeconds": null},
+    {"id": "turn_balls", "timerSeconds": null},
+    {"id": "finish", "timerSeconds": null}
+  ],
+  "locales": {
+    "en": {
+      "title": "Takoyaki with Octopus",
+      "ingredients": {
+        "octopus": {"name": "Cooked octopus", "note": "cut into small cubes"},
+        "flour": {"name": "Plain flour", "note": null},
+        "dashi": {"name": "Cold dashi broth", "note": null},
+        "egg": {"name": "Egg", "note": null},
+        "beni_shoga": {"name": "Beni shoga", "note": "chopped pickled ginger"},
+        "tenkasu": {"name": "Tenkasu", "note": "crisp tempura batter bits"},
+        "spring_onion": {"name": "Spring onion", "note": "finely chopped"},
+        "takoyaki_sauce": {"name": "Takoyaki sauce", "note": "for serving"},
+        "japanese_mayo": {"name": "Japanese mayonnaise", "note": "for serving"},
+        "katsuobushi": {"name": "Katsuobushi flakes", "note": "for serving"}
+      },
+      "steps": {
+        "make_batter": "Whisk the flour, egg and cold dashi into a thin, smooth batter.",
+        "heat_pan": "Heat a takoyaki pan thoroughly and oil each cavity well.",
+        "fill_moulds": "Pour batter into the cavities almost to the top.",
+        "add_fillings": "Add a piece of octopus to each cavity together with a little pickled ginger, tenkasu and spring onion.",
+        "turn_balls": "As the bottoms set, use wooden picks to rotate the pieces gradually, tucking in loose batter until rounded and evenly browned.",
+        "finish": "Serve hot with takoyaki sauce, Japanese mayonnaise and katsuobushi."
+      }
+    },
+    "it": {
+      "title": "Takoyaki al polpo",
+      "ingredients": {
+        "octopus": {"name": "Polpo cotto", "note": "tagliato a cubetti piccoli"},
+        "flour": {"name": "Farina", "note": null},
+        "dashi": {"name": "Brodo dashi freddo", "note": null},
+        "egg": {"name": "Uovo", "note": null},
+        "beni_shoga": {"name": "Beni shoga", "note": "zenzero sott’aceto tritato"},
+        "tenkasu": {"name": "Tenkasu", "note": "briciole croccanti di pastella fritta"},
+        "spring_onion": {"name": "Cipollotto", "note": "tritato finemente"},
+        "takoyaki_sauce": {"name": "Salsa takoyaki", "note": "per servire"},
+        "japanese_mayo": {"name": "Maionese giapponese", "note": "per servire"},
+        "katsuobushi": {"name": "Fiocchi di katsuobushi", "note": "per servire"}
+      },
+      "steps": {
+        "make_batter": "Lavora farina, uovo e dashi freddo fino a ottenere una pastella fluida e senza grumi.",
+        "heat_pan": "Scalda bene la piastra da takoyaki e ungi accuratamente ogni cavità.",
+        "fill_moulds": "Versa la pastella nelle cavità arrivando quasi al bordo.",
+        "add_fillings": "Inserisci in ogni cavità un cubetto di polpo con un po’ di beni shoga, tenkasu e cipollotto.",
+        "turn_balls": "Quando il fondo inizia a rassodarsi, gira gradualmente i takoyaki con stecchini di legno, raccogliendo la pastella in eccesso finché diventano rotondi e dorati.",
+        "finish": "Servi caldi con salsa takoyaki, maionese giapponese e katsuobushi."
+      }
+    },
+    "es": {
+      "title": "Takoyaki de pulpo",
+      "ingredients": {
+        "octopus": {"name": "Pulpo cocido", "note": "cortado en dados pequeños"},
+        "flour": {"name": "Harina", "note": null},
+        "dashi": {"name": "Caldo dashi frío", "note": null},
+        "egg": {"name": "Huevo", "note": null},
+        "beni_shoga": {"name": "Beni shoga", "note": "jengibre encurtido picado"},
+        "tenkasu": {"name": "Tenkasu", "note": "trocitos crujientes de masa frita"},
+        "spring_onion": {"name": "Cebolleta", "note": "picada fina"},
+        "takoyaki_sauce": {"name": "Salsa takoyaki", "note": "para servir"},
+        "japanese_mayo": {"name": "Mayonesa japonesa", "note": "para servir"},
+        "katsuobushi": {"name": "Copos de katsuobushi", "note": "para servir"}
+      },
+      "steps": {
+        "make_batter": "Bate la harina, el huevo y el dashi frío hasta obtener una masa líquida y lisa.",
+        "heat_pan": "Calienta bien la plancha para takoyaki y engrasa cada cavidad.",
+        "fill_moulds": "Llena las cavidades casi hasta el borde con la masa.",
+        "add_fillings": "Añade a cada cavidad un trozo de pulpo junto con un poco de beni shoga, tenkasu y cebolleta.",
+        "turn_balls": "Cuando la base se firme, gira poco a poco las piezas con palillos, metiendo la masa sobrante hacia dentro hasta formar bolas doradas.",
+        "finish": "Sirve calientes con salsa takoyaki, mayonesa japonesa y katsuobushi."
+      }
+    },
+    "fr": {
+      "title": "Takoyaki au poulpe",
+      "ingredients": {
+        "octopus": {"name": "Poulpe cuit", "note": "coupé en petits dés"},
+        "flour": {"name": "Farine", "note": null},
+        "dashi": {"name": "Bouillon dashi froid", "note": null},
+        "egg": {"name": "Œuf", "note": null},
+        "beni_shoga": {"name": "Beni shoga", "note": "gingembre mariné haché"},
+        "tenkasu": {"name": "Tenkasu", "note": "éclats croustillants de pâte frite"},
+        "spring_onion": {"name": "Ciboule", "note": "finement hachée"},
+        "takoyaki_sauce": {"name": "Sauce takoyaki", "note": "pour servir"},
+        "japanese_mayo": {"name": "Mayonnaise japonaise", "note": "pour servir"},
+        "katsuobushi": {"name": "Flocons de katsuobushi", "note": "pour servir"}
+      },
+      "steps": {
+        "make_batter": "Fouettez la farine, l’œuf et le dashi froid pour obtenir une pâte fluide et lisse.",
+        "heat_pan": "Faites bien chauffer la plaque à takoyaki et huilez généreusement chaque cavité.",
+        "fill_moulds": "Versez la pâte presque jusqu’au bord des cavités.",
+        "add_fillings": "Ajoutez dans chaque cavité un morceau de poulpe avec un peu de beni shoga, de tenkasu et de ciboule.",
+        "turn_balls": "Lorsque la base prend, faites tourner progressivement les pièces avec des piques en bois en rabattant la pâte débordante jusqu’à obtenir des boules dorées.",
+        "finish": "Servez chaud avec sauce takoyaki, mayonnaise japonaise et katsuobushi."
+      }
+    },
+    "de": {
+      "title": "Takoyaki mit Oktopus",
+      "ingredients": {
+        "octopus": {"name": "Gekochter Oktopus", "note": "in kleine Würfel geschnitten"},
+        "flour": {"name": "Mehl", "note": null},
+        "dashi": {"name": "Kalte Dashi-Brühe", "note": null},
+        "egg": {"name": "Ei", "note": null},
+        "beni_shoga": {"name": "Beni Shoga", "note": "gehackter eingelegter Ingwer"},
+        "tenkasu": {"name": "Tenkasu", "note": "knusprige Stückchen frittierten Teigs"},
+        "spring_onion": {"name": "Frühlingszwiebel", "note": "fein gehackt"},
+        "takoyaki_sauce": {"name": "Takoyaki-Sauce", "note": "zum Servieren"},
+        "japanese_mayo": {"name": "Japanische Mayonnaise", "note": "zum Servieren"},
+        "katsuobushi": {"name": "Katsuobushi-Flocken", "note": "zum Servieren"}
+      },
+      "steps": {
+        "make_batter": "Mehl, Ei und kalte Dashi-Brühe zu einem dünnflüssigen glatten Teig verrühren.",
+        "heat_pan": "Die Takoyaki-Pfanne stark erhitzen und jede Mulde gut einfetten.",
+        "fill_moulds": "Die Mulden fast bis zum Rand mit Teig füllen.",
+        "add_fillings": "In jede Mulde Oktopus sowie etwas Beni Shoga, Tenkasu und Frühlingszwiebel geben.",
+        "turn_balls": "Sobald die Unterseite fest wird, die Stücke mit Holzstäbchen schrittweise drehen und überschüssigen Teig nach innen schieben, bis runde goldbraune Kugeln entstehen.",
+        "finish": "Heiß mit Takoyaki-Sauce, japanischer Mayonnaise und Katsuobushi servieren."
+      }
+    },
+    "pt": {
+      "title": "Takoyaki de polvo",
+      "ingredients": {
+        "octopus": {"name": "Polvo cozido", "note": "cortado em cubos pequenos"},
+        "flour": {"name": "Farinha", "note": null},
+        "dashi": {"name": "Caldo dashi frio", "note": null},
+        "egg": {"name": "Ovo", "note": null},
+        "beni_shoga": {"name": "Beni shoga", "note": "gengibre em conserva picado"},
+        "tenkasu": {"name": "Tenkasu", "note": "pedaços crocantes de massa frita"},
+        "spring_onion": {"name": "Cebolinha", "note": "picada fina"},
+        "takoyaki_sauce": {"name": "Molho takoyaki", "note": "para servir"},
+        "japanese_mayo": {"name": "Maionese japonesa", "note": "para servir"},
+        "katsuobushi": {"name": "Flocos de katsuobushi", "note": "para servir"}
+      },
+      "steps": {
+        "make_batter": "Misture a farinha, o ovo e o dashi frio até obter uma massa líquida e lisa.",
+        "heat_pan": "Aqueça bem a chapa de takoyaki e unte generosamente cada cavidade.",
+        "fill_moulds": "Encha as cavidades quase até a borda com a massa.",
+        "add_fillings": "Coloque em cada cavidade um pedaço de polvo com um pouco de beni shoga, tenkasu e cebolinha.",
+        "turn_balls": "Quando a base começar a firmar, gire aos poucos com palitos de madeira, recolhendo a massa excedente até formar bolas douradas.",
+        "finish": "Sirva quente com molho takoyaki, maionese japonesa e katsuobushi."
+      }
+    }
+  }
+}
