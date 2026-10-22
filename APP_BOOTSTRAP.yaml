@@ -2,7 +2,7 @@ app_name: "In Cucina con gli Anime"
 project_name: "animekitchen"
 package_name: "com.riccardopinato.animekitchen"
 bundle_id: "com.riccardopinato.animekitchen"
-version: "0.1.0+1"
+version: "0.3.0+3"
 platforms: [android, ios, web]
 flutter_version: "3.47.3"
 default_locale: en
@@ -19,7 +19,8 @@ auth:
 
 persistence:
   user_state_engine: shared_preferences
-  editorial_catalog: versioned_local_catalog_future
+  editorial_catalog: versioned_local_catalog
+  authoring_source: json_build_pipeline
   local_first: true
 
 backup:
@@ -41,13 +42,15 @@ ads:
 
 web_preview:
   enabled: true
-  boundary: "shared UI/navigation only"
+  boundary: "shared UI/navigation/content wiring only"
 
 native_capabilities: []
 
 content:
   imported_recipes: 0
-  note: "No recipe from the attached PDF is imported in this bootstrap."
+  authoring_pipeline: implemented
+  duplicate_similarity_gate: implemented
+  note: "F2 ships zero real production recipes; synthetic fixture is preview/test-only."
 
 goldens:
   - app_bootstrap
@@ -60,10 +63,12 @@ goldens:
   - ci_release_web_deploy
   - entitlement_contract
   - versioned_editorial_catalog
+  - import_export_portability
+  - duplicate_similarity_review_gate
   - applab_qa_certification
 
 factory_baseline:
   repository: "riccardopinato/App-Factory-Core"
   master: "26.6"
-  golden_index: "18"
-  commit: "47c47f49a7b46812e3bd6f1231c3524f2b52b826"
+  golden_index: "19"
+  commit: "55247b294b44914dba8da6c176c9e50d5fe0e13e"
