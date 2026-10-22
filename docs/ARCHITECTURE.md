@@ -25,7 +25,26 @@ Local adapters now / provider adapters later
 
 ### Recipe catalog
 
-The UI learns one interface: obtain the currently published recipes. The bootstrap adapter returns an empty list. A later versioned editorial catalog adapter may load validated local packages/DB content behind the same seam.
+The UI knows one interface: obtain the currently published recipes.
+
+F1 replaces the bootstrap empty adapter with `VersionedRecipeCatalogRepository`. The adapter consumes a compact JSON runtime package through `RecipeCatalogSource`, so tests can inject in-memory assets while production uses Flutter `rootBundle`.
+
+Runtime flow:
+
+```text
+manifest.json
+  -> schema/catalog/locale contract
+recipes.json
+  -> canonical recipe metadata
+requested locale + default locale
+  -> localized editorial text
+deterministic validation
+  -> published Recipe domain objects
+```
+
+Unsupported or malformed input fails closed with `RecipeCatalogException`; no partial recipe list is returned.
+
+Canonical quantities, timings, servings, ingredient IDs and step IDs are stored once. Localized files contain only user-facing title/ingredient/step wording.
 
 ### User state
 
@@ -35,9 +54,11 @@ Favorites store stable recipe IDs only. Shopping items are user-owned and indepe
 
 Theme and locale are small local preferences. They do not need a database or account.
 
+The recipe repository follows the manual locale preference when set, otherwise the device language, then applies the catalog default-locale fallback.
+
 ### Entitlements
 
-UI asks ProductLimits/capabilities, not a store SDK. Billing/RevenueCat/Play/StoreKit are future adapters behind the entitlement seam.
+UI asks ProductLimits/capabilities, not a store SDK. Billing/RevenueCat/Play/StoreKit remain future adapters behind the entitlement seam.
 
 ## Presentation
 
@@ -45,22 +66,23 @@ UI asks ProductLimits/capabilities, not a store SDK. Billing/RevenueCat/Play/Sto
 - NavigationBar on compact width;
 - NavigationRail on wide width;
 - Explore, Favorites, Shopping primary destinations;
-- Settings accessed as a secondary action;
-- recipe detail is a pushed route.
+- Settings as a secondary action;
+- recipe detail as a pushed route.
 
 ## Catalog evolution
 
 ```text
-editorial source
--> structured package
+F2 authoring input
+-> editorial normalization
+-> compiled JSON runtime package
 -> deterministic validator
--> versioned catalog adapter
+-> VersionedRecipeCatalogRepository
 -> published domain recipes
 -> search/filter UI
 ```
 
-The catalog contract must support stable identity, versions, locale fallback and provenance/rights metadata before recipe batches are added.
+F2 can optimize authoring ergonomics without changing the F1 runtime contract.
 
 ## No architecture for architecture's sake
 
-No backend, auth, router package, database engine, ad SDK or billing SDK is introduced until the product needs it. Add a new seam only when real variability or a high-risk provider boundary justifies it.
+No backend, auth, router package, database engine, ad SDK, billing SDK or Markdown parser is introduced until the product needs it. Add a new seam only when real variability or a high-risk provider boundary justifies it.

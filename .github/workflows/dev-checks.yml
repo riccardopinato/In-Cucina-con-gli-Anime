@@ -38,6 +38,9 @@ jobs:
       - name: Validate repository structure
         run: python3 tool/validate_structure.py
 
+      - name: Validate recipe catalog
+        run: python3 tool/validate_recipe_catalog.py
+
       - name: Generate localization
         run: flutter gen-l10n
 

@@ -1,12 +1,12 @@
 # In Cucina con gli Anime
 
-Flutter app for original recipes inspired by food seen in anime, built as a local-first, multilingual and monetization-ready product.
+Flutter app for original/adapted editorial recipes inspired by food seen in anime, built as a local-first, multilingual and monetization-ready product.
 
 ## Current state
 
-**v0.1 foundation bootstrap — no recipes imported yet.**
+**v0.2 — F1 versioned recipe catalog contract complete. Production catalog intentionally contains zero recipes.**
 
-The attached planning PDF is used only for product context. Recipe content will be implemented later through a versioned editorial catalog with explicit provenance/rights rules.
+The app now loads a deterministic JSON catalog contract with stable recipe IDs, schema/catalog/content versioning, structured ingredients/steps, locale fallback and fail-closed validation. Real recipe authoring starts in F2.
 
 ## Stack
 
@@ -14,7 +14,8 @@ The attached planning PDF is used only for product context. Recipe content will 
 - Riverpod
 - SharedPreferences for small user-owned state
 - Flutter gen_l10n: EN / IT / ES / FR / DE / PT
-- Material 3 with custom watercolor-inspired brand
+- JSON-only versioned recipe catalog
+- Material 3 foundation with custom brand tokens
 - Android / iOS / Web scaffold generated deterministically
 
 ## First setup
@@ -31,6 +32,7 @@ flutter run
 
 ```bash
 python3 tool/validate_structure.py
+python3 tool/validate_recipe_catalog.py
 flutter analyze
 flutter test
 flutter build web --release
@@ -41,7 +43,8 @@ flutter build web --release
 - Product: `docs/PRODUCT_BIBLE.md`
 - Roadmap: `ROADMAP.md`
 - Architecture: `docs/ARCHITECTURE.md`
-- Rights: `docs/CONTENT_RIGHTS_POLICY.md`
+- Catalog contract: `docs/RECIPE_CATALOG_CONTRACT.md`
+- Rights/editorial policy: `docs/CONTENT_RIGHTS_POLICY.md`
 - Agent contract: `AGENTS.md`
 - Golden reuse: `docs/GOLDEN_REUSE_MANIFEST.txt`
 

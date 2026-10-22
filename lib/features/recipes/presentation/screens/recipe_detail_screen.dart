@@ -117,7 +117,7 @@ class _RecipeDetailScreenState extends State<RecipeDetailScreen> {
                         return CheckboxListTile(
                           value: _checkedIngredients[index],
                           contentPadding: EdgeInsets.zero,
-                          title: Text(recipe.ingredients[index]),
+                          title: Text(recipe.ingredients[index].displayText),
                           controlAffinity: ListTileControlAffinity.leading,
                           onChanged: (value) {
                             setState(() {
@@ -149,7 +149,7 @@ class _RecipeDetailScreenState extends State<RecipeDetailScreen> {
                               const SizedBox(width: AppSpacing.medium),
                               Expanded(
                                 child: Text(
-                                  recipe.steps[index],
+                                  recipe.steps[index].text,
                                   style: Theme.of(context).textTheme.bodyLarge,
                                 ),
                               ),

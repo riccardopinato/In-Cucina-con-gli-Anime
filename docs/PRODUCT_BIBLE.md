@@ -2,7 +2,7 @@
 
 ## Promise
 
-A polished cooking companion that turns food seen in anime into practical, original recipes users can actually cook, save and shop for.
+A polished cooking companion that turns food seen in anime into practical recipes users can actually cook, save and shop for.
 
 The product should feel warm, illustrated and playful without presenting itself as an official app of any anime studio, publisher or franchise.
 
@@ -15,18 +15,17 @@ The product should feel warm, illustrated and playful without presenting itself 
 ## MVP product surface
 
 1. **Explore** — search, anime/reference filters, difficulty filters, responsive recipe grid.
-2. **Recipe detail** — original recipe text, ingredients, steps, times, difficulty, timer and ingredient checklist.
+2. **Recipe detail** — ingredients, steps, times, difficulty, timer and ingredient checklist.
 3. **Favorites** — persistent saved stable recipe IDs.
 4. **Shopping** — persistent shopping items and manual additions; later add ingredients from recipes.
 5. **Settings** — device language by default, manual language override, system/light/dark theme.
 6. **Monetization boundary** — free by default, provider-agnostic Premium/Lifetime state, future safe ads + Remove Ads.
 
-## Current bootstrap scope
+## Current scope
 
-This phase builds the application foundation and empty catalog experience only.
+F0 foundation and F1 versioned catalog contract are complete.
 
-**Zero recipes are imported from the attached PDF or from external books/web sources.**
-Recipe implementation is a later editorial phase.
+The production catalog intentionally contains zero real recipes. F2 builds the authoring/import pipeline before the first production content batch.
 
 ## UX direction
 
@@ -40,7 +39,7 @@ Original watercolor-inspired cooking identity:
 - clean rounded body typography;
 - restrained motion.
 
-The design may evoke a cozy illustrated cookbook, but must not copy franchise artwork, logos, characters or official key art.
+F3 may move further beyond stock Material 3 and introduce lightweight animated decorative characters based mainly on Japanese/Chinese folklore and classics.
 
 ## Local-first
 
@@ -49,11 +48,20 @@ Core browsing of installed recipe content, favorites and shopping list should re
 ## Content model principles
 
 - stable recipe IDs are independent of title/translation;
-- catalog content is versioned;
+- schema, package and individual content revisions are versioned separately;
 - user-owned state references stable IDs;
 - catalog updates never silently erase favorites or shopping data;
-- canonical metadata and localized editorial text remain separable;
-- shipped image/text assets carry provenance/rights metadata when applicable.
+- canonical quantities/times/ingredient-step identity are separated from localized editorial wording;
+- locale fallback is deterministic;
+- invalid/unsupported packages fail closed;
+- runtime content is JSON-only;
+- recipe origin tracking stays lightweight through `contentOrigin` and optional internal `sourceNote`.
+
+## Editorial workflow
+
+Recipes may be original, inspired or adapted from user-supplied reference material. Source prose is not shipped verbatim; content is normalized into the app schema and production wording is written for this app.
+
+Visual/media assets follow a separate rights rule: prefer original, verified reusable/public-domain or intentionally licensed material.
 
 ## Monetization direction
 
@@ -64,14 +72,12 @@ Initial preferred model:
 - no ads while actively following a recipe/timer;
 - one-time Remove Ads/Lifetime before considering a subscription.
 
-Exact pricing/provider/store integration is out of scope for the bootstrap.
+Exact pricing/provider/store integration is out of scope until F4.
 
 ## Out of scope now
 
-- recipe population;
-- copied cookbook recipes;
-- official anime screenshots/posters/logos;
-- AI recipe generation;
+- production recipe population;
+- official anime screenshots/posters/logos/modern character artwork without a rights basis;
 - account/cloud sync;
 - notifications;
 - meal planning;
@@ -80,13 +86,14 @@ Exact pricing/provider/store integration is out of scope for the bootstrap.
 - live billing/store purchase;
 - production signing/certification.
 
-## Foundation success criteria
+## Current success criteria
 
 - deterministic Android/iOS/Web Flutter scaffold;
-- intentional empty catalog, no fake recipes;
+- versioned local JSON catalog contract;
+- production catalog still empty until F2/F3;
 - Explore/Favorites/Shopping navigation works;
 - localization/theme/settings infrastructure exists;
-- user-state persistence seams exist;
+- stable user-state persistence seams exist;
 - entitlement boundary is provider-agnostic;
-- CI validates analyze/test/Web and Android internal build;
-- the catalog can become versioned without a UI rewrite.
+- CI validates structure, catalog, analyze, tests and release builds;
+- future authoring can evolve without changing UI callers.

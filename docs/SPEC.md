@@ -1,57 +1,73 @@
-# Foundation specification
+# Product implementation specification
 
 ## Problem Statement
 
-The project needs a commercial-grade Flutter foundation before recipe content is added. Starting directly from recipe lists would couple content, UI, persistence and monetization too early.
+The project needs a commercial-grade Flutter foundation and a stable recipe-content contract before production recipes are added. Directly embedding recipes in Dart would couple editorial content, UI, localization and user state.
 
 ## Solution
 
-Build an empty but functional application shell with stable seams for catalog, user state and entitlements. Reuse App Factory Golden patterns for theme, localization, responsive shell, CI and entitlement contracts. Keep recipe content entirely outside this foundation.
+Use a local-first Flutter shell with stable domain seams. Recipe content is consumed through `RecipeCatalogRepository` from a compact JSON runtime package. The package separates canonical culinary metadata from localized editorial text and is rejected if incompatible or malformed.
 
 ## User Stories
 
-1. As a user, I want the app to open without requiring an account, so that I can immediately understand what it is.
-2. As a user, I want Explore, Favorites and Shopping to be obvious destinations, so that navigation is predictable.
-3. As a user, I want the empty catalog state to explain that recipes are coming, so that the app never presents fake content.
-4. As a user, I want the app to follow my device language, so that first launch feels native.
-5. As a user, I want to override the language manually, so that I can choose another supported language.
-6. As a user, I want system/light/dark appearance, so that the app fits my device and preferences.
-7. As a user, I want favorite IDs to persist locally, so that future catalog updates do not erase my saves.
-8. As a user, I want a shopping list that persists locally, so that it remains useful offline.
-9. As a user, I want responsive navigation on phone and wide screens, so that Web Preview and tablets are usable.
-10. As a future paying user, I want purchases to map to a central entitlement state, so that premium behaviour is consistent.
-11. As a future premium user, I want ads to be suppressed before any ad request, so that Remove Ads is truthful.
-12. As a maintainer, I want stable catalog IDs and versioning rules, so that editorial updates preserve user state.
-13. As a maintainer, I want a deterministic platform scaffold, so that generated Android/iOS/Web files do not drift.
-14. As a maintainer, I want explicit validation, so that repository state is reproducible.
-15. As a publisher, I want content-rights rules from day one, so that monetization is not built on copied recipes or artwork.
+1. As a user, I want the app to open without requiring an account.
+2. As a user, I want Explore, Favorites and Shopping to be obvious destinations.
+3. As a user, I want the empty catalog state to remain intentional until real recipes ship.
+4. As a user, I want device language by default and a manual language override.
+5. As a user, I want system/light/dark appearance.
+6. As a user, I want favorite IDs to persist across recipe-content revisions.
+7. As a user, I want a shopping list that remains useful offline.
+8. As a user, I want responsive navigation on phone and wide screens.
+9. As a future paying user, I want purchases to map to a central entitlement state.
+10. As a future premium user, I want ads suppressed before any ad request.
+11. As a maintainer, I want stable recipe/ingredient/step IDs.
+12. As a maintainer, I want schema, catalog and recipe revisions to be explicit.
+13. As a maintainer, I want canonical quantities/times separated from translations.
+14. As a maintainer, I want deterministic locale fallback.
+15. As a maintainer, I want invalid catalog packages to fail closed.
+16. As a maintainer, I want CI to validate the production catalog before Flutter analysis/tests.
+17. As an editor, I want lightweight origin metadata rather than a heavy provenance database.
+18. As an editor, I want future authoring tooling to generate runtime JSON without editing Dart.
 
 ## Implementation Decisions
 
-- Flutter 3.47.3 is the bootstrap toolchain pin, following the current internal donor baseline.
+- Flutter 3.47.3 remains the pinned toolchain.
 - Riverpod owns presentation/application state.
-- SharedPreferences stores small user preferences, favorites and shopping list state.
-- Recipe content is accessed through a catalog interface; the bootstrap adapter returns an empty catalog.
-- A later versioned editorial catalog adapter can replace the empty adapter without changing UI callers.
-- Navigator is sufficient for current route depth; no router dependency is admitted yet.
-- Material 3 tokens are reused from the Factory Golden and adapted to the product brand.
-- Localization uses Flutter gen_l10n with EN/IT/ES/FR/DE/PT.
-- Monetization starts at the provider-agnostic entitlement/ProductLimits seam. No store SDK is integrated yet.
-- Platform folders are generated deterministically by a bootstrap script.
+- SharedPreferences stores small user-owned state.
+- `VersionedRecipeCatalogRepository` is the production recipe adapter.
+- `RecipeCatalogSource` hides the asset source and gives tests an in-memory seam.
+- Runtime catalog format is JSON-only; no Markdown parser dependency.
+- `schemaVersion` controls compatibility.
+- `catalogVersion` versions the package.
+- `contentVersion` versions one stable recipe ID.
+- Canonical recipe data contains structured ingredients and ordered steps with optional timers.
+- Localized files contain title, ingredient names/notes and step text only.
+- Default locale is English; supported app locales are EN/IT/ES/FR/DE/PT.
+- Missing recipe translation falls back to the default locale.
+- A malformed present translation is rejected rather than partially merged.
+- Origin metadata is `contentOrigin = original | inspired | adapted` plus optional internal `sourceNote`.
+- Navigator remains sufficient for current route depth.
+- Material 3 remains an implementation foundation, not a final visual constraint.
+- Monetization stays behind entitlement/ProductLimits seams.
+- Platform folders remain generated deterministically.
 
 ## Testing Decisions
 
-Tests target external behaviour at stable seams:
-- empty catalog contract;
+Tests target stable external behaviour:
+- localized catalog loading;
+- deterministic fallback to default locale;
+- unsupported schema rejection;
+- duplicate stable-ID rejection;
+- stable recipe identity across content revisions;
 - entitlement/ProductLimits logic;
 - shopping/favorite persistence behaviour;
-- core navigation/empty-state widget smoke;
-- structural validator for localization parity and bootstrap invariants.
+- structural validation;
+- deterministic production catalog validation.
 
 ## Out of Scope
 
-Recipe population, copyrighted media ingestion, cloud sync, auth, notifications, live AdMob, live billing, production signing and store release.
+Production recipe population, F2 authoring UI/tooling, decorative-character implementation, cloud sync, auth, notifications, live AdMob, live billing, production signing and store release.
 
 ## Further Notes
 
-Planning adopts the tracer-bullet/deep-module approach from `mattpocock/skills`: small interfaces, demonstrable roadmap slices and context pointers instead of duplicated agent policy.
+Planning follows the tracer-bullet/deep-module approach: the catalog parser/validator is hidden behind a small repository interface and F2 can change authoring ergonomics without changing runtime callers.

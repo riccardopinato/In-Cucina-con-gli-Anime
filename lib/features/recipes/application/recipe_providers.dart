@@ -1,11 +1,25 @@
+import 'dart:ui' show PlatformDispatcher;
+
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../data/empty_recipe_catalog_repository.dart';
+import '../../../core/preferences/preferences_providers.dart';
+import '../data/recipe_catalog_source.dart';
+import '../data/versioned_recipe_catalog_repository.dart';
 import '../domain/recipe.dart';
 import '../domain/recipe_catalog_repository.dart';
 
+final recipeLocaleCodeProvider = Provider<String>((ref) {
+  final preference = ref.watch(localePreferenceProvider);
+  return preference.locale?.languageCode ??
+      PlatformDispatcher.instance.locale.languageCode;
+});
+
 final recipeCatalogRepositoryProvider = Provider<RecipeCatalogRepository>((ref) {
-  return const EmptyRecipeCatalogRepository();
+  return VersionedRecipeCatalogRepository(
+    source: AssetRecipeCatalogSource(rootBundle),
+    localeCode: ref.watch(recipeLocaleCodeProvider),
+  );
 });
 
 final allRecipesProvider = FutureProvider<List<Recipe>>((ref) {
