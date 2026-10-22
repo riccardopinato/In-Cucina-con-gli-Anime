@@ -45,6 +45,17 @@ required = [
     / "widgets"
     / "recipe_artwork.dart",
     ROOT / "test" / "recipe_visual_identity_test.dart",
+    ROOT
+    / "lib"
+    / "core"
+    / "decorative_characters"
+    / "decorative_character_registry.dart",
+    ROOT
+    / "lib"
+    / "core"
+    / "decorative_characters"
+    / "decorative_character_stage.dart",
+    ROOT / "test" / "decorative_character_system_test.dart",
 ]
 
 missing = [
