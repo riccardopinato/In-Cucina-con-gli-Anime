@@ -70,6 +70,48 @@ class RecipeAuthoringTest(unittest.TestCase):
             "Noodles di prova",
         )
 
+    def test_same_id_same_fingerprint_is_idempotent_duplicate(
+        self,
+    ) -> None:
+        result = compare_recipes(
+            FIXTURE,
+            copy.deepcopy(FIXTURE),
+            CONFIG,
+            POLICY,
+        )
+
+        self.assertEqual(
+            result["classification"],
+            "idempotent_duplicate",
+        )
+        self.assertEqual(
+            result["recommendedAction"],
+            "SKIP",
+        )
+
+    def test_same_id_changed_content_is_same_entity_update(
+        self,
+    ) -> None:
+        changed = copy.deepcopy(FIXTURE)
+        changed["contentVersion"] = 2
+        changed["cookMinutes"] = 9
+
+        result = compare_recipes(
+            FIXTURE,
+            changed,
+            CONFIG,
+            POLICY,
+        )
+
+        self.assertEqual(
+            result["classification"],
+            "same_entity_update",
+        )
+        self.assertEqual(
+            result["recommendedAction"],
+            "UPDATE_OR_REVIEW",
+        )
+
     def test_unit_conversion_and_aliases_detect_equivalent_recipe(
         self,
     ) -> None:
