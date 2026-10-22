@@ -33,38 +33,49 @@ class FavoritesScreen extends ConsumerWidget {
 
         if (saved.isEmpty) {
           return AppEmptyState(
-            icon: Icons.favorite_border,
+            icon: Icons.favorite_border_rounded,
             title: l10n.emptyFavoritesTitle,
             body: l10n.emptyFavoritesBody,
           );
         }
 
-        return GridView.builder(
-          padding: const EdgeInsets.all(AppSpacing.medium),
-          gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-            maxCrossAxisExtent: 420,
-            mainAxisExtent: 310,
-            crossAxisSpacing: AppSpacing.medium,
-            mainAxisSpacing: AppSpacing.medium,
-          ),
-          itemCount: saved.length,
-          itemBuilder: (context, index) {
-            final recipe = saved[index];
-            return RecipeCard(
-              recipe: recipe,
-              isFavorite: true,
-              onFavoritePressed: () {
-                ref.read(favoritesProvider.notifier).toggle(recipe.id);
-              },
-              onTap: () {
-                Navigator.of(context).push(
-                  MaterialPageRoute<void>(
-                    builder: (_) => RecipeDetailScreen(recipe: recipe),
-                  ),
+        return Center(
+          child: ConstrainedBox(
+            constraints: const BoxConstraints(
+              maxWidth: AppLayout.contentMaxWidth,
+            ),
+            child: GridView.builder(
+              padding: const EdgeInsets.all(AppSpacing.medium),
+              gridDelegate:
+                  const SliverGridDelegateWithMaxCrossAxisExtent(
+                maxCrossAxisExtent: 390,
+                mainAxisExtent: 322,
+                crossAxisSpacing: AppSpacing.medium,
+                mainAxisSpacing: AppSpacing.medium,
+              ),
+              itemCount: saved.length,
+              itemBuilder: (context, index) {
+                final recipe = saved[index];
+                return RecipeCard(
+                  recipe: recipe,
+                  isFavorite: true,
+                  onFavoritePressed: () {
+                    ref
+                        .read(favoritesProvider.notifier)
+                        .toggle(recipe.id);
+                  },
+                  onTap: () {
+                    Navigator.of(context).push(
+                      MaterialPageRoute<void>(
+                        builder: (_) =>
+                            RecipeDetailScreen(recipe: recipe),
+                      ),
+                    );
+                  },
                 );
               },
-            );
-          },
+            ),
+          ),
         );
       },
     );
