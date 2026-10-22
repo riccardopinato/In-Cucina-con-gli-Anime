@@ -97,7 +97,7 @@ Android ARM64 remains a merged-main CI gate. AppLab, physical device and store e
 
 ## Out of Scope
 
-Production recipe population before F3, automatic culinary judgment, automatic rewrite of arbitrary copyrighted source prose, decorative-character implementation, cloud sync, auth, notifications, live AdMob, live billing, production signing and store release.
+Automatic culinary judgment, automatic rewrite of arbitrary copyrighted source prose, decorative-character implementation before F3C, cloud sync, auth, notifications, live AdMob, live billing, production signing and store release.
 
 ## Further Notes
 

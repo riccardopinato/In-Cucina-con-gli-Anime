@@ -210,6 +210,243 @@
         "fill_shape": "Humedece y sala ligeramente las manos. Aplana una porción de arroz tibio, añade relleno en el centro, cubre con más arroz y forma un triángulo compacto.",
         "finish_nori": "Coloca una tira de nori en la base. Añade sésamo o furikake si quieres y sirve con el arroz todavía templado."
       }
+    },
+    "recipe_000006": {
+      "title": "Okonomiyaki al estilo Kansai",
+      "ingredientTexts": {
+        "cabbage": {
+          "name": "Col verde",
+          "note": "cortada muy fina"
+        },
+        "flour": {
+          "name": "Harina de trigo",
+          "note": null
+        },
+        "dashi": {
+          "name": "Caldo dashi frío",
+          "note": null
+        },
+        "egg": {
+          "name": "Huevo",
+          "note": null
+        },
+        "pork_belly": {
+          "name": "Panceta fresca de cerdo",
+          "note": "4 lonchas"
+        },
+        "okonomiyaki_sauce": {
+          "name": "Salsa okonomiyaki",
+          "note": "o mezcla de ketchup, salsa Worcestershire y miel"
+        },
+        "japanese_mayo": {
+          "name": "Mayonesa japonesa",
+          "note": "para terminar"
+        },
+        "katsuobushi": {
+          "name": "Copos de katsuobushi",
+          "note": "para terminar"
+        },
+        "aoki_seaweed": {
+          "name": "Alga Aoki",
+          "note": "nombre utilizado en la fuente"
+        }
+      },
+      "stepTexts": {
+        "make_batter": "Mezcla la harina con el dashi frío y el huevo hasta obtener una masa lisa.",
+        "add_cabbage": "Incorpora la col cortada fina hasta repartirla bien en la masa.",
+        "shape_and_top": "Calienta una plancha o sartén ligeramente engrasada, forma un disco grueso con la mezcla y coloca encima las lonchas de panceta.",
+        "cook_both_sides": "Cocina tapado a fuego medio hasta que la primera cara esté firme, da la vuelta con cuidado y continúa hasta dorar la panceta y cocinar el centro.",
+        "finish": "Pasa al plato y termina con salsa okonomiyaki, mayonesa japonesa, katsuobushi y el alga."
+      }
+    },
+    "recipe_000007": {
+      "title": "Takoyaki de pulpo",
+      "ingredientTexts": {
+        "octopus": {
+          "name": "Pulpo cocido",
+          "note": "cortado en dados pequeños"
+        },
+        "flour": {
+          "name": "Harina",
+          "note": null
+        },
+        "dashi": {
+          "name": "Caldo dashi frío",
+          "note": null
+        },
+        "egg": {
+          "name": "Huevo",
+          "note": null
+        },
+        "beni_shoga": {
+          "name": "Beni shoga",
+          "note": "jengibre encurtido picado"
+        },
+        "tenkasu": {
+          "name": "Tenkasu",
+          "note": "trocitos crujientes de masa frita"
+        },
+        "spring_onion": {
+          "name": "Cebolleta",
+          "note": "picada fina"
+        },
+        "takoyaki_sauce": {
+          "name": "Salsa takoyaki",
+          "note": "para servir"
+        },
+        "japanese_mayo": {
+          "name": "Mayonesa japonesa",
+          "note": "para servir"
+        },
+        "katsuobushi": {
+          "name": "Copos de katsuobushi",
+          "note": "para servir"
+        }
+      },
+      "stepTexts": {
+        "make_batter": "Bate la harina, el huevo y el dashi frío hasta obtener una masa líquida y lisa.",
+        "heat_pan": "Calienta bien la plancha para takoyaki y engrasa cada cavidad.",
+        "fill_moulds": "Llena las cavidades casi hasta el borde con la masa.",
+        "add_fillings": "Añade a cada cavidad un trozo de pulpo junto con un poco de beni shoga, tenkasu y cebolleta.",
+        "turn_balls": "Cuando la base se firme, gira poco a poco las piezas con palillos, metiendo la masa sobrante hacia dentro hasta formar bolas doradas.",
+        "finish": "Sirve calientes con salsa takoyaki, mayonesa japonesa y katsuobushi."
+      }
+    },
+    "recipe_000008": {
+      "title": "Omurice con ketchup",
+      "ingredientTexts": {
+        "steamed_rice": {
+          "name": "Arroz al vapor",
+          "note": null
+        },
+        "chicken_breast": {
+          "name": "Pechuga de pollo",
+          "note": "en dados"
+        },
+        "onion": {
+          "name": "Cebolla",
+          "note": "media, picada"
+        },
+        "ketchup": {
+          "name": "Ketchup",
+          "note": "más un poco extra para decorar"
+        },
+        "eggs": {
+          "name": "Huevos frescos",
+          "note": null
+        },
+        "milk": {
+          "name": "Leche",
+          "note": null
+        },
+        "butter": {
+          "name": "Mantequilla",
+          "note": null
+        },
+        "salt_pepper": {
+          "name": "Sal y pimienta",
+          "note": "al gusto"
+        }
+      },
+      "stepTexts": {
+        "cook_rice_filling": "Saltea el pollo y la cebolla con un poco de aceite. Añade el arroz y el ketchup y mezcla hasta que el arroz quede caliente y bien condimentado.",
+        "shape_rice": "Forma con el arroz un montículo ovalado y compacto sobre el plato.",
+        "beat_eggs": "Bate los huevos con la leche y un poco de sal y pimienta.",
+        "cook_omelette": "Derrite la mantequilla en una sartén limpia a fuego medio-bajo y prepara una tortilla blanda y flexible.",
+        "wrap_and_decorate": "Coloca la tortilla sobre el arroz cubriéndolo y dibuja encima un corazón o un mensaje corto con ketchup."
+      }
+    },
+    "recipe_000009": {
+      "title": "Oyakodon de pollo y huevo",
+      "ingredientTexts": {
+        "chicken_thigh": {
+          "name": "Muslo de pollo deshuesado",
+          "note": "en trozos pequeños"
+        },
+        "onion": {
+          "name": "Cebolla dorada",
+          "note": "media, cortada fina"
+        },
+        "eggs": {
+          "name": "Huevos grandes",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Arroz japonés al vapor",
+          "note": null
+        },
+        "dashi": {
+          "name": "Caldo dashi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "mitsuba_or_chives": {
+          "name": "Hojas de mitsuba o cebollino",
+          "note": "para terminar"
+        }
+      },
+      "stepTexts": {
+        "season_broth": "Lleva a un hervor suave el dashi, la salsa de soja, el mirin y el azúcar en una sartén pequeña.",
+        "cook_chicken": "Añade la cebolla y el pollo, tapa y cocina a fuego medio hasta que el pollo esté hecho y la cebolla tierna.",
+        "first_egg": "Bate los huevos ligeramente y vierte unas tres cuartas partes sobre el pollo. Tapa y cocina brevemente.",
+        "finish_egg": "Añade el huevo restante, apaga el fuego y deja reposar tapado unos instantes para conservar una textura cremosa.",
+        "assemble": "Sirve el pollo, el huevo y su caldo sobre cuencos de arroz caliente y termina con mitsuba o cebollino."
+      }
+    },
+    "recipe_000010": {
+      "title": "Pastel de calabaza y pescado con hojaldre",
+      "ingredientTexts": {
+        "pumpkin": {
+          "name": "Calabaza",
+          "note": "tipo Delica o Mantovana, limpia y en dados"
+        },
+        "white_fish_or_herring": {
+          "name": "Filetes de pescado blanco o arenque ahumado",
+          "note": null
+        },
+        "puff_pastry": {
+          "name": "Hojaldre rectangular",
+          "note": "1 rollo"
+        },
+        "bechamel": {
+          "name": "Bechamel",
+          "note": null
+        },
+        "onion": {
+          "name": "Cebolla",
+          "note": "media, picada"
+        },
+        "black_olives": {
+          "name": "Aceitunas negras sin hueso",
+          "note": null
+        },
+        "egg_yolk": {
+          "name": "Yema de huevo",
+          "note": "para pincelar"
+        },
+        "seasoning": {
+          "name": "Sal, pimienta y nuez moscada",
+          "note": "al gusto"
+        }
+      },
+      "stepTexts": {
+        "cook_pumpkin": "Cuece la calabaza hasta que esté tierna, aplástala hasta obtener un puré rústico y condimenta con sal, pimienta y nuez moscada.",
+        "cook_fish": "Pocha la cebolla picada con un poco de aceite, añade el pescado y cocina unos minutos para integrar los sabores.",
+        "assemble_filling": "Extiende la calabaza en una fuente, añade el pescado con la cebolla y las aceitunas en rodajas y cubre con bechamel.",
+        "cover_and_decorate": "Cubre la fuente con el hojaldre y usa los recortes para crear una decoración sencilla con forma de pez.",
+        "bake": "Pincela con yema y hornea a 200°C en horno estático precalentado hasta que el hojaldre quede bien dorado."
+      }
     }
   }
 }

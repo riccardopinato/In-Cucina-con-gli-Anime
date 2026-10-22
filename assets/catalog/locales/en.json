@@ -210,6 +210,243 @@
         "fill_shape": "Moisten and lightly salt your hands. Flatten a portion of warm rice, add a little tuna filling in the centre, cover with more rice and shape into a compact triangle.",
         "finish_nori": "Wrap a strip of nori around the base. Add sesame or furikake if desired and serve while the rice is still pleasantly warm."
       }
+    },
+    "recipe_000006": {
+      "title": "Kansai-Style Okonomiyaki",
+      "ingredientTexts": {
+        "cabbage": {
+          "name": "Green cabbage",
+          "note": "very thinly sliced"
+        },
+        "flour": {
+          "name": "Plain flour",
+          "note": null
+        },
+        "dashi": {
+          "name": "Cold dashi broth",
+          "note": null
+        },
+        "egg": {
+          "name": "Egg",
+          "note": null
+        },
+        "pork_belly": {
+          "name": "Fresh pork belly",
+          "note": "4 slices"
+        },
+        "okonomiyaki_sauce": {
+          "name": "Okonomiyaki sauce",
+          "note": "or a mixture of ketchup, Worcestershire sauce and honey"
+        },
+        "japanese_mayo": {
+          "name": "Japanese mayonnaise",
+          "note": "for finishing"
+        },
+        "katsuobushi": {
+          "name": "Katsuobushi flakes",
+          "note": "for finishing"
+        },
+        "aoki_seaweed": {
+          "name": "Aoki seaweed",
+          "note": "as named in the source reference"
+        }
+      },
+      "stepTexts": {
+        "make_batter": "Whisk the flour, cold dashi and egg until the batter is smooth and evenly combined.",
+        "add_cabbage": "Fold in the finely sliced cabbage until it is well coated by the batter.",
+        "shape_and_top": "Heat a lightly oiled griddle or skillet, spoon in the mixture as a thick round and lay the pork slices across the top.",
+        "cook_both_sides": "Cook covered over medium heat until the first side is set, then turn carefully and continue until the pork side is browned and the centre is cooked through.",
+        "finish": "Transfer to a plate and finish with okonomiyaki sauce, Japanese mayonnaise, katsuobushi and the seaweed garnish."
+      }
+    },
+    "recipe_000007": {
+      "title": "Takoyaki with Octopus",
+      "ingredientTexts": {
+        "octopus": {
+          "name": "Cooked octopus",
+          "note": "cut into small cubes"
+        },
+        "flour": {
+          "name": "Plain flour",
+          "note": null
+        },
+        "dashi": {
+          "name": "Cold dashi broth",
+          "note": null
+        },
+        "egg": {
+          "name": "Egg",
+          "note": null
+        },
+        "beni_shoga": {
+          "name": "Beni shoga",
+          "note": "chopped pickled ginger"
+        },
+        "tenkasu": {
+          "name": "Tenkasu",
+          "note": "crisp tempura batter bits"
+        },
+        "spring_onion": {
+          "name": "Spring onion",
+          "note": "finely chopped"
+        },
+        "takoyaki_sauce": {
+          "name": "Takoyaki sauce",
+          "note": "for serving"
+        },
+        "japanese_mayo": {
+          "name": "Japanese mayonnaise",
+          "note": "for serving"
+        },
+        "katsuobushi": {
+          "name": "Katsuobushi flakes",
+          "note": "for serving"
+        }
+      },
+      "stepTexts": {
+        "make_batter": "Whisk the flour, egg and cold dashi into a thin, smooth batter.",
+        "heat_pan": "Heat a takoyaki pan thoroughly and oil each cavity well.",
+        "fill_moulds": "Pour batter into the cavities almost to the top.",
+        "add_fillings": "Add a piece of octopus to each cavity together with a little pickled ginger, tenkasu and spring onion.",
+        "turn_balls": "As the bottoms set, use wooden picks to rotate the pieces gradually, tucking in loose batter until rounded and evenly browned.",
+        "finish": "Serve hot with takoyaki sauce, Japanese mayonnaise and katsuobushi."
+      }
+    },
+    "recipe_000008": {
+      "title": "Ketchup Omurice",
+      "ingredientTexts": {
+        "steamed_rice": {
+          "name": "Steamed rice",
+          "note": null
+        },
+        "chicken_breast": {
+          "name": "Chicken breast",
+          "note": "diced"
+        },
+        "onion": {
+          "name": "Onion",
+          "note": "half, chopped"
+        },
+        "ketchup": {
+          "name": "Ketchup",
+          "note": "plus extra for decorating"
+        },
+        "eggs": {
+          "name": "Fresh eggs",
+          "note": null
+        },
+        "milk": {
+          "name": "Milk",
+          "note": null
+        },
+        "butter": {
+          "name": "Butter",
+          "note": null
+        },
+        "salt_pepper": {
+          "name": "Salt and pepper",
+          "note": "to taste"
+        }
+      },
+      "stepTexts": {
+        "cook_rice_filling": "Sauté the chicken and onion in a lightly oiled pan. Add the steamed rice and ketchup, then toss until the rice is evenly coated and hot.",
+        "shape_rice": "Shape the seasoned rice into a neat oval mound on a plate.",
+        "beat_eggs": "Beat the eggs with the milk and a little salt and pepper.",
+        "cook_omelette": "Melt the butter in a clean pan over medium-low heat and cook the eggs as a soft, flexible omelette.",
+        "wrap_and_decorate": "Lay the omelette over the rice so it covers the mound, then decorate the top with a heart or short message in ketchup."
+      }
+    },
+    "recipe_000009": {
+      "title": "Chicken and Egg Oyakodon",
+      "ingredientTexts": {
+        "chicken_thigh": {
+          "name": "Boneless chicken thigh",
+          "note": "cut into bite-size pieces"
+        },
+        "onion": {
+          "name": "Golden onion",
+          "note": "half, thinly sliced"
+        },
+        "eggs": {
+          "name": "Large eggs",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Steamed Japanese rice",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi broth",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "mitsuba_or_chives": {
+          "name": "Mitsuba leaves or chives",
+          "note": "for finishing"
+        }
+      },
+      "stepTexts": {
+        "season_broth": "Bring the dashi, soy sauce, mirin and sugar to a gentle boil in a small skillet.",
+        "cook_chicken": "Add the onion and chicken, cover and cook over medium heat until the chicken is cooked through and the onion has softened.",
+        "first_egg": "Beat the eggs lightly and pour roughly three quarters over the chicken. Cover and cook briefly so the egg begins to set.",
+        "finish_egg": "Add the remaining egg, turn off the heat and cover for a short rest so the surface stays soft and creamy.",
+        "assemble": "Spoon the chicken, egg and seasoned broth over bowls of hot rice and finish with mitsuba or chives."
+      }
+    },
+    "recipe_000010": {
+      "title": "Pumpkin and Fish Puff-Pastry Bake",
+      "ingredientTexts": {
+        "pumpkin": {
+          "name": "Pumpkin",
+          "note": "Delica or Mantovana type, cleaned and cubed"
+        },
+        "white_fish_or_herring": {
+          "name": "White-fish fillets or smoked herring",
+          "note": null
+        },
+        "puff_pastry": {
+          "name": "Rectangular puff pastry",
+          "note": "1 roll"
+        },
+        "bechamel": {
+          "name": "Béchamel sauce",
+          "note": null
+        },
+        "onion": {
+          "name": "Onion",
+          "note": "half, chopped"
+        },
+        "black_olives": {
+          "name": "Pitted black olives",
+          "note": null
+        },
+        "egg_yolk": {
+          "name": "Egg yolk",
+          "note": "for brushing"
+        },
+        "seasoning": {
+          "name": "Salt, pepper and nutmeg",
+          "note": "to taste"
+        }
+      },
+      "stepTexts": {
+        "cook_pumpkin": "Cook the pumpkin until tender, mash it into a coarse purée and season with salt, pepper and nutmeg.",
+        "cook_fish": "Soften the chopped onion in a pan with a little oil, add the fish and cook briefly so the flavours combine.",
+        "assemble_filling": "Spread the pumpkin over the base of a baking dish, add the fish and onion, scatter over the sliced black olives and cover with béchamel.",
+        "cover_and_decorate": "Lay the puff pastry over the dish. Use any trimmings to make a simple fish-shaped decoration for the top.",
+        "bake": "Brush the pastry with egg yolk and bake in a preheated 200°C static oven until the pastry is deeply golden."
+      }
     }
   }
 }

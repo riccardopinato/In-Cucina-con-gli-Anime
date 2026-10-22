@@ -1,0 +1,160 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000006",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Ranma ½ / Kiss Me Licia",
+  "prepMinutes": 20,
+  "cookMinutes": 12,
+  "servings": 2,
+  "difficulty": "easy",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; two servings are an editorial estimate from the listed quantities.",
+  "imageAssetId": null,
+  "ingredients": [
+    {"id": "cabbage", "quantity": 150, "unit": "g"},
+    {"id": "flour", "quantity": 100, "unit": "g"},
+    {"id": "dashi", "quantity": 120, "unit": "ml"},
+    {"id": "egg", "quantity": 1, "unit": null},
+    {"id": "pork_belly", "quantity": 4, "unit": "slice"},
+    {"id": "okonomiyaki_sauce", "quantity": null, "unit": null},
+    {"id": "japanese_mayo", "quantity": null, "unit": null},
+    {"id": "katsuobushi", "quantity": null, "unit": null},
+    {"id": "aoki_seaweed", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"id": "make_batter", "timerSeconds": null},
+    {"id": "add_cabbage", "timerSeconds": null},
+    {"id": "shape_and_top", "timerSeconds": null},
+    {"id": "cook_both_sides", "timerSeconds": null},
+    {"id": "finish", "timerSeconds": null}
+  ],
+  "locales": {
+    "en": {
+      "title": "Kansai-Style Okonomiyaki",
+      "ingredients": {
+        "cabbage": {"name": "Green cabbage", "note": "very thinly sliced"},
+        "flour": {"name": "Plain flour", "note": null},
+        "dashi": {"name": "Cold dashi broth", "note": null},
+        "egg": {"name": "Egg", "note": null},
+        "pork_belly": {"name": "Fresh pork belly", "note": "4 slices"},
+        "okonomiyaki_sauce": {"name": "Okonomiyaki sauce", "note": "or a mixture of ketchup, Worcestershire sauce and honey"},
+        "japanese_mayo": {"name": "Japanese mayonnaise", "note": "for finishing"},
+        "katsuobushi": {"name": "Katsuobushi flakes", "note": "for finishing"},
+        "aoki_seaweed": {"name": "Aoki seaweed", "note": "as named in the source reference"}
+      },
+      "steps": {
+        "make_batter": "Whisk the flour, cold dashi and egg until the batter is smooth and evenly combined.",
+        "add_cabbage": "Fold in the finely sliced cabbage until it is well coated by the batter.",
+        "shape_and_top": "Heat a lightly oiled griddle or skillet, spoon in the mixture as a thick round and lay the pork slices across the top.",
+        "cook_both_sides": "Cook covered over medium heat until the first side is set, then turn carefully and continue until the pork side is browned and the centre is cooked through.",
+        "finish": "Transfer to a plate and finish with okonomiyaki sauce, Japanese mayonnaise, katsuobushi and the seaweed garnish."
+      }
+    },
+    "it": {
+      "title": "Okonomiyaki in stile Kansai",
+      "ingredients": {
+        "cabbage": {"name": "Cavolo cappuccio", "note": "affettato molto sottile"},
+        "flour": {"name": "Farina 00", "note": null},
+        "dashi": {"name": "Brodo dashi freddo", "note": null},
+        "egg": {"name": "Uovo", "note": null},
+        "pork_belly": {"name": "Pancetta fresca di maiale", "note": "4 fette"},
+        "okonomiyaki_sauce": {"name": "Salsa okonomiyaki", "note": "oppure una miscela di ketchup, salsa Worcestershire e miele"},
+        "japanese_mayo": {"name": "Maionese giapponese", "note": "per completare"},
+        "katsuobushi": {"name": "Fiocchi di katsuobushi", "note": "per completare"},
+        "aoki_seaweed": {"name": "Alga Aoki", "note": "denominazione riportata nella fonte"}
+      },
+      "steps": {
+        "make_batter": "Mescola farina, dashi freddo e uovo fino a ottenere una pastella liscia e uniforme.",
+        "add_cabbage": "Incorpora il cavolo tagliato sottile, distribuendolo bene nella pastella.",
+        "shape_and_top": "Scalda una piastra o una padella leggermente unta, versa il composto formando un disco spesso e sistema sopra le fette di pancetta.",
+        "cook_both_sides": "Cuoci coperto a fuoco medio finché il primo lato è stabile, poi gira con attenzione e prosegui finché la pancetta è dorata e il centro è ben cotto.",
+        "finish": "Trasferisci su un piatto e completa con salsa okonomiyaki, maionese giapponese, katsuobushi e l’alga di guarnizione."
+      }
+    },
+    "es": {
+      "title": "Okonomiyaki al estilo Kansai",
+      "ingredients": {
+        "cabbage": {"name": "Col verde", "note": "cortada muy fina"},
+        "flour": {"name": "Harina de trigo", "note": null},
+        "dashi": {"name": "Caldo dashi frío", "note": null},
+        "egg": {"name": "Huevo", "note": null},
+        "pork_belly": {"name": "Panceta fresca de cerdo", "note": "4 lonchas"},
+        "okonomiyaki_sauce": {"name": "Salsa okonomiyaki", "note": "o mezcla de ketchup, salsa Worcestershire y miel"},
+        "japanese_mayo": {"name": "Mayonesa japonesa", "note": "para terminar"},
+        "katsuobushi": {"name": "Copos de katsuobushi", "note": "para terminar"},
+        "aoki_seaweed": {"name": "Alga Aoki", "note": "nombre utilizado en la fuente"}
+      },
+      "steps": {
+        "make_batter": "Mezcla la harina con el dashi frío y el huevo hasta obtener una masa lisa.",
+        "add_cabbage": "Incorpora la col cortada fina hasta repartirla bien en la masa.",
+        "shape_and_top": "Calienta una plancha o sartén ligeramente engrasada, forma un disco grueso con la mezcla y coloca encima las lonchas de panceta.",
+        "cook_both_sides": "Cocina tapado a fuego medio hasta que la primera cara esté firme, da la vuelta con cuidado y continúa hasta dorar la panceta y cocinar el centro.",
+        "finish": "Pasa al plato y termina con salsa okonomiyaki, mayonesa japonesa, katsuobushi y el alga."
+      }
+    },
+    "fr": {
+      "title": "Okonomiyaki style Kansai",
+      "ingredients": {
+        "cabbage": {"name": "Chou vert", "note": "très finement émincé"},
+        "flour": {"name": "Farine de blé", "note": null},
+        "dashi": {"name": "Bouillon dashi froid", "note": null},
+        "egg": {"name": "Œuf", "note": null},
+        "pork_belly": {"name": "Poitrine de porc fraîche", "note": "4 tranches"},
+        "okonomiyaki_sauce": {"name": "Sauce okonomiyaki", "note": "ou mélange ketchup, sauce Worcestershire et miel"},
+        "japanese_mayo": {"name": "Mayonnaise japonaise", "note": "pour finir"},
+        "katsuobushi": {"name": "Flocons de katsuobushi", "note": "pour finir"},
+        "aoki_seaweed": {"name": "Algue Aoki", "note": "nom employé dans la source"}
+      },
+      "steps": {
+        "make_batter": "Mélangez la farine, le dashi froid et l’œuf jusqu’à obtenir une pâte homogène.",
+        "add_cabbage": "Incorporez le chou finement émincé afin de bien l’enrober.",
+        "shape_and_top": "Chauffez une plaque ou une poêle légèrement huilée, formez un disque épais et disposez les tranches de porc sur le dessus.",
+        "cook_both_sides": "Cuisez à couvert à feu moyen jusqu’à ce que la première face soit prise, retournez délicatement puis poursuivez jusqu’à coloration du porc et cuisson du centre.",
+        "finish": "Déposez sur une assiette et ajoutez sauce okonomiyaki, mayonnaise japonaise, katsuobushi et algue."
+      }
+    },
+    "de": {
+      "title": "Okonomiyaki nach Kansai-Art",
+      "ingredients": {
+        "cabbage": {"name": "Weißkohl", "note": "sehr fein geschnitten"},
+        "flour": {"name": "Weizenmehl", "note": null},
+        "dashi": {"name": "Kalte Dashi-Brühe", "note": null},
+        "egg": {"name": "Ei", "note": null},
+        "pork_belly": {"name": "Frischer Schweinebauch", "note": "4 Scheiben"},
+        "okonomiyaki_sauce": {"name": "Okonomiyaki-Sauce", "note": "oder Mischung aus Ketchup, Worcestersauce und Honig"},
+        "japanese_mayo": {"name": "Japanische Mayonnaise", "note": "zum Garnieren"},
+        "katsuobushi": {"name": "Katsuobushi-Flocken", "note": "zum Garnieren"},
+        "aoki_seaweed": {"name": "Aoki-Alge", "note": "Bezeichnung aus der Quelle"}
+      },
+      "steps": {
+        "make_batter": "Mehl, kalte Dashi-Brühe und Ei zu einem glatten Teig verrühren.",
+        "add_cabbage": "Den fein geschnittenen Kohl unterheben, bis er gleichmäßig vom Teig umhüllt ist.",
+        "shape_and_top": "Eine leicht geölte Platte oder Pfanne erhitzen, die Mischung als dicken Kreis formen und die Schweinebauchscheiben obenauf legen.",
+        "cook_both_sides": "Zugedeckt bei mittlerer Hitze garen, bis die erste Seite fest ist, vorsichtig wenden und weitergaren, bis das Fleisch gebräunt und die Mitte durchgegart ist.",
+        "finish": "Auf einen Teller geben und mit Okonomiyaki-Sauce, japanischer Mayonnaise, Katsuobushi und Alge abschließen."
+      }
+    },
+    "pt": {
+      "title": "Okonomiyaki ao estilo Kansai",
+      "ingredients": {
+        "cabbage": {"name": "Repolho verde", "note": "fatiado bem fino"},
+        "flour": {"name": "Farinha de trigo", "note": null},
+        "dashi": {"name": "Caldo dashi frio", "note": null},
+        "egg": {"name": "Ovo", "note": null},
+        "pork_belly": {"name": "Barriga de porco fresca", "note": "4 fatias"},
+        "okonomiyaki_sauce": {"name": "Molho okonomiyaki", "note": "ou mistura de ketchup, molho Worcestershire e mel"},
+        "japanese_mayo": {"name": "Maionese japonesa", "note": "para finalizar"},
+        "katsuobushi": {"name": "Flocos de katsuobushi", "note": "para finalizar"},
+        "aoki_seaweed": {"name": "Alga Aoki", "note": "nome usado na fonte"}
+      },
+      "steps": {
+        "make_batter": "Misture a farinha, o dashi frio e o ovo até obter uma massa lisa.",
+        "add_cabbage": "Incorpore o repolho fatiado fino até ficar bem distribuído na massa.",
+        "shape_and_top": "Aqueça uma chapa ou frigideira levemente untada, forme um disco espesso com a mistura e coloque as fatias de porco por cima.",
+        "cook_both_sides": "Cozinhe tampado em fogo médio até firmar a primeira face, vire com cuidado e continue até dourar o porco e cozinhar o centro.",
+        "finish": "Passe para um prato e finalize com molho okonomiyaki, maionese japonesa, katsuobushi e a alga."
+      }
+    }
+  }
+}

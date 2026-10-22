@@ -62,13 +62,13 @@ Blocked by: F2 — unblocked.
 ### F3A — First production editorial batch — PASS
 
 Delivered:
-- five real production recipes authored through the F2 pipeline;
-- stable IDs `recipe_000001` through `recipe_000005`;
+- all ten recipes from the supplied reference document authored through the F2 pipeline;
+- stable IDs `recipe_000001` through `recipe_000010`;
 - fresh editorial copy derived from user-provided culinary reference material rather than copied source prose;
 - EN/IT/ES/FR/DE/PT localized content for every published recipe;
 - editorially documented serving estimates where the source material omitted yield;
-- runtime catalog version `0.3.0`;
-- app version `0.4.0+4`;
+- runtime catalog version `0.4.0`;
+- app version `0.5.0+5`;
 - production catalog generation with no Dart edits;
 - similarity/duplicate gate applied to the real batch;
 - F1 runtime validation and CI build gates retained.
@@ -78,7 +78,12 @@ First batch:
 2. Miso ramen with chashu — inspired by `Naruto`;
 3. Victory katsudon — inspired by `Yuri!!! on ICE / My Hero Academia`;
 4. Dorayaki with anko — inspired by `Doraemon`;
-5. Tuna mayo onigiri — inspired by `La città incantata / Pokémon`.
+5. Tuna mayo onigiri — inspired by `La città incantata / Pokémon`;
+6. Kansai-style okonomiyaki — inspired by `Ranma ½ / Kiss Me Licia`;
+7. Takoyaki with octopus — inspired by `One Piece / My Hero Academia`;
+8. Ketchup omurice — inspired by `K-On! / Maid Sama!`;
+9. Chicken and egg oyakodon — inspired by `Yuri!!! on ICE / Food Wars!`;
+10. Pumpkin and fish puff-pastry bake — inspired by `Kiki - Consegne a domicilio`.
 
 Exit: PASS when exact PR head is green for authoring validation, similarity gate, generated-catalog drift, F1 validation, Flutter analyze/test, synthetic preview and production Web build.
 
@@ -92,7 +97,7 @@ Delivers:
 - preserve accessibility, performance and the underlying theme/token architecture;
 - decide visual treatment for recipes that do not yet have food photography.
 
-Exit: the first five real recipes look intentional and coherent across primary surfaces before expanding the remaining recipe batch.
+Exit: all ten real recipes look intentional and coherent across primary surfaces before F3C.
 
 ### F3C — Dynamic Decorative Characters
 

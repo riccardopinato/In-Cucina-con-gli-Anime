@@ -1,0 +1,153 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000010",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Kiki - Consegne a domicilio",
+  "prepMinutes": 30,
+  "cookMinutes": 40,
+  "servings": 4,
+  "difficulty": "hard",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; four servings are an editorial estimate from the listed quantities.",
+  "imageAssetId": null,
+  "ingredients": [
+    {"id": "pumpkin", "quantity": 500, "unit": "g"},
+    {"id": "white_fish_or_herring", "quantity": 200, "unit": "g"},
+    {"id": "puff_pastry", "quantity": 1, "unit": null},
+    {"id": "bechamel", "quantity": 200, "unit": "ml"},
+    {"id": "onion", "quantity": 0.5, "unit": null},
+    {"id": "black_olives", "quantity": 100, "unit": "g"},
+    {"id": "egg_yolk", "quantity": 1, "unit": null},
+    {"id": "seasoning", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"id": "cook_pumpkin", "timerSeconds": null},
+    {"id": "cook_fish", "timerSeconds": null},
+    {"id": "assemble_filling", "timerSeconds": null},
+    {"id": "cover_and_decorate", "timerSeconds": null},
+    {"id": "bake", "timerSeconds": null}
+  ],
+  "locales": {
+    "en": {
+      "title": "Pumpkin and Fish Puff-Pastry Bake",
+      "ingredients": {
+        "pumpkin": {"name": "Pumpkin", "note": "Delica or Mantovana type, cleaned and cubed"},
+        "white_fish_or_herring": {"name": "White-fish fillets or smoked herring", "note": null},
+        "puff_pastry": {"name": "Rectangular puff pastry", "note": "1 roll"},
+        "bechamel": {"name": "Béchamel sauce", "note": null},
+        "onion": {"name": "Onion", "note": "half, chopped"},
+        "black_olives": {"name": "Pitted black olives", "note": null},
+        "egg_yolk": {"name": "Egg yolk", "note": "for brushing"},
+        "seasoning": {"name": "Salt, pepper and nutmeg", "note": "to taste"}
+      },
+      "steps": {
+        "cook_pumpkin": "Cook the pumpkin until tender, mash it into a coarse purée and season with salt, pepper and nutmeg.",
+        "cook_fish": "Soften the chopped onion in a pan with a little oil, add the fish and cook briefly so the flavours combine.",
+        "assemble_filling": "Spread the pumpkin over the base of a baking dish, add the fish and onion, scatter over the sliced black olives and cover with béchamel.",
+        "cover_and_decorate": "Lay the puff pastry over the dish. Use any trimmings to make a simple fish-shaped decoration for the top.",
+        "bake": "Brush the pastry with egg yolk and bake in a preheated 200°C static oven until the pastry is deeply golden."
+      }
+    },
+    "it": {
+      "title": "Sformato di zucca e pesce in sfoglia",
+      "ingredients": {
+        "pumpkin": {"name": "Zucca", "note": "tipo Delica o Mantovana, pulita e a cubetti"},
+        "white_fish_or_herring": {"name": "Filetti di pesce bianco o aringa affumicata", "note": null},
+        "puff_pastry": {"name": "Pasta sfoglia rettangolare", "note": "1 rotolo"},
+        "bechamel": {"name": "Besciamella", "note": null},
+        "onion": {"name": "Cipolla", "note": "mezza, tritata"},
+        "black_olives": {"name": "Olive nere snocciolate", "note": null},
+        "egg_yolk": {"name": "Tuorlo d’uovo", "note": "per spennellare"},
+        "seasoning": {"name": "Sale, pepe e noce moscata", "note": "quanto basta"}
+      },
+      "steps": {
+        "cook_pumpkin": "Cuoci la zucca finché è morbida, schiacciala in una purea rustica e condiscila con sale, pepe e noce moscata.",
+        "cook_fish": "Fai appassire la cipolla tritata in padella con poco olio, aggiungi il pesce e lascialo insaporire per qualche minuto.",
+        "assemble_filling": "Distribuisci la purea di zucca sul fondo di una pirofila, aggiungi pesce e cipolla, le olive nere a rondelle e copri con la besciamella.",
+        "cover_and_decorate": "Chiudi la pirofila con la pasta sfoglia. Usa gli eventuali ritagli per creare una semplice decorazione a forma di pesce.",
+        "bake": "Spennella la sfoglia con il tuorlo e cuoci in forno statico preriscaldato a 200°C finché la superficie è ben dorata."
+      }
+    },
+    "es": {
+      "title": "Pastel de calabaza y pescado con hojaldre",
+      "ingredients": {
+        "pumpkin": {"name": "Calabaza", "note": "tipo Delica o Mantovana, limpia y en dados"},
+        "white_fish_or_herring": {"name": "Filetes de pescado blanco o arenque ahumado", "note": null},
+        "puff_pastry": {"name": "Hojaldre rectangular", "note": "1 rollo"},
+        "bechamel": {"name": "Bechamel", "note": null},
+        "onion": {"name": "Cebolla", "note": "media, picada"},
+        "black_olives": {"name": "Aceitunas negras sin hueso", "note": null},
+        "egg_yolk": {"name": "Yema de huevo", "note": "para pincelar"},
+        "seasoning": {"name": "Sal, pimienta y nuez moscada", "note": "al gusto"}
+      },
+      "steps": {
+        "cook_pumpkin": "Cuece la calabaza hasta que esté tierna, aplástala hasta obtener un puré rústico y condimenta con sal, pimienta y nuez moscada.",
+        "cook_fish": "Pocha la cebolla picada con un poco de aceite, añade el pescado y cocina unos minutos para integrar los sabores.",
+        "assemble_filling": "Extiende la calabaza en una fuente, añade el pescado con la cebolla y las aceitunas en rodajas y cubre con bechamel.",
+        "cover_and_decorate": "Cubre la fuente con el hojaldre y usa los recortes para crear una decoración sencilla con forma de pez.",
+        "bake": "Pincela con yema y hornea a 200°C en horno estático precalentado hasta que el hojaldre quede bien dorado."
+      }
+    },
+    "fr": {
+      "title": "Gratin de courge et poisson en croûte",
+      "ingredients": {
+        "pumpkin": {"name": "Courge", "note": "type Delica ou Mantovana, nettoyée et coupée en dés"},
+        "white_fish_or_herring": {"name": "Filets de poisson blanc ou hareng fumé", "note": null},
+        "puff_pastry": {"name": "Pâte feuilletée rectangulaire", "note": "1 rouleau"},
+        "bechamel": {"name": "Béchamel", "note": null},
+        "onion": {"name": "Oignon", "note": "un demi, haché"},
+        "black_olives": {"name": "Olives noires dénoyautées", "note": null},
+        "egg_yolk": {"name": "Jaune d’œuf", "note": "pour dorer"},
+        "seasoning": {"name": "Sel, poivre et noix de muscade", "note": "selon le goût"}
+      },
+      "steps": {
+        "cook_pumpkin": "Faites cuire la courge jusqu’à tendreté, écrasez-la grossièrement et assaisonnez de sel, poivre et noix de muscade.",
+        "cook_fish": "Faites fondre l’oignon haché avec un peu d’huile, ajoutez le poisson et laissez cuire quelques minutes.",
+        "assemble_filling": "Étalez la courge dans un plat, ajoutez le poisson et l’oignon, répartissez les olives en rondelles puis couvrez de béchamel.",
+        "cover_and_decorate": "Recouvrez le plat de pâte feuilletée et utilisez les chutes pour créer une décoration simple en forme de poisson.",
+        "bake": "Badigeonnez de jaune d’œuf et enfournez à 200°C dans un four statique préchauffé jusqu’à obtenir une croûte bien dorée."
+      }
+    },
+    "de": {
+      "title": "Kürbis-Fisch-Auflauf mit Blätterteig",
+      "ingredients": {
+        "pumpkin": {"name": "Kürbis", "note": "Typ Delica oder Mantovana, geputzt und gewürfelt"},
+        "white_fish_or_herring": {"name": "Weißfischfilets oder geräucherter Hering", "note": null},
+        "puff_pastry": {"name": "Rechteckiger Blätterteig", "note": "1 Rolle"},
+        "bechamel": {"name": "Béchamelsauce", "note": null},
+        "onion": {"name": "Zwiebel", "note": "eine halbe, gehackt"},
+        "black_olives": {"name": "Entsteinte schwarze Oliven", "note": null},
+        "egg_yolk": {"name": "Eigelb", "note": "zum Bestreichen"},
+        "seasoning": {"name": "Salz, Pfeffer und Muskatnuss", "note": "nach Geschmack"}
+      },
+      "steps": {
+        "cook_pumpkin": "Den Kürbis weich garen, grob zerdrücken und mit Salz, Pfeffer und Muskat würzen.",
+        "cook_fish": "Die gehackte Zwiebel in wenig Öl weich dünsten, den Fisch zugeben und einige Minuten mitgaren.",
+        "assemble_filling": "Kürbis in einer Auflaufform verteilen, Fisch und Zwiebel daraufgeben, Olivenscheiben darüberstreuen und mit Béchamel bedecken.",
+        "cover_and_decorate": "Die Form mit Blätterteig abdecken und aus Resten eine einfache Fischdekoration formen.",
+        "bake": "Mit Eigelb bestreichen und im vorgeheizten statischen Ofen bei 200°C backen, bis der Blätterteig kräftig goldbraun ist."
+      }
+    },
+    "pt": {
+      "title": "Assado de abóbora e peixe com massa folhada",
+      "ingredients": {
+        "pumpkin": {"name": "Abóbora", "note": "tipo Delica ou Mantovana, limpa e em cubos"},
+        "white_fish_or_herring": {"name": "Filés de peixe branco ou arenque defumado", "note": null},
+        "puff_pastry": {"name": "Massa folhada retangular", "note": "1 rolo"},
+        "bechamel": {"name": "Molho béchamel", "note": null},
+        "onion": {"name": "Cebola", "note": "meia, picada"},
+        "black_olives": {"name": "Azeitonas pretas sem caroço", "note": null},
+        "egg_yolk": {"name": "Gema de ovo", "note": "para pincelar"},
+        "seasoning": {"name": "Sal, pimenta e noz-moscada", "note": "a gosto"}
+      },
+      "steps": {
+        "cook_pumpkin": "Cozinhe a abóbora até ficar macia, amasse até obter um purê rústico e tempere com sal, pimenta e noz-moscada.",
+        "cook_fish": "Refogue a cebola picada com um pouco de óleo, junte o peixe e cozinhe por alguns minutos.",
+        "assemble_filling": "Espalhe a abóbora no fundo de um refratário, adicione o peixe com a cebola, as azeitonas fatiadas e cubra com béchamel.",
+        "cover_and_decorate": "Cubra o refratário com a massa folhada e use as sobras para criar uma decoração simples em forma de peixe.",
+        "bake": "Pincele com gema e asse em forno estático preaquecido a 200°C até a massa ficar bem dourada."
+      }
+    }
+  }
+}
