@@ -36,7 +36,15 @@ required = [
     ROOT / "tool" / "review_recipe_similarity.py",
     ROOT / "tool" / "build_recipe_preview.py",
     ROOT / "tool" / "validate_recipe_catalog.py",
-    ROOT / "tool" / "tests" / "test_recipe_authoring.py",\n    ROOT\n    / "lib"\n    / "features"\n    / "recipes"\n    / "presentation"\n    / "widgets"\n    / "recipe_artwork.dart",\n    ROOT / "test" / "recipe_visual_identity_test.dart",
+    ROOT / "tool" / "tests" / "test_recipe_authoring.py",
+    ROOT
+    / "lib"
+    / "features"
+    / "recipes"
+    / "presentation"
+    / "widgets"
+    / "recipe_artwork.dart",
+    ROOT / "test" / "recipe_visual_identity_test.dart",
 ]
 
 missing = [
