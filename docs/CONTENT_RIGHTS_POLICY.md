@@ -37,7 +37,7 @@ Authoring image references resolve through a small asset registry recording `ori
 
 Do not ship anime screenshots, posters, manga panels, logos, music or modern character artwork without a rights basis.
 
-Decorative folklore characters planned for F3 should use original illustrations or separately verified reusable source material.
+F3C decorative characters use original procedural Flutter illustrations of traditional Japanese/Chinese archetypes. The implementation does not copy or reference a specific modern anime/game character design. Future imported character artwork must still be separately verified as original, public-domain/rights-compatible or licensed.
 
 ## References to works
 
@@ -45,4 +45,4 @@ Factual titles of anime/manga or traditional works may be stored as inspiration/
 
 ## Current state
 
-F3A ships all 10 production recipes from the user-provided reference document as fresh editorial rebuilds. The synthetic authoring fixture remains preview/test-only and is restored out of the production catalog after preview builds.
+F3 ships all 10 production recipes from the user-provided reference document as fresh editorial rebuilds, plus original procedural recipe artwork and decorative folklore mascots. The synthetic authoring fixture remains preview/test-only and is restored out of the production catalog after preview builds.
