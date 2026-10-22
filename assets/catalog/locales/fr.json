@@ -210,6 +210,243 @@
         "fill_shape": "Humidifiez et salez légèrement vos mains. Aplatissez une portion de riz tiède, ajoutez un peu de farce au centre, recouvrez de riz et formez un triangle compact.",
         "finish_nori": "Placez une bande de nori à la base. Ajoutez du sésame ou du furikake si souhaité et servez le riz encore tiède."
       }
+    },
+    "recipe_000006": {
+      "title": "Okonomiyaki style Kansai",
+      "ingredientTexts": {
+        "cabbage": {
+          "name": "Chou vert",
+          "note": "très finement émincé"
+        },
+        "flour": {
+          "name": "Farine de blé",
+          "note": null
+        },
+        "dashi": {
+          "name": "Bouillon dashi froid",
+          "note": null
+        },
+        "egg": {
+          "name": "Œuf",
+          "note": null
+        },
+        "pork_belly": {
+          "name": "Poitrine de porc fraîche",
+          "note": "4 tranches"
+        },
+        "okonomiyaki_sauce": {
+          "name": "Sauce okonomiyaki",
+          "note": "ou mélange ketchup, sauce Worcestershire et miel"
+        },
+        "japanese_mayo": {
+          "name": "Mayonnaise japonaise",
+          "note": "pour finir"
+        },
+        "katsuobushi": {
+          "name": "Flocons de katsuobushi",
+          "note": "pour finir"
+        },
+        "aoki_seaweed": {
+          "name": "Algue Aoki",
+          "note": "nom employé dans la source"
+        }
+      },
+      "stepTexts": {
+        "make_batter": "Mélangez la farine, le dashi froid et l’œuf jusqu’à obtenir une pâte homogène.",
+        "add_cabbage": "Incorporez le chou finement émincé afin de bien l’enrober.",
+        "shape_and_top": "Chauffez une plaque ou une poêle légèrement huilée, formez un disque épais et disposez les tranches de porc sur le dessus.",
+        "cook_both_sides": "Cuisez à couvert à feu moyen jusqu’à ce que la première face soit prise, retournez délicatement puis poursuivez jusqu’à coloration du porc et cuisson du centre.",
+        "finish": "Déposez sur une assiette et ajoutez sauce okonomiyaki, mayonnaise japonaise, katsuobushi et algue."
+      }
+    },
+    "recipe_000007": {
+      "title": "Takoyaki au poulpe",
+      "ingredientTexts": {
+        "octopus": {
+          "name": "Poulpe cuit",
+          "note": "coupé en petits dés"
+        },
+        "flour": {
+          "name": "Farine",
+          "note": null
+        },
+        "dashi": {
+          "name": "Bouillon dashi froid",
+          "note": null
+        },
+        "egg": {
+          "name": "Œuf",
+          "note": null
+        },
+        "beni_shoga": {
+          "name": "Beni shoga",
+          "note": "gingembre mariné haché"
+        },
+        "tenkasu": {
+          "name": "Tenkasu",
+          "note": "éclats croustillants de pâte frite"
+        },
+        "spring_onion": {
+          "name": "Ciboule",
+          "note": "finement hachée"
+        },
+        "takoyaki_sauce": {
+          "name": "Sauce takoyaki",
+          "note": "pour servir"
+        },
+        "japanese_mayo": {
+          "name": "Mayonnaise japonaise",
+          "note": "pour servir"
+        },
+        "katsuobushi": {
+          "name": "Flocons de katsuobushi",
+          "note": "pour servir"
+        }
+      },
+      "stepTexts": {
+        "make_batter": "Fouettez la farine, l’œuf et le dashi froid pour obtenir une pâte fluide et lisse.",
+        "heat_pan": "Faites bien chauffer la plaque à takoyaki et huilez généreusement chaque cavité.",
+        "fill_moulds": "Versez la pâte presque jusqu’au bord des cavités.",
+        "add_fillings": "Ajoutez dans chaque cavité un morceau de poulpe avec un peu de beni shoga, de tenkasu et de ciboule.",
+        "turn_balls": "Lorsque la base prend, faites tourner progressivement les pièces avec des piques en bois en rabattant la pâte débordante jusqu’à obtenir des boules dorées.",
+        "finish": "Servez chaud avec sauce takoyaki, mayonnaise japonaise et katsuobushi."
+      }
+    },
+    "recipe_000008": {
+      "title": "Omurice au ketchup",
+      "ingredientTexts": {
+        "steamed_rice": {
+          "name": "Riz cuit à la vapeur",
+          "note": null
+        },
+        "chicken_breast": {
+          "name": "Blanc de poulet",
+          "note": "en dés"
+        },
+        "onion": {
+          "name": "Oignon",
+          "note": "un demi, haché"
+        },
+        "ketchup": {
+          "name": "Ketchup",
+          "note": "plus un peu pour la décoration"
+        },
+        "eggs": {
+          "name": "Œufs frais",
+          "note": null
+        },
+        "milk": {
+          "name": "Lait",
+          "note": null
+        },
+        "butter": {
+          "name": "Beurre",
+          "note": null
+        },
+        "salt_pepper": {
+          "name": "Sel et poivre",
+          "note": "selon le goût"
+        }
+      },
+      "stepTexts": {
+        "cook_rice_filling": "Faites revenir le poulet et l’oignon avec un peu d’huile. Ajoutez le riz et le ketchup puis mélangez jusqu’à ce que le riz soit chaud et uniformément assaisonné.",
+        "shape_rice": "Formez un dôme ovale et compact de riz sur l’assiette.",
+        "beat_eggs": "Battez les œufs avec le lait, un peu de sel et de poivre.",
+        "cook_omelette": "Faites fondre le beurre dans une poêle propre à feu moyen-doux et cuisez une omelette souple.",
+        "wrap_and_decorate": "Déposez l’omelette sur le riz pour l’envelopper puis dessinez un cœur ou un petit message avec du ketchup."
+      }
+    },
+    "recipe_000009": {
+      "title": "Oyakodon au poulet et aux œufs",
+      "ingredientTexts": {
+        "chicken_thigh": {
+          "name": "Cuisse de poulet désossée",
+          "note": "coupée en morceaux"
+        },
+        "onion": {
+          "name": "Oignon jaune",
+          "note": "un demi, finement émincé"
+        },
+        "eggs": {
+          "name": "Gros œufs",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Riz japonais cuit à la vapeur",
+          "note": null
+        },
+        "dashi": {
+          "name": "Bouillon dashi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre",
+          "note": null
+        },
+        "mitsuba_or_chives": {
+          "name": "Feuilles de mitsuba ou ciboulette",
+          "note": "pour finir"
+        }
+      },
+      "stepTexts": {
+        "season_broth": "Portez doucement à ébullition le dashi, la sauce soja, le mirin et le sucre dans une petite poêle.",
+        "cook_chicken": "Ajoutez l’oignon et le poulet, couvrez et faites cuire à feu moyen jusqu’à cuisson complète du poulet et tendreté de l’oignon.",
+        "first_egg": "Battez légèrement les œufs et versez-en environ les trois quarts sur le poulet. Couvrez et cuisez brièvement.",
+        "finish_egg": "Ajoutez le reste d’œuf, coupez le feu et laissez reposer couvert quelques instants pour conserver une texture crémeuse.",
+        "assemble": "Répartissez poulet, œuf et jus de cuisson sur le riz chaud et terminez avec mitsuba ou ciboulette."
+      }
+    },
+    "recipe_000010": {
+      "title": "Gratin de courge et poisson en croûte",
+      "ingredientTexts": {
+        "pumpkin": {
+          "name": "Courge",
+          "note": "type Delica ou Mantovana, nettoyée et coupée en dés"
+        },
+        "white_fish_or_herring": {
+          "name": "Filets de poisson blanc ou hareng fumé",
+          "note": null
+        },
+        "puff_pastry": {
+          "name": "Pâte feuilletée rectangulaire",
+          "note": "1 rouleau"
+        },
+        "bechamel": {
+          "name": "Béchamel",
+          "note": null
+        },
+        "onion": {
+          "name": "Oignon",
+          "note": "un demi, haché"
+        },
+        "black_olives": {
+          "name": "Olives noires dénoyautées",
+          "note": null
+        },
+        "egg_yolk": {
+          "name": "Jaune d’œuf",
+          "note": "pour dorer"
+        },
+        "seasoning": {
+          "name": "Sel, poivre et noix de muscade",
+          "note": "selon le goût"
+        }
+      },
+      "stepTexts": {
+        "cook_pumpkin": "Faites cuire la courge jusqu’à tendreté, écrasez-la grossièrement et assaisonnez de sel, poivre et noix de muscade.",
+        "cook_fish": "Faites fondre l’oignon haché avec un peu d’huile, ajoutez le poisson et laissez cuire quelques minutes.",
+        "assemble_filling": "Étalez la courge dans un plat, ajoutez le poisson et l’oignon, répartissez les olives en rondelles puis couvrez de béchamel.",
+        "cover_and_decorate": "Recouvrez le plat de pâte feuilletée et utilisez les chutes pour créer une décoration simple en forme de poisson.",
+        "bake": "Badigeonnez de jaune d’œuf et enfournez à 200°C dans un four statique préchauffé jusqu’à obtenir une croûte bien dorée."
+      }
     }
   }
 }
