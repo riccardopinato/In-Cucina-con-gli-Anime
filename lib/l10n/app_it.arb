@@ -53,5 +53,8 @@
   "animeReferenceLabel": "Ispirato a",
   "errorTitle": "Qualcosa è andato storto",
   "retry": "Riprova",
-  "manualItemSource": "Manuale"
+  "manualItemSource": "Manuale",
+  "exploreTagline": "Cucina le scene che ricordi.",
+  "exploreIntro": "Un ricettario illustrato ispirato ai piatti visti negli anime.",
+  "servingsLabel": "Porzioni"
 }
