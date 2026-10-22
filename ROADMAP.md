@@ -127,21 +127,115 @@ Delivered:
 - no new runtime dependency; stale `flutter_staggered_animations` removed;
 - app version `0.7.0+7`.
 
-Exit: PASS — exact PR head green for structure/catalog gates, Flutter analyze/test, synthetic Web preview and production Web build.
+Exit: PASS — exact PR head green for structure/catalog gates, Flutter analyze/test, synthetic Web preview and production Web build; merged-main verification also green for Pages/Web Preview and Android ARM64 artifact.
 
 ## F4 — Monetization v1 — CURRENT
 
 Blocked by: F3 — unblocked.
 
-Delivers consent/privacy, safe adaptive browsing ads, no ads during active cooking, one-time Remove Ads/Lifetime and entitlement-driven no-ad-request behaviour.
+Goal: introduce monetization without weakening offline-first behaviour, cooking UX, privacy or the existing provider-agnostic entitlement boundary.
 
-Exit: provider/store sandbox evidence exists.
+### F4A — Consent + privacy foundation
+
+Delivers:
+- consent/privacy entry points before any ad request;
+- privacy/settings surface for changing consent choices;
+- region-safe default behaviour: no ad SDK request before the consent state is resolved where required;
+- no account requirement for core catalog access;
+- privacy-policy/store-metadata checklist kept separate from runtime logic;
+- deterministic development/test mode that does not depend on live ad inventory.
+
+Exit:
+- app can start, browse recipes and cook with consent unresolved or denied;
+- privacy state is persisted locally;
+- tests prove no ad request path is reachable before the consent gate allows it.
+
+### F4B — Entitlement + one-time purchase seam
+
+Delivers:
+- keep the existing provider-agnostic entitlement contract as the UI source of truth;
+- introduce one-time Remove Ads / Lifetime capability before considering subscription plans;
+- purchase/restore adapter behind the entitlement boundary;
+- entitled users trigger zero ad requests, not merely hidden ad widgets;
+- purchase state survives app restarts and supports restore flow;
+- sandbox/test provider configuration only; no production secrets in the repository.
+
+Provider decision:
+- select the smallest reliable store/billing integration that preserves the current entitlement seam;
+- RevenueCat remains optional, not mandatory, unless its operational value justifies the dependency.
+
+Exit:
+- sandbox purchase + restore evidence exists;
+- free and entitled states are covered by tests;
+- UI does not directly depend on a billing SDK.
+
+### F4C — Safe adaptive browsing ads
+
+Delivers:
+- adaptive banner placement only on low-interruption browsing surfaces;
+- no ads on active recipe-following/timer flows;
+- no interstitial/rewarded format in v1;
+- no ad request for entitled users;
+- loading/failure states do not shift core recipe controls or block navigation;
+- Web Preview remains buildable even when native ad capability is unavailable.
+
+Candidate surfaces:
+- Explore below/between editorial sections where layout remains stable;
+- Favorites only when content exists and the placement does not compete with primary actions;
+- never inside ingredient/step/timer interaction zones.
+
+Exit:
+- free-user ad path works in test/sandbox mode;
+- entitled-user network/request path is absent;
+- active cooking remains ad-free by automated/QA evidence.
+
+### F4D — Monetization QA + store sandbox proof
+
+Delivers:
+- consent denied / accepted / changed scenarios;
+- purchase success / cancel / failure / restore scenarios;
+- free vs entitled regression matrix;
+- offline launch behaviour;
+- app restart persistence;
+- Android ARM64 + Web Preview gates remain green;
+- app-size delta recorded and reviewed before merge.
+
+Exit: F4 PASS only when consent, entitlement, restore and ad-request suppression have test/sandbox evidence and no cooking-flow regression.
 
 ## F5 — Release hardening
 
 Blocked by: F4.
 
-Delivers persistent Android signing, release AAB/hash evidence, AppLab FULL, physical-device validation and store readiness review.
+### F5A — Production signing + release artifacts
+
+Delivers:
+- persistent Android signing configured outside source control;
+- reproducible release AAB;
+- APK/AAB hashes and version evidence;
+- release notes/versioning discipline.
+
+### F5B — Device + platform QA
+
+Delivers:
+- physical Android validation on at least one lower/mid-range and one recent device when available;
+- phone/tablet responsive review;
+- light/dark/system theme;
+- six-locale smoke pass;
+- offline launch/catalog/favorites/shopping;
+- timer/background/resume behaviour;
+- accessibility/reduced-motion checks.
+
+### F5C — Store readiness
+
+Delivers:
+- final privacy/data-safety review;
+- screenshots/listing assets and localized metadata;
+- monetization disclosures;
+- rights/content review for recipe references and visual assets;
+- certification evidence required by the current App Factory release Golden;
+- AppLab FULL only if the AppLab capability is actually available in the execution environment.
+
+Exit: release candidate is signed, reproducible, physically validated and ready for store submission without unresolved blocking checklist items.
 
 ## Later candidates
 
