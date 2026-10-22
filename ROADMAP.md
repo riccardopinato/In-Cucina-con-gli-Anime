@@ -55,7 +55,7 @@ Delivered:
 
 Exit: PASS — a synthetic recipe travels normalized authoring JSON -> validation -> similarity gate -> runtime compilation -> F1 validation -> real Flutter Web build without editing Dart or shipping the fixture.
 
-## F3 — First real editorial batch + visual identity — CURRENT
+## F3 — First real editorial batch + visual identity — PASS
 
 Blocked by: F2 — unblocked.
 
@@ -107,24 +107,31 @@ Delivered:
 
 Exit: PASS — exact PR head green for structure, authoring/catalog gates, localization, Flutter analyze/test, synthetic Web preview and production Web build.
 
-### F3C — Dynamic Decorative Characters — CURRENT
+### F3C — Dynamic Decorative Characters — PASS
 
 Blocked by: F3B — unblocked.
 
-Delivers:
-- reusable decorative-character registry independent from recipe content;
-- Japanese/Chinese folklore/classic archetypes only unless rights are separately cleared;
-- original or verified reusable transparent WebP/PNG assets;
-- native Flutter microanimations first: `float`, `peek`, `sway`;
-- contextual/randomized rotation with anti-repetition;
-- generally no more than one primary animated decorative character visible per screen;
-- suitable placements: empty states, section headers, editorial gaps and wider tablet/web layouts.
+Delivered:
+- recipe-independent `DecorativeCharacterRegistry` with explicit culture, motion and compatible-screen slots;
+- six original procedural archetypes: Kitsune, Kappa, Tanuki, Oni, Sun Wukong and Chinese Dragon;
+- Japanese and Chinese traditional/folklore references only; no copied modern character designs;
+- zero bitmap/GIF/Lottie/Rive asset dependency for the initial character set;
+- native Flutter `float`, `peek` and `sway` microanimations;
+- contextual candidate filtering plus entropy-based rotation;
+- immediate anti-repetition per slot and globally within the running session;
+- reduced-motion support through `MediaQuery.disableAnimations`;
+- Explore hero integration plus contextual empty-state mascots for Favorites and Shopping;
+- registry-ready search/wide editorial slots for later use;
+- generally one primary animated mascot per screen;
+- automated tests for culture/motion coverage, slot coverage, anti-repetition, six-character rendering and reduced-motion behavior;
+- no new runtime dependency; stale `flutter_staggered_animations` removed;
+- app version `0.7.0+7`.
 
-Exit: decorative motion improves identity without materially increasing app weight, distracting from cooking tasks or creating rights ambiguity.
+Exit: PASS — exact PR head green for structure/catalog gates, Flutter analyze/test, synthetic Web preview and production Web build.
 
-## F4 — Monetization v1
+## F4 — Monetization v1 — CURRENT
 
-Blocked by: F3.
+Blocked by: F3 — unblocked.
 
 Delivers consent/privacy, safe adaptive browsing ads, no ads during active cooking, one-time Remove Ads/Lifetime and entitlement-driven no-ad-request behaviour.
 
