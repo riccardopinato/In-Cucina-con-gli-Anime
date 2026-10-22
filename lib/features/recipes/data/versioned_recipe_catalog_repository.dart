@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import '../domain/recipe.dart';
 import '../domain/recipe_catalog_repository.dart';
-import 'recipe_catalogsource.dart';
+import 'recipe_catalog_source.dart';
 
 class RecipeCatalogException implements Exception {
   const RecipeCatalogException(this.message);
