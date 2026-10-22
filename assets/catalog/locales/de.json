@@ -1,5 +1,215 @@
 {
   "schemaVersion": 1,
   "locale": "de",
-  "recipes": {}
+  "recipes": {
+    "recipe_000001": {
+      "title": "Pfanneneier mit knusprigem Bacon",
+      "ingredientTexts": {
+        "smoked_bacon": {
+          "name": "Dick geschnittener Räucherbacon",
+          "note": "4 Scheiben"
+        },
+        "eggs": {
+          "name": "Große frische Eier",
+          "note": null
+        },
+        "butter": {
+          "name": "Butter",
+          "note": null
+        },
+        "black_pepper": {
+          "name": "Frisch gemahlener schwarzer Pfeffer",
+          "note": "nach Geschmack"
+        },
+        "country_bread": {
+          "name": "Rustikales Sauerteigbrot",
+          "note": "zum Servieren"
+        }
+      },
+      "stepTexts": {
+        "heat_pan": "Eine gusseiserne oder schwere Pfanne bei mittlerer Hitze erwärmen und die Butter schmelzen.",
+        "crisp_bacon": "Den Bacon braten, bis die Ränder goldbraun und knusprig sind.",
+        "add_eggs": "Den Bacon an den Rand schieben und die Eier in die freie Mitte schlagen, ohne die Eigelbe zu verletzen.",
+        "finish_eggs": "Die Hitze reduzieren und sanft garen, bis das Eiweiß gestockt ist und die Eigelbe weich bleiben.",
+        "season_serve": "Mit schwarzem Pfeffer würzen und sofort mit geröstetem Sauerteigbrot servieren."
+      }
+    },
+    "recipe_000002": {
+      "title": "Miso-Ramen mit Chashu",
+      "ingredientTexts": {
+        "ramen_noodles": {
+          "name": "Ramen-Nudeln",
+          "note": "frisch oder getrocknet"
+        },
+        "concentrated_broth": {
+          "name": "Konzentrierte Hühner- oder Schweinebrühe",
+          "note": null
+        },
+        "miso_paste": {
+          "name": "Misopaste",
+          "note": "für eine mildere Variante kann Sojasauce verwendet werden"
+        },
+        "chashu": {
+          "name": "Geschmorter Schweine-Chashu",
+          "note": "4 Scheiben"
+        },
+        "ajitsuke_eggs": {
+          "name": "Ajitsuke Tamago",
+          "note": "marinierte weich gekochte Eier"
+        },
+        "narutomaki": {
+          "name": "Narutomaki",
+          "note": "4 Scheiben"
+        },
+        "spring_onions": {
+          "name": "Frühlingszwiebeln",
+          "note": "fein geschnitten"
+        },
+        "bean_sprouts": {
+          "name": "Sojasprossen",
+          "note": "als Topping"
+        },
+        "nori": {
+          "name": "Nori",
+          "note": "in Servierstücke geschnitten"
+        }
+      },
+      "stepTexts": {
+        "season_broth": "Die Brühe sanft erhitzen und die Misopaste glatt einrühren. Warm halten, ohne sie stark einzukochen.",
+        "cook_noodles": "Die Ramen-Nudeln separat nach Packungsangabe garen und gründlich abtropfen lassen.",
+        "fill_bowls": "Die heißen Nudeln auf zwei Schalen verteilen und mit Brühe umgießen.",
+        "add_toppings": "Chashu, halbierte marinierte Eier, Narutomaki, Frühlingszwiebeln, Sojasprossen und Nori darauf anrichten.",
+        "serve": "Sofort heiß servieren."
+      }
+    },
+    "recipe_000003": {
+      "title": "Katsudon zum Feiern",
+      "ingredientTexts": {
+        "tonkatsu": {
+          "name": "Mit Panko panierte Schweinekoteletts",
+          "note": "bereits frittiert"
+        },
+        "onion": {
+          "name": "Gelbe Zwiebel",
+          "note": "dünn geschnitten"
+        },
+        "eggs": {
+          "name": "Große Eier",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Gedämpfter japanischer Reis",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi-Brühe",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker",
+          "note": null
+        },
+        "garnish": {
+          "name": "Erbsen oder Schnittlauch",
+          "note": "zum Garnieren"
+        }
+      },
+      "stepTexts": {
+        "simmer_onion": "Dashi, Sojasauce, Mirin und Zucker in einer kleinen Pfanne erhitzen. Die Zwiebel hinzufügen und weich köcheln lassen.",
+        "add_tonkatsu": "Die frittierten Koteletts in Streifen schneiden und auf die Zwiebeln legen.",
+        "add_eggs": "Die Eier nur leicht verquirlen und über das Fleisch gießen, sodass Eiweiß und Eigelb nicht völlig vermischt sind.",
+        "steam_finish": "Abdecken und nur kurz garen, damit das Ei weich und cremig bleibt.",
+        "assemble_bowl": "Heißen Reis auf zwei Schalen verteilen, Schweinefleisch und Ei daraufgeben und mit Erbsen oder Schnittlauch abschließen."
+      }
+    },
+    "recipe_000004": {
+      "title": "Dorayaki mit Anko",
+      "ingredientTexts": {
+        "eggs": {
+          "name": "Eier",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker",
+          "note": null
+        },
+        "honey": {
+          "name": "Honig",
+          "note": null
+        },
+        "flour": {
+          "name": "Weizenmehl",
+          "note": null
+        },
+        "baking_powder": {
+          "name": "Backpulver",
+          "note": null
+        },
+        "water": {
+          "name": "Wasser",
+          "note": null
+        },
+        "anko": {
+          "name": "Süße rote Bohnenpaste (Anko)",
+          "note": "alternativ kann Haselnusscreme verwendet werden"
+        }
+      },
+      "stepTexts": {
+        "whisk_base": "Eier, Zucker und Honig schlagen, bis die Mischung heller und leicht schaumig ist.",
+        "finish_batter": "Backpulver im Wasser auflösen, dazugeben und das gesiebte Mehl zu einem glatten Teig einarbeiten.",
+        "rest_batter": "Den Teig 15 Minuten im Kühlschrank ruhen lassen.",
+        "cook_first_side": "Eine beschichtete Pfanne bei niedriger Hitze erwärmen, hauchdünn einfetten und kleine Teigkreise ausbacken, bis oben Bläschen erscheinen.",
+        "cook_second_side": "Die Kreise wenden und die zweite Seite kurz goldbraun backen.",
+        "fill_dorayaki": "Abkühlen lassen, jeweils zwei Pancakes mit Anko füllen und die Ränder sanft zusammendrücken."
+      }
+    },
+    "recipe_000005": {
+      "title": "Onigiri mit Thunfisch und Mayonnaise",
+      "ingredientTexts": {
+        "sushi_rice": {
+          "name": "Sushi- oder Rundkornreis",
+          "note": null
+        },
+        "water": {
+          "name": "Wasser",
+          "note": null
+        },
+        "tuna": {
+          "name": "Abgetropfter Thunfisch",
+          "note": null
+        },
+        "japanese_mayo": {
+          "name": "Japanische Mayonnaise",
+          "note": null
+        },
+        "salt": {
+          "name": "Salz",
+          "note": "eine kleine Prise plus etwas zum Formen"
+        },
+        "nori": {
+          "name": "Nori-Blätter",
+          "note": "in Streifen geschnitten"
+        },
+        "sesame_or_furikake": {
+          "name": "Gerösteter Sesam oder Furikake",
+          "note": "optional"
+        }
+      },
+      "stepTexts": {
+        "wash_cook_rice": "Den Reis mehrmals spülen, bis das Wasser deutlich klarer bleibt. Mit der abgemessenen Wassermenge zugedeckt bei niedriger Hitze garen.",
+        "rest_rice": "Den Herd ausschalten und den Reis zugedeckt 10 Minuten ruhen lassen.",
+        "make_filling": "Den abgetropften Thunfisch mit japanischer Mayonnaise und einer kleinen Prise Salz verrühren.",
+        "fill_shape": "Die Hände anfeuchten und leicht salzen. Eine Portion warmen Reis flachdrücken, etwas Füllung in die Mitte geben, mit weiterem Reis bedecken und zu einem kompakten Dreieck formen.",
+        "finish_nori": "Einen Nori-Streifen um die Basis legen. Nach Wunsch Sesam oder Furikake ergänzen und lauwarm servieren."
+      }
+    }
+  }
 }
