@@ -23,9 +23,9 @@ The product should feel warm, illustrated and playful without presenting itself 
 
 ## Current scope
 
-F0 foundation and F1 versioned catalog contract are complete.
+F0 foundation, F1 runtime catalog contract and F2 authoring/import pipeline are complete.
 
-The production catalog intentionally contains zero real recipes. F2 builds the authoring/import pipeline before the first production content batch.
+The production catalog intentionally contains zero real recipes. F3 introduces the first approved production batch and the stronger visual identity.
 
 ## UX direction
 
@@ -54,12 +54,25 @@ Core browsing of installed recipe content, favorites and shopping list should re
 - canonical quantities/times/ingredient-step identity are separated from localized editorial wording;
 - locale fallback is deterministic;
 - invalid/unsupported packages fail closed;
-- runtime content is JSON-only;
-- recipe origin tracking stays lightweight through `contentOrigin` and optional internal `sourceNote`.
+- runtime and authoring content are JSON-only;
+- recipe origin tracking stays lightweight through `contentOrigin` and optional internal `sourceNote`;
+- generated runtime JSON must match the authoring source deterministically;
+- similarity is explainable and domain-configurable, never a destructive authority.
 
 ## Editorial workflow
 
-Recipes may be original, inspired or adapted from user-supplied reference material. Source prose is not shipped verbatim; content is normalized into the app schema and production wording is written for this app.
+User/reference material is first interpreted as culinary input. Raw copied prose is kept transient rather than committed.
+
+The committed authoring record contains normalized facts and fresh app editorial wording. Recipes may be `original`, `inspired` or `adapted`.
+
+Before publication:
+- identity/structure validate;
+- all six locales complete;
+- assets resolve through the authoring asset manifest;
+- duplicate/similarity gate runs;
+- blocking comparisons require fingerprint-bound review;
+- compiler emits the F1 catalog;
+- F1 validator and app preview pass.
 
 Visual/media assets follow a separate rights rule: prefer original, verified reusable/public-domain or intentionally licensed material.
 
@@ -76,7 +89,7 @@ Exact pricing/provider/store integration is out of scope until F4.
 
 ## Out of scope now
 
-- production recipe population;
+- production recipe population before F3;
 - official anime screenshots/posters/logos/modern character artwork without a rights basis;
 - account/cloud sync;
 - notifications;
@@ -89,11 +102,13 @@ Exact pricing/provider/store integration is out of scope until F4.
 ## Current success criteria
 
 - deterministic Android/iOS/Web Flutter scaffold;
-- versioned local JSON catalog contract;
-- production catalog still empty until F2/F3;
+- versioned local JSON runtime catalog;
+- deterministic authoring -> runtime compiler;
+- duplicate/similarity review with stale-decision protection;
+- production catalog still empty until F3;
 - Explore/Favorites/Shopping navigation works;
 - localization/theme/settings infrastructure exists;
 - stable user-state persistence seams exist;
 - entitlement boundary is provider-agnostic;
-- CI validates structure, catalog, analyze, tests and release builds;
-- future authoring can evolve without changing UI callers.
+- CI validates authoring, generated catalog, Flutter tests and production/fixture Web builds;
+- new recipes can be added without editing Dart.
