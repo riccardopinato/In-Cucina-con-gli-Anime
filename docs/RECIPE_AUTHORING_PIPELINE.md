@@ -97,6 +97,8 @@ Current dimensions:
 Ingredient aliases and unit conversions are explicit configuration, not inferred AI facts.
 
 Classifications:
+- `idempotent_duplicate`: same stable ID + same full fingerprint, safe to skip as the same input;
+- `same_entity_update`: same stable ID + changed content, treated as an update path rather than a new duplicate;
 - `probable_duplicate`;
 - `review_required`;
 - `possible_variant`;
