@@ -15,3 +15,5 @@ web/
 .signing/
 *.jks
 *.keystore
+authoring/inbox/*
+!authoring/inbox/README.txt
