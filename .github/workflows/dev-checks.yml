@@ -17,7 +17,7 @@ concurrency:
 jobs:
   validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 45
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -38,6 +38,12 @@ jobs:
       - name: Validate repository structure
         run: python3 tool/validate_structure.py
 
+      - name: Check generated recipe catalog
+        run: python3 tool/compile_recipe_catalog.py --check --report build/authoring/production_report.json
+
+      - name: Test recipe authoring pipeline
+        run: python3 -m unittest discover -s tool/tests -p 'test_*.py'
+
       - name: Validate recipe catalog
         run: python3 tool/validate_recipe_catalog.py
 
@@ -50,10 +56,13 @@ jobs:
       - name: Analyze
         run: flutter analyze
 
-      - name: Test
+      - name: Test Flutter
         run: flutter test
 
-      - name: Build Web release
+      - name: Build synthetic recipe Web preview
+        run: python3 tool/build_recipe_preview.py
+
+      - name: Build production Web release
         run: flutter build web --release --base-href "/In-Cucina-con-gli-Anime/"
 
       - name: Build Android ARM64 internal gate

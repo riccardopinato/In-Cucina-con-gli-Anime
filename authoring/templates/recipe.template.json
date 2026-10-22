@@ -1,0 +1,31 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_stable_id",
+  "contentVersion": 1,
+  "status": "draft",
+  "inspirationTitle": "Anime or manga title",
+  "prepMinutes": 0,
+  "cookMinutes": 0,
+  "servings": 2,
+  "difficulty": "easy",
+  "contentOrigin": "original",
+  "sourceNote": null,
+  "imageAssetId": null,
+  "ingredients": [
+    {"id": "ingredient_id", "quantity": 1, "unit": null}
+  ],
+  "steps": [
+    {"id": "step_id", "timerSeconds": null}
+  ],
+  "locales": {
+    "en": {
+      "title": "English title",
+      "ingredients": {
+        "ingredient_id": {"name": "Ingredient", "note": null}
+      },
+      "steps": {
+        "step_id": "Write fresh editorial instructions here."
+      }
+    }
+  }
+}

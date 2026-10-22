@@ -1,0 +1,33 @@
+{
+  "normalizerVersion": 1,
+  "weights": {
+    "reference": 0.2,
+    "ingredients": 0.35,
+    "quantities": 0.2,
+    "steps": 0.15,
+    "timing": 0.1
+  },
+  "thresholds": {
+    "probableDuplicate": 0.93,
+    "reviewRequired": 0.84,
+    "possibleVariant": 0.66
+  },
+  "blockingClassifications": ["probable_duplicate", "review_required"],
+  "ingredientAliases": {
+    "soy sauce": "soy sauce",
+    "shoyu": "soy sauce",
+    "salsa di soia": "soy sauce",
+    "spring onion": "spring onion",
+    "green onion": "spring onion",
+    "scallion": "spring onion",
+    "cipollotto": "spring onion"
+  },
+  "unitConversions": {
+    "g": {"dimension": "mass_g", "factor": 1.0},
+    "kg": {"dimension": "mass_g", "factor": 1000.0},
+    "ml": {"dimension": "volume_ml", "factor": 1.0},
+    "l": {"dimension": "volume_ml", "factor": 1000.0},
+    "tsp": {"dimension": "volume_ml", "factor": 5.0},
+    "tbsp": {"dimension": "volume_ml", "factor": 15.0}
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "authoringVersion": 1,
+  "schemaVersion": 1,
+  "catalogVersion": "0.2.0",
+  "defaultLocale": "en",
+  "supportedLocales": ["en", "it", "es", "fr", "de", "pt"],
+  "productionSource": "authoring/recipes",
+  "fixtureSource": "authoring/fixtures",
+  "assetManifest": "authoring/assets/manifest.json",
+  "reviewDecisions": "authoring/reviews/decisions.json",
+  "similarityPolicy": "authoring/config/similarity_policy.json"
+}

@@ -1,7 +1,7 @@
-IN CUCINA CON GLI ANIME — GOLDEN REUSE MANIFEST v0.1
-Factory baseline: riccardopinato/App-Factory-Core @ 47c47f49a7b46812e3bd6f1231c3524f2b52b826
+IN CUCINA CON GLI ANIME — GOLDEN REUSE MANIFEST v0.2
+Factory baseline: riccardopinato/App-Factory-Core @ 55247b294b44914dba8da6c176c9e50d5fe0e13e
 Master: 26.6
-Golden Index: 18
+Golden Index: 19
 
 RULE
 COPY FIRST. EXTEND BEFORE DUPLICATE.
@@ -17,11 +17,12 @@ Delta: app-specific strings + persistent locale adapter.
 Source: golden/ui/GOLDEN_THEME_M3_FLUTTER_v1.txt
 Targets: lib/core/theme/app_design_tokens.dart, lib/core/theme/app_theme.dart
 Delta: warm cookbook palette + Caveat/Nunito typography + wider content grid.
+Boundary: M3 is an implementation baseline, not the final F3 visual constraint.
 
 3) CI + Web Deploy
 Source: golden/release/GOLDEN_CI_RELEASE_WEB_DEPLOY_FLUTTER_v2.txt
 Targets: .github/workflows/dev-checks.yml, .github/workflows/deploy-pages.yml
-Delta: deterministic platform generation. Production signing deferred.
+Delta: deterministic platform generation + F2 Python authoring gates. Production signing deferred.
 
 4) Entitlement Contract
 Source: golden/monetization/GOLDEN_ENTITLEMENT_CONTRACT_FLUTTER_v1.txt
@@ -34,11 +35,47 @@ Sources:
 - golden/governance/GOLDEN_CODE_HYGIENE_v1.txt
 Targets: AGENTS.md + governance/agents/*
 
+6) Versioned Editorial Catalog
+Source: golden/data/GOLDEN_VERSIONED_EDITORIAL_CATALOG_FLUTTER_v1_DRAFT.txt
+Targets:
+- authoring/catalog.json
+- authoring/recipes/*
+- authoring/schema/*
+- tool/compile_recipe_catalog.py
+- tool/recipe_authoring_lib.py
+- assets/catalog/*
+Delta:
+- lightweight recipe-specific origin metadata;
+- strict six-locale publish gate;
+- build-time compiler instead of runtime transactional DB import;
+- generated runtime package checked deterministically in CI.
+
+7) Duplicate / Similarity Review Gate
+Source: golden/data/GOLDEN_DUPLICATE_SIMILARITY_REVIEW_GATE_v1_DRAFT.txt
+Targets:
+- authoring/config/similarity_policy.json
+- authoring/reviews/decisions.json
+- tool/recipe_authoring_lib.py
+- tool/review_recipe_similarity.py
+- tool/tests/test_recipe_authoring.py
+Delta:
+- recipe-domain comparison dimensions;
+- explicit ingredient aliases and unit conversions;
+- same-ID idempotent/update classification;
+- fingerprint-bound human review;
+- no destructive auto-action.
+Evidence boundary:
+this app is the first real implementation candidate; the central Golden remains at its registry status until separately reviewed/promoted in App-Factory-Core.
+
+8) Import / Export / Portability
+Source: golden/data/GOLDEN_IMPORT_EXPORT_PORTABILITY_FLUTTER_v1_DRAFT.txt
+Targets: source -> staging/validation/review -> compile/report authoring flow.
+Delta: F2 is an editorial build pipeline, not general user-data import/export or continuous sync.
+
 PROCESS GUIDANCE APPLIED
 - golden/governance/GOLDEN_APP_BOOTSTRAP_FLUTTER_v1_DRAFT.txt
 - golden/ui/GOLDEN_APP_ICON_BRANDING_FLUTTER_v1_DRAFT.txt
 - golden/ui/GOLDEN_APP_SHELL_RESPONSIVE_VISUAL_QA_FLUTTER_v1_DRAFT.txt
-- golden/data/GOLDEN_VERSIONED_EDITORIAL_CATALOG_FLUTTER_v1_DRAFT.txt
 - golden/release/GOLDEN_APPLAB_QA_CERTIFICATION_v1.txt
 
 NOT MOUNTED YET
