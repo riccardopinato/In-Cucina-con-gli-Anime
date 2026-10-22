@@ -56,5 +56,14 @@
   "manualItemSource": "Manual",
   "exploreTagline": "Cozinhe as cenas de que você se lembra.",
   "exploreIntro": "Um livro de receitas ilustrado inspirado na comida vista nos animes.",
-  "servingsLabel": "Porções"
+  "servingsLabel": "Porções",
+  "settingsPrivacyAds": "Privacidade e anúncios",
+  "privacyAdsDescription": "Os anúncios permanecem desativados até que a sua preferência e qualquer verificação de consentimento necessária do fornecedor os permitam. As receitas principais nunca exigem uma conta.",
+  "privacyStatusLabel": "Escolha atual",
+  "privacyStatusUnresolved": "Não escolhida",
+  "privacyStatusAllow": "Permitir anúncios",
+  "privacyStatusBlock": "Bloquear anúncios",
+  "privacyAllowAds": "Permitir pedidos de anúncios",
+  "privacyBlockAds": "Bloquear pedidos de anúncios",
+  "privacyResetChoice": "Repor escolha"
 }
