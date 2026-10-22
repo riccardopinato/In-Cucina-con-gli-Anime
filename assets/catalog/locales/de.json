@@ -210,6 +210,243 @@
         "fill_shape": "Die Hände anfeuchten und leicht salzen. Eine Portion warmen Reis flachdrücken, etwas Füllung in die Mitte geben, mit weiterem Reis bedecken und zu einem kompakten Dreieck formen.",
         "finish_nori": "Einen Nori-Streifen um die Basis legen. Nach Wunsch Sesam oder Furikake ergänzen und lauwarm servieren."
       }
+    },
+    "recipe_000006": {
+      "title": "Okonomiyaki nach Kansai-Art",
+      "ingredientTexts": {
+        "cabbage": {
+          "name": "Weißkohl",
+          "note": "sehr fein geschnitten"
+        },
+        "flour": {
+          "name": "Weizenmehl",
+          "note": null
+        },
+        "dashi": {
+          "name": "Kalte Dashi-Brühe",
+          "note": null
+        },
+        "egg": {
+          "name": "Ei",
+          "note": null
+        },
+        "pork_belly": {
+          "name": "Frischer Schweinebauch",
+          "note": "4 Scheiben"
+        },
+        "okonomiyaki_sauce": {
+          "name": "Okonomiyaki-Sauce",
+          "note": "oder Mischung aus Ketchup, Worcestersauce und Honig"
+        },
+        "japanese_mayo": {
+          "name": "Japanische Mayonnaise",
+          "note": "zum Garnieren"
+        },
+        "katsuobushi": {
+          "name": "Katsuobushi-Flocken",
+          "note": "zum Garnieren"
+        },
+        "aoki_seaweed": {
+          "name": "Aoki-Alge",
+          "note": "Bezeichnung aus der Quelle"
+        }
+      },
+      "stepTexts": {
+        "make_batter": "Mehl, kalte Dashi-Brühe und Ei zu einem glatten Teig verrühren.",
+        "add_cabbage": "Den fein geschnittenen Kohl unterheben, bis er gleichmäßig vom Teig umhüllt ist.",
+        "shape_and_top": "Eine leicht geölte Platte oder Pfanne erhitzen, die Mischung als dicken Kreis formen und die Schweinebauchscheiben obenauf legen.",
+        "cook_both_sides": "Zugedeckt bei mittlerer Hitze garen, bis die erste Seite fest ist, vorsichtig wenden und weitergaren, bis das Fleisch gebräunt und die Mitte durchgegart ist.",
+        "finish": "Auf einen Teller geben und mit Okonomiyaki-Sauce, japanischer Mayonnaise, Katsuobushi und Alge abschließen."
+      }
+    },
+    "recipe_000007": {
+      "title": "Takoyaki mit Oktopus",
+      "ingredientTexts": {
+        "octopus": {
+          "name": "Gekochter Oktopus",
+          "note": "in kleine Würfel geschnitten"
+        },
+        "flour": {
+          "name": "Mehl",
+          "note": null
+        },
+        "dashi": {
+          "name": "Kalte Dashi-Brühe",
+          "note": null
+        },
+        "egg": {
+          "name": "Ei",
+          "note": null
+        },
+        "beni_shoga": {
+          "name": "Beni Shoga",
+          "note": "gehackter eingelegter Ingwer"
+        },
+        "tenkasu": {
+          "name": "Tenkasu",
+          "note": "knusprige Stückchen frittierten Teigs"
+        },
+        "spring_onion": {
+          "name": "Frühlingszwiebel",
+          "note": "fein gehackt"
+        },
+        "takoyaki_sauce": {
+          "name": "Takoyaki-Sauce",
+          "note": "zum Servieren"
+        },
+        "japanese_mayo": {
+          "name": "Japanische Mayonnaise",
+          "note": "zum Servieren"
+        },
+        "katsuobushi": {
+          "name": "Katsuobushi-Flocken",
+          "note": "zum Servieren"
+        }
+      },
+      "stepTexts": {
+        "make_batter": "Mehl, Ei und kalte Dashi-Brühe zu einem dünnflüssigen glatten Teig verrühren.",
+        "heat_pan": "Die Takoyaki-Pfanne stark erhitzen und jede Mulde gut einfetten.",
+        "fill_moulds": "Die Mulden fast bis zum Rand mit Teig füllen.",
+        "add_fillings": "In jede Mulde Oktopus sowie etwas Beni Shoga, Tenkasu und Frühlingszwiebel geben.",
+        "turn_balls": "Sobald die Unterseite fest wird, die Stücke mit Holzstäbchen schrittweise drehen und überschüssigen Teig nach innen schieben, bis runde goldbraune Kugeln entstehen.",
+        "finish": "Heiß mit Takoyaki-Sauce, japanischer Mayonnaise und Katsuobushi servieren."
+      }
+    },
+    "recipe_000008": {
+      "title": "Omurice mit Ketchup",
+      "ingredientTexts": {
+        "steamed_rice": {
+          "name": "Gedämpfter Reis",
+          "note": null
+        },
+        "chicken_breast": {
+          "name": "Hähnchenbrust",
+          "note": "gewürfelt"
+        },
+        "onion": {
+          "name": "Zwiebel",
+          "note": "eine halbe, gehackt"
+        },
+        "ketchup": {
+          "name": "Ketchup",
+          "note": "plus etwas zum Dekorieren"
+        },
+        "eggs": {
+          "name": "Frische Eier",
+          "note": null
+        },
+        "milk": {
+          "name": "Milch",
+          "note": null
+        },
+        "butter": {
+          "name": "Butter",
+          "note": null
+        },
+        "salt_pepper": {
+          "name": "Salz und Pfeffer",
+          "note": "nach Geschmack"
+        }
+      },
+      "stepTexts": {
+        "cook_rice_filling": "Hähnchen und Zwiebel in wenig Öl anbraten. Reis und Ketchup hinzufügen und schwenken, bis alles heiß und gleichmäßig gewürzt ist.",
+        "shape_rice": "Den gewürzten Reis als kompakten ovalen Hügel auf einem Teller formen.",
+        "beat_eggs": "Eier mit Milch sowie etwas Salz und Pfeffer verquirlen.",
+        "cook_omelette": "Butter in einer sauberen Pfanne bei mittlerer bis niedriger Hitze schmelzen und ein weiches, biegsames Omelett garen.",
+        "wrap_and_decorate": "Das Omelett über den Reis legen und oben mit Ketchup ein Herz oder eine kurze Nachricht zeichnen."
+      }
+    },
+    "recipe_000009": {
+      "title": "Oyakodon mit Hähnchen und Ei",
+      "ingredientTexts": {
+        "chicken_thigh": {
+          "name": "Hähnchenschenkel ohne Knochen",
+          "note": "in mundgerechte Stücke geschnitten"
+        },
+        "onion": {
+          "name": "Gelbe Zwiebel",
+          "note": "eine halbe, dünn geschnitten"
+        },
+        "eggs": {
+          "name": "Große Eier",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Gedämpfter japanischer Reis",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi-Brühe",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker",
+          "note": null
+        },
+        "mitsuba_or_chives": {
+          "name": "Mitsuba-Blätter oder Schnittlauch",
+          "note": "zum Garnieren"
+        }
+      },
+      "stepTexts": {
+        "season_broth": "Dashi, Sojasauce, Mirin und Zucker in einer kleinen Pfanne sanft aufkochen.",
+        "cook_chicken": "Zwiebel und Hähnchen hinzufügen, abdecken und bei mittlerer Hitze garen, bis das Fleisch durch und die Zwiebel weich ist.",
+        "first_egg": "Die Eier nur leicht verquirlen und etwa drei Viertel über das Hähnchen gießen. Abdecken und kurz stocken lassen.",
+        "finish_egg": "Das restliche Ei zugeben, die Hitze ausschalten und kurz zugedeckt ruhen lassen, damit die Oberfläche weich und cremig bleibt.",
+        "assemble": "Hähnchen, Ei und Würzbrühe auf heißen Reis geben und mit Mitsuba oder Schnittlauch abschließen."
+      }
+    },
+    "recipe_000010": {
+      "title": "Kürbis-Fisch-Auflauf mit Blätterteig",
+      "ingredientTexts": {
+        "pumpkin": {
+          "name": "Kürbis",
+          "note": "Typ Delica oder Mantovana, geputzt und gewürfelt"
+        },
+        "white_fish_or_herring": {
+          "name": "Weißfischfilets oder geräucherter Hering",
+          "note": null
+        },
+        "puff_pastry": {
+          "name": "Rechteckiger Blätterteig",
+          "note": "1 Rolle"
+        },
+        "bechamel": {
+          "name": "Béchamelsauce",
+          "note": null
+        },
+        "onion": {
+          "name": "Zwiebel",
+          "note": "eine halbe, gehackt"
+        },
+        "black_olives": {
+          "name": "Entsteinte schwarze Oliven",
+          "note": null
+        },
+        "egg_yolk": {
+          "name": "Eigelb",
+          "note": "zum Bestreichen"
+        },
+        "seasoning": {
+          "name": "Salz, Pfeffer und Muskatnuss",
+          "note": "nach Geschmack"
+        }
+      },
+      "stepTexts": {
+        "cook_pumpkin": "Den Kürbis weich garen, grob zerdrücken und mit Salz, Pfeffer und Muskat würzen.",
+        "cook_fish": "Die gehackte Zwiebel in wenig Öl weich dünsten, den Fisch zugeben und einige Minuten mitgaren.",
+        "assemble_filling": "Kürbis in einer Auflaufform verteilen, Fisch und Zwiebel daraufgeben, Olivenscheiben darüberstreuen und mit Béchamel bedecken.",
+        "cover_and_decorate": "Die Form mit Blätterteig abdecken und aus Resten eine einfache Fischdekoration formen.",
+        "bake": "Mit Eigelb bestreichen und im vorgeheizten statischen Ofen bei 200°C backen, bis der Blätterteig kräftig goldbraun ist."
+      }
     }
   }
 }
