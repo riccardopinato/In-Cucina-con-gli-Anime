@@ -87,21 +87,29 @@ First batch:
 
 Exit: PASS when exact PR head is green for authoring validation, similarity gate, generated-catalog drift, F1 validation, Flutter analyze/test, synthetic preview and production Web build.
 
-### F3B — Visual identity redesign — CURRENT
+### F3B — Visual identity redesign — PASS
 
-Delivers:
-- redesign Explore/Home around real recipe content rather than empty-state placeholders;
-- stronger editorial/anime-cooking visual language beyond stock Material 3;
-- refined recipe cards, filters, typography, spacing and detail hierarchy;
-- real-content responsive review on phone, tablet and Web;
-- preserve accessibility, performance and the underlying theme/token architecture;
-- decide visual treatment for recipes that do not yet have food photography.
+Delivered:
+- Japanese-contemporary editorial cookbook direction layered over the existing Material 3 infrastructure;
+- expanded rice-paper / meadow / ember / matcha / plum design tokens for light and dark themes;
+- editorial Explore header, integrated search and horizontally scrollable anime/difficulty filter rails;
+- redesigned recipe cards with stronger hierarchy, reference treatment, favorite affordance and compact metadata;
+- deterministic procedural artwork keyed by stable recipe IDs, with ten distinct treatments for the current catalog;
+- procedural art used only as a no-photo fallback, so future original/licensed photography can replace it without architecture changes;
+- redesigned recipe detail hero and summary facts for prep, cook, difficulty and servings;
+- responsive two-column tablet/Web detail layout with ingredients/timer separated from preparation steps;
+- editorial ingredient checklist, step cards and redesigned cooking timer;
+- Favorites inherits the same recipe-card identity;
+- EN/IT/ES/FR/DE/PT visual-surface copy parity;
+- removed the unused `flutter_staggered_animations` dependency;
+- automated smoke coverage proving all ten procedural identities render;
+- app version `0.6.0+6`.
 
-Exit: all ten real recipes look intentional and coherent across primary surfaces before F3C.
+Exit: PASS — exact PR head green for structure, authoring/catalog gates, localization, Flutter analyze/test, synthetic Web preview and production Web build.
 
-### F3C — Dynamic Decorative Characters
+### F3C — Dynamic Decorative Characters — CURRENT
 
-Blocked by: F3B.
+Blocked by: F3B — unblocked.
 
 Delivers:
 - reusable decorative-character registry independent from recipe content;
