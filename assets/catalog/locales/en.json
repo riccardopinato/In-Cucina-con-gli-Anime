@@ -1,5 +1,215 @@
 {
   "schemaVersion": 1,
   "locale": "en",
-  "recipes": {}
+  "recipes": {
+    "recipe_000001": {
+      "title": "Skillet Eggs with Crispy Bacon",
+      "ingredientTexts": {
+        "smoked_bacon": {
+          "name": "Thick-cut smoked bacon",
+          "note": "4 slices"
+        },
+        "eggs": {
+          "name": "Large fresh eggs",
+          "note": null
+        },
+        "butter": {
+          "name": "Butter",
+          "note": null
+        },
+        "black_pepper": {
+          "name": "Freshly ground black pepper",
+          "note": "to taste"
+        },
+        "country_bread": {
+          "name": "Rustic sourdough bread",
+          "note": "for serving"
+        }
+      },
+      "stepTexts": {
+        "heat_pan": "Warm a cast-iron or heavy skillet over medium heat and melt the butter.",
+        "crisp_bacon": "Lay in the bacon and cook until the edges are browned and crisp while the centre stays tender.",
+        "add_eggs": "Move the bacon toward the sides of the pan, then crack the eggs into the open centre without breaking the yolks.",
+        "finish_eggs": "Lower the heat and cook gently until the whites are set and the yolks are still soft.",
+        "season_serve": "Finish with black pepper and serve immediately with toasted rustic bread."
+      }
+    },
+    "recipe_000002": {
+      "title": "Miso Ramen with Chashu",
+      "ingredientTexts": {
+        "ramen_noodles": {
+          "name": "Ramen noodles",
+          "note": "fresh or dried"
+        },
+        "concentrated_broth": {
+          "name": "Concentrated chicken or pork broth",
+          "note": null
+        },
+        "miso_paste": {
+          "name": "Miso paste",
+          "note": "soy sauce can be used for a lighter alternative"
+        },
+        "chashu": {
+          "name": "Braised pork chashu",
+          "note": "4 slices"
+        },
+        "ajitsuke_eggs": {
+          "name": "Ajitsuke tamago",
+          "note": "marinated soft-boiled eggs"
+        },
+        "narutomaki": {
+          "name": "Narutomaki",
+          "note": "4 slices"
+        },
+        "spring_onions": {
+          "name": "Spring onions",
+          "note": "finely sliced"
+        },
+        "bean_sprouts": {
+          "name": "Bean sprouts",
+          "note": "for topping"
+        },
+        "nori": {
+          "name": "Nori",
+          "note": "cut into serving pieces"
+        }
+      },
+      "stepTexts": {
+        "season_broth": "Heat the broth gently and whisk in the miso until smooth. Keep it hot without letting it reduce aggressively.",
+        "cook_noodles": "Cook the ramen noodles separately according to their package timing, then drain thoroughly.",
+        "fill_bowls": "Divide the hot noodles between two bowls and ladle over enough broth to surround them.",
+        "add_toppings": "Arrange the chashu, halved marinated eggs, narutomaki, spring onion, bean sprouts and nori over the noodles.",
+        "serve": "Serve immediately while the broth and noodles are piping hot."
+      }
+    },
+    "recipe_000003": {
+      "title": "Victory Katsudon",
+      "ingredientTexts": {
+        "tonkatsu": {
+          "name": "Panko-breaded pork cutlets",
+          "note": "fried and ready to use"
+        },
+        "onion": {
+          "name": "Golden onion",
+          "note": "thinly sliced"
+        },
+        "eggs": {
+          "name": "Large eggs",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Steamed Japanese rice",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi broth",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "garnish": {
+          "name": "Peas or chives",
+          "note": "for garnish"
+        }
+      },
+      "stepTexts": {
+        "simmer_onion": "Combine dashi, soy sauce, mirin and sugar in a small skillet. Add the onion and simmer until softened.",
+        "add_tonkatsu": "Slice the fried pork cutlets into strips and lay them over the seasoned onion.",
+        "add_eggs": "Beat the eggs only lightly, then pour them over the cutlets so distinct streaks of white and yolk remain.",
+        "steam_finish": "Cover and cook briefly, stopping while the egg is still soft and creamy rather than fully firm.",
+        "assemble_bowl": "Fill two bowls with hot rice, slide the pork-and-egg mixture on top and finish with peas or chives."
+      }
+    },
+    "recipe_000004": {
+      "title": "Dorayaki with Anko",
+      "ingredientTexts": {
+        "eggs": {
+          "name": "Eggs",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "honey": {
+          "name": "Honey",
+          "note": null
+        },
+        "flour": {
+          "name": "Plain flour",
+          "note": null
+        },
+        "baking_powder": {
+          "name": "Baking powder",
+          "note": null
+        },
+        "water": {
+          "name": "Water",
+          "note": null
+        },
+        "anko": {
+          "name": "Sweet red-bean paste (anko)",
+          "note": "hazelnut spread can be used as an alternative"
+        }
+      },
+      "stepTexts": {
+        "whisk_base": "Whisk the eggs with the sugar and honey until the mixture looks lighter and slightly foamy.",
+        "finish_batter": "Mix the baking powder into the water, add it to the bowl and fold in the sifted flour until the batter is smooth.",
+        "rest_batter": "Chill the batter for 15 minutes so it can settle before cooking.",
+        "cook_first_side": "Heat a non-stick pan over low heat, wipe it with a very thin film of oil and spoon in small rounds of batter. Cook until bubbles appear on top.",
+        "cook_second_side": "Turn each round and cook the second side briefly until evenly coloured.",
+        "fill_dorayaki": "Let the cakes cool, then sandwich them in pairs with anko in the centre and gently press the edges into the classic rounded shape."
+      }
+    },
+    "recipe_000005": {
+      "title": "Tuna Mayo Onigiri",
+      "ingredientTexts": {
+        "sushi_rice": {
+          "name": "Sushi or short-grain rice",
+          "note": null
+        },
+        "water": {
+          "name": "Water",
+          "note": null
+        },
+        "tuna": {
+          "name": "Drained tuna",
+          "note": null
+        },
+        "japanese_mayo": {
+          "name": "Japanese mayonnaise",
+          "note": null
+        },
+        "salt": {
+          "name": "Salt",
+          "note": "a small pinch plus a little for shaping"
+        },
+        "nori": {
+          "name": "Nori sheets",
+          "note": "cut into strips"
+        },
+        "sesame_or_furikake": {
+          "name": "Toasted sesame seeds or furikake",
+          "note": "optional"
+        }
+      },
+      "stepTexts": {
+        "wash_cook_rice": "Rinse the rice several times until the water runs much clearer. Cook it with the measured water, covered, over low heat.",
+        "rest_rice": "Turn off the heat and leave the rice covered for 10 minutes before shaping.",
+        "make_filling": "Mix the drained tuna with the Japanese mayonnaise and a small pinch of salt.",
+        "fill_shape": "Moisten and lightly salt your hands. Flatten a portion of warm rice, add a little tuna filling in the centre, cover with more rice and shape into a compact triangle.",
+        "finish_nori": "Wrap a strip of nori around the base. Add sesame or furikake if desired and serve while the rice is still pleasantly warm."
+      }
+    }
+  }
 }

@@ -1,5 +1,215 @@
 {
   "schemaVersion": 1,
   "locale": "it",
-  "recipes": {}
+  "recipes": {
+    "recipe_000001": {
+      "title": "Uova in padella con bacon croccante",
+      "ingredientTexts": {
+        "smoked_bacon": {
+          "name": "Bacon affumicato a fette spesse",
+          "note": "4 fette"
+        },
+        "eggs": {
+          "name": "Uova fresche grandi",
+          "note": null
+        },
+        "butter": {
+          "name": "Burro",
+          "note": null
+        },
+        "black_pepper": {
+          "name": "Pepe nero macinato fresco",
+          "note": "quanto basta"
+        },
+        "country_bread": {
+          "name": "Pane casereccio a lievitazione naturale",
+          "note": "per accompagnare"
+        }
+      },
+      "stepTexts": {
+        "heat_pan": "Scalda una padella in ghisa o dal fondo pesante a fuoco medio e fai sciogliere il burro.",
+        "crisp_bacon": "Sistema il bacon in padella e cuocilo finché i bordi diventano ben dorati e croccanti.",
+        "add_eggs": "Sposta il bacon verso i lati e rompi le uova nello spazio centrale, lasciando i tuorli integri.",
+        "finish_eggs": "Abbassa la fiamma e prosegui la cottura finché gli albumi sono rassodati ma i tuorli restano morbidi.",
+        "season_serve": "Completa con pepe nero e porta subito in tavola con pane casereccio tostato."
+      }
+    },
+    "recipe_000002": {
+      "title": "Ramen al miso con chashu",
+      "ingredientTexts": {
+        "ramen_noodles": {
+          "name": "Noodles per ramen",
+          "note": "freschi o secchi"
+        },
+        "concentrated_broth": {
+          "name": "Brodo concentrato di pollo o maiale",
+          "note": null
+        },
+        "miso_paste": {
+          "name": "Pasta di miso",
+          "note": "in alternativa si può usare salsa di soia per un gusto più leggero"
+        },
+        "chashu": {
+          "name": "Chashu di maiale brasato",
+          "note": "4 fette"
+        },
+        "ajitsuke_eggs": {
+          "name": "Ajitsuke tamago",
+          "note": "uova marinate barzotte"
+        },
+        "narutomaki": {
+          "name": "Narutomaki",
+          "note": "4 fette"
+        },
+        "spring_onions": {
+          "name": "Cipollotti freschi",
+          "note": "affettati finemente"
+        },
+        "bean_sprouts": {
+          "name": "Germogli di soia",
+          "note": "per completare"
+        },
+        "nori": {
+          "name": "Alga nori",
+          "note": "tagliata in porzioni"
+        }
+      },
+      "stepTexts": {
+        "season_broth": "Scalda il brodo dolcemente e incorpora il miso mescolando finché si scioglie. Mantienilo caldo senza farlo restringere troppo.",
+        "cook_noodles": "Cuoci i noodles a parte seguendo il tempo indicato sulla confezione, quindi scolali con cura.",
+        "fill_bowls": "Distribuisci i noodles caldi in due ciotole e versa il brodo fino a circondarli bene.",
+        "add_toppings": "Completa con chashu, uova marinate tagliate a metà, narutomaki, cipollotto, germogli di soia e nori.",
+        "serve": "Porta subito in tavola, quando brodo e noodles sono ancora molto caldi."
+      }
+    },
+    "recipe_000003": {
+      "title": "Katsudon della vittoria",
+      "ingredientTexts": {
+        "tonkatsu": {
+          "name": "Cotolette di maiale impanate nel panko",
+          "note": "già fritte"
+        },
+        "onion": {
+          "name": "Cipolla dorata",
+          "note": "affettata sottile"
+        },
+        "eggs": {
+          "name": "Uova grandi",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Riso giapponese cotto al vapore",
+          "note": null
+        },
+        "dashi": {
+          "name": "Brodo dashi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa di soia",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucchero",
+          "note": null
+        },
+        "garnish": {
+          "name": "Piselli o erba cipollina",
+          "note": "per guarnire"
+        }
+      },
+      "stepTexts": {
+        "simmer_onion": "Riunisci in un padellino dashi, salsa di soia, mirin e zucchero. Aggiungi la cipolla e falla sobbollire finché si ammorbidisce.",
+        "add_tonkatsu": "Taglia le cotolette fritte a strisce e sistemale sopra la cipolla insaporita.",
+        "add_eggs": "Sbatti le uova solo leggermente e versale sulle cotolette, lasciando il composto volutamente poco uniforme.",
+        "steam_finish": "Copri e cuoci per poco tempo: l’uovo deve restare morbido e cremoso, non asciutto.",
+        "assemble_bowl": "Distribuisci il riso caldo in due ciotole, fai scivolare sopra maiale, uovo e cipolla e completa con piselli o erba cipollina."
+      }
+    },
+    "recipe_000004": {
+      "title": "Dorayaki con anko",
+      "ingredientTexts": {
+        "eggs": {
+          "name": "Uova",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucchero",
+          "note": null
+        },
+        "honey": {
+          "name": "Miele",
+          "note": null
+        },
+        "flour": {
+          "name": "Farina 00",
+          "note": null
+        },
+        "baking_powder": {
+          "name": "Lievito per dolci",
+          "note": null
+        },
+        "water": {
+          "name": "Acqua",
+          "note": null
+        },
+        "anko": {
+          "name": "Pasta dolce di fagioli rossi (anko)",
+          "note": "in alternativa si può usare crema di nocciole"
+        }
+      },
+      "stepTexts": {
+        "whisk_base": "Lavora uova, zucchero e miele con una frusta finché il composto diventa più chiaro e leggermente spumoso.",
+        "finish_batter": "Sciogli il lievito nell’acqua, uniscilo al composto e incorpora la farina setacciata fino a ottenere una pastella liscia.",
+        "rest_batter": "Lascia riposare la pastella in frigorifero per 15 minuti prima della cottura.",
+        "cook_first_side": "Scalda una padella antiaderente a fuoco basso, ungila appena e versa piccole porzioni di pastella formando dischi regolari. Cuoci finché compaiono bollicine in superficie.",
+        "cook_second_side": "Gira i dischi e completa brevemente la cottura dell’altro lato fino a doratura uniforme.",
+        "fill_dorayaki": "Fai raffreddare i pancake, poi accoppiali con l’anko al centro e premi delicatamente i bordi per ottenere la forma bombata."
+      }
+    },
+    "recipe_000005": {
+      "title": "Onigiri al tonno e maionese",
+      "ingredientTexts": {
+        "sushi_rice": {
+          "name": "Riso per sushi o riso originario",
+          "note": null
+        },
+        "water": {
+          "name": "Acqua",
+          "note": null
+        },
+        "tuna": {
+          "name": "Tonno sgocciolato",
+          "note": null
+        },
+        "japanese_mayo": {
+          "name": "Maionese giapponese",
+          "note": null
+        },
+        "salt": {
+          "name": "Sale",
+          "note": "un pizzico più una piccola quantità per modellare"
+        },
+        "nori": {
+          "name": "Fogli di alga nori",
+          "note": "tagliati a strisce"
+        },
+        "sesame_or_furikake": {
+          "name": "Semi di sesamo tostati o furikake",
+          "note": "facoltativi"
+        }
+      },
+      "stepTexts": {
+        "wash_cook_rice": "Sciacqua il riso più volte finché l’acqua diventa molto più limpida. Cuocilo con la quantità misurata di acqua, coperto e a fuoco basso.",
+        "rest_rice": "Spegni il fuoco e lascia riposare il riso coperto per 10 minuti prima di modellarlo.",
+        "make_filling": "Mescola il tonno ben sgocciolato con la maionese giapponese e un piccolo pizzico di sale.",
+        "fill_shape": "Inumidisci e sala appena le mani. Appiattisci una porzione di riso tiepido, metti un po’ di ripieno al centro, copri con altro riso e forma un triangolo compatto.",
+        "finish_nori": "Avvolgi una striscia di nori intorno alla base. Aggiungi sesamo o furikake se vuoi e servi mentre il riso è ancora piacevolmente tiepido."
+      }
+    }
+  }
 }

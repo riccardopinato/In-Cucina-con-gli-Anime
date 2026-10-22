@@ -1,5 +1,215 @@
 {
   "schemaVersion": 1,
   "locale": "fr",
-  "recipes": {}
+  "recipes": {
+    "recipe_000001": {
+      "title": "Œufs à la poêle et bacon croustillant",
+      "ingredientTexts": {
+        "smoked_bacon": {
+          "name": "Bacon fumé épais",
+          "note": "4 tranches"
+        },
+        "eggs": {
+          "name": "Gros œufs frais",
+          "note": null
+        },
+        "butter": {
+          "name": "Beurre",
+          "note": null
+        },
+        "black_pepper": {
+          "name": "Poivre noir fraîchement moulu",
+          "note": "selon le goût"
+        },
+        "country_bread": {
+          "name": "Pain rustique au levain",
+          "note": "pour accompagner"
+        }
+      },
+      "stepTexts": {
+        "heat_pan": "Faites chauffer une poêle en fonte ou à fond épais à feu moyen et faites fondre le beurre.",
+        "crisp_bacon": "Faites cuire le bacon jusqu’à ce que les bords soient bien dorés et croustillants.",
+        "add_eggs": "Repoussez le bacon sur les côtés puis cassez les œufs au centre sans percer les jaunes.",
+        "finish_eggs": "Baissez le feu et poursuivez doucement jusqu’à ce que les blancs soient pris et les jaunes encore tendres.",
+        "season_serve": "Poivrez et servez aussitôt avec du pain rustique grillé."
+      }
+    },
+    "recipe_000002": {
+      "title": "Ramen au miso et chashu",
+      "ingredientTexts": {
+        "ramen_noodles": {
+          "name": "Nouilles ramen",
+          "note": "fraîches ou sèches"
+        },
+        "concentrated_broth": {
+          "name": "Bouillon concentré de poulet ou de porc",
+          "note": null
+        },
+        "miso_paste": {
+          "name": "Pâte de miso",
+          "note": "la sauce soja peut remplacer le miso pour une version plus légère"
+        },
+        "chashu": {
+          "name": "Chashu de porc braisé",
+          "note": "4 tranches"
+        },
+        "ajitsuke_eggs": {
+          "name": "Ajitsuke tamago",
+          "note": "œufs marinés à jaune tendre"
+        },
+        "narutomaki": {
+          "name": "Narutomaki",
+          "note": "4 tranches"
+        },
+        "spring_onions": {
+          "name": "Ciboules",
+          "note": "finement émincées"
+        },
+        "bean_sprouts": {
+          "name": "Germes de soja",
+          "note": "pour la garniture"
+        },
+        "nori": {
+          "name": "Nori",
+          "note": "découpé en portions"
+        }
+      },
+      "stepTexts": {
+        "season_broth": "Faites chauffer doucement le bouillon et délayez-y le miso jusqu’à obtenir un mélange homogène. Gardez au chaud.",
+        "cook_noodles": "Faites cuire les nouilles séparément selon les indications du paquet puis égouttez-les soigneusement.",
+        "fill_bowls": "Répartissez les nouilles chaudes dans deux bols et versez le bouillon.",
+        "add_toppings": "Disposez le chashu, les œufs marinés coupés en deux, le narutomaki, la ciboule, les germes et le nori.",
+        "serve": "Servez immédiatement tant que le bouillon est très chaud."
+      }
+    },
+    "recipe_000003": {
+      "title": "Katsudon de la victoire",
+      "ingredientTexts": {
+        "tonkatsu": {
+          "name": "Escalopes de porc panées au panko",
+          "note": "déjà frites"
+        },
+        "onion": {
+          "name": "Oignon jaune",
+          "note": "finement émincé"
+        },
+        "eggs": {
+          "name": "Gros œufs",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Riz japonais cuit à la vapeur",
+          "note": null
+        },
+        "dashi": {
+          "name": "Bouillon dashi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre",
+          "note": null
+        },
+        "garnish": {
+          "name": "Petits pois ou ciboulette",
+          "note": "pour garnir"
+        }
+      },
+      "stepTexts": {
+        "simmer_onion": "Versez le dashi, la sauce soja, le mirin et le sucre dans une petite poêle. Ajoutez l’oignon et laissez frémir jusqu’à ce qu’il soit tendre.",
+        "add_tonkatsu": "Découpez les escalopes frites en lanières et posez-les sur l’oignon.",
+        "add_eggs": "Battez les œufs très légèrement puis versez-les sur le porc sans chercher un mélange parfaitement homogène.",
+        "steam_finish": "Couvrez et cuisez brièvement afin de conserver une texture d’œuf souple et crémeuse.",
+        "assemble_bowl": "Répartissez le riz chaud dans deux bols, ajoutez le mélange porc-œuf et terminez par les petits pois ou la ciboulette."
+      }
+    },
+    "recipe_000004": {
+      "title": "Dorayaki à l’anko",
+      "ingredientTexts": {
+        "eggs": {
+          "name": "Œufs",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre",
+          "note": null
+        },
+        "honey": {
+          "name": "Miel",
+          "note": null
+        },
+        "flour": {
+          "name": "Farine de blé",
+          "note": null
+        },
+        "baking_powder": {
+          "name": "Levure chimique",
+          "note": null
+        },
+        "water": {
+          "name": "Eau",
+          "note": null
+        },
+        "anko": {
+          "name": "Pâte sucrée de haricots rouges (anko)",
+          "note": "une pâte à tartiner aux noisettes peut servir d’alternative"
+        }
+      },
+      "stepTexts": {
+        "whisk_base": "Fouettez les œufs avec le sucre et le miel jusqu’à obtenir un mélange plus clair et légèrement mousseux.",
+        "finish_batter": "Délayez la levure dans l’eau, ajoutez-la puis incorporez la farine tamisée jusqu’à obtenir une pâte lisse.",
+        "rest_batter": "Laissez reposer la pâte 15 minutes au réfrigérateur.",
+        "cook_first_side": "Chauffez une poêle antiadhésive à feu doux, huilez-la très légèrement puis formez de petits disques. Cuisez jusqu’à l’apparition de bulles.",
+        "cook_second_side": "Retournez les disques et terminez rapidement la cuisson de l’autre face.",
+        "fill_dorayaki": "Laissez refroidir puis assemblez les disques deux par deux avec l’anko au centre en pinçant doucement les bords."
+      }
+    },
+    "recipe_000005": {
+      "title": "Onigiri au thon et à la mayonnaise",
+      "ingredientTexts": {
+        "sushi_rice": {
+          "name": "Riz à sushi ou riz rond",
+          "note": null
+        },
+        "water": {
+          "name": "Eau",
+          "note": null
+        },
+        "tuna": {
+          "name": "Thon égoutté",
+          "note": null
+        },
+        "japanese_mayo": {
+          "name": "Mayonnaise japonaise",
+          "note": null
+        },
+        "salt": {
+          "name": "Sel",
+          "note": "une petite pincée plus un peu pour le façonnage"
+        },
+        "nori": {
+          "name": "Feuilles de nori",
+          "note": "coupées en bandes"
+        },
+        "sesame_or_furikake": {
+          "name": "Graines de sésame grillées ou furikake",
+          "note": "facultatif"
+        }
+      },
+      "stepTexts": {
+        "wash_cook_rice": "Rincez plusieurs fois le riz jusqu’à ce que l’eau soit nettement plus claire. Faites-le cuire à couvert avec l’eau mesurée, à feu doux.",
+        "rest_rice": "Coupez le feu et laissez le riz reposer 10 minutes à couvert.",
+        "make_filling": "Mélangez le thon égoutté avec la mayonnaise japonaise et une petite pincée de sel.",
+        "fill_shape": "Humidifiez et salez légèrement vos mains. Aplatissez une portion de riz tiède, ajoutez un peu de farce au centre, recouvrez de riz et formez un triangle compact.",
+        "finish_nori": "Placez une bande de nori à la base. Ajoutez du sésame ou du furikake si souhaité et servez le riz encore tiède."
+      }
+    }
+  }
 }

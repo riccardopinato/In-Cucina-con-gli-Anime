@@ -59,32 +59,55 @@ Exit: PASS — a synthetic recipe travels normalized authoring JSON -> validatio
 
 Blocked by: F2 — unblocked.
 
+### F3A — First production editorial batch — PASS
+
+Delivered:
+- five real production recipes authored through the F2 pipeline;
+- stable IDs `recipe_000001` through `recipe_000005`;
+- fresh editorial copy derived from user-provided culinary reference material rather than copied source prose;
+- EN/IT/ES/FR/DE/PT localized content for every published recipe;
+- editorially documented serving estimates where the source material omitted yield;
+- runtime catalog version `0.3.0`;
+- app version `0.4.0+4`;
+- production catalog generation with no Dart edits;
+- similarity/duplicate gate applied to the real batch;
+- F1 runtime validation and CI build gates retained.
+
+First batch:
+1. Skillet eggs with crispy bacon — inspired by `Il castello errante di Howl`;
+2. Miso ramen with chashu — inspired by `Naruto`;
+3. Victory katsudon — inspired by `Yuri!!! on ICE / My Hero Academia`;
+4. Dorayaki with anko — inspired by `Doraemon`;
+5. Tuna mayo onigiri — inspired by `La città incantata / Pokémon`.
+
+Exit: PASS when exact PR head is green for authoring validation, similarity gate, generated-catalog drift, F1 validation, Flutter analyze/test, synthetic preview and production Web build.
+
+### F3B — Visual identity redesign — CURRENT
+
 Delivers:
-- first production recipe batch authored through the F2 pipeline;
-- duplicate/variant review for each incoming batch before publication;
-- end-to-end search/filter/detail/timer/favorites/shopping on real content;
-- visual refinement beyond stock Material 3 while preserving design-system architecture;
-- Dynamic Decorative Characters system for intentional empty/decorative spaces.
+- redesign Explore/Home around real recipe content rather than empty-state placeholders;
+- stronger editorial/anime-cooking visual language beyond stock Material 3;
+- refined recipe cards, filters, typography, spacing and detail hierarchy;
+- real-content responsive review on phone, tablet and Web;
+- preserve accessibility, performance and the underlying theme/token architecture;
+- decide visual treatment for recipes that do not yet have food photography.
 
-Editorial rules:
-- recipes may be original, inspired or adapted from material supplied for editorial processing;
-- raw source prose remains transient and production wording is written for this app;
-- recipe data is normalized into the authoring schema before publication;
-- duplicate/similarity reports inform review but never auto-delete/overwrite;
-- exact batch size is decided at implementation time.
+Exit: the first five real recipes look intentional and coherent across primary surfaces before expanding the remaining recipe batch.
 
-Dynamic Decorative Characters — target direction:
-- cultural scope primarily Japanese and Chinese folklore/classics coherent with the anime theme;
-- no dependency on modern copyrighted character artwork unless rights are explicitly cleared;
-- prefer original illustrations or verified rights-compatible/public-domain source material;
-- transparent, optimized WebP/PNG assets;
+### F3C — Dynamic Decorative Characters
+
+Blocked by: F3B.
+
+Delivers:
+- reusable decorative-character registry independent from recipe content;
+- Japanese/Chinese folklore/classic archetypes only unless rights are separately cleared;
+- original or verified reusable transparent WebP/PNG assets;
 - native Flutter microanimations first: `float`, `peek`, `sway`;
 - contextual/randomized rotation with anti-repetition;
 - generally no more than one primary animated decorative character visible per screen;
-- suitable placements: empty states, section headers, editorial gaps and wider tablet/web layouts;
-- architecture independent from recipe content.
+- suitable placements: empty states, section headers, editorial gaps and wider tablet/web layouts.
 
-Exit: first real content batch and refined visual system work end-to-end without compromising app weight or core usability.
+Exit: decorative motion improves identity without materially increasing app weight, distracting from cooking tasks or creating rights ambiguity.
 
 ## F4 — Monetization v1
 

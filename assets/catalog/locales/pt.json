@@ -1,5 +1,215 @@
 {
   "schemaVersion": 1,
   "locale": "pt",
-  "recipes": {}
+  "recipes": {
+    "recipe_000001": {
+      "title": "Ovos na frigideira com bacon crocante",
+      "ingredientTexts": {
+        "smoked_bacon": {
+          "name": "Bacon defumado em fatias grossas",
+          "note": "4 fatias"
+        },
+        "eggs": {
+          "name": "Ovos grandes frescos",
+          "note": null
+        },
+        "butter": {
+          "name": "Manteiga",
+          "note": null
+        },
+        "black_pepper": {
+          "name": "Pimenta-do-reino moída na hora",
+          "note": "a gosto"
+        },
+        "country_bread": {
+          "name": "Pão rústico de fermentação natural",
+          "note": "para acompanhar"
+        }
+      },
+      "stepTexts": {
+        "heat_pan": "Aqueça uma frigideira de ferro ou de fundo pesado em fogo médio e derreta a manteiga.",
+        "crisp_bacon": "Doure o bacon até as bordas ficarem crocantes.",
+        "add_eggs": "Empurre o bacon para as laterais e quebre os ovos no centro, mantendo as gemas inteiras.",
+        "finish_eggs": "Abaixe o fogo e cozinhe delicadamente até as claras firmarem e as gemas continuarem macias.",
+        "season_serve": "Finalize com pimenta-do-reino e sirva imediatamente com pão rústico torrado."
+      }
+    },
+    "recipe_000002": {
+      "title": "Ramen de missô com chashu",
+      "ingredientTexts": {
+        "ramen_noodles": {
+          "name": "Macarrão para ramen",
+          "note": "fresco ou seco"
+        },
+        "concentrated_broth": {
+          "name": "Caldo concentrado de frango ou porco",
+          "note": null
+        },
+        "miso_paste": {
+          "name": "Pasta de missô",
+          "note": "molho de soja pode ser usado como alternativa mais leve"
+        },
+        "chashu": {
+          "name": "Chashu de porco braseado",
+          "note": "4 fatias"
+        },
+        "ajitsuke_eggs": {
+          "name": "Ajitsuke tamago",
+          "note": "ovos marinados com gema macia"
+        },
+        "narutomaki": {
+          "name": "Narutomaki",
+          "note": "4 fatias"
+        },
+        "spring_onions": {
+          "name": "Cebolinha",
+          "note": "fatiada finamente"
+        },
+        "bean_sprouts": {
+          "name": "Brotos de soja",
+          "note": "para finalizar"
+        },
+        "nori": {
+          "name": "Nori",
+          "note": "cortado em porções"
+        }
+      },
+      "stepTexts": {
+        "season_broth": "Aqueça o caldo suavemente e misture o missô até dissolver por completo. Mantenha quente.",
+        "cook_noodles": "Cozinhe o macarrão separadamente conforme o tempo indicado na embalagem e escorra bem.",
+        "fill_bowls": "Divida o macarrão quente entre duas tigelas e cubra com o caldo.",
+        "add_toppings": "Disponha o chashu, os ovos marinados cortados ao meio, o narutomaki, a cebolinha, os brotos e o nori.",
+        "serve": "Sirva imediatamente enquanto tudo está bem quente."
+      }
+    },
+    "recipe_000003": {
+      "title": "Katsudon da vitória",
+      "ingredientTexts": {
+        "tonkatsu": {
+          "name": "Costeletas de porco empanadas com panko",
+          "note": "já fritas"
+        },
+        "onion": {
+          "name": "Cebola amarela",
+          "note": "fatiada fina"
+        },
+        "eggs": {
+          "name": "Ovos grandes",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Arroz japonês cozido no vapor",
+          "note": null
+        },
+        "dashi": {
+          "name": "Caldo dashi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Molho de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "garnish": {
+          "name": "Ervilhas ou cebolinha",
+          "note": "para finalizar"
+        }
+      },
+      "stepTexts": {
+        "simmer_onion": "Coloque dashi, molho de soja, mirin e açúcar em uma frigideira pequena. Junte a cebola e cozinhe suavemente até amaciar.",
+        "add_tonkatsu": "Corte as costeletas fritas em tiras e acomode-as sobre a cebola.",
+        "add_eggs": "Bata os ovos apenas de leve e despeje sobre a carne sem deixar a mistura totalmente uniforme.",
+        "steam_finish": "Tampe e cozinhe rapidamente para que o ovo permaneça macio e cremoso.",
+        "assemble_bowl": "Divida o arroz quente em duas tigelas, coloque a mistura de porco e ovo por cima e finalize com ervilhas ou cebolinha."
+      }
+    },
+    "recipe_000004": {
+      "title": "Dorayaki com anko",
+      "ingredientTexts": {
+        "eggs": {
+          "name": "Ovos",
+          "note": null
+        },
+        "sugar": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "honey": {
+          "name": "Mel",
+          "note": null
+        },
+        "flour": {
+          "name": "Farinha de trigo",
+          "note": null
+        },
+        "baking_powder": {
+          "name": "Fermento químico",
+          "note": null
+        },
+        "water": {
+          "name": "Água",
+          "note": null
+        },
+        "anko": {
+          "name": "Pasta doce de feijão azuki (anko)",
+          "note": "creme de avelã pode ser usado como alternativa"
+        }
+      },
+      "stepTexts": {
+        "whisk_base": "Bata os ovos com o açúcar e o mel até a mistura ficar mais clara e levemente espumosa.",
+        "finish_batter": "Dissolva o fermento na água, junte à tigela e incorpore a farinha peneirada até obter uma massa lisa.",
+        "rest_batter": "Deixe a massa descansar na geladeira por 15 minutos.",
+        "cook_first_side": "Aqueça uma frigideira antiaderente em fogo baixo, unte muito levemente e forme pequenos discos de massa. Cozinhe até surgirem bolhas.",
+        "cook_second_side": "Vire os discos e cozinhe rapidamente o segundo lado até dourar.",
+        "fill_dorayaki": "Espere esfriar, una os discos aos pares com anko no centro e pressione suavemente as bordas."
+      }
+    },
+    "recipe_000005": {
+      "title": "Onigiri de atum com maionese",
+      "ingredientTexts": {
+        "sushi_rice": {
+          "name": "Arroz para sushi ou de grão curto",
+          "note": null
+        },
+        "water": {
+          "name": "Água",
+          "note": null
+        },
+        "tuna": {
+          "name": "Atum escorrido",
+          "note": null
+        },
+        "japanese_mayo": {
+          "name": "Maionese japonesa",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": "uma pequena pitada e um pouco mais para moldar"
+        },
+        "nori": {
+          "name": "Folhas de nori",
+          "note": "cortadas em tiras"
+        },
+        "sesame_or_furikake": {
+          "name": "Gergelim torrado ou furikake",
+          "note": "opcional"
+        }
+      },
+      "stepTexts": {
+        "wash_cook_rice": "Lave o arroz várias vezes até a água ficar bem mais clara. Cozinhe tampado com a água medida em fogo baixo.",
+        "rest_rice": "Desligue o fogo e deixe o arroz descansar tampado por 10 minutos.",
+        "make_filling": "Misture o atum escorrido com a maionese japonesa e uma pequena pitada de sal.",
+        "fill_shape": "Umedeça e salgue levemente as mãos. Achate uma porção de arroz morno, coloque um pouco do recheio no centro, cubra com mais arroz e modele um triângulo compacto.",
+        "finish_nori": "Envolva a base com uma tira de nori. Acrescente gergelim ou furikake se desejar e sirva enquanto o arroz ainda está morno."
+      }
+    }
+  }
 }

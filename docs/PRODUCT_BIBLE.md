@@ -89,7 +89,7 @@ Exact pricing/provider/store integration is out of scope until F4.
 
 ## Out of scope now
 
-- production recipe population before F3;
+- remaining production recipe expansion before F3B visual review is complete;
 - official anime screenshots/posters/logos/modern character artwork without a rights basis;
 - account/cloud sync;
 - notifications;
@@ -105,7 +105,7 @@ Exact pricing/provider/store integration is out of scope until F4.
 - versioned local JSON runtime catalog;
 - deterministic authoring -> runtime compiler;
 - duplicate/similarity review with stale-decision protection;
-- production catalog still empty until F3;
+- production catalog contains the first five F3A recipes;
 - Explore/Favorites/Shopping navigation works;
 - localization/theme/settings infrastructure exists;
 - stable user-state persistence seams exist;

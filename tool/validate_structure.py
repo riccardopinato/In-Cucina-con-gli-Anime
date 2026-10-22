@@ -78,10 +78,27 @@ for name, keys in key_sets.items():
 production_authoring = sorted(
     (ROOT / "authoring" / "recipes").glob("*.json")
 )
-if production_authoring:
+expected_recipe_ids = {
+    f"recipe_{index:06d}"
+    for index in range(1, 6)
+}
+if len(production_authoring) != 5:
     raise SystemExit(
-        "F2 must still contain zero production recipe "
-        "authoring JSON files; real recipes start in F3"
+        "F3A must contain exactly 5 production authoring "
+        f"recipes, found {len(production_authoring)}"
+    )
+
+authoring_ids = set()
+for path in production_authoring:
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    recipe_id = payload.get("id")
+    if recipe_id in authoring_ids:
+        raise SystemExit(f"Duplicate authoring recipe id: {recipe_id}")
+    authoring_ids.add(recipe_id)
+
+if authoring_ids != expected_recipe_ids:
+    raise SystemExit(
+        "F3A authoring IDs do not match expected first-batch IDs"
     )
 
 catalog = json.loads(
@@ -89,10 +106,20 @@ catalog = json.loads(
         ROOT / "assets" / "catalog" / "recipes.json"
     ).read_text(encoding="utf-8")
 )
-if catalog.get("recipes") != []:
+runtime_recipes = catalog.get("recipes")
+if not isinstance(runtime_recipes, list) or len(runtime_recipes) != 5:
     raise SystemExit(
-        "F2 production runtime catalog must still "
-        "contain zero real recipes"
+        "F3A runtime catalog must contain exactly 5 recipes"
+    )
+
+runtime_ids = {
+    recipe.get("id")
+    for recipe in runtime_recipes
+    if isinstance(recipe, dict)
+}
+if runtime_ids != expected_recipe_ids:
+    raise SystemExit(
+        "F3A runtime recipe IDs do not match authoring IDs"
     )
 
 for forbidden in (

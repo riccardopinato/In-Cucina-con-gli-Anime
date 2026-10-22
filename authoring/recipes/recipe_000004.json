@@ -1,0 +1,153 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000004",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Doraemon",
+  "prepMinutes": 15,
+  "cookMinutes": 10,
+  "servings": 4,
+  "difficulty": "easy",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source gives no yield; four servings are an editorial estimate from the batter and filling quantities.",
+  "imageAssetId": null,
+  "ingredients": [
+    {"id": "eggs", "quantity": 2, "unit": null},
+    {"id": "sugar", "quantity": 80, "unit": "g"},
+    {"id": "honey", "quantity": 1, "unit": "tbsp"},
+    {"id": "flour", "quantity": 140, "unit": "g"},
+    {"id": "baking_powder", "quantity": 1, "unit": "tsp"},
+    {"id": "water", "quantity": 50, "unit": "ml"},
+    {"id": "anko", "quantity": 200, "unit": "g"}
+  ],
+  "steps": [
+    {"id": "whisk_base", "timerSeconds": null},
+    {"id": "finish_batter", "timerSeconds": null},
+    {"id": "rest_batter", "timerSeconds": 900},
+    {"id": "cook_first_side", "timerSeconds": null},
+    {"id": "cook_second_side", "timerSeconds": null},
+    {"id": "fill_dorayaki", "timerSeconds": null}
+  ],
+  "locales": {
+    "en": {
+      "title": "Dorayaki with Anko",
+      "ingredients": {
+        "eggs": {"name": "Eggs", "note": null},
+        "sugar": {"name": "Sugar", "note": null},
+        "honey": {"name": "Honey", "note": null},
+        "flour": {"name": "Plain flour", "note": null},
+        "baking_powder": {"name": "Baking powder", "note": null},
+        "water": {"name": "Water", "note": null},
+        "anko": {"name": "Sweet red-bean paste (anko)", "note": "hazelnut spread can be used as an alternative"}
+      },
+      "steps": {
+        "whisk_base": "Whisk the eggs with the sugar and honey until the mixture looks lighter and slightly foamy.",
+        "finish_batter": "Mix the baking powder into the water, add it to the bowl and fold in the sifted flour until the batter is smooth.",
+        "rest_batter": "Chill the batter for 15 minutes so it can settle before cooking.",
+        "cook_first_side": "Heat a non-stick pan over low heat, wipe it with a very thin film of oil and spoon in small rounds of batter. Cook until bubbles appear on top.",
+        "cook_second_side": "Turn each round and cook the second side briefly until evenly coloured.",
+        "fill_dorayaki": "Let the cakes cool, then sandwich them in pairs with anko in the centre and gently press the edges into the classic rounded shape."
+      }
+    },
+    "it": {
+      "title": "Dorayaki con anko",
+      "ingredients": {
+        "eggs": {"name": "Uova", "note": null},
+        "sugar": {"name": "Zucchero", "note": null},
+        "honey": {"name": "Miele", "note": null},
+        "flour": {"name": "Farina 00", "note": null},
+        "baking_powder": {"name": "Lievito per dolci", "note": null},
+        "water": {"name": "Acqua", "note": null},
+        "anko": {"name": "Pasta dolce di fagioli rossi (anko)", "note": "in alternativa si può usare crema di nocciole"}
+      },
+      "steps": {
+        "whisk_base": "Lavora uova, zucchero e miele con una frusta finché il composto diventa più chiaro e leggermente spumoso.",
+        "finish_batter": "Sciogli il lievito nell’acqua, uniscilo al composto e incorpora la farina setacciata fino a ottenere una pastella liscia.",
+        "rest_batter": "Lascia riposare la pastella in frigorifero per 15 minuti prima della cottura.",
+        "cook_first_side": "Scalda una padella antiaderente a fuoco basso, ungila appena e versa piccole porzioni di pastella formando dischi regolari. Cuoci finché compaiono bollicine in superficie.",
+        "cook_second_side": "Gira i dischi e completa brevemente la cottura dell’altro lato fino a doratura uniforme.",
+        "fill_dorayaki": "Fai raffreddare i pancake, poi accoppiali con l’anko al centro e premi delicatamente i bordi per ottenere la forma bombata."
+      }
+    },
+    "es": {
+      "title": "Dorayaki con anko",
+      "ingredients": {
+        "eggs": {"name": "Huevos", "note": null},
+        "sugar": {"name": "Azúcar", "note": null},
+        "honey": {"name": "Miel", "note": null},
+        "flour": {"name": "Harina de trigo", "note": null},
+        "baking_powder": {"name": "Levadura química", "note": null},
+        "water": {"name": "Agua", "note": null},
+        "anko": {"name": "Pasta dulce de judías rojas (anko)", "note": "puede sustituirse por crema de avellanas"}
+      },
+      "steps": {
+        "whisk_base": "Bate los huevos con el azúcar y la miel hasta obtener una mezcla más clara y ligeramente espumosa.",
+        "finish_batter": "Disuelve la levadura en el agua, añádela al bol e incorpora la harina tamizada hasta conseguir una masa lisa.",
+        "rest_batter": "Deja reposar la masa 15 minutos en el frigorífico.",
+        "cook_first_side": "Calienta una sartén antiadherente a fuego bajo, engrásala apenas y forma discos pequeños con la masa. Cocina hasta que aparezcan burbujas.",
+        "cook_second_side": "Da la vuelta a los discos y cocina brevemente la segunda cara hasta que se dore.",
+        "fill_dorayaki": "Deja enfriar, une los discos de dos en dos con anko en el centro y presiona suavemente los bordes."
+      }
+    },
+    "fr": {
+      "title": "Dorayaki à l’anko",
+      "ingredients": {
+        "eggs": {"name": "Œufs", "note": null},
+        "sugar": {"name": "Sucre", "note": null},
+        "honey": {"name": "Miel", "note": null},
+        "flour": {"name": "Farine de blé", "note": null},
+        "baking_powder": {"name": "Levure chimique", "note": null},
+        "water": {"name": "Eau", "note": null},
+        "anko": {"name": "Pâte sucrée de haricots rouges (anko)", "note": "une pâte à tartiner aux noisettes peut servir d’alternative"}
+      },
+      "steps": {
+        "whisk_base": "Fouettez les œufs avec le sucre et le miel jusqu’à obtenir un mélange plus clair et légèrement mousseux.",
+        "finish_batter": "Délayez la levure dans l’eau, ajoutez-la puis incorporez la farine tamisée jusqu’à obtenir une pâte lisse.",
+        "rest_batter": "Laissez reposer la pâte 15 minutes au réfrigérateur.",
+        "cook_first_side": "Chauffez une poêle antiadhésive à feu doux, huilez-la très légèrement puis formez de petits disques. Cuisez jusqu’à l’apparition de bulles.",
+        "cook_second_side": "Retournez les disques et terminez rapidement la cuisson de l’autre face.",
+        "fill_dorayaki": "Laissez refroidir puis assemblez les disques deux par deux avec l’anko au centre en pinçant doucement les bords."
+      }
+    },
+    "de": {
+      "title": "Dorayaki mit Anko",
+      "ingredients": {
+        "eggs": {"name": "Eier", "note": null},
+        "sugar": {"name": "Zucker", "note": null},
+        "honey": {"name": "Honig", "note": null},
+        "flour": {"name": "Weizenmehl", "note": null},
+        "baking_powder": {"name": "Backpulver", "note": null},
+        "water": {"name": "Wasser", "note": null},
+        "anko": {"name": "Süße rote Bohnenpaste (Anko)", "note": "alternativ kann Haselnusscreme verwendet werden"}
+      },
+      "steps": {
+        "whisk_base": "Eier, Zucker und Honig schlagen, bis die Mischung heller und leicht schaumig ist.",
+        "finish_batter": "Backpulver im Wasser auflösen, dazugeben und das gesiebte Mehl zu einem glatten Teig einarbeiten.",
+        "rest_batter": "Den Teig 15 Minuten im Kühlschrank ruhen lassen.",
+        "cook_first_side": "Eine beschichtete Pfanne bei niedriger Hitze erwärmen, hauchdünn einfetten und kleine Teigkreise ausbacken, bis oben Bläschen erscheinen.",
+        "cook_second_side": "Die Kreise wenden und die zweite Seite kurz goldbraun backen.",
+        "fill_dorayaki": "Abkühlen lassen, jeweils zwei Pancakes mit Anko füllen und die Ränder sanft zusammendrücken."
+      }
+    },
+    "pt": {
+      "title": "Dorayaki com anko",
+      "ingredients": {
+        "eggs": {"name": "Ovos", "note": null},
+        "sugar": {"name": "Açúcar", "note": null},
+        "honey": {"name": "Mel", "note": null},
+        "flour": {"name": "Farinha de trigo", "note": null},
+        "baking_powder": {"name": "Fermento químico", "note": null},
+        "water": {"name": "Água", "note": null},
+        "anko": {"name": "Pasta doce de feijão azuki (anko)", "note": "creme de avelã pode ser usado como alternativa"}
+      },
+      "steps": {
+        "whisk_base": "Bata os ovos com o açúcar e o mel até a mistura ficar mais clara e levemente espumosa.",
+        "finish_batter": "Dissolva o fermento na água, junte à tigela e incorpore a farinha peneirada até obter uma massa lisa.",
+        "rest_batter": "Deixe a massa descansar na geladeira por 15 minutos.",
+        "cook_first_side": "Aqueça uma frigideira antiaderente em fogo baixo, unte muito levemente e forme pequenos discos de massa. Cozinhe até surgirem bolhas.",
+        "cook_second_side": "Vire os discos e cozinhe rapidamente o segundo lado até dourar.",
+        "fill_dorayaki": "Espere esfriar, una os discos aos pares com anko no centro e pressione suavemente as bordas."
+      }
+    }
+  }
+}
