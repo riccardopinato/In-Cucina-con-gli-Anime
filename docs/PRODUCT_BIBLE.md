@@ -25,21 +25,21 @@ The product should feel warm, illustrated and playful without presenting itself 
 
 F0 foundation, F1 runtime catalog contract, F2 authoring/import pipeline and F3A content ingestion are complete.
 
-The production catalog now contains all 10 recipes from the supplied reference document, rebuilt editorially and localized in EN/IT/ES/FR/DE/PT. F3B is the stronger visual-identity phase.
+The production catalog contains all 10 recipes from the supplied reference document, rebuilt editorially and localized in EN/IT/ES/FR/DE/PT. F3B visual identity is complete; F3C adds the optional decorative-character layer.
 
 ## UX direction
 
-Original watercolor-inspired cooking identity:
-- cream/rice-paper background;
-- meadow green primary;
-- ember orange accent;
-- pale sky secondary;
-- rounded cards and low elevation;
-- handwritten accent typography for display headings;
-- clean rounded body typography;
-- restrained motion.
+Implemented F3B identity:
+- Japanese-contemporary editorial cookbook rather than stock Material presentation;
+- cream/rice-paper surfaces with meadow green, ember/apricot, matcha, sky and plum accents;
+- handwritten Caveat accent only for display/wordmark moments, with clean system body typography;
+- large rounded editorial containers, low elevation and strong spacing hierarchy;
+- ten deterministic procedural recipe illustrations keyed by stable recipe IDs;
+- procedural illustration is the default no-photo treatment and remains replaceable by future original/licensed food photography;
+- responsive recipe detail: single-column on phone, two-column editorial composition on wider layouts;
+- restrained motion and lightweight rendering; no animated-image dependency.
 
-F3 may move further beyond stock Material 3 and introduce lightweight animated decorative characters based mainly on Japanese/Chinese folklore and classics.
+F3C may add lightweight animated decorative characters based mainly on Japanese/Chinese folklore and classics without coupling them to recipe content.
 
 ## Local-first
 
@@ -105,7 +105,7 @@ Exact pricing/provider/store integration is out of scope until F4.
 - deterministic authoring -> runtime compiler;
 - duplicate/similarity review with stale-decision protection;
 - production catalog contains all 10 recipes from the supplied F3A document;
-- Explore/Favorites/Shopping navigation works;
+- Explore/Favorites/Shopping navigation works;\n- Explore/cards/detail share the F3B editorial visual system across the full 10-recipe catalog;
 - localization/theme/settings infrastructure exists;
 - stable user-state persistence seams exist;
 - entitlement boundary is provider-agnostic;
