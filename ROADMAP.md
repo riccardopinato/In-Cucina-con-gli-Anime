@@ -30,37 +30,47 @@ Delivered:
 
 Exit: PASS — valid package loads deterministically, invalid/unsupported packages are rejected without partial data, and stable IDs survive content revisions.
 
-## F2 — Recipe authoring/import pipeline — CURRENT
+## F2 — Recipe authoring/import pipeline — PASS
 
-Blocked by: F1 — unblocked.
+Blocked by: F1.
 
-Delivers tooling to add recipes without editing Dart:
-- authoring schema/templates aligned with the F1 contract;
-- ingestion of user-provided/raw recipe material as editorial input;
-- normalization of ingredients, quantities, timings, servings and ordered steps;
-- creation of original app editorial wording while preserving culinary meaning;
-- generation of catalog-compliant JSON;
-- asset manifest;
-- localization completeness report;
-- lightweight editorial-origin checks;
-- preview/build command.
+Delivered:
+- per-recipe JSON authoring contract, schema and template outside Flutter source;
+- transient-input policy: raw copied source material is not committed;
+- deterministic authoring validation for identity, quantities, timings, ingredients, steps and editorial origin;
+- published-locale completeness gate for EN/IT/ES/FR/DE/PT;
+- minimal rights-aware asset manifest with stable asset IDs;
+- compiler from authoring records to the exact F1 runtime package;
+- CI drift gate proving committed runtime JSON matches production authoring source;
+- Duplicate & Similarity Review Gate using configurable multi-dimensional comparison;
+- explicit ingredient aliases and unit conversions;
+- explainable comparison reports with per-dimension scores/differences/recommended action;
+- blocking `probable_duplicate` / `review_required` classifications until fingerprint-bound human review;
+- review-memory invalidation when either recipe changes;
+- candidate review CLI before import;
+- synthetic six-locale non-production fixture;
+- temporary synthetic Flutter Web preview that restores the empty production catalog afterward;
+- Python regression coverage for compiler, localization, synonym/unit normalization, false-positive resistance, review invalidation and deterministic reports;
+- zero new Flutter/runtime dependencies.
 
-Exit: one non-production fixture can travel raw input -> editorial normalization -> JSON generation -> validation -> app preview.
+Exit: PASS — a synthetic recipe travels normalized authoring JSON -> validation -> similarity gate -> runtime compilation -> F1 validation -> real Flutter Web build without editing Dart or shipping the fixture.
 
-## F3 — First real editorial batch + visual identity
+## F3 — First real editorial batch + visual identity — CURRENT
 
-Blocked by: F2.
+Blocked by: F2 — unblocked.
 
 Delivers:
-- first production recipe batch;
+- first production recipe batch authored through the F2 pipeline;
+- duplicate/variant review for each incoming batch before publication;
 - end-to-end search/filter/detail/timer/favorites/shopping on real content;
 - visual refinement beyond stock Material 3 while preserving design-system architecture;
 - Dynamic Decorative Characters system for intentional empty/decorative spaces.
 
 Editorial rules:
 - recipes may be original, inspired or adapted from material supplied for editorial processing;
-- source wording is not copied verbatim into production content;
-- recipe data is normalized into the app schema before publication;
+- raw source prose remains transient and production wording is written for this app;
+- recipe data is normalized into the authoring schema before publication;
+- duplicate/similarity reports inform review but never auto-delete/overwrite;
 - exact batch size is decided at implementation time.
 
 Dynamic Decorative Characters — target direction:
