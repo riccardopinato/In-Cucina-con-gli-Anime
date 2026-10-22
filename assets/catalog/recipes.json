@@ -374,6 +374,415 @@
           "timerSeconds": null
         }
       ]
+    },
+    {
+      "id": "recipe_000006",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Ranma ½ / Kiss Me Licia",
+      "prepMinutes": 20,
+      "cookMinutes": 12,
+      "servings": 2,
+      "difficulty": "easy",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; two servings are an editorial estimate from the listed quantities.",
+      "ingredients": [
+        {
+          "id": "cabbage",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "id": "flour",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "id": "dashi",
+          "quantity": 120,
+          "unit": "ml"
+        },
+        {
+          "id": "egg",
+          "quantity": 1,
+          "unit": null
+        },
+        {
+          "id": "pork_belly",
+          "quantity": 4,
+          "unit": "slice"
+        },
+        {
+          "id": "okonomiyaki_sauce",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "japanese_mayo",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "katsuobushi",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "aoki_seaweed",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "steps": [
+        {
+          "id": "make_batter",
+          "timerSeconds": null
+        },
+        {
+          "id": "add_cabbage",
+          "timerSeconds": null
+        },
+        {
+          "id": "shape_and_top",
+          "timerSeconds": null
+        },
+        {
+          "id": "cook_both_sides",
+          "timerSeconds": null
+        },
+        {
+          "id": "finish",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000007",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "One Piece / My Hero Academia",
+      "prepMinutes": 20,
+      "cookMinutes": 15,
+      "servings": 3,
+      "difficulty": "medium",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; three servings are an editorial estimate from the listed quantities.",
+      "ingredients": [
+        {
+          "id": "octopus",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "id": "flour",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "id": "dashi",
+          "quantity": 400,
+          "unit": "ml"
+        },
+        {
+          "id": "egg",
+          "quantity": 1,
+          "unit": null
+        },
+        {
+          "id": "beni_shoga",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "tenkasu",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "spring_onion",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "takoyaki_sauce",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "japanese_mayo",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "katsuobushi",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "steps": [
+        {
+          "id": "make_batter",
+          "timerSeconds": null
+        },
+        {
+          "id": "heat_pan",
+          "timerSeconds": null
+        },
+        {
+          "id": "fill_moulds",
+          "timerSeconds": null
+        },
+        {
+          "id": "add_fillings",
+          "timerSeconds": null
+        },
+        {
+          "id": "turn_balls",
+          "timerSeconds": null
+        },
+        {
+          "id": "finish",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000008",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "K-On! / Maid Sama!",
+      "prepMinutes": 15,
+      "cookMinutes": 15,
+      "servings": 2,
+      "difficulty": "medium",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; two servings are an editorial estimate from the listed quantities.",
+      "ingredients": [
+        {
+          "id": "steamed_rice",
+          "quantity": 200,
+          "unit": "g"
+        },
+        {
+          "id": "chicken_breast",
+          "quantity": 50,
+          "unit": "g"
+        },
+        {
+          "id": "onion",
+          "quantity": 0.5,
+          "unit": null
+        },
+        {
+          "id": "ketchup",
+          "quantity": 3,
+          "unit": "tbsp"
+        },
+        {
+          "id": "eggs",
+          "quantity": 3,
+          "unit": null
+        },
+        {
+          "id": "milk",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "butter",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "salt_pepper",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "steps": [
+        {
+          "id": "cook_rice_filling",
+          "timerSeconds": null
+        },
+        {
+          "id": "shape_rice",
+          "timerSeconds": null
+        },
+        {
+          "id": "beat_eggs",
+          "timerSeconds": null
+        },
+        {
+          "id": "cook_omelette",
+          "timerSeconds": null
+        },
+        {
+          "id": "wrap_and_decorate",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000009",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Yuri!!! on ICE / Food Wars!",
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "servings": 2,
+      "difficulty": "easy",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; two servings are an editorial estimate from the listed quantities.",
+      "ingredients": [
+        {
+          "id": "chicken_thigh",
+          "quantity": 200,
+          "unit": "g"
+        },
+        {
+          "id": "onion",
+          "quantity": 0.5,
+          "unit": null
+        },
+        {
+          "id": "eggs",
+          "quantity": 2,
+          "unit": null
+        },
+        {
+          "id": "steamed_rice",
+          "quantity": 250,
+          "unit": "g"
+        },
+        {
+          "id": "dashi",
+          "quantity": 100,
+          "unit": "ml"
+        },
+        {
+          "id": "soy_sauce",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "mirin",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "sugar",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "mitsuba_or_chives",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "steps": [
+        {
+          "id": "season_broth",
+          "timerSeconds": null
+        },
+        {
+          "id": "cook_chicken",
+          "timerSeconds": null
+        },
+        {
+          "id": "first_egg",
+          "timerSeconds": 60
+        },
+        {
+          "id": "finish_egg",
+          "timerSeconds": 30
+        },
+        {
+          "id": "assemble",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000010",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Kiki - Consegne a domicilio",
+      "prepMinutes": 30,
+      "cookMinutes": 40,
+      "servings": 4,
+      "difficulty": "hard",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; four servings are an editorial estimate from the listed quantities.",
+      "ingredients": [
+        {
+          "id": "pumpkin",
+          "quantity": 500,
+          "unit": "g"
+        },
+        {
+          "id": "white_fish_or_herring",
+          "quantity": 200,
+          "unit": "g"
+        },
+        {
+          "id": "puff_pastry",
+          "quantity": 1,
+          "unit": null
+        },
+        {
+          "id": "bechamel",
+          "quantity": 200,
+          "unit": "ml"
+        },
+        {
+          "id": "onion",
+          "quantity": 0.5,
+          "unit": null
+        },
+        {
+          "id": "black_olives",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "id": "egg_yolk",
+          "quantity": 1,
+          "unit": null
+        },
+        {
+          "id": "seasoning",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "steps": [
+        {
+          "id": "cook_pumpkin",
+          "timerSeconds": null
+        },
+        {
+          "id": "cook_fish",
+          "timerSeconds": null
+        },
+        {
+          "id": "assemble_filling",
+          "timerSeconds": null
+        },
+        {
+          "id": "cover_and_decorate",
+          "timerSeconds": null
+        },
+        {
+          "id": "bake",
+          "timerSeconds": null
+        }
+      ]
     }
   ]
 }
