@@ -1,0 +1,153 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000008",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "K-On! / Maid Sama!",
+  "prepMinutes": 15,
+  "cookMinutes": 15,
+  "servings": 2,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; two servings are an editorial estimate from the listed quantities.",
+  "imageAssetId": null,
+  "ingredients": [
+    {"id": "steamed_rice", "quantity": 200, "unit": "g"},
+    {"id": "chicken_breast", "quantity": 50, "unit": "g"},
+    {"id": "onion", "quantity": 0.5, "unit": null},
+    {"id": "ketchup", "quantity": 3, "unit": "tbsp"},
+    {"id": "eggs", "quantity": 3, "unit": null},
+    {"id": "milk", "quantity": 1, "unit": "tbsp"},
+    {"id": "butter", "quantity": 1, "unit": "tbsp"},
+    {"id": "salt_pepper", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"id": "cook_rice_filling", "timerSeconds": null},
+    {"id": "shape_rice", "timerSeconds": null},
+    {"id": "beat_eggs", "timerSeconds": null},
+    {"id": "cook_omelette", "timerSeconds": null},
+    {"id": "wrap_and_decorate", "timerSeconds": null}
+  ],
+  "locales": {
+    "en": {
+      "title": "Ketchup Omurice",
+      "ingredients": {
+        "steamed_rice": {"name": "Steamed rice", "note": null},
+        "chicken_breast": {"name": "Chicken breast", "note": "diced"},
+        "onion": {"name": "Onion", "note": "half, chopped"},
+        "ketchup": {"name": "Ketchup", "note": "plus extra for decorating"},
+        "eggs": {"name": "Fresh eggs", "note": null},
+        "milk": {"name": "Milk", "note": null},
+        "butter": {"name": "Butter", "note": null},
+        "salt_pepper": {"name": "Salt and pepper", "note": "to taste"}
+      },
+      "steps": {
+        "cook_rice_filling": "Sauté the chicken and onion in a lightly oiled pan. Add the steamed rice and ketchup, then toss until the rice is evenly coated and hot.",
+        "shape_rice": "Shape the seasoned rice into a neat oval mound on a plate.",
+        "beat_eggs": "Beat the eggs with the milk and a little salt and pepper.",
+        "cook_omelette": "Melt the butter in a clean pan over medium-low heat and cook the eggs as a soft, flexible omelette.",
+        "wrap_and_decorate": "Lay the omelette over the rice so it covers the mound, then decorate the top with a heart or short message in ketchup."
+      }
+    },
+    "it": {
+      "title": "Omurice con ketchup",
+      "ingredients": {
+        "steamed_rice": {"name": "Riso cotto al vapore", "note": null},
+        "chicken_breast": {"name": "Petto di pollo", "note": "a dadini"},
+        "onion": {"name": "Cipolla", "note": "mezza, tritata"},
+        "ketchup": {"name": "Ketchup", "note": "più altro per la decorazione"},
+        "eggs": {"name": "Uova fresche", "note": null},
+        "milk": {"name": "Latte", "note": null},
+        "butter": {"name": "Burro", "note": null},
+        "salt_pepper": {"name": "Sale e pepe", "note": "quanto basta"}
+      },
+      "steps": {
+        "cook_rice_filling": "Rosola pollo e cipolla in una padella con poco olio. Aggiungi il riso al vapore e il ketchup, quindi salta tutto finché il riso è caldo e condito in modo uniforme.",
+        "shape_rice": "Compatta il riso condito su un piatto dandogli una forma ovale e ordinata.",
+        "beat_eggs": "Sbatti le uova con il latte e un pizzico di sale e pepe.",
+        "cook_omelette": "Sciogli il burro in una padella pulita a fuoco medio-basso e cuoci le uova formando un’omelette morbida e flessibile.",
+        "wrap_and_decorate": "Adagia l’omelette sul riso in modo da rivestirlo, poi disegna sopra un cuore o un breve messaggio con il ketchup."
+      }
+    },
+    "es": {
+      "title": "Omurice con ketchup",
+      "ingredients": {
+        "steamed_rice": {"name": "Arroz al vapor", "note": null},
+        "chicken_breast": {"name": "Pechuga de pollo", "note": "en dados"},
+        "onion": {"name": "Cebolla", "note": "media, picada"},
+        "ketchup": {"name": "Ketchup", "note": "más un poco extra para decorar"},
+        "eggs": {"name": "Huevos frescos", "note": null},
+        "milk": {"name": "Leche", "note": null},
+        "butter": {"name": "Mantequilla", "note": null},
+        "salt_pepper": {"name": "Sal y pimienta", "note": "al gusto"}
+      },
+      "steps": {
+        "cook_rice_filling": "Saltea el pollo y la cebolla con un poco de aceite. Añade el arroz y el ketchup y mezcla hasta que el arroz quede caliente y bien condimentado.",
+        "shape_rice": "Forma con el arroz un montículo ovalado y compacto sobre el plato.",
+        "beat_eggs": "Bate los huevos con la leche y un poco de sal y pimienta.",
+        "cook_omelette": "Derrite la mantequilla en una sartén limpia a fuego medio-bajo y prepara una tortilla blanda y flexible.",
+        "wrap_and_decorate": "Coloca la tortilla sobre el arroz cubriéndolo y dibuja encima un corazón o un mensaje corto con ketchup."
+      }
+    },
+    "fr": {
+      "title": "Omurice au ketchup",
+      "ingredients": {
+        "steamed_rice": {"name": "Riz cuit à la vapeur", "note": null},
+        "chicken_breast": {"name": "Blanc de poulet", "note": "en dés"},
+        "onion": {"name": "Oignon", "note": "un demi, haché"},
+        "ketchup": {"name": "Ketchup", "note": "plus un peu pour la décoration"},
+        "eggs": {"name": "Œufs frais", "note": null},
+        "milk": {"name": "Lait", "note": null},
+        "butter": {"name": "Beurre", "note": null},
+        "salt_pepper": {"name": "Sel et poivre", "note": "selon le goût"}
+      },
+      "steps": {
+        "cook_rice_filling": "Faites revenir le poulet et l’oignon avec un peu d’huile. Ajoutez le riz et le ketchup puis mélangez jusqu’à ce que le riz soit chaud et uniformément assaisonné.",
+        "shape_rice": "Formez un dôme ovale et compact de riz sur l’assiette.",
+        "beat_eggs": "Battez les œufs avec le lait, un peu de sel et de poivre.",
+        "cook_omelette": "Faites fondre le beurre dans une poêle propre à feu moyen-doux et cuisez une omelette souple.",
+        "wrap_and_decorate": "Déposez l’omelette sur le riz pour l’envelopper puis dessinez un cœur ou un petit message avec du ketchup."
+      }
+    },
+    "de": {
+      "title": "Omurice mit Ketchup",
+      "ingredients": {
+        "steamed_rice": {"name": "Gedämpfter Reis", "note": null},
+        "chicken_breast": {"name": "Hähnchenbrust", "note": "gewürfelt"},
+        "onion": {"name": "Zwiebel", "note": "eine halbe, gehackt"},
+        "ketchup": {"name": "Ketchup", "note": "plus etwas zum Dekorieren"},
+        "eggs": {"name": "Frische Eier", "note": null},
+        "milk": {"name": "Milch", "note": null},
+        "butter": {"name": "Butter", "note": null},
+        "salt_pepper": {"name": "Salz und Pfeffer", "note": "nach Geschmack"}
+      },
+      "steps": {
+        "cook_rice_filling": "Hähnchen und Zwiebel in wenig Öl anbraten. Reis und Ketchup hinzufügen und schwenken, bis alles heiß und gleichmäßig gewürzt ist.",
+        "shape_rice": "Den gewürzten Reis als kompakten ovalen Hügel auf einem Teller formen.",
+        "beat_eggs": "Eier mit Milch sowie etwas Salz und Pfeffer verquirlen.",
+        "cook_omelette": "Butter in einer sauberen Pfanne bei mittlerer bis niedriger Hitze schmelzen und ein weiches, biegsames Omelett garen.",
+        "wrap_and_decorate": "Das Omelett über den Reis legen und oben mit Ketchup ein Herz oder eine kurze Nachricht zeichnen."
+      }
+    },
+    "pt": {
+      "title": "Omurice com ketchup",
+      "ingredients": {
+        "steamed_rice": {"name": "Arroz cozido no vapor", "note": null},
+        "chicken_breast": {"name": "Peito de frango", "note": "em cubos"},
+        "onion": {"name": "Cebola", "note": "meia, picada"},
+        "ketchup": {"name": "Ketchup", "note": "mais um pouco para decorar"},
+        "eggs": {"name": "Ovos frescos", "note": null},
+        "milk": {"name": "Leite", "note": null},
+        "butter": {"name": "Manteiga", "note": null},
+        "salt_pepper": {"name": "Sal e pimenta", "note": "a gosto"}
+      },
+      "steps": {
+        "cook_rice_filling": "Refogue o frango e a cebola com um pouco de óleo. Junte o arroz e o ketchup e misture até aquecer e temperar por igual.",
+        "shape_rice": "Modele o arroz em um montinho oval e compacto no prato.",
+        "beat_eggs": "Bata os ovos com o leite, sal e pimenta.",
+        "cook_omelette": "Derreta a manteiga em uma frigideira limpa em fogo médio-baixo e faça uma omelete macia e flexível.",
+        "wrap_and_decorate": "Cubra o arroz com a omelete e desenhe por cima um coração ou uma mensagem curta usando ketchup."
+      }
+    }
+  }
+}
