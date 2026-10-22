@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../../core/decorative_characters/decorative_character_registry.dart';
+import '../../../core/decorative_characters/decorative_character_stage.dart';
 import '../../../core/theme/app_design_tokens.dart';
 import '../../../core/widgets/app_empty_state.dart';
 import '../../../l10n/app_localizations.dart';
@@ -74,6 +76,10 @@ class ShoppingListScreen extends ConsumerWidget {
               icon: Icons.shopping_basket_outlined,
               title: l10n.shoppingEmptyTitle,
               body: l10n.shoppingEmptyBody,
+              decoration: const DecorativeCharacterStage(
+                slot: DecorativeSlot.shoppingEmpty,
+                size: 132,
+              ),
             )
           : Column(
               children: [
