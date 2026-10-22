@@ -56,5 +56,14 @@
   "manualItemSource": "Manuale",
   "exploreTagline": "Cucina le scene che ricordi.",
   "exploreIntro": "Un ricettario illustrato ispirato ai piatti visti negli anime.",
-  "servingsLabel": "Porzioni"
+  "servingsLabel": "Porzioni",
+  "settingsPrivacyAds": "Privacy e pubblicità",
+  "privacyAdsDescription": "Gli annunci restano disattivati finché sia la tua preferenza sia l'eventuale verifica del consenso del provider non li consentono. Le ricette principali non richiedono mai un account.",
+  "privacyStatusLabel": "Scelta attuale",
+  "privacyStatusUnresolved": "Non scelta",
+  "privacyStatusAllow": "Consenti annunci",
+  "privacyStatusBlock": "Blocca annunci",
+  "privacyAllowAds": "Consenti richieste pubblicitarie",
+  "privacyBlockAds": "Blocca richieste pubblicitarie",
+  "privacyResetChoice": "Azzera scelta"
 }
