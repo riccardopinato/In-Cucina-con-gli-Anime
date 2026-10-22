@@ -129,7 +129,12 @@ UI asks ProductLimits/capabilities, not a store SDK. Billing/RevenueCat/Play/Sto
 - F3B presentation tokens sit above Material 3 so visual identity can evolve without changing domain/application seams;
 - `RecipeArtwork` is a lightweight procedural no-photo fallback keyed by stable recipe ID;
 - the artwork layer contains no recipe business data and can be replaced by an original/licensed `imageAsset` without changing cards or detail navigation;
-- recipe detail switches from a single-column phone layout to a two-column ingredients/timer + preparation composition on wider surfaces.
+- recipe detail switches from a single-column phone layout to a two-column ingredients/timer + preparation composition on wider surfaces;
+- F3C decorative characters live under `core/decorative_characters`, not in recipe domain/catalog data;
+- `DecorativeCharacterRegistry` owns archetype metadata, culture, motion type, compatible presentation slots and session anti-repetition memory;
+- `DecorativeCharacterStage` owns native motion and reduced-motion handling, while `DecorativeCharacterArtwork` paints the original procedural archetype;
+- presentation surfaces request a semantic slot such as Explore/Favorites/Shopping rather than naming a specific mascot, allowing rotation and future artwork replacement without screen rewrites;
+- the current implementation permits one primary decorative mascot per screen and adds no image-animation package dependency.
 
 ## Preview boundary
 
