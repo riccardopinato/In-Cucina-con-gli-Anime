@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import '../domain/recipe.dart';
 import '../domain/recipe_catalog_repository.dart';
-import 'recipe_catalog_source.dart';
+import 'recipe_catalogsource.dart';
 
 class RecipeCatalogException implements Exception {
   const RecipeCatalogException(this.message);
@@ -15,30 +15,28 @@ class RecipeCatalogException implements Exception {
 
 class VersionedRecipeCatalogRepository implements RecipeCatalogRepository {
   const VersionedRecipeCatalogRepository({
-    required RecipeCatalogSource source,
-    required String localeCode,
-    String manifestAsset = 'assets/catalog/manifest.json',
-  })  : _source = source,
-        _localeCode = localeCode,
-        _manifestAsset = manifestAsset;
+    required this.source,
+    required this.localeCode,
+    this.manifestAsset = 'assets/catalog/manifest.json',
+  });
 
   static const supportedSchemaVersion = 1;
 
-  final RecipeCatalogSource _source;
-  final String _localeCode;
-  final String _manifestAsset;
+  final RecipeCatalogSource source;
+  final String localeCode;
+  final String manifestAsset;
 
   @override
   Future<List<Recipe>> loadPublishedRecipes() async {
     try {
       final manifest = _decodeObject(
-        await _source.loadString(_manifestAsset),
-        _manifestAsset,
+        await source.loadString(manifestAsset),
+        manifestAsset,
       );
-      _requireSchema(manifest, _manifestAsset);
+      _requireSchema(manifest, manifestAsset);
 
       final catalogVersion =
-          _string(manifest, 'catalogVersion', _manifestAsset);
+          _string(manifest, 'catalogVersion', manifestAsset);
       if (!RegExp(r'^\d+\.\d+\.\d+$').hasMatch(catalogVersion)) {
         throw const RecipeCatalogException(
           'catalogVersion must use x.y.z semantic versioning',
@@ -46,11 +44,11 @@ class VersionedRecipeCatalogRepository implements RecipeCatalogRepository {
       }
 
       final defaultLocale =
-          _normalize(_string(manifest, 'defaultLocale', _manifestAsset));
+          _normalize(_string(manifest, 'defaultLocale', manifestAsset));
       final supportedLocales = _stringList(
         manifest,
         'supportedLocales',
-        _manifestAsset,
+        manifestAsset,
       ).map(_normalize).toList(growable: false);
       if (supportedLocales.toSet().length != supportedLocales.length) {
         throw const RecipeCatalogException(
@@ -63,11 +61,11 @@ class VersionedRecipeCatalogRepository implements RecipeCatalogRepository {
         );
       }
 
-      final contentAsset = _string(manifest, 'contentAsset', _manifestAsset);
+      final contentAsset = _string(manifest, 'contentAsset', manifestAsset);
       final localeAssets = _stringMap(
         manifest,
         'localeAssets',
-        _manifestAsset,
+        manifestAsset,
       );
       if (localeAssets.keys.toSet().difference(supportedLocales.toSet()).isNotEmpty ||
           supportedLocales.toSet().difference(localeAssets.keys.toSet()).isNotEmpty) {
@@ -76,20 +74,20 @@ class VersionedRecipeCatalogRepository implements RecipeCatalogRepository {
         );
       }
 
-      final normalizedRequested = _normalize(_localeCode);
+      final normalizedRequested = _normalize(localeCode);
       final requestedLocale = supportedLocales.contains(normalizedRequested)
           ? normalizedRequested
           : defaultLocale;
 
       final content = _decodeObject(
-        await _source.loadString(contentAsset),
+        await source.loadString(contentAsset),
         contentAsset,
       );
       _requireSchema(content, contentAsset);
 
       final defaultAsset = localeAssets[defaultLocale]!;
       final defaultPayload = _decodeObject(
-        await _source.loadString(defaultAsset),
+        await source.loadString(defaultAsset),
         defaultAsset,
       );
       _validateLocaleEnvelope(defaultPayload, defaultLocale, defaultAsset);
@@ -98,7 +96,7 @@ class VersionedRecipeCatalogRepository implements RecipeCatalogRepository {
       final requestedPayload = requestedLocale == defaultLocale
           ? defaultPayload
           : _decodeObject(
-              await _source.loadString(requestedAsset),
+              await source.loadString(requestedAsset),
               requestedAsset,
             );
       if (requestedLocale != defaultLocale) {
@@ -142,7 +140,7 @@ class VersionedRecipeCatalogRepository implements RecipeCatalogRepository {
         final fallback = fallbackTexts[entry.key];
         if (fallback == null) {
           throw RecipeCatalogException(
-            'Published recipe ' + entry.key + ' has no default translation',
+            'Published recipe ${entry.key} has no default translation',
           );
         }
         output.add(
@@ -299,7 +297,7 @@ class VersionedRecipeCatalogRepository implements RecipeCatalogRepository {
       final metadata = canonical[entry.key];
       if (metadata == null) {
         throw RecipeCatalogException(
-          label + ' contains orphan recipe id ' + entry.key,
+          '$label contains orphan recipe id ${entry.key}',
         );
       }
       final value = entry.value;
@@ -315,7 +313,7 @@ class VersionedRecipeCatalogRepository implements RecipeCatalogRepository {
       if (ingredientTexts.keys.toSet().difference(expectedIngredients).isNotEmpty ||
           expectedIngredients.difference(ingredientTexts.keys.toSet()).isNotEmpty) {
         throw RecipeCatalogException(
-          label + ' ingredient ids do not match ' + entry.key,
+          '$label ingredient ids do not match ${entry.key}',
         );
       }
       for (final rawText in ingredientTexts.values) {
@@ -333,14 +331,14 @@ class VersionedRecipeCatalogRepository implements RecipeCatalogRepository {
       if (stepTexts.keys.toSet().difference(expectedSteps).isNotEmpty ||
           expectedSteps.difference(stepTexts.keys.toSet()).isNotEmpty) {
         throw RecipeCatalogException(
-          label + ' step ids do not match ' + entry.key,
+          '$label step ids do not match ${entry.key}',
         );
       }
       for (final stepId in expectedSteps) {
         final text = stepTexts[stepId];
         if (text is! String || text.trim().isEmpty) {
           throw RecipeCatalogException(
-            label + ' has invalid step text ' + stepId,
+            '$label has invalid step text $stepId',
           );
         }
       }
