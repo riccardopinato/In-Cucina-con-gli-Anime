@@ -90,8 +90,6 @@ def main() -> int:
                     / str(config["productionSource"])
                 ]
             )
-            if recipe.get("id")
-            != candidate.get("id")
         ]
     except (AuthoringError, KeyError) as exc:
         print(
