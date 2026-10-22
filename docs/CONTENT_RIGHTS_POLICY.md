@@ -43,6 +43,6 @@ Decorative folklore characters planned for F3 should use original illustrations 
 
 Factual titles of anime/manga or traditional works may be stored as inspiration/reference metadata. The product should not imply official affiliation, sponsorship or endorsement.
 
-## Current constraint
+## Current state
 
-F2 ships zero real production recipes. The synthetic authoring fixture is preview/test-only and is restored out of the production catalog after preview builds.
+F3A ships all 10 production recipes from the user-provided reference document as fresh editorial rebuilds. The synthetic authoring fixture remains preview/test-only and is restored out of the production catalog after preview builds.
