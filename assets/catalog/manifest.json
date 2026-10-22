@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "0.1.0",
+  "catalogVersion": "0.2.0",
   "defaultLocale": "en",
-  "supportedLocales": ["en", "it", "es", "fr", "de", "pt"],
+  "supportedLocales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
   "contentAsset": "assets/catalog/recipes.json",
   "localeAssets": {
     "en": "assets/catalog/locales/en.json",
