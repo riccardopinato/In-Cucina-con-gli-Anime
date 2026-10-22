@@ -82,6 +82,19 @@ def recipe_fingerprint(recipe: dict[str, Any]) -> str:
     return hashlib.sha256(stable_json_bytes(recipe)).hexdigest()
 
 
+def recipe_semantic_fingerprint(recipe: dict[str, Any]) -> str:
+    semantic = dict(recipe)
+    for key in (
+        "id",
+        "contentVersion",
+        "status",
+        "sourceNote",
+        "imageAssetId",
+    ):
+        semantic.pop(key, None)
+    return hashlib.sha256(stable_json_bytes(semantic)).hexdigest()
+
+
 def _require_string(
     obj: dict[str, Any], key: str, label: str, errors: list[str]
 ) -> str | None:
@@ -627,6 +640,8 @@ def compare_recipes(
     default_locale = str(config["defaultLocale"])
     left_fp = recipe_fingerprint(left)
     right_fp = recipe_fingerprint(right)
+    left_semantic_fp = recipe_semantic_fingerprint(left)
+    right_semantic_fp = recipe_semantic_fingerprint(right)
 
     left_reference = token_set(
         str(left.get("inspirationTitle", ""))
@@ -721,12 +736,16 @@ def compare_recipes(
     overall = round(overall, 6)
 
     thresholds = policy["thresholds"]
-    if (
-        left_fp == right_fp
-        and left.get("id") != right.get("id")
-    ):
+    same_id = left.get("id") == right.get("id")
+    if same_id and left_fp == right_fp:
+        classification = "idempotent_duplicate"
+        reason = "SAME_ID_SAME_FINGERPRINT"
+    elif same_id:
+        classification = "same_entity_update"
+        reason = "SAME_ID_CHANGED_CONTENT"
+    elif left_semantic_fp == right_semantic_fp:
         classification = "probable_duplicate"
-        reason = "EXACT_CONTENT_DIFFERENT_ID"
+        reason = "EXACT_SEMANTIC_CONTENT_DIFFERENT_ID"
     elif overall >= float(
         thresholds["probableDuplicate"]
     ):
@@ -773,6 +792,8 @@ def compare_recipes(
         differences.append("timing_differs")
 
     recommended = {
+        "idempotent_duplicate": "SKIP",
+        "same_entity_update": "UPDATE_OR_REVIEW",
         "probable_duplicate": "REVIEW_OR_SKIP",
         "review_required": "REVIEW_REQUIRED",
         "possible_variant": "KEEP_VARIANT_OR_REVIEW",
@@ -784,6 +805,8 @@ def compare_recipes(
         "rightId": str(right.get("id")),
         "leftFingerprint": left_fp,
         "rightFingerprint": right_fp,
+        "leftSemanticFingerprint": left_semantic_fp,
+        "rightSemanticFingerprint": right_semantic_fp,
         "normalizerVersion": policy[
             "normalizerVersion"
         ],
@@ -889,6 +912,8 @@ def build_similarity_report(
         and not item["reviewResolved"]
     ]
     summary: dict[str, int] = {
+        "idempotent_duplicate": 0,
+        "same_entity_update": 0,
         "probable_duplicate": 0,
         "review_required": 0,
         "possible_variant": 0,
