@@ -25,7 +25,7 @@ The product should feel warm, illustrated and playful without presenting itself 
 
 F0 foundation, F1 runtime catalog contract, F2 authoring/import pipeline and F3A content ingestion are complete.
 
-The production catalog contains all 10 recipes from the supplied reference document, rebuilt editorially and localized in EN/IT/ES/FR/DE/PT. F3B visual identity is complete; F3C adds the optional decorative-character layer.
+The production catalog contains all 10 recipes from the supplied reference document, rebuilt editorially and localized in EN/IT/ES/FR/DE/PT. F3 is complete: F3B provides the editorial visual identity and F3C adds the optional recipe-independent decorative-character layer. F4 monetization is next.
 
 ## UX direction
 
@@ -39,7 +39,13 @@ Implemented F3B identity:
 - responsive recipe detail: single-column on phone, two-column editorial composition on wider layouts;
 - restrained motion and lightweight rendering; no animated-image dependency.
 
-F3C may add lightweight animated decorative characters based mainly on Japanese/Chinese folklore and classics without coupling them to recipe content.
+Implemented F3C character layer:
+- six original procedural mascots based on Japanese/Chinese traditional archetypes: Kitsune, Kappa, Tanuki, Oni, Sun Wukong and Chinese Dragon;
+- character identity is kept outside recipe/catalog data;
+- contextual slots select compatible mascots and prevent immediate repetition;
+- native Flutter float/peek/sway motion only, with reduced-motion support;
+- Explore uses one rotating primary mascot; empty Favorites and Shopping use contextual mascots;
+- no GIF/Lottie/Rive or third-party character-art dependency in the initial implementation.
 
 ## Local-first
 
@@ -105,7 +111,9 @@ Exact pricing/provider/store integration is out of scope until F4.
 - deterministic authoring -> runtime compiler;
 - duplicate/similarity review with stale-decision protection;
 - production catalog contains all 10 recipes from the supplied F3A document;
-- Explore/Favorites/Shopping navigation works;\n- Explore/cards/detail share the F3B editorial visual system across the full 10-recipe catalog;
+- Explore/Favorites/Shopping navigation works;
+- Explore/cards/detail share the F3B editorial visual system across the full 10-recipe catalog;
+- F3C decorative mascots are recipe-independent, contextual, lightweight and reduced-motion aware;
 - localization/theme/settings infrastructure exists;
 - stable user-state persistence seams exist;
 - entitlement boundary is provider-agnostic;

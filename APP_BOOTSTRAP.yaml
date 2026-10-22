@@ -2,7 +2,7 @@ app_name: "In Cucina con gli Anime"
 project_name: "animekitchen"
 package_name: "com.riccardopinato.animekitchen"
 bundle_id: "com.riccardopinato.animekitchen"
-version: "0.6.0+6"
+version: "0.7.0+7"
 platforms: [android, ios, web]
 flutter_version: "3.47.3"
 default_locale: en
@@ -11,7 +11,7 @@ supported_locales: [en, it, es, fr, de, pt]
 brand:
   icon: "assets/branding/anime_kitchen_icon.svg"
   theme_seed: "#4A7C59"
-  visual_direction: "Japanese-contemporary editorial cookbook; procedural recipe art; rice-paper surfaces; original assets only"
+  visual_direction: "Japanese-contemporary editorial cookbook; procedural recipe art; original East Asian folklore mascots; rice-paper surfaces"
 
 auth:
   required_at_startup: false
@@ -50,7 +50,7 @@ content:
   imported_recipes: 10
   authoring_pipeline: implemented
   duplicate_similarity_gate: implemented
-  note: "F3B visual identity applied to the full 10-recipe catalog; procedural artwork is the no-photo fallback; synthetic fixture remains preview/test-only."
+  note: "F3C adds a recipe-independent decorative character registry with original procedural Japanese/Chinese folklore mascots, native float/peek/sway motion and contextual anti-repetition."
 
 goldens:
   - app_bootstrap

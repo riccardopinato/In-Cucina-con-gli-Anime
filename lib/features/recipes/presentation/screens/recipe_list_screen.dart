@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../../../core/decorative_characters/decorative_character_registry.dart';
+import '../../../../core/decorative_characters/decorative_character_stage.dart';
 import '../../../../core/theme/app_design_tokens.dart';
 import '../../../../core/theme/app_palette.dart';
 import '../../../../core/widgets/app_empty_state.dart';
@@ -322,72 +324,168 @@ class _ExploreHeader extends StatelessWidget {
                 color: (isDark
                         ? colors.primaryContainer
                         : AppPalette.apricot)
-                    .withValues(alpha: 0.72),
+                    .withValues(alpha: 0.62),
                 shape: BoxShape.circle,
               ),
             ),
           ),
           Positioned(
-            right: 52,
-            bottom: -68,
+            right: 42,
+            bottom: -74,
             child: Container(
-              width: 136,
-              height: 136,
+              width: 128,
+              height: 128,
               decoration: BoxDecoration(
                 border: Border.all(
-                  color: colors.primary.withValues(alpha: 0.18),
+                  color: colors.primary.withValues(alpha: 0.14),
                   width: 18,
                 ),
                 shape: BoxShape.circle,
               ),
             ),
           ),
-          ConstrainedBox(
-            constraints: const BoxConstraints(maxWidth: 720),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Container(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 12,
-                    vertical: 7,
-                  ),
-                  decoration: BoxDecoration(
-                    color: colors.primary.withValues(alpha: 0.10),
-                    borderRadius: BorderRadius.circular(AppRadii.pill),
-                  ),
-                  child: Row(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Icon(
-                        Icons.restaurant_menu_rounded,
-                        size: 17,
-                        color: colors.primary,
+          LayoutBuilder(
+            builder: (context, constraints) {
+              final wide = constraints.maxWidth >= 620;
+
+              if (wide) {
+                return Row(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Expanded(
+                      child: _ExploreHeaderCopy(
+                        l10n: l10n,
+                        colors: colors,
                       ),
-                      const SizedBox(width: 7),
-                      Text(
-                        l10n.appName,
-                        style: theme.textTheme.labelLarge?.copyWith(
-                          color: colors.primary,
+                    ),
+                    const SizedBox(width: AppSpacing.large),
+                    const DecorativeCharacterStage(
+                      slot: DecorativeSlot.exploreHero,
+                      size: 142,
+                    ),
+                  ],
+                );
+              }
+
+              return Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Expanded(
+                        child: _BrandPill(
+                          label: l10n.appName,
+                          colors: colors,
                         ),
+                      ),
+                      const SizedBox(width: AppSpacing.small),
+                      const DecorativeCharacterStage(
+                        slot: DecorativeSlot.exploreHero,
+                        size: 78,
                       ),
                     ],
                   ),
-                ),
-                const SizedBox(height: AppSpacing.large),
-                Text(
-                  l10n.exploreTagline,
-                  style: theme.textTheme.displayMedium,
-                ),
-                const SizedBox(height: AppSpacing.small),
-                Text(
-                  l10n.exploreIntro,
-                  style: theme.textTheme.bodyLarge?.copyWith(
-                    color: colors.onSurfaceVariant,
-                    height: 1.45,
+                  const SizedBox(height: AppSpacing.medium),
+                  Text(
+                    l10n.exploreTagline,
+                    style: theme.textTheme.displayMedium,
                   ),
-                ),
-              ],
+                  const SizedBox(height: AppSpacing.small),
+                  Text(
+                    l10n.exploreIntro,
+                    style: theme.textTheme.bodyLarge?.copyWith(
+                      color: colors.onSurfaceVariant,
+                      height: 1.45,
+                    ),
+                  ),
+                ],
+              );
+            },
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _ExploreHeaderCopy extends StatelessWidget {
+  const _ExploreHeaderCopy({
+    required this.l10n,
+    required this.colors,
+  });
+
+  final AppLocalizations l10n;
+  final ColorScheme colors;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+
+    return ConstrainedBox(
+      constraints: const BoxConstraints(maxWidth: 720),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          _BrandPill(
+            label: l10n.appName,
+            colors: colors,
+          ),
+          const SizedBox(height: AppSpacing.large),
+          Text(
+            l10n.exploreTagline,
+            style: theme.textTheme.displayMedium,
+          ),
+          const SizedBox(height: AppSpacing.small),
+          Text(
+            l10n.exploreIntro,
+            style: theme.textTheme.bodyLarge?.copyWith(
+              color: colors.onSurfaceVariant,
+              height: 1.45,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _BrandPill extends StatelessWidget {
+  const _BrandPill({
+    required this.label,
+    required this.colors,
+  });
+
+  final String label;
+  final ColorScheme colors;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.symmetric(
+        horizontal: 12,
+        vertical: 7,
+      ),
+      decoration: BoxDecoration(
+        color: colors.primary.withValues(alpha: 0.10),
+        borderRadius: BorderRadius.circular(AppRadii.pill),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Icon(
+            Icons.restaurant_menu_rounded,
+            size: 17,
+            color: colors.primary,
+          ),
+          const SizedBox(width: 7),
+          Flexible(
+            child: Text(
+              label,
+              overflow: TextOverflow.ellipsis,
+              style: Theme.of(context).textTheme.labelLarge?.copyWith(
+                    color: colors.primary,
+                  ),
             ),
           ),
         ],
