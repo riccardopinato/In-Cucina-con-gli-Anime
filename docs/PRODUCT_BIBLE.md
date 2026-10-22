@@ -23,9 +23,9 @@ The product should feel warm, illustrated and playful without presenting itself 
 
 ## Current scope
 
-F0 foundation, F1 runtime catalog contract and F2 authoring/import pipeline are complete.
+F0 foundation, F1 runtime catalog contract, F2 authoring/import pipeline and F3A content ingestion are complete.
 
-The production catalog intentionally contains zero real recipes. F3 introduces the first approved production batch and the stronger visual identity.
+The production catalog now contains all 10 recipes from the supplied reference document, rebuilt editorially and localized in EN/IT/ES/FR/DE/PT. F3B is the stronger visual-identity phase.
 
 ## UX direction
 
@@ -89,7 +89,6 @@ Exact pricing/provider/store integration is out of scope until F4.
 
 ## Out of scope now
 
-- remaining production recipe expansion before F3B visual review is complete;
 - official anime screenshots/posters/logos/modern character artwork without a rights basis;
 - account/cloud sync;
 - notifications;
@@ -105,7 +104,7 @@ Exact pricing/provider/store integration is out of scope until F4.
 - versioned local JSON runtime catalog;
 - deterministic authoring -> runtime compiler;
 - duplicate/similarity review with stale-decision protection;
-- production catalog contains the first five F3A recipes;
+- production catalog contains all 10 recipes from the supplied F3A document;
 - Explore/Favorites/Shopping navigation works;
 - localization/theme/settings infrastructure exists;
 - stable user-state persistence seams exist;
