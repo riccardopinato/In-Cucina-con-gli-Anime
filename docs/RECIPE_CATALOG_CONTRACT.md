@@ -17,11 +17,14 @@ assets/catalog/
     └── pt.json
 ```
 
-F2 may introduce friendlier per-recipe authoring files, but the app runtime continues to consume this compiled package.
+F2 introduces per-recipe authoring JSON, but the app runtime continues to consume only this compiled package.
+
+The normal editorial source of truth is now `authoring/recipes/*.json`. Runtime files under `assets/catalog/` are generated artifacts and CI checks that they match the authoring source.
 
 ## Version axes
 
-- `schemaVersion`: shape/compatibility of the JSON contract. Runtime supports only explicitly known schema versions.
+- `authoringVersion`: build-time editorial-tooling contract, independent from the runtime schema.
+- `schemaVersion`: shape/compatibility of the JSON runtime contract. Runtime supports only explicitly known schema versions.
 - `catalogVersion`: semantic version of the whole packaged catalog.
 - `contentVersion`: positive integer revision of one stable recipe ID.
 
@@ -94,9 +97,17 @@ F1 deliberately keeps origin metadata lightweight:
 
 `sourceNote` is optional and internal. It is not a public attribution system.
 
+## F2 generation boundary
+
+`python3 tool/compile_recipe_catalog.py` compiles authoring records into this F1 package.
+
+`python3 tool/compile_recipe_catalog.py --check` fails when committed runtime JSON has drifted from the current production authoring source.
+
+Synthetic fixtures under `authoring/fixtures/` are excluded from production generation. They are included only by the explicit preview/test command.
+
 ## Deterministic validation
 
-`python3 tool/validate_recipe_catalog.py` validates the production package before Flutter analysis/tests.
+`python3 tool/validate_recipe_catalog.py` validates the generated production package before Flutter analysis/tests.
 
 It rejects, among other things:
 
@@ -120,4 +131,4 @@ Errors are sorted before output so the same invalid input produces stable diagno
 
 `VersionedRecipeCatalogRepository` never exposes a partially accepted catalog. Unsupported/malformed input throws `RecipeCatalogException`; the UI can show its normal error state.
 
-The production F1 package contains zero real recipes. Synthetic fixture content exists only inside tests.
+At the end of F2 the production package still contains zero real recipes. The synthetic authoring fixture exists only for tests/preview and is restored out of the production catalog after preview builds.
