@@ -11,10 +11,19 @@ required = [
     ROOT / "ROADMAP.md",
     ROOT / "docs" / "PRODUCT_BIBLE.md",
     ROOT / "docs" / "CONTENT_RIGHTS_POLICY.md",
+    ROOT / "docs" / "RECIPE_CATALOG_CONTRACT.md",
     ROOT / "docs" / "GOLDEN_REUSE_MANIFEST.txt",
     ROOT / "lib" / "main.dart",
     ROOT / "lib" / "core" / "theme" / "app_theme.dart",
-    ROOT / "lib" / "features" / "recipes" / "data" / "empty_recipe_catalog_repository.dart",
+    ROOT
+    / "lib"
+    / "features"
+    / "recipes"
+    / "data"
+    / "versioned_recipe_catalog_repository.dart",
+    ROOT / "assets" / "catalog" / "manifest.json",
+    ROOT / "assets" / "catalog" / "recipes.json",
+    ROOT / "tool" / "validate_recipe_catalog.py",
 ]
 
 missing = [str(path.relative_to(ROOT)) for path in required if not path.exists()]
@@ -35,6 +44,12 @@ template = key_sets["app_en.arb"]
 for name, keys in key_sets.items():
     if keys != template:
         raise SystemExit(f"{name} localization keys do not match app_en.arb")
+
+catalog = json.loads(
+    (ROOT / "assets" / "catalog" / "recipes.json").read_text(encoding="utf-8")
+)
+if catalog.get("recipes") != []:
+    raise SystemExit("F1 production catalog must still contain zero real recipes")
 
 for forbidden in ("calcifer_bacon", "ichiraku_ramen", "ponyo_ramen", "totoro_bento"):
     for path in (ROOT / "lib").rglob("*.dart"):

@@ -1,36 +1,36 @@
 # Content and rights policy
 
-This app is intended to be monetizable. Content provenance is therefore a product requirement.
+The app is intended to be monetizable, but editorial tracking must stay proportionate to the actual workflow.
 
-## Allowed direction
+## Recipe workflow
 
-- original recipes written specifically for this app;
-- factual identification of an anime/manga title when needed to explain inspiration;
-- original food photography or original artwork with documented rights;
-- original UI illustrations and branding;
-- licensed third-party assets with attribution where required.
+Production recipes may be:
 
-## Excluded by default
+- `original`: created for this app;
+- `inspired`: created from a dish, scene, idea or culinary reference;
+- `adapted`: developed from recipe/reference material supplied for editorial processing.
 
-- copied recipe instructions from cookbooks, websites, PDFs or other apps;
-- anime screenshots, posters, manga panels, logos, character art or soundtrack assets without permission;
-- wording/branding that implies official affiliation, sponsorship or endorsement.
+When reference material is supplied, it is treated as culinary/editorial input. Production copy is written in our own structure and wording rather than shipping source prose verbatim.
 
-## Editorial rule
+The catalog records only `contentOrigin` plus an optional internal `sourceNote`; F1 does not introduce a heavy provenance database.
 
-A future recipe may be described as inspired by a food scene or recurring dish, but the actual recipe text, measurements, preparation method, notes and photography must be our own editorial work unless a reusable license/permission is recorded.
+## Visual/media rule
 
-## Planned provenance fields
+Prefer:
 
-- stable content ID;
-- inspiration/reference title;
-- editorial author/source;
-- review date;
-- rights status;
-- asset source/credit/license;
-- translation source version;
-- optional factual references.
+- original food photography;
+- original illustrations/branding;
+- verified public-domain or rights-compatible source material;
+- licensed third-party assets when intentionally acquired.
 
-## Bootstrap constraint
+Do not ship anime screenshots, posters, manga panels, logos, music or modern character artwork without a rights basis.
 
-The attached `APP La Cucina dei Manga.pdf` is context only in this phase. No recipe from it is shipped or transcribed into the app.
+Decorative folklore characters planned for F3 should use original illustrations or separately verified reusable source material.
+
+## References to works
+
+Factual titles of anime/manga or traditional works may be stored as inspiration/reference metadata. The product should not imply official affiliation, sponsorship or endorsement.
+
+## Current constraint
+
+F1 ships zero real recipes. Synthetic recipe data is test-only.
