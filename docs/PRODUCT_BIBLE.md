@@ -25,7 +25,7 @@ The product should feel warm, illustrated and playful without presenting itself 
 
 F0 foundation, F1 runtime catalog contract, F2 authoring/import pipeline and F3A content ingestion are complete.
 
-The production catalog contains all 10 recipes from the supplied reference document, rebuilt editorially and localized in EN/IT/ES/FR/DE/PT. F3 is complete: F3B provides the editorial visual identity and F3C adds the optional recipe-independent decorative-character layer. F4 monetization is next.
+The production catalog contains all 10 recipes from the supplied reference document, rebuilt editorially and localized in EN/IT/ES/FR/DE/PT. F3 is complete: F3B provides the editorial visual identity and F3C adds the optional recipe-independent decorative-character layer. F4A consent/privacy foundation is complete; F4B entitlement + one-time purchase is next.
 
 ## UX direction
 
@@ -117,5 +117,6 @@ Exact pricing/provider/store integration is out of scope until F4.
 - localization/theme/settings infrastructure exists;
 - stable user-state persistence seams exist;
 - entitlement boundary is provider-agnostic;
+- consent/privacy foundation is fail-closed and separates persisted local preference from per-launch provider eligibility;
 - CI validates authoring, generated catalog, Flutter tests and production/fixture Web builds;
 - new recipes can be added without editing Dart.
