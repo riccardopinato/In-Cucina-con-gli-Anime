@@ -37,7 +37,27 @@ class _DecorativeCharacterStageState
     _controller = AnimationController(
       vsync: this,
       duration: _durationFor(_character.motion),
-    )..repeat(reverse: true);
+    );
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    _syncMotionPreference();
+  }
+
+  void _syncMotionPreference() {
+    final reduceMotion =
+        MediaQuery.maybeOf(context)?.disableAnimations ?? false;
+    if (reduceMotion) {
+      _controller
+        ..stop()
+        ..value = 0.5;
+      return;
+    }
+    if (!_controller.isAnimating) {
+      _controller.repeat(reverse: true);
+    }
   }
 
   @override
@@ -51,8 +71,8 @@ class _DecorativeCharacterStageState
       );
       _controller
         ..duration = _durationFor(_character.motion)
-        ..reset()
-        ..repeat(reverse: true);
+        ..reset();
+      _syncMotionPreference();
     }
   }
 
