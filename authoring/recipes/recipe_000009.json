@@ -1,0 +1,160 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000009",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Yuri!!! on ICE / Food Wars!",
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "servings": 2,
+  "difficulty": "easy",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; two servings are an editorial estimate from the listed quantities.",
+  "imageAssetId": null,
+  "ingredients": [
+    {"id": "chicken_thigh", "quantity": 200, "unit": "g"},
+    {"id": "onion", "quantity": 0.5, "unit": null},
+    {"id": "eggs", "quantity": 2, "unit": null},
+    {"id": "steamed_rice", "quantity": 250, "unit": "g"},
+    {"id": "dashi", "quantity": 100, "unit": "ml"},
+    {"id": "soy_sauce", "quantity": 2, "unit": "tbsp"},
+    {"id": "mirin", "quantity": 1, "unit": "tbsp"},
+    {"id": "sugar", "quantity": 1, "unit": "tsp"},
+    {"id": "mitsuba_or_chives", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"id": "season_broth", "timerSeconds": null},
+    {"id": "cook_chicken", "timerSeconds": null},
+    {"id": "first_egg", "timerSeconds": 60},
+    {"id": "finish_egg", "timerSeconds": 30},
+    {"id": "assemble", "timerSeconds": null}
+  ],
+  "locales": {
+    "en": {
+      "title": "Chicken and Egg Oyakodon",
+      "ingredients": {
+        "chicken_thigh": {"name": "Boneless chicken thigh", "note": "cut into bite-size pieces"},
+        "onion": {"name": "Golden onion", "note": "half, thinly sliced"},
+        "eggs": {"name": "Large eggs", "note": null},
+        "steamed_rice": {"name": "Steamed Japanese rice", "note": null},
+        "dashi": {"name": "Dashi broth", "note": null},
+        "soy_sauce": {"name": "Soy sauce", "note": null},
+        "mirin": {"name": "Mirin", "note": null},
+        "sugar": {"name": "Sugar", "note": null},
+        "mitsuba_or_chives": {"name": "Mitsuba leaves or chives", "note": "for finishing"}
+      },
+      "steps": {
+        "season_broth": "Bring the dashi, soy sauce, mirin and sugar to a gentle boil in a small skillet.",
+        "cook_chicken": "Add the onion and chicken, cover and cook over medium heat until the chicken is cooked through and the onion has softened.",
+        "first_egg": "Beat the eggs lightly and pour roughly three quarters over the chicken. Cover and cook briefly so the egg begins to set.",
+        "finish_egg": "Add the remaining egg, turn off the heat and cover for a short rest so the surface stays soft and creamy.",
+        "assemble": "Spoon the chicken, egg and seasoned broth over bowls of hot rice and finish with mitsuba or chives."
+      }
+    },
+    "it": {
+      "title": "Oyakodon con pollo e uova",
+      "ingredients": {
+        "chicken_thigh": {"name": "Coscia di pollo disossata", "note": "tagliata a bocconcini"},
+        "onion": {"name": "Cipolla dorata", "note": "mezza, affettata sottile"},
+        "eggs": {"name": "Uova grandi", "note": null},
+        "steamed_rice": {"name": "Riso giapponese cotto al vapore", "note": null},
+        "dashi": {"name": "Brodo dashi", "note": null},
+        "soy_sauce": {"name": "Salsa di soia", "note": null},
+        "mirin": {"name": "Mirin", "note": null},
+        "sugar": {"name": "Zucchero", "note": null},
+        "mitsuba_or_chives": {"name": "Foglie di mitsuba o erba cipollina", "note": "per completare"}
+      },
+      "steps": {
+        "season_broth": "Porta a leggero bollore dashi, salsa di soia, mirin e zucchero in una padella piccola.",
+        "cook_chicken": "Aggiungi cipolla e pollo, copri e cuoci a fuoco medio finché il pollo è ben cotto e la cipolla morbida.",
+        "first_egg": "Sbatti appena le uova e versane circa tre quarti sul pollo. Copri e cuoci brevemente in modo che inizino a rapprendersi.",
+        "finish_egg": "Aggiungi l’uovo rimasto, spegni il fuoco e lascia coperto per poco: la superficie deve restare morbida e cremosa.",
+        "assemble": "Distribuisci pollo, uovo e fondo di cottura sul riso caldo e completa con mitsuba o erba cipollina."
+      }
+    },
+    "es": {
+      "title": "Oyakodon de pollo y huevo",
+      "ingredients": {
+        "chicken_thigh": {"name": "Muslo de pollo deshuesado", "note": "en trozos pequeños"},
+        "onion": {"name": "Cebolla dorada", "note": "media, cortada fina"},
+        "eggs": {"name": "Huevos grandes", "note": null},
+        "steamed_rice": {"name": "Arroz japonés al vapor", "note": null},
+        "dashi": {"name": "Caldo dashi", "note": null},
+        "soy_sauce": {"name": "Salsa de soja", "note": null},
+        "mirin": {"name": "Mirin", "note": null},
+        "sugar": {"name": "Azúcar", "note": null},
+        "mitsuba_or_chives": {"name": "Hojas de mitsuba o cebollino", "note": "para terminar"}
+      },
+      "steps": {
+        "season_broth": "Lleva a un hervor suave el dashi, la salsa de soja, el mirin y el azúcar en una sartén pequeña.",
+        "cook_chicken": "Añade la cebolla y el pollo, tapa y cocina a fuego medio hasta que el pollo esté hecho y la cebolla tierna.",
+        "first_egg": "Bate los huevos ligeramente y vierte unas tres cuartas partes sobre el pollo. Tapa y cocina brevemente.",
+        "finish_egg": "Añade el huevo restante, apaga el fuego y deja reposar tapado unos instantes para conservar una textura cremosa.",
+        "assemble": "Sirve el pollo, el huevo y su caldo sobre cuencos de arroz caliente y termina con mitsuba o cebollino."
+      }
+    },
+    "fr": {
+      "title": "Oyakodon au poulet et aux œufs",
+      "ingredients": {
+        "chicken_thigh": {"name": "Cuisse de poulet désossée", "note": "coupée en morceaux"},
+        "onion": {"name": "Oignon jaune", "note": "un demi, finement émincé"},
+        "eggs": {"name": "Gros œufs", "note": null},
+        "steamed_rice": {"name": "Riz japonais cuit à la vapeur", "note": null},
+        "dashi": {"name": "Bouillon dashi", "note": null},
+        "soy_sauce": {"name": "Sauce soja", "note": null},
+        "mirin": {"name": "Mirin", "note": null},
+        "sugar": {"name": "Sucre", "note": null},
+        "mitsuba_or_chives": {"name": "Feuilles de mitsuba ou ciboulette", "note": "pour finir"}
+      },
+      "steps": {
+        "season_broth": "Portez doucement à ébullition le dashi, la sauce soja, le mirin et le sucre dans une petite poêle.",
+        "cook_chicken": "Ajoutez l’oignon et le poulet, couvrez et faites cuire à feu moyen jusqu’à cuisson complète du poulet et tendreté de l’oignon.",
+        "first_egg": "Battez légèrement les œufs et versez-en environ les trois quarts sur le poulet. Couvrez et cuisez brièvement.",
+        "finish_egg": "Ajoutez le reste d’œuf, coupez le feu et laissez reposer couvert quelques instants pour conserver une texture crémeuse.",
+        "assemble": "Répartissez poulet, œuf et jus de cuisson sur le riz chaud et terminez avec mitsuba ou ciboulette."
+      }
+    },
+    "de": {
+      "title": "Oyakodon mit Hähnchen und Ei",
+      "ingredients": {
+        "chicken_thigh": {"name": "Hähnchenschenkel ohne Knochen", "note": "in mundgerechte Stücke geschnitten"},
+        "onion": {"name": "Gelbe Zwiebel", "note": "eine halbe, dünn geschnitten"},
+        "eggs": {"name": "Große Eier", "note": null},
+        "steamed_rice": {"name": "Gedämpfter japanischer Reis", "note": null},
+        "dashi": {"name": "Dashi-Brühe", "note": null},
+        "soy_sauce": {"name": "Sojasauce", "note": null},
+        "mirin": {"name": "Mirin", "note": null},
+        "sugar": {"name": "Zucker", "note": null},
+        "mitsuba_or_chives": {"name": "Mitsuba-Blätter oder Schnittlauch", "note": "zum Garnieren"}
+      },
+      "steps": {
+        "season_broth": "Dashi, Sojasauce, Mirin und Zucker in einer kleinen Pfanne sanft aufkochen.",
+        "cook_chicken": "Zwiebel und Hähnchen hinzufügen, abdecken und bei mittlerer Hitze garen, bis das Fleisch durch und die Zwiebel weich ist.",
+        "first_egg": "Die Eier nur leicht verquirlen und etwa drei Viertel über das Hähnchen gießen. Abdecken und kurz stocken lassen.",
+        "finish_egg": "Das restliche Ei zugeben, die Hitze ausschalten und kurz zugedeckt ruhen lassen, damit die Oberfläche weich und cremig bleibt.",
+        "assemble": "Hähnchen, Ei und Würzbrühe auf heißen Reis geben und mit Mitsuba oder Schnittlauch abschließen."
+      }
+    },
+    "pt": {
+      "title": "Oyakodon de frango e ovos",
+      "ingredients": {
+        "chicken_thigh": {"name": "Coxa de frango desossada", "note": "cortada em pedaços"},
+        "onion": {"name": "Cebola amarela", "note": "meia, fatiada fina"},
+        "eggs": {"name": "Ovos grandes", "note": null},
+        "steamed_rice": {"name": "Arroz japonês cozido no vapor", "note": null},
+        "dashi": {"name": "Caldo dashi", "note": null},
+        "soy_sauce": {"name": "Molho de soja", "note": null},
+        "mirin": {"name": "Mirin", "note": null},
+        "sugar": {"name": "Açúcar", "note": null},
+        "mitsuba_or_chives": {"name": "Folhas de mitsuba ou cebolinha", "note": "para finalizar"}
+      },
+      "steps": {
+        "season_broth": "Leve o dashi, o molho de soja, o mirin e o açúcar a uma fervura suave em uma frigideira pequena.",
+        "cook_chicken": "Junte a cebola e o frango, tampe e cozinhe em fogo médio até o frango ficar cozido e a cebola macia.",
+        "first_egg": "Bata os ovos levemente e despeje cerca de três quartos sobre o frango. Tampe e cozinhe rapidamente.",
+        "finish_egg": "Acrescente o restante do ovo, desligue o fogo e deixe descansar tampado por alguns instantes para manter a textura cremosa.",
+        "assemble": "Sirva o frango, o ovo e o caldo temperado sobre arroz quente e finalize com mitsuba ou cebolinha."
+      }
+    }
+  }
+}
