@@ -1,4 +1,379 @@
 {
   "schemaVersion": 1,
-  "recipes": []
+  "recipes": [
+    {
+      "id": "recipe_000001",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Il castello errante di Howl",
+      "prepMinutes": 5,
+      "cookMinutes": 10,
+      "servings": 2,
+      "difficulty": "easy",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. Servings inferred from ingredient quantities because the source does not state yield.",
+      "ingredients": [
+        {
+          "id": "smoked_bacon",
+          "quantity": 4,
+          "unit": "slice"
+        },
+        {
+          "id": "eggs",
+          "quantity": 2,
+          "unit": null
+        },
+        {
+          "id": "butter",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "black_pepper",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "country_bread",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "steps": [
+        {
+          "id": "heat_pan",
+          "timerSeconds": null
+        },
+        {
+          "id": "crisp_bacon",
+          "timerSeconds": null
+        },
+        {
+          "id": "add_eggs",
+          "timerSeconds": null
+        },
+        {
+          "id": "finish_eggs",
+          "timerSeconds": null
+        },
+        {
+          "id": "season_serve",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000002",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Naruto",
+      "prepMinutes": 20,
+      "cookMinutes": 30,
+      "servings": 2,
+      "difficulty": "medium",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. Servings inferred from ingredient quantities because the source does not state yield.",
+      "ingredients": [
+        {
+          "id": "ramen_noodles",
+          "quantity": 200,
+          "unit": "g"
+        },
+        {
+          "id": "concentrated_broth",
+          "quantity": 800,
+          "unit": "ml"
+        },
+        {
+          "id": "miso_paste",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "chashu",
+          "quantity": 4,
+          "unit": "slice"
+        },
+        {
+          "id": "ajitsuke_eggs",
+          "quantity": 2,
+          "unit": null
+        },
+        {
+          "id": "narutomaki",
+          "quantity": 4,
+          "unit": "slice"
+        },
+        {
+          "id": "spring_onions",
+          "quantity": 2,
+          "unit": null
+        },
+        {
+          "id": "bean_sprouts",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "nori",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "steps": [
+        {
+          "id": "season_broth",
+          "timerSeconds": null
+        },
+        {
+          "id": "cook_noodles",
+          "timerSeconds": null
+        },
+        {
+          "id": "fill_bowls",
+          "timerSeconds": null
+        },
+        {
+          "id": "add_toppings",
+          "timerSeconds": null
+        },
+        {
+          "id": "serve",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000003",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Yuri!!! on ICE / My Hero Academia",
+      "prepMinutes": 20,
+      "cookMinutes": 15,
+      "servings": 2,
+      "difficulty": "medium",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. Servings inferred from ingredient quantities because the source does not state yield.",
+      "ingredients": [
+        {
+          "id": "tonkatsu",
+          "quantity": 2,
+          "unit": null
+        },
+        {
+          "id": "onion",
+          "quantity": 1,
+          "unit": null
+        },
+        {
+          "id": "eggs",
+          "quantity": 2,
+          "unit": null
+        },
+        {
+          "id": "steamed_rice",
+          "quantity": 300,
+          "unit": "g"
+        },
+        {
+          "id": "dashi",
+          "quantity": 100,
+          "unit": "ml"
+        },
+        {
+          "id": "soy_sauce",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "mirin",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "sugar",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "garnish",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "steps": [
+        {
+          "id": "simmer_onion",
+          "timerSeconds": 300
+        },
+        {
+          "id": "add_tonkatsu",
+          "timerSeconds": null
+        },
+        {
+          "id": "add_eggs",
+          "timerSeconds": null
+        },
+        {
+          "id": "steam_finish",
+          "timerSeconds": null
+        },
+        {
+          "id": "assemble_bowl",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000004",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Doraemon",
+      "prepMinutes": 15,
+      "cookMinutes": 10,
+      "servings": 4,
+      "difficulty": "easy",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source gives no yield; four servings are an editorial estimate from the batter and filling quantities.",
+      "ingredients": [
+        {
+          "id": "eggs",
+          "quantity": 2,
+          "unit": null
+        },
+        {
+          "id": "sugar",
+          "quantity": 80,
+          "unit": "g"
+        },
+        {
+          "id": "honey",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "flour",
+          "quantity": 140,
+          "unit": "g"
+        },
+        {
+          "id": "baking_powder",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "water",
+          "quantity": 50,
+          "unit": "ml"
+        },
+        {
+          "id": "anko",
+          "quantity": 200,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        {
+          "id": "whisk_base",
+          "timerSeconds": null
+        },
+        {
+          "id": "finish_batter",
+          "timerSeconds": null
+        },
+        {
+          "id": "rest_batter",
+          "timerSeconds": 900
+        },
+        {
+          "id": "cook_first_side",
+          "timerSeconds": null
+        },
+        {
+          "id": "cook_second_side",
+          "timerSeconds": null
+        },
+        {
+          "id": "fill_dorayaki",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000005",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "La città incantata / Pokémon",
+      "prepMinutes": 15,
+      "cookMinutes": 15,
+      "servings": 2,
+      "difficulty": "easy",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source gives no yield; two servings are an editorial estimate. The rice also rests for 10 minutes after cooking, retained in the step text because the runtime model has no separate rest-time field.",
+      "ingredients": [
+        {
+          "id": "sushi_rice",
+          "quantity": 300,
+          "unit": "g"
+        },
+        {
+          "id": "water",
+          "quantity": 360,
+          "unit": "ml"
+        },
+        {
+          "id": "tuna",
+          "quantity": 80,
+          "unit": "g"
+        },
+        {
+          "id": "japanese_mayo",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "salt",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "nori",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "sesame_or_furikake",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "steps": [
+        {
+          "id": "wash_cook_rice",
+          "timerSeconds": 900
+        },
+        {
+          "id": "rest_rice",
+          "timerSeconds": 600
+        },
+        {
+          "id": "make_filling",
+          "timerSeconds": null
+        },
+        {
+          "id": "fill_shape",
+          "timerSeconds": null
+        },
+        {
+          "id": "finish_nori",
+          "timerSeconds": null
+        }
+      ]
+    }
+  ]
 }
