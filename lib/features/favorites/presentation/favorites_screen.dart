@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../../core/decorative_characters/decorative_character_registry.dart';
+import '../../../core/decorative_characters/decorative_character_stage.dart';
 import '../../../core/theme/app_design_tokens.dart';
 import '../../../core/widgets/app_empty_state.dart';
 import '../../../core/widgets/app_error_state.dart';
@@ -36,6 +38,10 @@ class FavoritesScreen extends ConsumerWidget {
             icon: Icons.favorite_border_rounded,
             title: l10n.emptyFavoritesTitle,
             body: l10n.emptyFavoritesBody,
+            decoration: const DecorativeCharacterStage(
+              slot: DecorativeSlot.favoritesEmpty,
+              size: 132,
+            ),
           );
         }
 
