@@ -210,6 +210,243 @@
         "fill_shape": "Umedeça e salgue levemente as mãos. Achate uma porção de arroz morno, coloque um pouco do recheio no centro, cubra com mais arroz e modele um triângulo compacto.",
         "finish_nori": "Envolva a base com uma tira de nori. Acrescente gergelim ou furikake se desejar e sirva enquanto o arroz ainda está morno."
       }
+    },
+    "recipe_000006": {
+      "title": "Okonomiyaki ao estilo Kansai",
+      "ingredientTexts": {
+        "cabbage": {
+          "name": "Repolho verde",
+          "note": "fatiado bem fino"
+        },
+        "flour": {
+          "name": "Farinha de trigo",
+          "note": null
+        },
+        "dashi": {
+          "name": "Caldo dashi frio",
+          "note": null
+        },
+        "egg": {
+          "name": "Ovo",
+          "note": null
+        },
+        "pork_belly": {
+          "name": "Barriga de porco fresca",
+          "note": "4 fatias"
+        },
+        "okonomiyaki_sauce": {
+          "name": "Molho okonomiyaki",
+          "note": "ou mistura de ketchup, molho Worcestershire e mel"
+        },
+        "japanese_mayo": {
+          "name": "Maionese japonesa",
+          "note": "para finalizar"
+        },
+        "katsuobushi": {
+          "name": "Flocos de katsuobushi",
+          "note": "para finalizar"
+        },
+        "aoki_seaweed": {
+          "name": "Alga Aoki",
+          "note": "nome usado na fonte"
+        }
+      },
+      "stepTexts": {
+        "make_batter": "Misture a farinha, o dashi frio e o ovo até obter uma massa lisa.",
+        "add_cabbage": "Incorpore o repolho fatiado fino até ficar bem distribuído na massa.",
+        "shape_and_top": "Aqueça uma chapa ou frigideira levemente untada, forme um disco espesso com a mistura e coloque as fatias de porco por cima.",
+        "cook_both_sides": "Cozinhe tampado em fogo médio até firmar a primeira face, vire com cuidado e continue até dourar o porco e cozinhar o centro.",
+        "finish": "Passe para um prato e finalize com molho okonomiyaki, maionese japonesa, katsuobushi e a alga."
+      }
+    },
+    "recipe_000007": {
+      "title": "Takoyaki de polvo",
+      "ingredientTexts": {
+        "octopus": {
+          "name": "Polvo cozido",
+          "note": "cortado em cubos pequenos"
+        },
+        "flour": {
+          "name": "Farinha",
+          "note": null
+        },
+        "dashi": {
+          "name": "Caldo dashi frio",
+          "note": null
+        },
+        "egg": {
+          "name": "Ovo",
+          "note": null
+        },
+        "beni_shoga": {
+          "name": "Beni shoga",
+          "note": "gengibre em conserva picado"
+        },
+        "tenkasu": {
+          "name": "Tenkasu",
+          "note": "pedaços crocantes de massa frita"
+        },
+        "spring_onion": {
+          "name": "Cebolinha",
+          "note": "picada fina"
+        },
+        "takoyaki_sauce": {
+          "name": "Molho takoyaki",
+          "note": "para servir"
+        },
+        "japanese_mayo": {
+          "name": "Maionese japonesa",
+          "note": "para servir"
+        },
+        "katsuobushi": {
+          "name": "Flocos de katsuobushi",
+          "note": "para servir"
+        }
+      },
+      "stepTexts": {
+        "make_batter": "Misture a farinha, o ovo e o dashi frio até obter uma massa líquida e lisa.",
+        "heat_pan": "Aqueça bem a chapa de takoyaki e unte generosamente cada cavidade.",
+        "fill_moulds": "Encha as cavidades quase até a borda com a massa.",
+        "add_fillings": "Coloque em cada cavidade um pedaço de polvo com um pouco de beni shoga, tenkasu e cebolinha.",
+        "turn_balls": "Quando a base começar a firmar, gire aos poucos com palitos de madeira, recolhendo a massa excedente até formar bolas douradas.",
+        "finish": "Sirva quente com molho takoyaki, maionese japonesa e katsuobushi."
+      }
+    },
+    "recipe_000008": {
+      "title": "Omurice com ketchup",
+      "ingredientTexts": {
+        "steamed_rice": {
+          "name": "Arroz cozido no vapor",
+          "note": null
+        },
+        "chicken_breast": {
+          "name": "Peito de frango",
+          "note": "em cubos"
+        },
+        "onion": {
+          "name": "Cebola",
+          "note": "meia, picada"
+        },
+        "ketchup": {
+          "name": "Ketchup",
+          "note": "mais um pouco para decorar"
+        },
+        "eggs": {
+          "name": "Ovos frescos",
+          "note": null
+        },
+        "milk": {
+          "name": "Leite",
+          "note": null
+        },
+        "butter": {
+          "name": "Manteiga",
+          "note": null
+        },
+        "salt_pepper": {
+          "name": "Sal e pimenta",
+          "note": "a gosto"
+        }
+      },
+      "stepTexts": {
+        "cook_rice_filling": "Refogue o frango e a cebola com um pouco de óleo. Junte o arroz e o ketchup e misture até aquecer e temperar por igual.",
+        "shape_rice": "Modele o arroz em um montinho oval e compacto no prato.",
+        "beat_eggs": "Bata os ovos com o leite, sal e pimenta.",
+        "cook_omelette": "Derreta a manteiga em uma frigideira limpa em fogo médio-baixo e faça uma omelete macia e flexível.",
+        "wrap_and_decorate": "Cubra o arroz com a omelete e desenhe por cima um coração ou uma mensagem curta usando ketchup."
+      }
+    },
+    "recipe_000009": {
+      "title": "Oyakodon de frango e ovos",
+      "ingredientTexts": {
+        "chicken_thigh": {
+          "name": "Coxa de frango desossada",
+          "note": "cortada em pedaços"
+        },
+        "onion": {
+          "name": "Cebola amarela",
+          "note": "meia, fatiada fina"
+        },
+        "eggs": {
+          "name": "Ovos grandes",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Arroz japonês cozido no vapor",
+          "note": null
+        },
+        "dashi": {
+          "name": "Caldo dashi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Molho de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "mitsuba_or_chives": {
+          "name": "Folhas de mitsuba ou cebolinha",
+          "note": "para finalizar"
+        }
+      },
+      "stepTexts": {
+        "season_broth": "Leve o dashi, o molho de soja, o mirin e o açúcar a uma fervura suave em uma frigideira pequena.",
+        "cook_chicken": "Junte a cebola e o frango, tampe e cozinhe em fogo médio até o frango ficar cozido e a cebola macia.",
+        "first_egg": "Bata os ovos levemente e despeje cerca de três quartos sobre o frango. Tampe e cozinhe rapidamente.",
+        "finish_egg": "Acrescente o restante do ovo, desligue o fogo e deixe descansar tampado por alguns instantes para manter a textura cremosa.",
+        "assemble": "Sirva o frango, o ovo e o caldo temperado sobre arroz quente e finalize com mitsuba ou cebolinha."
+      }
+    },
+    "recipe_000010": {
+      "title": "Assado de abóbora e peixe com massa folhada",
+      "ingredientTexts": {
+        "pumpkin": {
+          "name": "Abóbora",
+          "note": "tipo Delica ou Mantovana, limpa e em cubos"
+        },
+        "white_fish_or_herring": {
+          "name": "Filés de peixe branco ou arenque defumado",
+          "note": null
+        },
+        "puff_pastry": {
+          "name": "Massa folhada retangular",
+          "note": "1 rolo"
+        },
+        "bechamel": {
+          "name": "Molho béchamel",
+          "note": null
+        },
+        "onion": {
+          "name": "Cebola",
+          "note": "meia, picada"
+        },
+        "black_olives": {
+          "name": "Azeitonas pretas sem caroço",
+          "note": null
+        },
+        "egg_yolk": {
+          "name": "Gema de ovo",
+          "note": "para pincelar"
+        },
+        "seasoning": {
+          "name": "Sal, pimenta e noz-moscada",
+          "note": "a gosto"
+        }
+      },
+      "stepTexts": {
+        "cook_pumpkin": "Cozinhe a abóbora até ficar macia, amasse até obter um purê rústico e tempere com sal, pimenta e noz-moscada.",
+        "cook_fish": "Refogue a cebola picada com um pouco de óleo, junte o peixe e cozinhe por alguns minutos.",
+        "assemble_filling": "Espalhe a abóbora no fundo de um refratário, adicione o peixe com a cebola, as azeitonas fatiadas e cubra com béchamel.",
+        "cover_and_decorate": "Cubra o refratário com a massa folhada e use as sobras para criar uma decoração simples em forma de peixe.",
+        "bake": "Pincele com gema e asse em forno estático preaquecido a 200°C até a massa ficar bem dourada."
+      }
     }
   }
 }
