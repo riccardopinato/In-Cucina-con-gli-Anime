@@ -1,0 +1,90 @@
+{
+  "authoringVersion": 1,
+  "id": "fixture_noodles",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Synthetic Series",
+  "prepMinutes": 5,
+  "cookMinutes": 8,
+  "servings": 2,
+  "difficulty": "easy",
+  "contentOrigin": "original",
+  "sourceNote": "Synthetic non-production fixture used only by the F2 preview pipeline.",
+  "imageAssetId": null,
+  "ingredients": [
+    {"id": "noodles", "quantity": 100, "unit": "g"},
+    {"id": "soy_sauce", "quantity": 1, "unit": "tbsp"}
+  ],
+  "steps": [
+    {"id": "cook", "timerSeconds": 480},
+    {"id": "season", "timerSeconds": null}
+  ],
+  "locales": {
+    "en": {
+      "title": "Fixture noodles",
+      "ingredients": {
+        "noodles": {"name": "Noodles", "note": null},
+        "soy_sauce": {"name": "Soy sauce", "note": null}
+      },
+      "steps": {
+        "cook": "Cook the noodles until tender.",
+        "season": "Season with soy sauce and serve."
+      }
+    },
+    "it": {
+      "title": "Noodles di prova",
+      "ingredients": {
+        "noodles": {"name": "Noodles", "note": null},
+        "soy_sauce": {"name": "Salsa di soia", "note": null}
+      },
+      "steps": {
+        "cook": "Cuoci i noodles finché sono teneri.",
+        "season": "Condisci con salsa di soia e servi."
+      }
+    },
+    "es": {
+      "title": "Fideos de prueba",
+      "ingredients": {
+        "noodles": {"name": "Fideos", "note": null},
+        "soy_sauce": {"name": "Salsa de soja", "note": null}
+      },
+      "steps": {
+        "cook": "Cuece los fideos hasta que estén tiernos.",
+        "season": "Condimenta con salsa de soja y sirve."
+      }
+    },
+    "fr": {
+      "title": "Nouilles de test",
+      "ingredients": {
+        "noodles": {"name": "Nouilles", "note": null},
+        "soy_sauce": {"name": "Sauce soja", "note": null}
+      },
+      "steps": {
+        "cook": "Faites cuire les nouilles jusqu’à ce qu’elles soient tendres.",
+        "season": "Assaisonnez avec la sauce soja et servez."
+      }
+    },
+    "de": {
+      "title": "Test-Nudeln",
+      "ingredients": {
+        "noodles": {"name": "Nudeln", "note": null},
+        "soy_sauce": {"name": "Sojasauce", "note": null}
+      },
+      "steps": {
+        "cook": "Koche die Nudeln, bis sie weich sind.",
+        "season": "Mit Sojasauce würzen und servieren."
+      }
+    },
+    "pt": {
+      "title": "Macarrão de teste",
+      "ingredients": {
+        "noodles": {"name": "Macarrão", "note": null},
+        "soy_sauce": {"name": "Molho de soja", "note": null}
+      },
+      "steps": {
+        "cook": "Cozinhe o macarrão até ficar macio.",
+        "season": "Tempere com molho de soja e sirva."
+      }
+    }
+  }
+}
