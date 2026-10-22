@@ -2,7 +2,7 @@ app_name: "In Cucina con gli Anime"
 project_name: "animekitchen"
 package_name: "com.riccardopinato.animekitchen"
 bundle_id: "com.riccardopinato.animekitchen"
-version: "0.4.0+4"
+version: "0.5.0+5"
 platforms: [android, ios, web]
 flutter_version: "3.47.3"
 default_locale: en
@@ -47,10 +47,10 @@ web_preview:
 native_capabilities: []
 
 content:
-  imported_recipes: 5
+  imported_recipes: 10
   authoring_pipeline: implemented
   duplicate_similarity_gate: implemented
-  note: "F3A first editorial batch: 5 published production recipes; synthetic fixture remains preview/test-only."
+  note: "F3A complete supplied-document batch: 10 published production recipes; synthetic fixture remains preview/test-only."
 
 goldens:
   - app_bootstrap
