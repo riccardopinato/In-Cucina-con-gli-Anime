@@ -27,17 +27,19 @@ void main() {
       await tester.pumpWidget(
         MaterialApp(
           home: Scaffold(
-            body: ListView(
-              children: [
-                for (final recipe in recipes)
-                  SizedBox(
-                    height: 180,
-                    child: RecipeArtwork(
-                      recipe: recipe,
-                      showReference: true,
+            body: SingleChildScrollView(
+              child: Column(
+                children: [
+                  for (final recipe in recipes)
+                    SizedBox(
+                      height: 180,
+                      child: RecipeArtwork(
+                        recipe: recipe,
+                        showReference: true,
+                      ),
                     ),
-                  ),
-              ],
+                ],
+              ),
             ),
           ),
         ),
