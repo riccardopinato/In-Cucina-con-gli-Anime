@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
+import '../../../../core/theme/app_design_tokens.dart';
 import '../../../../l10n/app_localizations.dart';
 
 class CookingTimerWidget extends StatefulWidget {
@@ -110,58 +111,90 @@ class _CookingTimerWidgetState extends State<CookingTimerWidget> {
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
+    final theme = Theme.of(context);
+    final colors = theme.colorScheme;
     final progress = _totalSeconds == 0
         ? 0.0
         : _remainingSeconds / _totalSeconds;
 
-    return Card(
-      child: Padding(
-        padding: const EdgeInsets.all(20),
-        child: Column(
-          children: [
-            Text(l10n.timerTitle, style: Theme.of(context).textTheme.titleLarge),
-            const SizedBox(height: 16),
-            SizedBox.square(
-              dimension: 132,
-              child: Stack(
-                alignment: Alignment.center,
-                children: [
-                  CircularProgressIndicator(
-                    value: progress,
-                    strokeWidth: 9,
-                    strokeCap: StrokeCap.round,
-                  ),
-                  Text(
-                    _formattedTime,
-                    style: Theme.of(context).textTheme.headlineMedium,
-                  ),
-                ],
-              ),
-            ),
-            const SizedBox(height: 16),
-            Wrap(
-              spacing: 8,
-              alignment: WrapAlignment.center,
-              children: [
-                FilledButton.icon(
-                  onPressed: _running ? null : _start,
-                  icon: const Icon(Icons.play_arrow),
-                  label: Text(l10n.timerStart),
-                ),
-                OutlinedButton.icon(
-                  onPressed: _running ? _pause : null,
-                  icon: const Icon(Icons.pause),
-                  label: Text(l10n.timerPause),
-                ),
-                TextButton.icon(
-                  onPressed: _reset,
-                  icon: const Icon(Icons.refresh),
-                  label: Text(l10n.timerReset),
-                ),
-              ],
-            ),
-          ],
+    return Container(
+      padding: const EdgeInsets.all(AppSpacing.large),
+      decoration: BoxDecoration(
+        color: colors.primary.withValues(alpha: 0.09),
+        borderRadius: BorderRadius.circular(AppRadii.container),
+        border: Border.all(
+          color: colors.primary.withValues(alpha: 0.18),
         ),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Row(
+            children: [
+              Container(
+                width: 40,
+                height: 40,
+                decoration: BoxDecoration(
+                  color: colors.primary.withValues(alpha: 0.13),
+                  borderRadius: BorderRadius.circular(13),
+                ),
+                child: Icon(
+                  Icons.timer_outlined,
+                  color: colors.primary,
+                ),
+              ),
+              const SizedBox(width: AppSpacing.small),
+              Expanded(
+                child: Text(
+                  l10n.timerTitle,
+                  style: theme.textTheme.titleLarge,
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: AppSpacing.large),
+          Text(
+            _formattedTime,
+            style: theme.textTheme.displayMedium?.copyWith(
+              fontFamily: null,
+              fontWeight: FontWeight.w800,
+              color: colors.onSurface,
+            ),
+          ),
+          const SizedBox(height: AppSpacing.medium),
+          ClipRRect(
+            borderRadius: BorderRadius.circular(AppRadii.pill),
+            child: LinearProgressIndicator(
+              value: progress,
+              minHeight: 9,
+              backgroundColor:
+                  colors.surface.withValues(alpha: 0.72),
+              color: colors.primary,
+            ),
+          ),
+          const SizedBox(height: AppSpacing.large),
+          Wrap(
+            spacing: AppSpacing.small,
+            runSpacing: AppSpacing.small,
+            children: [
+              FilledButton.icon(
+                onPressed: _running ? null : _start,
+                icon: const Icon(Icons.play_arrow_rounded),
+                label: Text(l10n.timerStart),
+              ),
+              OutlinedButton.icon(
+                onPressed: _running ? _pause : null,
+                icon: const Icon(Icons.pause_rounded),
+                label: Text(l10n.timerPause),
+              ),
+              TextButton.icon(
+                onPressed: _reset,
+                icon: const Icon(Icons.refresh_rounded),
+                label: Text(l10n.timerReset),
+              ),
+            ],
+          ),
+        ],
       ),
     );
   }
