@@ -12,8 +12,14 @@ ID_RE = re.compile(r"^[a-z0-9]+(?:_[a-z0-9]+)*$")
 SEMVER_RE = re.compile(r"^\d+\.\d+\.\d+$")
 SUPPORTED_AUTHORING_VERSION = 1
 SUPPORTED_RUNTIME_SCHEMA_VERSION = 1
-SUPPORTED_ASSET_MANIFEST_VERSION = 1
+SUPPORTED_ASSET_MANIFEST_VERSION = 2
 SUPPORTED_REVIEW_VERSION = 1
+
+RECIPE_ARTWORK_FORMAT = "jpeg"
+RECIPE_ARTWORK_TARGET_MAX_BYTES = 133120
+RECIPE_ARTWORK_HARD_MAX_BYTES = 143360
+RECIPE_ARTWORK_MIN_SHORT_EDGE = 720
+RECIPE_ARTWORK_MAX_LONG_EDGE = 960
 
 
 class AuthoringError(Exception):
@@ -128,10 +134,25 @@ def load_asset_manifest(path: Path) -> dict[str, dict[str, Any]]:
     payload = load_json(path)
     if payload.get("schemaVersion") != SUPPORTED_ASSET_MANIFEST_VERSION:
         raise AuthoringError(f"{path} has unsupported schemaVersion")
+
+    expected_policy = {
+        "format": RECIPE_ARTWORK_FORMAT,
+        "targetMaxBytes": RECIPE_ARTWORK_TARGET_MAX_BYTES,
+        "hardMaxBytes": RECIPE_ARTWORK_HARD_MAX_BYTES,
+        "minShortEdge": RECIPE_ARTWORK_MIN_SHORT_EDGE,
+        "maxLongEdge": RECIPE_ARTWORK_MAX_LONG_EDGE,
+    }
+    if payload.get("policy") != expected_policy:
+        raise AuthoringError(
+            f"{path}.policy must match the F3E artwork budget"
+        )
+
     raw_assets = payload.get("assets")
     if not isinstance(raw_assets, list):
         raise AuthoringError(f"{path}.assets must be an array")
+
     assets: dict[str, dict[str, Any]] = {}
+    recipe_ids: set[str] = set()
     for index, raw in enumerate(raw_assets):
         if not isinstance(raw, dict):
             raise AuthoringError(f"{path}.assets[{index}] must be an object")
@@ -140,14 +161,99 @@ def load_asset_manifest(path: Path) -> dict[str, dict[str, Any]]:
             raise AuthoringError(f"{path}.assets[{index}].id is invalid")
         if asset_id in assets:
             raise AuthoringError(f"Duplicate asset id: {asset_id}")
+
         asset_path = raw.get("path")
         if not isinstance(asset_path, str) or not asset_path.strip():
             raise AuthoringError(f"{asset_id}.path is required")
         rights = raw.get("rights")
         if rights not in {"original", "public_domain", "licensed"}:
             raise AuthoringError(f"{asset_id}.rights is invalid")
+
+        recipe_id = raw.get("recipeId")
+        if not isinstance(recipe_id, str) or not ID_RE.fullmatch(recipe_id):
+            raise AuthoringError(f"{asset_id}.recipeId is invalid")
+        if recipe_id in recipe_ids:
+            raise AuthoringError(
+                f"Multiple artwork assets registered for recipe: {recipe_id}"
+            )
+        recipe_ids.add(recipe_id)
+
+        review = raw.get("semanticReview")
+        if not isinstance(review, dict):
+            raise AuthoringError(
+                f"{asset_id}.semanticReview must be an object"
+            )
+        if review.get("status") not in {"approved", "pending", "rejected"}:
+            raise AuthoringError(
+                f"{asset_id}.semanticReview.status is invalid"
+            )
+        reviewed_version = review.get("reviewedContentVersion")
+        if (
+            isinstance(reviewed_version, bool)
+            or not isinstance(reviewed_version, int)
+            or reviewed_version < 1
+        ):
+            raise AuthoringError(
+                f"{asset_id}.semanticReview.reviewedContentVersion is invalid"
+            )
+        reviewed_at = review.get("reviewedAt")
+        if (
+            not isinstance(reviewed_at, str)
+            or re.fullmatch(r"\d{4}-\d{2}-\d{2}", reviewed_at) is None
+        ):
+            raise AuthoringError(
+                f"{asset_id}.semanticReview.reviewedAt must use YYYY-MM-DD"
+            )
+        note = review.get("note")
+        if not isinstance(note, str) or not note.strip():
+            raise AuthoringError(
+                f"{asset_id}.semanticReview.note is required"
+            )
         assets[asset_id] = raw
     return assets
+
+
+def _jpeg_dimensions(path: Path) -> tuple[int, int] | None:
+    data = path.read_bytes()
+    if len(data) < 4 or data[:2] != b"\xff\xd8":
+        return None
+
+    sof_markers = {
+        0xC0, 0xC1, 0xC2, 0xC3,
+        0xC5, 0xC6, 0xC7,
+        0xC9, 0xCA, 0xCB,
+        0xCD, 0xCE, 0xCF,
+    }
+    index = 2
+    while index + 3 < len(data):
+        if data[index] != 0xFF:
+            index += 1
+            continue
+        while index < len(data) and data[index] == 0xFF:
+            index += 1
+        if index >= len(data):
+            break
+        marker = data[index]
+        index += 1
+        if marker in {0xD8, 0xD9}:
+            continue
+        if index + 1 >= len(data):
+            break
+        segment_length = int.from_bytes(
+            data[index:index + 2], "big"
+        )
+        if segment_length < 2 or index + segment_length > len(data):
+            break
+        if marker in sof_markers and segment_length >= 7:
+            height = int.from_bytes(
+                data[index + 3:index + 5], "big"
+            )
+            width = int.from_bytes(
+                data[index + 5:index + 7], "big"
+            )
+            return width, height
+        index += segment_length
+    return None
 
 
 def validate_asset_files(
@@ -157,6 +263,7 @@ def validate_asset_files(
     root_resolved = root.resolve()
     for asset_id, asset in sorted(assets.items()):
         raw_path = asset.get("path")
+        recipe_id = asset.get("recipeId")
         if not isinstance(raw_path, str):
             continue
         path = (root / raw_path).resolve()
@@ -167,9 +274,59 @@ def validate_asset_files(
             continue
         if not raw_path.startswith("assets/"):
             errors.append(f"{asset_id}.path must live under assets/")
+
+        expected_path = f"assets/recipe_artwork/{recipe_id}.jpg"
+        if raw_path != expected_path:
+            errors.append(
+                f"{asset_id}.path must be {expected_path}"
+            )
+        if path.suffix.lower() != ".jpg":
+            errors.append(f"{asset_id}.path must use JPEG")
         if not path.is_file():
             errors.append(f"{asset_id}.path does not exist: {raw_path}")
+            continue
+
+        size = path.stat().st_size
+        if size > RECIPE_ARTWORK_HARD_MAX_BYTES:
+            errors.append(
+                f"{asset_id}.path is {size} bytes; hard maximum is "
+                f"{RECIPE_ARTWORK_HARD_MAX_BYTES}"
+            )
+
+        dimensions = _jpeg_dimensions(path)
+        if dimensions is None:
+            errors.append(f"{asset_id}.path is not a decodable JPEG")
+            continue
+        width, height = dimensions
+        short_edge = min(width, height)
+        long_edge = max(width, height)
+        if short_edge < RECIPE_ARTWORK_MIN_SHORT_EDGE:
+            errors.append(
+                f"{asset_id}.path short edge {short_edge}px is below "
+                f"{RECIPE_ARTWORK_MIN_SHORT_EDGE}px"
+            )
+        if long_edge > RECIPE_ARTWORK_MAX_LONG_EDGE:
+            errors.append(
+                f"{asset_id}.path long edge {long_edge}px exceeds "
+                f"{RECIPE_ARTWORK_MAX_LONG_EDGE}px"
+            )
     return errors
+
+
+def validate_asset_usage(
+    recipes: list[dict[str, Any]],
+    assets: dict[str, dict[str, Any]],
+) -> list[str]:
+    referenced = {
+        recipe.get("imageAssetId")
+        for recipe in recipes
+        if recipe.get("imageAssetId") is not None
+    }
+    orphaned = sorted(set(assets) - referenced)
+    return [
+        f"Unused recipe artwork asset: {asset_id}"
+        for asset_id in orphaned
+    ]
 
 
 def load_policy(path: Path) -> dict[str, Any]:
@@ -369,6 +526,22 @@ def validate_authoring_recipe(
             errors.append(
                 f"{label}.imageAssetId references an unknown asset"
             )
+        else:
+            asset = assets[asset_id]
+            if asset.get("recipeId") != recipe_id:
+                errors.append(
+                    f"{label}.imageAssetId belongs to another recipe"
+                )
+            review = asset.get("semanticReview", {})
+            if status == "published":
+                if review.get("status") != "approved":
+                    errors.append(
+                        f"{label}.imageAssetId requires approved semantic review"
+                    )
+                if review.get("reviewedContentVersion") != version:
+                    errors.append(
+                        f"{label}.imageAssetId semantic review is stale"
+                    )
 
     ingredient_ids: set[str] = set()
     ingredients = recipe.get("ingredients")
