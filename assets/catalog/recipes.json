@@ -72,7 +72,7 @@
       "cookMinutes": 30,
       "servings": 2,
       "difficulty": "medium",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000002.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. Servings inferred from ingredient quantities because the source does not state yield.",
       "ingredients": [
@@ -634,7 +634,7 @@
       "cookMinutes": 15,
       "servings": 2,
       "difficulty": "easy",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000009.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; two servings are an editorial estimate from the listed quantities.",
       "ingredients": [

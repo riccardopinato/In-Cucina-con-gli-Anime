@@ -1,4 +1,4 @@
-# Recipe Authoring / Import Pipeline — F2
+# Recipe Authoring / Import Pipeline — F2 + F3E
 
 F2 is the editorial build layer between source material and the F1 runtime catalog. Flutter does not parse authoring files.
 
@@ -68,18 +68,38 @@ EN / IT / ES / FR / DE / PT.
 
 The authoring report lists available and missing locales per recipe.
 
-## Asset registry
+## Asset registry and F3E artwork contract
 
 Recipes reference `imageAssetId`, not raw paths. IDs resolve through:
 
 `authoring/assets/manifest.json`
 
-The minimal rights state is:
-- `original`;
-- `public_domain`;
-- `licensed`.
+One recipe owns at most one canonical artwork asset. The same JPEG is used twice:
+- card: UI crop with `BoxFit.cover` inside the existing 178 px artwork area;
+- detail: full image with `BoxFit.contain`.
 
-The compiler also requires referenced asset paths to remain inside the repository `assets/` tree and to exist.
+No separate card/hero files are stored.
+
+The manifest records:
+- recipe ownership;
+- rights class (`original`, `public_domain`, `licensed`);
+- semantic-review state tied to the recipe `contentVersion`;
+- a short review note describing the food that was actually checked.
+
+Published recipes may reference artwork only when semantic review is `approved` for the current content version. CI does not pretend to perform culinary judgment: it enforces that the explicit review exists and is current.
+
+F3E image budget:
+- JPEG only;
+- long edge <= 960 px;
+- short edge >= 720 px;
+- optimizer target <= 130 KiB;
+- hard repository limit <= 140 KiB.
+
+`tool/optimize_recipe_artwork.py` performs deterministic build-time recompression with pinned Pillow. Standard validation checks the committed bytes without requiring Pillow.
+
+`tool/build_recipe_artwork_queue.py --missing-only` produces a deterministic batch queue containing the canonical dish title, inspiration, ingredients, steps, expected asset ID/path and rendering contract. The assistant uses that queue as the source for batch image creation/review instead of rediscovering each recipe ad hoc.
+
+The compiler additionally rejects orphan artwork entries, cross-recipe asset links, stale semantic approvals, oversized files, undersized files and invalid JPEGs.
 
 ## Duplicate / Similarity Review Gate
 
@@ -127,6 +147,23 @@ python3 tool/review_recipe_similarity.py path/to/candidate.json
 ```
 
 The report is written under ignored `build/authoring/`.
+
+## Batch artwork workflow
+
+```bash
+python3 tool/build_recipe_artwork_queue.py --missing-only
+```
+
+For a selected batch:
+
+1. read the generated queue rather than reopening every source manually;
+2. create one original anime-food artwork per recipe from the canonical ingredients/preparation;
+3. visually check the dish against the queue before approval;
+4. optimize the single JPEG to the F3E budget;
+5. register the asset and semantic review in the manifest;
+6. set `imageAssetId` in the authoring recipe;
+7. compile once for the whole batch;
+8. run exact-head CI and merge when green.
 
 ## Production compile
 

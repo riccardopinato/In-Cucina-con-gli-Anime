@@ -44,6 +44,7 @@ class _RecipeDetailScreenState extends State<RecipeDetailScreen> {
     final l10n = AppLocalizations.of(context)!;
     final theme = Theme.of(context);
     final colors = theme.colorScheme;
+    final imageAsset = recipe.imageAsset;
 
     final ingredients = _IngredientsPanel(
       recipe: recipe,
@@ -63,24 +64,25 @@ class _RecipeDetailScreenState extends State<RecipeDetailScreen> {
           SliverAppBar(
             pinned: true,
             stretch: true,
-            expandedHeight: 390,
-            title: Text(
-              recipe.title,
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
-            ),
+            expandedHeight: imageAsset == null ? 390 : 520,
             flexibleSpace: FlexibleSpaceBar(
               collapseMode: CollapseMode.parallax,
               background: Hero(
                 tag: 'recipe-image-${recipe.id}',
-                child: recipe.imageAsset == null
+                child: imageAsset == null
                     ? RecipeArtwork(
                         recipe: recipe,
                         showReference: true,
                       )
-                    : Image.asset(
-                        recipe.imageAsset!,
-                        fit: BoxFit.cover,
+                    : ColoredBox(
+                        color: colors.surface,
+                        child: Center(
+                          child: Image.asset(
+                            imageAsset,
+                            fit: BoxFit.contain,
+                            alignment: Alignment.center,
+                          ),
+                        ),
                       ),
               ),
             ),

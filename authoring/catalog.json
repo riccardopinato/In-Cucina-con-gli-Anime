@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "schemaVersion": 1,
-  "catalogVersion": "0.4.0",
+  "catalogVersion": "0.5.0",
   "defaultLocale": "en",
   "supportedLocales": ["en", "it", "es", "fr", "de", "pt"],
   "productionSource": "authoring/recipes",

@@ -35,7 +35,10 @@ Implemented F3B identity:
 - handwritten Caveat accent only for display/wordmark moments, with clean system body typography;
 - large rounded editorial containers, low elevation and strong spacing hierarchy;
 - ten deterministic procedural recipe illustrations keyed by stable recipe IDs;
-- procedural illustration is the default no-photo treatment and remains replaceable by future original/licensed food photography;
+- procedural illustration remains the fallback when a recipe has no approved artwork;
+- approved recipes may use one original anime-inspired food JPEG, reused for both card crop and full detail hero;
+- artwork must accurately depict the canonical dish rather than a merely similar food composition;
+- F3E keeps image weight bounded through a 960 px long-edge ceiling, 720 px minimum short edge, ~130 KiB optimizer target and 140 KiB hard limit;
 - responsive recipe detail: single-column on phone, two-column editorial composition on wider layouts;
 - restrained motion and lightweight rendering; no animated-image dependency.
 
