@@ -129,6 +129,32 @@ Delivered:
 
 Exit: PASS — exact PR head green for structure/catalog gates, Flutter analyze/test, synthetic Web preview and production Web build; merged-main verification also green for Pages/Web Preview and Android ARM64 artifact.
 
+### F3D — Original recipe artwork direction — IMPLEMENTED
+
+Delivered:
+- approved premium anime-food visual direction: close food-first composition, warm light, appetizing glossy texture and minimal background;
+- card geometry remains unchanged; real artwork is cropped only at render time;
+- recipe detail shows the full asset and no longer repeats the recipe title in the collapsing app bar;
+- direct anime frames/third-party artwork remain excluded.
+
+### F3E — Recipe asset pipeline hardening — VALIDATION PENDING
+
+Delivers:
+- one canonical image per recipe; no duplicated card/full asset;
+- image IDs owned by authoring data rather than Dart pilot maps;
+- explicit dish-semantic review tied to recipe content version;
+- deterministic batch artwork queue for multi-recipe processing;
+- JPEG dimension/weight gates plus a pinned build-time optimizer;
+- orphan/incorrect/stale artwork fails closed;
+- wrong Katsudon stand-in removed; recipe_000003 returns to procedural fallback until exact artwork is approved;
+- current approved pilot artwork: recipe_000002 ramen and recipe_000009 oyakodon.
+
+Exit:
+- materialized assets meet <= 140 KiB hard budget with >= 720 px short edge;
+- generated catalog is current;
+- Python authoring tests, Flutter decode test, analyze/test, Web and Android gates are green on the exact PR head;
+- no pilot-only Dart mapping or orphan image remains.
+
 ## F4 — Monetization v1 — CURRENT
 
 Blocked by: F3 — unblocked.
