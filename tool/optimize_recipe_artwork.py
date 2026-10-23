@@ -43,9 +43,17 @@ def _encode_jpeg(image, quality: int) -> bytes:
 
 def optimize_asset(source: Path) -> tuple[bytes, int, int, int]:
     Image, ImageOps = _load_pillow()
-    with Image.open(source) as opened:
+    original = source.read_bytes()
+    with Image.open(io.BytesIO(original)) as opened:
         image = ImageOps.exif_transpose(opened).convert("RGB")
         width, height = image.size
+        if (
+            len(original) <= RECIPE_ARTWORK_TARGET_MAX_BYTES
+            and min(width, height) >= RECIPE_ARTWORK_MIN_SHORT_EDGE
+            and max(width, height) <= RECIPE_ARTWORK_MAX_LONG_EDGE
+        ):
+            return original, width, height, 0
+
         long_edge = max(width, height)
         if long_edge > RECIPE_ARTWORK_MAX_LONG_EDGE:
             scale = RECIPE_ARTWORK_MAX_LONG_EDGE / long_edge
