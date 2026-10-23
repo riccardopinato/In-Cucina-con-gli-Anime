@@ -10,6 +10,7 @@ import 'purchase_verifier.dart';
 
 enum PurchaseAvailability {
   disabled,
+  verificationUnavailable,
   loading,
   unavailable,
   ready,
@@ -99,6 +100,14 @@ class PurchaseController extends Notifier<PurchaseState> {
       return PurchaseState.disabled;
     }
 
+    final verifier = ref.watch(purchaseVerifierProvider);
+    if (!verifier.isReady) {
+      return const PurchaseState(
+        availability: PurchaseAvailability.verificationUnavailable,
+        flowStatus: PurchaseFlowStatus.idle,
+      );
+    }
+
     final gateway = ref.watch(purchaseGatewayProvider);
     _gateway = gateway;
 
@@ -181,7 +190,8 @@ class PurchaseController extends Notifier<PurchaseState> {
   Future<void> restore() async {
     final gateway = _gateway;
     if (gateway == null ||
-        state.availability == PurchaseAvailability.disabled) {
+        state.availability == PurchaseAvailability.disabled ||
+        state.availability == PurchaseAvailability.verificationUnavailable) {
       return;
     }
 
