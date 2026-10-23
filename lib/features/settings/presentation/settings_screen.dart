@@ -244,6 +244,9 @@ class SettingsScreen extends ConsumerWidget {
               if (purchase.availability == PurchaseAvailability.loading)
                 const Center(child: CircularProgressIndicator())
               else if (purchase.availability ==
+                  PurchaseAvailability.verificationUnavailable)
+                Text(l10n.lifetimeVerificationUnavailable)
+              else if (purchase.availability ==
                   PurchaseAvailability.unavailable)
                 Text(l10n.lifetimeStoreUnavailable)
               else if (purchase.offer case final offer?)
@@ -260,7 +263,9 @@ class SettingsScreen extends ConsumerWidget {
                 ),
               const SizedBox(height: AppSpacing.small),
               TextButton.icon(
-                onPressed: purchaseBusy
+                onPressed: purchaseBusy ||
+                        purchase.availability ==
+                            PurchaseAvailability.verificationUnavailable
                     ? null
                     : () => ref
                         .read(purchaseControllerProvider.notifier)
