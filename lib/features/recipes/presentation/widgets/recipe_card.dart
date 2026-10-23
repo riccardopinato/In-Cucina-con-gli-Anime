@@ -5,6 +5,7 @@ import '../../../../l10n/app_localizations.dart';
 import '../../domain/recipe.dart';
 import 'animated_favorite_button.dart';
 import 'recipe_artwork.dart';
+import 'recipe_pilot_artwork.dart';
 
 class RecipeCard extends StatelessWidget {
   const RecipeCard({
@@ -33,6 +34,8 @@ class RecipeCard extends StatelessWidget {
     final theme = Theme.of(context);
     final colors = theme.colorScheme;
     final l10n = AppLocalizations.of(context)!;
+    final pilotAsset = pilotRecipeArtworkFor(recipe.id);
+    final imageAsset = recipe.imageAsset ?? pilotAsset;
 
     return Card(
       child: InkWell(
@@ -48,7 +51,7 @@ class RecipeCard extends StatelessWidget {
                 children: [
                   Hero(
                     tag: 'recipe-image-${recipe.id}',
-                    child: recipe.imageAsset == null
+                    child: imageAsset == null
                         ? RecipeArtwork(
                             recipe: recipe,
                             showReference: true,
@@ -56,14 +59,9 @@ class RecipeCard extends StatelessWidget {
                               top: Radius.circular(AppRadii.container),
                             ),
                           )
-                        : ClipRRect(
-                            borderRadius: const BorderRadius.vertical(
-                              top: Radius.circular(AppRadii.container),
-                            ),
-                            child: Image.asset(
-                              recipe.imageAsset!,
-                              fit: BoxFit.cover,
-                            ),
+                        : _PhotoCardArtwork(
+                            recipe: recipe,
+                            assetPath: imageAsset,
                           ),
                   ),
                   Positioned(
@@ -165,6 +163,84 @@ class _MetaPill extends StatelessWidget {
             style: Theme.of(context).textTheme.labelMedium?.copyWith(
                   fontWeight: FontWeight.w700,
                 ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+
+class _PhotoCardArtwork extends StatelessWidget {
+  const _PhotoCardArtwork({
+    required this.recipe,
+    required this.assetPath,
+  });
+
+  final Recipe recipe;
+  final String assetPath;
+
+  @override
+  Widget build(BuildContext context) {
+    final match = RegExp(r'(\\d+)$').firstMatch(recipe.id);
+    final ordinal = int.tryParse(match?.group(1) ?? '') ?? 1;
+
+    return ClipRRect(
+      borderRadius: const BorderRadius.vertical(
+        top: Radius.circular(AppRadii.container),
+      ),
+      child: Stack(
+        fit: StackFit.expand,
+        children: [
+          Image.asset(
+            assetPath,
+            fit: BoxFit.cover,
+            alignment: Alignment.center,
+          ),
+          Positioned(
+            left: 22,
+            top: 18,
+            child: Text(
+              ordinal.toString().padLeft(2, '0'),
+              style: Theme.of(context).textTheme.labelLarge?.copyWith(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w900,
+                    letterSpacing: 2.2,
+                    shadows: const [
+                      Shadow(
+                        color: Colors.black54,
+                        blurRadius: 8,
+                      ),
+                    ],
+                  ),
+            ),
+          ),
+          Positioned(
+            left: 20,
+            right: 72,
+            bottom: 18,
+            child: Align(
+              alignment: Alignment.bottomLeft,
+              child: Container(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 12,
+                  vertical: 7,
+                ),
+                decoration: BoxDecoration(
+                  color: Colors.black.withValues(alpha: 0.58),
+                  borderRadius: BorderRadius.circular(AppRadii.pill),
+                ),
+                child: Text(
+                  recipe.animeSource,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: Theme.of(context).textTheme.labelMedium?.copyWith(
+                        color: Colors.white,
+                        fontWeight: FontWeight.w700,
+                      ),
+                ),
+              ),
+            ),
           ),
         ],
       ),

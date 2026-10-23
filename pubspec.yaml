@@ -29,3 +29,4 @@ flutter:
     - assets/branding/
     - assets/catalog/
     - assets/catalog/locales/
+    - assets/recipe_artwork/

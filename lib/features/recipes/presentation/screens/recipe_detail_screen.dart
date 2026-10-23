@@ -5,6 +5,7 @@ import '../../../../l10n/app_localizations.dart';
 import '../../domain/recipe.dart';
 import '../widgets/cooking_timer_widget.dart';
 import '../widgets/recipe_artwork.dart';
+import '../widgets/recipe_pilot_artwork.dart';
 
 class RecipeDetailScreen extends StatefulWidget {
   const RecipeDetailScreen({
@@ -44,6 +45,8 @@ class _RecipeDetailScreenState extends State<RecipeDetailScreen> {
     final l10n = AppLocalizations.of(context)!;
     final theme = Theme.of(context);
     final colors = theme.colorScheme;
+    final pilotAsset = pilotRecipeArtworkFor(recipe.id);
+    final imageAsset = recipe.imageAsset ?? pilotAsset;
 
     final ingredients = _IngredientsPanel(
       recipe: recipe,
@@ -63,7 +66,7 @@ class _RecipeDetailScreenState extends State<RecipeDetailScreen> {
           SliverAppBar(
             pinned: true,
             stretch: true,
-            expandedHeight: 390,
+            expandedHeight: imageAsset == null ? 390 : 520,
             title: Text(
               recipe.title,
               maxLines: 1,
@@ -73,14 +76,20 @@ class _RecipeDetailScreenState extends State<RecipeDetailScreen> {
               collapseMode: CollapseMode.parallax,
               background: Hero(
                 tag: 'recipe-image-${recipe.id}',
-                child: recipe.imageAsset == null
+                child: imageAsset == null
                     ? RecipeArtwork(
                         recipe: recipe,
                         showReference: true,
                       )
-                    : Image.asset(
-                        recipe.imageAsset!,
-                        fit: BoxFit.cover,
+                    : ColoredBox(
+                        color: colors.surface,
+                        child: Center(
+                          child: Image.asset(
+                            imageAsset,
+                            fit: BoxFit.contain,
+                            alignment: Alignment.center,
+                          ),
+                        ),
                       ),
               ),
             ),
