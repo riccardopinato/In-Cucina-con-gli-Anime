@@ -37,8 +37,8 @@ void main() {
       );
       final frame = await codec.getNextFrame();
 
-      expect(frame.image.width, greaterThan(0), reason: assetPath);
-      expect(frame.image.height, greaterThan(0), reason: assetPath);
+      expect(frame.image.width, greaterThanOrEqualTo(512), reason: assetPath);
+      expect(frame.image.height, greaterThanOrEqualTo(512), reason: assetPath);
 
       frame.image.dispose();
       codec.dispose();
