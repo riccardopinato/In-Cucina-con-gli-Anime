@@ -4,9 +4,9 @@ Flutter app for original/adapted editorial recipes inspired by food seen in anim
 
 ## Current state
 
-**v0.8 — F4A complete: consent/privacy foundation with a fail-closed ad-request gate.**
+**v0.9 — F4B implementation complete; native sandbox proof pending.**
 
-F1 remains the runtime contract and F2 remains the authoring/build layer. F3 is complete. F4A now persists the local ad-privacy preference while keeping provider eligibility ephemeral and unresolved by default; ad requests remain impossible until both gates allow them. No ad or billing SDK is mounted yet. F4B entitlement + one-time purchase is next.
+F1 remains the runtime contract and F2 remains the authoring/build layer. F3 and F4A are complete. F4B adds the official native `in_app_purchase` adapter behind the provider-agnostic entitlement seam, a one-time Lifetime purchase/restore flow, offline lifetime cache and sandbox-only verification gate. Billing is disabled by default and the Web Preview remains a no-op boundary. F4B is not PASS until a real store sandbox purchase + restore is recorded.
 
 ## Stack
 
