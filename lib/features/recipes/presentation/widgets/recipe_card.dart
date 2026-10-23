@@ -5,7 +5,6 @@ import '../../../../l10n/app_localizations.dart';
 import '../../domain/recipe.dart';
 import 'animated_favorite_button.dart';
 import 'recipe_artwork.dart';
-import 'recipe_pilot_artwork.dart';
 
 class RecipeCard extends StatelessWidget {
   const RecipeCard({
@@ -34,8 +33,7 @@ class RecipeCard extends StatelessWidget {
     final theme = Theme.of(context);
     final colors = theme.colorScheme;
     final l10n = AppLocalizations.of(context)!;
-    final pilotAsset = pilotRecipeArtworkFor(recipe.id);
-    final imageAsset = recipe.imageAsset ?? pilotAsset;
+    final imageAsset = recipe.imageAsset;
 
     return Card(
       child: InkWell(
