@@ -25,6 +25,7 @@ class _FakePurchaseGateway implements PurchaseGateway {
 
   int completions = 0;
   bool emitRestore = true;
+  bool validReceipt = true;
 
   @override
   bool get isSupported => true;
@@ -45,11 +46,11 @@ class _FakePurchaseGateway implements PurchaseGateway {
   @override
   Future<bool> buyNonConsumable() async {
     _events.add(
-      const StorePurchaseEvent(
+      StorePurchaseEvent(
         transactionKey: 'purchase-1',
         productId: _productId,
         status: StorePurchaseStatus.purchased,
-        verificationData: 'sandbox-receipt',
+        verificationData: validReceipt ? 'sandbox-receipt' : '',
         verificationSource: 'sandbox',
         needsCompletion: true,
       ),
@@ -182,13 +183,38 @@ void main() {
     expect(gateway.completions, 1);
   });
 
-  test('purchase cannot grant entitlement without verification gate', () async {
+  test('billing stays locked when no purchase verifier is ready', () async {
     final prefs = await SharedPreferences.getInstance();
     final gateway = _FakePurchaseGateway();
     final container = _container(
       prefs: prefs,
       gateway: gateway,
       sandboxVerification: false,
+    );
+    addTearDown(container.dispose);
+
+    final purchase = container.read(purchaseControllerProvider);
+
+    expect(
+      purchase.availability,
+      PurchaseAvailability.verificationUnavailable,
+    );
+
+    await container
+        .read(purchaseControllerProvider.notifier)
+        .buyLifetime();
+
+    expect(container.read(entitlementProvider).plan, AppPlan.free);
+    expect(gateway.completions, 0);
+  });
+
+  test('invalid sandbox receipt cannot grant entitlement', () async {
+    final prefs = await SharedPreferences.getInstance();
+    final gateway = _FakePurchaseGateway()..validReceipt = false;
+    final container = _container(
+      prefs: prefs,
+      gateway: gateway,
+      sandboxVerification: true,
     );
     addTearDown(container.dispose);
 
