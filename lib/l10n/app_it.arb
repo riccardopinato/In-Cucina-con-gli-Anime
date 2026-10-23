@@ -78,5 +78,6 @@
   "lifetimeRestoreComplete": "Acquisto Lifetime ripristinato.",
   "lifetimePurchaseCanceled": "Acquisto annullato.",
   "lifetimeVerificationFailed": "Acquisto ricevuto ma non verificato. Nessun entitlement è stato concesso.",
-  "lifetimePurchaseError": "Operazione dello store non riuscita. Riprova più tardi."
+  "lifetimePurchaseError": "Operazione dello store non riuscita. Riprova più tardi.",
+  "lifetimeVerificationUnavailable": "La verifica degli acquisti non è configurata. Il billing è bloccato."
 }
