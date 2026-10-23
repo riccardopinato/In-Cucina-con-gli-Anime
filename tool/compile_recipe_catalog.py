@@ -15,6 +15,7 @@ from recipe_authoring_lib import (
     load_recipe_files,
     load_review_decisions,
     validate_asset_files,
+    validate_asset_usage,
     validate_authoring_recipe,
     validate_config,
     write_json,
@@ -131,6 +132,10 @@ def run(
         )
         completeness.append(locale_report)
         recipes.append(recipe)
+
+    validation_errors.extend(
+        validate_asset_usage(recipes, assets)
+    )
 
     report = build_authoring_report(
         recipes,
