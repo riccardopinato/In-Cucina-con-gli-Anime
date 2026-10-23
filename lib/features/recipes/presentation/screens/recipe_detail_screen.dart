@@ -67,11 +67,6 @@ class _RecipeDetailScreenState extends State<RecipeDetailScreen> {
             pinned: true,
             stretch: true,
             expandedHeight: imageAsset == null ? 390 : 520,
-            title: Text(
-              recipe.title,
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
-            ),
             flexibleSpace: FlexibleSpaceBar(
               collapseMode: CollapseMode.parallax,
               background: Hero(
