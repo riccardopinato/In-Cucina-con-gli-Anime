@@ -1,6 +1,8 @@
 import 'purchase_gateway.dart';
 
 abstract interface class PurchaseVerifier {
+  bool get isReady;
+
   Future<bool> verify(StorePurchaseEvent event);
 }
 
@@ -12,6 +14,9 @@ class SandboxPurchaseVerifier implements PurchaseVerifier {
 
   final bool enabled;
   final String expectedProductId;
+
+  @override
+  bool get isReady => enabled;
 
   @override
   Future<bool> verify(StorePurchaseEvent event) async {
