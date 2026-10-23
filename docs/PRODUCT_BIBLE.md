@@ -25,7 +25,7 @@ The product should feel warm, illustrated and playful without presenting itself 
 
 F0 foundation, F1 runtime catalog contract, F2 authoring/import pipeline and F3A content ingestion are complete.
 
-The production catalog contains all 10 recipes from the supplied reference document, rebuilt editorially and localized in EN/IT/ES/FR/DE/PT. F3 is complete: F3B provides the editorial visual identity and F3C adds the optional recipe-independent decorative-character layer. F4A consent/privacy foundation is complete; F4B entitlement + one-time purchase is next.
+The production catalog contains all 10 recipes from the supplied reference document, rebuilt editorially and localized in EN/IT/ES/FR/DE/PT. F3 is complete: F3B provides the editorial visual identity and F3C adds the optional recipe-independent decorative-character layer. F4A consent/privacy foundation is complete. F4B's Lifetime purchase/restore implementation is in place and awaits real store sandbox proof before PASS.
 
 ## UX direction
 
@@ -91,7 +91,13 @@ Initial preferred model:
 - no ads while actively following a recipe/timer;
 - one-time Remove Ads/Lifetime before considering a subscription.
 
-Exact pricing/provider/store integration is out of scope until F4.
+F4 provider decision:
+- native store transport uses the official Flutter `in_app_purchase` plugin behind the existing entitlement seam;
+- product ID is `remove_ads_lifetime`;
+- billing and sandbox verification are disabled by default;
+- store price is runtime store data, not hardcoded app truth;
+- RevenueCat remains optional if production verification/operations later justify it;
+- exact commercial price still requires store configuration.
 
 ## Out of scope now
 
