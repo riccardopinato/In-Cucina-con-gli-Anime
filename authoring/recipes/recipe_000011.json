@@ -10,7 +10,7 @@
   "difficulty": "medium",
   "contentOrigin": "adapted",
   "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. Source table lists 25 min, but the method itself requires a 30-minute onion tenderizing rest; timing corrected editorially.",
-  "imageAssetId": null,
+  "imageAssetId": "recipe_000011_artwork",
   "ingredients": [
     {
       "id": "beef_steak",
