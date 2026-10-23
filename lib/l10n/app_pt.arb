@@ -78,5 +78,6 @@
   "lifetimeRestoreComplete": "Compra Lifetime restaurada.",
   "lifetimePurchaseCanceled": "Compra cancelada.",
   "lifetimeVerificationFailed": "A compra foi recebida mas não verificada. Nenhum direito foi concedido.",
-  "lifetimePurchaseError": "A operação da loja falhou. Tente novamente mais tarde."
+  "lifetimePurchaseError": "A operação da loja falhou. Tente novamente mais tarde.",
+  "lifetimeVerificationUnavailable": "A verificação de compras não está configurada. A faturação está bloqueada."
 }
