@@ -78,5 +78,6 @@
   "lifetimeRestoreComplete": "Lifetime purchase restored.",
   "lifetimePurchaseCanceled": "Purchase canceled.",
   "lifetimeVerificationFailed": "Purchase received but not verified. No entitlement was granted.",
-  "lifetimePurchaseError": "The store operation failed. Try again later."
+  "lifetimePurchaseError": "The store operation failed. Try again later.",
+  "lifetimeVerificationUnavailable": "Purchase verification is not configured. Billing is locked."
 }
