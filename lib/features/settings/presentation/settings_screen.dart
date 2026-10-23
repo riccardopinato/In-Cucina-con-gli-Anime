@@ -5,6 +5,9 @@ import '../../../core/localization/app_language.dart';
 import '../../../core/localization/locale_preference.dart';
 import '../../../core/monetization/consent.dart';
 import '../../../core/monetization/consent_provider.dart';
+import '../../../core/monetization/entitlement.dart';
+import '../../../core/monetization/entitlement_provider.dart';
+import '../../../core/monetization/purchase_provider.dart';
 import '../../../core/preferences/preferences_providers.dart';
 import '../../../core/preferences/preferences_repository.dart';
 import '../../../core/theme/app_design_tokens.dart';
@@ -46,16 +49,42 @@ class SettingsScreen extends ConsumerWidget {
     };
   }
 
+  String? _purchaseStatusLabel(
+    AppLocalizations l10n,
+    PurchaseFlowStatus status,
+  ) {
+    return switch (status) {
+      PurchaseFlowStatus.idle => null,
+      PurchaseFlowStatus.pending => l10n.lifetimePurchasePending,
+      PurchaseFlowStatus.purchased => l10n.lifetimePurchaseComplete,
+      PurchaseFlowStatus.restored => l10n.lifetimeRestoreComplete,
+      PurchaseFlowStatus.canceled => l10n.lifetimePurchaseCanceled,
+      PurchaseFlowStatus.verificationFailed =>
+        l10n.lifetimeVerificationFailed,
+      PurchaseFlowStatus.error => l10n.lifetimePurchaseError,
+    };
+  }
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final l10n = AppLocalizations.of(context)!;
     final localePreference = ref.watch(localePreferenceProvider);
     final themePreference = ref.watch(themePreferenceProvider);
     final consentState = ref.watch(consentProvider);
+    final entitlement = ref.watch(entitlementProvider);
+    final purchase = ref.watch(purchaseControllerProvider);
+    final purchaseConfig = ref.watch(purchaseConfigProvider);
 
     final selectedPrivacy = consentState.hasLocalChoice
         ? <AdPrivacyPreference>{consentState.localPreference}
         : <AdPrivacyPreference>{};
+
+    final showLifetime =
+        purchaseConfig.billingEnabled || entitlement.plan != AppPlan.free;
+    final purchaseStatus =
+        _purchaseStatusLabel(l10n, purchase.flowStatus);
+    final purchaseBusy =
+        purchase.flowStatus == PurchaseFlowStatus.pending;
 
     return Scaffold(
       appBar: AppBar(title: Text(l10n.settingsTitle)),
@@ -192,6 +221,62 @@ class SettingsScreen extends ConsumerWidget {
                 child: Text(l10n.privacyResetChoice),
               ),
             ),
+          if (showLifetime) ...[
+            const SizedBox(height: AppSpacing.xLarge),
+            Text(
+              l10n.settingsLifetime,
+              style: Theme.of(context).textTheme.titleLarge,
+            ),
+            const SizedBox(height: AppSpacing.small),
+            Text(
+              l10n.lifetimeDescription,
+              style: Theme.of(context).textTheme.bodyMedium,
+            ),
+            const SizedBox(height: AppSpacing.medium),
+            if (entitlement.plan == AppPlan.lifetime)
+              ListTile(
+                contentPadding: EdgeInsets.zero,
+                leading: const Icon(Icons.verified_outlined),
+                title: Text(l10n.lifetimeActive),
+                subtitle: Text(l10n.lifetimeActiveDescription),
+              )
+            else ...[
+              if (purchase.availability == PurchaseAvailability.loading)
+                const Center(child: CircularProgressIndicator())
+              else if (purchase.availability ==
+                  PurchaseAvailability.unavailable)
+                Text(l10n.lifetimeStoreUnavailable)
+              else if (purchase.offer case final offer?)
+                FilledButton.icon(
+                  onPressed: purchaseBusy
+                      ? null
+                      : () => ref
+                          .read(purchaseControllerProvider.notifier)
+                          .buyLifetime(),
+                  icon: const Icon(Icons.workspace_premium_outlined),
+                  label: Text(
+                    '${l10n.lifetimeBuy} · ${offer.price}',
+                  ),
+                ),
+              const SizedBox(height: AppSpacing.small),
+              TextButton.icon(
+                onPressed: purchaseBusy
+                    ? null
+                    : () => ref
+                        .read(purchaseControllerProvider.notifier)
+                        .restore(),
+                icon: const Icon(Icons.restore),
+                label: Text(l10n.lifetimeRestore),
+              ),
+            ],
+            if (purchaseStatus != null) ...[
+              const SizedBox(height: AppSpacing.small),
+              Text(
+                purchaseStatus,
+                style: Theme.of(context).textTheme.bodySmall,
+              ),
+            ],
+          ],
         ],
       ),
     );
