@@ -78,5 +78,6 @@
   "lifetimeRestoreComplete": "Lifetime-Kauf wiederhergestellt.",
   "lifetimePurchaseCanceled": "Kauf abgebrochen.",
   "lifetimeVerificationFailed": "Kauf empfangen, aber nicht verifiziert. Es wurde keine Berechtigung gewährt.",
-  "lifetimePurchaseError": "Der Store-Vorgang ist fehlgeschlagen. Bitte später erneut versuchen."
+  "lifetimePurchaseError": "Der Store-Vorgang ist fehlgeschlagen. Bitte später erneut versuchen.",
+  "lifetimeVerificationUnavailable": "Die Kaufprüfung ist nicht konfiguriert. Billing ist gesperrt."
 }
