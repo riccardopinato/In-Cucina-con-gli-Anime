@@ -65,5 +65,18 @@
   "privacyStatusBlock": "Werbung blockieren",
   "privacyAllowAds": "Werbeanfragen erlauben",
   "privacyBlockAds": "Werbeanfragen blockieren",
-  "privacyResetChoice": "Auswahl zurücksetzen"
+  "privacyResetChoice": "Auswahl zurücksetzen",
+  "settingsLifetime": "Werbung dauerhaft entfernen",
+  "lifetimeDescription": "Einmaliger Lifetime-Kauf. Der Preis wird vom Store angezeigt, sobald Billing verfügbar ist.",
+  "lifetimeActive": "Lifetime aktiv",
+  "lifetimeActiveDescription": "Werbeanfragen werden auf diesem Gerät und nach einer gültigen Wiederherstellung dauerhaft unterdrückt.",
+  "lifetimeStoreUnavailable": "Das Store-Angebot ist derzeit nicht verfügbar.",
+  "lifetimeBuy": "Lifetime kaufen",
+  "lifetimeRestore": "Kauf wiederherstellen",
+  "lifetimePurchasePending": "Der Store schließt den Kauf noch ab.",
+  "lifetimePurchaseComplete": "Lifetime-Kauf verifiziert.",
+  "lifetimeRestoreComplete": "Lifetime-Kauf wiederhergestellt.",
+  "lifetimePurchaseCanceled": "Kauf abgebrochen.",
+  "lifetimeVerificationFailed": "Kauf empfangen, aber nicht verifiziert. Es wurde keine Berechtigung gewährt.",
+  "lifetimePurchaseError": "Der Store-Vorgang ist fehlgeschlagen. Bitte später erneut versuchen."
 }
