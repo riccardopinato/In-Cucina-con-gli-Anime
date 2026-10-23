@@ -5,7 +5,6 @@ import '../../../../l10n/app_localizations.dart';
 import '../../domain/recipe.dart';
 import '../widgets/cooking_timer_widget.dart';
 import '../widgets/recipe_artwork.dart';
-import '../widgets/recipe_pilot_artwork.dart';
 
 class RecipeDetailScreen extends StatefulWidget {
   const RecipeDetailScreen({
@@ -45,8 +44,7 @@ class _RecipeDetailScreenState extends State<RecipeDetailScreen> {
     final l10n = AppLocalizations.of(context)!;
     final theme = Theme.of(context);
     final colors = theme.colorScheme;
-    final pilotAsset = pilotRecipeArtworkFor(recipe.id);
-    final imageAsset = recipe.imageAsset ?? pilotAsset;
+    final imageAsset = recipe.imageAsset;
 
     final ingredients = _IngredientsPanel(
       recipe: recipe,
