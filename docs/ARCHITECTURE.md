@@ -103,9 +103,14 @@ The system never maps a similarity score directly to destructive mutation.
 
 ## Asset manifest
 
-Authoring records reference stable `imageAssetId` values. The build-time manifest resolves IDs to repository-owned asset paths and records a minimal rights class.
+Authoring records reference stable `imageAssetId` values. The build-time manifest resolves IDs to repository-owned asset paths, records rights, recipe ownership and an explicit semantic review bound to the recipe content version.
 
-Flutter receives only the resolved runtime path.
+F3E uses one optimized JPEG per recipe. Flutter receives only the resolved runtime path:
+- cards crop that same asset with `BoxFit.cover`;
+- recipe detail shows the same asset uncropped with `BoxFit.contain`;
+- recipes without approved artwork keep the procedural `RecipeArtwork` fallback.
+
+The build pipeline rejects orphan/cross-recipe/stale artwork and enforces the committed JPEG dimension/weight budget.
 
 ## User state
 
