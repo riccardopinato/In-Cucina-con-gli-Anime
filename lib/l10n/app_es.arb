@@ -65,5 +65,19 @@
   "privacyStatusBlock": "Bloquear anuncios",
   "privacyAllowAds": "Permitir solicitudes de anuncios",
   "privacyBlockAds": "Bloquear solicitudes de anuncios",
-  "privacyResetChoice": "Restablecer elección"
+  "privacyResetChoice": "Restablecer elección",
+  "settingsLifetime": "Eliminar anuncios para siempre",
+  "lifetimeDescription": "Compra Lifetime de pago único. El precio se muestra desde la tienda cuando la facturación está disponible.",
+  "lifetimeActive": "Lifetime activo",
+  "lifetimeActiveDescription": "Las solicitudes de anuncios quedan suprimidas permanentemente en este dispositivo y tras una restauración válida.",
+  "lifetimeStoreUnavailable": "La oferta de la tienda no está disponible ahora.",
+  "lifetimeBuy": "Comprar Lifetime",
+  "lifetimeRestore": "Restaurar compra",
+  "lifetimePurchasePending": "Esperando a que la tienda complete la compra.",
+  "lifetimePurchaseComplete": "Compra Lifetime verificada.",
+  "lifetimeRestoreComplete": "Compra Lifetime restaurada.",
+  "lifetimePurchaseCanceled": "Compra cancelada.",
+  "lifetimeVerificationFailed": "La compra se recibió pero no se verificó. No se concedió ningún derecho.",
+  "lifetimePurchaseError": "La operación de la tienda falló. Inténtalo de nuevo más tarde.",
+  "lifetimeVerificationUnavailable": "La verificación de compras no está configurada. La facturación está bloqueada."
 }

@@ -125,7 +125,27 @@ F4A keeps two privacy gates distinct:
 
 ProductLimits.canRequestAds is true only when the user is not entitled to ad suppression, the local preference explicitly allows ads, and a trusted provider adapter has resolved the current launch as ad-eligible.
 
-Persisted local preference never becomes trusted provider consent by itself. Billing/RevenueCat/Play/StoreKit and AdMob/UMP remain future adapters behind these seams.
+Persisted local preference never becomes trusted provider consent by itself.
+
+F4B adds a second isolated native boundary:
+
+```text
+Settings / ProductLimits
+        |
+        v
+EntitlementNotifier + PurchaseController
+        |
+        +--> EntitlementRepository (SharedPreferences offline Lifetime cache)
+        +--> PurchaseVerifier
+        +--> PurchaseGateway
+                  |
+                  +--> native in_app_purchase adapter (Android/iOS)
+                  +--> Web no-op adapter
+```
+
+The store plugin never becomes UI truth. A store purchase/restored event must pass PurchaseVerifier before Lifetime is granted. F4B's verifier is sandbox-only and opt-in; production verification remains a later release concern. Cached Lifetime reloads with source `offlineCache`, while newly verified purchase/restore state uses `providerVerified`.
+
+AdMob/UMP remains a future adapter behind the consent seam.
 
 ## Presentation
 

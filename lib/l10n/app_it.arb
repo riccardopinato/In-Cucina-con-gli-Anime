@@ -65,5 +65,19 @@
   "privacyStatusBlock": "Blocca annunci",
   "privacyAllowAds": "Consenti richieste pubblicitarie",
   "privacyBlockAds": "Blocca richieste pubblicitarie",
-  "privacyResetChoice": "Azzera scelta"
+  "privacyResetChoice": "Azzera scelta",
+  "settingsLifetime": "Rimuovi pubblicità per sempre",
+  "lifetimeDescription": "Acquisto Lifetime una tantum. Il prezzo viene mostrato direttamente dallo store quando il billing è disponibile.",
+  "lifetimeActive": "Lifetime attivo",
+  "lifetimeActiveDescription": "Le richieste pubblicitarie sono soppresse in modo permanente su questo dispositivo e dopo un ripristino valido.",
+  "lifetimeStoreUnavailable": "L'offerta dello store non è disponibile al momento.",
+  "lifetimeBuy": "Acquista Lifetime",
+  "lifetimeRestore": "Ripristina acquisto",
+  "lifetimePurchasePending": "In attesa che lo store completi l'acquisto.",
+  "lifetimePurchaseComplete": "Acquisto Lifetime verificato.",
+  "lifetimeRestoreComplete": "Acquisto Lifetime ripristinato.",
+  "lifetimePurchaseCanceled": "Acquisto annullato.",
+  "lifetimeVerificationFailed": "Acquisto ricevuto ma non verificato. Nessun entitlement è stato concesso.",
+  "lifetimePurchaseError": "Operazione dello store non riuscita. Riprova più tardi.",
+  "lifetimeVerificationUnavailable": "La verifica degli acquisti non è configurata. Il billing è bloccato."
 }

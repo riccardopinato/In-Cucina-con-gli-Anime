@@ -27,7 +27,12 @@ Delta: deterministic platform generation + F2 Python authoring gates. Production
 4) Entitlement Contract
 Source: golden/monetization/GOLDEN_ENTITLEMENT_CONTRACT_FLUTTER_v1.txt
 Targets: lib/core/monetization/*
-Boundary: provider-agnostic only; no billing SDK claim.
+Boundary:
+- UI consumes EntitlementSnapshot/ProductLimits only;
+- F4B mounts the official `in_app_purchase` transport behind PurchaseGateway;
+- purchase events do not grant entitlement until PurchaseVerifier accepts them;
+- F4B verification is sandbox-only and disabled by default;
+- cached Lifetime reloads as `offlineCache`, never as provider-verified truth.
 
 5) Agent Governance / Code Hygiene
 Sources:
@@ -95,7 +100,7 @@ PROCESS GUIDANCE APPLIED
 NOT MOUNTED YET
 - Google Auth: no login required.
 - AdMob SDK: planned, not live; F4A consent/privacy gate implemented.
-- Billing provider: planned, not live.
+- Billing provider: `in_app_purchase` adapter mounted; live production billing remains disabled pending sandbox proof and production verification.
 - Notifications: no current need.
 - Backup/Recovery: later.
 - Offline Content Packs: later.

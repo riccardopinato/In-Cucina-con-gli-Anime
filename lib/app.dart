@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import 'core/monetization/purchase_provider.dart';
 import 'core/preferences/preferences_providers.dart';
 import 'core/preferences/preferences_repository.dart';
 import 'core/theme/app_theme.dart';
@@ -15,6 +16,7 @@ class AnimeKitchenApp extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final localePreference = ref.watch(localePreferenceProvider);
     final themePreference = ref.watch(themePreferenceProvider);
+    ref.watch(purchaseControllerProvider);
 
     final themeMode = switch (themePreference) {
       AppThemePreference.system => ThemeMode.system,
