@@ -65,5 +65,18 @@
   "privacyStatusBlock": "Block ads",
   "privacyAllowAds": "Allow ad requests",
   "privacyBlockAds": "Block ad requests",
-  "privacyResetChoice": "Reset choice"
+  "privacyResetChoice": "Reset choice",
+  "settingsLifetime": "Remove ads forever",
+  "lifetimeDescription": "One-time Lifetime purchase. The store price is shown when billing is available.",
+  "lifetimeActive": "Lifetime active",
+  "lifetimeActiveDescription": "Ads are permanently suppressed on this device and after a valid restore.",
+  "lifetimeStoreUnavailable": "The store offer is not available right now.",
+  "lifetimeBuy": "Buy Lifetime",
+  "lifetimeRestore": "Restore purchase",
+  "lifetimePurchasePending": "Waiting for the store to finish the purchase.",
+  "lifetimePurchaseComplete": "Lifetime purchase verified.",
+  "lifetimeRestoreComplete": "Lifetime purchase restored.",
+  "lifetimePurchaseCanceled": "Purchase canceled.",
+  "lifetimeVerificationFailed": "Purchase received but not verified. No entitlement was granted.",
+  "lifetimePurchaseError": "The store operation failed. Try again later."
 }
