@@ -10,38 +10,116 @@
   "difficulty": "medium",
   "contentOrigin": "adapted",
   "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. Servings inferred from ingredient quantities because the source does not state yield.",
-  "imageAssetId": null,
+  "imageAssetId": "recipe_000002_artwork",
   "ingredients": [
-    {"id": "ramen_noodles", "quantity": 200, "unit": "g"},
-    {"id": "concentrated_broth", "quantity": 800, "unit": "ml"},
-    {"id": "miso_paste", "quantity": 2, "unit": "tbsp"},
-    {"id": "chashu", "quantity": 4, "unit": "slice"},
-    {"id": "ajitsuke_eggs", "quantity": 2, "unit": null},
-    {"id": "narutomaki", "quantity": 4, "unit": "slice"},
-    {"id": "spring_onions", "quantity": 2, "unit": null},
-    {"id": "bean_sprouts", "quantity": null, "unit": null},
-    {"id": "nori", "quantity": null, "unit": null}
+    {
+      "id": "ramen_noodles",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "id": "concentrated_broth",
+      "quantity": 800,
+      "unit": "ml"
+    },
+    {
+      "id": "miso_paste",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "chashu",
+      "quantity": 4,
+      "unit": "slice"
+    },
+    {
+      "id": "ajitsuke_eggs",
+      "quantity": 2,
+      "unit": null
+    },
+    {
+      "id": "narutomaki",
+      "quantity": 4,
+      "unit": "slice"
+    },
+    {
+      "id": "spring_onions",
+      "quantity": 2,
+      "unit": null
+    },
+    {
+      "id": "bean_sprouts",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "nori",
+      "quantity": null,
+      "unit": null
+    }
   ],
   "steps": [
-    {"id": "season_broth", "timerSeconds": null},
-    {"id": "cook_noodles", "timerSeconds": null},
-    {"id": "fill_bowls", "timerSeconds": null},
-    {"id": "add_toppings", "timerSeconds": null},
-    {"id": "serve", "timerSeconds": null}
+    {
+      "id": "season_broth",
+      "timerSeconds": null
+    },
+    {
+      "id": "cook_noodles",
+      "timerSeconds": null
+    },
+    {
+      "id": "fill_bowls",
+      "timerSeconds": null
+    },
+    {
+      "id": "add_toppings",
+      "timerSeconds": null
+    },
+    {
+      "id": "serve",
+      "timerSeconds": null
+    }
   ],
   "locales": {
     "en": {
       "title": "Miso Ramen with Chashu",
       "ingredients": {
-        "ramen_noodles": {"name": "Ramen noodles", "note": "fresh or dried"},
-        "concentrated_broth": {"name": "Concentrated chicken or pork broth", "note": null},
-        "miso_paste": {"name": "Miso paste", "note": "soy sauce can be used for a lighter alternative"},
-        "chashu": {"name": "Braised pork chashu", "note": "4 slices"},
-        "ajitsuke_eggs": {"name": "Ajitsuke tamago", "note": "marinated soft-boiled eggs"},
-        "narutomaki": {"name": "Narutomaki", "note": "4 slices"},
-        "spring_onions": {"name": "Spring onions", "note": "finely sliced"},
-        "bean_sprouts": {"name": "Bean sprouts", "note": "for topping"},
-        "nori": {"name": "Nori", "note": "cut into serving pieces"}
+        "ramen_noodles": {
+          "name": "Ramen noodles",
+          "note": "fresh or dried"
+        },
+        "concentrated_broth": {
+          "name": "Concentrated chicken or pork broth",
+          "note": null
+        },
+        "miso_paste": {
+          "name": "Miso paste",
+          "note": "soy sauce can be used for a lighter alternative"
+        },
+        "chashu": {
+          "name": "Braised pork chashu",
+          "note": "4 slices"
+        },
+        "ajitsuke_eggs": {
+          "name": "Ajitsuke tamago",
+          "note": "marinated soft-boiled eggs"
+        },
+        "narutomaki": {
+          "name": "Narutomaki",
+          "note": "4 slices"
+        },
+        "spring_onions": {
+          "name": "Spring onions",
+          "note": "finely sliced"
+        },
+        "bean_sprouts": {
+          "name": "Bean sprouts",
+          "note": "for topping"
+        },
+        "nori": {
+          "name": "Nori",
+          "note": "cut into serving pieces"
+        }
       },
       "steps": {
         "season_broth": "Heat the broth gently and whisk in the miso until smooth. Keep it hot without letting it reduce aggressively.",
@@ -54,15 +132,42 @@
     "it": {
       "title": "Ramen al miso con chashu",
       "ingredients": {
-        "ramen_noodles": {"name": "Noodles per ramen", "note": "freschi o secchi"},
-        "concentrated_broth": {"name": "Brodo concentrato di pollo o maiale", "note": null},
-        "miso_paste": {"name": "Pasta di miso", "note": "in alternativa si può usare salsa di soia per un gusto più leggero"},
-        "chashu": {"name": "Chashu di maiale brasato", "note": "4 fette"},
-        "ajitsuke_eggs": {"name": "Ajitsuke tamago", "note": "uova marinate barzotte"},
-        "narutomaki": {"name": "Narutomaki", "note": "4 fette"},
-        "spring_onions": {"name": "Cipollotti freschi", "note": "affettati finemente"},
-        "bean_sprouts": {"name": "Germogli di soia", "note": "per completare"},
-        "nori": {"name": "Alga nori", "note": "tagliata in porzioni"}
+        "ramen_noodles": {
+          "name": "Noodles per ramen",
+          "note": "freschi o secchi"
+        },
+        "concentrated_broth": {
+          "name": "Brodo concentrato di pollo o maiale",
+          "note": null
+        },
+        "miso_paste": {
+          "name": "Pasta di miso",
+          "note": "in alternativa si può usare salsa di soia per un gusto più leggero"
+        },
+        "chashu": {
+          "name": "Chashu di maiale brasato",
+          "note": "4 fette"
+        },
+        "ajitsuke_eggs": {
+          "name": "Ajitsuke tamago",
+          "note": "uova marinate barzotte"
+        },
+        "narutomaki": {
+          "name": "Narutomaki",
+          "note": "4 fette"
+        },
+        "spring_onions": {
+          "name": "Cipollotti freschi",
+          "note": "affettati finemente"
+        },
+        "bean_sprouts": {
+          "name": "Germogli di soia",
+          "note": "per completare"
+        },
+        "nori": {
+          "name": "Alga nori",
+          "note": "tagliata in porzioni"
+        }
       },
       "steps": {
         "season_broth": "Scalda il brodo dolcemente e incorpora il miso mescolando finché si scioglie. Mantienilo caldo senza farlo restringere troppo.",
@@ -75,15 +180,42 @@
     "es": {
       "title": "Ramen de miso con chashu",
       "ingredients": {
-        "ramen_noodles": {"name": "Fideos ramen", "note": "frescos o secos"},
-        "concentrated_broth": {"name": "Caldo concentrado de pollo o cerdo", "note": null},
-        "miso_paste": {"name": "Pasta de miso", "note": "puede sustituirse por salsa de soja para un sabor más ligero"},
-        "chashu": {"name": "Chashu de cerdo braseado", "note": "4 lonchas"},
-        "ajitsuke_eggs": {"name": "Ajitsuke tamago", "note": "huevos marinados de yema tierna"},
-        "narutomaki": {"name": "Narutomaki", "note": "4 rodajas"},
-        "spring_onions": {"name": "Cebolletas", "note": "finamente cortadas"},
-        "bean_sprouts": {"name": "Brotes de soja", "note": "para terminar"},
-        "nori": {"name": "Alga nori", "note": "cortada en porciones"}
+        "ramen_noodles": {
+          "name": "Fideos ramen",
+          "note": "frescos o secos"
+        },
+        "concentrated_broth": {
+          "name": "Caldo concentrado de pollo o cerdo",
+          "note": null
+        },
+        "miso_paste": {
+          "name": "Pasta de miso",
+          "note": "puede sustituirse por salsa de soja para un sabor más ligero"
+        },
+        "chashu": {
+          "name": "Chashu de cerdo braseado",
+          "note": "4 lonchas"
+        },
+        "ajitsuke_eggs": {
+          "name": "Ajitsuke tamago",
+          "note": "huevos marinados de yema tierna"
+        },
+        "narutomaki": {
+          "name": "Narutomaki",
+          "note": "4 rodajas"
+        },
+        "spring_onions": {
+          "name": "Cebolletas",
+          "note": "finamente cortadas"
+        },
+        "bean_sprouts": {
+          "name": "Brotes de soja",
+          "note": "para terminar"
+        },
+        "nori": {
+          "name": "Alga nori",
+          "note": "cortada en porciones"
+        }
       },
       "steps": {
         "season_broth": "Calienta el caldo suavemente e incorpora el miso hasta que quede bien disuelto. Mantenlo caliente.",
@@ -96,15 +228,42 @@
     "fr": {
       "title": "Ramen au miso et chashu",
       "ingredients": {
-        "ramen_noodles": {"name": "Nouilles ramen", "note": "fraîches ou sèches"},
-        "concentrated_broth": {"name": "Bouillon concentré de poulet ou de porc", "note": null},
-        "miso_paste": {"name": "Pâte de miso", "note": "la sauce soja peut remplacer le miso pour une version plus légère"},
-        "chashu": {"name": "Chashu de porc braisé", "note": "4 tranches"},
-        "ajitsuke_eggs": {"name": "Ajitsuke tamago", "note": "œufs marinés à jaune tendre"},
-        "narutomaki": {"name": "Narutomaki", "note": "4 tranches"},
-        "spring_onions": {"name": "Ciboules", "note": "finement émincées"},
-        "bean_sprouts": {"name": "Germes de soja", "note": "pour la garniture"},
-        "nori": {"name": "Nori", "note": "découpé en portions"}
+        "ramen_noodles": {
+          "name": "Nouilles ramen",
+          "note": "fraîches ou sèches"
+        },
+        "concentrated_broth": {
+          "name": "Bouillon concentré de poulet ou de porc",
+          "note": null
+        },
+        "miso_paste": {
+          "name": "Pâte de miso",
+          "note": "la sauce soja peut remplacer le miso pour une version plus légère"
+        },
+        "chashu": {
+          "name": "Chashu de porc braisé",
+          "note": "4 tranches"
+        },
+        "ajitsuke_eggs": {
+          "name": "Ajitsuke tamago",
+          "note": "œufs marinés à jaune tendre"
+        },
+        "narutomaki": {
+          "name": "Narutomaki",
+          "note": "4 tranches"
+        },
+        "spring_onions": {
+          "name": "Ciboules",
+          "note": "finement émincées"
+        },
+        "bean_sprouts": {
+          "name": "Germes de soja",
+          "note": "pour la garniture"
+        },
+        "nori": {
+          "name": "Nori",
+          "note": "découpé en portions"
+        }
       },
       "steps": {
         "season_broth": "Faites chauffer doucement le bouillon et délayez-y le miso jusqu’à obtenir un mélange homogène. Gardez au chaud.",
@@ -117,15 +276,42 @@
     "de": {
       "title": "Miso-Ramen mit Chashu",
       "ingredients": {
-        "ramen_noodles": {"name": "Ramen-Nudeln", "note": "frisch oder getrocknet"},
-        "concentrated_broth": {"name": "Konzentrierte Hühner- oder Schweinebrühe", "note": null},
-        "miso_paste": {"name": "Misopaste", "note": "für eine mildere Variante kann Sojasauce verwendet werden"},
-        "chashu": {"name": "Geschmorter Schweine-Chashu", "note": "4 Scheiben"},
-        "ajitsuke_eggs": {"name": "Ajitsuke Tamago", "note": "marinierte weich gekochte Eier"},
-        "narutomaki": {"name": "Narutomaki", "note": "4 Scheiben"},
-        "spring_onions": {"name": "Frühlingszwiebeln", "note": "fein geschnitten"},
-        "bean_sprouts": {"name": "Sojasprossen", "note": "als Topping"},
-        "nori": {"name": "Nori", "note": "in Servierstücke geschnitten"}
+        "ramen_noodles": {
+          "name": "Ramen-Nudeln",
+          "note": "frisch oder getrocknet"
+        },
+        "concentrated_broth": {
+          "name": "Konzentrierte Hühner- oder Schweinebrühe",
+          "note": null
+        },
+        "miso_paste": {
+          "name": "Misopaste",
+          "note": "für eine mildere Variante kann Sojasauce verwendet werden"
+        },
+        "chashu": {
+          "name": "Geschmorter Schweine-Chashu",
+          "note": "4 Scheiben"
+        },
+        "ajitsuke_eggs": {
+          "name": "Ajitsuke Tamago",
+          "note": "marinierte weich gekochte Eier"
+        },
+        "narutomaki": {
+          "name": "Narutomaki",
+          "note": "4 Scheiben"
+        },
+        "spring_onions": {
+          "name": "Frühlingszwiebeln",
+          "note": "fein geschnitten"
+        },
+        "bean_sprouts": {
+          "name": "Sojasprossen",
+          "note": "als Topping"
+        },
+        "nori": {
+          "name": "Nori",
+          "note": "in Servierstücke geschnitten"
+        }
       },
       "steps": {
         "season_broth": "Die Brühe sanft erhitzen und die Misopaste glatt einrühren. Warm halten, ohne sie stark einzukochen.",
@@ -138,15 +324,42 @@
     "pt": {
       "title": "Ramen de missô com chashu",
       "ingredients": {
-        "ramen_noodles": {"name": "Macarrão para ramen", "note": "fresco ou seco"},
-        "concentrated_broth": {"name": "Caldo concentrado de frango ou porco", "note": null},
-        "miso_paste": {"name": "Pasta de missô", "note": "molho de soja pode ser usado como alternativa mais leve"},
-        "chashu": {"name": "Chashu de porco braseado", "note": "4 fatias"},
-        "ajitsuke_eggs": {"name": "Ajitsuke tamago", "note": "ovos marinados com gema macia"},
-        "narutomaki": {"name": "Narutomaki", "note": "4 fatias"},
-        "spring_onions": {"name": "Cebolinha", "note": "fatiada finamente"},
-        "bean_sprouts": {"name": "Brotos de soja", "note": "para finalizar"},
-        "nori": {"name": "Nori", "note": "cortado em porções"}
+        "ramen_noodles": {
+          "name": "Macarrão para ramen",
+          "note": "fresco ou seco"
+        },
+        "concentrated_broth": {
+          "name": "Caldo concentrado de frango ou porco",
+          "note": null
+        },
+        "miso_paste": {
+          "name": "Pasta de missô",
+          "note": "molho de soja pode ser usado como alternativa mais leve"
+        },
+        "chashu": {
+          "name": "Chashu de porco braseado",
+          "note": "4 fatias"
+        },
+        "ajitsuke_eggs": {
+          "name": "Ajitsuke tamago",
+          "note": "ovos marinados com gema macia"
+        },
+        "narutomaki": {
+          "name": "Narutomaki",
+          "note": "4 fatias"
+        },
+        "spring_onions": {
+          "name": "Cebolinha",
+          "note": "fatiada finamente"
+        },
+        "bean_sprouts": {
+          "name": "Brotos de soja",
+          "note": "para finalizar"
+        },
+        "nori": {
+          "name": "Nori",
+          "note": "cortado em porções"
+        }
       },
       "steps": {
         "season_broth": "Aqueça o caldo suavemente e misture o missô até dissolver por completo. Mantenha quente.",
