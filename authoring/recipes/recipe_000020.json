@@ -1,0 +1,276 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000020",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "My Hero Academia / Kanon",
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "servings": 4,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "flour",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "id": "baking_powder",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "egg",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "milk",
+      "quantity": 140,
+      "unit": "ml"
+    },
+    {
+      "id": "sugar",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "anko",
+      "quantity": 150,
+      "unit": "g"
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Taiyaki with Anko",
+      "ingredients": {
+        "flour": {
+          "name": "All-purpose flour",
+          "note": null
+        },
+        "baking_powder": {
+          "name": "Baking powder",
+          "note": null
+        },
+        "egg": {
+          "name": "Eggs",
+          "note": null
+        },
+        "milk": {
+          "name": "Milk",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "anko": {
+          "name": "Sweet red bean paste (anko)",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Whisk the egg with sugar and milk, then sift in flour and baking powder to make a smooth batter.",
+        "step_2": "Heat and lightly oil a fish-shaped taiyaki pan.",
+        "step_3": "Pour in a thin layer of batter, add a generous spoonful of anko in the centre and cover with more batter.",
+        "step_4": "Close the pan and cook over medium-low heat for 3–4 minutes per side until crisp and golden."
+      }
+    },
+    "it": {
+      "title": "Taiyaki con anko",
+      "ingredients": {
+        "flour": {
+          "name": "Farina 00",
+          "note": null
+        },
+        "baking_powder": {
+          "name": "Lievito per dolci",
+          "note": null
+        },
+        "egg": {
+          "name": "Uova",
+          "note": null
+        },
+        "milk": {
+          "name": "Latte",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucchero",
+          "note": null
+        },
+        "anko": {
+          "name": "Pasta dolce di azuki (anko)",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Sbatti l’uovo con zucchero e latte, poi incorpora farina e lievito setacciati fino a ottenere una pastella liscia.",
+        "step_2": "Scalda la piastra a forma di pesce e ungila leggermente.",
+        "step_3": "Versa un velo di pastella, aggiungi una cucchiaiata abbondante di anko al centro e copri con altra pastella.",
+        "step_4": "Chiudi la piastra e cuoci a fuoco medio-basso per 3–4 minuti per lato, finché è dorato e croccante."
+      }
+    },
+    "es": {
+      "title": "Taiyaki con anko",
+      "ingredients": {
+        "flour": {
+          "name": "Harina de trigo",
+          "note": null
+        },
+        "baking_powder": {
+          "name": "Levadura química",
+          "note": null
+        },
+        "egg": {
+          "name": "Huevos",
+          "note": null
+        },
+        "milk": {
+          "name": "Leche",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "anko": {
+          "name": "Pasta dulce de azuki (anko)",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bate el huevo con azúcar y leche e incorpora harina y levadura tamizadas.",
+        "step_2": "Calienta y engrasa ligeramente el molde de taiyaki.",
+        "step_3": "Vierte una capa fina de masa, añade anko y cubre con más masa.",
+        "step_4": "Cierra el molde y cocina 3–4 minutos por lado a fuego medio-bajo."
+      }
+    },
+    "fr": {
+      "title": "Taiyaki à l’anko",
+      "ingredients": {
+        "flour": {
+          "name": "Farine de blé",
+          "note": null
+        },
+        "baking_powder": {
+          "name": "Levure chimique",
+          "note": null
+        },
+        "egg": {
+          "name": "Œufs",
+          "note": null
+        },
+        "milk": {
+          "name": "Lait",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre",
+          "note": null
+        },
+        "anko": {
+          "name": "Pâte sucrée d’azuki (anko)",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Fouettez l’œuf avec sucre et lait puis incorporez farine et levure tamisées.",
+        "step_2": "Faites chauffer et graissez légèrement le moule à taiyaki.",
+        "step_3": "Versez une fine couche de pâte, ajoutez l’anko puis recouvrez de pâte.",
+        "step_4": "Fermez le moule et cuisez 3–4 minutes par face à feu moyen-doux."
+      }
+    },
+    "de": {
+      "title": "Taiyaki mit Anko",
+      "ingredients": {
+        "flour": {
+          "name": "Weizenmehl",
+          "note": null
+        },
+        "baking_powder": {
+          "name": "Backpulver",
+          "note": null
+        },
+        "egg": {
+          "name": "Eier",
+          "note": null
+        },
+        "milk": {
+          "name": "Milch",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker",
+          "note": null
+        },
+        "anko": {
+          "name": "Süße Azukibohnenpaste (Anko)",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Ei mit Zucker und Milch verquirlen, dann Mehl und Backpulver einsieben.",
+        "step_2": "Taiyaki-Form erhitzen und leicht ölen.",
+        "step_3": "Eine dünne Teigschicht einfüllen, Anko in die Mitte geben und mit Teig bedecken.",
+        "step_4": "Form schließen und bei mittlerer bis niedriger Hitze 3–4 Minuten je Seite goldbraun backen."
+      }
+    },
+    "pt": {
+      "title": "Taiyaki com anko",
+      "ingredients": {
+        "flour": {
+          "name": "Farinha de trigo",
+          "note": null
+        },
+        "baking_powder": {
+          "name": "Fermento químico",
+          "note": null
+        },
+        "egg": {
+          "name": "Ovos",
+          "note": null
+        },
+        "milk": {
+          "name": "Leite",
+          "note": null
+        },
+        "sugar": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "anko": {
+          "name": "Pasta doce de azuki (anko)",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bata o ovo com açúcar e leite e incorpore farinha e fermento peneirados.",
+        "step_2": "Aqueça e unte levemente a forma de taiyaki.",
+        "step_3": "Coloque uma camada fina de massa, adicione anko e cubra com mais massa.",
+        "step_4": "Feche a forma e cozinhe em fogo médio-baixo por 3–4 minutos de cada lado."
+      }
+    }
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000012",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Food Wars! (Shokugeki no Souma)",
+  "prepMinutes": 20,
+  "cookMinutes": 40,
+  "servings": 4,
+  "difficulty": "hard",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "potatoes",
+      "quantity": 6,
+      "unit": null
+    },
+    {
+      "id": "onion",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "bacon",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "id": "eringii",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "butter",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "red_wine",
+      "quantity": 120,
+      "unit": "ml"
+    },
+    {
+      "id": "soy_sauce",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "rosemary",
+      "quantity": 1,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_5",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Gotcha Pork Roast",
+      "ingredients": {
+        "potatoes": {
+          "name": "Potatoes",
+          "note": null
+        },
+        "onion": {
+          "name": "Onion",
+          "note": null
+        },
+        "bacon": {
+          "name": "Thick-cut bacon",
+          "note": null
+        },
+        "eringii": {
+          "name": "King oyster mushroom",
+          "note": null
+        },
+        "butter": {
+          "name": "Butter",
+          "note": null
+        },
+        "red_wine": {
+          "name": "Dry red wine",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "rosemary": {
+          "name": "Fresh rosemary",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Boil the potatoes until tender and mash them. Sauté the chopped onion and mushroom in butter, then fold them into the potato.",
+        "step_2": "Shape the potato mixture into a compact roast-shaped loaf.",
+        "step_3": "Wrap the loaf completely with overlapping bacon and secure it with kitchen twine and rosemary.",
+        "step_4": "Bake at 200°C until the bacon is browned and crisp, about 30–40 minutes.",
+        "step_5": "Deglaze the roasting pan with red wine, soy sauce and butter and spoon the sauce over the sliced roast."
+      }
+    },
+    "it": {
+      "title": "Gotcha Pork Roast (arrosto finto)",
+      "ingredients": {
+        "potatoes": {
+          "name": "Patate",
+          "note": null
+        },
+        "onion": {
+          "name": "Cipolla",
+          "note": null
+        },
+        "bacon": {
+          "name": "Bacon a fette spesse",
+          "note": null
+        },
+        "eringii": {
+          "name": "Fungo eringii o cardoncello",
+          "note": null
+        },
+        "butter": {
+          "name": "Burro",
+          "note": null
+        },
+        "red_wine": {
+          "name": "Vino rosso secco",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa di soia",
+          "note": null
+        },
+        "rosemary": {
+          "name": "Rosmarino fresco",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Lessa le patate finché sono morbide e schiacciale. Salta cipolla e fungo tritati nel burro e incorporali alle patate.",
+        "step_2": "Compatta il composto di patate dandogli la forma di un arrosto.",
+        "step_3": "Avvolgi il blocco con fette di bacon sovrapposte e fermalo con spago da cucina e rosmarino.",
+        "step_4": "Inforna a 200°C finché il bacon è dorato e croccante, circa 30–40 minuti.",
+        "step_5": "Sfuma la teglia con vino rosso, salsa di soia e burro e versa la salsa sull’arrosto affettato."
+      }
+    },
+    "es": {
+      "title": "Gotcha Pork Roast (asado falso)",
+      "ingredients": {
+        "potatoes": {
+          "name": "Patatas",
+          "note": null
+        },
+        "onion": {
+          "name": "Cebolla",
+          "note": null
+        },
+        "bacon": {
+          "name": "Bacon grueso",
+          "note": null
+        },
+        "eringii": {
+          "name": "Seta de cardo",
+          "note": null
+        },
+        "butter": {
+          "name": "Mantequilla",
+          "note": null
+        },
+        "red_wine": {
+          "name": "Vino tinto seco",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "rosemary": {
+          "name": "Romero fresco",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Cuece las patatas y aplástalas. Saltea cebolla y seta picadas con mantequilla e incorpóralas a la patata.",
+        "step_2": "Moldea la mezcla de patata con forma compacta de asado.",
+        "step_3": "Envuelve el bloque con bacon solapado y átalo con hilo de cocina y romero.",
+        "step_4": "Hornea a 200°C hasta que el bacon esté dorado y crujiente, unos 30–40 minutos.",
+        "step_5": "Desglasa la bandeja con vino tinto, soja y mantequilla y sirve la salsa sobre el asado cortado."
+      }
+    },
+    "fr": {
+      "title": "Gotcha Pork Roast (faux rôti)",
+      "ingredients": {
+        "potatoes": {
+          "name": "Pommes de terre",
+          "note": null
+        },
+        "onion": {
+          "name": "Oignon",
+          "note": null
+        },
+        "bacon": {
+          "name": "Bacon épais",
+          "note": null
+        },
+        "eringii": {
+          "name": "Pleurote du panicaut",
+          "note": null
+        },
+        "butter": {
+          "name": "Beurre",
+          "note": null
+        },
+        "red_wine": {
+          "name": "Vin rouge sec",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "rosemary": {
+          "name": "Romarin frais",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Faites cuire les pommes de terre puis écrasez-les. Faites revenir oignon et champignon au beurre et incorporez-les.",
+        "step_2": "Façonnez la purée en un rôti compact.",
+        "step_3": "Enveloppez le pain de bacon en les faisant se chevaucher puis ficelez avec le romarin.",
+        "step_4": "Faites cuire à 200°C jusqu’à ce que le bacon soit doré et croustillant, environ 30–40 minutes.",
+        "step_5": "Déglacez le plat avec vin rouge, sauce soja et beurre puis nappez le rôti tranché."
+      }
+    },
+    "de": {
+      "title": "Gotcha Pork Roast (falscher Braten)",
+      "ingredients": {
+        "potatoes": {
+          "name": "Kartoffeln",
+          "note": null
+        },
+        "onion": {
+          "name": "Zwiebel",
+          "note": null
+        },
+        "bacon": {
+          "name": "Dicker Bacon",
+          "note": null
+        },
+        "eringii": {
+          "name": "Kräuterseitling",
+          "note": null
+        },
+        "butter": {
+          "name": "Butter",
+          "note": null
+        },
+        "red_wine": {
+          "name": "Trockener Rotwein",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "rosemary": {
+          "name": "Frischer Rosmarin",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Kartoffeln weich kochen und stampfen. Zwiebel und Pilz in Butter anbraten und unter die Kartoffeln mischen.",
+        "step_2": "Die Kartoffelmasse zu einem kompakten Braten formen.",
+        "step_3": "Den Laib vollständig mit überlappendem Bacon umwickeln und mit Küchengarn und Rosmarin fixieren.",
+        "step_4": "Bei 200°C etwa 30–40 Minuten backen, bis der Bacon knusprig ist.",
+        "step_5": "Den Bräter mit Rotwein, Sojasauce und Butter ablöschen und die Sauce über den aufgeschnittenen Braten geben."
+      }
+    },
+    "pt": {
+      "title": "Gotcha Pork Roast (assado falso)",
+      "ingredients": {
+        "potatoes": {
+          "name": "Batatas",
+          "note": null
+        },
+        "onion": {
+          "name": "Cebola",
+          "note": null
+        },
+        "bacon": {
+          "name": "Bacon em fatias grossas",
+          "note": null
+        },
+        "eringii": {
+          "name": "Cogumelo eryngui",
+          "note": null
+        },
+        "butter": {
+          "name": "Manteiga",
+          "note": null
+        },
+        "red_wine": {
+          "name": "Vinho tinto seco",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Molho de soja",
+          "note": null
+        },
+        "rosemary": {
+          "name": "Alecrim fresco",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Cozinhe e amasse as batatas. Refogue cebola e cogumelo na manteiga e misture às batatas.",
+        "step_2": "Modele a massa de batata no formato de um assado compacto.",
+        "step_3": "Envolva completamente com bacon sobreposto e amarre com barbante culinário e alecrim.",
+        "step_4": "Asse a 200°C por cerca de 30–40 minutos, até o bacon dourar e ficar crocante.",
+        "step_5": "Deglaceie a assadeira com vinho tinto, molho de soja e manteiga e regue o assado fatiado."
+      }
+    }
+  }
+}

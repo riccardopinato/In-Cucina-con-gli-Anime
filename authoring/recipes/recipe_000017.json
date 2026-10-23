@@ -1,0 +1,276 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000017",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Demon Slayer / Pokémon",
+  "prepMinutes": 5,
+  "cookMinutes": 10,
+  "servings": 2,
+  "difficulty": "easy",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "eggs",
+      "quantity": 4,
+      "unit": null
+    },
+    {
+      "id": "dashi",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "sugar",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "soy_sauce",
+      "quantity": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "salt",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "oil",
+      "quantity": 1,
+      "unit": "tsp"
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Tamagoyaki Rolled Omelette",
+      "ingredients": {
+        "eggs": {
+          "name": "Eggs",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi broth",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "salt": {
+          "name": "Salt",
+          "note": null
+        },
+        "oil": {
+          "name": "Neutral oil for frying",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Beat the eggs gently with dashi, sugar, soy sauce and a pinch of salt without creating much foam.",
+        "step_2": "Lightly oil a rectangular tamagoyaki pan and pour in a thin layer of egg.",
+        "step_3": "When just set, roll the egg toward one side of the pan.",
+        "step_4": "Add another thin layer, let it flow under the roll and roll again. Repeat until the mixture is finished, then shape and slice."
+      }
+    },
+    "it": {
+      "title": "Tamagoyaki, omelette arrotolata",
+      "ingredients": {
+        "eggs": {
+          "name": "Uova",
+          "note": null
+        },
+        "dashi": {
+          "name": "Brodo dashi",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucchero",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa di soia",
+          "note": null
+        },
+        "salt": {
+          "name": "Sale",
+          "note": null
+        },
+        "oil": {
+          "name": "Olio neutro per friggere",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Sbatti delicatamente le uova con dashi, zucchero, salsa di soia e un pizzico di sale senza creare troppa schiuma.",
+        "step_2": "Ungi leggermente una padella rettangolare e versa un velo sottile di uovo.",
+        "step_3": "Quando è appena rappreso, arrotola l’uovo verso un lato della padella.",
+        "step_4": "Versa un altro strato, fallo scorrere sotto il rotolo e arrotola di nuovo. Ripeti fino a esaurire il composto, poi modella e affetta."
+      }
+    },
+    "es": {
+      "title": "Tamagoyaki, tortilla enrollada",
+      "ingredients": {
+        "eggs": {
+          "name": "Huevos",
+          "note": null
+        },
+        "dashi": {
+          "name": "Caldo dashi",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        },
+        "oil": {
+          "name": "Aceite neutro para freír",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bate suavemente los huevos con dashi, azúcar, soja y una pizca de sal.",
+        "step_2": "Engrasa ligeramente una sartén rectangular y vierte una capa fina de huevo.",
+        "step_3": "Cuando apenas cuaje, enrolla el huevo hacia un lado.",
+        "step_4": "Añade otra capa, deja que pase bajo el rollo y vuelve a enrollar. Repite y corta."
+      }
+    },
+    "fr": {
+      "title": "Tamagoyaki, omelette roulée",
+      "ingredients": {
+        "eggs": {
+          "name": "Œufs",
+          "note": null
+        },
+        "dashi": {
+          "name": "Bouillon dashi",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "salt": {
+          "name": "Sel",
+          "note": null
+        },
+        "oil": {
+          "name": "Huile neutre pour friture",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Battez doucement les œufs avec dashi, sucre, soja et une pincée de sel.",
+        "step_2": "Huilez légèrement une poêle rectangulaire et versez une fine couche d’œuf.",
+        "step_3": "Dès que l’œuf prend, roulez-le vers un côté.",
+        "step_4": "Ajoutez une autre couche, faites-la glisser sous le rouleau et roulez à nouveau. Répétez puis tranchez."
+      }
+    },
+    "de": {
+      "title": "Tamagoyaki, gerolltes Omelett",
+      "ingredients": {
+        "eggs": {
+          "name": "Eier",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi-Brühe",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "salt": {
+          "name": "Salz",
+          "note": null
+        },
+        "oil": {
+          "name": "Neutrales Frittieröl",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Eier mit Dashi, Zucker, Sojasauce und einer Prise Salz sanft verquirlen.",
+        "step_2": "Eine rechteckige Pfanne leicht ölen und eine dünne Eierschicht hineingeben.",
+        "step_3": "Sobald die Schicht gerade gestockt ist, zur Seite aufrollen.",
+        "step_4": "Eine weitere Schicht zugeben, unter die Rolle laufen lassen und erneut aufrollen. Wiederholen und schneiden."
+      }
+    },
+    "pt": {
+      "title": "Tamagoyaki, omelete enrolada",
+      "ingredients": {
+        "eggs": {
+          "name": "Ovos",
+          "note": null
+        },
+        "dashi": {
+          "name": "Caldo dashi",
+          "note": null
+        },
+        "sugar": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Molho de soja",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        },
+        "oil": {
+          "name": "Óleo neutro para fritar",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bata os ovos delicadamente com dashi, açúcar, soja e uma pitada de sal.",
+        "step_2": "Unte levemente uma frigideira retangular e coloque uma camada fina de ovo.",
+        "step_3": "Quando firmar levemente, enrole o ovo para um lado.",
+        "step_4": "Adicione outra camada, deixe escorrer sob o rolo e enrole novamente. Repita e fatie."
+      }
+    }
+  }
+}

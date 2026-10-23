@@ -1,0 +1,315 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000011",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Food Wars! (Shokugeki no Souma)",
+  "prepMinutes": 35,
+  "cookMinutes": 10,
+  "servings": 1,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. Source table lists 25 min, but the method itself requires a 30-minute onion tenderizing rest; timing corrected editorially.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "beef_steak",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "id": "onion",
+      "quantity": 2,
+      "unit": null
+    },
+    {
+      "id": "steamed_rice",
+      "quantity": 180,
+      "unit": "g"
+    },
+    {
+      "id": "umeboshi",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "butter",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "soy_sauce",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "red_wine",
+      "quantity": 2,
+      "unit": "tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_5",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Chaliapin Steak Don",
+      "ingredients": {
+        "beef_steak": {
+          "name": "Beef steak",
+          "note": null
+        },
+        "onion": {
+          "name": "Onion",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Steamed Japanese rice",
+          "note": null
+        },
+        "umeboshi": {
+          "name": "Umeboshi plums",
+          "note": null
+        },
+        "butter": {
+          "name": "Butter",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "red_wine": {
+          "name": "Dry red wine",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Score the steak lightly in a crosshatch, cover it completely with the finely chopped onion and rest for 30 minutes.",
+        "step_2": "Remove the onion and sauté it in butter until golden and deeply caramelized.",
+        "step_3": "Sear the steak over high heat for about 2 minutes per side, then deglaze with soy sauce and red wine.",
+        "step_4": "Mix the hot rice with chopped umeboshi and pack it into a bowl.",
+        "step_5": "Slice the steak, lay it over the rice and finish with the caramelized onion and pan juices."
+      }
+    },
+    "it": {
+      "title": "Chaliapin Steak Don",
+      "ingredients": {
+        "beef_steak": {
+          "name": "Bistecca di manzo",
+          "note": null
+        },
+        "onion": {
+          "name": "Cipolla",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Riso giapponese al vapore",
+          "note": null
+        },
+        "umeboshi": {
+          "name": "Prugne umeboshi",
+          "note": null
+        },
+        "butter": {
+          "name": "Burro",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa di soia",
+          "note": null
+        },
+        "red_wine": {
+          "name": "Vino rosso secco",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Incidi leggermente la bistecca a griglia, coprila con la cipolla tritata finissima e lasciala riposare per 30 minuti.",
+        "step_2": "Rimuovi la cipolla e rosolala nel burro finché è dorata e ben caramellata.",
+        "step_3": "Rosola la bistecca a fuoco alto per circa 2 minuti per lato, poi sfuma con salsa di soia e vino rosso.",
+        "step_4": "Mescola il riso caldo con l’umeboshi tritata e sistemalo in una ciotola.",
+        "step_5": "Affetta la bistecca, adagiala sul riso e completa con cipolla caramellata e fondo di cottura."
+      }
+    },
+    "es": {
+      "title": "Chaliapin Steak Don",
+      "ingredients": {
+        "beef_steak": {
+          "name": "Bistec de ternera",
+          "note": null
+        },
+        "onion": {
+          "name": "Cebolla",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Arroz japonés al vapor",
+          "note": null
+        },
+        "umeboshi": {
+          "name": "Ciruelas umeboshi",
+          "note": null
+        },
+        "butter": {
+          "name": "Mantequilla",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "red_wine": {
+          "name": "Vino tinto seco",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Marca ligeramente el bistec en rejilla, cúbrelo con la cebolla muy picada y déjalo reposar 30 minutos.",
+        "step_2": "Retira la cebolla y sofríela con mantequilla hasta que quede dorada y caramelizada.",
+        "step_3": "Dora el bistec a fuego fuerte unos 2 minutos por lado y desglasa con soja y vino tinto.",
+        "step_4": "Mezcla el arroz caliente con umeboshi picada y colócalo en un bol.",
+        "step_5": "Corta el bistec, colócalo sobre el arroz y termina con la cebolla caramelizada y los jugos de la sartén."
+      }
+    },
+    "fr": {
+      "title": "Chaliapin Steak Don",
+      "ingredients": {
+        "beef_steak": {
+          "name": "Steak de bœuf",
+          "note": null
+        },
+        "onion": {
+          "name": "Oignon",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Riz japonais vapeur",
+          "note": null
+        },
+        "umeboshi": {
+          "name": "Prunes umeboshi",
+          "note": null
+        },
+        "butter": {
+          "name": "Beurre",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "red_wine": {
+          "name": "Vin rouge sec",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Quadrillez légèrement le steak, couvrez-le d’oignon finement haché et laissez reposer 30 minutes.",
+        "step_2": "Retirez l’oignon et faites-le revenir au beurre jusqu’à belle caramélisation.",
+        "step_3": "Saisissez le steak à feu vif environ 2 minutes de chaque côté puis déglacez avec sauce soja et vin rouge.",
+        "step_4": "Mélangez le riz chaud avec l’umeboshi hachée et mettez-le dans un bol.",
+        "step_5": "Tranchez le steak, posez-le sur le riz et terminez avec l’oignon caramélisé et le jus de cuisson."
+      }
+    },
+    "de": {
+      "title": "Chaliapin Steak Don",
+      "ingredients": {
+        "beef_steak": {
+          "name": "Rindersteak",
+          "note": null
+        },
+        "onion": {
+          "name": "Zwiebel",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Gedämpfter japanischer Reis",
+          "note": null
+        },
+        "umeboshi": {
+          "name": "Umeboshi-Pflaumen",
+          "note": null
+        },
+        "butter": {
+          "name": "Butter",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "red_wine": {
+          "name": "Trockener Rotwein",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Das Steak kreuzweise leicht einschneiden, vollständig mit fein gehackter Zwiebel bedecken und 30 Minuten ruhen lassen.",
+        "step_2": "Die Zwiebel abnehmen und in Butter goldbraun karamellisieren.",
+        "step_3": "Das Steak bei hoher Hitze etwa 2 Minuten je Seite anbraten und mit Sojasauce und Rotwein ablöschen.",
+        "step_4": "Den heißen Reis mit gehackter Umeboshi mischen und in eine Schüssel geben.",
+        "step_5": "Das Steak aufschneiden, auf den Reis legen und mit karamellisierter Zwiebel und Bratensaft vollenden."
+      }
+    },
+    "pt": {
+      "title": "Chaliapin Steak Don",
+      "ingredients": {
+        "beef_steak": {
+          "name": "Bife bovino",
+          "note": null
+        },
+        "onion": {
+          "name": "Cebola",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Arroz japonês no vapor",
+          "note": null
+        },
+        "umeboshi": {
+          "name": "Ameixas umeboshi",
+          "note": null
+        },
+        "butter": {
+          "name": "Manteiga",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Molho de soja",
+          "note": null
+        },
+        "red_wine": {
+          "name": "Vinho tinto seco",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Faça cortes superficiais em grade no bife, cubra com a cebola bem picada e deixe descansar por 30 minutos.",
+        "step_2": "Retire a cebola e refogue-a na manteiga até dourar e caramelizar.",
+        "step_3": "Sele o bife em fogo alto por cerca de 2 minutos de cada lado e deglaceie com molho de soja e vinho tinto.",
+        "step_4": "Misture o arroz quente com umeboshi picada e coloque numa tigela.",
+        "step_5": "Fatie o bife, coloque sobre o arroz e finalize com a cebola caramelizada e o molho da frigideira."
+      }
+    }
+  }
+}
