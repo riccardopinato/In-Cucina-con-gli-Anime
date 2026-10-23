@@ -10,35 +10,102 @@
   "difficulty": "easy",
   "contentOrigin": "adapted",
   "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source gives no yield; four servings are an editorial estimate from the batter and filling quantities.",
-  "imageAssetId": null,
+  "imageAssetId": "recipe_000004_artwork",
   "ingredients": [
-    {"id": "eggs", "quantity": 2, "unit": null},
-    {"id": "sugar", "quantity": 80, "unit": "g"},
-    {"id": "honey", "quantity": 1, "unit": "tbsp"},
-    {"id": "flour", "quantity": 140, "unit": "g"},
-    {"id": "baking_powder", "quantity": 1, "unit": "tsp"},
-    {"id": "water", "quantity": 50, "unit": "ml"},
-    {"id": "anko", "quantity": 200, "unit": "g"}
+    {
+      "id": "eggs",
+      "quantity": 2,
+      "unit": null
+    },
+    {
+      "id": "sugar",
+      "quantity": 80,
+      "unit": "g"
+    },
+    {
+      "id": "honey",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "flour",
+      "quantity": 140,
+      "unit": "g"
+    },
+    {
+      "id": "baking_powder",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "water",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "id": "anko",
+      "quantity": 200,
+      "unit": "g"
+    }
   ],
   "steps": [
-    {"id": "whisk_base", "timerSeconds": null},
-    {"id": "finish_batter", "timerSeconds": null},
-    {"id": "rest_batter", "timerSeconds": 900},
-    {"id": "cook_first_side", "timerSeconds": null},
-    {"id": "cook_second_side", "timerSeconds": null},
-    {"id": "fill_dorayaki", "timerSeconds": null}
+    {
+      "id": "whisk_base",
+      "timerSeconds": null
+    },
+    {
+      "id": "finish_batter",
+      "timerSeconds": null
+    },
+    {
+      "id": "rest_batter",
+      "timerSeconds": 900
+    },
+    {
+      "id": "cook_first_side",
+      "timerSeconds": null
+    },
+    {
+      "id": "cook_second_side",
+      "timerSeconds": null
+    },
+    {
+      "id": "fill_dorayaki",
+      "timerSeconds": null
+    }
   ],
   "locales": {
     "en": {
       "title": "Dorayaki with Anko",
       "ingredients": {
-        "eggs": {"name": "Eggs", "note": null},
-        "sugar": {"name": "Sugar", "note": null},
-        "honey": {"name": "Honey", "note": null},
-        "flour": {"name": "Plain flour", "note": null},
-        "baking_powder": {"name": "Baking powder", "note": null},
-        "water": {"name": "Water", "note": null},
-        "anko": {"name": "Sweet red-bean paste (anko)", "note": "hazelnut spread can be used as an alternative"}
+        "eggs": {
+          "name": "Eggs",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "honey": {
+          "name": "Honey",
+          "note": null
+        },
+        "flour": {
+          "name": "Plain flour",
+          "note": null
+        },
+        "baking_powder": {
+          "name": "Baking powder",
+          "note": null
+        },
+        "water": {
+          "name": "Water",
+          "note": null
+        },
+        "anko": {
+          "name": "Sweet red-bean paste (anko)",
+          "note": "hazelnut spread can be used as an alternative"
+        }
       },
       "steps": {
         "whisk_base": "Whisk the eggs with the sugar and honey until the mixture looks lighter and slightly foamy.",
@@ -52,13 +119,34 @@
     "it": {
       "title": "Dorayaki con anko",
       "ingredients": {
-        "eggs": {"name": "Uova", "note": null},
-        "sugar": {"name": "Zucchero", "note": null},
-        "honey": {"name": "Miele", "note": null},
-        "flour": {"name": "Farina 00", "note": null},
-        "baking_powder": {"name": "Lievito per dolci", "note": null},
-        "water": {"name": "Acqua", "note": null},
-        "anko": {"name": "Pasta dolce di fagioli rossi (anko)", "note": "in alternativa si può usare crema di nocciole"}
+        "eggs": {
+          "name": "Uova",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucchero",
+          "note": null
+        },
+        "honey": {
+          "name": "Miele",
+          "note": null
+        },
+        "flour": {
+          "name": "Farina 00",
+          "note": null
+        },
+        "baking_powder": {
+          "name": "Lievito per dolci",
+          "note": null
+        },
+        "water": {
+          "name": "Acqua",
+          "note": null
+        },
+        "anko": {
+          "name": "Pasta dolce di fagioli rossi (anko)",
+          "note": "in alternativa si può usare crema di nocciole"
+        }
       },
       "steps": {
         "whisk_base": "Lavora uova, zucchero e miele con una frusta finché il composto diventa più chiaro e leggermente spumoso.",
@@ -72,13 +160,34 @@
     "es": {
       "title": "Dorayaki con anko",
       "ingredients": {
-        "eggs": {"name": "Huevos", "note": null},
-        "sugar": {"name": "Azúcar", "note": null},
-        "honey": {"name": "Miel", "note": null},
-        "flour": {"name": "Harina de trigo", "note": null},
-        "baking_powder": {"name": "Levadura química", "note": null},
-        "water": {"name": "Agua", "note": null},
-        "anko": {"name": "Pasta dulce de judías rojas (anko)", "note": "puede sustituirse por crema de avellanas"}
+        "eggs": {
+          "name": "Huevos",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "honey": {
+          "name": "Miel",
+          "note": null
+        },
+        "flour": {
+          "name": "Harina de trigo",
+          "note": null
+        },
+        "baking_powder": {
+          "name": "Levadura química",
+          "note": null
+        },
+        "water": {
+          "name": "Agua",
+          "note": null
+        },
+        "anko": {
+          "name": "Pasta dulce de judías rojas (anko)",
+          "note": "puede sustituirse por crema de avellanas"
+        }
       },
       "steps": {
         "whisk_base": "Bate los huevos con el azúcar y la miel hasta obtener una mezcla más clara y ligeramente espumosa.",
@@ -92,13 +201,34 @@
     "fr": {
       "title": "Dorayaki à l’anko",
       "ingredients": {
-        "eggs": {"name": "Œufs", "note": null},
-        "sugar": {"name": "Sucre", "note": null},
-        "honey": {"name": "Miel", "note": null},
-        "flour": {"name": "Farine de blé", "note": null},
-        "baking_powder": {"name": "Levure chimique", "note": null},
-        "water": {"name": "Eau", "note": null},
-        "anko": {"name": "Pâte sucrée de haricots rouges (anko)", "note": "une pâte à tartiner aux noisettes peut servir d’alternative"}
+        "eggs": {
+          "name": "Œufs",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre",
+          "note": null
+        },
+        "honey": {
+          "name": "Miel",
+          "note": null
+        },
+        "flour": {
+          "name": "Farine de blé",
+          "note": null
+        },
+        "baking_powder": {
+          "name": "Levure chimique",
+          "note": null
+        },
+        "water": {
+          "name": "Eau",
+          "note": null
+        },
+        "anko": {
+          "name": "Pâte sucrée de haricots rouges (anko)",
+          "note": "une pâte à tartiner aux noisettes peut servir d’alternative"
+        }
       },
       "steps": {
         "whisk_base": "Fouettez les œufs avec le sucre et le miel jusqu’à obtenir un mélange plus clair et légèrement mousseux.",
@@ -112,13 +242,34 @@
     "de": {
       "title": "Dorayaki mit Anko",
       "ingredients": {
-        "eggs": {"name": "Eier", "note": null},
-        "sugar": {"name": "Zucker", "note": null},
-        "honey": {"name": "Honig", "note": null},
-        "flour": {"name": "Weizenmehl", "note": null},
-        "baking_powder": {"name": "Backpulver", "note": null},
-        "water": {"name": "Wasser", "note": null},
-        "anko": {"name": "Süße rote Bohnenpaste (Anko)", "note": "alternativ kann Haselnusscreme verwendet werden"}
+        "eggs": {
+          "name": "Eier",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker",
+          "note": null
+        },
+        "honey": {
+          "name": "Honig",
+          "note": null
+        },
+        "flour": {
+          "name": "Weizenmehl",
+          "note": null
+        },
+        "baking_powder": {
+          "name": "Backpulver",
+          "note": null
+        },
+        "water": {
+          "name": "Wasser",
+          "note": null
+        },
+        "anko": {
+          "name": "Süße rote Bohnenpaste (Anko)",
+          "note": "alternativ kann Haselnusscreme verwendet werden"
+        }
       },
       "steps": {
         "whisk_base": "Eier, Zucker und Honig schlagen, bis die Mischung heller und leicht schaumig ist.",
@@ -132,13 +283,34 @@
     "pt": {
       "title": "Dorayaki com anko",
       "ingredients": {
-        "eggs": {"name": "Ovos", "note": null},
-        "sugar": {"name": "Açúcar", "note": null},
-        "honey": {"name": "Mel", "note": null},
-        "flour": {"name": "Farinha de trigo", "note": null},
-        "baking_powder": {"name": "Fermento químico", "note": null},
-        "water": {"name": "Água", "note": null},
-        "anko": {"name": "Pasta doce de feijão azuki (anko)", "note": "creme de avelã pode ser usado como alternativa"}
+        "eggs": {
+          "name": "Ovos",
+          "note": null
+        },
+        "sugar": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "honey": {
+          "name": "Mel",
+          "note": null
+        },
+        "flour": {
+          "name": "Farinha de trigo",
+          "note": null
+        },
+        "baking_powder": {
+          "name": "Fermento químico",
+          "note": null
+        },
+        "water": {
+          "name": "Água",
+          "note": null
+        },
+        "anko": {
+          "name": "Pasta doce de feijão azuki (anko)",
+          "note": "creme de avelã pode ser usado como alternativa"
+        }
       },
       "steps": {
         "whisk_base": "Bata os ovos com o açúcar e o mel até a mistura ficar mais clara e levemente espumosa.",
