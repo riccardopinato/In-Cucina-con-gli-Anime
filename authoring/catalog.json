@@ -1,9 +1,16 @@
 {
   "authoringVersion": 1,
   "schemaVersion": 1,
-  "catalogVersion": "0.5.0",
+  "catalogVersion": "0.6.0",
   "defaultLocale": "en",
-  "supportedLocales": ["en", "it", "es", "fr", "de", "pt"],
+  "supportedLocales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
   "productionSource": "authoring/recipes",
   "fixtureSource": "authoring/fixtures",
   "assetManifest": "authoring/assets/manifest.json",

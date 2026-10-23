@@ -1,0 +1,363 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000014",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Angel Beats! / Food Wars!",
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "servings": 3,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23.",
+  "imageAssetId": "recipe_000014_artwork",
+  "ingredients": [
+    {
+      "id": "soft_tofu",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "id": "ground_pork",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "id": "doubanjiang",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "sichuan_pepper",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "garlic",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "ginger",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "broth",
+      "quantity": 200,
+      "unit": "ml"
+    },
+    {
+      "id": "cornstarch",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "spring_onion",
+      "quantity": 1,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Spicy Mapo Tofu",
+      "ingredients": {
+        "soft_tofu": {
+          "name": "Soft tofu",
+          "note": null
+        },
+        "ground_pork": {
+          "name": "Ground pork",
+          "note": null
+        },
+        "doubanjiang": {
+          "name": "Doubanjiang chili bean paste",
+          "note": null
+        },
+        "sichuan_pepper": {
+          "name": "Sichuan pepper",
+          "note": null
+        },
+        "garlic": {
+          "name": "Garlic",
+          "note": null
+        },
+        "ginger": {
+          "name": "Fresh ginger",
+          "note": null
+        },
+        "broth": {
+          "name": "Broth",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Cornstarch",
+          "note": null
+        },
+        "spring_onion": {
+          "name": "Spring onion",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Cut the tofu into 2 cm cubes and blanch for 1 minute in lightly salted water.",
+        "step_2": "Heat oil in a wok and fry garlic, ginger, Sichuan pepper and doubanjiang until fragrant.",
+        "step_3": "Add the ground pork and brown it well, then pour in the broth.",
+        "step_4": "Add the tofu, simmer for 5 minutes and thicken with cornstarch slurry. Finish with spring onion."
+      }
+    },
+    "it": {
+      "title": "Mapo Tofu piccante",
+      "ingredients": {
+        "soft_tofu": {
+          "name": "Tofu morbido",
+          "note": null
+        },
+        "ground_pork": {
+          "name": "Macinato di maiale",
+          "note": null
+        },
+        "doubanjiang": {
+          "name": "Pasta doubanjiang",
+          "note": null
+        },
+        "sichuan_pepper": {
+          "name": "Pepe di Sichuan",
+          "note": null
+        },
+        "garlic": {
+          "name": "Aglio",
+          "note": null
+        },
+        "ginger": {
+          "name": "Zenzero fresco",
+          "note": null
+        },
+        "broth": {
+          "name": "Brodo",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Amido di mais",
+          "note": null
+        },
+        "spring_onion": {
+          "name": "Cipollotto",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Taglia il tofu a cubetti di circa 2 cm e sbollentalo per 1 minuto in acqua leggermente salata.",
+        "step_2": "Scalda l’olio nel wok e soffriggi aglio, zenzero, pepe di Sichuan e doubanjiang finché sprigionano profumo.",
+        "step_3": "Aggiungi il macinato di maiale e rosolalo bene, quindi versa il brodo.",
+        "step_4": "Unisci il tofu, cuoci per 5 minuti e addensa con amido di mais sciolto in acqua. Completa con cipollotto."
+      }
+    },
+    "es": {
+      "title": "Mapo tofu picante",
+      "ingredients": {
+        "soft_tofu": {
+          "name": "Tofu suave",
+          "note": null
+        },
+        "ground_pork": {
+          "name": "Carne de cerdo picada",
+          "note": null
+        },
+        "doubanjiang": {
+          "name": "Pasta doubanjiang",
+          "note": null
+        },
+        "sichuan_pepper": {
+          "name": "Pimienta de Sichuan",
+          "note": null
+        },
+        "garlic": {
+          "name": "Ajo",
+          "note": null
+        },
+        "ginger": {
+          "name": "Jengibre fresco",
+          "note": null
+        },
+        "broth": {
+          "name": "Caldo",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Maicena",
+          "note": null
+        },
+        "spring_onion": {
+          "name": "Cebolleta",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Corta el tofu en cubos de 2 cm y escáldalo 1 minuto en agua salada.",
+        "step_2": "Calienta aceite en un wok y sofríe ajo, jengibre, pimienta de Sichuan y doubanjiang.",
+        "step_3": "Añade el cerdo picado, dóralo y vierte el caldo.",
+        "step_4": "Añade el tofu, cuece 5 minutos y espesa con maicena disuelta. Termina con cebolleta."
+      }
+    },
+    "fr": {
+      "title": "Mapo tofu épicé",
+      "ingredients": {
+        "soft_tofu": {
+          "name": "Tofu tendre",
+          "note": null
+        },
+        "ground_pork": {
+          "name": "Porc haché",
+          "note": null
+        },
+        "doubanjiang": {
+          "name": "Pâte doubanjiang",
+          "note": null
+        },
+        "sichuan_pepper": {
+          "name": "Poivre du Sichuan",
+          "note": null
+        },
+        "garlic": {
+          "name": "Ail",
+          "note": null
+        },
+        "ginger": {
+          "name": "Gingembre frais",
+          "note": null
+        },
+        "broth": {
+          "name": "Bouillon",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Fécule de maïs",
+          "note": null
+        },
+        "spring_onion": {
+          "name": "Ciboule",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Coupez le tofu en cubes de 2 cm et blanchissez-le 1 minute dans de l’eau salée.",
+        "step_2": "Chauffez l’huile dans un wok et faites revenir ail, gingembre, poivre du Sichuan et doubanjiang.",
+        "step_3": "Ajoutez le porc haché, faites-le bien dorer puis versez le bouillon.",
+        "step_4": "Ajoutez le tofu, mijotez 5 minutes et épaississez avec la fécule délayée. Terminez avec la ciboule."
+      }
+    },
+    "de": {
+      "title": "Scharfes Mapo Tofu",
+      "ingredients": {
+        "soft_tofu": {
+          "name": "Weicher Tofu",
+          "note": null
+        },
+        "ground_pork": {
+          "name": "Schweinehackfleisch",
+          "note": null
+        },
+        "doubanjiang": {
+          "name": "Doubanjiang-Paste",
+          "note": null
+        },
+        "sichuan_pepper": {
+          "name": "Sichuanpfeffer",
+          "note": null
+        },
+        "garlic": {
+          "name": "Knoblauch",
+          "note": null
+        },
+        "ginger": {
+          "name": "Frischer Ingwer",
+          "note": null
+        },
+        "broth": {
+          "name": "Brühe",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Maisstärke",
+          "note": null
+        },
+        "spring_onion": {
+          "name": "Frühlingszwiebel",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Tofu in 2-cm-Würfel schneiden und 1 Minute in Salzwasser blanchieren.",
+        "step_2": "Öl im Wok erhitzen und Knoblauch, Ingwer, Sichuanpfeffer und Doubanjiang anrösten.",
+        "step_3": "Hackfleisch kräftig anbraten und dann die Brühe zugießen.",
+        "step_4": "Tofu 5 Minuten mitköcheln und mit angerührter Maisstärke binden. Mit Frühlingszwiebel abschließen."
+      }
+    },
+    "pt": {
+      "title": "Mapo tofu picante",
+      "ingredients": {
+        "soft_tofu": {
+          "name": "Tofu macio",
+          "note": null
+        },
+        "ground_pork": {
+          "name": "Carne suína moída",
+          "note": null
+        },
+        "doubanjiang": {
+          "name": "Pasta doubanjiang",
+          "note": null
+        },
+        "sichuan_pepper": {
+          "name": "Pimenta-de-Sichuan",
+          "note": null
+        },
+        "garlic": {
+          "name": "Alho",
+          "note": null
+        },
+        "ginger": {
+          "name": "Gengibre fresco",
+          "note": null
+        },
+        "broth": {
+          "name": "Caldo",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Amido de milho",
+          "note": null
+        },
+        "spring_onion": {
+          "name": "Cebolinha",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Corte o tofu em cubos de 2 cm e escalde por 1 minuto em água salgada.",
+        "step_2": "Aqueça óleo no wok e refogue alho, gengibre, pimenta-de-Sichuan e doubanjiang.",
+        "step_3": "Junte a carne suína moída, doure bem e adicione o caldo.",
+        "step_4": "Junte o tofu, cozinhe 5 minutos e engrosse com amido dissolvido. Finalize com cebolinha."
+      }
+    }
+  }
+}

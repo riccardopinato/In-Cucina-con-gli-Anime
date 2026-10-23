@@ -1,0 +1,334 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000016",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Haikyuu!! / Food Wars!",
+  "prepMinutes": 20,
+  "cookMinutes": 10,
+  "servings": 4,
+  "difficulty": "easy",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23.",
+  "imageAssetId": "recipe_000016_artwork",
+  "ingredients": [
+    {
+      "id": "chicken_thighs",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "id": "soy_sauce",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "sake",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "ginger",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "garlic",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "potato_starch",
+      "quantity": 80,
+      "unit": "g"
+    },
+    {
+      "id": "frying_oil",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "lemon",
+      "quantity": 1,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Japanese Karaage Fried Chicken",
+      "ingredients": {
+        "chicken_thighs": {
+          "name": "Boneless chicken thighs",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "ginger": {
+          "name": "Fresh ginger",
+          "note": null
+        },
+        "garlic": {
+          "name": "Garlic",
+          "note": null
+        },
+        "potato_starch": {
+          "name": "Potato starch",
+          "note": null
+        },
+        "frying_oil": {
+          "name": "Neutral oil for frying",
+          "note": null
+        },
+        "lemon": {
+          "name": "Lemon",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Cut the chicken into 3–4 cm pieces and marinate for 20 minutes with soy sauce, sake, ginger and garlic.",
+        "step_2": "Coat each piece generously in potato starch.",
+        "step_3": "Fry at about 160°C for 4 minutes, drain and rest for 2 minutes.",
+        "step_4": "Fry again at about 180°C for 1 minute until deeply crisp and serve with lemon."
+      }
+    },
+    "it": {
+      "title": "Karaage, pollo fritto giapponese",
+      "ingredients": {
+        "chicken_thighs": {
+          "name": "Sovracosce di pollo disossate",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa di soia",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "ginger": {
+          "name": "Zenzero fresco",
+          "note": null
+        },
+        "garlic": {
+          "name": "Aglio",
+          "note": null
+        },
+        "potato_starch": {
+          "name": "Fecola di patate",
+          "note": null
+        },
+        "frying_oil": {
+          "name": "Olio neutro per friggere",
+          "note": null
+        },
+        "lemon": {
+          "name": "Limone",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Taglia il pollo a bocconcini da 3–4 cm e marinalo per 20 minuti con salsa di soia, sake, zenzero e aglio.",
+        "step_2": "Passa ogni bocconcino nella fecola di patate facendola aderire bene.",
+        "step_3": "Friggi a circa 160°C per 4 minuti, scola e lascia riposare 2 minuti.",
+        "step_4": "Fai una seconda frittura a circa 180°C per 1 minuto finché è molto croccante e servi con limone."
+      }
+    },
+    "es": {
+      "title": "Karaage, pollo frito japonés",
+      "ingredients": {
+        "chicken_thighs": {
+          "name": "Contramuslos de pollo deshuesados",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "ginger": {
+          "name": "Jengibre fresco",
+          "note": null
+        },
+        "garlic": {
+          "name": "Ajo",
+          "note": null
+        },
+        "potato_starch": {
+          "name": "Fécula de patata",
+          "note": null
+        },
+        "frying_oil": {
+          "name": "Aceite neutro para freír",
+          "note": null
+        },
+        "lemon": {
+          "name": "Limón",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Corta el pollo en trozos de 3–4 cm y marina 20 minutos con soja, sake, jengibre y ajo.",
+        "step_2": "Reboza cada trozo abundantemente con fécula de patata.",
+        "step_3": "Fríe a 160°C unos 4 minutos, escurre y deja reposar 2 minutos.",
+        "step_4": "Fríe de nuevo a 180°C durante 1 minuto y sirve con limón."
+      }
+    },
+    "fr": {
+      "title": "Karaage, poulet frit japonais",
+      "ingredients": {
+        "chicken_thighs": {
+          "name": "Hauts de cuisse de poulet désossés",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "sake": {
+          "name": "Saké",
+          "note": null
+        },
+        "ginger": {
+          "name": "Gingembre frais",
+          "note": null
+        },
+        "garlic": {
+          "name": "Ail",
+          "note": null
+        },
+        "potato_starch": {
+          "name": "Fécule de pomme de terre",
+          "note": null
+        },
+        "frying_oil": {
+          "name": "Huile neutre pour friture",
+          "note": null
+        },
+        "lemon": {
+          "name": "Citron",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Coupez le poulet en morceaux de 3–4 cm et marinez 20 minutes avec soja, saké, gingembre et ail.",
+        "step_2": "Enrobez chaque morceau généreusement de fécule de pomme de terre.",
+        "step_3": "Faites frire à 160°C environ 4 minutes, égouttez et laissez reposer 2 minutes.",
+        "step_4": "Faites une seconde friture à 180°C pendant 1 minute et servez avec du citron."
+      }
+    },
+    "de": {
+      "title": "Karaage, japanisches Brathähnchen",
+      "ingredients": {
+        "chicken_thighs": {
+          "name": "Entbeinte Hähnchenschenkel",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "ginger": {
+          "name": "Frischer Ingwer",
+          "note": null
+        },
+        "garlic": {
+          "name": "Knoblauch",
+          "note": null
+        },
+        "potato_starch": {
+          "name": "Kartoffelstärke",
+          "note": null
+        },
+        "frying_oil": {
+          "name": "Neutrales Frittieröl",
+          "note": null
+        },
+        "lemon": {
+          "name": "Zitrone",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Hähnchen in 3–4-cm-Stücke schneiden und 20 Minuten mit Sojasauce, Sake, Ingwer und Knoblauch marinieren.",
+        "step_2": "Jedes Stück großzügig in Kartoffelstärke wenden.",
+        "step_3": "Bei etwa 160°C 4 Minuten frittieren, abtropfen lassen und 2 Minuten ruhen lassen.",
+        "step_4": "Noch einmal bei etwa 180°C 1 Minute frittieren und mit Zitrone servieren."
+      }
+    },
+    "pt": {
+      "title": "Karaage, frango frito japonês",
+      "ingredients": {
+        "chicken_thighs": {
+          "name": "Sobrecoxas de frango desossadas",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Molho de soja",
+          "note": null
+        },
+        "sake": {
+          "name": "Saquê",
+          "note": null
+        },
+        "ginger": {
+          "name": "Gengibre fresco",
+          "note": null
+        },
+        "garlic": {
+          "name": "Alho",
+          "note": null
+        },
+        "potato_starch": {
+          "name": "Fécula de batata",
+          "note": null
+        },
+        "frying_oil": {
+          "name": "Óleo neutro para fritar",
+          "note": null
+        },
+        "lemon": {
+          "name": "Limão",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Corte o frango em pedaços de 3–4 cm e marine 20 minutos com soja, saquê, gengibre e alho.",
+        "step_2": "Passe cada pedaço generosamente na fécula de batata.",
+        "step_3": "Frite a cerca de 160°C por 4 minutos, escorra e descanse 2 minutos.",
+        "step_4": "Frite novamente a 180°C por 1 minuto e sirva com limão."
+      }
+    }
+  }
+}
