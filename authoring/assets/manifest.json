@@ -9,6 +9,18 @@
   },
   "assets": [
     {
+      "id": "recipe_000001_artwork",
+      "path": "assets/recipe_artwork/recipe_000001.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000001",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-23",
+        "note": "Two sunny-side eggs with soft yolks, thick crisp bacon, butter, black pepper and rustic toast."
+      }
+    },
+    {
       "id": "recipe_000002_artwork",
       "path": "assets/recipe_artwork/recipe_000002.jpg",
       "rights": "original",
@@ -21,6 +33,78 @@
       }
     },
     {
+      "id": "recipe_000003_artwork",
+      "path": "assets/recipe_artwork/recipe_000003.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000003",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-23",
+        "note": "Katsudon with sliced panko pork cutlet, softly set egg, simmered onion and steamed rice; no curry or thick tonkatsu sauce."
+      }
+    },
+    {
+      "id": "recipe_000004_artwork",
+      "path": "assets/recipe_artwork/recipe_000004.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000004",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-23",
+        "note": "Golden dorayaki pancakes sandwiching a thick dark-red anko filling."
+      }
+    },
+    {
+      "id": "recipe_000005_artwork",
+      "path": "assets/recipe_artwork/recipe_000005.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000005",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-23",
+        "note": "Triangular short-grain rice onigiri with nori and visibly flaky tuna-mayonnaise filling."
+      }
+    },
+    {
+      "id": "recipe_000006_artwork",
+      "path": "assets/recipe_artwork/recipe_000006.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000006",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 2,
+        "reviewedAt": "2026-10-23",
+        "note": "Kansai cabbage okonomiyaki with pork belly, okonomiyaki sauce, Japanese mayonnaise, aonori and katsuobushi."
+      }
+    },
+    {
+      "id": "recipe_000007_artwork",
+      "path": "assets/recipe_artwork/recipe_000007.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000007",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-23",
+        "note": "Round takoyaki with octopus, takoyaki sauce, Japanese mayonnaise, beni shoga, spring onion and katsuobushi."
+      }
+    },
+    {
+      "id": "recipe_000008_artwork",
+      "path": "assets/recipe_artwork/recipe_000008.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000008",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-23",
+        "note": "Japanese omurice with ketchup chicken rice under a soft golden omelette and ketchup heart."
+      }
+    },
+    {
       "id": "recipe_000009_artwork",
       "path": "assets/recipe_artwork/recipe_000009.jpg",
       "rights": "original",
@@ -30,6 +114,138 @@
         "reviewedContentVersion": 1,
         "reviewedAt": "2026-10-23",
         "note": "Oyakodon with chicken, soft egg, onion and rice; no salmon or mushroom-led composition."
+      }
+    },
+    {
+      "id": "recipe_000010_artwork",
+      "path": "assets/recipe_artwork/recipe_000010.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000010",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-23",
+        "note": "Pumpkin and white-fish bake with onion, black olives and béchamel under golden puff pastry with fish-shaped decoration."
+      }
+    },
+    {
+      "id": "recipe_000011_artwork",
+      "path": "assets/recipe_artwork/recipe_000011.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000011",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-23",
+        "note": "Chaliapin Steak Don with sliced beef over rice, caramelized chopped onion, umeboshi in the rice and glossy soy-red-wine pan sauce."
+      }
+    },
+    {
+      "id": "recipe_000012_artwork",
+      "path": "assets/recipe_artwork/recipe_000012.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000012",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-23",
+        "note": "Gotcha Pork Roast: potato-onion-mushroom loaf fully wrapped in bacon, sliced to show potato filling, with rosemary and red-wine soy butter sauce."
+      }
+    },
+    {
+      "id": "recipe_000013_artwork",
+      "path": "assets/recipe_artwork/recipe_000013.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000013",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-23",
+        "note": "Japanese curry rice with thick brown roux, diced meat, potato, carrot and onion beside steamed white rice."
+      }
+    },
+    {
+      "id": "recipe_000014_artwork",
+      "path": "assets/recipe_artwork/recipe_000014.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000014",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-23",
+        "note": "Mapo tofu with soft tofu cubes, browned ground pork, doubanjiang-red sauce, Sichuan pepper and spring onion."
+      }
+    },
+    {
+      "id": "recipe_000015_artwork",
+      "path": "assets/recipe_artwork/recipe_000015.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000015",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-23",
+        "note": "Nikujaga with thin beef slices, potato, carrot and onion in a light soy-dashi-mirin broth."
+      }
+    },
+    {
+      "id": "recipe_000016_artwork",
+      "path": "assets/recipe_artwork/recipe_000016.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000016",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-23",
+        "note": "Karaage made from bite-size boneless chicken thigh with craggy potato-starch crust and lemon."
+      }
+    },
+    {
+      "id": "recipe_000017_artwork",
+      "path": "assets/recipe_artwork/recipe_000017.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000017",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-23",
+        "note": "Bright yellow tamagoyaki showing multiple rolled egg layers, sliced into thick even pieces."
+      }
+    },
+    {
+      "id": "recipe_000018_artwork",
+      "path": "assets/recipe_artwork/recipe_000018.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000018",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-23",
+        "note": "White steamed nikuman with pleated tops; cut bun shows ground pork, Chinese cabbage, spring onion and ginger filling."
+      }
+    },
+    {
+      "id": "recipe_000019_artwork",
+      "path": "assets/recipe_artwork/recipe_000019.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000019",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-23",
+        "note": "Mitarashi dango skewers with round white rice dumplings, light grill marks and translucent amber sweet-soy glaze."
+      }
+    },
+    {
+      "id": "recipe_000020_artwork",
+      "path": "assets/recipe_artwork/recipe_000020.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000020",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-23",
+        "note": "Golden fish-shaped taiyaki with molded scales and thick dark-red anko filling visible in a broken piece."
       }
     }
   ]
