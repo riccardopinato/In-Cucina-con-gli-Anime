@@ -218,16 +218,19 @@ class PurchaseController extends Notifier<PurchaseState> {
           flowStatus: PurchaseFlowStatus.pending,
           clearMessage: true,
         );
+        return;
       case StorePurchaseStatus.canceled:
         state = state.copyWith(
           flowStatus: PurchaseFlowStatus.canceled,
           clearMessage: true,
         );
+        return;
       case StorePurchaseStatus.error:
         state = state.copyWith(
           flowStatus: PurchaseFlowStatus.error,
           message: event.errorMessage ?? 'store_error',
         );
+        return;
       case StorePurchaseStatus.purchased:
       case StorePurchaseStatus.restored:
         final verifier = ref.read(purchaseVerifierProvider);
@@ -251,6 +254,7 @@ class PurchaseController extends Notifier<PurchaseState> {
               : PurchaseFlowStatus.verificationFailed,
           clearMessage: true,
         );
+        return;
     }
   }
 }
