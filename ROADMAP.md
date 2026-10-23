@@ -135,22 +135,25 @@ Blocked by: F3 — unblocked.
 
 Goal: introduce monetization without weakening offline-first behaviour, cooking UX, privacy or the existing provider-agnostic entitlement boundary.
 
-### F4A — Consent + privacy foundation
+### F4A — Consent + privacy foundation — PASS
 
-Delivers:
-- consent/privacy entry points before any ad request;
-- privacy/settings surface for changing consent choices;
-- region-safe default behaviour: no ad SDK request before the consent state is resolved where required;
+Delivered:
+- provider-agnostic consent state with separate local preference and provider-resolution gates;
+- local ad-privacy preference persisted through SharedPreferences;
+- provider eligibility starts unresolved on every launch and is never restored as trusted state from local storage;
+- privacy/settings surface for allow, block and reset choices;
+- fail-closed ProductLimits gate: ad requests require local allow + trusted provider eligibility + non-entitled user;
 - no account requirement for core catalog access;
 - privacy-policy/store-metadata checklist kept separate from runtime logic;
-- deterministic development/test mode that does not depend on live ad inventory.
+- deterministic tests with no live ad inventory and no AdMob dependency.
 
 Exit:
-- app can start, browse recipes and cook with consent unresolved or denied;
-- privacy state is persisted locally;
-- tests prove no ad request path is reachable before the consent gate allows it.
+- PASS: app remains usable with consent unresolved or blocked;
+- PASS: privacy preference survives restart while provider eligibility does not;
+- PASS: tests prove local allow alone cannot reach the ad-request path;
+- PASS: no ad/billing SDK or production identifier added in F4A.
 
-### F4B — Entitlement + one-time purchase seam
+### F4B — Entitlement + one-time purchase seam — NEXT
 
 Delivers:
 - keep the existing provider-agnostic entitlement contract as the UI source of truth;

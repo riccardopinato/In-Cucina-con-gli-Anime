@@ -4,9 +4,9 @@ Flutter app for original/adapted editorial recipes inspired by food seen in anim
 
 ## Current state
 
-**v0.7 — F3 complete: 10-recipe catalog, editorial visual identity and dynamic decorative characters.**
+**v0.8 — F4A complete: consent/privacy foundation with a fail-closed ad-request gate.**
 
-F1 remains the runtime contract and F2 remains the authoring/build layer. F3A contains all 10 supplied recipes; F3B provides the Japanese-contemporary editorial identity; F3C adds a separate registry of original procedural Japanese/Chinese folklore mascots with native Flutter motion, contextual rotation and reduced-motion support. F4 monetization is next.
+F1 remains the runtime contract and F2 remains the authoring/build layer. F3 is complete. F4A now persists the local ad-privacy preference while keeping provider eligibility ephemeral and unresolved by default; ad requests remain impossible until both gates allow them. No ad or billing SDK is mounted yet. F4B entitlement + one-time purchase is next.
 
 ## Stack
 

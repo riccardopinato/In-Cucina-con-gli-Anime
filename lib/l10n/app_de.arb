@@ -56,5 +56,14 @@
   "manualItemSource": "Manuell",
   "exploreTagline": "Koche die Szenen, an die du dich erinnerst.",
   "exploreIntro": "Ein illustriertes Kochbuch, inspiriert von Gerichten aus Anime.",
-  "servingsLabel": "Portionen"
+  "servingsLabel": "Portionen",
+  "settingsPrivacyAds": "Datenschutz und Werbung",
+  "privacyAdsDescription": "Werbung bleibt deaktiviert, bis sowohl deine Auswahl als auch eine gegebenenfalls erforderliche Einwilligungsprüfung des Anbieters sie erlauben. Für die Kernrezepte ist kein Konto erforderlich.",
+  "privacyStatusLabel": "Aktuelle Auswahl",
+  "privacyStatusUnresolved": "Nicht ausgewählt",
+  "privacyStatusAllow": "Werbung erlauben",
+  "privacyStatusBlock": "Werbung blockieren",
+  "privacyAllowAds": "Werbeanfragen erlauben",
+  "privacyBlockAds": "Werbeanfragen blockieren",
+  "privacyResetChoice": "Auswahl zurücksetzen"
 }

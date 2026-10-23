@@ -72,6 +72,20 @@ Source: golden/data/GOLDEN_IMPORT_EXPORT_PORTABILITY_FLUTTER_v1_DRAFT.txt
 Targets: source -> staging/validation/review -> compile/report authoring flow.
 Delta: F2 is an editorial build pipeline, not general user-data import/export or continuous sync.
 
+9) AdMob Safe & Adaptive Monetization — consent/privacy subset
+Source: golden/monetization/GOLDEN_ADMOB_SAFE_ADAPTIVE_MONETIZATION_v1_DRAFT.txt
+Targets:
+- lib/core/monetization/consent.dart
+- lib/core/monetization/consent_provider.dart
+- lib/core/monetization/shared_preferences_consent_repository.dart
+- lib/core/monetization/product_limits.dart
+- Settings privacy surface
+- docs/PRIVACY_STORE_CHECKLIST.md
+Boundary:
+- F4A mounts the fail-closed consent/privacy architecture only;
+- no AdMob SDK, live ad request, production AdMob ID or billing provider is added;
+- future provider eligibility must resolve per launch and may not be reconstructed from persisted local preference.
+
 PROCESS GUIDANCE APPLIED
 - golden/governance/GOLDEN_APP_BOOTSTRAP_FLUTTER_v1_DRAFT.txt
 - golden/ui/GOLDEN_APP_ICON_BRANDING_FLUTTER_v1_DRAFT.txt
@@ -80,7 +94,7 @@ PROCESS GUIDANCE APPLIED
 
 NOT MOUNTED YET
 - Google Auth: no login required.
-- AdMob SDK: planned, not live.
+- AdMob SDK: planned, not live; F4A consent/privacy gate implemented.
 - Billing provider: planned, not live.
 - Notifications: no current need.
 - Backup/Recovery: later.

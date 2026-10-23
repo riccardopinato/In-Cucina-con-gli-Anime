@@ -56,5 +56,14 @@
   "manualItemSource": "Manuel",
   "exploreTagline": "Cuisinez les scènes dont vous vous souvenez.",
   "exploreIntro": "Un carnet de recettes illustré inspiré des plats vus dans les anime.",
-  "servingsLabel": "Portions"
+  "servingsLabel": "Portions",
+  "settingsPrivacyAds": "Confidentialité et publicités",
+  "privacyAdsDescription": "Les publicités restent désactivées tant que votre préférence et tout contrôle de consentement requis par le fournisseur ne les autorisent pas. Les recettes principales ne nécessitent jamais de compte.",
+  "privacyStatusLabel": "Choix actuel",
+  "privacyStatusUnresolved": "Non choisi",
+  "privacyStatusAllow": "Autoriser les publicités",
+  "privacyStatusBlock": "Bloquer les publicités",
+  "privacyAllowAds": "Autoriser les demandes publicitaires",
+  "privacyBlockAds": "Bloquer les demandes publicitaires",
+  "privacyResetChoice": "Réinitialiser le choix"
 }

@@ -115,9 +115,17 @@ Favorites store stable recipe IDs only. Shopping items are user-owned and indepe
 
 Theme and locale are small local preferences. The recipe repository follows manual locale preference when set, otherwise the device language, then the catalog default fallback.
 
-## Entitlements
+## Monetization / consent / entitlements
 
-UI asks ProductLimits/capabilities, not a store SDK. Billing/RevenueCat/Play/StoreKit remain future adapters behind the entitlement seam.
+UI asks ProductLimits/capabilities, not a store or ad SDK.
+
+F4A keeps two privacy gates distinct:
+- a local user ad preference persisted with SharedPreferences;
+- an ephemeral provider-consent snapshot that starts unresolved on every launch.
+
+ProductLimits.canRequestAds is true only when the user is not entitled to ad suppression, the local preference explicitly allows ads, and a trusted provider adapter has resolved the current launch as ad-eligible.
+
+Persisted local preference never becomes trusted provider consent by itself. Billing/RevenueCat/Play/StoreKit and AdMob/UMP remain future adapters behind these seams.
 
 ## Presentation
 
