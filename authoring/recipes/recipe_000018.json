@@ -10,7 +10,7 @@
   "difficulty": "medium",
   "contentOrigin": "adapted",
   "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. Source table lists 45 min, but the method itself includes a 60-minute proof plus 15–18 minutes steaming; timing corrected editorially.",
-  "imageAssetId": null,
+  "imageAssetId": "recipe_000018_artwork",
   "ingredients": [
     {
       "id": "flour",
