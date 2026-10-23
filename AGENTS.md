@@ -8,7 +8,7 @@ Rights policy: `docs/CONTENT_RIGHTS_POLICY.md`.
 Authoring truth: `docs/RECIPE_AUTHORING_PIPELINE.md`.
 
 Factory baseline for the current implementation:
-`riccardopinato/App-Factory-Core@55247b294b44914dba8da6c176c9e50d5fe0e13e`
+`riccardopinato/App-Factory-Core@4cc0b94467b94ab6fabe2c927fcc58afff49e39a`
 (Master 26.6 / Golden Index 19).
 
 Load only the project guidance relevant to the current task:
