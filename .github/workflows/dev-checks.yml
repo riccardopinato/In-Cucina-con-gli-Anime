@@ -15,6 +15,35 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  materialize-recipe-content:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Install pinned artwork optimizer
+        run: python3 -m pip install --disable-pip-version-check "Pillow==11.3.0"
+
+      - name: Optimize canonical recipe artwork
+        run: python3 tool/optimize_recipe_artwork.py --write
+
+      - name: Materialize runtime catalog
+        run: python3 tool/compile_recipe_catalog.py
+
+      - name: Validate materialized recipe catalog
+        run: python3 tool/validate_recipe_catalog.py
+
+      - name: Upload materialized recipe content
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: recipe-content-materialized
+          path: |
+            assets/recipe_artwork/
+            assets/catalog/
+          if-no-files-found: error
+          retention-days: 7
+
   validate:
     runs-on: ubuntu-latest
     timeout-minutes: 45
