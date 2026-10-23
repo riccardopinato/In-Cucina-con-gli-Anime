@@ -182,7 +182,7 @@ class _PhotoCardArtwork extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final match = RegExp(r'(\\d+)$').firstMatch(recipe.id);
+    final match = RegExp(r'(\d+)$').firstMatch(recipe.id);
     final ordinal = int.tryParse(match?.group(1) ?? '') ?? 1;
 
     return ClipRRect(
