@@ -247,8 +247,8 @@
           "note": "pour finir"
         },
         "aoki_seaweed": {
-          "name": "Algue Aoki",
-          "note": "nom employé dans la source"
+          "name": "Aonori (algue verte séchée)",
+          "note": "terme culinaire corrigé; identifiant interne stable conservé"
         }
       },
       "stepTexts": {
@@ -446,6 +446,423 @@
         "assemble_filling": "Étalez la courge dans un plat, ajoutez le poisson et l’oignon, répartissez les olives en rondelles puis couvrez de béchamel.",
         "cover_and_decorate": "Recouvrez le plat de pâte feuilletée et utilisez les chutes pour créer une décoration simple en forme de poisson.",
         "bake": "Badigeonnez de jaune d’œuf et enfournez à 200°C dans un four statique préchauffé jusqu’à obtenir une croûte bien dorée."
+      }
+    },
+    "recipe_000011": {
+      "title": "Chaliapin Steak Don",
+      "ingredientTexts": {
+        "beef_steak": {
+          "name": "Steak de bœuf",
+          "note": null
+        },
+        "onion": {
+          "name": "Oignon",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Riz japonais vapeur",
+          "note": null
+        },
+        "umeboshi": {
+          "name": "Prunes umeboshi",
+          "note": null
+        },
+        "butter": {
+          "name": "Beurre",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "red_wine": {
+          "name": "Vin rouge sec",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Quadrillez légèrement le steak, couvrez-le d’oignon finement haché et laissez reposer 30 minutes.",
+        "step_2": "Retirez l’oignon et faites-le revenir au beurre jusqu’à belle caramélisation.",
+        "step_3": "Saisissez le steak à feu vif environ 2 minutes de chaque côté puis déglacez avec sauce soja et vin rouge.",
+        "step_4": "Mélangez le riz chaud avec l’umeboshi hachée et mettez-le dans un bol.",
+        "step_5": "Tranchez le steak, posez-le sur le riz et terminez avec l’oignon caramélisé et le jus de cuisson."
+      }
+    },
+    "recipe_000012": {
+      "title": "Gotcha Pork Roast (faux rôti)",
+      "ingredientTexts": {
+        "potatoes": {
+          "name": "Pommes de terre",
+          "note": null
+        },
+        "onion": {
+          "name": "Oignon",
+          "note": null
+        },
+        "bacon": {
+          "name": "Bacon épais",
+          "note": null
+        },
+        "eringii": {
+          "name": "Pleurote du panicaut",
+          "note": null
+        },
+        "butter": {
+          "name": "Beurre",
+          "note": null
+        },
+        "red_wine": {
+          "name": "Vin rouge sec",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "rosemary": {
+          "name": "Romarin frais",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Faites cuire les pommes de terre puis écrasez-les. Faites revenir oignon et champignon au beurre et incorporez-les.",
+        "step_2": "Façonnez la purée en un rôti compact.",
+        "step_3": "Enveloppez le pain de bacon en les faisant se chevaucher puis ficelez avec le romarin.",
+        "step_4": "Faites cuire à 200°C jusqu’à ce que le bacon soit doré et croustillant, environ 30–40 minutes.",
+        "step_5": "Déglacez le plat avec vin rouge, sauce soja et beurre puis nappez le rôti tranché."
+      }
+    },
+    "recipe_000013": {
+      "title": "Riz au curry japonais",
+      "ingredientTexts": {
+        "beef_or_pork": {
+          "name": "Bœuf ou porc en dés",
+          "note": null
+        },
+        "potatoes": {
+          "name": "Pommes de terre",
+          "note": null
+        },
+        "carrots": {
+          "name": "Carottes",
+          "note": null
+        },
+        "onion": {
+          "name": "Oignon",
+          "note": null
+        },
+        "curry_roux": {
+          "name": "Roux de curry japonais",
+          "note": null
+        },
+        "apple": {
+          "name": "Pomme râpée",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Riz japonais vapeur",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Faites dorer la viande puis ajoutez oignon, carotte et pomme de terre.",
+        "step_2": "Couvrez d’eau ou de bouillon et laissez mijoter environ 20 minutes.",
+        "step_3": "Ajoutez la pomme râpée, coupez brièvement le feu et faites fondre le roux de curry.",
+        "step_4": "Remettez à feu doux jusqu’à épaississement puis servez avec le riz chaud."
+      }
+    },
+    "recipe_000014": {
+      "title": "Mapo tofu épicé",
+      "ingredientTexts": {
+        "soft_tofu": {
+          "name": "Tofu tendre",
+          "note": null
+        },
+        "ground_pork": {
+          "name": "Porc haché",
+          "note": null
+        },
+        "doubanjiang": {
+          "name": "Pâte doubanjiang",
+          "note": null
+        },
+        "sichuan_pepper": {
+          "name": "Poivre du Sichuan",
+          "note": null
+        },
+        "garlic": {
+          "name": "Ail",
+          "note": null
+        },
+        "ginger": {
+          "name": "Gingembre frais",
+          "note": null
+        },
+        "broth": {
+          "name": "Bouillon",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Fécule de maïs",
+          "note": null
+        },
+        "spring_onion": {
+          "name": "Ciboule",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Coupez le tofu en cubes de 2 cm et blanchissez-le 1 minute dans de l’eau salée.",
+        "step_2": "Chauffez l’huile dans un wok et faites revenir ail, gingembre, poivre du Sichuan et doubanjiang.",
+        "step_3": "Ajoutez le porc haché, faites-le bien dorer puis versez le bouillon.",
+        "step_4": "Ajoutez le tofu, mijotez 5 minutes et épaississez avec la fécule délayée. Terminez avec la ciboule."
+      }
+    },
+    "recipe_000015": {
+      "title": "Nikujaga, ragoût de viande et pommes de terre",
+      "ingredientTexts": {
+        "thin_beef": {
+          "name": "Bœuf finement tranché",
+          "note": null
+        },
+        "potatoes": {
+          "name": "Pommes de terre",
+          "note": null
+        },
+        "carrot": {
+          "name": "Carottes",
+          "note": null
+        },
+        "onion": {
+          "name": "Oignon",
+          "note": null
+        },
+        "dashi": {
+          "name": "Bouillon dashi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Coupez pommes de terre et carotte en morceaux irréguliers et émincez l’oignon.",
+        "step_2": "Faites revenir le bœuf puis ajoutez oignon, pommes de terre et carotte.",
+        "step_3": "Ajoutez dashi, sauce soja, mirin et sucre puis portez à frémissement.",
+        "step_4": "Couvrez d’un couvercle au contact et mijotez environ 20 minutes."
+      }
+    },
+    "recipe_000016": {
+      "title": "Karaage, poulet frit japonais",
+      "ingredientTexts": {
+        "chicken_thighs": {
+          "name": "Hauts de cuisse de poulet désossés",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "sake": {
+          "name": "Saké",
+          "note": null
+        },
+        "ginger": {
+          "name": "Gingembre frais",
+          "note": null
+        },
+        "garlic": {
+          "name": "Ail",
+          "note": null
+        },
+        "potato_starch": {
+          "name": "Fécule de pomme de terre",
+          "note": null
+        },
+        "frying_oil": {
+          "name": "Huile neutre pour friture",
+          "note": null
+        },
+        "lemon": {
+          "name": "Citron",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Coupez le poulet en morceaux de 3–4 cm et marinez 20 minutes avec soja, saké, gingembre et ail.",
+        "step_2": "Enrobez chaque morceau généreusement de fécule de pomme de terre.",
+        "step_3": "Faites frire à 160°C environ 4 minutes, égouttez et laissez reposer 2 minutes.",
+        "step_4": "Faites une seconde friture à 180°C pendant 1 minute et servez avec du citron."
+      }
+    },
+    "recipe_000017": {
+      "title": "Tamagoyaki, omelette roulée",
+      "ingredientTexts": {
+        "eggs": {
+          "name": "Œufs",
+          "note": null
+        },
+        "dashi": {
+          "name": "Bouillon dashi",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "salt": {
+          "name": "Sel",
+          "note": null
+        },
+        "oil": {
+          "name": "Huile neutre pour friture",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Battez doucement les œufs avec dashi, sucre, soja et une pincée de sel.",
+        "step_2": "Huilez légèrement une poêle rectangulaire et versez une fine couche d’œuf.",
+        "step_3": "Dès que l’œuf prend, roulez-le vers un côté.",
+        "step_4": "Ajoutez une autre couche, faites-la glisser sous le rouleau et roulez à nouveau. Répétez puis tranchez."
+      }
+    },
+    "recipe_000018": {
+      "title": "Nikuman, brioches vapeur au porc",
+      "ingredientTexts": {
+        "flour": {
+          "name": "Farine de blé",
+          "note": null
+        },
+        "yeast": {
+          "name": "Levure boulangère",
+          "note": null
+        },
+        "water": {
+          "name": "Eau tiède",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre",
+          "note": null
+        },
+        "ground_pork": {
+          "name": "Porc haché",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Chou chinois",
+          "note": null
+        },
+        "spring_onion": {
+          "name": "Ciboule",
+          "note": null
+        },
+        "ginger": {
+          "name": "Gingembre frais",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Huile de sésame",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sauce soja",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Pétrissez farine, levure, eau tiède et sucre puis laissez lever environ 1 heure.",
+        "step_2": "Mélangez le porc avec chou essoré, ciboule, gingembre, sauce soja et huile de sésame.",
+        "step_3": "Divisez la pâte, formez des disques aux bords fins et déposez la farce au centre.",
+        "step_4": "Pincez les plis vers le centre pour fermer chaque brioche.",
+        "step_5": "Faites cuire à la vapeur sur papier 15–18 minutes puis attendez un instant avant d’ouvrir."
+      }
+    },
+    "recipe_000019": {
+      "title": "Mitarashi Dango",
+      "ingredientTexts": {
+        "shiratamako": {
+          "name": "Farine de riz gluant shiratamako",
+          "note": null
+        },
+        "silken_tofu": {
+          "name": "Tofu soyeux",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "water": {
+          "name": "Eau tiède",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Fécule de maïs",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Pétrissez la farine de riz gluant avec le tofu soyeux jusqu’à obtenir une pâte souple.",
+        "step_2": "Formez des boules, faites-les bouillir 2 minutes après remontée puis refroidissez dans l’eau glacée.",
+        "step_3": "Enfilez 3–4 dango par brochette et grillez brièvement.",
+        "step_4": "Chauffez soja, sucre, mirin, eau et fécule jusqu’à épaississement puis nappez les brochettes."
+      }
+    },
+    "recipe_000020": {
+      "title": "Taiyaki à l’anko",
+      "ingredientTexts": {
+        "flour": {
+          "name": "Farine de blé",
+          "note": null
+        },
+        "baking_powder": {
+          "name": "Levure chimique",
+          "note": null
+        },
+        "egg": {
+          "name": "Œufs",
+          "note": null
+        },
+        "milk": {
+          "name": "Lait",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre",
+          "note": null
+        },
+        "anko": {
+          "name": "Pâte sucrée d’azuki (anko)",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Fouettez l’œuf avec sucre et lait puis incorporez farine et levure tamisées.",
+        "step_2": "Faites chauffer et graissez légèrement le moule à taiyaki.",
+        "step_3": "Versez une fine couche de pâte, ajoutez l’anko puis recouvrez de pâte.",
+        "step_4": "Fermez le moule et cuisez 3–4 minutes par face à feu moyen-doux."
       }
     }
   }
