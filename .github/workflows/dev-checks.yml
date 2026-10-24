@@ -167,7 +167,7 @@ jobs:
             echo "source_sha=$GITHUB_SHA"
             echo "workflow_run_number=$GITHUB_RUN_NUMBER"
             echo "signing_mode=${{ steps.android_signing.outputs.mode }}"
-            "$APKSIGNER" verify --print-certs "$APK" | grep -E 'Signer #1 certificate SHA-256 digest|Signer #1 certificate DN'
+            "$APKSIGNER" verify --print-certs "$APK" 2>&1
           } | tee build/android-identity/identity.txt
 
       - name: Upload Android ARM64 internal APK
