@@ -247,8 +247,8 @@
           "note": "para terminar"
         },
         "aoki_seaweed": {
-          "name": "Alga Aoki",
-          "note": "nombre utilizado en la fuente"
+          "name": "Aonori (alga verde seca)",
+          "note": "término culinario corregido; ID interno estable conservado"
         }
       },
       "stepTexts": {
@@ -446,6 +446,423 @@
         "assemble_filling": "Extiende la calabaza en una fuente, añade el pescado con la cebolla y las aceitunas en rodajas y cubre con bechamel.",
         "cover_and_decorate": "Cubre la fuente con el hojaldre y usa los recortes para crear una decoración sencilla con forma de pez.",
         "bake": "Pincela con yema y hornea a 200°C en horno estático precalentado hasta que el hojaldre quede bien dorado."
+      }
+    },
+    "recipe_000011": {
+      "title": "Chaliapin Steak Don",
+      "ingredientTexts": {
+        "beef_steak": {
+          "name": "Bistec de ternera",
+          "note": null
+        },
+        "onion": {
+          "name": "Cebolla",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Arroz japonés al vapor",
+          "note": null
+        },
+        "umeboshi": {
+          "name": "Ciruelas umeboshi",
+          "note": null
+        },
+        "butter": {
+          "name": "Mantequilla",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "red_wine": {
+          "name": "Vino tinto seco",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Marca ligeramente el bistec en rejilla, cúbrelo con la cebolla muy picada y déjalo reposar 30 minutos.",
+        "step_2": "Retira la cebolla y sofríela con mantequilla hasta que quede dorada y caramelizada.",
+        "step_3": "Dora el bistec a fuego fuerte unos 2 minutos por lado y desglasa con soja y vino tinto.",
+        "step_4": "Mezcla el arroz caliente con umeboshi picada y colócalo en un bol.",
+        "step_5": "Corta el bistec, colócalo sobre el arroz y termina con la cebolla caramelizada y los jugos de la sartén."
+      }
+    },
+    "recipe_000012": {
+      "title": "Gotcha Pork Roast (asado falso)",
+      "ingredientTexts": {
+        "potatoes": {
+          "name": "Patatas",
+          "note": null
+        },
+        "onion": {
+          "name": "Cebolla",
+          "note": null
+        },
+        "bacon": {
+          "name": "Bacon grueso",
+          "note": null
+        },
+        "eringii": {
+          "name": "Seta de cardo",
+          "note": null
+        },
+        "butter": {
+          "name": "Mantequilla",
+          "note": null
+        },
+        "red_wine": {
+          "name": "Vino tinto seco",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "rosemary": {
+          "name": "Romero fresco",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Cuece las patatas y aplástalas. Saltea cebolla y seta picadas con mantequilla e incorpóralas a la patata.",
+        "step_2": "Moldea la mezcla de patata con forma compacta de asado.",
+        "step_3": "Envuelve el bloque con bacon solapado y átalo con hilo de cocina y romero.",
+        "step_4": "Hornea a 200°C hasta que el bacon esté dorado y crujiente, unos 30–40 minutos.",
+        "step_5": "Desglasa la bandeja con vino tinto, soja y mantequilla y sirve la salsa sobre el asado cortado."
+      }
+    },
+    "recipe_000013": {
+      "title": "Arroz con curry japonés",
+      "ingredientTexts": {
+        "beef_or_pork": {
+          "name": "Ternera o cerdo en dados",
+          "note": null
+        },
+        "potatoes": {
+          "name": "Patatas",
+          "note": null
+        },
+        "carrots": {
+          "name": "Zanahorias",
+          "note": null
+        },
+        "onion": {
+          "name": "Cebolla",
+          "note": null
+        },
+        "curry_roux": {
+          "name": "Roux de curry japonés",
+          "note": null
+        },
+        "apple": {
+          "name": "Manzana rallada",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Arroz japonés al vapor",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Dora la carne en una olla y añade cebolla, zanahoria y patata.",
+        "step_2": "Cubre con agua o caldo y cuece unos 20 minutos hasta que las verduras estén tiernas.",
+        "step_3": "Añade la manzana rallada, apaga un momento el fuego y disuelve el roux de curry.",
+        "step_4": "Vuelve a fuego bajo hasta que la salsa espese y sirve junto al arroz."
+      }
+    },
+    "recipe_000014": {
+      "title": "Mapo tofu picante",
+      "ingredientTexts": {
+        "soft_tofu": {
+          "name": "Tofu suave",
+          "note": null
+        },
+        "ground_pork": {
+          "name": "Carne de cerdo picada",
+          "note": null
+        },
+        "doubanjiang": {
+          "name": "Pasta doubanjiang",
+          "note": null
+        },
+        "sichuan_pepper": {
+          "name": "Pimienta de Sichuan",
+          "note": null
+        },
+        "garlic": {
+          "name": "Ajo",
+          "note": null
+        },
+        "ginger": {
+          "name": "Jengibre fresco",
+          "note": null
+        },
+        "broth": {
+          "name": "Caldo",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Maicena",
+          "note": null
+        },
+        "spring_onion": {
+          "name": "Cebolleta",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Corta el tofu en cubos de 2 cm y escáldalo 1 minuto en agua salada.",
+        "step_2": "Calienta aceite en un wok y sofríe ajo, jengibre, pimienta de Sichuan y doubanjiang.",
+        "step_3": "Añade el cerdo picado, dóralo y vierte el caldo.",
+        "step_4": "Añade el tofu, cuece 5 minutos y espesa con maicena disuelta. Termina con cebolleta."
+      }
+    },
+    "recipe_000015": {
+      "title": "Nikujaga, estofado de carne y patata",
+      "ingredientTexts": {
+        "thin_beef": {
+          "name": "Ternera en lonchas finas",
+          "note": null
+        },
+        "potatoes": {
+          "name": "Patatas",
+          "note": null
+        },
+        "carrot": {
+          "name": "Zanahorias",
+          "note": null
+        },
+        "onion": {
+          "name": "Cebolla",
+          "note": null
+        },
+        "dashi": {
+          "name": "Caldo dashi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Corta patatas y zanahoria en trozos irregulares y lamina la cebolla.",
+        "step_2": "Dora la ternera con un poco de aceite y añade cebolla, patata y zanahoria.",
+        "step_3": "Añade dashi, soja, mirin y azúcar y lleva a hervor suave.",
+        "step_4": "Cubre con una tapa de contacto y cocina unos 20 minutos."
+      }
+    },
+    "recipe_000016": {
+      "title": "Karaage, pollo frito japonés",
+      "ingredientTexts": {
+        "chicken_thighs": {
+          "name": "Contramuslos de pollo deshuesados",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "ginger": {
+          "name": "Jengibre fresco",
+          "note": null
+        },
+        "garlic": {
+          "name": "Ajo",
+          "note": null
+        },
+        "potato_starch": {
+          "name": "Fécula de patata",
+          "note": null
+        },
+        "frying_oil": {
+          "name": "Aceite neutro para freír",
+          "note": null
+        },
+        "lemon": {
+          "name": "Limón",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Corta el pollo en trozos de 3–4 cm y marina 20 minutos con soja, sake, jengibre y ajo.",
+        "step_2": "Reboza cada trozo abundantemente con fécula de patata.",
+        "step_3": "Fríe a 160°C unos 4 minutos, escurre y deja reposar 2 minutos.",
+        "step_4": "Fríe de nuevo a 180°C durante 1 minuto y sirve con limón."
+      }
+    },
+    "recipe_000017": {
+      "title": "Tamagoyaki, tortilla enrollada",
+      "ingredientTexts": {
+        "eggs": {
+          "name": "Huevos",
+          "note": null
+        },
+        "dashi": {
+          "name": "Caldo dashi",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        },
+        "oil": {
+          "name": "Aceite neutro para freír",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Bate suavemente los huevos con dashi, azúcar, soja y una pizca de sal.",
+        "step_2": "Engrasa ligeramente una sartén rectangular y vierte una capa fina de huevo.",
+        "step_3": "Cuando apenas cuaje, enrolla el huevo hacia un lado.",
+        "step_4": "Añade otra capa, deja que pase bajo el rollo y vuelve a enrollar. Repite y corta."
+      }
+    },
+    "recipe_000018": {
+      "title": "Nikuman, bollos al vapor con cerdo",
+      "ingredientTexts": {
+        "flour": {
+          "name": "Harina de trigo",
+          "note": null
+        },
+        "yeast": {
+          "name": "Levadura de panadero",
+          "note": null
+        },
+        "water": {
+          "name": "Agua templada",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "ground_pork": {
+          "name": "Carne de cerdo picada",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Col china",
+          "note": null
+        },
+        "spring_onion": {
+          "name": "Cebolleta",
+          "note": null
+        },
+        "ginger": {
+          "name": "Jengibre fresco",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Aceite de sésamo",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Amasa harina, levadura, agua templada y azúcar y deja levar 1 hora.",
+        "step_2": "Mezcla el cerdo con col escurrida, cebolleta, jengibre, soja y aceite de sésamo.",
+        "step_3": "Divide la masa, forma discos con bordes finos y pon relleno en el centro.",
+        "step_4": "Pliega y pellizca los bordes para cerrar cada bollo.",
+        "step_5": "Cuece al vapor sobre papel 15–18 minutos y espera un momento antes de abrir."
+      }
+    },
+    "recipe_000019": {
+      "title": "Mitarashi Dango",
+      "ingredientTexts": {
+        "shiratamako": {
+          "name": "Harina de arroz glutinoso shiratamako",
+          "note": null
+        },
+        "silken_tofu": {
+          "name": "Tofu sedoso",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "water": {
+          "name": "Agua templada",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Maicena",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Amasa la harina de arroz glutinoso con tofu sedoso hasta obtener una masa suave.",
+        "step_2": "Forma bolitas, hiérvelas y cuece 2 minutos más tras flotar. Enfría en agua con hielo.",
+        "step_3": "Ensarta 3–4 dango por brocheta y ásalos brevemente.",
+        "step_4": "Calienta soja, azúcar, mirin, agua y maicena hasta espesar y glasea las brochetas."
+      }
+    },
+    "recipe_000020": {
+      "title": "Taiyaki con anko",
+      "ingredientTexts": {
+        "flour": {
+          "name": "Harina de trigo",
+          "note": null
+        },
+        "baking_powder": {
+          "name": "Levadura química",
+          "note": null
+        },
+        "egg": {
+          "name": "Huevos",
+          "note": null
+        },
+        "milk": {
+          "name": "Leche",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "anko": {
+          "name": "Pasta dulce de azuki (anko)",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Bate el huevo con azúcar y leche e incorpora harina y levadura tamizadas.",
+        "step_2": "Calienta y engrasa ligeramente el molde de taiyaki.",
+        "step_3": "Vierte una capa fina de masa, añade anko y cubre con más masa.",
+        "step_4": "Cierra el molde y cocina 3–4 minutos por lado a fuego medio-bajo."
       }
     }
   }

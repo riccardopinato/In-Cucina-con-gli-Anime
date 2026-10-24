@@ -247,8 +247,8 @@
           "note": "for finishing"
         },
         "aoki_seaweed": {
-          "name": "Aoki seaweed",
-          "note": "as named in the source reference"
+          "name": "Aonori seaweed",
+          "note": "corrected culinary term; stable internal ID retained"
         }
       },
       "stepTexts": {
@@ -446,6 +446,423 @@
         "assemble_filling": "Spread the pumpkin over the base of a baking dish, add the fish and onion, scatter over the sliced black olives and cover with béchamel.",
         "cover_and_decorate": "Lay the puff pastry over the dish. Use any trimmings to make a simple fish-shaped decoration for the top.",
         "bake": "Brush the pastry with egg yolk and bake in a preheated 200°C static oven until the pastry is deeply golden."
+      }
+    },
+    "recipe_000011": {
+      "title": "Chaliapin Steak Don",
+      "ingredientTexts": {
+        "beef_steak": {
+          "name": "Beef steak",
+          "note": null
+        },
+        "onion": {
+          "name": "Onion",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Steamed Japanese rice",
+          "note": null
+        },
+        "umeboshi": {
+          "name": "Umeboshi plums",
+          "note": null
+        },
+        "butter": {
+          "name": "Butter",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "red_wine": {
+          "name": "Dry red wine",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Score the steak lightly in a crosshatch, cover it completely with the finely chopped onion and rest for 30 minutes.",
+        "step_2": "Remove the onion and sauté it in butter until golden and deeply caramelized.",
+        "step_3": "Sear the steak over high heat for about 2 minutes per side, then deglaze with soy sauce and red wine.",
+        "step_4": "Mix the hot rice with chopped umeboshi and pack it into a bowl.",
+        "step_5": "Slice the steak, lay it over the rice and finish with the caramelized onion and pan juices."
+      }
+    },
+    "recipe_000012": {
+      "title": "Gotcha Pork Roast",
+      "ingredientTexts": {
+        "potatoes": {
+          "name": "Potatoes",
+          "note": null
+        },
+        "onion": {
+          "name": "Onion",
+          "note": null
+        },
+        "bacon": {
+          "name": "Thick-cut bacon",
+          "note": null
+        },
+        "eringii": {
+          "name": "King oyster mushroom",
+          "note": null
+        },
+        "butter": {
+          "name": "Butter",
+          "note": null
+        },
+        "red_wine": {
+          "name": "Dry red wine",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "rosemary": {
+          "name": "Fresh rosemary",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Boil the potatoes until tender and mash them. Sauté the chopped onion and mushroom in butter, then fold them into the potato.",
+        "step_2": "Shape the potato mixture into a compact roast-shaped loaf.",
+        "step_3": "Wrap the loaf completely with overlapping bacon and secure it with kitchen twine and rosemary.",
+        "step_4": "Bake at 200°C until the bacon is browned and crisp, about 30–40 minutes.",
+        "step_5": "Deglaze the roasting pan with red wine, soy sauce and butter and spoon the sauce over the sliced roast."
+      }
+    },
+    "recipe_000013": {
+      "title": "Japanese Curry Rice",
+      "ingredientTexts": {
+        "beef_or_pork": {
+          "name": "Beef or pork, diced",
+          "note": null
+        },
+        "potatoes": {
+          "name": "Potatoes",
+          "note": null
+        },
+        "carrots": {
+          "name": "Carrots",
+          "note": null
+        },
+        "onion": {
+          "name": "Onion",
+          "note": null
+        },
+        "curry_roux": {
+          "name": "Japanese curry roux",
+          "note": null
+        },
+        "apple": {
+          "name": "Grated apple",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Steamed Japanese rice",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Brown the diced meat in a pot, then add sliced onion, carrot and potato.",
+        "step_2": "Cover with water or broth and simmer until the vegetables are tender, about 20 minutes.",
+        "step_3": "Stir in the grated apple, turn off the heat briefly and dissolve the curry roux until smooth.",
+        "step_4": "Return to low heat until the sauce is rich and thick, then serve beside hot steamed rice."
+      }
+    },
+    "recipe_000014": {
+      "title": "Spicy Mapo Tofu",
+      "ingredientTexts": {
+        "soft_tofu": {
+          "name": "Soft tofu",
+          "note": null
+        },
+        "ground_pork": {
+          "name": "Ground pork",
+          "note": null
+        },
+        "doubanjiang": {
+          "name": "Doubanjiang chili bean paste",
+          "note": null
+        },
+        "sichuan_pepper": {
+          "name": "Sichuan pepper",
+          "note": null
+        },
+        "garlic": {
+          "name": "Garlic",
+          "note": null
+        },
+        "ginger": {
+          "name": "Fresh ginger",
+          "note": null
+        },
+        "broth": {
+          "name": "Broth",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Cornstarch",
+          "note": null
+        },
+        "spring_onion": {
+          "name": "Spring onion",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Cut the tofu into 2 cm cubes and blanch for 1 minute in lightly salted water.",
+        "step_2": "Heat oil in a wok and fry garlic, ginger, Sichuan pepper and doubanjiang until fragrant.",
+        "step_3": "Add the ground pork and brown it well, then pour in the broth.",
+        "step_4": "Add the tofu, simmer for 5 minutes and thicken with cornstarch slurry. Finish with spring onion."
+      }
+    },
+    "recipe_000015": {
+      "title": "Nikujaga Meat and Potato Stew",
+      "ingredientTexts": {
+        "thin_beef": {
+          "name": "Thinly sliced beef",
+          "note": null
+        },
+        "potatoes": {
+          "name": "Potatoes",
+          "note": null
+        },
+        "carrot": {
+          "name": "Carrots",
+          "note": null
+        },
+        "onion": {
+          "name": "Onion",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi broth",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Cut the potatoes and carrot into irregular bite-size pieces and slice the onion.",
+        "step_2": "Brown the thin beef in a little oil, then add onion, potatoes and carrot.",
+        "step_3": "Add dashi, soy sauce, mirin and sugar and bring to a gentle simmer.",
+        "step_4": "Cover with a drop lid and simmer about 20 minutes, until the vegetables are tender and glossy."
+      }
+    },
+    "recipe_000016": {
+      "title": "Japanese Karaage Fried Chicken",
+      "ingredientTexts": {
+        "chicken_thighs": {
+          "name": "Boneless chicken thighs",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "ginger": {
+          "name": "Fresh ginger",
+          "note": null
+        },
+        "garlic": {
+          "name": "Garlic",
+          "note": null
+        },
+        "potato_starch": {
+          "name": "Potato starch",
+          "note": null
+        },
+        "frying_oil": {
+          "name": "Neutral oil for frying",
+          "note": null
+        },
+        "lemon": {
+          "name": "Lemon",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Cut the chicken into 3–4 cm pieces and marinate for 20 minutes with soy sauce, sake, ginger and garlic.",
+        "step_2": "Coat each piece generously in potato starch.",
+        "step_3": "Fry at about 160°C for 4 minutes, drain and rest for 2 minutes.",
+        "step_4": "Fry again at about 180°C for 1 minute until deeply crisp and serve with lemon."
+      }
+    },
+    "recipe_000017": {
+      "title": "Tamagoyaki Rolled Omelette",
+      "ingredientTexts": {
+        "eggs": {
+          "name": "Eggs",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi broth",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "salt": {
+          "name": "Salt",
+          "note": null
+        },
+        "oil": {
+          "name": "Neutral oil for frying",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Beat the eggs gently with dashi, sugar, soy sauce and a pinch of salt without creating much foam.",
+        "step_2": "Lightly oil a rectangular tamagoyaki pan and pour in a thin layer of egg.",
+        "step_3": "When just set, roll the egg toward one side of the pan.",
+        "step_4": "Add another thin layer, let it flow under the roll and roll again. Repeat until the mixture is finished, then shape and slice."
+      }
+    },
+    "recipe_000018": {
+      "title": "Nikuman Steamed Pork Buns",
+      "ingredientTexts": {
+        "flour": {
+          "name": "All-purpose flour",
+          "note": null
+        },
+        "yeast": {
+          "name": "Baker's yeast",
+          "note": null
+        },
+        "water": {
+          "name": "Lukewarm water",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "ground_pork": {
+          "name": "Ground pork",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Chinese cabbage",
+          "note": null
+        },
+        "spring_onion": {
+          "name": "Spring onion",
+          "note": null
+        },
+        "ginger": {
+          "name": "Fresh ginger",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Toasted sesame oil",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Knead flour, yeast, lukewarm water and sugar until smooth, then proof for about 1 hour until doubled.",
+        "step_2": "Mix the pork with squeezed chopped cabbage, spring onion, ginger, soy sauce and sesame oil.",
+        "step_3": "Divide the dough, roll into discs with thinner edges and place a spoonful of filling in the centre.",
+        "step_4": "Pleat the edges together to close each bun into a small pouch.",
+        "step_5": "Steam on parchment squares for 15–18 minutes and let stand briefly before opening the steamer."
+      }
+    },
+    "recipe_000019": {
+      "title": "Mitarashi Dango",
+      "ingredientTexts": {
+        "shiratamako": {
+          "name": "Shiratamako glutinous rice flour",
+          "note": null
+        },
+        "silken_tofu": {
+          "name": "Silken tofu",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "water": {
+          "name": "Lukewarm water",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Cornstarch",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Knead the glutinous rice flour with silken tofu until soft and pliable.",
+        "step_2": "Form walnut-size balls, boil them and cook 2 minutes more after they float. Chill in iced water.",
+        "step_3": "Thread 3–4 dumplings onto each skewer and grill briefly to create light char marks.",
+        "step_4": "Heat soy sauce, sugar, mirin, water and cornstarch while whisking until glossy and thick. Coat the skewers generously."
+      }
+    },
+    "recipe_000020": {
+      "title": "Taiyaki with Anko",
+      "ingredientTexts": {
+        "flour": {
+          "name": "All-purpose flour",
+          "note": null
+        },
+        "baking_powder": {
+          "name": "Baking powder",
+          "note": null
+        },
+        "egg": {
+          "name": "Eggs",
+          "note": null
+        },
+        "milk": {
+          "name": "Milk",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "anko": {
+          "name": "Sweet red bean paste (anko)",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Whisk the egg with sugar and milk, then sift in flour and baking powder to make a smooth batter.",
+        "step_2": "Heat and lightly oil a fish-shaped taiyaki pan.",
+        "step_3": "Pour in a thin layer of batter, add a generous spoonful of anko in the centre and cover with more batter.",
+        "step_4": "Close the pan and cook over medium-low heat for 3–4 minutes per side until crisp and golden."
       }
     }
   }
