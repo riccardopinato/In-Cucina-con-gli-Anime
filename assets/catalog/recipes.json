@@ -998,3 +998,513 @@
         {
           "id": "step_4",
           "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000014",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Angel Beats! / Food Wars!",
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "servings": 3,
+      "difficulty": "medium",
+      "imageAsset": "assets/recipe_artwork/recipe_000014.jpg",
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23.",
+      "ingredients": [
+        {
+          "id": "soft_tofu",
+          "quantity": 300,
+          "unit": "g"
+        },
+        {
+          "id": "ground_pork",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "id": "doubanjiang",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "sichuan_pepper",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "garlic",
+          "quantity": 1,
+          "unit": null
+        },
+        {
+          "id": "ginger",
+          "quantity": 1,
+          "unit": null
+        },
+        {
+          "id": "broth",
+          "quantity": 200,
+          "unit": "ml"
+        },
+        {
+          "id": "cornstarch",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "spring_onion",
+          "quantity": 1,
+          "unit": null
+        }
+      ],
+      "steps": [
+        {
+          "id": "step_1",
+          "timerSeconds": null
+        },
+        {
+          "id": "step_2",
+          "timerSeconds": null
+        },
+        {
+          "id": "step_3",
+          "timerSeconds": null
+        },
+        {
+          "id": "step_4",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000015",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Demon Slayer (Kimetsu no Yaiba) / Inuyasha",
+      "prepMinutes": 15,
+      "cookMinutes": 20,
+      "servings": 4,
+      "difficulty": "easy",
+      "imageAsset": "assets/recipe_artwork/recipe_000015.jpg",
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23.",
+      "ingredients": [
+        {
+          "id": "thin_beef",
+          "quantity": 300,
+          "unit": "g"
+        },
+        {
+          "id": "potatoes",
+          "quantity": 4,
+          "unit": null
+        },
+        {
+          "id": "carrot",
+          "quantity": 1,
+          "unit": null
+        },
+        {
+          "id": "onion",
+          "quantity": 1,
+          "unit": null
+        },
+        {
+          "id": "dashi",
+          "quantity": 400,
+          "unit": "ml"
+        },
+        {
+          "id": "soy_sauce",
+          "quantity": 3,
+          "unit": "tbsp"
+        },
+        {
+          "id": "mirin",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "sugar",
+          "quantity": 1,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step_1",
+          "timerSeconds": null
+        },
+        {
+          "id": "step_2",
+          "timerSeconds": null
+        },
+        {
+          "id": "step_3",
+          "timerSeconds": null
+        },
+        {
+          "id": "step_4",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000016",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Haikyuu!! / Food Wars!",
+      "prepMinutes": 20,
+      "cookMinutes": 10,
+      "servings": 4,
+      "difficulty": "easy",
+      "imageAsset": "assets/recipe_artwork/recipe_000016.jpg",
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23.",
+      "ingredients": [
+        {
+          "id": "chicken_thighs",
+          "quantity": 500,
+          "unit": "g"
+        },
+        {
+          "id": "soy_sauce",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "sake",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "ginger",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "garlic",
+          "quantity": 1,
+          "unit": null
+        },
+        {
+          "id": "potato_starch",
+          "quantity": 80,
+          "unit": "g"
+        },
+        {
+          "id": "frying_oil",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "lemon",
+          "quantity": 1,
+          "unit": null
+        }
+      ],
+      "steps": [
+        {
+          "id": "step_1",
+          "timerSeconds": null
+        },
+        {
+          "id": "step_2",
+          "timerSeconds": null
+        },
+        {
+          "id": "step_3",
+          "timerSeconds": null
+        },
+        {
+          "id": "step_4",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000017",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Demon Slayer / Pokémon",
+      "prepMinutes": 5,
+      "cookMinutes": 10,
+      "servings": 2,
+      "difficulty": "easy",
+      "imageAsset": "assets/recipe_artwork/recipe_000017.jpg",
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23.",
+      "ingredients": [
+        {
+          "id": "eggs",
+          "quantity": 4,
+          "unit": null
+        },
+        {
+          "id": "dashi",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "sugar",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "soy_sauce",
+          "quantity": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "salt",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "oil",
+          "quantity": 1,
+          "unit": "tsp"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step_1",
+          "timerSeconds": null
+        },
+        {
+          "id": "step_2",
+          "timerSeconds": null
+        },
+        {
+          "id": "step_3",
+          "timerSeconds": null
+        },
+        {
+          "id": "step_4",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000018",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Dragon Ball / La città incantata",
+      "prepMinutes": 75,
+      "cookMinutes": 18,
+      "servings": 6,
+      "difficulty": "medium",
+      "imageAsset": "assets/recipe_artwork/recipe_000018.jpg",
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. Source table lists 45 min, but the method itself includes a 60-minute proof plus 15–18 minutes steaming; timing corrected editorially.",
+      "ingredients": [
+        {
+          "id": "flour",
+          "quantity": 300,
+          "unit": "g"
+        },
+        {
+          "id": "yeast",
+          "quantity": 5,
+          "unit": "g"
+        },
+        {
+          "id": "water",
+          "quantity": 150,
+          "unit": "ml"
+        },
+        {
+          "id": "sugar",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "ground_pork",
+          "quantity": 250,
+          "unit": "g"
+        },
+        {
+          "id": "cabbage",
+          "quantity": 2,
+          "unit": "leaf"
+        },
+        {
+          "id": "spring_onion",
+          "quantity": 1,
+          "unit": null
+        },
+        {
+          "id": "ginger",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "sesame_oil",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "soy_sauce",
+          "quantity": 1,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step_1",
+          "timerSeconds": null
+        },
+        {
+          "id": "step_2",
+          "timerSeconds": null
+        },
+        {
+          "id": "step_3",
+          "timerSeconds": null
+        },
+        {
+          "id": "step_4",
+          "timerSeconds": null
+        },
+        {
+          "id": "step_5",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000019",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Naruto / Demon Slayer",
+      "prepMinutes": 15,
+      "cookMinutes": 10,
+      "servings": 4,
+      "difficulty": "easy",
+      "imageAsset": "assets/recipe_artwork/recipe_000019.jpg",
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23.",
+      "ingredients": [
+        {
+          "id": "shiratamako",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "id": "silken_tofu",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "id": "soy_sauce",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "sugar",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "mirin",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "water",
+          "quantity": 100,
+          "unit": "ml"
+        },
+        {
+          "id": "cornstarch",
+          "quantity": 1,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step_1",
+          "timerSeconds": null
+        },
+        {
+          "id": "step_2",
+          "timerSeconds": null
+        },
+        {
+          "id": "step_3",
+          "timerSeconds": null
+        },
+        {
+          "id": "step_4",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000020",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "My Hero Academia / Kanon",
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "servings": 4,
+      "difficulty": "medium",
+      "imageAsset": "assets/recipe_artwork/recipe_000020.jpg",
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23.",
+      "ingredients": [
+        {
+          "id": "flour",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "id": "baking_powder",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "egg",
+          "quantity": 1,
+          "unit": null
+        },
+        {
+          "id": "milk",
+          "quantity": 140,
+          "unit": "ml"
+        },
+        {
+          "id": "sugar",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "anko",
+          "quantity": 150,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step_1",
+          "timerSeconds": null
+        },
+        {
+          "id": "step_2",
+          "timerSeconds": null
+        },
+        {
+          "id": "step_3",
+          "timerSeconds": null
+        },
+        {
+          "id": "step_4",
+          "timerSeconds": null
+        }
+      ]
+    }
+  ]
+}
