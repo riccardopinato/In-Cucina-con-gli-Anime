@@ -161,7 +161,7 @@ Evidence:
 - committed artwork sizes: ramen 132092 bytes, oyakodon 111776 bytes;
 - recipe_000003 has no image asset until an exact Katsudon artwork is approved.
 
-### F3F — Twenty-recipe editorial + artwork batch — VALIDATION PENDING
+### F3F — Twenty-recipe editorial + artwork batch — PASS
 
 Delivered:
 - second production batch from the user-provided 10-recipe research PDF, assigned stable IDs `recipe_000011` through `recipe_000020`;
