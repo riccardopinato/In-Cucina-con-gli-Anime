@@ -4,7 +4,7 @@ Flutter app for original/adapted editorial recipes inspired by food seen in anim
 
 ## Current state
 
-**v0.9 — F3F editorial expansion in validation: twenty audited recipes with one optimized original artwork per recipe; F4A remains complete and monetization wiring is unchanged.**
+**v0.9 — F3F complete: twenty audited recipes with one optimized original artwork per recipe; F4A remains complete and monetization wiring is unchanged.**
 
 F1 remains the runtime contract and F2 remains the authoring/build layer. F3D/F3E established the artwork system; F3F expands the catalog to twenty recipes, fills every recipe artwork slot, audits culinary semantics and hardens batch CI. F4A consent/privacy remains complete, but this editorial batch does not add ad or billing SDKs.
 
