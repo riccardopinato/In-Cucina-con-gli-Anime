@@ -64,6 +64,55 @@ jobs:
       - name: Generate platform scaffold
         run: ./tool/bootstrap_platforms.sh
 
+      - name: Configure persistent Android signing when available
+        id: android_signing
+        shell: bash
+        env:
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: |
+          set -euo pipefail
+
+          values=(
+            "${ANDROID_KEYSTORE_BASE64:-}"
+            "${ANDROID_KEYSTORE_PASSWORD:-}"
+            "${ANDROID_KEY_ALIAS:-}"
+            "${ANDROID_KEY_PASSWORD:-}"
+          )
+
+          present=0
+          for value in "${values[@]}"; do
+            if [ -n "$value" ]; then
+              present=$((present + 1))
+            fi
+          done
+
+          if [ "$present" -eq 0 ]; then
+            echo "mode=ephemeral-debug" >> "$GITHUB_OUTPUT"
+            echo "::warning::Persistent Android signing is not configured. This APK may require uninstall before a later build."
+            exit 0
+          fi
+
+          if [ "$present" -ne 4 ]; then
+            echo "::error::Persistent Android signing is only partially configured. Set all four ANDROID_* signing secrets."
+            exit 1
+          fi
+
+          mkdir -p .signing
+          printf '%s' "$ANDROID_KEYSTORE_BASE64" | base64 -d > .signing/animekitchen-release.jks
+
+          cat > android/key.properties <<EOF
+          storePassword=$ANDROID_KEYSTORE_PASSWORD
+          keyPassword=$ANDROID_KEY_PASSWORD
+          keyAlias=$ANDROID_KEY_ALIAS
+          storeFile=../../.signing/animekitchen-release.jks
+          EOF
+
+          echo "mode=persistent" >> "$GITHUB_OUTPUT"
+          echo "Persistent Android signing configured."
+
       - name: Resolve dependencies
         run: flutter pub get
 
@@ -99,13 +148,40 @@ jobs:
 
       - name: Build Android ARM64 internal gate
         run: |
-          flutter build apk --release --split-per-abi --tree-shake-icons
+          flutter build apk \
+            --release \
+            --split-per-abi \
+            --tree-shake-icons \
+            --build-number="$GITHUB_RUN_NUMBER"
           test -s build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
+
+      - name: Record Android APK identity
+        shell: bash
+        run: |
+          set -euo pipefail
+          APK=build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
+          APKSIGNER="$(find "$ANDROID_SDK_ROOT/build-tools" -type f -name apksigner | sort -V | tail -n 1)"
+          test -n "$APKSIGNER"
+          mkdir -p build/android-identity
+          {
+            echo "source_sha=$GITHUB_SHA"
+            echo "workflow_run_number=$GITHUB_RUN_NUMBER"
+            echo "signing_mode=${{ steps.android_signing.outputs.mode }}"
+            "$APKSIGNER" verify --print-certs "$APK" | grep -E 'Signer #1 certificate SHA-256 digest|Signer #1 certificate DN'
+          } | tee build/android-identity/identity.txt
 
       - name: Upload Android ARM64 internal APK
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
-          name: in-cucina-con-gli-anime-arm64-internal
+          name: in-cucina-con-gli-anime-arm64-${{ steps.android_signing.outputs.mode }}
           path: build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
           if-no-files-found: error
           retention-days: 14
+
+      - name: Upload Android identity report
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: in-cucina-con-gli-anime-android-identity
+          path: build/android-identity/identity.txt
+          if-no-files-found: error
+          retention-days: 30
