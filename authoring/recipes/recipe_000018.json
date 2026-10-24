@@ -1,0 +1,402 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000018",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Dragon Ball / La città incantata",
+  "prepMinutes": 75,
+  "cookMinutes": 18,
+  "servings": 6,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. Source table lists 45 min, but the method itself includes a 60-minute proof plus 15–18 minutes steaming; timing corrected editorially.",
+  "imageAssetId": "recipe_000018_artwork",
+  "ingredients": [
+    {
+      "id": "flour",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "id": "yeast",
+      "quantity": 5,
+      "unit": "g"
+    },
+    {
+      "id": "water",
+      "quantity": 150,
+      "unit": "ml"
+    },
+    {
+      "id": "sugar",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "ground_pork",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "id": "cabbage",
+      "quantity": 2,
+      "unit": "leaf"
+    },
+    {
+      "id": "spring_onion",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "ginger",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "sesame_oil",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "soy_sauce",
+      "quantity": 1,
+      "unit": "tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_5",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Nikuman Steamed Pork Buns",
+      "ingredients": {
+        "flour": {
+          "name": "All-purpose flour",
+          "note": null
+        },
+        "yeast": {
+          "name": "Baker's yeast",
+          "note": null
+        },
+        "water": {
+          "name": "Lukewarm water",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "ground_pork": {
+          "name": "Ground pork",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Chinese cabbage",
+          "note": null
+        },
+        "spring_onion": {
+          "name": "Spring onion",
+          "note": null
+        },
+        "ginger": {
+          "name": "Fresh ginger",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Toasted sesame oil",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Knead flour, yeast, lukewarm water and sugar until smooth, then proof for about 1 hour until doubled.",
+        "step_2": "Mix the pork with squeezed chopped cabbage, spring onion, ginger, soy sauce and sesame oil.",
+        "step_3": "Divide the dough, roll into discs with thinner edges and place a spoonful of filling in the centre.",
+        "step_4": "Pleat the edges together to close each bun into a small pouch.",
+        "step_5": "Steam on parchment squares for 15–18 minutes and let stand briefly before opening the steamer."
+      }
+    },
+    "it": {
+      "title": "Nikuman, panini al vapore con maiale",
+      "ingredients": {
+        "flour": {
+          "name": "Farina 00",
+          "note": null
+        },
+        "yeast": {
+          "name": "Lievito di birra",
+          "note": null
+        },
+        "water": {
+          "name": "Acqua tiepida",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucchero",
+          "note": null
+        },
+        "ground_pork": {
+          "name": "Macinato di maiale",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Cavolo cinese",
+          "note": null
+        },
+        "spring_onion": {
+          "name": "Cipollotto",
+          "note": null
+        },
+        "ginger": {
+          "name": "Zenzero fresco",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Olio di sesamo",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa di soia",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Impasta farina, lievito, acqua tiepida e zucchero fino a ottenere un impasto liscio, poi lascia lievitare circa 1 ora fino al raddoppio.",
+        "step_2": "Mescola il maiale con cavolo tritato e ben strizzato, cipollotto, zenzero, salsa di soia e olio di sesamo.",
+        "step_3": "Dividi l’impasto, stendilo in dischi con i bordi più sottili e metti una cucchiaiata di ripieno al centro.",
+        "step_4": "Pizzica le pieghe verso il centro per chiudere ogni panino a fagottino.",
+        "step_5": "Cuoci a vapore su quadratini di carta forno per 15–18 minuti e attendi un attimo prima di aprire la vaporiera."
+      }
+    },
+    "es": {
+      "title": "Nikuman, bollos al vapor con cerdo",
+      "ingredients": {
+        "flour": {
+          "name": "Harina de trigo",
+          "note": null
+        },
+        "yeast": {
+          "name": "Levadura de panadero",
+          "note": null
+        },
+        "water": {
+          "name": "Agua templada",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "ground_pork": {
+          "name": "Carne de cerdo picada",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Col china",
+          "note": null
+        },
+        "spring_onion": {
+          "name": "Cebolleta",
+          "note": null
+        },
+        "ginger": {
+          "name": "Jengibre fresco",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Aceite de sésamo",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Amasa harina, levadura, agua templada y azúcar y deja levar 1 hora.",
+        "step_2": "Mezcla el cerdo con col escurrida, cebolleta, jengibre, soja y aceite de sésamo.",
+        "step_3": "Divide la masa, forma discos con bordes finos y pon relleno en el centro.",
+        "step_4": "Pliega y pellizca los bordes para cerrar cada bollo.",
+        "step_5": "Cuece al vapor sobre papel 15–18 minutos y espera un momento antes de abrir."
+      }
+    },
+    "fr": {
+      "title": "Nikuman, brioches vapeur au porc",
+      "ingredients": {
+        "flour": {
+          "name": "Farine de blé",
+          "note": null
+        },
+        "yeast": {
+          "name": "Levure boulangère",
+          "note": null
+        },
+        "water": {
+          "name": "Eau tiède",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre",
+          "note": null
+        },
+        "ground_pork": {
+          "name": "Porc haché",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Chou chinois",
+          "note": null
+        },
+        "spring_onion": {
+          "name": "Ciboule",
+          "note": null
+        },
+        "ginger": {
+          "name": "Gingembre frais",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Huile de sésame",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sauce soja",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Pétrissez farine, levure, eau tiède et sucre puis laissez lever environ 1 heure.",
+        "step_2": "Mélangez le porc avec chou essoré, ciboule, gingembre, sauce soja et huile de sésame.",
+        "step_3": "Divisez la pâte, formez des disques aux bords fins et déposez la farce au centre.",
+        "step_4": "Pincez les plis vers le centre pour fermer chaque brioche.",
+        "step_5": "Faites cuire à la vapeur sur papier 15–18 minutes puis attendez un instant avant d’ouvrir."
+      }
+    },
+    "de": {
+      "title": "Nikuman, gedämpfte Schweinebrötchen",
+      "ingredients": {
+        "flour": {
+          "name": "Weizenmehl",
+          "note": null
+        },
+        "yeast": {
+          "name": "Backhefe",
+          "note": null
+        },
+        "water": {
+          "name": "Lauwarmes Wasser",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker",
+          "note": null
+        },
+        "ground_pork": {
+          "name": "Schweinehackfleisch",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Chinakohl",
+          "note": null
+        },
+        "spring_onion": {
+          "name": "Frühlingszwiebel",
+          "note": null
+        },
+        "ginger": {
+          "name": "Frischer Ingwer",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Sesamöl",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sojasauce",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Mehl, Hefe, lauwarmes Wasser und Zucker kneten und etwa 1 Stunde gehen lassen.",
+        "step_2": "Schweinehack mit ausgedrücktem Kohl, Frühlingszwiebel, Ingwer, Sojasauce und Sesamöl mischen.",
+        "step_3": "Teig teilen, zu Scheiben mit dünneren Rändern ausrollen und füllen.",
+        "step_4": "Die Ränder in Falten zur Mitte ziehen und die Brötchen schließen.",
+        "step_5": "Auf Backpapier 15–18 Minuten dämpfen und vor dem Öffnen kurz warten."
+      }
+    },
+    "pt": {
+      "title": "Nikuman, pães no vapor com porco",
+      "ingredients": {
+        "flour": {
+          "name": "Farinha de trigo",
+          "note": null
+        },
+        "yeast": {
+          "name": "Fermento biológico",
+          "note": null
+        },
+        "water": {
+          "name": "Água morna",
+          "note": null
+        },
+        "sugar": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "ground_pork": {
+          "name": "Carne suína moída",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Couve chinesa",
+          "note": null
+        },
+        "spring_onion": {
+          "name": "Cebolinha",
+          "note": null
+        },
+        "ginger": {
+          "name": "Gengibre fresco",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Óleo de gergelim",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Molho de soja",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Amasse farinha, fermento, água morna e açúcar e deixe crescer por cerca de 1 hora.",
+        "step_2": "Misture a carne suína com couve espremida, cebolinha, gengibre, soja e óleo de gergelim.",
+        "step_3": "Divida a massa, abra discos com bordas finas e coloque o recheio no centro.",
+        "step_4": "Faça pregas e feche cada pão no centro.",
+        "step_5": "Cozinhe no vapor sobre papel por 15–18 minutos e aguarde um instante antes de abrir."
+      }
+    }
+  }
+}

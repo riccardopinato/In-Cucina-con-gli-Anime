@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000006",
-  "contentVersion": 1,
+  "contentVersion": 2,
   "status": "published",
   "inspirationTitle": "Ranma ½ / Kiss Me Licia",
   "prepMinutes": 20,
@@ -9,39 +9,117 @@
   "servings": 2,
   "difficulty": "easy",
   "contentOrigin": "adapted",
-  "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; two servings are an editorial estimate from the listed quantities.",
-  "imageAssetId": null,
+  "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; two servings are an editorial estimate from the listed quantities. Culinary terminology audited 2026-10-23: source label 'Aoki seaweed' normalized to aonori; stable ingredient ID retained.",
+  "imageAssetId": "recipe_000006_artwork",
   "ingredients": [
-    {"id": "cabbage", "quantity": 150, "unit": "g"},
-    {"id": "flour", "quantity": 100, "unit": "g"},
-    {"id": "dashi", "quantity": 120, "unit": "ml"},
-    {"id": "egg", "quantity": 1, "unit": null},
-    {"id": "pork_belly", "quantity": 4, "unit": "slice"},
-    {"id": "okonomiyaki_sauce", "quantity": null, "unit": null},
-    {"id": "japanese_mayo", "quantity": null, "unit": null},
-    {"id": "katsuobushi", "quantity": null, "unit": null},
-    {"id": "aoki_seaweed", "quantity": null, "unit": null}
+    {
+      "id": "cabbage",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "id": "flour",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "id": "dashi",
+      "quantity": 120,
+      "unit": "ml"
+    },
+    {
+      "id": "egg",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "pork_belly",
+      "quantity": 4,
+      "unit": "slice"
+    },
+    {
+      "id": "okonomiyaki_sauce",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "japanese_mayo",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "katsuobushi",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "aoki_seaweed",
+      "quantity": null,
+      "unit": null
+    }
   ],
   "steps": [
-    {"id": "make_batter", "timerSeconds": null},
-    {"id": "add_cabbage", "timerSeconds": null},
-    {"id": "shape_and_top", "timerSeconds": null},
-    {"id": "cook_both_sides", "timerSeconds": null},
-    {"id": "finish", "timerSeconds": null}
+    {
+      "id": "make_batter",
+      "timerSeconds": null
+    },
+    {
+      "id": "add_cabbage",
+      "timerSeconds": null
+    },
+    {
+      "id": "shape_and_top",
+      "timerSeconds": null
+    },
+    {
+      "id": "cook_both_sides",
+      "timerSeconds": null
+    },
+    {
+      "id": "finish",
+      "timerSeconds": null
+    }
   ],
   "locales": {
     "en": {
       "title": "Kansai-Style Okonomiyaki",
       "ingredients": {
-        "cabbage": {"name": "Green cabbage", "note": "very thinly sliced"},
-        "flour": {"name": "Plain flour", "note": null},
-        "dashi": {"name": "Cold dashi broth", "note": null},
-        "egg": {"name": "Egg", "note": null},
-        "pork_belly": {"name": "Fresh pork belly", "note": "4 slices"},
-        "okonomiyaki_sauce": {"name": "Okonomiyaki sauce", "note": "or a mixture of ketchup, Worcestershire sauce and honey"},
-        "japanese_mayo": {"name": "Japanese mayonnaise", "note": "for finishing"},
-        "katsuobushi": {"name": "Katsuobushi flakes", "note": "for finishing"},
-        "aoki_seaweed": {"name": "Aoki seaweed", "note": "as named in the source reference"}
+        "cabbage": {
+          "name": "Green cabbage",
+          "note": "very thinly sliced"
+        },
+        "flour": {
+          "name": "Plain flour",
+          "note": null
+        },
+        "dashi": {
+          "name": "Cold dashi broth",
+          "note": null
+        },
+        "egg": {
+          "name": "Egg",
+          "note": null
+        },
+        "pork_belly": {
+          "name": "Fresh pork belly",
+          "note": "4 slices"
+        },
+        "okonomiyaki_sauce": {
+          "name": "Okonomiyaki sauce",
+          "note": "or a mixture of ketchup, Worcestershire sauce and honey"
+        },
+        "japanese_mayo": {
+          "name": "Japanese mayonnaise",
+          "note": "for finishing"
+        },
+        "katsuobushi": {
+          "name": "Katsuobushi flakes",
+          "note": "for finishing"
+        },
+        "aoki_seaweed": {
+          "name": "Aonori seaweed",
+          "note": "corrected culinary term; stable internal ID retained"
+        }
       },
       "steps": {
         "make_batter": "Whisk the flour, cold dashi and egg until the batter is smooth and evenly combined.",
@@ -54,15 +132,42 @@
     "it": {
       "title": "Okonomiyaki in stile Kansai",
       "ingredients": {
-        "cabbage": {"name": "Cavolo cappuccio", "note": "affettato molto sottile"},
-        "flour": {"name": "Farina 00", "note": null},
-        "dashi": {"name": "Brodo dashi freddo", "note": null},
-        "egg": {"name": "Uovo", "note": null},
-        "pork_belly": {"name": "Pancetta fresca di maiale", "note": "4 fette"},
-        "okonomiyaki_sauce": {"name": "Salsa okonomiyaki", "note": "oppure una miscela di ketchup, salsa Worcestershire e miele"},
-        "japanese_mayo": {"name": "Maionese giapponese", "note": "per completare"},
-        "katsuobushi": {"name": "Fiocchi di katsuobushi", "note": "per completare"},
-        "aoki_seaweed": {"name": "Alga Aoki", "note": "denominazione riportata nella fonte"}
+        "cabbage": {
+          "name": "Cavolo cappuccio",
+          "note": "affettato molto sottile"
+        },
+        "flour": {
+          "name": "Farina 00",
+          "note": null
+        },
+        "dashi": {
+          "name": "Brodo dashi freddo",
+          "note": null
+        },
+        "egg": {
+          "name": "Uovo",
+          "note": null
+        },
+        "pork_belly": {
+          "name": "Pancetta fresca di maiale",
+          "note": "4 fette"
+        },
+        "okonomiyaki_sauce": {
+          "name": "Salsa okonomiyaki",
+          "note": "oppure una miscela di ketchup, salsa Worcestershire e miele"
+        },
+        "japanese_mayo": {
+          "name": "Maionese giapponese",
+          "note": "per completare"
+        },
+        "katsuobushi": {
+          "name": "Fiocchi di katsuobushi",
+          "note": "per completare"
+        },
+        "aoki_seaweed": {
+          "name": "Aonori (alga verde essiccata)",
+          "note": "terminologia culinaria corretta; ID interno mantenuto stabile"
+        }
       },
       "steps": {
         "make_batter": "Mescola farina, dashi freddo e uovo fino a ottenere una pastella liscia e uniforme.",
@@ -75,15 +180,42 @@
     "es": {
       "title": "Okonomiyaki al estilo Kansai",
       "ingredients": {
-        "cabbage": {"name": "Col verde", "note": "cortada muy fina"},
-        "flour": {"name": "Harina de trigo", "note": null},
-        "dashi": {"name": "Caldo dashi frío", "note": null},
-        "egg": {"name": "Huevo", "note": null},
-        "pork_belly": {"name": "Panceta fresca de cerdo", "note": "4 lonchas"},
-        "okonomiyaki_sauce": {"name": "Salsa okonomiyaki", "note": "o mezcla de ketchup, salsa Worcestershire y miel"},
-        "japanese_mayo": {"name": "Mayonesa japonesa", "note": "para terminar"},
-        "katsuobushi": {"name": "Copos de katsuobushi", "note": "para terminar"},
-        "aoki_seaweed": {"name": "Alga Aoki", "note": "nombre utilizado en la fuente"}
+        "cabbage": {
+          "name": "Col verde",
+          "note": "cortada muy fina"
+        },
+        "flour": {
+          "name": "Harina de trigo",
+          "note": null
+        },
+        "dashi": {
+          "name": "Caldo dashi frío",
+          "note": null
+        },
+        "egg": {
+          "name": "Huevo",
+          "note": null
+        },
+        "pork_belly": {
+          "name": "Panceta fresca de cerdo",
+          "note": "4 lonchas"
+        },
+        "okonomiyaki_sauce": {
+          "name": "Salsa okonomiyaki",
+          "note": "o mezcla de ketchup, salsa Worcestershire y miel"
+        },
+        "japanese_mayo": {
+          "name": "Mayonesa japonesa",
+          "note": "para terminar"
+        },
+        "katsuobushi": {
+          "name": "Copos de katsuobushi",
+          "note": "para terminar"
+        },
+        "aoki_seaweed": {
+          "name": "Aonori (alga verde seca)",
+          "note": "término culinario corregido; ID interno estable conservado"
+        }
       },
       "steps": {
         "make_batter": "Mezcla la harina con el dashi frío y el huevo hasta obtener una masa lisa.",
@@ -96,15 +228,42 @@
     "fr": {
       "title": "Okonomiyaki style Kansai",
       "ingredients": {
-        "cabbage": {"name": "Chou vert", "note": "très finement émincé"},
-        "flour": {"name": "Farine de blé", "note": null},
-        "dashi": {"name": "Bouillon dashi froid", "note": null},
-        "egg": {"name": "Œuf", "note": null},
-        "pork_belly": {"name": "Poitrine de porc fraîche", "note": "4 tranches"},
-        "okonomiyaki_sauce": {"name": "Sauce okonomiyaki", "note": "ou mélange ketchup, sauce Worcestershire et miel"},
-        "japanese_mayo": {"name": "Mayonnaise japonaise", "note": "pour finir"},
-        "katsuobushi": {"name": "Flocons de katsuobushi", "note": "pour finir"},
-        "aoki_seaweed": {"name": "Algue Aoki", "note": "nom employé dans la source"}
+        "cabbage": {
+          "name": "Chou vert",
+          "note": "très finement émincé"
+        },
+        "flour": {
+          "name": "Farine de blé",
+          "note": null
+        },
+        "dashi": {
+          "name": "Bouillon dashi froid",
+          "note": null
+        },
+        "egg": {
+          "name": "Œuf",
+          "note": null
+        },
+        "pork_belly": {
+          "name": "Poitrine de porc fraîche",
+          "note": "4 tranches"
+        },
+        "okonomiyaki_sauce": {
+          "name": "Sauce okonomiyaki",
+          "note": "ou mélange ketchup, sauce Worcestershire et miel"
+        },
+        "japanese_mayo": {
+          "name": "Mayonnaise japonaise",
+          "note": "pour finir"
+        },
+        "katsuobushi": {
+          "name": "Flocons de katsuobushi",
+          "note": "pour finir"
+        },
+        "aoki_seaweed": {
+          "name": "Aonori (algue verte séchée)",
+          "note": "terme culinaire corrigé; identifiant interne stable conservé"
+        }
       },
       "steps": {
         "make_batter": "Mélangez la farine, le dashi froid et l’œuf jusqu’à obtenir une pâte homogène.",
@@ -117,15 +276,42 @@
     "de": {
       "title": "Okonomiyaki nach Kansai-Art",
       "ingredients": {
-        "cabbage": {"name": "Weißkohl", "note": "sehr fein geschnitten"},
-        "flour": {"name": "Weizenmehl", "note": null},
-        "dashi": {"name": "Kalte Dashi-Brühe", "note": null},
-        "egg": {"name": "Ei", "note": null},
-        "pork_belly": {"name": "Frischer Schweinebauch", "note": "4 Scheiben"},
-        "okonomiyaki_sauce": {"name": "Okonomiyaki-Sauce", "note": "oder Mischung aus Ketchup, Worcestersauce und Honig"},
-        "japanese_mayo": {"name": "Japanische Mayonnaise", "note": "zum Garnieren"},
-        "katsuobushi": {"name": "Katsuobushi-Flocken", "note": "zum Garnieren"},
-        "aoki_seaweed": {"name": "Aoki-Alge", "note": "Bezeichnung aus der Quelle"}
+        "cabbage": {
+          "name": "Weißkohl",
+          "note": "sehr fein geschnitten"
+        },
+        "flour": {
+          "name": "Weizenmehl",
+          "note": null
+        },
+        "dashi": {
+          "name": "Kalte Dashi-Brühe",
+          "note": null
+        },
+        "egg": {
+          "name": "Ei",
+          "note": null
+        },
+        "pork_belly": {
+          "name": "Frischer Schweinebauch",
+          "note": "4 Scheiben"
+        },
+        "okonomiyaki_sauce": {
+          "name": "Okonomiyaki-Sauce",
+          "note": "oder Mischung aus Ketchup, Worcestersauce und Honig"
+        },
+        "japanese_mayo": {
+          "name": "Japanische Mayonnaise",
+          "note": "zum Garnieren"
+        },
+        "katsuobushi": {
+          "name": "Katsuobushi-Flocken",
+          "note": "zum Garnieren"
+        },
+        "aoki_seaweed": {
+          "name": "Aonori (getrocknete Grünalge)",
+          "note": "korrigierter kulinarischer Begriff; stabile interne ID beibehalten"
+        }
       },
       "steps": {
         "make_batter": "Mehl, kalte Dashi-Brühe und Ei zu einem glatten Teig verrühren.",
@@ -138,15 +324,42 @@
     "pt": {
       "title": "Okonomiyaki ao estilo Kansai",
       "ingredients": {
-        "cabbage": {"name": "Repolho verde", "note": "fatiado bem fino"},
-        "flour": {"name": "Farinha de trigo", "note": null},
-        "dashi": {"name": "Caldo dashi frio", "note": null},
-        "egg": {"name": "Ovo", "note": null},
-        "pork_belly": {"name": "Barriga de porco fresca", "note": "4 fatias"},
-        "okonomiyaki_sauce": {"name": "Molho okonomiyaki", "note": "ou mistura de ketchup, molho Worcestershire e mel"},
-        "japanese_mayo": {"name": "Maionese japonesa", "note": "para finalizar"},
-        "katsuobushi": {"name": "Flocos de katsuobushi", "note": "para finalizar"},
-        "aoki_seaweed": {"name": "Alga Aoki", "note": "nome usado na fonte"}
+        "cabbage": {
+          "name": "Repolho verde",
+          "note": "fatiado bem fino"
+        },
+        "flour": {
+          "name": "Farinha de trigo",
+          "note": null
+        },
+        "dashi": {
+          "name": "Caldo dashi frio",
+          "note": null
+        },
+        "egg": {
+          "name": "Ovo",
+          "note": null
+        },
+        "pork_belly": {
+          "name": "Barriga de porco fresca",
+          "note": "4 fatias"
+        },
+        "okonomiyaki_sauce": {
+          "name": "Molho okonomiyaki",
+          "note": "ou mistura de ketchup, molho Worcestershire e mel"
+        },
+        "japanese_mayo": {
+          "name": "Maionese japonesa",
+          "note": "para finalizar"
+        },
+        "katsuobushi": {
+          "name": "Flocos de katsuobushi",
+          "note": "para finalizar"
+        },
+        "aoki_seaweed": {
+          "name": "Aonori (alga verde seca)",
+          "note": "termo culinário corrigido; ID interno estável mantido"
+        }
       },
       "steps": {
         "make_batter": "Misture a farinha, o dashi frio e o ovo até obter uma massa lisa.",

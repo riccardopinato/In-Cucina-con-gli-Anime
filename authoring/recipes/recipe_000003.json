@@ -10,38 +10,116 @@
   "difficulty": "medium",
   "contentOrigin": "adapted",
   "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. Servings inferred from ingredient quantities because the source does not state yield.",
-  "imageAssetId": null,
+  "imageAssetId": "recipe_000003_artwork",
   "ingredients": [
-    {"id": "tonkatsu", "quantity": 2, "unit": null},
-    {"id": "onion", "quantity": 1, "unit": null},
-    {"id": "eggs", "quantity": 2, "unit": null},
-    {"id": "steamed_rice", "quantity": 300, "unit": "g"},
-    {"id": "dashi", "quantity": 100, "unit": "ml"},
-    {"id": "soy_sauce", "quantity": 2, "unit": "tbsp"},
-    {"id": "mirin", "quantity": 1, "unit": "tbsp"},
-    {"id": "sugar", "quantity": 1, "unit": "tsp"},
-    {"id": "garnish", "quantity": null, "unit": null}
+    {
+      "id": "tonkatsu",
+      "quantity": 2,
+      "unit": null
+    },
+    {
+      "id": "onion",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "eggs",
+      "quantity": 2,
+      "unit": null
+    },
+    {
+      "id": "steamed_rice",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "id": "dashi",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "id": "soy_sauce",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "mirin",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "sugar",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "garnish",
+      "quantity": null,
+      "unit": null
+    }
   ],
   "steps": [
-    {"id": "simmer_onion", "timerSeconds": 300},
-    {"id": "add_tonkatsu", "timerSeconds": null},
-    {"id": "add_eggs", "timerSeconds": null},
-    {"id": "steam_finish", "timerSeconds": null},
-    {"id": "assemble_bowl", "timerSeconds": null}
+    {
+      "id": "simmer_onion",
+      "timerSeconds": 300
+    },
+    {
+      "id": "add_tonkatsu",
+      "timerSeconds": null
+    },
+    {
+      "id": "add_eggs",
+      "timerSeconds": null
+    },
+    {
+      "id": "steam_finish",
+      "timerSeconds": null
+    },
+    {
+      "id": "assemble_bowl",
+      "timerSeconds": null
+    }
   ],
   "locales": {
     "en": {
       "title": "Victory Katsudon",
       "ingredients": {
-        "tonkatsu": {"name": "Panko-breaded pork cutlets", "note": "fried and ready to use"},
-        "onion": {"name": "Golden onion", "note": "thinly sliced"},
-        "eggs": {"name": "Large eggs", "note": null},
-        "steamed_rice": {"name": "Steamed Japanese rice", "note": null},
-        "dashi": {"name": "Dashi broth", "note": null},
-        "soy_sauce": {"name": "Soy sauce", "note": null},
-        "mirin": {"name": "Mirin", "note": null},
-        "sugar": {"name": "Sugar", "note": null},
-        "garnish": {"name": "Peas or chives", "note": "for garnish"}
+        "tonkatsu": {
+          "name": "Panko-breaded pork cutlets",
+          "note": "fried and ready to use"
+        },
+        "onion": {
+          "name": "Golden onion",
+          "note": "thinly sliced"
+        },
+        "eggs": {
+          "name": "Large eggs",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Steamed Japanese rice",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi broth",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "garnish": {
+          "name": "Peas or chives",
+          "note": "for garnish"
+        }
       },
       "steps": {
         "simmer_onion": "Combine dashi, soy sauce, mirin and sugar in a small skillet. Add the onion and simmer until softened.",
@@ -54,15 +132,42 @@
     "it": {
       "title": "Katsudon della vittoria",
       "ingredients": {
-        "tonkatsu": {"name": "Cotolette di maiale impanate nel panko", "note": "già fritte"},
-        "onion": {"name": "Cipolla dorata", "note": "affettata sottile"},
-        "eggs": {"name": "Uova grandi", "note": null},
-        "steamed_rice": {"name": "Riso giapponese cotto al vapore", "note": null},
-        "dashi": {"name": "Brodo dashi", "note": null},
-        "soy_sauce": {"name": "Salsa di soia", "note": null},
-        "mirin": {"name": "Mirin", "note": null},
-        "sugar": {"name": "Zucchero", "note": null},
-        "garnish": {"name": "Piselli o erba cipollina", "note": "per guarnire"}
+        "tonkatsu": {
+          "name": "Cotolette di maiale impanate nel panko",
+          "note": "già fritte"
+        },
+        "onion": {
+          "name": "Cipolla dorata",
+          "note": "affettata sottile"
+        },
+        "eggs": {
+          "name": "Uova grandi",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Riso giapponese cotto al vapore",
+          "note": null
+        },
+        "dashi": {
+          "name": "Brodo dashi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa di soia",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucchero",
+          "note": null
+        },
+        "garnish": {
+          "name": "Piselli o erba cipollina",
+          "note": "per guarnire"
+        }
       },
       "steps": {
         "simmer_onion": "Riunisci in un padellino dashi, salsa di soia, mirin e zucchero. Aggiungi la cipolla e falla sobbollire finché si ammorbidisce.",
@@ -75,15 +180,42 @@
     "es": {
       "title": "Katsudon de la victoria",
       "ingredients": {
-        "tonkatsu": {"name": "Chuletas de cerdo empanadas con panko", "note": "ya fritas"},
-        "onion": {"name": "Cebolla dorada", "note": "cortada fina"},
-        "eggs": {"name": "Huevos grandes", "note": null},
-        "steamed_rice": {"name": "Arroz japonés al vapor", "note": null},
-        "dashi": {"name": "Caldo dashi", "note": null},
-        "soy_sauce": {"name": "Salsa de soja", "note": null},
-        "mirin": {"name": "Mirin", "note": null},
-        "sugar": {"name": "Azúcar", "note": null},
-        "garnish": {"name": "Guisantes o cebollino", "note": "para decorar"}
+        "tonkatsu": {
+          "name": "Chuletas de cerdo empanadas con panko",
+          "note": "ya fritas"
+        },
+        "onion": {
+          "name": "Cebolla dorada",
+          "note": "cortada fina"
+        },
+        "eggs": {
+          "name": "Huevos grandes",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Arroz japonés al vapor",
+          "note": null
+        },
+        "dashi": {
+          "name": "Caldo dashi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "garnish": {
+          "name": "Guisantes o cebollino",
+          "note": "para decorar"
+        }
       },
       "steps": {
         "simmer_onion": "Pon en una sartén pequeña el dashi, la salsa de soja, el mirin y el azúcar. Añade la cebolla y cocina suavemente hasta que se ablande.",
@@ -96,15 +228,42 @@
     "fr": {
       "title": "Katsudon de la victoire",
       "ingredients": {
-        "tonkatsu": {"name": "Escalopes de porc panées au panko", "note": "déjà frites"},
-        "onion": {"name": "Oignon jaune", "note": "finement émincé"},
-        "eggs": {"name": "Gros œufs", "note": null},
-        "steamed_rice": {"name": "Riz japonais cuit à la vapeur", "note": null},
-        "dashi": {"name": "Bouillon dashi", "note": null},
-        "soy_sauce": {"name": "Sauce soja", "note": null},
-        "mirin": {"name": "Mirin", "note": null},
-        "sugar": {"name": "Sucre", "note": null},
-        "garnish": {"name": "Petits pois ou ciboulette", "note": "pour garnir"}
+        "tonkatsu": {
+          "name": "Escalopes de porc panées au panko",
+          "note": "déjà frites"
+        },
+        "onion": {
+          "name": "Oignon jaune",
+          "note": "finement émincé"
+        },
+        "eggs": {
+          "name": "Gros œufs",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Riz japonais cuit à la vapeur",
+          "note": null
+        },
+        "dashi": {
+          "name": "Bouillon dashi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre",
+          "note": null
+        },
+        "garnish": {
+          "name": "Petits pois ou ciboulette",
+          "note": "pour garnir"
+        }
       },
       "steps": {
         "simmer_onion": "Versez le dashi, la sauce soja, le mirin et le sucre dans une petite poêle. Ajoutez l’oignon et laissez frémir jusqu’à ce qu’il soit tendre.",
@@ -117,15 +276,42 @@
     "de": {
       "title": "Katsudon zum Feiern",
       "ingredients": {
-        "tonkatsu": {"name": "Mit Panko panierte Schweinekoteletts", "note": "bereits frittiert"},
-        "onion": {"name": "Gelbe Zwiebel", "note": "dünn geschnitten"},
-        "eggs": {"name": "Große Eier", "note": null},
-        "steamed_rice": {"name": "Gedämpfter japanischer Reis", "note": null},
-        "dashi": {"name": "Dashi-Brühe", "note": null},
-        "soy_sauce": {"name": "Sojasauce", "note": null},
-        "mirin": {"name": "Mirin", "note": null},
-        "sugar": {"name": "Zucker", "note": null},
-        "garnish": {"name": "Erbsen oder Schnittlauch", "note": "zum Garnieren"}
+        "tonkatsu": {
+          "name": "Mit Panko panierte Schweinekoteletts",
+          "note": "bereits frittiert"
+        },
+        "onion": {
+          "name": "Gelbe Zwiebel",
+          "note": "dünn geschnitten"
+        },
+        "eggs": {
+          "name": "Große Eier",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Gedämpfter japanischer Reis",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi-Brühe",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker",
+          "note": null
+        },
+        "garnish": {
+          "name": "Erbsen oder Schnittlauch",
+          "note": "zum Garnieren"
+        }
       },
       "steps": {
         "simmer_onion": "Dashi, Sojasauce, Mirin und Zucker in einer kleinen Pfanne erhitzen. Die Zwiebel hinzufügen und weich köcheln lassen.",
@@ -138,15 +324,42 @@
     "pt": {
       "title": "Katsudon da vitória",
       "ingredients": {
-        "tonkatsu": {"name": "Costeletas de porco empanadas com panko", "note": "já fritas"},
-        "onion": {"name": "Cebola amarela", "note": "fatiada fina"},
-        "eggs": {"name": "Ovos grandes", "note": null},
-        "steamed_rice": {"name": "Arroz japonês cozido no vapor", "note": null},
-        "dashi": {"name": "Caldo dashi", "note": null},
-        "soy_sauce": {"name": "Molho de soja", "note": null},
-        "mirin": {"name": "Mirin", "note": null},
-        "sugar": {"name": "Açúcar", "note": null},
-        "garnish": {"name": "Ervilhas ou cebolinha", "note": "para finalizar"}
+        "tonkatsu": {
+          "name": "Costeletas de porco empanadas com panko",
+          "note": "já fritas"
+        },
+        "onion": {
+          "name": "Cebola amarela",
+          "note": "fatiada fina"
+        },
+        "eggs": {
+          "name": "Ovos grandes",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Arroz japonês cozido no vapor",
+          "note": null
+        },
+        "dashi": {
+          "name": "Caldo dashi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Molho de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "garnish": {
+          "name": "Ervilhas ou cebolinha",
+          "note": "para finalizar"
+        }
       },
       "steps": {
         "simmer_onion": "Coloque dashi, molho de soja, mirin e açúcar em uma frigideira pequena. Junte a cebola e cozinhe suavemente até amaciar.",

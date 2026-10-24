@@ -1,0 +1,305 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000013",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Persona 5 / Assassination Classroom",
+  "prepMinutes": 15,
+  "cookMinutes": 25,
+  "servings": 4,
+  "difficulty": "easy",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23.",
+  "imageAssetId": "recipe_000013_artwork",
+  "ingredients": [
+    {
+      "id": "beef_or_pork",
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "id": "potatoes",
+      "quantity": 2,
+      "unit": null
+    },
+    {
+      "id": "carrots",
+      "quantity": 2,
+      "unit": null
+    },
+    {
+      "id": "onion",
+      "quantity": 2,
+      "unit": null
+    },
+    {
+      "id": "curry_roux",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "apple",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "steamed_rice",
+      "quantity": 600,
+      "unit": "g"
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Japanese Curry Rice",
+      "ingredients": {
+        "beef_or_pork": {
+          "name": "Beef or pork, diced",
+          "note": null
+        },
+        "potatoes": {
+          "name": "Potatoes",
+          "note": null
+        },
+        "carrots": {
+          "name": "Carrots",
+          "note": null
+        },
+        "onion": {
+          "name": "Onion",
+          "note": null
+        },
+        "curry_roux": {
+          "name": "Japanese curry roux",
+          "note": null
+        },
+        "apple": {
+          "name": "Grated apple",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Steamed Japanese rice",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Brown the diced meat in a pot, then add sliced onion, carrot and potato.",
+        "step_2": "Cover with water or broth and simmer until the vegetables are tender, about 20 minutes.",
+        "step_3": "Stir in the grated apple, turn off the heat briefly and dissolve the curry roux until smooth.",
+        "step_4": "Return to low heat until the sauce is rich and thick, then serve beside hot steamed rice."
+      }
+    },
+    "it": {
+      "title": "Riso al curry giapponese",
+      "ingredients": {
+        "beef_or_pork": {
+          "name": "Manzo o maiale a dadini",
+          "note": null
+        },
+        "potatoes": {
+          "name": "Patate",
+          "note": null
+        },
+        "carrots": {
+          "name": "Carote",
+          "note": null
+        },
+        "onion": {
+          "name": "Cipolla",
+          "note": null
+        },
+        "curry_roux": {
+          "name": "Roux di curry giapponese",
+          "note": null
+        },
+        "apple": {
+          "name": "Mela grattugiata",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Riso giapponese al vapore",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Rosola la carne a dadini in pentola, poi aggiungi cipolla affettata, carote e patate.",
+        "step_2": "Copri con acqua o brodo e fai sobbollire per circa 20 minuti, finché le verdure sono tenere.",
+        "step_3": "Aggiungi la mela grattugiata, spegni brevemente il fuoco e sciogli il roux di curry mescolando bene.",
+        "step_4": "Riporta a fuoco basso finché la salsa è ricca e densa, poi servi accanto al riso caldo."
+      }
+    },
+    "es": {
+      "title": "Arroz con curry japonés",
+      "ingredients": {
+        "beef_or_pork": {
+          "name": "Ternera o cerdo en dados",
+          "note": null
+        },
+        "potatoes": {
+          "name": "Patatas",
+          "note": null
+        },
+        "carrots": {
+          "name": "Zanahorias",
+          "note": null
+        },
+        "onion": {
+          "name": "Cebolla",
+          "note": null
+        },
+        "curry_roux": {
+          "name": "Roux de curry japonés",
+          "note": null
+        },
+        "apple": {
+          "name": "Manzana rallada",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Arroz japonés al vapor",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Dora la carne en una olla y añade cebolla, zanahoria y patata.",
+        "step_2": "Cubre con agua o caldo y cuece unos 20 minutos hasta que las verduras estén tiernas.",
+        "step_3": "Añade la manzana rallada, apaga un momento el fuego y disuelve el roux de curry.",
+        "step_4": "Vuelve a fuego bajo hasta que la salsa espese y sirve junto al arroz."
+      }
+    },
+    "fr": {
+      "title": "Riz au curry japonais",
+      "ingredients": {
+        "beef_or_pork": {
+          "name": "Bœuf ou porc en dés",
+          "note": null
+        },
+        "potatoes": {
+          "name": "Pommes de terre",
+          "note": null
+        },
+        "carrots": {
+          "name": "Carottes",
+          "note": null
+        },
+        "onion": {
+          "name": "Oignon",
+          "note": null
+        },
+        "curry_roux": {
+          "name": "Roux de curry japonais",
+          "note": null
+        },
+        "apple": {
+          "name": "Pomme râpée",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Riz japonais vapeur",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Faites dorer la viande puis ajoutez oignon, carotte et pomme de terre.",
+        "step_2": "Couvrez d’eau ou de bouillon et laissez mijoter environ 20 minutes.",
+        "step_3": "Ajoutez la pomme râpée, coupez brièvement le feu et faites fondre le roux de curry.",
+        "step_4": "Remettez à feu doux jusqu’à épaississement puis servez avec le riz chaud."
+      }
+    },
+    "de": {
+      "title": "Japanisches Curry mit Reis",
+      "ingredients": {
+        "beef_or_pork": {
+          "name": "Rind- oder Schweinefleisch, gewürfelt",
+          "note": null
+        },
+        "potatoes": {
+          "name": "Kartoffeln",
+          "note": null
+        },
+        "carrots": {
+          "name": "Karotten",
+          "note": null
+        },
+        "onion": {
+          "name": "Zwiebel",
+          "note": null
+        },
+        "curry_roux": {
+          "name": "Japanische Curry-Roux",
+          "note": null
+        },
+        "apple": {
+          "name": "Geriebener Apfel",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Gedämpfter japanischer Reis",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Das gewürfelte Fleisch anbraten, dann Zwiebel, Karotte und Kartoffel zugeben.",
+        "step_2": "Mit Wasser oder Brühe bedecken und etwa 20 Minuten köcheln lassen.",
+        "step_3": "Geriebene Apfel zugeben, kurz vom Herd nehmen und die Curry-Roux einrühren.",
+        "step_4": "Bei niedriger Hitze eindicken lassen und mit heißem Reis servieren."
+      }
+    },
+    "pt": {
+      "title": "Arroz com curry japonês",
+      "ingredients": {
+        "beef_or_pork": {
+          "name": "Carne bovina ou suína em cubos",
+          "note": null
+        },
+        "potatoes": {
+          "name": "Batatas",
+          "note": null
+        },
+        "carrots": {
+          "name": "Cenouras",
+          "note": null
+        },
+        "onion": {
+          "name": "Cebola",
+          "note": null
+        },
+        "curry_roux": {
+          "name": "Roux de curry japonês",
+          "note": null
+        },
+        "apple": {
+          "name": "Maçã ralada",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Arroz japonês no vapor",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Doure a carne em cubos e junte cebola, cenoura e batata.",
+        "step_2": "Cubra com água ou caldo e cozinhe por cerca de 20 minutos.",
+        "step_3": "Junte a maçã ralada, desligue o fogo por um instante e dissolva o roux de curry.",
+        "step_4": "Volte ao fogo baixo até engrossar e sirva ao lado do arroz quente."
+      }
+    }
+  }
+}

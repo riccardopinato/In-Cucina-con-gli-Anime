@@ -4,9 +4,9 @@ Flutter app for original/adapted editorial recipes inspired by food seen in anim
 
 ## Current state
 
-**v0.8 — F4A complete: consent/privacy foundation with a fail-closed ad-request gate.**
+**v0.9 — F3F complete: twenty audited recipes with one optimized original artwork per recipe; F4A remains complete and monetization wiring is unchanged.**
 
-F1 remains the runtime contract and F2 remains the authoring/build layer. F3 is complete. F4A now persists the local ad-privacy preference while keeping provider eligibility ephemeral and unresolved by default; ad requests remain impossible until both gates allow them. No ad or billing SDK is mounted yet. F4B entitlement + one-time purchase is next.
+F1 remains the runtime contract and F2 remains the authoring/build layer. F3D/F3E established the artwork system; F3F expands the catalog to twenty recipes, fills every recipe artwork slot, audits culinary semantics and hardens batch CI. F4A consent/privacy remains complete, but this editorial batch does not add ad or billing SDKs.
 
 ## Stack
 
@@ -66,7 +66,7 @@ flutter build web --release
 - Agent contract: `AGENTS.md`
 - Golden reuse: `docs/GOLDEN_REUSE_MANIFEST.txt`
 
-Factory baseline: App-Factory-Core Master 26.6 / Golden Index 19 @ `55247b294b44914dba8da6c176c9e50d5fe0e13e`.
+Factory baseline: App-Factory-Core Master 26.6 / Golden Index 19 @ `4cc0b94467b94ab6fabe2c927fcc58afff49e39a`.
 
 
 ## Recipe artwork pipeline

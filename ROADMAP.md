@@ -147,7 +147,7 @@ Delivers:
 - JPEG dimension/weight gates plus a pinned build-time optimizer;
 - orphan/incorrect/stale artwork fails closed;
 - wrong Katsudon stand-in removed; recipe_000003 returns to procedural fallback until exact artwork is approved;
-- current approved pilot artwork: recipe_000002 ramen and recipe_000009 oyakodon.
+- initial approved artwork established with recipe_000002 ramen and recipe_000009 oyakodon; F3F extends the same contract across the catalog.
 
 Exit:
 - materialized assets meet <= 140 KiB hard budget with >= 720 px short edge;
@@ -160,6 +160,40 @@ Evidence:
 - Development checks run `39966691212`: materialization drift, authoring/catalog validation, Flutter analyze/test, synthetic Web preview, production Web release and Android ARM64 artifact all PASS;
 - committed artwork sizes: ramen 132092 bytes, oyakodon 111776 bytes;
 - recipe_000003 has no image asset until an exact Katsudon artwork is approved.
+
+### F3F — Twenty-recipe editorial + artwork batch — PASS
+
+Delivered:
+- second production batch from the user-provided 10-recipe research PDF, assigned stable IDs `recipe_000011` through `recipe_000020`;
+- all new recipes localized EN/IT/ES/FR/DE/PT and integrated through the authoring pipeline;
+- source contradictions audited instead of copied blindly: Chaliapin Steak Don timing corrected because its method includes a 30-minute onion rest; Nikuman timing corrected because its method includes a 60-minute proof plus steaming;
+- all eight previously missing artworks completed, including corrected Katsudon and tuna-mayo onigiri generations after semantic visual review;
+- all ten new recipes receive original anime-inspired food artwork;
+- catalog now has one canonical artwork for every published recipe (20/20), with the same asset cropped on cards and shown whole in detail;
+- committed new artwork is already below the F3E 140 KiB hard limit before CI optimization;
+- Okonomiyaki terminology corrected from source label `Aoki` to culinary `aonori` while retaining the stable internal ingredient ID;
+- Android ARM64 build/upload restored as a universal PR gate instead of the old F3D-branch-only condition;
+- materialized catalog artifact is uploaded before drift validation so future batch updates remain recoverable/automatable;
+- app version `0.9.0+9`; runtime catalog version `0.6.0`.
+
+Second batch:
+11. Chaliapin Steak Don — `Food Wars! (Shokugeki no Souma)`;
+12. Gotcha Pork Roast — `Food Wars! (Shokugeki no Souma)`;
+13. Japanese Curry Rice — `Persona 5 / Assassination Classroom`;
+14. Spicy Mapo Tofu — `Angel Beats! / Food Wars!`;
+15. Nikujaga — `Demon Slayer / Inuyasha`;
+16. Karaage — `Haikyuu!! / Food Wars!`;
+17. Tamagoyaki — `Demon Slayer / Pokémon`;
+18. Nikuman — `Dragon Ball / La città incantata`;
+19. Mitarashi Dango — `Naruto / Demon Slayer`;
+20. Taiyaki — `My Hero Academia / Kanon`.
+
+Exit:
+- authoring + duplicate/similarity gates green for all twenty recipes;
+- generated-catalog drift resolved and F1 runtime validation green;
+- all twenty artwork assets decode and meet F3E size/dimension gates;
+- Flutter analyze/test + Web release + Android ARM64 gates green on exact PR head;
+- PR merged without unresolved blocking review.
 
 ## F4 — Monetization v1 — CURRENT
 

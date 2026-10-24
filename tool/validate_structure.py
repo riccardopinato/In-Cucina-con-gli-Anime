@@ -97,15 +97,8 @@ for name, keys in key_sets.items():
 production_authoring = sorted(
     (ROOT / "authoring" / "recipes").glob("*.json")
 )
-expected_recipe_ids = {
-    f"recipe_{index:06d}"
-    for index in range(1, 11)
-}
-if len(production_authoring) != 10:
-    raise SystemExit(
-        "F3A must contain exactly 10 production authoring "
-        f"recipes, found {len(production_authoring)}"
-    )
+if not production_authoring:
+    raise SystemExit("Production authoring catalog is empty")
 
 authoring_ids = set()
 for path in production_authoring:
@@ -115,9 +108,14 @@ for path in production_authoring:
         raise SystemExit(f"Duplicate authoring recipe id: {recipe_id}")
     authoring_ids.add(recipe_id)
 
+expected_recipe_ids = {
+    f"recipe_{index:06d}"
+    for index in range(1, len(production_authoring) + 1)
+}
 if authoring_ids != expected_recipe_ids:
     raise SystemExit(
-        "F3A authoring IDs do not match expected ten-recipe batch IDs"
+        "Production authoring IDs must form one contiguous stable sequence "
+        f"from recipe_000001 to recipe_{len(production_authoring):06d}"
     )
 
 catalog = json.loads(
@@ -126,9 +124,13 @@ catalog = json.loads(
     ).read_text(encoding="utf-8")
 )
 runtime_recipes = catalog.get("recipes")
-if not isinstance(runtime_recipes, list) or len(runtime_recipes) != 10:
+if (
+    not isinstance(runtime_recipes, list)
+    or len(runtime_recipes) != len(production_authoring)
+):
     raise SystemExit(
-        "F3A runtime catalog must contain exactly 10 recipes"
+        "Runtime catalog recipe count must match production authoring: "
+        f"{len(production_authoring)} expected"
     )
 
 runtime_ids = {
@@ -136,9 +138,9 @@ runtime_ids = {
     for recipe in runtime_recipes
     if isinstance(recipe, dict)
 }
-if runtime_ids != expected_recipe_ids:
+if runtime_ids != authoring_ids:
     raise SystemExit(
-        "F3A runtime recipe IDs do not match authoring IDs"
+        "Runtime recipe IDs do not match production authoring IDs"
     )
 
 for forbidden in (

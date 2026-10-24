@@ -247,8 +247,8 @@
           "note": "zum Garnieren"
         },
         "aoki_seaweed": {
-          "name": "Aoki-Alge",
-          "note": "Bezeichnung aus der Quelle"
+          "name": "Aonori (getrocknete Grünalge)",
+          "note": "korrigierter kulinarischer Begriff; stabile interne ID beibehalten"
         }
       },
       "stepTexts": {
@@ -446,6 +446,423 @@
         "assemble_filling": "Kürbis in einer Auflaufform verteilen, Fisch und Zwiebel daraufgeben, Olivenscheiben darüberstreuen und mit Béchamel bedecken.",
         "cover_and_decorate": "Die Form mit Blätterteig abdecken und aus Resten eine einfache Fischdekoration formen.",
         "bake": "Mit Eigelb bestreichen und im vorgeheizten statischen Ofen bei 200°C backen, bis der Blätterteig kräftig goldbraun ist."
+      }
+    },
+    "recipe_000011": {
+      "title": "Chaliapin Steak Don",
+      "ingredientTexts": {
+        "beef_steak": {
+          "name": "Rindersteak",
+          "note": null
+        },
+        "onion": {
+          "name": "Zwiebel",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Gedämpfter japanischer Reis",
+          "note": null
+        },
+        "umeboshi": {
+          "name": "Umeboshi-Pflaumen",
+          "note": null
+        },
+        "butter": {
+          "name": "Butter",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "red_wine": {
+          "name": "Trockener Rotwein",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Das Steak kreuzweise leicht einschneiden, vollständig mit fein gehackter Zwiebel bedecken und 30 Minuten ruhen lassen.",
+        "step_2": "Die Zwiebel abnehmen und in Butter goldbraun karamellisieren.",
+        "step_3": "Das Steak bei hoher Hitze etwa 2 Minuten je Seite anbraten und mit Sojasauce und Rotwein ablöschen.",
+        "step_4": "Den heißen Reis mit gehackter Umeboshi mischen und in eine Schüssel geben.",
+        "step_5": "Das Steak aufschneiden, auf den Reis legen und mit karamellisierter Zwiebel und Bratensaft vollenden."
+      }
+    },
+    "recipe_000012": {
+      "title": "Gotcha Pork Roast (falscher Braten)",
+      "ingredientTexts": {
+        "potatoes": {
+          "name": "Kartoffeln",
+          "note": null
+        },
+        "onion": {
+          "name": "Zwiebel",
+          "note": null
+        },
+        "bacon": {
+          "name": "Dicker Bacon",
+          "note": null
+        },
+        "eringii": {
+          "name": "Kräuterseitling",
+          "note": null
+        },
+        "butter": {
+          "name": "Butter",
+          "note": null
+        },
+        "red_wine": {
+          "name": "Trockener Rotwein",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "rosemary": {
+          "name": "Frischer Rosmarin",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Kartoffeln weich kochen und stampfen. Zwiebel und Pilz in Butter anbraten und unter die Kartoffeln mischen.",
+        "step_2": "Die Kartoffelmasse zu einem kompakten Braten formen.",
+        "step_3": "Den Laib vollständig mit überlappendem Bacon umwickeln und mit Küchengarn und Rosmarin fixieren.",
+        "step_4": "Bei 200°C etwa 30–40 Minuten backen, bis der Bacon knusprig ist.",
+        "step_5": "Den Bräter mit Rotwein, Sojasauce und Butter ablöschen und die Sauce über den aufgeschnittenen Braten geben."
+      }
+    },
+    "recipe_000013": {
+      "title": "Japanisches Curry mit Reis",
+      "ingredientTexts": {
+        "beef_or_pork": {
+          "name": "Rind- oder Schweinefleisch, gewürfelt",
+          "note": null
+        },
+        "potatoes": {
+          "name": "Kartoffeln",
+          "note": null
+        },
+        "carrots": {
+          "name": "Karotten",
+          "note": null
+        },
+        "onion": {
+          "name": "Zwiebel",
+          "note": null
+        },
+        "curry_roux": {
+          "name": "Japanische Curry-Roux",
+          "note": null
+        },
+        "apple": {
+          "name": "Geriebener Apfel",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Gedämpfter japanischer Reis",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Das gewürfelte Fleisch anbraten, dann Zwiebel, Karotte und Kartoffel zugeben.",
+        "step_2": "Mit Wasser oder Brühe bedecken und etwa 20 Minuten köcheln lassen.",
+        "step_3": "Geriebene Apfel zugeben, kurz vom Herd nehmen und die Curry-Roux einrühren.",
+        "step_4": "Bei niedriger Hitze eindicken lassen und mit heißem Reis servieren."
+      }
+    },
+    "recipe_000014": {
+      "title": "Scharfes Mapo Tofu",
+      "ingredientTexts": {
+        "soft_tofu": {
+          "name": "Weicher Tofu",
+          "note": null
+        },
+        "ground_pork": {
+          "name": "Schweinehackfleisch",
+          "note": null
+        },
+        "doubanjiang": {
+          "name": "Doubanjiang-Paste",
+          "note": null
+        },
+        "sichuan_pepper": {
+          "name": "Sichuanpfeffer",
+          "note": null
+        },
+        "garlic": {
+          "name": "Knoblauch",
+          "note": null
+        },
+        "ginger": {
+          "name": "Frischer Ingwer",
+          "note": null
+        },
+        "broth": {
+          "name": "Brühe",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Maisstärke",
+          "note": null
+        },
+        "spring_onion": {
+          "name": "Frühlingszwiebel",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Tofu in 2-cm-Würfel schneiden und 1 Minute in Salzwasser blanchieren.",
+        "step_2": "Öl im Wok erhitzen und Knoblauch, Ingwer, Sichuanpfeffer und Doubanjiang anrösten.",
+        "step_3": "Hackfleisch kräftig anbraten und dann die Brühe zugießen.",
+        "step_4": "Tofu 5 Minuten mitköcheln und mit angerührter Maisstärke binden. Mit Frühlingszwiebel abschließen."
+      }
+    },
+    "recipe_000015": {
+      "title": "Nikujaga, Fleisch-Kartoffel-Eintopf",
+      "ingredientTexts": {
+        "thin_beef": {
+          "name": "Dünn geschnittenes Rindfleisch",
+          "note": null
+        },
+        "potatoes": {
+          "name": "Kartoffeln",
+          "note": null
+        },
+        "carrot": {
+          "name": "Karotten",
+          "note": null
+        },
+        "onion": {
+          "name": "Zwiebel",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi-Brühe",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Kartoffeln und Karotte unregelmäßig schneiden und die Zwiebel in Scheiben schneiden.",
+        "step_2": "Dünnes Rindfleisch anbraten, dann Zwiebel, Kartoffeln und Karotte zugeben.",
+        "step_3": "Dashi, Sojasauce, Mirin und Zucker zugeben und sanft köcheln lassen.",
+        "step_4": "Mit einem Fall-Deckel abdecken und etwa 20 Minuten köcheln lassen."
+      }
+    },
+    "recipe_000016": {
+      "title": "Karaage, japanisches Brathähnchen",
+      "ingredientTexts": {
+        "chicken_thighs": {
+          "name": "Entbeinte Hähnchenschenkel",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "ginger": {
+          "name": "Frischer Ingwer",
+          "note": null
+        },
+        "garlic": {
+          "name": "Knoblauch",
+          "note": null
+        },
+        "potato_starch": {
+          "name": "Kartoffelstärke",
+          "note": null
+        },
+        "frying_oil": {
+          "name": "Neutrales Frittieröl",
+          "note": null
+        },
+        "lemon": {
+          "name": "Zitrone",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Hähnchen in 3–4-cm-Stücke schneiden und 20 Minuten mit Sojasauce, Sake, Ingwer und Knoblauch marinieren.",
+        "step_2": "Jedes Stück großzügig in Kartoffelstärke wenden.",
+        "step_3": "Bei etwa 160°C 4 Minuten frittieren, abtropfen lassen und 2 Minuten ruhen lassen.",
+        "step_4": "Noch einmal bei etwa 180°C 1 Minute frittieren und mit Zitrone servieren."
+      }
+    },
+    "recipe_000017": {
+      "title": "Tamagoyaki, gerolltes Omelett",
+      "ingredientTexts": {
+        "eggs": {
+          "name": "Eier",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi-Brühe",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "salt": {
+          "name": "Salz",
+          "note": null
+        },
+        "oil": {
+          "name": "Neutrales Frittieröl",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Eier mit Dashi, Zucker, Sojasauce und einer Prise Salz sanft verquirlen.",
+        "step_2": "Eine rechteckige Pfanne leicht ölen und eine dünne Eierschicht hineingeben.",
+        "step_3": "Sobald die Schicht gerade gestockt ist, zur Seite aufrollen.",
+        "step_4": "Eine weitere Schicht zugeben, unter die Rolle laufen lassen und erneut aufrollen. Wiederholen und schneiden."
+      }
+    },
+    "recipe_000018": {
+      "title": "Nikuman, gedämpfte Schweinebrötchen",
+      "ingredientTexts": {
+        "flour": {
+          "name": "Weizenmehl",
+          "note": null
+        },
+        "yeast": {
+          "name": "Backhefe",
+          "note": null
+        },
+        "water": {
+          "name": "Lauwarmes Wasser",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker",
+          "note": null
+        },
+        "ground_pork": {
+          "name": "Schweinehackfleisch",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Chinakohl",
+          "note": null
+        },
+        "spring_onion": {
+          "name": "Frühlingszwiebel",
+          "note": null
+        },
+        "ginger": {
+          "name": "Frischer Ingwer",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Sesamöl",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sojasauce",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Mehl, Hefe, lauwarmes Wasser und Zucker kneten und etwa 1 Stunde gehen lassen.",
+        "step_2": "Schweinehack mit ausgedrücktem Kohl, Frühlingszwiebel, Ingwer, Sojasauce und Sesamöl mischen.",
+        "step_3": "Teig teilen, zu Scheiben mit dünneren Rändern ausrollen und füllen.",
+        "step_4": "Die Ränder in Falten zur Mitte ziehen und die Brötchen schließen.",
+        "step_5": "Auf Backpapier 15–18 Minuten dämpfen und vor dem Öffnen kurz warten."
+      }
+    },
+    "recipe_000019": {
+      "title": "Mitarashi Dango",
+      "ingredientTexts": {
+        "shiratamako": {
+          "name": "Shiratamako-Klebreismehl",
+          "note": null
+        },
+        "silken_tofu": {
+          "name": "Seidentofu",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "water": {
+          "name": "Lauwarmes Wasser",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Maisstärke",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Klebreismehl mit Seidentofu zu einem weichen Teig kneten.",
+        "step_2": "Kugeln formen, kochen und nach dem Aufsteigen noch 2 Minuten garen. In Eiswasser abschrecken.",
+        "step_3": "Je 3–4 Dango aufspießen und kurz angrillen.",
+        "step_4": "Sojasauce, Zucker, Mirin, Wasser und Stärke dicklich kochen und die Spieße glasieren."
+      }
+    },
+    "recipe_000020": {
+      "title": "Taiyaki mit Anko",
+      "ingredientTexts": {
+        "flour": {
+          "name": "Weizenmehl",
+          "note": null
+        },
+        "baking_powder": {
+          "name": "Backpulver",
+          "note": null
+        },
+        "egg": {
+          "name": "Eier",
+          "note": null
+        },
+        "milk": {
+          "name": "Milch",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker",
+          "note": null
+        },
+        "anko": {
+          "name": "Süße Azukibohnenpaste (Anko)",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Ei mit Zucker und Milch verquirlen, dann Mehl und Backpulver einsieben.",
+        "step_2": "Taiyaki-Form erhitzen und leicht ölen.",
+        "step_3": "Eine dünne Teigschicht einfüllen, Anko in die Mitte geben und mit Teig bedecken.",
+        "step_4": "Form schließen und bei mittlerer bis niedriger Hitze 3–4 Minuten je Seite goldbraun backen."
       }
     }
   }

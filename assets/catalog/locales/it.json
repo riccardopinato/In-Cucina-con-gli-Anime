@@ -247,8 +247,8 @@
           "note": "per completare"
         },
         "aoki_seaweed": {
-          "name": "Alga Aoki",
-          "note": "denominazione riportata nella fonte"
+          "name": "Aonori (alga verde essiccata)",
+          "note": "terminologia culinaria corretta; ID interno mantenuto stabile"
         }
       },
       "stepTexts": {
@@ -446,6 +446,423 @@
         "assemble_filling": "Distribuisci la purea di zucca sul fondo di una pirofila, aggiungi pesce e cipolla, le olive nere a rondelle e copri con la besciamella.",
         "cover_and_decorate": "Chiudi la pirofila con la pasta sfoglia. Usa gli eventuali ritagli per creare una semplice decorazione a forma di pesce.",
         "bake": "Spennella la sfoglia con il tuorlo e cuoci in forno statico preriscaldato a 200°C finché la superficie è ben dorata."
+      }
+    },
+    "recipe_000011": {
+      "title": "Chaliapin Steak Don",
+      "ingredientTexts": {
+        "beef_steak": {
+          "name": "Bistecca di manzo",
+          "note": null
+        },
+        "onion": {
+          "name": "Cipolla",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Riso giapponese al vapore",
+          "note": null
+        },
+        "umeboshi": {
+          "name": "Prugne umeboshi",
+          "note": null
+        },
+        "butter": {
+          "name": "Burro",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa di soia",
+          "note": null
+        },
+        "red_wine": {
+          "name": "Vino rosso secco",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Incidi leggermente la bistecca a griglia, coprila con la cipolla tritata finissima e lasciala riposare per 30 minuti.",
+        "step_2": "Rimuovi la cipolla e rosolala nel burro finché è dorata e ben caramellata.",
+        "step_3": "Rosola la bistecca a fuoco alto per circa 2 minuti per lato, poi sfuma con salsa di soia e vino rosso.",
+        "step_4": "Mescola il riso caldo con l’umeboshi tritata e sistemalo in una ciotola.",
+        "step_5": "Affetta la bistecca, adagiala sul riso e completa con cipolla caramellata e fondo di cottura."
+      }
+    },
+    "recipe_000012": {
+      "title": "Gotcha Pork Roast (arrosto finto)",
+      "ingredientTexts": {
+        "potatoes": {
+          "name": "Patate",
+          "note": null
+        },
+        "onion": {
+          "name": "Cipolla",
+          "note": null
+        },
+        "bacon": {
+          "name": "Bacon a fette spesse",
+          "note": null
+        },
+        "eringii": {
+          "name": "Fungo eringii o cardoncello",
+          "note": null
+        },
+        "butter": {
+          "name": "Burro",
+          "note": null
+        },
+        "red_wine": {
+          "name": "Vino rosso secco",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa di soia",
+          "note": null
+        },
+        "rosemary": {
+          "name": "Rosmarino fresco",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Lessa le patate finché sono morbide e schiacciale. Salta cipolla e fungo tritati nel burro e incorporali alle patate.",
+        "step_2": "Compatta il composto di patate dandogli la forma di un arrosto.",
+        "step_3": "Avvolgi il blocco con fette di bacon sovrapposte e fermalo con spago da cucina e rosmarino.",
+        "step_4": "Inforna a 200°C finché il bacon è dorato e croccante, circa 30–40 minuti.",
+        "step_5": "Sfuma la teglia con vino rosso, salsa di soia e burro e versa la salsa sull’arrosto affettato."
+      }
+    },
+    "recipe_000013": {
+      "title": "Riso al curry giapponese",
+      "ingredientTexts": {
+        "beef_or_pork": {
+          "name": "Manzo o maiale a dadini",
+          "note": null
+        },
+        "potatoes": {
+          "name": "Patate",
+          "note": null
+        },
+        "carrots": {
+          "name": "Carote",
+          "note": null
+        },
+        "onion": {
+          "name": "Cipolla",
+          "note": null
+        },
+        "curry_roux": {
+          "name": "Roux di curry giapponese",
+          "note": null
+        },
+        "apple": {
+          "name": "Mela grattugiata",
+          "note": null
+        },
+        "steamed_rice": {
+          "name": "Riso giapponese al vapore",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Rosola la carne a dadini in pentola, poi aggiungi cipolla affettata, carote e patate.",
+        "step_2": "Copri con acqua o brodo e fai sobbollire per circa 20 minuti, finché le verdure sono tenere.",
+        "step_3": "Aggiungi la mela grattugiata, spegni brevemente il fuoco e sciogli il roux di curry mescolando bene.",
+        "step_4": "Riporta a fuoco basso finché la salsa è ricca e densa, poi servi accanto al riso caldo."
+      }
+    },
+    "recipe_000014": {
+      "title": "Mapo Tofu piccante",
+      "ingredientTexts": {
+        "soft_tofu": {
+          "name": "Tofu morbido",
+          "note": null
+        },
+        "ground_pork": {
+          "name": "Macinato di maiale",
+          "note": null
+        },
+        "doubanjiang": {
+          "name": "Pasta doubanjiang",
+          "note": null
+        },
+        "sichuan_pepper": {
+          "name": "Pepe di Sichuan",
+          "note": null
+        },
+        "garlic": {
+          "name": "Aglio",
+          "note": null
+        },
+        "ginger": {
+          "name": "Zenzero fresco",
+          "note": null
+        },
+        "broth": {
+          "name": "Brodo",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Amido di mais",
+          "note": null
+        },
+        "spring_onion": {
+          "name": "Cipollotto",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Taglia il tofu a cubetti di circa 2 cm e sbollentalo per 1 minuto in acqua leggermente salata.",
+        "step_2": "Scalda l’olio nel wok e soffriggi aglio, zenzero, pepe di Sichuan e doubanjiang finché sprigionano profumo.",
+        "step_3": "Aggiungi il macinato di maiale e rosolalo bene, quindi versa il brodo.",
+        "step_4": "Unisci il tofu, cuoci per 5 minuti e addensa con amido di mais sciolto in acqua. Completa con cipollotto."
+      }
+    },
+    "recipe_000015": {
+      "title": "Nikujaga, spezzatino di carne e patate",
+      "ingredientTexts": {
+        "thin_beef": {
+          "name": "Manzo a fettine sottili",
+          "note": null
+        },
+        "potatoes": {
+          "name": "Patate",
+          "note": null
+        },
+        "carrot": {
+          "name": "Carote",
+          "note": null
+        },
+        "onion": {
+          "name": "Cipolla",
+          "note": null
+        },
+        "dashi": {
+          "name": "Brodo dashi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa di soia",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucchero",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Taglia patate e carota a tocchetti irregolari e affetta la cipolla.",
+        "step_2": "Rosola il manzo sottile con poco olio, poi aggiungi cipolla, patate e carota.",
+        "step_3": "Versa dashi, salsa di soia, mirin e zucchero e porta a leggero bollore.",
+        "step_4": "Copri con un otoshibuta e fai sobbollire per circa 20 minuti, finché le verdure sono morbide e lucide."
+      }
+    },
+    "recipe_000016": {
+      "title": "Karaage, pollo fritto giapponese",
+      "ingredientTexts": {
+        "chicken_thighs": {
+          "name": "Sovracosce di pollo disossate",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa di soia",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "ginger": {
+          "name": "Zenzero fresco",
+          "note": null
+        },
+        "garlic": {
+          "name": "Aglio",
+          "note": null
+        },
+        "potato_starch": {
+          "name": "Fecola di patate",
+          "note": null
+        },
+        "frying_oil": {
+          "name": "Olio neutro per friggere",
+          "note": null
+        },
+        "lemon": {
+          "name": "Limone",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Taglia il pollo a bocconcini da 3–4 cm e marinalo per 20 minuti con salsa di soia, sake, zenzero e aglio.",
+        "step_2": "Passa ogni bocconcino nella fecola di patate facendola aderire bene.",
+        "step_3": "Friggi a circa 160°C per 4 minuti, scola e lascia riposare 2 minuti.",
+        "step_4": "Fai una seconda frittura a circa 180°C per 1 minuto finché è molto croccante e servi con limone."
+      }
+    },
+    "recipe_000017": {
+      "title": "Tamagoyaki, omelette arrotolata",
+      "ingredientTexts": {
+        "eggs": {
+          "name": "Uova",
+          "note": null
+        },
+        "dashi": {
+          "name": "Brodo dashi",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucchero",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa di soia",
+          "note": null
+        },
+        "salt": {
+          "name": "Sale",
+          "note": null
+        },
+        "oil": {
+          "name": "Olio neutro per friggere",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Sbatti delicatamente le uova con dashi, zucchero, salsa di soia e un pizzico di sale senza creare troppa schiuma.",
+        "step_2": "Ungi leggermente una padella rettangolare e versa un velo sottile di uovo.",
+        "step_3": "Quando è appena rappreso, arrotola l’uovo verso un lato della padella.",
+        "step_4": "Versa un altro strato, fallo scorrere sotto il rotolo e arrotola di nuovo. Ripeti fino a esaurire il composto, poi modella e affetta."
+      }
+    },
+    "recipe_000018": {
+      "title": "Nikuman, panini al vapore con maiale",
+      "ingredientTexts": {
+        "flour": {
+          "name": "Farina 00",
+          "note": null
+        },
+        "yeast": {
+          "name": "Lievito di birra",
+          "note": null
+        },
+        "water": {
+          "name": "Acqua tiepida",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucchero",
+          "note": null
+        },
+        "ground_pork": {
+          "name": "Macinato di maiale",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Cavolo cinese",
+          "note": null
+        },
+        "spring_onion": {
+          "name": "Cipollotto",
+          "note": null
+        },
+        "ginger": {
+          "name": "Zenzero fresco",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Olio di sesamo",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa di soia",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Impasta farina, lievito, acqua tiepida e zucchero fino a ottenere un impasto liscio, poi lascia lievitare circa 1 ora fino al raddoppio.",
+        "step_2": "Mescola il maiale con cavolo tritato e ben strizzato, cipollotto, zenzero, salsa di soia e olio di sesamo.",
+        "step_3": "Dividi l’impasto, stendilo in dischi con i bordi più sottili e metti una cucchiaiata di ripieno al centro.",
+        "step_4": "Pizzica le pieghe verso il centro per chiudere ogni panino a fagottino.",
+        "step_5": "Cuoci a vapore su quadratini di carta forno per 15–18 minuti e attendi un attimo prima di aprire la vaporiera."
+      }
+    },
+    "recipe_000019": {
+      "title": "Mitarashi Dango",
+      "ingredientTexts": {
+        "shiratamako": {
+          "name": "Farina di riso glutinoso shiratamako",
+          "note": null
+        },
+        "silken_tofu": {
+          "name": "Tofu setoso",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa di soia",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucchero",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "water": {
+          "name": "Acqua tiepida",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Amido di mais",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Impasta la farina di riso glutinoso con il tofu setoso fino a ottenere un panetto morbido e modellabile.",
+        "step_2": "Forma palline grandi come una noce, lessale e cuocile altri 2 minuti da quando salgono a galla. Raffreddale in acqua e ghiaccio.",
+        "step_3": "Infilza 3–4 dango per spiedino e grigliali brevemente per creare leggere bruciacchiature.",
+        "step_4": "Scalda salsa di soia, zucchero, mirin, acqua e amido mescolando finché la salsa è lucida e densa. Nappa bene gli spiedini."
+      }
+    },
+    "recipe_000020": {
+      "title": "Taiyaki con anko",
+      "ingredientTexts": {
+        "flour": {
+          "name": "Farina 00",
+          "note": null
+        },
+        "baking_powder": {
+          "name": "Lievito per dolci",
+          "note": null
+        },
+        "egg": {
+          "name": "Uova",
+          "note": null
+        },
+        "milk": {
+          "name": "Latte",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucchero",
+          "note": null
+        },
+        "anko": {
+          "name": "Pasta dolce di azuki (anko)",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "step_1": "Sbatti l’uovo con zucchero e latte, poi incorpora farina e lievito setacciati fino a ottenere una pastella liscia.",
+        "step_2": "Scalda la piastra a forma di pesce e ungila leggermente.",
+        "step_3": "Versa un velo di pastella, aggiungi una cucchiaiata abbondante di anko al centro e copri con altra pastella.",
+        "step_4": "Chiudi la piastra e cuoci a fuoco medio-basso per 3–4 minuti per lato, finché è dorato e croccante."
       }
     }
   }

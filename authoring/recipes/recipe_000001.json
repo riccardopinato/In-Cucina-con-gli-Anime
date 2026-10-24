@@ -10,30 +10,80 @@
   "difficulty": "easy",
   "contentOrigin": "adapted",
   "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. Servings inferred from ingredient quantities because the source does not state yield.",
-  "imageAssetId": null,
+  "imageAssetId": "recipe_000001_artwork",
   "ingredients": [
-    {"id": "smoked_bacon", "quantity": 4, "unit": "slice"},
-    {"id": "eggs", "quantity": 2, "unit": null},
-    {"id": "butter", "quantity": 1, "unit": "tbsp"},
-    {"id": "black_pepper", "quantity": null, "unit": null},
-    {"id": "country_bread", "quantity": null, "unit": null}
+    {
+      "id": "smoked_bacon",
+      "quantity": 4,
+      "unit": "slice"
+    },
+    {
+      "id": "eggs",
+      "quantity": 2,
+      "unit": null
+    },
+    {
+      "id": "butter",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "black_pepper",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "country_bread",
+      "quantity": null,
+      "unit": null
+    }
   ],
   "steps": [
-    {"id": "heat_pan", "timerSeconds": null},
-    {"id": "crisp_bacon", "timerSeconds": null},
-    {"id": "add_eggs", "timerSeconds": null},
-    {"id": "finish_eggs", "timerSeconds": null},
-    {"id": "season_serve", "timerSeconds": null}
+    {
+      "id": "heat_pan",
+      "timerSeconds": null
+    },
+    {
+      "id": "crisp_bacon",
+      "timerSeconds": null
+    },
+    {
+      "id": "add_eggs",
+      "timerSeconds": null
+    },
+    {
+      "id": "finish_eggs",
+      "timerSeconds": null
+    },
+    {
+      "id": "season_serve",
+      "timerSeconds": null
+    }
   ],
   "locales": {
     "en": {
       "title": "Skillet Eggs with Crispy Bacon",
       "ingredients": {
-        "smoked_bacon": {"name": "Thick-cut smoked bacon", "note": "4 slices"},
-        "eggs": {"name": "Large fresh eggs", "note": null},
-        "butter": {"name": "Butter", "note": null},
-        "black_pepper": {"name": "Freshly ground black pepper", "note": "to taste"},
-        "country_bread": {"name": "Rustic sourdough bread", "note": "for serving"}
+        "smoked_bacon": {
+          "name": "Thick-cut smoked bacon",
+          "note": "4 slices"
+        },
+        "eggs": {
+          "name": "Large fresh eggs",
+          "note": null
+        },
+        "butter": {
+          "name": "Butter",
+          "note": null
+        },
+        "black_pepper": {
+          "name": "Freshly ground black pepper",
+          "note": "to taste"
+        },
+        "country_bread": {
+          "name": "Rustic sourdough bread",
+          "note": "for serving"
+        }
       },
       "steps": {
         "heat_pan": "Warm a cast-iron or heavy skillet over medium heat and melt the butter.",
@@ -46,11 +96,26 @@
     "it": {
       "title": "Uova in padella con bacon croccante",
       "ingredients": {
-        "smoked_bacon": {"name": "Bacon affumicato a fette spesse", "note": "4 fette"},
-        "eggs": {"name": "Uova fresche grandi", "note": null},
-        "butter": {"name": "Burro", "note": null},
-        "black_pepper": {"name": "Pepe nero macinato fresco", "note": "quanto basta"},
-        "country_bread": {"name": "Pane casereccio a lievitazione naturale", "note": "per accompagnare"}
+        "smoked_bacon": {
+          "name": "Bacon affumicato a fette spesse",
+          "note": "4 fette"
+        },
+        "eggs": {
+          "name": "Uova fresche grandi",
+          "note": null
+        },
+        "butter": {
+          "name": "Burro",
+          "note": null
+        },
+        "black_pepper": {
+          "name": "Pepe nero macinato fresco",
+          "note": "quanto basta"
+        },
+        "country_bread": {
+          "name": "Pane casereccio a lievitazione naturale",
+          "note": "per accompagnare"
+        }
       },
       "steps": {
         "heat_pan": "Scalda una padella in ghisa o dal fondo pesante a fuoco medio e fai sciogliere il burro.",
@@ -63,11 +128,26 @@
     "es": {
       "title": "Huevos a la sartén con bacon crujiente",
       "ingredients": {
-        "smoked_bacon": {"name": "Bacon ahumado de corte grueso", "note": "4 lonchas"},
-        "eggs": {"name": "Huevos grandes frescos", "note": null},
-        "butter": {"name": "Mantequilla", "note": null},
-        "black_pepper": {"name": "Pimienta negra recién molida", "note": "al gusto"},
-        "country_bread": {"name": "Pan rústico de masa madre", "note": "para acompañar"}
+        "smoked_bacon": {
+          "name": "Bacon ahumado de corte grueso",
+          "note": "4 lonchas"
+        },
+        "eggs": {
+          "name": "Huevos grandes frescos",
+          "note": null
+        },
+        "butter": {
+          "name": "Mantequilla",
+          "note": null
+        },
+        "black_pepper": {
+          "name": "Pimienta negra recién molida",
+          "note": "al gusto"
+        },
+        "country_bread": {
+          "name": "Pan rústico de masa madre",
+          "note": "para acompañar"
+        }
       },
       "steps": {
         "heat_pan": "Calienta una sartén de hierro o de fondo grueso a fuego medio y derrite la mantequilla.",
@@ -80,11 +160,26 @@
     "fr": {
       "title": "Œufs à la poêle et bacon croustillant",
       "ingredients": {
-        "smoked_bacon": {"name": "Bacon fumé épais", "note": "4 tranches"},
-        "eggs": {"name": "Gros œufs frais", "note": null},
-        "butter": {"name": "Beurre", "note": null},
-        "black_pepper": {"name": "Poivre noir fraîchement moulu", "note": "selon le goût"},
-        "country_bread": {"name": "Pain rustique au levain", "note": "pour accompagner"}
+        "smoked_bacon": {
+          "name": "Bacon fumé épais",
+          "note": "4 tranches"
+        },
+        "eggs": {
+          "name": "Gros œufs frais",
+          "note": null
+        },
+        "butter": {
+          "name": "Beurre",
+          "note": null
+        },
+        "black_pepper": {
+          "name": "Poivre noir fraîchement moulu",
+          "note": "selon le goût"
+        },
+        "country_bread": {
+          "name": "Pain rustique au levain",
+          "note": "pour accompagner"
+        }
       },
       "steps": {
         "heat_pan": "Faites chauffer une poêle en fonte ou à fond épais à feu moyen et faites fondre le beurre.",
@@ -97,11 +192,26 @@
     "de": {
       "title": "Pfanneneier mit knusprigem Bacon",
       "ingredients": {
-        "smoked_bacon": {"name": "Dick geschnittener Räucherbacon", "note": "4 Scheiben"},
-        "eggs": {"name": "Große frische Eier", "note": null},
-        "butter": {"name": "Butter", "note": null},
-        "black_pepper": {"name": "Frisch gemahlener schwarzer Pfeffer", "note": "nach Geschmack"},
-        "country_bread": {"name": "Rustikales Sauerteigbrot", "note": "zum Servieren"}
+        "smoked_bacon": {
+          "name": "Dick geschnittener Räucherbacon",
+          "note": "4 Scheiben"
+        },
+        "eggs": {
+          "name": "Große frische Eier",
+          "note": null
+        },
+        "butter": {
+          "name": "Butter",
+          "note": null
+        },
+        "black_pepper": {
+          "name": "Frisch gemahlener schwarzer Pfeffer",
+          "note": "nach Geschmack"
+        },
+        "country_bread": {
+          "name": "Rustikales Sauerteigbrot",
+          "note": "zum Servieren"
+        }
       },
       "steps": {
         "heat_pan": "Eine gusseiserne oder schwere Pfanne bei mittlerer Hitze erwärmen und die Butter schmelzen.",
@@ -114,11 +224,26 @@
     "pt": {
       "title": "Ovos na frigideira com bacon crocante",
       "ingredients": {
-        "smoked_bacon": {"name": "Bacon defumado em fatias grossas", "note": "4 fatias"},
-        "eggs": {"name": "Ovos grandes frescos", "note": null},
-        "butter": {"name": "Manteiga", "note": null},
-        "black_pepper": {"name": "Pimenta-do-reino moída na hora", "note": "a gosto"},
-        "country_bread": {"name": "Pão rústico de fermentação natural", "note": "para acompanhar"}
+        "smoked_bacon": {
+          "name": "Bacon defumado em fatias grossas",
+          "note": "4 fatias"
+        },
+        "eggs": {
+          "name": "Ovos grandes frescos",
+          "note": null
+        },
+        "butter": {
+          "name": "Manteiga",
+          "note": null
+        },
+        "black_pepper": {
+          "name": "Pimenta-do-reino moída na hora",
+          "note": "a gosto"
+        },
+        "country_bread": {
+          "name": "Pão rústico de fermentação natural",
+          "note": "para acompanhar"
+        }
       },
       "steps": {
         "heat_pan": "Aqueça uma frigideira de ferro ou de fundo pesado em fogo médio e derreta a manteiga.",

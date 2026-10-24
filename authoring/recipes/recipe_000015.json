@@ -1,0 +1,334 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000015",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Demon Slayer (Kimetsu no Yaiba) / Inuyasha",
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "servings": 4,
+  "difficulty": "easy",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23.",
+  "imageAssetId": "recipe_000015_artwork",
+  "ingredients": [
+    {
+      "id": "thin_beef",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "id": "potatoes",
+      "quantity": 4,
+      "unit": null
+    },
+    {
+      "id": "carrot",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "onion",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "dashi",
+      "quantity": 400,
+      "unit": "ml"
+    },
+    {
+      "id": "soy_sauce",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "id": "mirin",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "sugar",
+      "quantity": 1,
+      "unit": "tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Nikujaga Meat and Potato Stew",
+      "ingredients": {
+        "thin_beef": {
+          "name": "Thinly sliced beef",
+          "note": null
+        },
+        "potatoes": {
+          "name": "Potatoes",
+          "note": null
+        },
+        "carrot": {
+          "name": "Carrots",
+          "note": null
+        },
+        "onion": {
+          "name": "Onion",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi broth",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Cut the potatoes and carrot into irregular bite-size pieces and slice the onion.",
+        "step_2": "Brown the thin beef in a little oil, then add onion, potatoes and carrot.",
+        "step_3": "Add dashi, soy sauce, mirin and sugar and bring to a gentle simmer.",
+        "step_4": "Cover with a drop lid and simmer about 20 minutes, until the vegetables are tender and glossy."
+      }
+    },
+    "it": {
+      "title": "Nikujaga, spezzatino di carne e patate",
+      "ingredients": {
+        "thin_beef": {
+          "name": "Manzo a fettine sottili",
+          "note": null
+        },
+        "potatoes": {
+          "name": "Patate",
+          "note": null
+        },
+        "carrot": {
+          "name": "Carote",
+          "note": null
+        },
+        "onion": {
+          "name": "Cipolla",
+          "note": null
+        },
+        "dashi": {
+          "name": "Brodo dashi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa di soia",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucchero",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Taglia patate e carota a tocchetti irregolari e affetta la cipolla.",
+        "step_2": "Rosola il manzo sottile con poco olio, poi aggiungi cipolla, patate e carota.",
+        "step_3": "Versa dashi, salsa di soia, mirin e zucchero e porta a leggero bollore.",
+        "step_4": "Copri con un otoshibuta e fai sobbollire per circa 20 minuti, finché le verdure sono morbide e lucide."
+      }
+    },
+    "es": {
+      "title": "Nikujaga, estofado de carne y patata",
+      "ingredients": {
+        "thin_beef": {
+          "name": "Ternera en lonchas finas",
+          "note": null
+        },
+        "potatoes": {
+          "name": "Patatas",
+          "note": null
+        },
+        "carrot": {
+          "name": "Zanahorias",
+          "note": null
+        },
+        "onion": {
+          "name": "Cebolla",
+          "note": null
+        },
+        "dashi": {
+          "name": "Caldo dashi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Corta patatas y zanahoria en trozos irregulares y lamina la cebolla.",
+        "step_2": "Dora la ternera con un poco de aceite y añade cebolla, patata y zanahoria.",
+        "step_3": "Añade dashi, soja, mirin y azúcar y lleva a hervor suave.",
+        "step_4": "Cubre con una tapa de contacto y cocina unos 20 minutos."
+      }
+    },
+    "fr": {
+      "title": "Nikujaga, ragoût de viande et pommes de terre",
+      "ingredients": {
+        "thin_beef": {
+          "name": "Bœuf finement tranché",
+          "note": null
+        },
+        "potatoes": {
+          "name": "Pommes de terre",
+          "note": null
+        },
+        "carrot": {
+          "name": "Carottes",
+          "note": null
+        },
+        "onion": {
+          "name": "Oignon",
+          "note": null
+        },
+        "dashi": {
+          "name": "Bouillon dashi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Coupez pommes de terre et carotte en morceaux irréguliers et émincez l’oignon.",
+        "step_2": "Faites revenir le bœuf puis ajoutez oignon, pommes de terre et carotte.",
+        "step_3": "Ajoutez dashi, sauce soja, mirin et sucre puis portez à frémissement.",
+        "step_4": "Couvrez d’un couvercle au contact et mijotez environ 20 minutes."
+      }
+    },
+    "de": {
+      "title": "Nikujaga, Fleisch-Kartoffel-Eintopf",
+      "ingredients": {
+        "thin_beef": {
+          "name": "Dünn geschnittenes Rindfleisch",
+          "note": null
+        },
+        "potatoes": {
+          "name": "Kartoffeln",
+          "note": null
+        },
+        "carrot": {
+          "name": "Karotten",
+          "note": null
+        },
+        "onion": {
+          "name": "Zwiebel",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi-Brühe",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Kartoffeln und Karotte unregelmäßig schneiden und die Zwiebel in Scheiben schneiden.",
+        "step_2": "Dünnes Rindfleisch anbraten, dann Zwiebel, Kartoffeln und Karotte zugeben.",
+        "step_3": "Dashi, Sojasauce, Mirin und Zucker zugeben und sanft köcheln lassen.",
+        "step_4": "Mit einem Fall-Deckel abdecken und etwa 20 Minuten köcheln lassen."
+      }
+    },
+    "pt": {
+      "title": "Nikujaga, ensopado de carne e batata",
+      "ingredients": {
+        "thin_beef": {
+          "name": "Carne bovina em fatias finas",
+          "note": null
+        },
+        "potatoes": {
+          "name": "Batatas",
+          "note": null
+        },
+        "carrot": {
+          "name": "Cenouras",
+          "note": null
+        },
+        "onion": {
+          "name": "Cebola",
+          "note": null
+        },
+        "dashi": {
+          "name": "Caldo dashi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Molho de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Açúcar",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Corte batatas e cenoura em pedaços irregulares e fatie a cebola.",
+        "step_2": "Doure a carne em pouco óleo e junte cebola, batatas e cenoura.",
+        "step_3": "Adicione dashi, molho de soja, mirin e açúcar e deixe ferver suavemente.",
+        "step_4": "Cubra com uma tampa de contato e cozinhe por cerca de 20 minutos."
+      }
+    }
+  }
+}

@@ -10,34 +10,98 @@
   "difficulty": "easy",
   "contentOrigin": "adapted",
   "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source gives no yield; two servings are an editorial estimate. The rice also rests for 10 minutes after cooking, retained in the step text because the runtime model has no separate rest-time field.",
-  "imageAssetId": null,
+  "imageAssetId": "recipe_000005_artwork",
   "ingredients": [
-    {"id": "sushi_rice", "quantity": 300, "unit": "g"},
-    {"id": "water", "quantity": 360, "unit": "ml"},
-    {"id": "tuna", "quantity": 80, "unit": "g"},
-    {"id": "japanese_mayo", "quantity": 2, "unit": "tbsp"},
-    {"id": "salt", "quantity": null, "unit": null},
-    {"id": "nori", "quantity": null, "unit": null},
-    {"id": "sesame_or_furikake", "quantity": null, "unit": null}
+    {
+      "id": "sushi_rice",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "id": "water",
+      "quantity": 360,
+      "unit": "ml"
+    },
+    {
+      "id": "tuna",
+      "quantity": 80,
+      "unit": "g"
+    },
+    {
+      "id": "japanese_mayo",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "salt",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "nori",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "sesame_or_furikake",
+      "quantity": null,
+      "unit": null
+    }
   ],
   "steps": [
-    {"id": "wash_cook_rice", "timerSeconds": 900},
-    {"id": "rest_rice", "timerSeconds": 600},
-    {"id": "make_filling", "timerSeconds": null},
-    {"id": "fill_shape", "timerSeconds": null},
-    {"id": "finish_nori", "timerSeconds": null}
+    {
+      "id": "wash_cook_rice",
+      "timerSeconds": 900
+    },
+    {
+      "id": "rest_rice",
+      "timerSeconds": 600
+    },
+    {
+      "id": "make_filling",
+      "timerSeconds": null
+    },
+    {
+      "id": "fill_shape",
+      "timerSeconds": null
+    },
+    {
+      "id": "finish_nori",
+      "timerSeconds": null
+    }
   ],
   "locales": {
     "en": {
       "title": "Tuna Mayo Onigiri",
       "ingredients": {
-        "sushi_rice": {"name": "Sushi or short-grain rice", "note": null},
-        "water": {"name": "Water", "note": null},
-        "tuna": {"name": "Drained tuna", "note": null},
-        "japanese_mayo": {"name": "Japanese mayonnaise", "note": null},
-        "salt": {"name": "Salt", "note": "a small pinch plus a little for shaping"},
-        "nori": {"name": "Nori sheets", "note": "cut into strips"},
-        "sesame_or_furikake": {"name": "Toasted sesame seeds or furikake", "note": "optional"}
+        "sushi_rice": {
+          "name": "Sushi or short-grain rice",
+          "note": null
+        },
+        "water": {
+          "name": "Water",
+          "note": null
+        },
+        "tuna": {
+          "name": "Drained tuna",
+          "note": null
+        },
+        "japanese_mayo": {
+          "name": "Japanese mayonnaise",
+          "note": null
+        },
+        "salt": {
+          "name": "Salt",
+          "note": "a small pinch plus a little for shaping"
+        },
+        "nori": {
+          "name": "Nori sheets",
+          "note": "cut into strips"
+        },
+        "sesame_or_furikake": {
+          "name": "Toasted sesame seeds or furikake",
+          "note": "optional"
+        }
       },
       "steps": {
         "wash_cook_rice": "Rinse the rice several times until the water runs much clearer. Cook it with the measured water, covered, over low heat.",
@@ -50,13 +114,34 @@
     "it": {
       "title": "Onigiri al tonno e maionese",
       "ingredients": {
-        "sushi_rice": {"name": "Riso per sushi o riso originario", "note": null},
-        "water": {"name": "Acqua", "note": null},
-        "tuna": {"name": "Tonno sgocciolato", "note": null},
-        "japanese_mayo": {"name": "Maionese giapponese", "note": null},
-        "salt": {"name": "Sale", "note": "un pizzico più una piccola quantità per modellare"},
-        "nori": {"name": "Fogli di alga nori", "note": "tagliati a strisce"},
-        "sesame_or_furikake": {"name": "Semi di sesamo tostati o furikake", "note": "facoltativi"}
+        "sushi_rice": {
+          "name": "Riso per sushi o riso originario",
+          "note": null
+        },
+        "water": {
+          "name": "Acqua",
+          "note": null
+        },
+        "tuna": {
+          "name": "Tonno sgocciolato",
+          "note": null
+        },
+        "japanese_mayo": {
+          "name": "Maionese giapponese",
+          "note": null
+        },
+        "salt": {
+          "name": "Sale",
+          "note": "un pizzico più una piccola quantità per modellare"
+        },
+        "nori": {
+          "name": "Fogli di alga nori",
+          "note": "tagliati a strisce"
+        },
+        "sesame_or_furikake": {
+          "name": "Semi di sesamo tostati o furikake",
+          "note": "facoltativi"
+        }
       },
       "steps": {
         "wash_cook_rice": "Sciacqua il riso più volte finché l’acqua diventa molto più limpida. Cuocilo con la quantità misurata di acqua, coperto e a fuoco basso.",
@@ -69,13 +154,34 @@
     "es": {
       "title": "Onigiri de atún y mayonesa",
       "ingredients": {
-        "sushi_rice": {"name": "Arroz para sushi o de grano corto", "note": null},
-        "water": {"name": "Agua", "note": null},
-        "tuna": {"name": "Atún escurrido", "note": null},
-        "japanese_mayo": {"name": "Mayonesa japonesa", "note": null},
-        "salt": {"name": "Sal", "note": "una pizca y un poco más para formar"},
-        "nori": {"name": "Hojas de nori", "note": "cortadas en tiras"},
-        "sesame_or_furikake": {"name": "Sésamo tostado o furikake", "note": "opcional"}
+        "sushi_rice": {
+          "name": "Arroz para sushi o de grano corto",
+          "note": null
+        },
+        "water": {
+          "name": "Agua",
+          "note": null
+        },
+        "tuna": {
+          "name": "Atún escurrido",
+          "note": null
+        },
+        "japanese_mayo": {
+          "name": "Mayonesa japonesa",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": "una pizca y un poco más para formar"
+        },
+        "nori": {
+          "name": "Hojas de nori",
+          "note": "cortadas en tiras"
+        },
+        "sesame_or_furikake": {
+          "name": "Sésamo tostado o furikake",
+          "note": "opcional"
+        }
       },
       "steps": {
         "wash_cook_rice": "Lava el arroz varias veces hasta que el agua salga mucho más clara. Cuécelo tapado con el agua medida a fuego bajo.",
@@ -88,13 +194,34 @@
     "fr": {
       "title": "Onigiri au thon et à la mayonnaise",
       "ingredients": {
-        "sushi_rice": {"name": "Riz à sushi ou riz rond", "note": null},
-        "water": {"name": "Eau", "note": null},
-        "tuna": {"name": "Thon égoutté", "note": null},
-        "japanese_mayo": {"name": "Mayonnaise japonaise", "note": null},
-        "salt": {"name": "Sel", "note": "une petite pincée plus un peu pour le façonnage"},
-        "nori": {"name": "Feuilles de nori", "note": "coupées en bandes"},
-        "sesame_or_furikake": {"name": "Graines de sésame grillées ou furikake", "note": "facultatif"}
+        "sushi_rice": {
+          "name": "Riz à sushi ou riz rond",
+          "note": null
+        },
+        "water": {
+          "name": "Eau",
+          "note": null
+        },
+        "tuna": {
+          "name": "Thon égoutté",
+          "note": null
+        },
+        "japanese_mayo": {
+          "name": "Mayonnaise japonaise",
+          "note": null
+        },
+        "salt": {
+          "name": "Sel",
+          "note": "une petite pincée plus un peu pour le façonnage"
+        },
+        "nori": {
+          "name": "Feuilles de nori",
+          "note": "coupées en bandes"
+        },
+        "sesame_or_furikake": {
+          "name": "Graines de sésame grillées ou furikake",
+          "note": "facultatif"
+        }
       },
       "steps": {
         "wash_cook_rice": "Rincez plusieurs fois le riz jusqu’à ce que l’eau soit nettement plus claire. Faites-le cuire à couvert avec l’eau mesurée, à feu doux.",
@@ -107,13 +234,34 @@
     "de": {
       "title": "Onigiri mit Thunfisch und Mayonnaise",
       "ingredients": {
-        "sushi_rice": {"name": "Sushi- oder Rundkornreis", "note": null},
-        "water": {"name": "Wasser", "note": null},
-        "tuna": {"name": "Abgetropfter Thunfisch", "note": null},
-        "japanese_mayo": {"name": "Japanische Mayonnaise", "note": null},
-        "salt": {"name": "Salz", "note": "eine kleine Prise plus etwas zum Formen"},
-        "nori": {"name": "Nori-Blätter", "note": "in Streifen geschnitten"},
-        "sesame_or_furikake": {"name": "Gerösteter Sesam oder Furikake", "note": "optional"}
+        "sushi_rice": {
+          "name": "Sushi- oder Rundkornreis",
+          "note": null
+        },
+        "water": {
+          "name": "Wasser",
+          "note": null
+        },
+        "tuna": {
+          "name": "Abgetropfter Thunfisch",
+          "note": null
+        },
+        "japanese_mayo": {
+          "name": "Japanische Mayonnaise",
+          "note": null
+        },
+        "salt": {
+          "name": "Salz",
+          "note": "eine kleine Prise plus etwas zum Formen"
+        },
+        "nori": {
+          "name": "Nori-Blätter",
+          "note": "in Streifen geschnitten"
+        },
+        "sesame_or_furikake": {
+          "name": "Gerösteter Sesam oder Furikake",
+          "note": "optional"
+        }
       },
       "steps": {
         "wash_cook_rice": "Den Reis mehrmals spülen, bis das Wasser deutlich klarer bleibt. Mit der abgemessenen Wassermenge zugedeckt bei niedriger Hitze garen.",
@@ -126,13 +274,34 @@
     "pt": {
       "title": "Onigiri de atum com maionese",
       "ingredients": {
-        "sushi_rice": {"name": "Arroz para sushi ou de grão curto", "note": null},
-        "water": {"name": "Água", "note": null},
-        "tuna": {"name": "Atum escorrido", "note": null},
-        "japanese_mayo": {"name": "Maionese japonesa", "note": null},
-        "salt": {"name": "Sal", "note": "uma pequena pitada e um pouco mais para moldar"},
-        "nori": {"name": "Folhas de nori", "note": "cortadas em tiras"},
-        "sesame_or_furikake": {"name": "Gergelim torrado ou furikake", "note": "opcional"}
+        "sushi_rice": {
+          "name": "Arroz para sushi ou de grão curto",
+          "note": null
+        },
+        "water": {
+          "name": "Água",
+          "note": null
+        },
+        "tuna": {
+          "name": "Atum escorrido",
+          "note": null
+        },
+        "japanese_mayo": {
+          "name": "Maionese japonesa",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": "uma pequena pitada e um pouco mais para moldar"
+        },
+        "nori": {
+          "name": "Folhas de nori",
+          "note": "cortadas em tiras"
+        },
+        "sesame_or_furikake": {
+          "name": "Gergelim torrado ou furikake",
+          "note": "opcional"
+        }
       },
       "steps": {
         "wash_cook_rice": "Lave o arroz várias vezes até a água ficar bem mais clara. Cozinhe tampado com a água medida em fogo baixo.",
