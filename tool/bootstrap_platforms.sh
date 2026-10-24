@@ -17,3 +17,4 @@ fi
 
 rm -f test/widget_test.dart
 python3 tool/configure_branding.py
+python3 tool/configure_android_signing.py
