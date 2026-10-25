@@ -104,17 +104,11 @@
         }
       },
       "steps": {
-        "step_1": "Score the steak lightly in a crosshatch, cover it completely with the finely chopped onion and rest for 30 minutes.",
-        "step_2": "Remove the onion and sauté it in butter until golden and deeply caramelized.",
-        "step_3": "Sear the steak over high heat for about 2 minutes per side, then deglaze with soy sauce and red wine.",
-        "step_4": "Mix the hot rice with chopped umeboshi and pack it into a bowl.",
-        "step_5": "Slice the steak, lay it over the rice and finish with the caramelized onion and pan juices.",
-        "tenderize_steak": "undefined Spread the chopped onion evenly over both faces and keep the steak chilled during the rest. Scrape the onion off and reserve it before searing; wet onion left on the surface prevents browning.",
-        "season": "undefined Pat the steak completely dry after removing the onion, then season just before it hits the pan; salting far in advance would draw more moisture to the surface.",
-        "sear_steak": "undefined Use a heavy pan over high heat and avoid moving the steak for the first 60–90 seconds. Turn once a brown crust forms, then reduce heat if needed so the centre reaches your preferred safe doneness without scorching the butter.",
-        "make_sauce": "undefined Cook the reserved onion until soft and lightly golden before adding wine. Let the wine reduce by roughly half, then add soy sauce and butter off the strongest heat so the sauce becomes glossy rather than greasy.",
-        "rest_slice": "undefined Rest the steak 5–8 minutes before slicing across the grain. Slice only when the juices have settled, then spoon any collected resting juices back into the sauce.",
-        "assemble": "undefined Spread the rice in a wide bowl, fan the steak slices slightly so they stay visible and spoon sauce mostly around and between them rather than completely covering the seared surface."
+        "step_1": "Score the steak lightly in a crosshatch, cover it completely with the finely chopped onion and rest for 30 minutes. undefined Spread the chopped onion evenly over both faces and keep the steak chilled during the rest. Scrape the onion off and reserve it before searing; wet onion left on the surface prevents browning. undefined Pat the steak completely dry after removing the onion, then season just before it hits the pan; salting far in advance would draw more moisture to the surface.",
+        "step_2": "Remove the onion and sauté it in butter until golden and deeply caramelized. undefined Use a heavy pan over high heat and avoid moving the steak for the first 60–90 seconds. Turn once a brown crust forms, then reduce heat if needed so the centre reaches your preferred safe doneness without scorching the butter.",
+        "step_3": "Sear the steak over high heat for about 2 minutes per side, then deglaze with soy sauce and red wine. undefined Cook the reserved onion until soft and lightly golden before adding wine. Let the wine reduce by roughly half, then add soy sauce and butter off the strongest heat so the sauce becomes glossy rather than greasy.",
+        "step_4": "Mix the hot rice with chopped umeboshi and pack it into a bowl. undefined Rest the steak 5–8 minutes before slicing across the grain. Slice only when the juices have settled, then spoon any collected resting juices back into the sauce.",
+        "step_5": "Slice the steak, lay it over the rice and finish with the caramelized onion and pan juices. undefined Spread the rice in a wide bowl, fan the steak slices slightly so they stay visible and spoon sauce mostly around and between them rather than completely covering the seared surface."
       },
       "description": "A steak rice bowl built around the Chaliapin method: finely chopped onion rests on the beef to tenderize and flavour it, then becomes part of a glossy red-wine-soy pan sauce. Rested sliced steak over hot rice keeps the dish juicy without drowning the meat.",
       "animeContext": "This is a direct Food Wars reference: Soma’s Chaliapin Steak Don is central to season 1 episode 7. The app preserves the recognizable culinary idea but writes its own quantities, timing and cooking instructions."
@@ -152,17 +146,11 @@
         }
       },
       "steps": {
-        "step_1": "Incidi leggermente la bistecca a griglia, coprila con la cipolla tritata finissima e lasciala riposare per 30 minuti.",
-        "step_2": "Rimuovi la cipolla e rosolala nel burro finché è dorata e ben caramellata.",
-        "step_3": "Rosola la bistecca a fuoco alto per circa 2 minuti per lato, poi sfuma con salsa di soia e vino rosso.",
-        "step_4": "Mescola il riso caldo con l’umeboshi tritata e sistemalo in una ciotola.",
-        "step_5": "Affetta la bistecca, adagiala sul riso e completa con cipolla caramellata e fondo di cottura.",
-        "tenderize_steak": "undefined Distribuisci la cipolla tritata su entrambi i lati e tieni la carne in frigorifero durante il riposo. Prima di rosolare rimuovi e conserva la cipolla: se resta bagnata sulla superficie impedisce una buona doratura.",
-        "season": "undefined Dopo aver tolto la cipolla asciuga perfettamente la carne e condiscila solo poco prima della padella: salare con troppo anticipo riporterebbe umidità in superficie.",
-        "sear_steak": "undefined Usa una padella pesante ben calda e non muovere la bistecca per i primi 60–90 secondi. Girala quando si è formata la crosta, poi abbassa la fiamma se serve per portare il cuore al grado di cottura desiderato senza bruciare il burro.",
-        "make_sauce": "undefined Cuoci la cipolla tenuta da parte finché è morbida e appena dorata prima di aggiungere il vino. Riduci il vino circa della metà, poi unisci soia e burro lontano dalla fiamma più forte, così la salsa diventa lucida invece che unta.",
-        "rest_slice": "undefined Lascia riposare la bistecca 5–8 minuti prima di tagliarla controfibra. Quando i succhi si sono stabilizzati, affetta e versa nella salsa anche il liquido raccolto durante il riposo.",
-        "assemble": "undefined Allarga il riso nella ciotola, disponi le fette di carne leggermente a ventaglio e versa la salsa soprattutto attorno e tra le fette, senza coprire del tutto la superficie rosolata."
+        "step_1": "Incidi leggermente la bistecca a griglia, coprila con la cipolla tritata finissima e lasciala riposare per 30 minuti. undefined Distribuisci la cipolla tritata su entrambi i lati e tieni la carne in frigorifero durante il riposo. Prima di rosolare rimuovi e conserva la cipolla: se resta bagnata sulla superficie impedisce una buona doratura. undefined Dopo aver tolto la cipolla asciuga perfettamente la carne e condiscila solo poco prima della padella: salare con troppo anticipo riporterebbe umidità in superficie.",
+        "step_2": "Rimuovi la cipolla e rosolala nel burro finché è dorata e ben caramellata. undefined Usa una padella pesante ben calda e non muovere la bistecca per i primi 60–90 secondi. Girala quando si è formata la crosta, poi abbassa la fiamma se serve per portare il cuore al grado di cottura desiderato senza bruciare il burro.",
+        "step_3": "Rosola la bistecca a fuoco alto per circa 2 minuti per lato, poi sfuma con salsa di soia e vino rosso. undefined Cuoci la cipolla tenuta da parte finché è morbida e appena dorata prima di aggiungere il vino. Riduci il vino circa della metà, poi unisci soia e burro lontano dalla fiamma più forte, così la salsa diventa lucida invece che unta.",
+        "step_4": "Mescola il riso caldo con l’umeboshi tritata e sistemalo in una ciotola. undefined Lascia riposare la bistecca 5–8 minuti prima di tagliarla controfibra. Quando i succhi si sono stabilizzati, affetta e versa nella salsa anche il liquido raccolto durante il riposo.",
+        "step_5": "Affetta la bistecca, adagiala sul riso e completa con cipolla caramellata e fondo di cottura. undefined Allarga il riso nella ciotola, disponi le fette di carne leggermente a ventaglio e versa la salsa soprattutto attorno e tra le fette, senza coprire del tutto la superficie rosolata."
       },
       "description": "Un donburi di bistecca basato sul metodo Chaliapin: la cipolla tritata riposa sulla carne per insaporirla e intenerirla, poi entra in una salsa lucida di vino rosso e soia. La bistecca riposata e affettata sul riso caldo resta succosa senza essere sommersa dal condimento.",
       "animeContext": "Il riferimento è diretto: il Chaliapin Steak Don di Soma è centrale nell’episodio 7 della prima stagione di Food Wars. L’app conserva l’idea culinaria riconoscibile ma usa quantità, tempi e istruzioni proprie."
@@ -200,17 +188,11 @@
         }
       },
       "steps": {
-        "step_1": "Marca ligeramente el bistec en rejilla, cúbrelo con la cebolla muy picada y déjalo reposar 30 minutos.",
-        "step_2": "Retira la cebolla y sofríela con mantequilla hasta que quede dorada y caramelizada.",
-        "step_3": "Dora el bistec a fuego fuerte unos 2 minutos por lado y desglasa con soja y vino tinto.",
-        "step_4": "Mezcla el arroz caliente con umeboshi picada y colócalo en un bol.",
-        "step_5": "Corta el bistec, colócalo sobre el arroz y termina con la cebolla caramelizada y los jugos de la sartén.",
-        "tenderize_steak": "undefined Reparte la cebolla por ambos lados y mantén la carne fría durante el reposo. Retírala y resérvala antes de dorar para no impedir la reacción de la superficie.",
-        "season": "undefined Seca muy bien la carne y sazona justo antes de llevarla a la sartén.",
-        "sear_steak": "undefined Usa una sartén pesada muy caliente y no muevas el bistec 60–90 segundos. Gira al formar costra y ajusta el fuego para terminar sin quemar.",
-        "make_sauce": "undefined Cocina la cebolla hasta suave y dorada, reduce el vino aproximadamente a la mitad y añade soja y mantequilla con fuego suave.",
-        "rest_slice": "undefined Reposa 5–8 minutos y corta contra la fibra; incorpora los jugos del reposo a la salsa.",
-        "assemble": "undefined Extiende el arroz, abre las lonchas en abanico y reparte la salsa alrededor y entre ellas sin cubrir totalmente la costra."
+        "step_1": "Marca ligeramente el bistec en rejilla, cúbrelo con la cebolla muy picada y déjalo reposar 30 minutos. undefined Reparte la cebolla por ambos lados y mantén la carne fría durante el reposo. Retírala y resérvala antes de dorar para no impedir la reacción de la superficie. undefined Seca muy bien la carne y sazona justo antes de llevarla a la sartén.",
+        "step_2": "Retira la cebolla y sofríela con mantequilla hasta que quede dorada y caramelizada. undefined Usa una sartén pesada muy caliente y no muevas el bistec 60–90 segundos. Gira al formar costra y ajusta el fuego para terminar sin quemar.",
+        "step_3": "Dora el bistec a fuego fuerte unos 2 minutos por lado y desglasa con soja y vino tinto. undefined Cocina la cebolla hasta suave y dorada, reduce el vino aproximadamente a la mitad y añade soja y mantequilla con fuego suave.",
+        "step_4": "Mezcla el arroz caliente con umeboshi picada y colócalo en un bol. undefined Reposa 5–8 minutos y corta contra la fibra; incorpora los jugos del reposo a la salsa.",
+        "step_5": "Corta el bistec, colócalo sobre el arroz y termina con la cebolla caramelizada y los jugos de la sartén. undefined Extiende el arroz, abre las lonchas en abanico y reparte la salsa alrededor y entre ellas sin cubrir totalmente la costra."
       },
       "description": "Donburi de bistec con método Chaliapin: cebolla picada reposa sobre la carne para ablandarla y luego se convierte en salsa de vino tinto y soja. El bistec reposado conserva jugosidad.",
       "animeContext": "La referencia es directa: el Chaliapin Steak Don de Soma es central en el episodio 7 de la temporada 1 de Food Wars. La app mantiene la idea culinaria con instrucciones propias."
@@ -248,17 +230,11 @@
         }
       },
       "steps": {
-        "step_1": "Quadrillez légèrement le steak, couvrez-le d’oignon finement haché et laissez reposer 30 minutes.",
-        "step_2": "Retirez l’oignon et faites-le revenir au beurre jusqu’à belle caramélisation.",
-        "step_3": "Saisissez le steak à feu vif environ 2 minutes de chaque côté puis déglacez avec sauce soja et vin rouge.",
-        "step_4": "Mélangez le riz chaud avec l’umeboshi hachée et mettez-le dans un bol.",
-        "step_5": "Tranchez le steak, posez-le sur le riz et terminez avec l’oignon caramélisé et le jus de cuisson.",
-        "tenderize_steak": "undefined Répartissez l’oignon sur les deux faces et gardez la viande au froid. Retirez et réservez l’oignon avant de saisir pour permettre une bonne coloration.",
-        "season": "undefined Séchez parfaitement la viande et assaisonnez juste avant la poêle.",
-        "sear_steak": "undefined Utilisez une poêle lourde très chaude et ne bougez pas le steak pendant 60–90 secondes. Retournez après formation de la croûte puis ajustez le feu.",
-        "make_sauce": "undefined Faites fondre l’oignon jusqu’à légère coloration, réduisez le vin de moitié puis ajoutez soja et beurre à feu doux.",
-        "rest_slice": "undefined Reposez 5–8 minutes puis tranchez contre les fibres; ajoutez le jus de repos à la sauce.",
-        "assemble": "undefined Étalez le riz, disposez les tranches en éventail et versez la sauce surtout autour et entre elles."
+        "step_1": "Quadrillez légèrement le steak, couvrez-le d’oignon finement haché et laissez reposer 30 minutes. undefined Répartissez l’oignon sur les deux faces et gardez la viande au froid. Retirez et réservez l’oignon avant de saisir pour permettre une bonne coloration. undefined Séchez parfaitement la viande et assaisonnez juste avant la poêle.",
+        "step_2": "Retirez l’oignon et faites-le revenir au beurre jusqu’à belle caramélisation. undefined Utilisez une poêle lourde très chaude et ne bougez pas le steak pendant 60–90 secondes. Retournez après formation de la croûte puis ajustez le feu.",
+        "step_3": "Saisissez le steak à feu vif environ 2 minutes de chaque côté puis déglacez avec sauce soja et vin rouge. undefined Faites fondre l’oignon jusqu’à légère coloration, réduisez le vin de moitié puis ajoutez soja et beurre à feu doux.",
+        "step_4": "Mélangez le riz chaud avec l’umeboshi hachée et mettez-le dans un bol. undefined Reposez 5–8 minutes puis tranchez contre les fibres; ajoutez le jus de repos à la sauce.",
+        "step_5": "Tranchez le steak, posez-le sur le riz et terminez avec l’oignon caramélisé et le jus de cuisson. undefined Étalez le riz, disposez les tranches en éventail et versez la sauce surtout autour et entre elles."
       },
       "description": "Donburi de steak selon la méthode Chaliapin: l’oignon haché repose sur la viande pour l’attendrir puis devient une sauce vin rouge-soja. Le steak reposé reste juteux.",
       "animeContext": "La référence est directe: le Chaliapin Steak Don de Soma est au centre de l’épisode 7 de la saison 1 de Food Wars. L’application en propose sa propre exécution."
@@ -296,17 +272,11 @@
         }
       },
       "steps": {
-        "step_1": "Das Steak kreuzweise leicht einschneiden, vollständig mit fein gehackter Zwiebel bedecken und 30 Minuten ruhen lassen.",
-        "step_2": "Die Zwiebel abnehmen und in Butter goldbraun karamellisieren.",
-        "step_3": "Das Steak bei hoher Hitze etwa 2 Minuten je Seite anbraten und mit Sojasauce und Rotwein ablöschen.",
-        "step_4": "Den heißen Reis mit gehackter Umeboshi mischen und in eine Schüssel geben.",
-        "step_5": "Das Steak aufschneiden, auf den Reis legen und mit karamellisierter Zwiebel und Bratensaft vollenden.",
-        "tenderize_steak": "undefined Zwiebel auf beiden Seiten verteilen und das Steak während der Ruhe kalt halten. Vor dem Anbraten abstreifen und aufbewahren, damit die Oberfläche bräunt.",
-        "season": "undefined Steak nach dem Entfernen der Zwiebel sehr gut trocknen und erst direkt vor dem Braten würzen.",
-        "sear_steak": "undefined Schwere Pfanne stark erhitzen und das Steak 60–90 Sekunden nicht bewegen. Nach Krustenbildung wenden und Hitze zum Fertiggaren anpassen.",
-        "make_sauce": "undefined Zwiebel weich und leicht goldbraun garen, Wein etwa halb reduzieren und Soja sowie Butter bei schwächerer Hitze einarbeiten.",
-        "rest_slice": "undefined 5–8 Minuten ruhen lassen, quer zur Faser schneiden und Ruhesaft in die Sauce geben.",
-        "assemble": "undefined Reis breit verteilen, Steak leicht auffächern und Sauce hauptsächlich dazwischen und darumgeben."
+        "step_1": "Das Steak kreuzweise leicht einschneiden, vollständig mit fein gehackter Zwiebel bedecken und 30 Minuten ruhen lassen. undefined Zwiebel auf beiden Seiten verteilen und das Steak während der Ruhe kalt halten. Vor dem Anbraten abstreifen und aufbewahren, damit die Oberfläche bräunt. undefined Steak nach dem Entfernen der Zwiebel sehr gut trocknen und erst direkt vor dem Braten würzen.",
+        "step_2": "Die Zwiebel abnehmen und in Butter goldbraun karamellisieren. undefined Schwere Pfanne stark erhitzen und das Steak 60–90 Sekunden nicht bewegen. Nach Krustenbildung wenden und Hitze zum Fertiggaren anpassen.",
+        "step_3": "Das Steak bei hoher Hitze etwa 2 Minuten je Seite anbraten und mit Sojasauce und Rotwein ablöschen. undefined Zwiebel weich und leicht goldbraun garen, Wein etwa halb reduzieren und Soja sowie Butter bei schwächerer Hitze einarbeiten.",
+        "step_4": "Den heißen Reis mit gehackter Umeboshi mischen und in eine Schüssel geben. undefined 5–8 Minuten ruhen lassen, quer zur Faser schneiden und Ruhesaft in die Sauce geben.",
+        "step_5": "Das Steak aufschneiden, auf den Reis legen und mit karamellisierter Zwiebel und Bratensaft vollenden. undefined Reis breit verteilen, Steak leicht auffächern und Sauce hauptsächlich dazwischen und darumgeben."
       },
       "description": "Steak-Donburi nach Chaliapin-Methode: fein gehackte Zwiebel ruht auf dem Fleisch, macht es zarter und wird später Teil einer Rotwein-Soja-Sauce. Ruhendes Steak bleibt saftig.",
       "animeContext": "Der Bezug ist direkt: Somas Chaliapin Steak Don steht in Food Wars Staffel 1 Episode 7 im Mittelpunkt. Die App setzt die Idee mit eigenen Mengen und Anweisungen um."
@@ -344,17 +314,11 @@
         }
       },
       "steps": {
-        "step_1": "Faça cortes superficiais em grade no bife, cubra com a cebola bem picada e deixe descansar por 30 minutos.",
-        "step_2": "Retire a cebola e refogue-a na manteiga até dourar e caramelizar.",
-        "step_3": "Sele o bife em fogo alto por cerca de 2 minutos de cada lado e deglaceie com molho de soja e vinho tinto.",
-        "step_4": "Misture o arroz quente com umeboshi picada e coloque numa tigela.",
-        "step_5": "Fatie o bife, coloque sobre o arroz e finalize com a cebola caramelizada e o molho da frigideira.",
-        "tenderize_steak": "undefined Distribua a cebola nos dois lados e mantenha o bife refrigerado no descanso. Retire e reserve antes de selar para permitir douramento.",
-        "season": "undefined Seque muito bem o bife e tempere somente antes de levar à frigideira.",
-        "sear_steak": "undefined Use frigideira pesada bem quente e não mova o bife por 60–90 segundos. Vire após formar crosta e ajuste o fogo.",
-        "make_sauce": "undefined Cozinhe a cebola até macia e levemente dourada, reduza o vinho pela metade e junte soja e manteiga em fogo mais baixo.",
-        "rest_slice": "undefined Descanse 5–8 minutos, corte contra as fibras e devolva os sucos do descanso ao molho.",
-        "assemble": "undefined Espalhe o arroz, disponha as fatias em leque e coloque o molho principalmente ao redor e entre elas."
+        "step_1": "Faça cortes superficiais em grade no bife, cubra com a cebola bem picada e deixe descansar por 30 minutos. undefined Distribua a cebola nos dois lados e mantenha o bife refrigerado no descanso. Retire e reserve antes de selar para permitir douramento. undefined Seque muito bem o bife e tempere somente antes de levar à frigideira.",
+        "step_2": "Retire a cebola e refogue-a na manteiga até dourar e caramelizar. undefined Use frigideira pesada bem quente e não mova o bife por 60–90 segundos. Vire após formar crosta e ajuste o fogo.",
+        "step_3": "Sele o bife em fogo alto por cerca de 2 minutos de cada lado e deglaceie com molho de soja e vinho tinto. undefined Cozinhe a cebola até macia e levemente dourada, reduza o vinho pela metade e junte soja e manteiga em fogo mais baixo.",
+        "step_4": "Misture o arroz quente com umeboshi picada e coloque numa tigela. undefined Descanse 5–8 minutos, corte contra as fibras e devolva os sucos do descanso ao molho.",
+        "step_5": "Fatie o bife, coloque sobre o arroz e finalize com a cebola caramelizada e o molho da frigideira. undefined Espalhe o arroz, disponha as fatias em leque e coloque o molho principalmente ao redor e entre elas."
       },
       "description": "Donburi de bife pelo método Chaliapin: cebola picada repousa sobre a carne para amaciar e depois vira parte do molho de vinho tinto e soja. O bife descansado fica suculento.",
       "animeContext": "A referência é direta: o Chaliapin Steak Don de Soma é central no episódio 7 da 1ª temporada de Food Wars. O app mantém a ideia com instruções próprias."
