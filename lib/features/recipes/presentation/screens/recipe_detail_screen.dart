@@ -38,6 +38,33 @@ class _RecipeDetailScreenState extends State<RecipeDetailScreen> {
     };
   }
 
+  String _animeRelationLabel(
+    AppLocalizations l10n,
+    RecipeAnimeRelation relation,
+  ) {
+    return switch (relation) {
+      RecipeAnimeRelation.verifiedAppearance => l10n.animeRelationVerified,
+      RecipeAnimeRelation.recurringAssociation => l10n.animeRelationRecurring,
+      RecipeAnimeRelation.inspired => l10n.animeRelationInspired,
+      RecipeAnimeRelation.unverified => l10n.animeReferenceLabel,
+    };
+  }
+
+  String? _animeLocation(
+    AppLocalizations l10n,
+    RecipeAnimeReference reference,
+  ) {
+    final parts = <String>[
+      if (reference.season != null)
+        '${l10n.animeSeasonLabel} ${reference.season}',
+      if (reference.episode != null && reference.episode!.trim().isNotEmpty)
+        '${l10n.animeEpisodeLabel} ${reference.episode!.trim()}',
+      if (reference.chapter != null && reference.chapter!.trim().isNotEmpty)
+        '${l10n.animeChapterLabel} ${reference.chapter!.trim()}',
+    ];
+    return parts.isEmpty ? null : parts.join(' · ');
+  }
+
   @override
   Widget build(BuildContext context) {
     final recipe = widget.recipe;
@@ -45,6 +72,9 @@ class _RecipeDetailScreenState extends State<RecipeDetailScreen> {
     final theme = Theme.of(context);
     final colors = theme.colorScheme;
     final imageAsset = recipe.imageAsset;
+    final primaryAnimeReference = recipe.animeReferences.isEmpty
+        ? null
+        : recipe.animeReferences.first;
 
     final ingredients = _IngredientsPanel(
       recipe: recipe,
@@ -119,8 +149,13 @@ class _RecipeDetailScreenState extends State<RecipeDetailScreen> {
                           const SizedBox(width: AppSpacing.small),
                           Expanded(
                             child: Text(
-                              '${l10n.animeReferenceLabel}: '
-                              '${recipe.animeSource}',
+                              primaryAnimeReference == null
+                                  ? '${l10n.animeReferenceLabel}: '
+                                      '${recipe.animeSource}'
+                                  : '${_animeRelationLabel(
+                                      l10n,
+                                      primaryAnimeReference.relation,
+                                    )}: ${primaryAnimeReference.workTitle}',
                               style: theme.textTheme.bodyLarge?.copyWith(
                                 color: colors.onSurfaceVariant,
                               ),
@@ -128,6 +163,17 @@ class _RecipeDetailScreenState extends State<RecipeDetailScreen> {
                           ),
                         ],
                       ),
+                      if (recipe.description != null &&
+                          recipe.description!.trim().isNotEmpty) ...[
+                        const SizedBox(height: AppSpacing.large),
+                        Text(
+                          recipe.description!,
+                          style: theme.textTheme.bodyLarge?.copyWith(
+                            height: 1.55,
+                            color: colors.onSurface,
+                          ),
+                        ),
+                      ],
                       const SizedBox(height: AppSpacing.xLarge),
                       Wrap(
                         spacing: AppSpacing.small,
@@ -156,6 +202,28 @@ class _RecipeDetailScreenState extends State<RecipeDetailScreen> {
                         ],
                       ),
                       const SizedBox(height: AppSpacing.xLarge),
+                      if ((recipe.animeContext != null &&
+                              recipe.animeContext!.trim().isNotEmpty) ||
+                          primaryAnimeReference != null) ...[
+                        _AnimeContextPanel(
+                          title: l10n.animeSectionTitle,
+                          contextText: recipe.animeContext,
+                          reference: primaryAnimeReference,
+                          relationLabel: primaryAnimeReference == null
+                              ? l10n.animeReferenceLabel
+                              : _animeRelationLabel(
+                                  l10n,
+                                  primaryAnimeReference.relation,
+                                ),
+                          location: primaryAnimeReference == null
+                              ? null
+                              : _animeLocation(
+                                  l10n,
+                                  primaryAnimeReference,
+                                ),
+                        ),
+                        const SizedBox(height: AppSpacing.xLarge),
+                      ],
                       LayoutBuilder(
                         builder: (context, constraints) {
                           final wide = constraints.maxWidth >= 820;
@@ -222,6 +290,83 @@ class _RecipeDetailScreenState extends State<RecipeDetailScreen> {
               ),
             ),
           ),
+        ],
+      ),
+    );
+  }
+}
+
+class _AnimeContextPanel extends StatelessWidget {
+  const _AnimeContextPanel({
+    required this.title,
+    required this.contextText,
+    required this.reference,
+    required this.relationLabel,
+    required this.location,
+  });
+
+  final String title;
+  final String? contextText;
+  final RecipeAnimeReference? reference;
+  final String relationLabel;
+  final String? location;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final colors = theme.colorScheme;
+
+    return Container(
+      padding: const EdgeInsets.all(AppSpacing.large),
+      decoration: BoxDecoration(
+        color: colors.secondaryContainer.withValues(alpha: 0.34),
+        borderRadius: BorderRadius.circular(AppRadii.container),
+        border: Border.all(
+          color: colors.secondary.withValues(alpha: 0.22),
+        ),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          _SectionHeading(
+            icon: Icons.movie_filter_outlined,
+            title: title,
+          ),
+          if (reference != null) ...[
+            const SizedBox(height: AppSpacing.medium),
+            Text(
+              reference!.workTitle,
+              style: theme.textTheme.titleMedium?.copyWith(
+                fontWeight: FontWeight.w800,
+              ),
+            ),
+            const SizedBox(height: AppSpacing.xSmall),
+            Wrap(
+              spacing: AppSpacing.small,
+              runSpacing: AppSpacing.xSmall,
+              children: [
+                Chip(
+                  label: Text(relationLabel),
+                  visualDensity: VisualDensity.compact,
+                ),
+                if (location != null)
+                  Chip(
+                    label: Text(location!),
+                    visualDensity: VisualDensity.compact,
+                  ),
+              ],
+            ),
+          ],
+          if (contextText != null && contextText!.trim().isNotEmpty) ...[
+            const SizedBox(height: AppSpacing.medium),
+            Text(
+              contextText!,
+              style: theme.textTheme.bodyMedium?.copyWith(
+                height: 1.5,
+                color: colors.onSurfaceVariant,
+              ),
+            ),
+          ],
         ],
       ),
     );
