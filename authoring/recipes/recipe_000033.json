@@ -1,0 +1,342 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000033",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "A Whisker Away",
+  "animeReferences": [
+    {
+      "workTitle": "A Whisker Away",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Inari sushi verified as seasoned sushi rice packed into sweet-simmered aburaage pouches; prepared inari-age supported as default.",
+    "animeStatus": "unverified",
+    "animeNote": "Association kept as inspiration."
+  },
+  "prepMinutes": 20,
+  "cookMinutes": 10,
+  "servings": 8,
+  "difficulty": "easy",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from Ricettario Vol. 4; fresh-aburaage path clarified and prepared inari-age kept as simple default.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "inari_age",
+      "quantity": 8,
+      "unit": "piece"
+    },
+    {
+      "id": "rice",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "id": "rice_vinegar",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "sugar",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "salt",
+      "quantity": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "sesame",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "vegetable_mix",
+      "quantity": 1,
+      "unit": "tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "id": "season_rice",
+      "timerSeconds": 300
+    },
+    {
+      "id": "cool_rice",
+      "timerSeconds": 300
+    },
+    {
+      "id": "prepare_pouches",
+      "timerSeconds": 180
+    },
+    {
+      "id": "mix_garnish",
+      "timerSeconds": 120
+    },
+    {
+      "id": "fill",
+      "timerSeconds": 420
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Inari Sushi",
+      "description": "Sweet-savoury tofu pouches filled with lightly vinegared Japanese rice, one of the most approachable forms of sushi to make at home. Moist inari-age and gently handled rice give the best balance between juicy wrapper and distinct grains.",
+      "animeContext": "Inspired by the Japanese everyday-food setting of A Whisker Away. The app does not claim that this exact inari-sushi preparation is shown on screen.",
+      "ingredients": {
+        "inari_age": {
+          "name": "Prepared seasoned inari-age pouches",
+          "note": null
+        },
+        "rice": {
+          "name": "Cooked Japanese short-grain rice",
+          "note": null
+        },
+        "rice_vinegar": {
+          "name": "Rice vinegar",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "salt": {
+          "name": "Salt",
+          "note": null
+        },
+        "sesame": {
+          "name": "Toasted sesame seeds",
+          "note": null
+        },
+        "vegetable_mix": {
+          "name": "Finely diced simmered carrot and shiitake, optional",
+          "note": null
+        }
+      },
+      "steps": {
+        "season_rice": "While the rice is still hot, dissolve sugar and salt in rice vinegar. Spread the rice in a wide non-metal bowl and fold the seasoning through with slicing motions instead of mashing the grains.",
+        "cool_rice": "Fan or stir gently until the rice is just warm and glossy. Keep it covered with a damp clean cloth so the surface does not dry while you prepare the pouches.",
+        "prepare_pouches": "Drain prepared inari-age gently without squeezing them dry; they should stay moist and flexible. Open each pouch carefully with your fingers, loosening the corners without tearing the tofu.",
+        "mix_garnish": "Fold toasted sesame and, if using, very well-drained diced carrot and shiitake into the rice. Keep the additions small so the grains still bind together.",
+        "fill": "Wet your hands lightly, divide the rice into eight compact ovals and slide one into each pouch. Press gently into the corners, then fold the top edge inward or leave it open with rice visible. Serve at room temperature."
+      }
+    },
+    "it": {
+      "title": "Inari Sushi",
+      "description": "Tasche di tofu fritte dolci-sapide ripiene di riso giapponese leggermente condito con aceto, una delle forme di sushi più semplici da preparare in casa. Inari-age umido e riso trattato con delicatezza mantengono il giusto contrasto.",
+      "animeContext": "Ispirato all’ambientazione quotidiana giapponese di A Whisker Away. L’app non afferma che questa preparazione precisa di inari sushi sia mostrata sullo schermo.",
+      "ingredients": {
+        "inari_age": {
+          "name": "Tasche di inari-age già condite",
+          "note": null
+        },
+        "rice": {
+          "name": "Riso giapponese a chicco corto cotto",
+          "note": null
+        },
+        "rice_vinegar": {
+          "name": "Aceto di riso",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucchero",
+          "note": null
+        },
+        "salt": {
+          "name": "Sale",
+          "note": null
+        },
+        "sesame": {
+          "name": "Semi di sesamo tostati",
+          "note": null
+        },
+        "vegetable_mix": {
+          "name": "Carota e shiitake stufati a dadini, facoltativi",
+          "note": null
+        }
+      },
+      "steps": {
+        "season_rice": "Con il riso ancora caldo sciogli zucchero e sale nell’aceto di riso. Allarga il riso in una ciotola ampia non metallica e incorpora il condimento con movimenti di taglio, senza schiacciare i chicchi.",
+        "cool_rice": "Sventola o mescola delicatamente finché il riso è appena tiepido e lucido. Coprilo con un panno pulito umido perché non secchi mentre prepari le tasche.",
+        "prepare_pouches": "Scola delicatamente l’inari-age già pronto senza strizzarlo: deve restare umido e flessibile. Apri ogni tasca con le dita, liberando gli angoli senza lacerare il tofu.",
+        "mix_garnish": "Incorpora sesamo tostato e, se vuoi, dadini di carota e shiitake molto ben scolati. Mantieni le aggiunte piccole, così il riso continua a compattarsi bene.",
+        "fill": "Inumidisci leggermente le mani, forma otto ovali compatti e inseriscine uno in ogni tasca. Spingi con delicatezza negli angoli, poi ripiega il bordo o lascia il riso visibile. Servi a temperatura ambiente."
+      }
+    },
+    "es": {
+      "title": "Inari Sushi",
+      "description": "Bolsas de tofu dulce-salado rellenas de arroz japonés ligeramente avinagrado, una forma de sushi sencilla de preparar en casa.",
+      "animeContext": "Inspirado en la vida cotidiana japonesa de A Whisker Away; no se afirma que esta preparación exacta aparezca en pantalla.",
+      "ingredients": {
+        "inari_age": {
+          "name": "Bolsas de inari-age sazonadas",
+          "note": null
+        },
+        "rice": {
+          "name": "Arroz japonés cocido",
+          "note": null
+        },
+        "rice_vinegar": {
+          "name": "Vinagre de arroz",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        },
+        "sesame": {
+          "name": "Sésamo tostado",
+          "note": null
+        },
+        "vegetable_mix": {
+          "name": "Zanahoria y shiitake guisados, opcionales",
+          "note": null
+        }
+      },
+      "steps": {
+        "season_rice": "Con el arroz caliente disuelve azúcar y sal en vinagre e incorpóralo con movimientos de corte sin aplastar los granos.",
+        "cool_rice": "Enfría hasta tibio y brillante y cubre con un paño húmedo.",
+        "prepare_pouches": "Escurre el inari-age sin exprimir y abre las bolsas con cuidado.",
+        "mix_garnish": "Añade sésamo y, si deseas, verduras muy bien escurridas.",
+        "fill": "Forma ocho óvalos de arroz con manos húmedas, rellena las bolsas suavemente y sirve a temperatura ambiente."
+      }
+    },
+    "fr": {
+      "title": "Inari Sushi",
+      "description": "Poches de tofu sucrées-salées garnies de riz japonais légèrement vinaigré, une forme de sushi très accessible à la maison.",
+      "animeContext": "Inspiré du quotidien japonais de A Whisker Away; aucune apparition exacte de cette préparation n’est revendiquée.",
+      "ingredients": {
+        "inari_age": {
+          "name": "Poches d’inari-age assaisonnées",
+          "note": null
+        },
+        "rice": {
+          "name": "Riz japonais cuit",
+          "note": null
+        },
+        "rice_vinegar": {
+          "name": "Vinaigre de riz",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre",
+          "note": null
+        },
+        "salt": {
+          "name": "Sel",
+          "note": null
+        },
+        "sesame": {
+          "name": "Sésame grillé",
+          "note": null
+        },
+        "vegetable_mix": {
+          "name": "Carotte et shiitake mijotés, facultatifs",
+          "note": null
+        }
+      },
+      "steps": {
+        "season_rice": "Assaisonnez le riz chaud avec vinaigre, sucre et sel en mouvements tranchants sans écraser les grains.",
+        "cool_rice": "Refroidissez jusqu’à tiède et brillant puis couvrez d’un linge humide.",
+        "prepare_pouches": "Égouttez l’inari-age sans l’essorer et ouvrez délicatement les poches.",
+        "mix_garnish": "Ajoutez sésame et, si souhaité, légumes très bien égouttés.",
+        "fill": "Formez huit ovales de riz avec les mains humides, garnissez les poches sans les déchirer et servez à température ambiante."
+      }
+    },
+    "de": {
+      "title": "Inari Sushi",
+      "description": "Süß-salzige Tofutaschen mit leicht gesäuertem japanischem Reis, eine besonders unkomplizierte Sushi-Form für zu Hause.",
+      "animeContext": "Vom japanischen Alltag in A Whisker Away inspiriert; keine exakte Bildschirmdarstellung dieser Zubereitung wird behauptet.",
+      "ingredients": {
+        "inari_age": {
+          "name": "Gewürzte Inari-Age-Taschen",
+          "note": null
+        },
+        "rice": {
+          "name": "Gekochter japanischer Rundkornreis",
+          "note": null
+        },
+        "rice_vinegar": {
+          "name": "Reisessig",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker",
+          "note": null
+        },
+        "salt": {
+          "name": "Salz",
+          "note": null
+        },
+        "sesame": {
+          "name": "Gerösteter Sesam",
+          "note": null
+        },
+        "vegetable_mix": {
+          "name": "Fein gewürfelte Karotte und Shiitake, optional",
+          "note": null
+        }
+      },
+      "steps": {
+        "season_rice": "Heißen Reis mit in Reisessig gelöstem Zucker und Salz in schneidenden Bewegungen würzen, ohne die Körner zu zerdrücken.",
+        "cool_rice": "Bis lauwarm und glänzend abkühlen und mit feuchtem Tuch abdecken.",
+        "prepare_pouches": "Inari-Age sanft abtropfen lassen und die Taschen vorsichtig öffnen.",
+        "mix_garnish": "Sesam und optional sehr gut abgetropftes Gemüse unterheben.",
+        "fill": "Mit feuchten Händen acht Reisovale formen, Taschen vorsichtig füllen und bei Raumtemperatur servieren."
+      }
+    },
+    "pt": {
+      "title": "Inari Sushi",
+      "description": "Bolsas de tofu doce-salgado recheadas com arroz japonês levemente avinagrado, uma forma de sushi simples para fazer em casa.",
+      "animeContext": "Inspirado no cotidiano japonês de A Whisker Away; não afirmamos que esta preparação exata apareça na tela.",
+      "ingredients": {
+        "inari_age": {
+          "name": "Bolsas de inari-age temperadas",
+          "note": null
+        },
+        "rice": {
+          "name": "Arroz japonês cozido",
+          "note": null
+        },
+        "rice_vinegar": {
+          "name": "Vinagre de arroz",
+          "note": null
+        },
+        "sugar": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        },
+        "sesame": {
+          "name": "Gergelim torrado",
+          "note": null
+        },
+        "vegetable_mix": {
+          "name": "Cenoura e shiitake cozidos, opcionais",
+          "note": null
+        }
+      },
+      "steps": {
+        "season_rice": "Tempere o arroz quente com vinagre, açúcar e sal usando movimentos de corte sem esmagar os grãos.",
+        "cool_rice": "Resfrie até ficar morno e brilhante e cubra com pano úmido.",
+        "prepare_pouches": "Escorra o inari-age sem espremer e abra as bolsas com cuidado.",
+        "mix_garnish": "Misture gergelim e, se desejar, legumes muito bem escorridos.",
+        "fill": "Com mãos úmidas forme oito ovais de arroz, recheie as bolsas delicadamente e sirva em temperatura ambiente."
+      }
+    }
+  }
+}
