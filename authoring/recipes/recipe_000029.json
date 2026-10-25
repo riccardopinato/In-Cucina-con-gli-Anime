@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000029",
-  "contentVersion": 1,
+  "contentVersion": 2,
   "status": "published",
   "inspirationTitle": "Chainsaw Man",
   "animeReferences": [
@@ -64,13 +64,28 @@
     },
     {
       "id": "oil",
-      "quantity": 1,
-      "unit": "tbsp"
+      "quantity": null,
+      "unit": null
     },
     {
       "id": "fukujinzuke",
       "quantity": null,
       "unit": null
+    },
+    {
+      "id": "flour",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "id": "egg",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "panko",
+      "quantity": 100,
+      "unit": "g"
     }
   ],
   "steps": [
@@ -106,7 +121,7 @@
       "animeContext": "Inspired by the everyday comfort-food tone associated with Chainsaw Man. The culinary identity is Katsu Curry; no specific episode is claimed.",
       "ingredients": {
         "pork_cutlets": {
-          "name": "Tonkatsu pork cutlets",
+          "name": "Pork loin cutlets, 1.5–2 cm thick",
           "note": null
         },
         "rice": {
@@ -134,11 +149,23 @@
           "note": null
         },
         "oil": {
-          "name": "Neutral oil",
+          "name": "Neutral oil, for sautéing and deep-frying",
           "note": null
         },
         "fukujinzuke": {
           "name": "Fukujinzuke pickles, optional",
+          "note": null
+        },
+        "flour": {
+          "name": "All-purpose flour",
+          "note": null
+        },
+        "egg": {
+          "name": "Large egg",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko breadcrumbs",
           "note": null
         }
       },
@@ -157,7 +184,7 @@
       "animeContext": "Ispirato al tono da comfort food quotidiano associato a Chainsaw Man. L’identità culinaria corretta è Katsu Curry; non indichiamo un episodio preciso.",
       "ingredients": {
         "pork_cutlets": {
-          "name": "Cotolette tonkatsu di maiale",
+          "name": "Cotolette crude di lonza di maiale spesse 1,5–2 cm",
           "note": null
         },
         "rice": {
@@ -185,11 +212,23 @@
           "note": null
         },
         "oil": {
-          "name": "Olio neutro",
+          "name": "Olio neutro, per soffritto e frittura",
           "note": null
         },
         "fukujinzuke": {
           "name": "Fukujinzuke, facoltativo",
+          "note": null
+        },
+        "flour": {
+          "name": "Farina 00",
+          "note": null
+        },
+        "egg": {
+          "name": "Uovo grande",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
           "note": null
         }
       },
@@ -208,7 +247,7 @@
       "animeContext": "Inspirado en el tono de comfort food asociado a Chainsaw Man. El nombre culinario correcto es Katsu Curry; no se afirma un episodio concreto.",
       "ingredients": {
         "pork_cutlets": {
-          "name": "Tonkatsu de cerdo",
+          "name": "Chuletas crudas de lomo de cerdo de 1,5–2 cm",
           "note": null
         },
         "rice": {
@@ -236,11 +275,23 @@
           "note": null
         },
         "oil": {
-          "name": "Aceite neutro",
+          "name": "Aceite neutro, para saltear y freír",
           "note": null
         },
         "fukujinzuke": {
           "name": "Fukujinzuke, opcional",
+          "note": null
+        },
+        "flour": {
+          "name": "Harina de trigo",
+          "note": null
+        },
+        "egg": {
+          "name": "Huevo grande",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
           "note": null
         }
       },
@@ -259,7 +310,7 @@
       "animeContext": "Inspiré du registre de comfort food associé à Chainsaw Man. Le nom culinaire correct est Katsu Curry; aucun épisode précis n’est affirmé.",
       "ingredients": {
         "pork_cutlets": {
-          "name": "Tonkatsu de porc",
+          "name": "Côtelettes crues de longe de porc de 1,5–2 cm",
           "note": null
         },
         "rice": {
@@ -287,11 +338,23 @@
           "note": null
         },
         "oil": {
-          "name": "Huile neutre",
+          "name": "Huile neutre, pour cuisson et friture",
           "note": null
         },
         "fukujinzuke": {
           "name": "Fukujinzuke, facultatif",
+          "note": null
+        },
+        "flour": {
+          "name": "Farine de blé",
+          "note": null
+        },
+        "egg": {
+          "name": "Gros œuf",
+          "note": null
+        },
+        "panko": {
+          "name": "Chapelure panko",
           "note": null
         }
       },
@@ -310,7 +373,7 @@
       "animeContext": "Von der Comfort-Food-Stimmung in Chainsaw Man inspiriert. Die korrekte kulinarische Bezeichnung ist Katsu Curry; keine konkrete Episode wird behauptet.",
       "ingredients": {
         "pork_cutlets": {
-          "name": "Schweine-Tonkatsu",
+          "name": "Rohe Schweinerücken-Schnitzel, 1,5–2 cm dick",
           "note": null
         },
         "rice": {
@@ -338,11 +401,23 @@
           "note": null
         },
         "oil": {
-          "name": "Neutrales Öl",
+          "name": "Neutrales Öl zum Anbraten und Frittieren",
           "note": null
         },
         "fukujinzuke": {
           "name": "Fukujinzuke, optional",
+          "note": null
+        },
+        "flour": {
+          "name": "Weizenmehl",
+          "note": null
+        },
+        "egg": {
+          "name": "Großes Ei",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko-Paniermehl",
           "note": null
         }
       },
@@ -361,7 +436,7 @@
       "animeContext": "Inspirado no clima de comfort food associado a Chainsaw Man. O nome culinário correto é Katsu Curry; não afirmamos um episódio específico.",
       "ingredients": {
         "pork_cutlets": {
-          "name": "Tonkatsu de porco",
+          "name": "Bifes crus de lombo de porco com 1,5–2 cm",
           "note": null
         },
         "rice": {
@@ -389,11 +464,23 @@
           "note": null
         },
         "oil": {
-          "name": "Óleo neutro",
+          "name": "Óleo neutro para refogar e fritar",
           "note": null
         },
         "fukujinzuke": {
           "name": "Fukujinzuke, opcional",
+          "note": null
+        },
+        "flour": {
+          "name": "Farinha de trigo",
+          "note": null
+        },
+        "egg": {
+          "name": "Ovo grande",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
           "note": null
         }
       },
