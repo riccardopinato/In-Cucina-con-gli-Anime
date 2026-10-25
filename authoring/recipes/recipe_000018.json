@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000018",
-  "contentVersion": 2,
+  "contentVersion": 3,
   "status": "published",
   "inspirationTitle": "Dragon Ball / La città incantata",
   "prepMinutes": 75,
@@ -61,6 +61,11 @@
       "id": "soy_sauce",
       "quantity": 1,
       "unit": "tbsp"
+    },
+    {
+      "id": "shiitake",
+      "quantity": 2,
+      "unit": "piece"
     }
   ],
   "steps": [
@@ -128,14 +133,18 @@
         "soy_sauce": {
           "name": "Soy sauce",
           "note": null
+        },
+        "shiitake": {
+          "name": "Fresh shiitake mushrooms",
+          "note": null
         }
       },
       "steps": {
-        "step_1": "Knead flour, yeast, lukewarm water and sugar until smooth, then proof for about 1 hour until doubled. undefined Use water that is warm rather than hot so the yeast is not damaged; the mixture should form a shaggy dough with no dry flour before kneading. undefined Knead until the surface becomes smooth and elastic rather than simply timing the process. If the dough tears immediately when stretched, give it a short rest and knead a little longer. undefined Judge the first proof by volume: the dough should roughly double and feel airy. In a cool room it may need longer than the stated hour.",
-        "step_2": "Mix the pork with squeezed chopped cabbage, spring onion, ginger, soy sauce and sesame oil. undefined Mix the filling until the pork becomes slightly tacky so it holds together, but keep it refrigerated until assembly. Squeeze excess water from cabbage and mushrooms if they are wet.",
-        "step_3": "Divide the dough, roll into discs with thinner edges and place a spoonful of filling in the centre. undefined Keep unused portions covered while shaping so the surface does not skin over; a dry edge is difficult to pleat and seal. undefined Keep the centre of each wrapper thicker than the rim, place filling in the middle and pleat the thin edge upward. Pinch the final opening firmly closed so meat juices stay inside during steaming.",
-        "step_4": "Pleat the edges together to close each bun into a small pouch. undefined Let shaped buns become visibly puffy before steaming, but not fully doubled; overproofed buns can wrinkle or collapse after cooking.",
-        "step_5": "Steam on parchment squares for 15–18 minutes and let stand briefly before opening the steamer. undefined Start with active steam, keep the lid closed during cooking and verify the pork filling is safely cooked. When time is up, turn off the heat and wait 3–5 minutes before opening the lid gradually to reduce collapse."
+        "step_1": "Knead flour, yeast, lukewarm water and sugar until smooth, then proof for about 1 hour until doubled. Use water that is warm rather than hot so the yeast is not damaged; the mixture should form a shaggy dough with no dry flour before kneading. Knead until the surface becomes smooth and elastic rather than simply timing the process. If the dough tears immediately when stretched, give it a short rest and knead a little longer. Judge the first proof by volume: the dough should roughly double and feel airy. In a cool room it may need longer than the stated hour.",
+        "step_2": "Mix the pork with squeezed chopped cabbage, spring onion, ginger, soy sauce and sesame oil. Mix the filling until the pork becomes slightly tacky so it holds together, but keep it refrigerated until assembly. Squeeze excess water from cabbage and mushrooms if they are wet.",
+        "step_3": "Divide the dough, roll into discs with thinner edges and place a spoonful of filling in the centre. Keep unused portions covered while shaping so the surface does not skin over; a dry edge is difficult to pleat and seal. Keep the centre of each wrapper thicker than the rim, place filling in the middle and pleat the thin edge upward. Pinch the final opening firmly closed so meat juices stay inside during steaming.",
+        "step_4": "Pleat the edges together to close each bun into a small pouch. Let shaped buns become visibly puffy before steaming, but not fully doubled; overproofed buns can wrinkle or collapse after cooking.",
+        "step_5": "Steam on parchment squares for 15–18 minutes and let stand briefly before opening the steamer. Start with active steam, keep the lid closed during cooking and verify the pork filling is safely cooked. When time is up, turn off the heat and wait 3–5 minutes before opening the lid gradually to reduce collapse."
       },
       "description": "Japanese steamed buns with a soft yeast dough wrapped around a juicy pork, cabbage and mushroom filling. Proper proofing gives a light crumb, while a short covered rest after steaming prevents the buns from collapsing from a sudden temperature change.",
       "animeContext": "This recipe is inspired by the abundant steamed-bun and hearty-food imagery associated with Dragon Ball. The app does not claim that this exact nikuman filling appears in a particular episode."
@@ -182,14 +191,18 @@
         "soy_sauce": {
           "name": "Salsa di soia",
           "note": null
+        },
+        "shiitake": {
+          "name": "Funghi shiitake freschi",
+          "note": null
         }
       },
       "steps": {
-        "step_1": "Impasta farina, lievito, acqua tiepida e zucchero fino a ottenere un impasto liscio, poi lascia lievitare circa 1 ora fino al raddoppio. undefined Usa acqua tiepida, non calda, per non danneggiare il lievito; prima di impastare il composto deve diventare grezzo ma senza farina asciutta. undefined Impasta finché la superficie diventa liscia ed elastica, non solo seguendo il cronometro. Se si strappa subito quando la tendi, lasciala riposare qualche minuto e lavora ancora. undefined Valuta la prima lievitazione dal volume: l’impasto deve circa raddoppiare e risultare arioso. In un ambiente fresco può servire più dell’ora indicativa.",
-        "step_2": "Mescola il maiale con cavolo tritato e ben strizzato, cipollotto, zenzero, salsa di soia e olio di sesamo. undefined Mescola il ripieno finché il maiale diventa leggermente appiccicoso e compatto, ma tienilo in frigorifero fino alla formatura. Strizza l’acqua in eccesso da cavolo e funghi se sono molto umidi.",
-        "step_3": "Dividi l’impasto, stendilo in dischi con i bordi più sottili e metti una cucchiaiata di ripieno al centro. undefined Tieni coperte le porzioni che non stai lavorando, così la superficie non forma una pellicola secca difficile da piegare e sigillare. undefined Lascia il centro di ogni disco più spesso del bordo, metti il ripieno al centro e crea le pieghe con la parte sottile verso l’alto. Pizzica bene la chiusura finale, così i succhi restano dentro durante il vapore.",
-        "step_4": "Pizzica le pieghe verso il centro per chiudere ogni panino a fagottino. undefined Lascia che i panini formati diventino visibilmente gonfi prima del vapore, ma senza arrivare a un raddoppio completo: una seconda lievitazione eccessiva può farli raggrinzire o collassare.",
-        "step_5": "Cuoci a vapore su quadratini di carta forno per 15–18 minuti e attendi un attimo prima di aprire la vaporiera. undefined Parti con vapore già attivo, tieni il coperchio chiuso durante la cottura e verifica che il ripieno di maiale sia cotto in sicurezza. A fine tempo spegni e aspetta 3–5 minuti prima di aprire gradualmente, così riduci il rischio di collasso."
+        "step_1": "Impasta farina, lievito, acqua tiepida e zucchero fino a ottenere un impasto liscio, poi lascia lievitare circa 1 ora fino al raddoppio. Usa acqua tiepida, non calda, per non danneggiare il lievito; prima di impastare il composto deve diventare grezzo ma senza farina asciutta. Impasta finché la superficie diventa liscia ed elastica, non solo seguendo il cronometro. Se si strappa subito quando la tendi, lasciala riposare qualche minuto e lavora ancora. Valuta la prima lievitazione dal volume: l’impasto deve circa raddoppiare e risultare arioso. In un ambiente fresco può servire più dell’ora indicativa.",
+        "step_2": "Mescola il maiale con cavolo tritato e ben strizzato, cipollotto, zenzero, salsa di soia e olio di sesamo. Mescola il ripieno finché il maiale diventa leggermente appiccicoso e compatto, ma tienilo in frigorifero fino alla formatura. Strizza l’acqua in eccesso da cavolo e funghi se sono molto umidi.",
+        "step_3": "Dividi l’impasto, stendilo in dischi con i bordi più sottili e metti una cucchiaiata di ripieno al centro. Tieni coperte le porzioni che non stai lavorando, così la superficie non forma una pellicola secca difficile da piegare e sigillare. Lascia il centro di ogni disco più spesso del bordo, metti il ripieno al centro e crea le pieghe con la parte sottile verso l’alto. Pizzica bene la chiusura finale, così i succhi restano dentro durante il vapore.",
+        "step_4": "Pizzica le pieghe verso il centro per chiudere ogni panino a fagottino. Lascia che i panini formati diventino visibilmente gonfi prima del vapore, ma senza arrivare a un raddoppio completo: una seconda lievitazione eccessiva può farli raggrinzire o collassare.",
+        "step_5": "Cuoci a vapore su quadratini di carta forno per 15–18 minuti e attendi un attimo prima di aprire la vaporiera. Parti con vapore già attivo, tieni il coperchio chiuso durante la cottura e verifica che il ripieno di maiale sia cotto in sicurezza. A fine tempo spegni e aspetta 3–5 minuti prima di aprire gradualmente, così riduci il rischio di collasso."
       },
       "description": "Panini giapponesi al vapore con impasto lievitato soffice attorno a un ripieno succoso di maiale, cavolo e funghi. Una lievitazione corretta rende la mollica leggera, mentre il breve riposo coperto dopo il vapore evita che i panini collassino per lo sbalzo termico.",
       "animeContext": "La ricetta si ispira all’immaginario di panini al vapore e cibo sostanzioso associato a Dragon Ball. L’app non afferma che questo ripieno preciso di nikuman compaia in un episodio particolare."
@@ -236,14 +249,18 @@
         "soy_sauce": {
           "name": "Salsa de soja",
           "note": null
+        },
+        "shiitake": {
+          "name": "Setas shiitake frescas",
+          "note": null
         }
       },
       "steps": {
-        "step_1": "Amasa harina, levadura, agua templada y azúcar y deja levar 1 hora. undefined Usa agua tibia, no caliente, para proteger la levadura; mezcla hasta que no quede harina seca. undefined Amasa hasta que quede liso y elástico; si se rompe al estirar, reposa unos minutos y amasa de nuevo. undefined Juzga la fermentación por volumen: debe casi duplicar y sentirse aireada; en frío puede necesitar más tiempo.",
-        "step_2": "Mezcla el cerdo con col escurrida, cebolleta, jengibre, soja y aceite de sésamo. undefined Mezcla hasta que el cerdo quede ligeramente pegajoso y mantén frío; elimina exceso de agua de col y setas.",
-        "step_3": "Divide la masa, forma discos con bordes finos y pon relleno en el centro. undefined Mantén cubiertas las porciones sin usar para que no se seque el borde. undefined Deja el centro más grueso que el borde, rellena y pliega el borde fino hacia arriba, cerrando con firmeza.",
-        "step_4": "Pliega y pellizca los bordes para cerrar cada bollo. undefined Deja que se hinchen visiblemente sin duplicar por completo; sobrefermentar puede hacerlos colapsar.",
-        "step_5": "Cuece al vapor sobre papel 15–18 minutos y espera un momento antes de abrir. undefined Empieza con vapor activo, no abras durante la cocción y verifica el cerdo. Al terminar, apaga y espera 3–5 minutos antes de abrir gradualmente."
+        "step_1": "Amasa harina, levadura, agua templada y azúcar y deja levar 1 hora. Usa agua tibia, no caliente, para proteger la levadura; mezcla hasta que no quede harina seca. Amasa hasta que quede liso y elástico; si se rompe al estirar, reposa unos minutos y amasa de nuevo. Juzga la fermentación por volumen: debe casi duplicar y sentirse aireada; en frío puede necesitar más tiempo.",
+        "step_2": "Mezcla el cerdo con col escurrida, cebolleta, jengibre, soja y aceite de sésamo. Mezcla hasta que el cerdo quede ligeramente pegajoso y mantén frío; elimina exceso de agua de col y setas.",
+        "step_3": "Divide la masa, forma discos con bordes finos y pon relleno en el centro. Mantén cubiertas las porciones sin usar para que no se seque el borde. Deja el centro más grueso que el borde, rellena y pliega el borde fino hacia arriba, cerrando con firmeza.",
+        "step_4": "Pliega y pellizca los bordes para cerrar cada bollo. Deja que se hinchen visiblemente sin duplicar por completo; sobrefermentar puede hacerlos colapsar.",
+        "step_5": "Cuece al vapor sobre papel 15–18 minutos y espera un momento antes de abrir. Empieza con vapor activo, no abras durante la cocción y verifica el cerdo. Al terminar, apaga y espera 3–5 minutos antes de abrir gradualmente."
       },
       "description": "Panecillos japoneses al vapor con masa de levadura y relleno jugoso de cerdo, col y setas. Una buena fermentación da miga ligera y el reposo tras el vapor evita colapsos.",
       "animeContext": "La receta se inspira en la abundante comida y panecillos al vapor asociados a Dragon Ball; no se afirma que este relleno exacto aparezca en un episodio."
@@ -290,14 +307,18 @@
         "soy_sauce": {
           "name": "Sauce soja",
           "note": null
+        },
+        "shiitake": {
+          "name": "Shiitake frais",
+          "note": null
         }
       },
       "steps": {
-        "step_1": "Pétrissez farine, levure, eau tiède et sucre puis laissez lever environ 1 heure. undefined Utilisez de l’eau tiède, non chaude, pour préserver la levure; mélangez jusqu’à disparition de la farine sèche. undefined Pétrissez jusqu’à pâte lisse et élastique; si elle se déchire immédiatement, reposez puis pétrissez encore. undefined Jugez la levée au volume: la pâte doit presque doubler et devenir aérienne; au frais, cela peut prendre plus longtemps.",
-        "step_2": "Mélangez le porc avec chou essoré, ciboule, gingembre, sauce soja et huile de sésame. undefined Mélangez jusqu’à ce que le porc devienne légèrement collant et gardez au froid; retirez l’excès d’eau du chou et des champignons.",
-        "step_3": "Divisez la pâte, formez des disques aux bords fins et déposez la farce au centre. undefined Gardez les portions non travaillées couvertes afin que le bord ne sèche pas. undefined Gardez le centre plus épais que le bord, garnissez puis plissez le bord fin vers le haut et fermez fermement.",
-        "step_4": "Pincez les plis vers le centre pour fermer chaque brioche. undefined Laissez gonfler visiblement sans doubler complètement; une surlevée peut les faire retomber.",
-        "step_5": "Faites cuire à la vapeur sur papier 15–18 minutes puis attendez un instant avant d’ouvrir. undefined Commencez avec vapeur active, gardez fermé et vérifiez la cuisson du porc. À la fin, coupez et attendez 3–5 minutes avant d’ouvrir progressivement."
+        "step_1": "Pétrissez farine, levure, eau tiède et sucre puis laissez lever environ 1 heure. Utilisez de l’eau tiède, non chaude, pour préserver la levure; mélangez jusqu’à disparition de la farine sèche. Pétrissez jusqu’à pâte lisse et élastique; si elle se déchire immédiatement, reposez puis pétrissez encore. Jugez la levée au volume: la pâte doit presque doubler et devenir aérienne; au frais, cela peut prendre plus longtemps.",
+        "step_2": "Mélangez le porc avec chou essoré, ciboule, gingembre, sauce soja et huile de sésame. Mélangez jusqu’à ce que le porc devienne légèrement collant et gardez au froid; retirez l’excès d’eau du chou et des champignons.",
+        "step_3": "Divisez la pâte, formez des disques aux bords fins et déposez la farce au centre. Gardez les portions non travaillées couvertes afin que le bord ne sèche pas. Gardez le centre plus épais que le bord, garnissez puis plissez le bord fin vers le haut et fermez fermement.",
+        "step_4": "Pincez les plis vers le centre pour fermer chaque brioche. Laissez gonfler visiblement sans doubler complètement; une surlevée peut les faire retomber.",
+        "step_5": "Faites cuire à la vapeur sur papier 15–18 minutes puis attendez un instant avant d’ouvrir. Commencez avec vapeur active, gardez fermé et vérifiez la cuisson du porc. À la fin, coupez et attendez 3–5 minutes avant d’ouvrir progressivement."
       },
       "description": "Brioches japonaises vapeur à pâte levée, farcies de porc, chou et champignons. Une bonne levée allège la mie et un court repos après cuisson évite l’affaissement.",
       "animeContext": "La recette s’inspire de l’imagerie de nourriture abondante et de pains vapeur associée à Dragon Ball; aucune apparition exacte de cette farce n’est affirmée."
@@ -344,14 +365,18 @@
         "soy_sauce": {
           "name": "Sojasauce",
           "note": null
+        },
+        "shiitake": {
+          "name": "Frische Shiitake-Pilze",
+          "note": null
         }
       },
       "steps": {
-        "step_1": "Mehl, Hefe, lauwarmes Wasser und Zucker kneten und etwa 1 Stunde gehen lassen. undefined Lauwarmes, nicht heißes Wasser verwenden, damit die Hefe aktiv bleibt; vor dem Kneten kein trockenes Mehl mehr sichtbar. undefined Kneten, bis der Teig glatt und elastisch ist; bei sofortigem Reißen kurz ruhen lassen und weiterkneten. undefined Die Gare nach Volumen beurteilen: der Teig soll sich etwa verdoppeln und luftig wirken; in kühler Umgebung dauert es länger.",
-        "step_2": "Schweinehack mit ausgedrücktem Kohl, Frühlingszwiebel, Ingwer, Sojasauce und Sesamöl mischen. undefined Füllung mischen, bis das Fleisch leicht klebrig wird, und kalt halten; überschüssiges Wasser aus Kohl und Pilzen entfernen.",
-        "step_3": "Teig teilen, zu Scheiben mit dünneren Rändern ausrollen und füllen. undefined Nicht bearbeitete Portionen abdecken, damit die Oberfläche nicht austrocknet. undefined Mitte dicker als Rand lassen, füllen und den dünnen Rand nach oben falten; Öffnung fest schließen.",
-        "step_4": "Die Ränder in Falten zur Mitte ziehen und die Brötchen schließen. undefined Geformte Buns sichtbar aufgehen lassen, aber nicht vollständig verdoppeln; Übergare kann sie zusammenfallen lassen.",
-        "step_5": "Auf Backpapier 15–18 Minuten dämpfen und vor dem Öffnen kurz warten. undefined Mit aktivem Dampf starten, Deckel geschlossen halten und sichere Fleischgarung prüfen. Danach 3–5 Minuten warten und langsam öffnen."
+        "step_1": "Mehl, Hefe, lauwarmes Wasser und Zucker kneten und etwa 1 Stunde gehen lassen. Lauwarmes, nicht heißes Wasser verwenden, damit die Hefe aktiv bleibt; vor dem Kneten kein trockenes Mehl mehr sichtbar. Kneten, bis der Teig glatt und elastisch ist; bei sofortigem Reißen kurz ruhen lassen und weiterkneten. Die Gare nach Volumen beurteilen: der Teig soll sich etwa verdoppeln und luftig wirken; in kühler Umgebung dauert es länger.",
+        "step_2": "Schweinehack mit ausgedrücktem Kohl, Frühlingszwiebel, Ingwer, Sojasauce und Sesamöl mischen. Füllung mischen, bis das Fleisch leicht klebrig wird, und kalt halten; überschüssiges Wasser aus Kohl und Pilzen entfernen.",
+        "step_3": "Teig teilen, zu Scheiben mit dünneren Rändern ausrollen und füllen. Nicht bearbeitete Portionen abdecken, damit die Oberfläche nicht austrocknet. Mitte dicker als Rand lassen, füllen und den dünnen Rand nach oben falten; Öffnung fest schließen.",
+        "step_4": "Die Ränder in Falten zur Mitte ziehen und die Brötchen schließen. Geformte Buns sichtbar aufgehen lassen, aber nicht vollständig verdoppeln; Übergare kann sie zusammenfallen lassen.",
+        "step_5": "Auf Backpapier 15–18 Minuten dämpfen und vor dem Öffnen kurz warten. Mit aktivem Dampf starten, Deckel geschlossen halten und sichere Fleischgarung prüfen. Danach 3–5 Minuten warten und langsam öffnen."
       },
       "description": "Japanische gedämpfte Hefebrötchen mit saftiger Schweine-Kohl-Pilz-Füllung. Gute Gare macht die Krume leicht; kurze Ruhe nach dem Dämpfen verhindert Zusammenfallen.",
       "animeContext": "Das Rezept ist von der üppigen Essens- und Dampfbrötchen-Atmosphäre in Dragon Ball inspiriert; keine konkrete Füllung wird einer Episode zugeschrieben."
@@ -398,14 +423,18 @@
         "soy_sauce": {
           "name": "Molho de soja",
           "note": null
+        },
+        "shiitake": {
+          "name": "Cogumelos shiitake frescos",
+          "note": null
         }
       },
       "steps": {
-        "step_1": "Amasse farinha, fermento, água morna e açúcar e deixe crescer por cerca de 1 hora. undefined Use água morna, não quente, para não danificar o fermento; misture até não restar farinha seca. undefined Sove até ficar lisa e elástica; se rasgar imediatamente ao esticar, descanse e sove mais um pouco. undefined Avalie a fermentação pelo volume: deve quase dobrar e ficar aerada; em ambiente frio pode levar mais tempo.",
-        "step_2": "Misture a carne suína com couve espremida, cebolinha, gengibre, soja e óleo de gergelim. undefined Misture até o porco ficar levemente pegajoso e mantenha refrigerado; retire excesso de água do repolho e cogumelos.",
-        "step_3": "Divida a massa, abra discos com bordas finas e coloque o recheio no centro. undefined Mantenha as porções não usadas cobertas para não ressecar a borda. undefined Deixe o centro mais grosso que a borda, recheie e pregue a borda fina para cima, fechando bem.",
-        "step_4": "Faça pregas e feche cada pão no centro. undefined Deixe os pães visivelmente fofos sem dobrar totalmente; fermentação excessiva pode fazê-los murchar.",
-        "step_5": "Cozinhe no vapor sobre papel por 15–18 minutos e aguarde um instante antes de abrir. undefined Comece com vapor ativo, mantenha fechado e confirme cocção segura do porco. Ao final, desligue e espere 3–5 minutos antes de abrir gradualmente."
+        "step_1": "Amasse farinha, fermento, água morna e açúcar e deixe crescer por cerca de 1 hora. Use água morna, não quente, para não danificar o fermento; misture até não restar farinha seca. Sove até ficar lisa e elástica; se rasgar imediatamente ao esticar, descanse e sove mais um pouco. Avalie a fermentação pelo volume: deve quase dobrar e ficar aerada; em ambiente frio pode levar mais tempo.",
+        "step_2": "Misture a carne suína com couve espremida, cebolinha, gengibre, soja e óleo de gergelim. Misture até o porco ficar levemente pegajoso e mantenha refrigerado; retire excesso de água do repolho e cogumelos.",
+        "step_3": "Divida a massa, abra discos com bordas finas e coloque o recheio no centro. Mantenha as porções não usadas cobertas para não ressecar a borda. Deixe o centro mais grosso que a borda, recheie e pregue a borda fina para cima, fechando bem.",
+        "step_4": "Faça pregas e feche cada pão no centro. Deixe os pães visivelmente fofos sem dobrar totalmente; fermentação excessiva pode fazê-los murchar.",
+        "step_5": "Cozinhe no vapor sobre papel por 15–18 minutos e aguarde um instante antes de abrir. Comece com vapor ativo, mantenha fechado e confirme cocção segura do porco. Ao final, desligue e espere 3–5 minutos antes de abrir gradualmente."
       },
       "description": "Pães japoneses no vapor com massa fermentada e recheio suculento de porco, repolho e cogumelos. Boa fermentação deixa o miolo leve e o descanso após o vapor evita colapso.",
       "animeContext": "A receita se inspira na comida abundante e pães no vapor associados a Dragon Ball; não afirmamos que este recheio exato apareça em episódio específico."
