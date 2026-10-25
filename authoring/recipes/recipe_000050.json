@@ -1,0 +1,468 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000050",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Gintama",
+  "animeReferences": [
+    {
+      "workTitle": "Gintama",
+      "relation": "verified_appearance",
+      "season": 3,
+      "episode": "40 (139 overall)",
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Japanese fruit parfait verified as a real kissaten/family-restaurant dessert. The giant presentation is deliberately an anime-style app variant, not a traditional fixed formula.",
+    "animeStatus": "verified",
+    "animeNote": "Gintoki is directly treated to/eats parfait in Gintama; season 3 episode 40 is a verified platform reference (overall episode 139)."
+  },
+  "prepMinutes": 20,
+  "cookMinutes": 0,
+  "servings": 2,
+  "difficulty": "easy",
+  "contentOrigin": "inspired",
+  "sourceNote": "Editorial reconstruction from Ricettario Vol. 5; marked inspired because the oversized anime-style composition is an app variation of real Japanese fruit parfait.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "vanilla_ice_cream",
+      "quantity": 4,
+      "unit": "scoop"
+    },
+    {
+      "id": "matcha_ice_cream",
+      "quantity": 2,
+      "unit": "scoop"
+    },
+    {
+      "id": "cream",
+      "quantity": 200,
+      "unit": "ml"
+    },
+    {
+      "id": "cornflakes",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "id": "strawberries",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "id": "banana",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "blueberries",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "id": "pocky",
+      "quantity": 4,
+      "unit": "piece"
+    },
+    {
+      "id": "wafers",
+      "quantity": 2,
+      "unit": "piece"
+    },
+    {
+      "id": "syrup",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "cherries",
+      "quantity": 2,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "chill_glasses",
+      "timerSeconds": 300
+    },
+    {
+      "id": "whip_cream",
+      "timerSeconds": 300
+    },
+    {
+      "id": "prep_fruit",
+      "timerSeconds": 300
+    },
+    {
+      "id": "build_base",
+      "timerSeconds": 120
+    },
+    {
+      "id": "layer",
+      "timerSeconds": 180
+    },
+    {
+      "id": "finish_serve",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Gintama-style Giant Japanese Fruit Parfait",
+      "description": "A towering Japanese kissaten-style parfait layered with ice cream, whipped cream, fruit and crunchy cereal, pushed into an intentionally extravagant anime presentation. Japanese fruit parfait is a real café dessert; the giant scale here is the app’s playful Gintama-inspired variation.",
+      "animeContext": "Parfait is a verified recurring Gintama motif around Gintoki’s sweet tooth. A direct platform reference is season 3 episode 40 (overall episode 139), where Gintoki is treated to parfait; the oversized composition here remains an original app interpretation.",
+      "ingredients": {
+        "vanilla_ice_cream": {
+          "name": "Vanilla ice cream",
+          "note": null
+        },
+        "matcha_ice_cream": {
+          "name": "Matcha ice cream",
+          "note": null
+        },
+        "cream": {
+          "name": "Cold whipping cream, lightly sweetened",
+          "note": null
+        },
+        "cornflakes": {
+          "name": "Cornflakes or granola",
+          "note": null
+        },
+        "strawberries": {
+          "name": "Strawberries",
+          "note": null
+        },
+        "banana": {
+          "name": "Banana",
+          "note": null
+        },
+        "blueberries": {
+          "name": "Blueberries",
+          "note": null
+        },
+        "pocky": {
+          "name": "Pocky sticks",
+          "note": null
+        },
+        "wafers": {
+          "name": "Wafer biscuits",
+          "note": null
+        },
+        "syrup": {
+          "name": "Chocolate or strawberry sauce",
+          "note": null
+        },
+        "cherries": {
+          "name": "Candied or cocktail cherries",
+          "note": null
+        }
+      },
+      "steps": {
+        "chill_glasses": "Chill two tall sturdy parfait glasses for at least 5 minutes. A cold glass slows melting and buys time while you build the upper layers.",
+        "whip_cream": "Whip the cold cream to firm but smooth peaks and transfer to a piping bag. Stop before it becomes grainy; the cream needs enough structure to support fruit and wafers.",
+        "prep_fruit": "Wash and dry the berries thoroughly. Slice strawberries and banana immediately before assembly and keep a few attractive pieces whole for the top; wet fruit makes the layers slide.",
+        "build_base": "Add a thin ribbon of sauce to each glass, then a layer of cornflakes or granola. Add a small amount of whipped cream and press a few fruit slices against the glass for visible colour.",
+        "layer": "Add vanilla and matcha ice cream, alternating with more fruit and whipped cream. Work quickly and keep the ice cream scoops separated by solid ingredients so the structure does not collapse.",
+        "finish_serve": "Pipe a tall final swirl of cream and decorate with Pocky, wafer, reserved fruit and a cherry. This deliberately oversized anime-style version should be served immediately with a long spoon before the ice cream melts into the crunchy layers."
+      }
+    },
+    "it": {
+      "title": "Parfait giapponese gigante in stile Gintama",
+      "description": "Un alto parfait in stile kissaten giapponese, con strati di gelato, panna, frutta e cereali croccanti, portato volutamente a una presentazione esagerata da anime. Il fruit parfait giapponese è un vero dessert da caffetteria; la scala gigante è la variante giocosa dell’app ispirata a Gintama.",
+      "animeContext": "Il parfait è un motivo ricorrente verificato in Gintama, legato alla passione di Gintoki per i dolci. Un riferimento diretto è la stagione 3 episodio 40 (episodio 139 complessivo), in cui Gintoki riceve un parfait; la composizione gigante resta un’interpretazione originale dell’app.",
+      "ingredients": {
+        "vanilla_ice_cream": {
+          "name": "Gelato alla vaniglia",
+          "note": null
+        },
+        "matcha_ice_cream": {
+          "name": "Gelato al matcha",
+          "note": null
+        },
+        "cream": {
+          "name": "Panna fresca fredda, poco zuccherata",
+          "note": null
+        },
+        "cornflakes": {
+          "name": "Corn flakes o granola",
+          "note": null
+        },
+        "strawberries": {
+          "name": "Fragole",
+          "note": null
+        },
+        "banana": {
+          "name": "Banana",
+          "note": null
+        },
+        "blueberries": {
+          "name": "Mirtilli",
+          "note": null
+        },
+        "pocky": {
+          "name": "Bastoncini Pocky",
+          "note": null
+        },
+        "wafers": {
+          "name": "Cialde",
+          "note": null
+        },
+        "syrup": {
+          "name": "Salsa al cioccolato o fragola",
+          "note": null
+        },
+        "cherries": {
+          "name": "Ciliegine candite o da cocktail",
+          "note": null
+        }
+      },
+      "steps": {
+        "chill_glasses": "Raffredda due bicchieri alti e robusti per almeno 5 minuti. Il vetro freddo rallenta lo scioglimento e dà più tempo per costruire gli strati superiori.",
+        "whip_cream": "Monta la panna fredda a picchi sodi ma lisci e trasferiscila in sac-à-poche. Fermati prima che diventi granulosa: deve avere struttura sufficiente a sostenere frutta e cialde.",
+        "prep_fruit": "Lava e asciuga perfettamente i frutti di bosco. Taglia fragole e banana subito prima dell’assemblaggio e conserva alcuni pezzi più belli per la cima; frutta bagnata rende gli strati instabili.",
+        "build_base": "Versa un filo sottile di salsa sul fondo, poi uno strato di corn flakes o granola. Aggiungi poca panna e appoggia alcune fette di frutta contro il vetro per creare colore visibile.",
+        "layer": "Aggiungi palline di gelato alla vaniglia e al matcha alternandole con altra frutta e panna. Lavora rapidamente e separa le palline con ingredienti solidi, così la struttura non crolla.",
+        "finish_serve": "Crea un ricciolo finale alto di panna e decora con Pocky, cialda, frutta tenuta da parte e ciliegina. Questa versione volutamente gigante in stile anime va servita immediatamente con cucchiaio lungo."
+      }
+    },
+    "es": {
+      "title": "Parfait japonés gigante estilo Gintama",
+      "description": "Parfait alto estilo kissaten con helado, nata, fruta y cereal, llevado a una presentación deliberadamente exagerada de anime. El parfait japonés es real; el tamaño gigante es la variante inspirada en Gintama.",
+      "animeContext": "El parfait es un motivo recurrente verificado de Gintama ligado a la afición de Gintoki por los dulces. Una referencia directa es temporada 3 episodio 40 (139 total), donde recibe un parfait; la versión gigante es interpretación de la app.",
+      "ingredients": {
+        "vanilla_ice_cream": {
+          "name": "Helado de vainilla",
+          "note": null
+        },
+        "matcha_ice_cream": {
+          "name": "Helado de matcha",
+          "note": null
+        },
+        "cream": {
+          "name": "Nata fría ligeramente azucarada",
+          "note": null
+        },
+        "cornflakes": {
+          "name": "Corn flakes o granola",
+          "note": null
+        },
+        "strawberries": {
+          "name": "Fresas",
+          "note": null
+        },
+        "banana": {
+          "name": "Plátano",
+          "note": null
+        },
+        "blueberries": {
+          "name": "Arándanos",
+          "note": null
+        },
+        "pocky": {
+          "name": "Palitos Pocky",
+          "note": null
+        },
+        "wafers": {
+          "name": "Barquillos",
+          "note": null
+        },
+        "syrup": {
+          "name": "Salsa de chocolate o fresa",
+          "note": null
+        },
+        "cherries": {
+          "name": "Cerezas confitadas",
+          "note": null
+        }
+      },
+      "steps": {
+        "chill_glasses": "Enfría dos vasos altos al menos 5 minutos para retrasar el derretimiento.",
+        "whip_cream": "Monta la nata a picos firmes pero lisos y pásala a manga.",
+        "prep_fruit": "Lava y seca muy bien la fruta; corta fresa y plátano justo antes de montar.",
+        "build_base": "Pon una línea de salsa, corn flakes, algo de nata y fruta visible contra el vaso.",
+        "layer": "Alterna helado de vainilla y matcha con fruta y nata, trabajando rápido.",
+        "finish_serve": "Termina con un remolino alto de nata, Pocky, barquillo, fruta y cereza. Sirve inmediatamente."
+      }
+    },
+    "fr": {
+      "title": "Parfait japonais géant style Gintama",
+      "description": "Grand parfait de style kissaten, avec glace, crème, fruits et céréales, poussé vers une présentation volontairement exagérée d’anime. Le parfait japonais est réel; l’échelle géante est la variante Gintama de l’app.",
+      "animeContext": "Le parfait est un motif récurrent vérifié dans Gintama, lié au goût de Gintoki pour les sucreries. Une référence directe est la saison 3 épisode 40 (139 au total), où il reçoit un parfait; la version géante reste une interprétation de l’app.",
+      "ingredients": {
+        "vanilla_ice_cream": {
+          "name": "Glace vanille",
+          "note": null
+        },
+        "matcha_ice_cream": {
+          "name": "Glace matcha",
+          "note": null
+        },
+        "cream": {
+          "name": "Crème froide légèrement sucrée",
+          "note": null
+        },
+        "cornflakes": {
+          "name": "Corn flakes ou granola",
+          "note": null
+        },
+        "strawberries": {
+          "name": "Fraises",
+          "note": null
+        },
+        "banana": {
+          "name": "Banane",
+          "note": null
+        },
+        "blueberries": {
+          "name": "Myrtilles",
+          "note": null
+        },
+        "pocky": {
+          "name": "Bâtonnets Pocky",
+          "note": null
+        },
+        "wafers": {
+          "name": "Gaufrettes",
+          "note": null
+        },
+        "syrup": {
+          "name": "Sauce chocolat ou fraise",
+          "note": null
+        },
+        "cherries": {
+          "name": "Cerises confites",
+          "note": null
+        }
+      },
+      "steps": {
+        "chill_glasses": "Refroidissez deux grands verres au moins 5 minutes pour ralentir la fonte.",
+        "whip_cream": "Montez la crème en pics fermes mais lisses et mettez en poche.",
+        "prep_fruit": "Lavez et séchez parfaitement les fruits; tranchez fraise et banane juste avant le montage.",
+        "build_base": "Ajoutez un filet de sauce, corn flakes, un peu de crème et des fruits visibles contre le verre.",
+        "layer": "Alternez glaces vanille et matcha avec fruits et crème en travaillant vite.",
+        "finish_serve": "Terminez par une haute rosace de crème, Pocky, gaufrette, fruits et cerise. Servez immédiatement."
+      }
+    },
+    "de": {
+      "title": "Riesiger japanischer Parfait im Gintama-Stil",
+      "description": "Hoher Kissaten-Parfait mit Eis, Sahne, Obst und knusprigem Getreide in bewusst übertriebener Anime-Präsentation. Japanischer Fruchtparfait ist real; die riesige Größe ist die Gintama-inspirierte App-Variante.",
+      "animeContext": "Parfait ist ein verifiziert wiederkehrendes Gintama-Motiv rund um Gintokis Süßigkeitenliebe. Ein direkter Bezug ist Staffel 3 Episode 40 (gesamt 139), in der er einen Parfait bekommt; die riesige Version ist eine App-Interpretation.",
+      "ingredients": {
+        "vanilla_ice_cream": {
+          "name": "Vanilleeis",
+          "note": null
+        },
+        "matcha_ice_cream": {
+          "name": "Matcha-Eis",
+          "note": null
+        },
+        "cream": {
+          "name": "Kalte leicht gesüßte Sahne",
+          "note": null
+        },
+        "cornflakes": {
+          "name": "Cornflakes oder Granola",
+          "note": null
+        },
+        "strawberries": {
+          "name": "Erdbeeren",
+          "note": null
+        },
+        "banana": {
+          "name": "Banane",
+          "note": null
+        },
+        "blueberries": {
+          "name": "Blaubeeren",
+          "note": null
+        },
+        "pocky": {
+          "name": "Pocky-Stäbchen",
+          "note": null
+        },
+        "wafers": {
+          "name": "Waffelkekse",
+          "note": null
+        },
+        "syrup": {
+          "name": "Schoko- oder Erdbeersauce",
+          "note": null
+        },
+        "cherries": {
+          "name": "Cocktailkirschen",
+          "note": null
+        }
+      },
+      "steps": {
+        "chill_glasses": "Zwei hohe Gläser mindestens 5 Minuten kühlen, damit das Eis langsamer schmilzt.",
+        "whip_cream": "Kalte Sahne zu festen, glatten Spitzen schlagen und in Spritzbeutel füllen.",
+        "prep_fruit": "Obst sehr gut waschen und trocknen; Erdbeeren und Banane erst direkt vor dem Aufbau schneiden.",
+        "build_base": "Etwas Sauce, Cornflakes, Sahne und sichtbare Früchte am Glas schichten.",
+        "layer": "Vanille- und Matcha-Eis mit Obst und Sahne abwechseln und zügig arbeiten.",
+        "finish_serve": "Mit hohem Sahnetupfer, Pocky, Waffel, Obst und Kirsche dekorieren und sofort servieren."
+      }
+    },
+    "pt": {
+      "title": "Parfait japonês gigante estilo Gintama",
+      "description": "Parfait alto estilo kissaten com sorvete, creme, frutas e cereal, levado a uma apresentação de anime deliberadamente exagerada. O parfait japonês é real; o tamanho gigante é a variação inspirada em Gintama.",
+      "animeContext": "Parfait é um motivo recorrente verificado em Gintama ligado ao gosto de Gintoki por doces. Uma referência direta é temporada 3 episódio 40 (139 no total), quando ele recebe um parfait; a versão gigante é interpretação do app.",
+      "ingredients": {
+        "vanilla_ice_cream": {
+          "name": "Sorvete de baunilha",
+          "note": null
+        },
+        "matcha_ice_cream": {
+          "name": "Sorvete de matcha",
+          "note": null
+        },
+        "cream": {
+          "name": "Chantilly frio levemente adoçado",
+          "note": null
+        },
+        "cornflakes": {
+          "name": "Corn flakes ou granola",
+          "note": null
+        },
+        "strawberries": {
+          "name": "Morangos",
+          "note": null
+        },
+        "banana": {
+          "name": "Banana",
+          "note": null
+        },
+        "blueberries": {
+          "name": "Mirtilos",
+          "note": null
+        },
+        "pocky": {
+          "name": "Palitos Pocky",
+          "note": null
+        },
+        "wafers": {
+          "name": "Biscoitos wafer",
+          "note": null
+        },
+        "syrup": {
+          "name": "Calda de chocolate ou morango",
+          "note": null
+        },
+        "cherries": {
+          "name": "Cerejas em calda",
+          "note": null
+        }
+      },
+      "steps": {
+        "chill_glasses": "Resfrie dois copos altos por pelo menos 5 minutos para retardar o derretimento.",
+        "whip_cream": "Bata o creme até picos firmes e lisos e coloque em saco de confeitar.",
+        "prep_fruit": "Lave e seque muito bem as frutas; corte morango e banana somente antes de montar.",
+        "build_base": "Coloque um fio de calda, corn flakes, creme e frutas visíveis junto ao copo.",
+        "layer": "Alterne sorvetes de baunilha e matcha com frutas e creme, trabalhando rápido.",
+        "finish_serve": "Finalize com um topo alto de creme, Pocky, wafer, frutas e cereja. Sirva imediatamente."
+      }
+    }
+  }
+}
