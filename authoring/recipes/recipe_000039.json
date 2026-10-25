@@ -1,0 +1,323 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000039",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Fruits Basket",
+  "animeReferences": [
+    {
+      "workTitle": "Fruits Basket",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Ichigo daifuku verified: whole strawberry and anko wrapped in freshly cooked glutinous-rice dough; same-day texture guidance added.",
+    "animeStatus": "unverified",
+    "animeNote": "Association retained as inspiration unless a direct scene is verified."
+  },
+  "prepMinutes": 25,
+  "cookMinutes": 5,
+  "servings": 6,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from Ricettario Vol. 4; hot-mochi handling and freshness guidance expanded.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "strawberries",
+      "quantity": 6,
+      "unit": null
+    },
+    {
+      "id": "anko",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "id": "shiratamako",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "id": "sugar",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "id": "water",
+      "quantity": 120,
+      "unit": "ml"
+    },
+    {
+      "id": "starch",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "prep_berries",
+      "timerSeconds": 420
+    },
+    {
+      "id": "mix_mochi",
+      "timerSeconds": 180
+    },
+    {
+      "id": "microwave",
+      "timerSeconds": 180
+    },
+    {
+      "id": "dust_divide",
+      "timerSeconds": 300
+    },
+    {
+      "id": "wrap",
+      "timerSeconds": 600
+    },
+    {
+      "id": "finish_store",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Ichigo Daifuku",
+      "description": "Fresh strawberry and sweet anko wrapped in soft, stretchy mochi, with a vivid red centre revealed when cut. The challenge is timing: the mochi must be cool enough to handle but still warm and elastic enough to stretch without tearing.",
+      "animeContext": "Inspired by the sweet, seasonal-food imagery associated with Fruits Basket. The app does not claim a specific ichigo-daifuku episode without direct evidence.",
+      "ingredients": {
+        "strawberries": {
+          "name": "Medium strawberries",
+          "note": null
+        },
+        "anko": {
+          "name": "Sweet red bean paste (anko)",
+          "note": null
+        },
+        "shiratamako": {
+          "name": "Shiratamako or mochiko",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "water": {
+          "name": "Water",
+          "note": null
+        },
+        "starch": {
+          "name": "Potato starch or cornstarch for dusting",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_berries": "Wash the strawberries quickly, remove the leaves and dry them extremely well; water on the fruit makes the anko slide. Divide anko into six 25 g portions and wrap each strawberry, leaving the pointed tip visible.",
+        "mix_mochi": "Whisk shiratamako, sugar and water in a microwave-safe bowl until completely smooth. Scrape the sides so no dry flour remains; lumps are much harder to fix once the starch gelatinizes.",
+        "microwave": "Cover loosely and microwave at 600 W for about 90 seconds. Stir thoroughly with a wet spatula, then microwave another 60–90 seconds until the dough is glossy, translucent and very stretchy. It will be extremely hot.",
+        "dust_divide": "Dust a tray generously with starch and scrape the hot mochi onto it. Dust the top, let it cool only until safe to handle, then divide into six equal pieces while still warm and elastic.",
+        "wrap": "Flatten one piece into a disc with starch-dusted fingers, keeping the centre slightly thicker. Place the anko-coated strawberry point-down in the centre, stretch the mochi around it and pinch the seam closed without tearing.",
+        "finish_store": "Brush away excess starch and place seam-side down. The texture is best the same day; keep cool but avoid long refrigeration, which hardens mochi. If chilled for food safety, let it soften briefly before serving."
+      }
+    },
+    "it": {
+      "title": "Ichigo Daifuku",
+      "description": "Fragola fresca e anko dolce avvolti in mochi morbido ed elastico, con un cuore rosso netto quando viene tagliato. La difficoltà è il tempismo: il mochi deve essere abbastanza freddo da toccare ma ancora tiepido ed elastico per chiudersi senza strapparsi.",
+      "animeContext": "Ispirato all’immaginario di dolci stagionali associato a Fruits Basket. L’app non attribuisce l’ichigo daifuku a un episodio preciso senza una fonte diretta.",
+      "ingredients": {
+        "strawberries": {
+          "name": "Fragole medie",
+          "note": null
+        },
+        "anko": {
+          "name": "Pasta dolce di azuki (anko)",
+          "note": null
+        },
+        "shiratamako": {
+          "name": "Shiratamako o mochiko",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucchero",
+          "note": null
+        },
+        "water": {
+          "name": "Acqua",
+          "note": null
+        },
+        "starch": {
+          "name": "Fecola di patate o amido di mais",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_berries": "Lava rapidamente le fragole, elimina il picciolo e asciugale perfettamente: l’acqua sulla superficie fa scivolare l’anko. Dividi l’anko in sei porzioni da 25 g e avvolgi ogni fragola lasciando visibile la punta.",
+        "mix_mochi": "Mescola shiratamako, zucchero e acqua in una ciotola da microonde fino a eliminare ogni grumo. Raschia bene i bordi: dopo la gelatinizzazione i grumi diventano difficili da correggere.",
+        "microwave": "Copri senza sigillare e cuoci a 600 W per circa 90 secondi. Mescola a fondo con spatola bagnata, poi cuoci ancora 60–90 secondi, finché l’impasto è lucido, traslucido e molto elastico. Sarà estremamente caldo.",
+        "dust_divide": "Cospargi abbondante fecola su un vassoio e rovescia sopra il mochi caldo. Spolvera anche la superficie, lascia raffreddare solo quanto basta per toccarlo e dividilo in sei parti mentre è ancora tiepido ed elastico.",
+        "wrap": "Appiattisci una porzione in un disco con dita infarinate di amido, lasciando il centro un po’ più spesso. Metti la fragola rivestita di anko con la punta verso il basso, tira il mochi attorno e pizzica la chiusura senza strapparlo.",
+        "finish_store": "Elimina l’amido in eccesso e appoggia con la chiusura sotto. La consistenza è migliore in giornata; il frigorifero prolungato indurisce il mochi. Se lo raffreddi per sicurezza, lascialo rinvenire brevemente prima di servire."
+      }
+    },
+    "es": {
+      "title": "Ichigo Daifuku",
+      "description": "Fresa fresca y anko dulce envueltos en mochi suave y elástico. Hay que trabajar la masa aún tibia para poder estirarla sin romper.",
+      "animeContext": "Inspirado en la imaginería de dulces estacionales de Fruits Basket; no se afirma un episodio concreto.",
+      "ingredients": {
+        "strawberries": {
+          "name": "Fresas medianas",
+          "note": null
+        },
+        "anko": {
+          "name": "Pasta dulce de azuki",
+          "note": null
+        },
+        "shiratamako": {
+          "name": "Shiratamako o mochiko",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "water": {
+          "name": "Agua",
+          "note": null
+        },
+        "starch": {
+          "name": "Fécula de patata o maicena",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_berries": "Lava y seca perfectamente las fresas. Divide el anko en seis porciones y envuelve cada fruta dejando la punta visible.",
+        "mix_mochi": "Mezcla shiratamako, azúcar y agua sin grumos en un bol apto para microondas.",
+        "microwave": "Cocina tapado sin sellar 90 segundos a 600 W, remueve y cocina 60–90 segundos más hasta que quede brillante, translúcido y elástico.",
+        "dust_divide": "Vuelca sobre abundante almidón, enfría solo hasta poder tocar y divide en seis mientras sigue tibio.",
+        "wrap": "Aplana en discos, coloca la fresa con la punta hacia abajo, estira el mochi y cierra sin rasgar.",
+        "finish_store": "Retira almidón extra y sirve preferentemente el mismo día; la refrigeración prolongada endurece el mochi."
+      }
+    },
+    "fr": {
+      "title": "Ichigo Daifuku",
+      "description": "Fraise fraîche et anko sucré enveloppés de mochi souple. Il faut travailler la pâte encore tiède pour l’étirer sans la déchirer.",
+      "animeContext": "Inspiré de l’imaginaire des douceurs saisonnières de Fruits Basket; aucun épisode précis n’est revendiqué.",
+      "ingredients": {
+        "strawberries": {
+          "name": "Fraises moyennes",
+          "note": null
+        },
+        "anko": {
+          "name": "Pâte sucrée d’azuki",
+          "note": null
+        },
+        "shiratamako": {
+          "name": "Shiratamako ou mochiko",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre",
+          "note": null
+        },
+        "water": {
+          "name": "Eau",
+          "note": null
+        },
+        "starch": {
+          "name": "Fécule de pomme de terre ou maïs",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_berries": "Lavez puis séchez parfaitement les fraises. Divisez l’anko en six et enveloppez chaque fraise en laissant la pointe visible.",
+        "mix_mochi": "Mélangez shiratamako, sucre et eau sans grumeaux dans un bol micro-ondable.",
+        "microwave": "Cuisez 90 secondes à 600 W, mélangez puis encore 60–90 secondes jusqu’à pâte brillante, translucide et élastique.",
+        "dust_divide": "Versez sur beaucoup de fécule, refroidissez juste assez pour manipuler et divisez en six encore tiède.",
+        "wrap": "Aplatissez, placez la fraise pointe en bas, étirez le mochi autour et pincez sans déchirer.",
+        "finish_store": "Retirez l’excès de fécule et consommez de préférence le jour même; un long froid durcit le mochi."
+      }
+    },
+    "de": {
+      "title": "Ichigo Daifuku",
+      "description": "Frische Erdbeere und süßes Anko in weichem, elastischem Mochi. Der Teig muss noch warm genug sein, um sich ohne Reißen dehnen zu lassen.",
+      "animeContext": "Von den saisonalen Süßspeisen-Assoziationen in Fruits Basket inspiriert; keine konkrete Episode wird behauptet.",
+      "ingredients": {
+        "strawberries": {
+          "name": "Mittlere Erdbeeren",
+          "note": null
+        },
+        "anko": {
+          "name": "Süße Azukipaste",
+          "note": null
+        },
+        "shiratamako": {
+          "name": "Shiratamako oder Mochiko",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker",
+          "note": null
+        },
+        "water": {
+          "name": "Wasser",
+          "note": null
+        },
+        "starch": {
+          "name": "Kartoffel- oder Maisstärke",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_berries": "Erdbeeren schnell waschen und sehr gut trocknen. Anko in sechs Portionen teilen und jede Beere umhüllen, Spitze frei lassen.",
+        "mix_mochi": "Shiratamako, Zucker und Wasser klumpenfrei in mikrowellenfester Schüssel verrühren.",
+        "microwave": "Locker abdecken, 90 Sekunden bei 600 W garen, rühren und weitere 60–90 Sekunden bis glänzend, durchsichtig und elastisch erhitzen.",
+        "dust_divide": "Auf reichlich Stärke geben, nur bis handhabbar abkühlen und warm in sechs Teile teilen.",
+        "wrap": "Zu Scheiben drücken, Beere mit Spitze nach unten einsetzen, Mochi herumziehen und ohne Reißen verschließen.",
+        "finish_store": "Überschüssige Stärke entfernen und am besten am selben Tag essen; lange Kühlung macht Mochi hart."
+      }
+    },
+    "pt": {
+      "title": "Ichigo Daifuku",
+      "description": "Morango fresco e anko doce envolvidos em mochi macio e elástico. É preciso trabalhar a massa ainda morna para esticar sem rasgar.",
+      "animeContext": "Inspirado no imaginário de doces sazonais de Fruits Basket; não afirmamos episódio específico.",
+      "ingredients": {
+        "strawberries": {
+          "name": "Morangos médios",
+          "note": null
+        },
+        "anko": {
+          "name": "Pasta doce de azuki",
+          "note": null
+        },
+        "shiratamako": {
+          "name": "Shiratamako ou mochiko",
+          "note": null
+        },
+        "sugar": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "water": {
+          "name": "Água",
+          "note": null
+        },
+        "starch": {
+          "name": "Fécula de batata ou amido de milho",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_berries": "Lave rapidamente e seque muito bem os morangos. Divida o anko em seis porções e envolva cada fruta deixando a ponta visível.",
+        "mix_mochi": "Misture shiratamako, açúcar e água sem grumos em tigela própria para micro-ondas.",
+        "microwave": "Cubra sem vedar, cozinhe 90 segundos a 600 W, mexa e cozinhe mais 60–90 segundos até ficar brilhante, translúcido e elástico.",
+        "dust_divide": "Despeje sobre bastante amido, esfrie só até poder manusear e divida em seis ainda morno.",
+        "wrap": "Abra em discos, coloque o morango com a ponta para baixo, estique o mochi e feche sem rasgar.",
+        "finish_store": "Remova excesso de amido e consuma de preferência no mesmo dia; refrigeração prolongada endurece o mochi."
+      }
+    }
+  }
+}
