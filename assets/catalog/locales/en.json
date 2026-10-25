@@ -4,6 +4,8 @@
   "recipes": {
     "recipe_000001": {
       "title": "Skillet Eggs with Crispy Bacon",
+      "description": "A rustic skillet breakfast of crisp-edged bacon and gently set eggs, cooked in the same pan so the rendered fat seasons everything. The goal is contrast: bacon browned at the edges, whites fully set and yolks still soft if desired.",
+      "animeContext": "This dish has a direct film reference: Calcifer cooks the bacon and eggs in Howl's Moving Castle. The app recreates the food itself in practical kitchen terms without reproducing dialogue or film imagery.",
       "ingredientTexts": {
         "smoked_bacon": {
           "name": "Thick-cut smoked bacon",
@@ -27,15 +29,17 @@
         }
       },
       "stepTexts": {
-        "heat_pan": "Warm a cast-iron or heavy skillet over medium heat and melt the butter.",
-        "crisp_bacon": "Lay in the bacon and cook until the edges are browned and crisp while the centre stays tender.",
-        "add_eggs": "Move the bacon toward the sides of the pan, then crack the eggs into the open centre without breaking the yolks.",
-        "finish_eggs": "Lower the heat and cook gently until the whites are set and the yolks are still soft.",
-        "season_serve": "Finish with black pepper and serve immediately with toasted rustic bread."
+        "heat_pan": "Warm a cast-iron or heavy skillet over medium heat and melt the butter. Let the pan heat for 1–2 minutes before the butter goes in; it should foam gently, not brown immediately.",
+        "crisp_bacon": "Lay in the bacon and cook until the edges are browned and crisp while the centre stays tender. Turn once or twice and allow 4–6 minutes for the fat to render; lower the heat if the lean meat darkens before the fat turns translucent.",
+        "add_eggs": "Move the bacon toward the sides of the pan, then crack the eggs into the open centre without breaking the yolks. Crack each egg into a small cup first if you want more control, then slide it into the pan so shell fragments never reach the skillet.",
+        "finish_eggs": "Lower the heat and cook gently until the whites are set and the yolks are still soft. Cook 3–5 minutes depending on the pan and preferred yolk; cover for the final minute if the top of the white remains translucent.",
+        "season_serve": "Finish with black pepper and serve immediately with toasted rustic bread. Rest the pan off heat for only 30 seconds before serving; longer waiting keeps cooking the yolks."
       }
     },
     "recipe_000002": {
       "title": "Miso Ramen with Chashu",
+      "description": "A practical miso ramen bowl with a rich savoury broth, springy noodles, chashu, marinated egg, narutomaki and fresh toppings. This version assumes the long components such as chashu and ajitsuke tamago are prepared in advance, so the final assembly stays realistic for a weeknight meal.",
+      "animeContext": "Ramen is a recurring signature food in Naruto through Ichiraku Ramen and Naruto's well-known attachment to the shop. This bowl is an app recipe inspired by that recurring association rather than a reconstruction of one exact serving.",
       "ingredientTexts": {
         "ramen_noodles": {
           "name": "Ramen noodles",
@@ -75,15 +79,17 @@
         }
       },
       "stepTexts": {
-        "season_broth": "Heat the broth gently and whisk in the miso until smooth. Keep it hot without letting it reduce aggressively.",
-        "cook_noodles": "Cook the ramen noodles separately according to their package timing, then drain thoroughly.",
-        "fill_bowls": "Divide the hot noodles between two bowls and ladle over enough broth to surround them.",
-        "add_toppings": "Arrange the chashu, halved marinated eggs, narutomaki, spring onion, bean sprouts and nori over the noodles.",
-        "serve": "Serve immediately while the broth and noodles are piping hot."
+        "season_broth": "Heat the broth gently and whisk in the miso until smooth. Keep it hot without letting it reduce aggressively. Keep the broth below a hard boil after adding miso so its aroma stays fresh; taste before adding any extra salt because both broth concentrate and miso may be salty.",
+        "cook_noodles": "Cook the ramen noodles separately according to their package timing, then drain thoroughly. Start checking 30 seconds before the package time and drain as soon as the centre loses its raw core; ramen softens quickly once it meets hot broth.",
+        "fill_bowls": "Divide the hot noodles between two bowls and ladle over enough broth to surround them. Warm the serving bowls with hot water first, dry them, then add noodles and broth; a warm bowl prevents the soup from cooling before the toppings are arranged.",
+        "add_toppings": "Arrange the chashu, halved marinated eggs, narutomaki, spring onion, bean sprouts and nori over the noodles. Warm chashu briefly in the broth or a pan, but add egg, nori and spring onion only at the end so their texture stays distinct.",
+        "serve": "Serve immediately while the broth and noodles are piping hot. Serve within a minute of assembly and encourage eating the noodles first, before they absorb too much broth."
       }
     },
     "recipe_000003": {
       "title": "Victory Katsudon",
+      "description": "A comforting katsudon where sliced tonkatsu is briefly simmered with sweet-savoury onion and loosely set egg before sliding over hot rice. The best bowl preserves some cutlet texture while letting the underside absorb the seasoned dashi.",
+      "animeContext": "Katsudon is one of the most recognizable recurring foods in Yuri!!! on ICE and is tied to Yuri's identity and motivations; episode 2 contains a direct katsudon exchange. The app recipe follows the real Japanese dish rather than reproducing dialogue.",
       "ingredientTexts": {
         "tonkatsu": {
           "name": "Panko-breaded pork cutlets",
@@ -123,15 +129,17 @@
         }
       },
       "stepTexts": {
-        "simmer_onion": "Combine dashi, soy sauce, mirin and sugar in a small skillet. Add the onion and simmer until softened.",
-        "add_tonkatsu": "Slice the fried pork cutlets into strips and lay them over the seasoned onion.",
-        "add_eggs": "Beat the eggs only lightly, then pour them over the cutlets so distinct streaks of white and yolk remain.",
-        "steam_finish": "Cover and cook briefly, stopping while the egg is still soft and creamy rather than fully firm.",
-        "assemble_bowl": "Fill two bowls with hot rice, slide the pork-and-egg mixture on top and finish with peas or chives."
+        "simmer_onion": "Combine dashi, soy sauce, mirin and sugar in a small skillet. Add the onion and simmer until softened. Keep the pan at a quiet simmer for about 5 minutes; the onion should turn translucent and tender while enough liquid remains to steam the egg.",
+        "add_tonkatsu": "Slice the fried pork cutlets into strips and lay them over the seasoned onion. Place the cutlet crust-side up and simmer only 30–60 seconds before adding egg; longer soaking makes the entire panko layer soft.",
+        "add_eggs": "Beat the eggs only lightly, then pour them over the cutlets so distinct streaks of white and yolk remain. Pour in a loose spiral rather than one spot so some egg touches the broth while some stays on the cutlet.",
+        "steam_finish": "Cover and cook briefly, stopping while the egg is still soft and creamy rather than fully firm. About 60–90 seconds covered is usually enough; stop while the surface is still glossy because residual heat continues setting the egg.",
+        "assemble_bowl": "Fill two bowls with hot rice, slide the pork-and-egg mixture on top and finish with peas or chives. Use freshly steamed rice and transfer the pan contents in one piece if possible so the layers remain visually distinct."
       }
     },
     "recipe_000004": {
       "title": "Dorayaki with Anko",
+      "description": "Two small, evenly browned honey cakes sandwiching a thick layer of anko. Dorayaki looks simple, but consistent low heat, a rested batter and pairing pancakes of equal size are what produce the smooth domed shape.",
+      "animeContext": "Dorayaki is Doraemon's famous favourite food and recurs throughout the franchise, making this one of the app's strongest character-food associations. The recipe itself follows the real Japanese sweet.",
       "ingredientTexts": {
         "eggs": {
           "name": "Eggs",
@@ -163,16 +171,18 @@
         }
       },
       "stepTexts": {
-        "whisk_base": "Whisk the eggs with the sugar and honey until the mixture looks lighter and slightly foamy.",
-        "finish_batter": "Mix the baking powder into the water, add it to the bowl and fold in the sifted flour until the batter is smooth.",
-        "rest_batter": "Chill the batter for 15 minutes so it can settle before cooking.",
-        "cook_first_side": "Heat a non-stick pan over low heat, wipe it with a very thin film of oil and spoon in small rounds of batter. Cook until bubbles appear on top.",
-        "cook_second_side": "Turn each round and cook the second side briefly until evenly coloured.",
-        "fill_dorayaki": "Let the cakes cool, then sandwich them in pairs with anko in the centre and gently press the edges into the classic rounded shape."
+        "whisk_base": "Whisk the eggs with the sugar and honey until the mixture looks lighter and slightly foamy. Whisk for about 2 minutes, stopping when the sugar is mostly dissolved and the mixture falls in a smooth ribbon rather than trying to whip it to full foam.",
+        "finish_batter": "Mix the baking powder into the water, add it to the bowl and fold in the sifted flour until the batter is smooth. Stop mixing as soon as the flour disappears; overmixing develops gluten and gives tougher cakes.",
+        "rest_batter": "Chill the batter for 15 minutes so it can settle before cooking. After resting, check consistency: it should pour in a thick ribbon and spread slowly; add a teaspoon of water only if it has become too stiff.",
+        "cook_first_side": "Heat a non-stick pan over low heat, wipe it with a very thin film of oil and spoon in small rounds of batter. Cook until bubbles appear on top. Use the same spoon or small ladle for every disc. When many small bubbles appear and the outer 5 mm looks matte, the first side is ready to turn.",
+        "cook_second_side": "Turn each round and cook the second side briefly until evenly coloured. The second side needs much less time, usually 30–60 seconds; overcooking dries the cakes and makes them crack around the filling.",
+        "fill_dorayaki": "Let the cakes cool, then sandwich them in pairs with anko in the centre and gently press the edges into the classic rounded shape. Match two cakes of similar diameter, place anko slightly thicker in the centre and taper it toward the edge before pressing gently."
       }
     },
     "recipe_000005": {
       "title": "Tuna Mayo Onigiri",
+      "description": "Hand-shaped Japanese rice balls with a creamy tuna-mayo centre and crisp nori at the base. The rice must be freshly cooked and warm enough to bind, while the filling should be cool and well drained so the onigiri stays compact instead of becoming wet.",
+      "animeContext": "Spirited Away directly shows Haku giving Chihiro onigiri in an important scene. The film does not establish tuna-mayo filling, so that part is explicitly the app's everyday Japanese variation.",
       "ingredientTexts": {
         "sushi_rice": {
           "name": "Sushi or short-grain rice",
@@ -204,15 +214,17 @@
         }
       },
       "stepTexts": {
-        "wash_cook_rice": "Rinse the rice several times until the water runs much clearer. Cook it with the measured water, covered, over low heat.",
-        "rest_rice": "Turn off the heat and leave the rice covered for 10 minutes before shaping.",
-        "make_filling": "Mix the drained tuna with the Japanese mayonnaise and a small pinch of salt.",
-        "fill_shape": "Moisten and lightly salt your hands. Flatten a portion of warm rice, add a little tuna filling in the centre, cover with more rice and shape into a compact triangle.",
-        "finish_nori": "Wrap a strip of nori around the base. Add sesame or furikake if desired and serve while the rice is still pleasantly warm."
+        "wash_cook_rice": "Rinse the rice several times until the water runs much clearer. Cook it with the measured water, covered, over low heat. After rinsing, drain the rice for a few minutes before cooking so the measured water stays accurate; once boiling, keep the lid closed and avoid stirring.",
+        "rest_rice": "Turn off the heat and leave the rice covered for 10 minutes before shaping. Fluff gently after the rest and let steam escape for 2–3 minutes; shape while warm, not piping hot, so it binds without burning your hands.",
+        "make_filling": "Mix the drained tuna with the Japanese mayonnaise and a small pinch of salt. Break the tuna into small flakes and add mayonnaise gradually; the mixture should hold together on a spoon without liquid pooling at the bottom.",
+        "fill_shape": "Moisten and lightly salt your hands. Flatten a portion of warm rice, add a little tuna filling in the centre, cover with more rice and shape into a compact triangle. Use roughly equal portions for each onigiri and press only enough to hold the grains together; squeezing hard makes the rice dense and pasty.",
+        "finish_nori": "Wrap a strip of nori around the base. Add sesame or furikake if desired and serve while the rice is still pleasantly warm. Add nori immediately for a soft wrapped texture, or only at the table if you want it crisp; refrigerate tuna-filled leftovers promptly."
       }
     },
     "recipe_000006": {
       "title": "Kansai-Style Okonomiyaki",
+      "description": "A Kansai-style savoury pancake packed with cabbage, topped with pork belly and finished with okonomiyaki sauce, Japanese mayonnaise, bonito flakes and aonori. The batter should bind the cabbage rather than drown it, giving a moist centre with browned edges.",
+      "animeContext": "Okonomiyaki is a recurring food and character motif in Ranma ½ through Ukyo Kuonji, an okonomiyaki chef. This app version follows the real Kansai style rather than recreating a single animated plate.",
       "ingredientTexts": {
         "cabbage": {
           "name": "Green cabbage",
@@ -252,15 +264,17 @@
         }
       },
       "stepTexts": {
-        "make_batter": "Whisk the flour, cold dashi and egg until the batter is smooth and evenly combined.",
-        "add_cabbage": "Fold in the finely sliced cabbage until it is well coated by the batter.",
-        "shape_and_top": "Heat a lightly oiled griddle or skillet, spoon in the mixture as a thick round and lay the pork slices across the top.",
-        "cook_both_sides": "Cook covered over medium heat until the first side is set, then turn carefully and continue until the pork side is browned and the centre is cooked through.",
-        "finish": "Transfer to a plate and finish with okonomiyaki sauce, Japanese mayonnaise, katsuobushi and the seaweed garnish."
+        "make_batter": "Whisk the flour, cold dashi and egg until the batter is smooth and evenly combined. Mix only until the dry flour disappears; a few tiny lumps are preferable to overworking the batter. Let it stand 5–10 minutes while you cut the cabbage so the flour hydrates.",
+        "add_cabbage": "Fold in the finely sliced cabbage until it is well coated by the batter. Fold the cabbage in just before cooking so it stays crisp; the mixture should look mostly like cabbage lightly coated in batter, not a bowl of liquid pancake mix.",
+        "shape_and_top": "Heat a lightly oiled griddle or skillet, spoon in the mixture as a thick round and lay the pork slices across the top. Form a round about 2 cm thick and do not press it flat. Lay the pork in one even layer so it will contact the pan after flipping.",
+        "cook_both_sides": "Cook covered over medium heat until the first side is set, then turn carefully and continue until the pork side is browned and the centre is cooked through. Cook the first side about 5 minutes over medium heat until the base is stable and browned, flip with two spatulas, then cook another 5–6 minutes until the pork is crisp and the centre is hot and set.",
+        "finish": "Transfer to a plate and finish with okonomiyaki sauce, Japanese mayonnaise, katsuobushi and the seaweed garnish. Brush the hot surface with sauce first, then draw mayonnaise lines, scatter aonori and add bonito flakes last so they move in the rising heat and stay aromatic."
       }
     },
     "recipe_000007": {
       "title": "Takoyaki with Octopus",
+      "description": "Osaka-style takoyaki: crisp, browned spheres around a very soft dashi batter with octopus, pickled ginger and tenkasu inside. The signature texture depends on a hot, well-oiled pan and repeated quarter-turns that pull excess batter into the sphere.",
+      "animeContext": "Takoyaki is a recurring One Piece association through Hatchan (Hachi), who dreams of and later runs a takoyaki business. The app recipe follows the real Osaka snack rather than copying a fictional serving.",
       "ingredientTexts": {
         "octopus": {
           "name": "Cooked octopus",
@@ -304,16 +318,18 @@
         }
       },
       "stepTexts": {
-        "make_batter": "Whisk the flour, egg and cold dashi into a thin, smooth batter.",
-        "heat_pan": "Heat a takoyaki pan thoroughly and oil each cavity well.",
-        "fill_moulds": "Pour batter into the cavities almost to the top.",
-        "add_fillings": "Add a piece of octopus to each cavity together with a little pickled ginger, tenkasu and spring onion.",
-        "turn_balls": "As the bottoms set, use wooden picks to rotate the pieces gradually, tucking in loose batter until rounded and evenly browned.",
-        "finish": "Serve hot with takoyaki sauce, Japanese mayonnaise and katsuobushi."
+        "make_batter": "Whisk the flour, egg and cold dashi into a thin, smooth batter. Keep the batter much thinner than pancake batter; dashi-heavy takoyaki batter should pour almost like cream so the centre stays custardy rather than cakey.",
+        "heat_pan": "Heat a takoyaki pan thoroughly and oil each cavity well. Heat the pan until a drop of batter sizzles immediately, then oil not only the wells but also the flat surface around them; this prevents the overflow batter from sticking when you fold it inward.",
+        "fill_moulds": "Pour batter into the cavities almost to the top. Fill the wells completely and deliberately let a little batter spread across the top surface; the overflow becomes part of the ball during turning.",
+        "add_fillings": "Add a piece of octopus to each cavity together with a little pickled ginger, tenkasu and spring onion. Use small octopus cubes so every ball can rotate freely; overfilling makes the sphere tear and leaves a cold centre.",
+        "turn_balls": "As the bottoms set, use wooden picks to rotate the pieces gradually, tucking in loose batter until rounded and evenly browned. Start with a 90-degree turn once the outer edge is set, tuck loose batter underneath, then keep turning a little at a time until all sides are browned. Do not wait for one side to become hard before the first turn.",
+        "finish": "Serve hot with takoyaki sauce, Japanese mayonnaise and katsuobushi. undefined Check that the octopus is hot and the shell evenly browned, then sauce only at serving; saucing too early softens the crisp exterior."
       }
     },
     "recipe_000008": {
       "title": "Ketchup Omurice",
+      "description": "Japanese yoshoku comfort food made from ketchup-seasoned chicken rice wrapped in a soft omelette. A moist rice filling and an egg layer that stays flexible enough to drape are more important than trying to brown the omelette.",
+      "animeContext": "This version is inspired by the playful café-and-cute-food aesthetic associated with K-On!. Without a verified exact omurice scene, the anime connection remains inspiration rather than appearance.",
       "ingredientTexts": {
         "steamed_rice": {
           "name": "Steamed rice",
@@ -349,15 +365,17 @@
         }
       },
       "stepTexts": {
-        "cook_rice_filling": "Sauté the chicken and onion in a lightly oiled pan. Add the steamed rice and ketchup, then toss until the rice is evenly coated and hot.",
-        "shape_rice": "Shape the seasoned rice into a neat oval mound on a plate.",
-        "beat_eggs": "Beat the eggs with the milk and a little salt and pepper.",
-        "cook_omelette": "Melt the butter in a clean pan over medium-low heat and cook the eggs as a soft, flexible omelette.",
-        "wrap_and_decorate": "Lay the omelette over the rice so it covers the mound, then decorate the top with a heart or short message in ketchup."
+        "cook_rice_filling": "Sauté the chicken and onion in a lightly oiled pan. Add the steamed rice and ketchup, then toss until the rice is evenly coated and hot. Cook the chicken until no raw centre remains before adding the rice. Fry the ketchup briefly against the hot pan before mixing it through so it loses its raw acidity and coats the grains rather than pooling.",
+        "shape_rice": "Shape the seasoned rice into a neat oval mound on a plate. Shape with a spoon rather than compressing hard; leaving a little air between the grains keeps the centre tender.",
+        "beat_eggs": "Beat the eggs with the milk and a little salt and pepper. Strain the beaten eggs if you want an especially smooth omelette and let large bubbles settle for a minute.",
+        "cook_omelette": "Melt the butter in a clean pan over medium-low heat and cook the eggs as a soft, flexible omelette. Use medium-low heat and stop while the upper surface is still slightly glossy; the residual heat will finish it after it leaves the pan.",
+        "wrap_and_decorate": "Lay the omelette over the rice so it covers the mound, then decorate the top with a heart or short message in ketchup. Drape or wrap the omelette immediately while it is still flexible, then add ketchup decoration only after plating so the egg surface stays clean."
       }
     },
     "recipe_000009": {
       "title": "Chicken and Egg Oyakodon",
+      "description": "A one-pan Japanese rice bowl of chicken and onion simmered in sweet-savoury dashi, finished with softly set egg and spooned over hot rice. Adding the egg in two stages gives both cooked curds and a glossy tender surface.",
+      "animeContext": "This card is only inspired by Yuri!!! on ICE. The series has a strong verified katsudon association, but the app does not convert that into a false claim that this specific oyakodon is shown.",
       "ingredientTexts": {
         "chicken_thigh": {
           "name": "Boneless chicken thigh",
@@ -397,15 +415,17 @@
         }
       },
       "stepTexts": {
-        "season_broth": "Bring the dashi, soy sauce, mirin and sugar to a gentle boil in a small skillet.",
-        "cook_chicken": "Add the onion and chicken, cover and cook over medium heat until the chicken is cooked through and the onion has softened.",
-        "first_egg": "Beat the eggs lightly and pour roughly three quarters over the chicken. Cover and cook briefly so the egg begins to set.",
-        "finish_egg": "Add the remaining egg, turn off the heat and cover for a short rest so the surface stays soft and creamy.",
-        "assemble": "Spoon the chicken, egg and seasoned broth over bowls of hot rice and finish with mitsuba or chives."
+        "season_broth": "Bring the dashi, soy sauce, mirin and sugar to a gentle boil in a small skillet. Keep the liquid shallow in a small pan so it concentrates around the chicken rather than turning the dish into soup.",
+        "cook_chicken": "Add the onion and chicken, cover and cook over medium heat until the chicken is cooked through and the onion has softened. Cut the thigh into even bite-size pieces and simmer about 6–8 minutes, turning once, until the thickest piece is safely cooked and the onion is translucent.",
+        "first_egg": "Beat the eggs lightly and pour roughly three quarters over the chicken. Cover and cook briefly so the egg begins to set. Pour the first portion in a loose spiral, cover, and let it form tender curds rather than stirring; this keeps the classic layered appearance.",
+        "finish_egg": "Add the remaining egg, turn off the heat and cover for a short rest so the surface stays soft and creamy. After adding the final egg, use residual heat only if you prefer a very soft finish; otherwise keep low heat briefly until it reaches the doneness you are comfortable eating.",
+        "assemble": "Spoon the chicken, egg and seasoned broth over bowls of hot rice and finish with mitsuba or chives. Slide the topping onto rice immediately and spoon over the remaining pan juices; waiting in the pan dries the egg quickly."
       }
     },
     "recipe_000010": {
       "title": "Pumpkin and Fish Puff-Pastry Bake",
+      "description": "A savoury pumpkin-and-fish pie under golden puff pastry, inspired by the memorable baked dish prepared for delivery in Kiki's Delivery Service. Sweet pumpkin softens the briny fish, while béchamel and onion bind the filling beneath a crisp decorated lid.",
+      "animeContext": "This is a direct film reference: a herring-and-pumpkin pie is prepared and becomes part of Kiki's delivery story. The app turns the visual idea into a practical recipe with original quantities and instructions.",
       "ingredientTexts": {
         "pumpkin": {
           "name": "Pumpkin",
@@ -441,15 +461,17 @@
         }
       },
       "stepTexts": {
-        "cook_pumpkin": "Cook the pumpkin until tender, mash it into a coarse purée and season with salt, pepper and nutmeg.",
-        "cook_fish": "Soften the chopped onion in a pan with a little oil, add the fish and cook briefly so the flavours combine.",
-        "assemble_filling": "Spread the pumpkin over the base of a baking dish, add the fish and onion, scatter over the sliced black olives and cover with béchamel.",
-        "cover_and_decorate": "Lay the puff pastry over the dish. Use any trimmings to make a simple fish-shaped decoration for the top.",
-        "bake": "Brush the pastry with egg yolk and bake in a preheated 200°C static oven until the pastry is deeply golden."
+        "cook_pumpkin": "Cook the pumpkin until tender, mash it into a coarse purée and season with salt, pepper and nutmeg. Cut the pumpkin into equal pieces so it softens evenly and drain or steam-dry it after cooking; watery pumpkin makes the pastry base soggy.",
+        "cook_fish": "Soften the chopped onion in a pan with a little oil, add the fish and cook briefly so the flavours combine. Pat the fish dry and remove any bones before cooking. Sauté only until the fish is just opaque and flakes easily; it will continue cooking in the oven.",
+        "assemble_filling": "Spread the pumpkin over the base of a baking dish, add the fish and onion, scatter over the sliced black olives and cover with béchamel. Let pumpkin and fish cool until merely warm before adding béchamel and filling the pastry; hot filling melts the butter layers before the pie reaches the oven.",
+        "cover_and_decorate": "Lay the puff pastry over the dish. Use any trimmings to make a simple fish-shaped decoration for the top. Keep the pastry cold, seal the rim firmly and cut two or three small steam vents even if you add a decorative fish on top.",
+        "bake": "Brush the pastry with egg yolk and bake in a preheated 200°C static oven until the pastry is deeply golden. Bake until the pastry is deeply golden and visibly puffed all the way to the centre, usually 25–35 minutes depending on the dish; a pale lid is often still underbaked and greasy inside."
       }
     },
     "recipe_000011": {
       "title": "Chaliapin Steak Don",
+      "description": "A steak rice bowl built around the Chaliapin method: finely chopped onion rests on the beef to tenderize and flavour it, then becomes part of a glossy red-wine-soy pan sauce. Rested sliced steak over hot rice keeps the dish juicy without drowning the meat.",
+      "animeContext": "This is a direct Food Wars reference: Soma’s Chaliapin Steak Don is central to season 1 episode 7. The app preserves the recognizable culinary idea but writes its own quantities, timing and cooking instructions.",
       "ingredientTexts": {
         "beef_steak": {
           "name": "Beef steak",
@@ -481,15 +503,17 @@
         }
       },
       "stepTexts": {
-        "step_1": "Score the steak lightly in a crosshatch, cover it completely with the finely chopped onion and rest for 30 minutes.",
-        "step_2": "Remove the onion and sauté it in butter until golden and deeply caramelized.",
-        "step_3": "Sear the steak over high heat for about 2 minutes per side, then deglaze with soy sauce and red wine.",
-        "step_4": "Mix the hot rice with chopped umeboshi and pack it into a bowl.",
-        "step_5": "Slice the steak, lay it over the rice and finish with the caramelized onion and pan juices."
+        "step_1": "Score the steak lightly in a crosshatch, cover it completely with the finely chopped onion and rest for 30 minutes. undefined Spread the chopped onion evenly over both faces and keep the steak chilled during the rest. Scrape the onion off and reserve it before searing; wet onion left on the surface prevents browning. undefined Pat the steak completely dry after removing the onion, then season just before it hits the pan; salting far in advance would draw more moisture to the surface.",
+        "step_2": "Remove the onion and sauté it in butter until golden and deeply caramelized. undefined Use a heavy pan over high heat and avoid moving the steak for the first 60–90 seconds. Turn once a brown crust forms, then reduce heat if needed so the centre reaches your preferred safe doneness without scorching the butter.",
+        "step_3": "Sear the steak over high heat for about 2 minutes per side, then deglaze with soy sauce and red wine. undefined Cook the reserved onion until soft and lightly golden before adding wine. Let the wine reduce by roughly half, then add soy sauce and butter off the strongest heat so the sauce becomes glossy rather than greasy.",
+        "step_4": "Mix the hot rice with chopped umeboshi and pack it into a bowl. undefined Rest the steak 5–8 minutes before slicing across the grain. Slice only when the juices have settled, then spoon any collected resting juices back into the sauce.",
+        "step_5": "Slice the steak, lay it over the rice and finish with the caramelized onion and pan juices. undefined Spread the rice in a wide bowl, fan the steak slices slightly so they stay visible and spoon sauce mostly around and between them rather than completely covering the seared surface."
       }
     },
     "recipe_000012": {
       "title": "Gotcha Pork Roast",
+      "description": "A bacon-wrapped potato-and-mushroom roast inspired by Soma’s improvised dish: creamy potato and king oyster mushroom form the centre while overlapping bacon supplies fat, smoke and structure. It is an anime-origin dish made cookable rather than presented as a traditional Japanese classic.",
+      "animeContext": "This is a direct Food Wars dish from season 1 episode 1. Because its concept is fictional/anime-origin rather than a named traditional recipe, the app labels it as an adapted recreation and verifies whether the cooking method itself is coherent.",
       "ingredientTexts": {
         "potatoes": {
           "name": "Potatoes",
@@ -525,15 +549,17 @@
         }
       },
       "stepTexts": {
-        "step_1": "Boil the potatoes until tender and mash them. Sauté the chopped onion and mushroom in butter, then fold them into the potato.",
-        "step_2": "Shape the potato mixture into a compact roast-shaped loaf.",
-        "step_3": "Wrap the loaf completely with overlapping bacon and secure it with kitchen twine and rosemary.",
-        "step_4": "Bake at 200°C until the bacon is browned and crisp, about 30–40 minutes.",
-        "step_5": "Deglaze the roasting pan with red wine, soy sauce and butter and spoon the sauce over the sliced roast."
+        "step_1": "Boil the potatoes until tender and mash them. Sauté the chopped onion and mushroom in butter, then fold them into the potato. undefined Drain the potatoes extremely well and return them to the warm pan for 1–2 minutes to steam-dry before mashing; a wet mash will not hold the loaf shape. undefined Cook the mushrooms until their released moisture has evaporated and the edges begin to brown; adding them while watery would loosen the potato centre. undefined Fold the mushrooms into warm potato and season before the mixture cools. Taste now because later the bacon adds salt but the centre itself still needs seasoning.",
+        "step_2": "Shape the potato mixture into a compact roast-shaped loaf. undefined Chill the shaped potato log for about 10 minutes if it feels soft; a firmer surface makes the bacon wrapping much easier and prevents flattening. undefined Overlap the bacon slices by roughly one third so the potato cannot escape as the fat renders, and place the seam underneath before roasting.",
+        "step_3": "Wrap the loaf completely with overlapping bacon and secure it with kitchen twine and rosemary. undefined Roast until the bacon is deeply browned and crisp at the edges; if the centre is already hot but the bacon remains pale, finish briefly under the grill rather than overbaking the potato.",
+        "step_4": "Bake at 200°C until the bacon is browned and crisp, about 30–40 minutes. undefined Deglaze only after pouring off excess bacon fat. Reduce wine until its raw alcohol smell fades, then add soy and butter for a glossy sauce rather than a greasy one.",
+        "step_5": "Deglaze the roasting pan with red wine, soy sauce and butter and spoon the sauce over the sliced roast. undefined Rest the roast 5 minutes before slicing so the potato centre firms slightly; use a serrated knife with gentle sawing to keep the bacon attached."
       }
     },
     "recipe_000013": {
       "title": "Japanese Curry Rice",
+      "description": "A thick Japanese curry rice with chicken, onion, carrot and potato, finished with commercial curry roux and a small amount of grated apple for rounded sweetness. The sauce should be glossy and spoon-coating rather than soupy.",
+      "animeContext": "Curry is a recurring Persona 5 food through Café Leblanc and Sojiro’s signature curry. This app bowl follows real Japanese curry-rice technique rather than attempting to duplicate a fictional secret recipe.",
       "ingredientTexts": {
         "beef_or_pork": {
           "name": "Beef or pork, diced",
@@ -565,14 +591,16 @@
         }
       },
       "stepTexts": {
-        "step_1": "Brown the diced meat in a pot, then add sliced onion, carrot and potato.",
-        "step_2": "Cover with water or broth and simmer until the vegetables are tender, about 20 minutes.",
-        "step_3": "Stir in the grated apple, turn off the heat briefly and dissolve the curry roux until smooth.",
-        "step_4": "Return to low heat until the sauce is rich and thick, then serve beside hot steamed rice."
+        "step_1": "Brown the diced meat in a pot, then add sliced onion, carrot and potato. undefined Give the onion enough time to soften and pick up light golden colour; this builds sweetness before the roux is added and prevents a flat sauce. undefined Brown in batches if the pan is crowded; steaming pale chicken at this stage gives less depth to the finished curry.",
+        "step_2": "Cover with water or broth and simmer until the vegetables are tender, about 20 minutes. undefined Cut carrot and potato to similar bite-size dimensions so they finish together; very small potato pieces can dissolve and thicken the sauce too early. undefined Keep only a gentle simmer and skim foam or excess fat from the surface. Stop when the vegetables are just tender because they continue cooking after the roux goes in.",
+        "step_3": "Stir in the grated apple, turn off the heat briefly and dissolve the curry roux until smooth. undefined Add the apple finely grated so it dissolves into the sauce rather than leaving fruit pieces. Start with a modest amount; sweetness varies greatly by apple variety. undefined Turn off the heat before adding the roux and dissolve it completely, one piece at a time. Roux sitting on the bottom over direct heat can scorch before it disperses.",
+        "step_4": "Return to low heat until the sauce is rich and thick, then serve beside hot steamed rice. undefined Return to low heat and stir from the bottom for 5–10 minutes until the sauce coats a spoon. Add a splash of hot water only if it becomes thicker than a pourable gravy. undefined Let the curry stand off heat for 5 minutes before serving; the sauce settles and thickens slightly, while the rice should stay freshly steamed and separate."
       }
     },
     "recipe_000014": {
       "title": "Spicy Mapo Tofu",
+      "description": "A spicy, glossy tofu dish with minced pork, doubanjiang, garlic and ginger in a savoury sauce. This version is a Japanese-accessible mapo tofu adaptation: the tofu is handled gently while the sauce is reduced and thickened around it rather than stirred aggressively.",
+      "animeContext": "Mapo tofu is strongly associated with Kanade/Tenshi in Angel Beats!, where her fondness for the dish becomes a recurring character detail. The app recipe is a cookable real-world adaptation, not a transcription of an animated recipe.",
       "ingredientTexts": {
         "soft_tofu": {
           "name": "Soft tofu",
@@ -612,14 +640,16 @@
         }
       },
       "stepTexts": {
-        "step_1": "Cut the tofu into 2 cm cubes and blanch for 1 minute in lightly salted water.",
-        "step_2": "Heat oil in a wok and fry garlic, ginger, Sichuan pepper and doubanjiang until fragrant.",
-        "step_3": "Add the ground pork and brown it well, then pour in the broth.",
-        "step_4": "Add the tofu, simmer for 5 minutes and thicken with cornstarch slurry. Finish with spring onion."
+        "step_1": "Cut the tofu into 2 cm cubes and blanch for 1 minute in lightly salted water. undefined Cut the tofu into even 2 cm cubes and, if very fragile, warm it for 1–2 minutes in lightly salted hot water before draining; this firms the surface and reduces breakage. undefined Brown until the pork has lost its raw colour and some small edges are crisp; the browned meat provides depth before the spicy paste goes in.",
+        "step_2": "Heat oil in a wok and fry garlic, ginger, Sichuan pepper and doubanjiang until fragrant. undefined Fry doubanjiang briefly in the rendered fat until the oil turns red and fragrant, then add garlic and ginger only for the final 20–30 seconds so they do not burn. undefined Add broth and soy sauce, bring to a steady simmer and taste before adding sugar; doubanjiang brands differ greatly in salt and heat.",
+        "step_3": "Add the ground pork and brown it well, then pour in the broth. undefined Slide the tofu in and move the pan with gentle shaking or a broad spatula instead of stirring with a spoon; simmer 3–4 minutes so the cubes absorb flavour without crumbling.",
+        "step_4": "Add the tofu, simmer for 5 minutes and thicken with cornstarch slurry. Finish with spring onion. undefined Add the starch slurry in two additions while the sauce simmers, pausing between them; stop as soon as the liquid becomes glossy and lightly coats the tofu. undefined Finish with sesame oil and scallion off the heat; prolonged boiling after sesame oil dulls its aroma."
       }
     },
     "recipe_000015": {
       "title": "Nikujaga Meat and Potato Stew",
+      "description": "A classic Japanese home-style simmer of thin meat, potatoes, onion and carrot in sweet-savoury dashi. Nikujaga tastes best when the vegetables are tender but intact and the pot rests briefly off heat so the potatoes absorb the seasoned broth.",
+      "animeContext": "This recipe is inspired by the traditional domestic-food atmosphere of Demon Slayer. Without a verified nikujaga scene, the app treats the connection as cultural inspiration rather than an appearance claim.",
       "ingredientTexts": {
         "thin_beef": {
           "name": "Thinly sliced beef",
@@ -655,14 +685,16 @@
         }
       },
       "stepTexts": {
-        "step_1": "Cut the potatoes and carrot into irregular bite-size pieces and slice the onion.",
-        "step_2": "Brown the thin beef in a little oil, then add onion, potatoes and carrot.",
-        "step_3": "Add dashi, soy sauce, mirin and sugar and bring to a gentle simmer.",
-        "step_4": "Cover with a drop lid and simmer about 20 minutes, until the vegetables are tender and glossy."
+        "step_1": "Cut the potatoes and carrot into irregular bite-size pieces and slice the onion. undefined Work quickly with thin slices: colour the surface without fully cooking the meat, because it will simmer later. Remove any excess rendered fat if it pools heavily. undefined Cut potatoes into large even chunks and round very sharp corners if you want them to stay intact; tiny pieces break down before the broth reduces.",
+        "step_2": "Brown the thin beef in a little oil, then add onion, potatoes and carrot. undefined Bring the liquid just to a boil, skim surface foam, then lower immediately to a gentle simmer. Violent boiling breaks the potatoes and makes the broth cloudy. undefined Use a drop lid or parchment circle if available so the surface stays moist while the liquid reduces. Stop when a skewer enters the potato with little resistance but the pieces still hold shape.",
+        "step_3": "Add dashi, soy sauce, mirin and sugar and bring to a gentle simmer. undefined Let the pot rest covered off heat 15–20 minutes, then rewarm gently. Cooling slightly in the broth helps the potatoes take in seasoning without further breaking down.",
+        "step_4": "Cover with a drop lid and simmer about 20 minutes, until the vegetables are tender and glossy. undefined Add the green beans only during the final reheat so they remain bright and slightly crisp instead of turning olive and soft."
       }
     },
     "recipe_000016": {
       "title": "Japanese Karaage Fried Chicken",
+      "description": "Japanese fried chicken made from marinated thigh pieces coated in potato starch and fried twice for a crisp, craggy shell around juicy meat. The short rest between fries lets internal heat finish the centre while the second fry drives off surface moisture.",
+      "animeContext": "This card is inspired by Haikyuu!!’s energetic school-and-team food atmosphere. Without a verified exact karaage scene, the app does not present the dish as an on-screen fact.",
       "ingredientTexts": {
         "chicken_thighs": {
           "name": "Boneless chicken thighs",
@@ -698,14 +730,16 @@
         }
       },
       "stepTexts": {
-        "step_1": "Cut the chicken into 3–4 cm pieces and marinate for 20 minutes with soy sauce, sake, ginger and garlic.",
-        "step_2": "Coat each piece generously in potato starch.",
-        "step_3": "Fry at about 160°C for 4 minutes, drain and rest for 2 minutes.",
-        "step_4": "Fry again at about 180°C for 1 minute until deeply crisp and serve with lemon."
+        "step_1": "Cut the chicken into 3–4 cm pieces and marinate for 20 minutes with soy sauce, sake, ginger and garlic. undefined Keep pieces close to 3–4 cm so they fry at the same rate; leave a little skin on each piece because it protects the meat and becomes especially crisp. undefined Marinate in the refrigerator, not at room temperature, and keep the time moderate so soy sauce seasons without making the exterior overly salty. Drain excess liquid before coating.",
+        "step_2": "Coat each piece generously in potato starch. undefined Coat immediately before frying and squeeze a little starch onto uneven folds of skin; loose dry patches create the characteristic craggy karaage crust. undefined Fry in small batches so the oil stays near the target temperature. The first fry should cook the chicken through gently without taking the crust past pale gold.",
+        "step_3": "Fry at about 160°C for 4 minutes, drain and rest for 2 minutes. undefined Rest on a wire rack, not paper, for several minutes; air circulation prevents the underside from steaming while carryover heat moves toward the centre. undefined Raise the oil temperature and fry only until the exterior turns deep golden and audibly crisp, usually under 1–2 minutes. The chicken must already be safely cooked before this fast finishing step.",
+        "step_4": "Fry again at about 180°C for 1 minute until deeply crisp and serve with lemon. undefined Season only after tasting because the marinade is salty, and serve with lemon immediately while the crust is dry and brittle."
       }
     },
     "recipe_000017": {
       "title": "Tamagoyaki Rolled Omelette",
+      "description": "A Japanese rolled omelette built from several thin layers of seasoned egg. Each layer is barely set, rolled, then joined by the next, producing a tender spiral rather than a dry solid block.",
+      "animeContext": "Inspired by the traditional Japanese breakfast and bento atmosphere that fits Demon Slayer’s setting. No exact tamagoyaki appearance is asserted without direct scene evidence.",
       "ingredientTexts": {
         "eggs": {
           "name": "Eggs",
@@ -733,14 +767,16 @@
         }
       },
       "stepTexts": {
-        "step_1": "Beat the eggs gently with dashi, sugar, soy sauce and a pinch of salt without creating much foam.",
-        "step_2": "Lightly oil a rectangular tamagoyaki pan and pour in a thin layer of egg.",
-        "step_3": "When just set, roll the egg toward one side of the pan.",
-        "step_4": "Add another thin layer, let it flow under the roll and roll again. Repeat until the mixture is finished, then shape and slice."
+        "step_1": "Beat the eggs gently with dashi, sugar, soy sauce and a pinch of salt without creating much foam. undefined Stir rather than whip so you do not create a foam cap. If you want an especially even texture, pass the mixture through a sieve before cooking. undefined Keep the pan at medium-low heat and wipe on only a very thin film of oil between layers. Too much oil leaves greasy gaps in the spiral.",
+        "step_2": "Lightly oil a rectangular tamagoyaki pan and pour in a thin layer of egg. undefined Pour just enough egg to cover the base in a thin sheet. Pop large bubbles quickly and start rolling while the surface is still slightly wet so the layers bond. undefined Roll with chopsticks or a spatula without pressing the coil flat. Move the roll back to the starting edge and oil the newly exposed pan before the next pour.",
+        "step_3": "When just set, roll the egg toward one side of the pan. undefined Lift the existing roll slightly when adding new egg so a little runs underneath and glues the layers together. Continue until all mixture is used.",
+        "step_4": "Add another thin layer, let it flow under the roll and roll again. Repeat until the mixture is finished, then shape and slice. undefined Wrap the hot roll in a bamboo mat or clean parchment for 2–3 minutes to set a neat shape, then slice with a damp sharp knife once it has stopped steaming heavily."
       }
     },
     "recipe_000018": {
       "title": "Nikuman Steamed Pork Buns",
+      "description": "Japanese steamed buns with a soft yeast dough wrapped around a juicy pork, cabbage and mushroom filling. Proper proofing gives a light crumb, while a short covered rest after steaming prevents the buns from collapsing from a sudden temperature change.",
+      "animeContext": "This recipe is inspired by the abundant steamed-bun and hearty-food imagery associated with Dragon Ball. The app does not claim that this exact nikuman filling appears in a particular episode.",
       "ingredientTexts": {
         "flour": {
           "name": "All-purpose flour",
@@ -784,54 +820,66 @@
         }
       },
       "stepTexts": {
-        "step_1": "Knead flour, yeast, lukewarm water and sugar until smooth, then proof for about 1 hour until doubled.",
-        "step_2": "Mix the pork with squeezed chopped cabbage, spring onion, ginger, soy sauce and sesame oil.",
-        "step_3": "Divide the dough, roll into discs with thinner edges and place a spoonful of filling in the centre.",
-        "step_4": "Pleat the edges together to close each bun into a small pouch.",
-        "step_5": "Steam on parchment squares for 15–18 minutes and let stand briefly before opening the steamer."
+        "step_1": "Knead flour, yeast, lukewarm water and sugar until smooth, then proof for about 1 hour until doubled. undefined Use water that is warm rather than hot so the yeast is not damaged; the mixture should form a shaggy dough with no dry flour before kneading. undefined Knead until the surface becomes smooth and elastic rather than simply timing the process. If the dough tears immediately when stretched, give it a short rest and knead a little longer. undefined Judge the first proof by volume: the dough should roughly double and feel airy. In a cool room it may need longer than the stated hour.",
+        "step_2": "Mix the pork with squeezed chopped cabbage, spring onion, ginger, soy sauce and sesame oil. undefined Mix the filling until the pork becomes slightly tacky so it holds together, but keep it refrigerated until assembly. Squeeze excess water from cabbage and mushrooms if they are wet.",
+        "step_3": "Divide the dough, roll into discs with thinner edges and place a spoonful of filling in the centre. undefined Keep unused portions covered while shaping so the surface does not skin over; a dry edge is difficult to pleat and seal. undefined Keep the centre of each wrapper thicker than the rim, place filling in the middle and pleat the thin edge upward. Pinch the final opening firmly closed so meat juices stay inside during steaming.",
+        "step_4": "Pleat the edges together to close each bun into a small pouch. undefined Let shaped buns become visibly puffy before steaming, but not fully doubled; overproofed buns can wrinkle or collapse after cooking.",
+        "step_5": "Steam on parchment squares for 15–18 minutes and let stand briefly before opening the steamer. undefined Start with active steam, keep the lid closed during cooking and verify the pork filling is safely cooked. When time is up, turn off the heat and wait 3–5 minutes before opening the lid gradually to reduce collapse."
       }
     },
     "recipe_000019": {
       "title": "Mitarashi Dango",
+      "description": "Chewy Japanese rice dumplings served on skewers under a glossy sweet-savoury soy glaze. A balanced mix of joshinko and shiratamako gives more of the classic dango bite than a pure shiratamako dough, while a brief grill adds the lightly toasted surface often paired with mitarashi sauce.",
+      "animeContext": "Inspired by the traditional snack and festival atmosphere that fits Naruto’s world. The app does not claim that this exact mitarashi dango is prepared in a verified episode.",
       "ingredientTexts": {
+        "joshinko": {
+          "name": "Joshinko (Japanese non-glutinous short-grain rice flour)",
+          "note": null
+        },
         "shiratamako": {
-          "name": "Shiratamako glutinous rice flour",
+          "name": "Shiratamako (glutinous rice flour)",
           "note": null
         },
-        "silken_tofu": {
-          "name": "Silken tofu",
+        "warm_water": {
+          "name": "Warm water",
           "note": null
         },
-        "soy_sauce": {
-          "name": "Soy sauce",
-          "note": null
-        },
-        "sugar": {
-          "name": "Sugar",
+        "glaze_sugar": {
+          "name": "Sugar for glaze",
           "note": null
         },
         "mirin": {
           "name": "Mirin",
           "note": null
         },
-        "water": {
-          "name": "Lukewarm water",
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "glaze_water": {
+          "name": "Water for glaze",
           "note": null
         },
         "cornstarch": {
-          "name": "Cornstarch",
+          "name": "Cornstarch for glaze",
           "note": null
         }
       },
       "stepTexts": {
-        "step_1": "Knead the glutinous rice flour with silken tofu until soft and pliable.",
-        "step_2": "Form walnut-size balls, boil them and cook 2 minutes more after they float. Chill in iced water.",
-        "step_3": "Thread 3–4 dumplings onto each skewer and grill briefly to create light char marks.",
-        "step_4": "Heat soy sauce, sugar, mirin, water and cornstarch while whisking until glossy and thick. Coat the skewers generously."
+        "make_dough": "Mix joshinko and shiratamako thoroughly. Add warm water gradually while mixing with chopsticks or a spatula, then knead by hand until the dough is smooth, soft and about as firm as an earlobe. Hold back a little water at first because different rice flours absorb differently.",
+        "shape_dango": "Divide the dough into about 20 equal pieces and roll each between your palms into a smooth ball about 2.5 cm wide. Keep the balls covered with a damp cloth so the surface does not dry or crack.",
+        "boil_dango": "Bring a large pot of water to a steady boil and add the dango without overcrowding. Stir gently once so they do not stick to the bottom. After they float, continue boiling about 1–2 minutes so the centres cook fully rather than remaining floury.",
+        "chill_dango": "Lift the cooked dango into a bowl of cold water for about 1–2 minutes to stop carryover cooking, then drain very well and blot the surface dry. Excess water would dilute the glaze.",
+        "skewer_dango": "Thread four dango onto each skewer, leaving a little handle. Work gently so the balls remain round and do not split along the skewer.",
+        "grill_dango": "For a lightly toasted version, place the skewers on a hot dry grill or non-stick pan for 1–2 minutes per side until small golden patches appear. Do not dry them out; the centre should remain chewy and soft.",
+        "make_glaze": "Whisk sugar, mirin, soy sauce, water and cornstarch together while cold so there are no starch lumps. Bring to a gentle simmer, stirring constantly, and cook 2–3 minutes until the sauce becomes clear, glossy and thick enough to coat a spoon.",
+        "coat_dango": "Brush or spoon the warm glaze generously over the skewers immediately before serving. Let excess sauce drip back into the pan; serve warm or at room temperature while the dango is still tender."
       }
     },
     "recipe_000020": {
       "title": "Taiyaki with Anko",
+      "description": "Fish-shaped Japanese cakes with a thin crisp shell and soft interior around sweet red-bean paste. Resting the batter hydrates the flour and smooths the crumb, while controlled mould heat prevents the detailed fish surface from burning before the centre cooks.",
+      "animeContext": "Taiyaki is a recurring and character-defining food association for Ayu in Kanon. The app uses that verified recurring link while presenting a real-world taiyaki recipe rather than copying dialogue or a specific animated serving.",
       "ingredientTexts": {
         "flour": {
           "name": "All-purpose flour",
@@ -842,7 +890,7 @@
           "note": null
         },
         "egg": {
-          "name": "Eggs",
+          "name": "Egg",
           "note": null
         },
         "milk": {
@@ -859,10 +907,1587 @@
         }
       },
       "stepTexts": {
-        "step_1": "Whisk the egg with sugar and milk, then sift in flour and baking powder to make a smooth batter.",
-        "step_2": "Heat and lightly oil a fish-shaped taiyaki pan.",
-        "step_3": "Pour in a thin layer of batter, add a generous spoonful of anko in the centre and cover with more batter.",
-        "step_4": "Close the pan and cook over medium-low heat for 3–4 minutes per side until crisp and golden."
+        "make_batter": "Whisk the egg, sugar and milk until smooth. Sift in flour and baking powder and mix only until no dry flour remains; a few tiny lumps are preferable to overmixing and developing a tough crumb.",
+        "rest_batter": "Cover the batter and refrigerate for about 1 hour. The rest hydrates the flour and lets bubbles settle. Stir gently once before cooking; if it has thickened heavily, loosen with a teaspoon or two of milk rather than making it runny.",
+        "heat_mould": "Preheat the taiyaki mould over medium-low heat and brush both halves with a very thin film of neutral oil. Test with a drop of batter: it should sizzle gently rather than darken instantly.",
+        "fill_mould": "Pour batter to cover roughly 60% of each fish cavity, add anko in a narrow mound along the centre without touching the edges, then cover with just enough batter to hide the filling. Overfilling prevents a clean seal.",
+        "cook_taiyaki": "Close the mould and cook over medium-low heat, turning every 1–2 minutes for even browning, for about 6–8 minutes total. Open carefully near the end: the shell should be evenly golden, release cleanly and feel crisp at the edges. Cool briefly on a rack before serving."
+      }
+    },
+    "recipe_000021": {
+      "title": "Traditional Sukiyaki",
+      "description": "A shared Japanese hot pot built around paper-thin beef, tofu, mushrooms, napa cabbage and shirataki in a glossy sweet-savory warishita. The ingredients cook in stages at the table, so the beef stays tender while the vegetables absorb the sauce.",
+      "animeContext": "This version is inspired by the warm communal-meal atmosphere associated with March Comes in Like a Lion. The app does not claim a specific episode until a direct scene reference is verified.",
+      "ingredientTexts": {
+        "beef": {
+          "name": "Thinly sliced beef",
+          "note": null
+        },
+        "tofu": {
+          "name": "Firm tofu",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Fresh shiitake mushrooms",
+          "note": null
+        },
+        "enoki": {
+          "name": "Enoki mushrooms",
+          "note": null
+        },
+        "scallions": {
+          "name": "Japanese scallions or spring onions",
+          "note": null
+        },
+        "napa_cabbage": {
+          "name": "Napa cabbage",
+          "note": null
+        },
+        "shirataki": {
+          "name": "Shirataki noodles",
+          "note": null
+        },
+        "eggs": {
+          "name": "Very fresh eggs, optional for dipping",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Cooking sake",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "make_warishita": "Combine soy sauce, mirin, sake and sugar in a small saucepan. Bring just to a simmer for about 2 minutes, stirring until the sugar dissolves; add the dashi and keep the sauce warm without reducing it heavily.",
+        "prep_components": "Drain and pat the tofu dry, cut it into large cubes and brown two sides in a dry non-stick pan. Trim the mushrooms, cut the cabbage into large bite-size pieces, slice the scallions on the diagonal and rinse the shirataki well; blanch the noodles for 2 minutes and drain.",
+        "sear_beef": "Heat a wide shallow pot over medium-high heat with a small film of neutral oil or beef fat. Sear part of the beef for only 20–30 seconds per side, stopping as soon as the surface changes colour so it does not toughen.",
+        "arrange_pot": "Move the beef to one side and arrange tofu, mushrooms, cabbage, scallions and shirataki in separate sections. Keep shirataki away from a large pile of raw beef so the pot heats evenly.",
+        "simmer": "Pour in enough warishita to come roughly halfway up the ingredients. Cover loosely and simmer over medium-low heat for 8–10 minutes, adding the remaining beef near the end and cooking it only until just done.",
+        "serve": "Serve directly from the pot while bubbling gently. If using raw egg as the traditional dip, use pasteurized or very fresh eggs and follow local food-safety guidance; the dish is also complete without egg."
+      }
+    },
+    "recipe_000022": {
+      "title": "Kitsune Udon",
+      "description": "A comforting bowl of udon in clear dashi broth topped with aburaage simmered until sweet, savoury and juicy. The contrast between springy noodles and the seasoned tofu pouch is the defining feature.",
+      "animeContext": "Inspired by the everyday-food atmosphere of A Whisker Away; no exact on-screen kitsune-udon scene is claimed.",
+      "ingredientTexts": {
+        "udon": {
+          "name": "Fresh or frozen udon noodles",
+          "note": null
+        },
+        "aburaage": {
+          "name": "Aburaage tofu pouches",
+          "note": null
+        },
+        "scallion": {
+          "name": "Scallion",
+          "note": null
+        },
+        "kamaboko": {
+          "name": "Kamaboko slices",
+          "note": null
+        },
+        "dashi_aburaage": {
+          "name": "Dashi for aburaage",
+          "note": null
+        },
+        "soy_aburaage": {
+          "name": "Soy sauce for aburaage",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "mirin_aburaage": {
+          "name": "Mirin for aburaage",
+          "note": null
+        },
+        "dashi_broth": {
+          "name": "Dashi for broth",
+          "note": null
+        },
+        "usukuchi": {
+          "name": "Light soy sauce (usukuchi)",
+          "note": null
+        },
+        "mirin_broth": {
+          "name": "Mirin for broth",
+          "note": null
+        },
+        "salt": {
+          "name": "Salt",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "deoil_aburaage": "Pour boiling water over both sides of the aburaage to remove excess surface oil, cool briefly, press dry and cut each pouch into a neat serving piece.",
+        "simmer_aburaage": "Simmer the aburaage with 150 ml dashi, soy sauce, sugar and mirin over low heat for about 10 minutes. Turn once; stop when most liquid is absorbed but the tofu still looks moist.",
+        "make_broth": "Combine 600 ml dashi, usukuchi, mirin and salt. Bring to a gentle simmer, taste and adjust saltiness, then keep just below a boil.",
+        "cook_udon": "Cook or reheat the udon according to the package, usually 2–3 minutes for fresh/frozen noodles. Separate them gently, drain thoroughly and avoid overcooking.",
+        "assemble": "Divide hot udon between bowls, cover with hot broth and top with sweet aburaage, kamaboko and finely sliced scallion. Serve immediately while the noodles retain bounce."
+      }
+    },
+    "recipe_000023": {
+      "title": "Tonkatsu",
+      "description": "Japanese pork cutlet with a dry, airy panko crust and juicy centre, served with finely shredded cabbage and tonkatsu sauce. Careful trimming, even breading and controlled oil temperature are more important than an aggressive frying time.",
+      "animeContext": "Inspired by the competitive cooking world of Food Wars!; this card does not claim a specific tonkatsu episode.",
+      "ingredientTexts": {
+        "pork": {
+          "name": "Pork loin or shoulder steaks, 1.5–2 cm thick",
+          "note": null
+        },
+        "salt": {
+          "name": "Fine salt",
+          "note": null
+        },
+        "pepper": {
+          "name": "Black pepper",
+          "note": null
+        },
+        "flour": {
+          "name": "All-purpose flour",
+          "note": null
+        },
+        "egg": {
+          "name": "Large egg",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko breadcrumbs",
+          "note": null
+        },
+        "oil": {
+          "name": "Neutral frying oil",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Green cabbage",
+          "note": null
+        },
+        "tonkatsu_sauce": {
+          "name": "Tonkatsu sauce",
+          "note": null
+        },
+        "lemon": {
+          "name": "Lemon wedges",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "prep_pork": "Pat the pork dry. Make shallow cuts through the fat/connective strip every 2–3 cm so the cutlet stays flat, then gently pound only enough to even the thickness; reshape the meat with your hands.",
+        "season_bread": "Season both sides with salt and pepper. Coat lightly in flour and shake off excess, cover completely in beaten egg, then press into panko without crushing the flakes. Rest 5 minutes so the crust adheres.",
+        "first_fry": "Heat 4–5 cm of oil to about 170°C. Fry without crowding until the crust is pale golden, about 3 minutes per side for a 1.5–2 cm cutlet; keep oil near 165–175°C rather than letting it smoke.",
+        "rest_check": "Lift onto a rack for 3 minutes so residual heat reaches the centre. The pork must reach a safe doneness according to local guidance; if using a thermometer, check the thickest point rather than judging only by crust colour.",
+        "crisp_finish": "For an extra crisp crust, return the cooked cutlet to oil at about 180°C for 30–60 seconds, watching closely until deep golden. Drain on a rack, not flat on paper, to preserve the crust.",
+        "slice_serve": "Rest another minute, slice across the cutlet into 2 cm strips with a sharp knife and serve immediately with shredded cabbage, tonkatsu sauce and lemon."
+      }
+    },
+    "recipe_000024": {
+      "title": "Anpan with Azuki Filling",
+      "description": "Soft enriched Japanese buns wrapped around a generous centre of smooth sweet azuki paste. Two proofing stages give a light crumb while careful sealing keeps the filling centred and clean.",
+      "animeContext": "Anpan is a direct early reference in Clannad: Nagisa introduces herself through the bread in episode 1. The recipe here is an original cookable reconstruction, not copied dialogue.",
+      "ingredientTexts": {
+        "bread_flour": {
+          "name": "Strong bread flour",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "yeast": {
+          "name": "Instant dry yeast",
+          "note": null
+        },
+        "milk": {
+          "name": "Lukewarm milk",
+          "note": null
+        },
+        "egg": {
+          "name": "Egg",
+          "note": null
+        },
+        "butter": {
+          "name": "Unsalted butter, softened",
+          "note": null
+        },
+        "salt": {
+          "name": "Salt",
+          "note": null
+        },
+        "anko": {
+          "name": "Sweet azuki bean paste (anko)",
+          "note": null
+        },
+        "black_sesame": {
+          "name": "Black sesame seeds",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "mix_knead": "Mix flour, sugar and yeast, then add lukewarm milk and about half the beaten egg. Knead until no dry flour remains, add salt, then work in softened butter gradually. Knead 10–12 minutes until smooth, elastic and able to stretch into a thin window without tearing quickly.",
+        "first_proof": "Round the dough, place it in a lightly greased bowl, cover and proof in a warm spot until roughly doubled, about 60 minutes. Use volume rather than the clock: a lightly floured fingertip should leave an indentation that returns slowly.",
+        "divide_rest": "Divide anko into eight 30 g balls. Degas the dough gently, divide into eight equal pieces, round them tightly and cover for a 10-minute bench rest so the gluten relaxes before shaping.",
+        "fill_shape": "Flatten each dough ball into a disc with a slightly thicker centre. Place one anko ball in the middle, bring the edges up around it and pinch firmly closed; turn seam-side down and gently round without squeezing filling out.",
+        "second_proof": "Arrange on a lined tray, cover loosely and proof about 30 minutes until visibly puffy and lighter. Do not wait for a full doubling or the buns may spread and lose tension.",
+        "bake": "Brush with the remaining beaten egg diluted with a teaspoon of water, add black sesame to the centre and bake in a preheated static oven at 180°C for 13–15 minutes until evenly golden. Cool on a rack so the bases stay dry."
+      }
+    },
+    "recipe_000025": {
+      "title": "Hiyashi Chuka — Cold Summer Ramen",
+      "description": "A Japanese summer noodle dish served cold, with springy ramen, crisp vegetables, egg strips and savoury toppings arranged over a tangy soy-rice-vinegar dressing. Rinsing and drying the noodles well is what keeps the final plate refreshing rather than watery.",
+      "animeContext": "Inspired by the visual, seasonal cooking language of Food Wars!; no specific Hiyashi Chuka episode is asserted.",
+      "ingredientTexts": {
+        "ramen_noodles": {
+          "name": "Fresh ramen noodles",
+          "note": null
+        },
+        "ham": {
+          "name": "Cooked ham or chashu",
+          "note": null
+        },
+        "cucumber": {
+          "name": "Cucumber",
+          "note": null
+        },
+        "egg": {
+          "name": "Egg",
+          "note": null
+        },
+        "tomatoes": {
+          "name": "Cherry tomatoes",
+          "note": null
+        },
+        "surimi": {
+          "name": "Surimi or crab meat",
+          "note": null
+        },
+        "bean_sprouts": {
+          "name": "Bean sprouts, optional",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "rice_vinegar": {
+          "name": "Rice vinegar",
+          "note": null
+        },
+        "water": {
+          "name": "Water",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Toasted sesame oil",
+          "note": null
+        },
+        "karashi": {
+          "name": "Japanese karashi mustard",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "make_dressing": "Stir sugar into rice vinegar until mostly dissolved, then add soy sauce, water and sesame oil. Taste: it should be bright and slightly sweet, not aggressively salty. Chill at least 5 minutes while preparing the toppings.",
+        "make_kinshi": "Beat the egg with a pinch of salt. Lightly oil a non-stick pan and cook it as a very thin sheet over medium-low heat, just until set. Cool completely, roll loosely and slice into fine kinshi-tamago strips.",
+        "prep_toppings": "Julienne the cucumber and ham or chashu, quarter the tomatoes, shred the surimi and blanch bean sprouts briefly if using. Keep every topping cold and well drained so it does not water down the noodles.",
+        "cook_chill_noodles": "Cook ramen in unsalted boiling water according to the package, usually 2–3 minutes. Drain immediately, rinse vigorously under cold water to remove surface starch, then chill in ice water. Drain again and shake or pat off as much water as possible.",
+        "plate": "Twirl the cold noodles onto two shallow bowls or plates. Arrange cucumber, ham, egg, surimi, tomatoes and sprouts in separate colourful sections so every bite can pick up a different topping.",
+        "dress_serve": "Pour the cold dressing over the noodles immediately before eating and add a small dab of karashi at the edge. Toss only at the table and serve at once while the noodles are firm and cold."
+      }
+    },
+    "recipe_000026": {
+      "title": "Yakisoba Pan",
+      "description": "A classic Japanese bread-and-noodle snack: savoury stir-fried yakisoba packed into a soft koppepan and finished with aonori and pickled ginger. The key is reducing the sauce enough that the noodles stay glossy without soaking the bread.",
+      "animeContext": "Inspired by the convenience-food atmosphere associated with Jujutsu Kaisen; no exact yakisoba-pan scene is asserted.",
+      "ingredientTexts": {
+        "koppepan": {
+          "name": "Soft koppepan or hot-dog rolls",
+          "note": null
+        },
+        "yakisoba_noodles": {
+          "name": "Yakisoba noodles",
+          "note": null
+        },
+        "pork_belly": {
+          "name": "Pork belly, thin strips",
+          "note": null
+        },
+        "onion": {
+          "name": "Onion",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Cabbage leaves",
+          "note": null
+        },
+        "yakisoba_sauce": {
+          "name": "Yakisoba sauce",
+          "note": null
+        },
+        "aonori": {
+          "name": "Aonori",
+          "note": null
+        },
+        "beni_shoga": {
+          "name": "Beni shoga",
+          "note": null
+        },
+        "kewpie": {
+          "name": "Japanese mayonnaise, optional",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "sear_pork": "Heat a wide skillet over medium-high heat. Add the pork and cook until the fat begins to render and the edges turn golden; leave enough fat in the pan to season the noodles.",
+        "cook_vegetables": "Add sliced onion and cabbage and stir-fry for about 3 minutes. Keep the heat high enough to wilt the vegetables while preserving a little bite.",
+        "loosen_noodles": "Add the yakisoba noodles and splash in 2 tablespoons of water. Cover for 30 seconds, then loosen gently with tongs or chopsticks so the strands separate without tearing.",
+        "sauce_noodles": "Add yakisoba sauce and toss over high heat for about 2 minutes until every strand is glossy and the excess moisture has evaporated. The noodles should be saucy but not wet.",
+        "prep_buns": "Cut each bun lengthwise without cutting through the hinge. If desired, spread a very thin layer of Japanese mayonnaise inside to protect the crumb from moisture.",
+        "fill_finish": "Pack the hot yakisoba into the buns while it is still steaming. Finish with aonori, a small ribbon of mayonnaise and beni shoga; serve immediately before the bread softens too much."
+      }
+    },
+    "recipe_000027": {
+      "title": "Melonpan",
+      "description": "A soft Japanese sweet bun capped with a crisp cookie shell scored like a melon rind. The name describes the look rather than requiring melon flavour: the contrast between tender bread and sandy crust is the point.",
+      "animeContext": "Melonpan is a recurring food association for Shana in Shakugan no Shana and appears early in the series; episode 2 is used here as a verified reference point.",
+      "ingredientTexts": {
+        "bread_flour": {
+          "name": "Bread flour",
+          "note": null
+        },
+        "bread_sugar": {
+          "name": "Sugar for bread dough",
+          "note": null
+        },
+        "yeast": {
+          "name": "Instant dry yeast",
+          "note": null
+        },
+        "milk": {
+          "name": "Lukewarm milk",
+          "note": null
+        },
+        "bread_butter": {
+          "name": "Butter for bread dough",
+          "note": null
+        },
+        "salt": {
+          "name": "Salt",
+          "note": null
+        },
+        "cookie_flour": {
+          "name": "All-purpose flour for cookie crust",
+          "note": null
+        },
+        "cookie_butter": {
+          "name": "Butter for cookie crust",
+          "note": null
+        },
+        "cookie_sugar": {
+          "name": "Sugar for cookie crust",
+          "note": null
+        },
+        "egg": {
+          "name": "Beaten egg",
+          "note": null
+        },
+        "vanilla": {
+          "name": "Vanilla extract",
+          "note": null
+        },
+        "coating_sugar": {
+          "name": "Granulated sugar for coating",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "make_bread_dough": "Combine flour, sugar and yeast, add lukewarm milk, then salt and softened butter. Knead about 10 minutes until smooth and elastic; the dough should feel supple rather than sticky.",
+        "first_proof": "Cover and proof in a warm place until roughly doubled, about 60 minutes. Press a floured fingertip gently into the dough; the indentation should return slowly.",
+        "make_cookie_dough": "Cream butter and sugar, mix in beaten egg and vanilla, then fold in flour only until combined. Flatten, wrap and chill about 20 minutes so it can be rolled without sticking.",
+        "divide_shape": "Degas the risen bread dough gently and divide into six equal balls. Divide the chilled cookie dough into six pieces and roll each between parchment into a disc large enough to cover about three-quarters of a bread ball.",
+        "coat_score": "Wrap each bread ball with a cookie disc, leaving the base exposed. Roll the cookie surface in granulated sugar, then score a shallow diamond grid with the blunt side of a knife without cutting into the bread dough.",
+        "final_rest_bake": "Rest the assembled buns about 20 minutes while the oven heats. Bake at 170°C for 12–15 minutes until the cookie shell is dry and lightly golden while the bread beneath feels light and springy."
+      }
+    },
+    "recipe_000028": {
+      "title": "Japanese Korokke",
+      "description": "Japanese potato croquettes with a fluffy, savoury meat-and-onion centre under a crisp panko shell. A dry mash and properly chilled filling are what let the croquettes hold together without becoming heavy.",
+      "animeContext": "Inspired by the nostalgic everyday-food world of From Up on Poppy Hill. Until an exact korokke scene is verified, the app presents this as inspiration rather than a direct appearance.",
+      "ingredientTexts": {
+        "potatoes": {
+          "name": "Yellow-fleshed potatoes",
+          "note": null
+        },
+        "ground_meat": {
+          "name": "Ground beef-pork mix",
+          "note": null
+        },
+        "onion": {
+          "name": "Onion",
+          "note": null
+        },
+        "butter": {
+          "name": "Butter",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "salt": {
+          "name": "Salt",
+          "note": null
+        },
+        "pepper": {
+          "name": "Black pepper",
+          "note": null
+        },
+        "nutmeg": {
+          "name": "Nutmeg",
+          "note": null
+        },
+        "flour": {
+          "name": "All-purpose flour",
+          "note": null
+        },
+        "eggs": {
+          "name": "Eggs",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
+          "note": null
+        },
+        "oil": {
+          "name": "Neutral frying oil",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "cook_potatoes": "Peel and cut the potatoes into even chunks. Simmer in salted water until a knife passes through without resistance, then drain very thoroughly and mash while hot. Return briefly to the warm dry pan if needed to steam off excess moisture.",
+        "cook_filling": "Melt butter in a skillet, soften the onion until translucent, then add the ground meat. Brown while breaking it into small crumbs; season with soy sauce, pepper and a small pinch of nutmeg and cook until no pink remains.",
+        "mix_cool": "Mix the hot dry potato with the cooked meat and onion. Spread the mixture in a shallow tray so it cools quickly; once steam has stopped, refrigerate until cool enough to hold its shape rather than leaving it at room temperature for a long period.",
+        "shape": "Divide into eight portions and press each into a compact oval about 2 cm thick. Smooth cracks with damp hands; loose edges can split when they hit the oil.",
+        "bread": "Coat each croquette lightly in flour, then beaten egg, then panko. Press just enough to cover completely and chill briefly while the oil heats so the coating sets.",
+        "fry": "Heat oil to about 175°C. Fry in small batches for 3–4 minutes, turning once, until evenly deep golden. Because the filling is already cooked, focus on reheating the centre and crisping the crust; drain on a rack and serve hot."
+      }
+    },
+    "recipe_000029": {
+      "title": "Katsu Curry",
+      "description": "Japanese curry rice topped with a crisp panko cutlet: rich, thick sauce, steamed short-grain rice and a crunchy katsu in one plate. Keeping part of the cutlet out of the sauce preserves the contrast that makes the dish so satisfying.",
+      "animeContext": "Inspired by the everyday comfort-food tone associated with Chainsaw Man. The culinary identity is Katsu Curry; no specific episode is claimed.",
+      "ingredientTexts": {
+        "pork_cutlets": {
+          "name": "Tonkatsu pork cutlets",
+          "note": null
+        },
+        "rice": {
+          "name": "Cooked Japanese short-grain rice",
+          "note": null
+        },
+        "curry_roux": {
+          "name": "Japanese curry roux",
+          "note": null
+        },
+        "potato": {
+          "name": "Medium potato",
+          "note": null
+        },
+        "carrot": {
+          "name": "Carrot",
+          "note": null
+        },
+        "onion": {
+          "name": "Onion",
+          "note": null
+        },
+        "water": {
+          "name": "Water or light stock",
+          "note": null
+        },
+        "oil": {
+          "name": "Neutral oil",
+          "note": null
+        },
+        "fukujinzuke": {
+          "name": "Fukujinzuke pickles, optional",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "cook_rice": "Cook Japanese short-grain rice so it is ready and hot when the curry and cutlet finish. After cooking, rest it covered for about 10 minutes, then fluff gently without crushing the grains.",
+        "start_curry": "Heat oil in a saucepan, add sliced onion and cook until soft with light golden edges. Add carrot and potato cut into even bite-size pieces and sauté for 2–3 minutes so their surfaces pick up flavour.",
+        "simmer_vegetables": "Add 500 ml water or light stock, bring to a boil, skim if needed, then cover partially and simmer about 15 minutes until the vegetables are tender but not collapsing.",
+        "add_roux": "Turn the heat off before adding the curry roux. Break in about 45 g, stir until fully dissolved, then return to low heat and simmer 4–5 minutes, stirring from the bottom, until glossy and thick enough to coat a spoon. Follow the package ratio if your brand differs.",
+        "cook_tonkatsu": "Prepare the tonkatsu while the curry simmers: bread and fry the pork until the crust is crisp and the centre reaches safe doneness. Rest briefly on a rack, then slice into clean strips.",
+        "assemble": "Place hot rice on one side of each plate, arrange sliced tonkatsu alongside and ladle curry so it laps over part of the cutlet while leaving some crust exposed. Add fukujinzuke if desired and serve immediately."
+      }
+    },
+    "recipe_000030": {
+      "title": "Japanese Strawberry Shortcake",
+      "description": "A light Japanese celebration cake made from airy sponge, lightly sweetened whipped cream and fresh strawberries. Unlike biscuit-style shortcake, this version depends on a fine, moist sponge and cold, stable cream for clean delicate layers.",
+      "animeContext": "K-On! is strongly associated with the Light Music Club’s tea-and-cake breaks. This card treats strawberry shortcake as a recurring cake-culture association, not as a claim about one exact on-screen recipe.",
+      "ingredientTexts": {
+        "eggs": {
+          "name": "Large eggs, room temperature",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "flour": {
+          "name": "Cake flour or low-protein flour",
+          "note": null
+        },
+        "butter": {
+          "name": "Unsalted butter",
+          "note": null
+        },
+        "milk": {
+          "name": "Whole milk",
+          "note": null
+        },
+        "cream": {
+          "name": "Cold whipping cream",
+          "note": null
+        },
+        "icing_sugar": {
+          "name": "Icing sugar",
+          "note": null
+        },
+        "strawberries": {
+          "name": "Fresh strawberries",
+          "note": null
+        },
+        "syrup_water": {
+          "name": "Water for syrup",
+          "note": null
+        },
+        "syrup_sugar": {
+          "name": "Sugar for syrup",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "prep_pan_eggs": "Line the base of an 18 cm cake tin and preheat the oven to 170°C. Warm the eggs and sugar gently over a bain-marie until just lukewarm, then whip 8–10 minutes until very pale, tripled in volume and thick enough for the ribbon to sit briefly on the surface.",
+        "fold_batter": "Sift in the flour in two additions and fold from the bottom with a wide spatula, rotating the bowl. Mix melted butter with warm milk, lighten it with a spoonful of batter, then fold it back in quickly so the foam is not deflated.",
+        "bake_cool": "Pour into the tin, tap once to release large bubbles and bake at 170°C for 23–25 minutes. The top should spring back lightly and a skewer come out clean. Unmould, invert onto a rack and cool completely before cutting; warm sponge tears easily.",
+        "prep_filling": "Chill the bowl and beaters. Whip cream with icing sugar to medium-stiff peaks that hold their shape but remain smooth. Slice part of the strawberries 4–5 mm thick and reserve the best berries for the top. Dissolve syrup sugar in the warm water and cool.",
+        "split_syrup_fill": "Slice the cold sponge horizontally into two even layers. Brush the cut surfaces lightly with syrup, spread a level layer of cream, arrange strawberries without large gaps and cover with just enough cream to fill the spaces. Add the second sponge layer and align the sides.",
+        "frost_decorate": "Apply a thin crumb coat, chill briefly if the cream softens, then cover top and sides with the remaining whipped cream. Smooth with a cold spatula and decorate with piped cream and dry strawberries; excess moisture makes the finish slide.",
+        "chill": "Refrigerate at least 2 hours before slicing so the layers settle and the cream firms. Use a hot, wiped knife for clean cuts and keep the cake refrigerated because of the fresh cream."
+      }
+    },
+    "recipe_000031": {
+      "title": "Zaru Soba",
+      "description": "Cold buckwheat noodles served separately from a savoury dipping sauce, with nori, scallion and wasabi. The crucial technique is washing the cooked soba thoroughly under cold water to remove surface starch and restore a clean, springy texture.",
+      "animeContext": "Inspired by the traditional-food atmosphere of Demon Slayer; no specific zaru-soba episode is claimed.",
+      "ingredientTexts": {
+        "soba": {
+          "name": "Dried or fresh soba noodles",
+          "note": null
+        },
+        "nori": {
+          "name": "Nori sheet",
+          "note": null
+        },
+        "scallion": {
+          "name": "Scallion",
+          "note": null
+        },
+        "wasabi": {
+          "name": "Wasabi",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "make_mentsuyu": "Combine dashi, soy sauce, mirin and sugar. Bring to a gentle boil for 1–2 minutes so the mirin mellows and the sugar dissolves, then cool completely; this is a dipping sauce, so it should taste more concentrated than soup broth.",
+        "cook_soba": "Boil the soba in plenty of unsalted water according to the package, stirring once soon after adding so strands do not stick. Start checking a little early: the noodles should be tender but still resilient.",
+        "wash_chill": "Drain immediately and rinse under plenty of cold running water, gently rubbing and lifting the noodles with your hands to wash away surface starch. Finish in very cold water, then drain.",
+        "drain_plate": "Shake off as much water as possible; wet soba dilutes the dipping sauce. Arrange loosely on a bamboo zaru or plate and scatter fine nori strips over the top.",
+        "serve": "Pour cold mentsuyu into individual cups. Add scallion and a small amount of wasabi to taste, then pick up a small bundle of soba and dip only the lower portion before eating."
+      }
+    },
+    "recipe_000032": {
+      "title": "Hanetsuki Gyoza — Gyoza with Crispy Wings",
+      "description": "Pan-fried Japanese dumplings joined by a paper-thin, brittle starch lace. The filling stays juicy inside while the bottoms and wing turn deeply crisp, giving a dramatic presentation without changing the classic gyoza flavour.",
+      "animeContext": "Gyoza is one of Dorohedoro’s most recognizable recurring foods, closely associated with Nikaido and Hungry Bug. The winged hanetsuki presentation is this app’s cookable variation, not a claim that every shown gyoza has the lace.",
+      "ingredientTexts": {
+        "wrappers": {
+          "name": "Gyoza wrappers",
+          "note": null
+        },
+        "pork": {
+          "name": "Ground pork",
+          "note": null
+        },
+        "napa_cabbage": {
+          "name": "Napa cabbage",
+          "note": null
+        },
+        "scallions": {
+          "name": "Scallions",
+          "note": null
+        },
+        "garlic": {
+          "name": "Garlic",
+          "note": null
+        },
+        "ginger": {
+          "name": "Fresh grated ginger",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Toasted sesame oil",
+          "note": null
+        },
+        "salt": {
+          "name": "Salt",
+          "note": null
+        },
+        "water": {
+          "name": "Water for lace",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Cornstarch",
+          "note": null
+        },
+        "frying_oil": {
+          "name": "Neutral oil",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "prep_cabbage_filling": "Salt the finely chopped cabbage lightly and leave 10 minutes, then squeeze it very dry. Mix with pork, scallion, garlic, ginger, soy sauce and sesame oil, stirring in one direction until the filling becomes tacky; keep chilled until folding.",
+        "fold": "Place about a teaspoon of filling in the centre of each wrapper. Moisten only the rim, fold and pleat the front edge against the flat back edge, pressing out trapped air. Keep finished dumplings covered so the wrappers do not dry.",
+        "brown_bases": "Heat a non-stick skillet over medium heat with neutral oil. Arrange gyoza flat-side down in a tight ring or rows and cook 2–3 minutes until the bases are evenly golden.",
+        "steam": "Whisk water and cornstarch until completely smooth and pour around, not directly over, the gyoza. Cover immediately and steam 5–6 minutes, until the pork filling is fully cooked and most liquid has evaporated.",
+        "crisp_wings": "Remove the lid and continue over medium heat until the remaining starch mixture dries into a thin golden lace. Add a few drops of sesame oil around the edge and cook another 1–2 minutes until crisp and releasing from the pan.",
+        "invert_serve": "Loosen the edge with a thin spatula, place a large plate over the skillet and invert in one confident motion so the crisp lace faces upward. Serve immediately while the wing is brittle."
+      }
+    },
+    "recipe_000033": {
+      "title": "Inari Sushi",
+      "description": "Sweet-savoury tofu pouches filled with lightly vinegared Japanese rice, one of the most approachable forms of sushi to make at home. Moist inari-age and gently handled rice give the best balance between juicy wrapper and distinct grains.",
+      "animeContext": "Inspired by the Japanese everyday-food setting of A Whisker Away. The app does not claim that this exact inari-sushi preparation is shown on screen.",
+      "ingredientTexts": {
+        "inari_age": {
+          "name": "Prepared seasoned inari-age pouches",
+          "note": null
+        },
+        "rice": {
+          "name": "Cooked Japanese short-grain rice",
+          "note": null
+        },
+        "rice_vinegar": {
+          "name": "Rice vinegar",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "salt": {
+          "name": "Salt",
+          "note": null
+        },
+        "sesame": {
+          "name": "Toasted sesame seeds",
+          "note": null
+        },
+        "vegetable_mix": {
+          "name": "Finely diced simmered carrot and shiitake, optional",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "season_rice": "While the rice is still hot, dissolve sugar and salt in rice vinegar. Spread the rice in a wide non-metal bowl and fold the seasoning through with slicing motions instead of mashing the grains.",
+        "cool_rice": "Fan or stir gently until the rice is just warm and glossy. Keep it covered with a damp clean cloth so the surface does not dry while you prepare the pouches.",
+        "prepare_pouches": "Drain prepared inari-age gently without squeezing them dry; they should stay moist and flexible. Open each pouch carefully with your fingers, loosening the corners without tearing the tofu.",
+        "mix_garnish": "Fold toasted sesame and, if using, very well-drained diced carrot and shiitake into the rice. Keep the additions small so the grains still bind together.",
+        "fill": "Wet your hands lightly, divide the rice into eight compact ovals and slide one into each pouch. Press gently into the corners, then fold the top edge inward or leave it open with rice visible. Serve at room temperature."
+      }
+    },
+    "recipe_000034": {
+      "title": "Japanese Napolitan Spaghetti",
+      "description": "A retro Japanese yoshoku pasta from kissaten cafés, built around ketchup cooked in the pan with sausage, onion, green pepper and mushrooms. Its intentionally soft noodles and sweet-tangy sauce are part of the style, not an attempt at Italian tomato pasta.",
+      "animeContext": "Inspired by the café and everyday-food atmosphere associated with Komi Can't Communicate. The link is editorial unless an exact Napolitan scene is independently verified.",
+      "ingredientTexts": {
+        "spaghetti": {
+          "name": "Spaghetti",
+          "note": null
+        },
+        "sausages": {
+          "name": "Frankfurter-style sausages",
+          "note": null
+        },
+        "onion": {
+          "name": "Onion",
+          "note": null
+        },
+        "green_pepper": {
+          "name": "Green bell pepper",
+          "note": null
+        },
+        "mushrooms": {
+          "name": "Button mushrooms",
+          "note": null
+        },
+        "ketchup": {
+          "name": "Ketchup",
+          "note": null
+        },
+        "milk": {
+          "name": "Whole milk",
+          "note": null
+        },
+        "butter": {
+          "name": "Butter",
+          "note": null
+        },
+        "oil": {
+          "name": "Olive or neutral oil",
+          "note": null
+        },
+        "parmesan": {
+          "name": "Grated Parmesan-style cheese",
+          "note": null
+        },
+        "tabasco": {
+          "name": "Tabasco, optional",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "cook_pasta": "Cook spaghetti in well-salted water until just past firm al dente if you want the classic kissaten softness. Drain, rinse very briefly with cool water and toss with a few drops of oil; this is intentionally different from an Italian pasta technique.",
+        "saute_fillings": "Melt butter with oil in a wide skillet. Add sliced sausages, onion, green pepper and mushrooms and sauté over medium-high heat for 4–5 minutes until the sausage browns and the vegetables soften without turning mushy.",
+        "cook_ketchup": "Push the fillings to the side and add ketchup directly to the hot empty area of the pan. Cook it for 60–90 seconds, stirring, until it darkens slightly and loses its raw acidic smell.",
+        "toss": "Stir in the milk, then add spaghetti and toss over high heat for about 2 minutes until every strand is coated in a glossy red sauce and the pasta is hot throughout.",
+        "finish": "Taste before adding salt because ketchup and sausage are already seasoned. Serve immediately with grated cheese and, if desired, a few drops of Tabasco."
+      }
+    },
+    "recipe_000035": {
+      "title": "Katsu Sando",
+      "description": "A Japanese cutlet sandwich where soft white bread compresses around crisp pork, tangy tonkatsu sauce and fine cabbage. The short press is not cosmetic: it binds the layers and makes the iconic clean cross-section possible.",
+      "animeContext": "Inspired by the polished everyday-food world of Spy x Family. No exact katsu-sando scene is claimed without a direct source.",
+      "ingredientTexts": {
+        "shokupan": {
+          "name": "Soft shokupan-style white bread",
+          "note": null
+        },
+        "pork": {
+          "name": "Pork cutlets, about 1.5 cm thick",
+          "note": null
+        },
+        "flour": {
+          "name": "All-purpose flour",
+          "note": null
+        },
+        "egg": {
+          "name": "Egg",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Finely shredded cabbage",
+          "note": null
+        },
+        "kewpie": {
+          "name": "Japanese mayonnaise",
+          "note": null
+        },
+        "tonkatsu_sauce": {
+          "name": "Tonkatsu sauce",
+          "note": null
+        },
+        "butter": {
+          "name": "Softened butter",
+          "note": null
+        },
+        "oil": {
+          "name": "Neutral frying oil",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "bread_pork": "Pat the pork dry, make small cuts through the outer fat so it stays flat, season lightly and coat in flour, beaten egg and panko. Press the crumbs on without crushing them and let the breaded cutlets sit a few minutes.",
+        "fry_rest": "Fry at about 170°C until deep golden and safely cooked through, roughly 3–4 minutes per side depending on thickness. Rest on a rack for 3 minutes so steam does not soften the crust.",
+        "prep_bread": "Trim the crusts now or after pressing. Spread a very thin layer of softened butter on the inner faces of the bread; this creates a moisture barrier against sauce and cabbage.",
+        "sauce_stack": "Coat the hot cutlets generously but not excessively with tonkatsu sauce. Spread mayonnaise on two bread slices, add a compact layer of very finely shredded dry cabbage, place the cutlets on top and close.",
+        "press": "Wrap each sandwich firmly in parchment or plastic and place a light cutting board on top for about 5 minutes. The goal is to compact the layers enough for a clean cut without crushing the bread.",
+        "trim_slice": "Unwrap and use a sharp serrated knife to square the edges if desired. Cut each sandwich into halves or three neat fingers, wiping the blade between cuts so the cross-section stays clean."
+      }
+    },
+    "recipe_000036": {
+      "title": "Yakitori Negima with Tare",
+      "description": "Chicken-and-scallion yakitori glazed with a concentrated soy-mirin tare. Using thigh meat with skin gives the skewers enough fat to stay juicy while the late glaze caramelizes without burning.",
+      "animeContext": "Inspired by Gintama’s frequent izakaya and street-food atmosphere. Until a direct yakitori scene is documented, the relation remains inspiration rather than a specific appearance.",
+      "ingredientTexts": {
+        "chicken_thigh": {
+          "name": "Boneless chicken thighs with skin",
+          "note": null
+        },
+        "scallions": {
+          "name": "Large scallions or negi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "brown_sugar": {
+          "name": "Brown sugar",
+          "note": null
+        },
+        "garlic": {
+          "name": "Garlic clove",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "make_tare": "Combine soy sauce, mirin, sake, sugar and lightly crushed garlic in a small saucepan. Simmer gently 10–12 minutes until reduced and glossy. Divide the finished tare into a clean serving/glazing portion before it ever touches raw chicken.",
+        "prep_skewers": "If using wooden skewers, soak them at least 20 minutes. Cut chicken into even 2.5 cm pieces and scallions into matching lengths; keep the skin attached because it bastes the meat and crisps on the grill.",
+        "assemble": "Thread chicken and scallion alternately, packing pieces close but not compressed. Keep the exposed skewer ends clean so they are easy to turn.",
+        "grill_first": "Heat a grill or ridged pan to medium-high and oil lightly. Cook the skewers 4–5 minutes per side, turning as needed, until the chicken is browned and safely cooked through at the thickest piece.",
+        "glaze_finish": "Only after the chicken is essentially cooked, brush with the clean tare. Grill about 30–60 seconds per side until the glaze bubbles and caramelizes, then brush once more off the heat and serve immediately."
+      }
+    },
+    "recipe_000037": {
+      "title": "Kanto-style Ozoni",
+      "description": "A clear Kanto-style New Year soup with grilled mochi, chicken, vegetables and dashi. Ozoni changes dramatically by region and family, so this recipe states its style explicitly instead of presenting one bowl as the single national standard.",
+      "animeContext": "Fruits Basket has strong New Year and mochi associations, making ozoni a fitting recurring cultural reference. The exact bowl here is explicitly the app’s Kanto-style reconstruction.",
+      "ingredientTexts": {
+        "kirimochi": {
+          "name": "Kirimochi",
+          "note": null
+        },
+        "chicken": {
+          "name": "Chicken thigh or breast",
+          "note": null
+        },
+        "carrot": {
+          "name": "Carrot",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Fresh shiitake",
+          "note": null
+        },
+        "komatsuna": {
+          "name": "Komatsuna or spinach",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        },
+        "usukuchi": {
+          "name": "Light soy sauce (usukuchi)",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "salt": {
+          "name": "Salt",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "prep_garnishes": "Cut chicken into small bite-size pieces. Slice carrot evenly, trim shiitake and blanch komatsuna or spinach briefly in salted water; cool, squeeze dry and cut into neat lengths.",
+        "grill_mochi": "Toast kirimochi in a dry pan, toaster oven or grill for about 5–6 minutes, turning as needed, until puffed and lightly browned. It should be soft and stretchy inside but not burned.",
+        "season_broth": "Bring dashi to a gentle simmer and season with usukuchi, mirin and salt. Taste before adding more salt: the broth should be clear and delicate, not as strong as noodle soup.",
+        "cook_chicken_veg": "Add chicken, carrot and shiitake and simmer 6–8 minutes, skimming if necessary, until chicken is safely cooked and carrot is tender while the broth remains clear.",
+        "assemble": "Place one grilled mochi in each bowl. Arrange chicken, carrot, shiitake and greens around it, then ladle over the piping-hot clear broth just before serving.",
+        "serve_safely": "Serve immediately while the mochi is soft. Mochi is very sticky and chewy, so cut it into smaller pieces for anyone who may have difficulty chewing or swallowing and eat slowly."
+      }
+    },
+    "recipe_000038": {
+      "title": "Kakigori with Condensed Milk",
+      "description": "Japanese shaved ice built from feather-light snow, flavoured with syrup and condensed milk. True kakigori is shaved rather than simply crushed: the fine structure is what makes it melt almost instantly on the tongue.",
+      "animeContext": "Inspired by the nostalgic Japanese summer atmosphere of My Neighbor Totoro. This is a seasonal cultural reference rather than a claim about an exact kakigori scene.",
+      "ingredientTexts": {
+        "ice": {
+          "name": "Ice suitable for shaving",
+          "note": null
+        },
+        "syrup": {
+          "name": "Kakigori syrup, matcha, strawberry or melon",
+          "note": null
+        },
+        "condensed_milk": {
+          "name": "Sweetened condensed milk",
+          "note": null
+        },
+        "anko": {
+          "name": "Anko, optional",
+          "note": null
+        },
+        "shiratama": {
+          "name": "Shiratama dango, optional",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "prep_ice": "For the softest texture, freeze clear water in the block size recommended for your kakigori machine and temper the block for a few minutes so the surface is not rock-hard. A powerful blender can make crushed ice, but it will be coarser and is a home approximation.",
+        "shave": "Shave the ice directly into chilled serving bowls using light pressure. Rotate the bowl as the snow falls so it builds evenly instead of compacting into hard layers.",
+        "shape": "Build a high loose mound with a spoon, touching it as little as possible. Do not press the shaved ice: trapped air is what gives kakigori its soft, quick-melting texture.",
+        "syrup": "Drizzle syrup gradually over the mound in two or three passes so the flavour reaches inside without collapsing the structure. Use about half first, then add more where the ice still looks white.",
+        "finish": "Finish with condensed milk. For an Uji-kintoki-style bowl, add anko and a few prepared shiratama around the base. Serve immediately; kakigori loses its intended texture within minutes."
+      }
+    },
+    "recipe_000039": {
+      "title": "Ichigo Daifuku",
+      "description": "Fresh strawberry and sweet anko wrapped in soft, stretchy mochi, with a vivid red centre revealed when cut. The challenge is timing: the mochi must be cool enough to handle but still warm and elastic enough to stretch without tearing.",
+      "animeContext": "Inspired by the sweet, seasonal-food imagery associated with Fruits Basket. The app does not claim a specific ichigo-daifuku episode without direct evidence.",
+      "ingredientTexts": {
+        "strawberries": {
+          "name": "Medium strawberries",
+          "note": null
+        },
+        "anko": {
+          "name": "Sweet red bean paste (anko)",
+          "note": null
+        },
+        "shiratamako": {
+          "name": "Shiratamako or mochiko",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "water": {
+          "name": "Water",
+          "note": null
+        },
+        "starch": {
+          "name": "Potato starch or cornstarch for dusting",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "prep_berries": "Wash the strawberries quickly, remove the leaves and dry them extremely well; water on the fruit makes the anko slide. Divide anko into six 25 g portions and wrap each strawberry, leaving the pointed tip visible.",
+        "mix_mochi": "Whisk shiratamako, sugar and water in a microwave-safe bowl until completely smooth. Scrape the sides so no dry flour remains; lumps are much harder to fix once the starch gelatinizes.",
+        "microwave": "Cover loosely and microwave at 600 W for about 90 seconds. Stir thoroughly with a wet spatula, then microwave another 60–90 seconds until the dough is glossy, translucent and very stretchy. It will be extremely hot.",
+        "dust_divide": "Dust a tray generously with starch and scrape the hot mochi onto it. Dust the top, let it cool only until safe to handle, then divide into six equal pieces while still warm and elastic.",
+        "wrap": "Flatten one piece into a disc with starch-dusted fingers, keeping the centre slightly thicker. Place the anko-coated strawberry point-down in the centre, stretch the mochi around it and pinch the seam closed without tearing.",
+        "finish_store": "Brush away excess starch and place seam-side down. The texture is best the same day; keep cool but avoid long refrigeration, which hardens mochi. If chilled for food safety, let it soften briefly before serving."
+      }
+    },
+    "recipe_000040": {
+      "title": "Matcha Roll Cake",
+      "description": "A light green-tea sponge rolled around softly whipped cream, with optional anko for an earthy-sweet accent. Pre-rolling the sponge while warm trains the crumb so the final cold roll bends instead of splitting.",
+      "animeContext": "K-On! is strongly associated with tea and cake in the Light Music Club room. This matcha roll is presented as a recurring dessert-culture association rather than an exact on-screen recipe.",
+      "ingredientTexts": {
+        "eggs": {
+          "name": "Large eggs, separated",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "flour": {
+          "name": "All-purpose or cake flour",
+          "note": null
+        },
+        "matcha": {
+          "name": "Culinary-grade matcha",
+          "note": null
+        },
+        "milk": {
+          "name": "Whole milk",
+          "note": null
+        },
+        "oil": {
+          "name": "Neutral oil",
+          "note": null
+        },
+        "cream": {
+          "name": "Cold whipping cream",
+          "note": null
+        },
+        "icing_sugar": {
+          "name": "Icing sugar",
+          "note": null
+        },
+        "anko": {
+          "name": "Anko, optional",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "make_yolk_batter": "Whisk yolks with 20 g sugar until smooth. Warm the milk just enough to dissolve the sifted matcha without lumps, mix it with the oil, then whisk into the yolks. Sift in flour and mix only until the batter is smooth.",
+        "whip_meringue": "Whip the egg whites until foamy, then add the remaining 50 g sugar in three additions. Stop at glossy medium-stiff peaks: over-whipped dry whites are harder to fold and make the sponge crack.",
+        "fold": "Fold one third of the meringue into the matcha batter to lighten it, then fold in the rest in two additions with broad bottom-to-top strokes. Stop as soon as no white streaks remain.",
+        "bake": "Spread evenly in a parchment-lined 28 cm square tray, tap lightly to release large bubbles and bake at 170°C for 11–12 minutes. The surface should spring back without becoming dry or deeply browned.",
+        "pre_roll_cool": "Turn the hot sponge onto clean parchment, remove the baking paper carefully and trim any hard edge. Roll it loosely with the parchment while warm and let it cool completely in that shape; this trains the crumb and reduces cracking later.",
+        "fill_roll_chill": "Whip cold cream with icing sugar to medium-stiff peaks. Unroll the cold sponge, spread cream evenly leaving the far edge thinner, add a narrow strip of anko if desired, then roll firmly but without crushing. Wrap and chill at least 1 hour before slicing."
+      }
+    },
+    "recipe_000041": {
+      "title": "Food Wars-style Soufflé Omelette",
+      "description": "An ultra-light omelette built by folding whipped egg whites into seasoned yolks, cooked gently under a lid and paired with a bright tomato sauce. The texture is intentionally airy and fragile, so low heat and immediate serving matter more than aggressive browning.",
+      "animeContext": "This one has a direct Food Wars reference: the soufflé omelette is part of the season 1 breakfast-buffet challenge in episodes 13–14. The recipe is a fresh app reconstruction of the technique and tomato-sauce presentation.",
+      "ingredientTexts": {
+        "eggs": {
+          "name": "Fresh eggs",
+          "note": null
+        },
+        "cream": {
+          "name": "Fresh cream",
+          "note": null
+        },
+        "butter": {
+          "name": "Butter",
+          "note": null
+        },
+        "salt": {
+          "name": "Fine salt",
+          "note": null
+        },
+        "white_pepper": {
+          "name": "White pepper",
+          "note": null
+        },
+        "chives": {
+          "name": "Fresh chives",
+          "note": null
+        },
+        "tomato_passata": {
+          "name": "Tomato passata",
+          "note": null
+        },
+        "ketchup": {
+          "name": "Ketchup",
+          "note": null
+        },
+        "stock": {
+          "name": "Light vegetable or chicken stock",
+          "note": null
+        },
+        "olive_oil": {
+          "name": "Olive oil",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "make_tomato_sauce": "Heat olive oil in a small saucepan, add passata, ketchup and stock, and simmer 6–8 minutes until the raw tomato edge softens and the sauce lightly coats a spoon. Keep warm, not boiling, while the omelette cooks.",
+        "separate_eggs": "Separate yolks and whites into perfectly clean dry bowls. Whisk yolks with cream, salt and white pepper until smooth; any yolk or grease in the whites can prevent a stable foam.",
+        "whip_whites": "Whip the whites from foamy to firm glossy peaks. Stop as soon as the peak stands upright with a slight curl; dry, grainy whites are harder to fold and produce a rough omelette.",
+        "fold": "Stir one third of the whites into the yolks to lighten them, then fold the rest in two additions with a wide spatula. Turn the bowl and scoop from the bottom until no large white streaks remain.",
+        "cook_covered": "Melt butter in a 20–22 cm non-stick pan over low heat. Add the foam, level gently, cover and cook about 5–6 minutes until the base is golden and the top is just set and springy; keep the heat low so the bottom does not burn before the centre cooks.",
+        "fold_serve": "Slide a spatula underneath, fold the omelette in half without pressing out the air and transfer to a warm plate. Spoon the hot tomato sauce around, not over, the centre so the soufflé stays visible; finish with chives and serve immediately."
+      }
+    },
+    "recipe_000042": {
+      "title": "Nagasaki Champon",
+      "description": "Nagasaki’s hearty mixed noodle dish, combining pork, seafood, vegetables and thick champon noodles in one savoury wok. Unlike the source draft, this version does not rely on milk or soy milk: its body comes from the concentrated soup and the ingredients simmering together.",
+      "animeContext": "Inspired by the home-cooking focus of Today's Menu for the Emiya Family. The connection is editorial; no exact champon episode is claimed.",
+      "ingredientTexts": {
+        "champon_noodles": {
+          "name": "Nagasaki champon noodles",
+          "note": null
+        },
+        "pork": {
+          "name": "Thinly sliced pork",
+          "note": null
+        },
+        "shrimp": {
+          "name": "Shelled shrimp",
+          "note": null
+        },
+        "squid": {
+          "name": "Squid",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Cabbage",
+          "note": null
+        },
+        "carrot": {
+          "name": "Carrot",
+          "note": null
+        },
+        "bean_sprouts": {
+          "name": "Bean sprouts",
+          "note": null
+        },
+        "kamaboko": {
+          "name": "Kamaboko",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Shiitake mushrooms",
+          "note": null
+        },
+        "oil": {
+          "name": "Neutral oil",
+          "note": null
+        },
+        "water": {
+          "name": "Water",
+          "note": null
+        },
+        "chicken_stock": {
+          "name": "Concentrated chicken stock base",
+          "note": null
+        },
+        "oyster_sauce": {
+          "name": "Oyster sauce",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "salt": {
+          "name": "Salt",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "prep": "Cut pork, squid, cabbage, carrot, kamaboko and shiitake into even bite-size pieces and have everything beside the stove. Champon is cooked quickly, so the mise en place should be complete before the wok heats.",
+        "mix_soup": "Mix water, chicken-stock base, oyster sauce, sake, sugar and salt until dissolved. Taste the uncooked mix only for salt balance if your stock base is safe to taste; otherwise adjust after simmering.",
+        "stir_fry_proteins": "Heat oil in a wok over high heat. Add pork, shrimp and squid and stir-fry 2–3 minutes until the pork changes colour and seafood is just beginning to turn opaque; do not fully overcook it at this stage.",
+        "stir_fry_veg": "Add carrot, cabbage, shiitake and kamaboko and toss another 2–3 minutes. Keep the vegetables bright and slightly crisp because they continue cooking in the soup.",
+        "simmer_soup": "Pour in the prepared soup and bring to a lively simmer. Add bean sprouts and cook about 2 minutes, skimming any foam; the broth should be savoury and full-bodied but not milky.",
+        "add_noodles": "Add champon noodles directly to the wok and simmer 3–4 minutes, or according to the package, so they absorb the soup. Return the seafood to perfect doneness, divide noodles and toppings between bowls and serve immediately."
+      }
+    },
+    "recipe_000043": {
+      "title": "Classic Miso Soup with Tofu and Wakame",
+      "description": "A simple everyday Japanese soup where dashi provides umami and miso is dissolved at the end for a fragrant, rounded finish. Tofu and wakame make the classic combination, but the salt level should always be adjusted to the specific miso used.",
+      "animeContext": "Inspired by the traditional home-food atmosphere of Demon Slayer. This is a culinary-cultural association rather than a claim about one exact bowl shown in a particular episode.",
+      "ingredientTexts": {
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        },
+        "miso": {
+          "name": "White, awase or red miso paste",
+          "note": null
+        },
+        "silken_tofu": {
+          "name": "Silken tofu",
+          "note": null
+        },
+        "wakame": {
+          "name": "Dried wakame",
+          "note": null
+        },
+        "scallions": {
+          "name": "Scallions",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "rehydrate_wakame": "Soak dried wakame in cool or lukewarm water for about 5 minutes until expanded. Drain well and squeeze gently; a small amount grows significantly, so do not over-portion it.",
+        "heat_dashi": "Bring dashi to a gentle simmer. Taste it plain before seasoning so you know how salty your miso needs to be; different miso brands vary considerably in salt level.",
+        "warm_tofu": "Lower the heat and add tofu cut into 1–1.5 cm cubes. Warm for about 2 minutes without vigorous boiling, which can break the delicate tofu.",
+        "dissolve_miso": "Turn off the heat. Put miso in a ladle or fine strainer, loosen it with hot dashi and dissolve it back into the pot. Start with less, taste, then add more if needed; avoiding a hard boil preserves the freshest miso aroma and flavour.",
+        "finish": "Add drained wakame and sliced scallion. Reheat only gently if necessary, without bringing the soup to a rolling boil, and serve immediately."
+      }
+    },
+    "recipe_000044": {
+      "title": "Japanese Caramel Purin",
+      "description": "A smooth Japanese caramel custard with a firm but trembling set and a glossy bitter-sweet sauce released when unmoulded. Gentle mixing and low-temperature bain-marie cooking prevent bubbles and keep the texture almost glassy.",
+      "animeContext": "Inspired by Gintama’s well-known affection for sweets and parfait-style desserts. This purin card is an editorial sweet-tooth association, not an episode-specific claim.",
+      "ingredientTexts": {
+        "caramel_sugar": {
+          "name": "Sugar for caramel",
+          "note": null
+        },
+        "cold_water": {
+          "name": "Cold water",
+          "note": null
+        },
+        "hot_water": {
+          "name": "Hot water",
+          "note": null
+        },
+        "milk": {
+          "name": "Whole milk",
+          "note": null
+        },
+        "eggs": {
+          "name": "Whole eggs",
+          "note": null
+        },
+        "yolk": {
+          "name": "Egg yolk",
+          "note": null
+        },
+        "custard_sugar": {
+          "name": "Sugar for custard",
+          "note": null
+        },
+        "vanilla": {
+          "name": "Vanilla extract",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "make_caramel": "Put caramel sugar and cold water in a small light-coloured saucepan. Heat without stirring until the syrup turns deep amber, swirling the pan gently. Remove from heat and carefully add the hot water away from your face; it will spit. Divide immediately among four ramekins.",
+        "warm_milk": "Warm milk with custard sugar and vanilla until steaming but not boiling, stirring to dissolve the sugar. Remove from the heat and let it stand a minute so it is hot but not violently scalding.",
+        "mix_eggs": "Whisk whole eggs and yolk gently just until uniform. Avoid incorporating air: bubbles create holes instead of the smooth, dense texture characteristic of purin.",
+        "temper_filter": "Pour warm milk slowly into the eggs while stirring continuously. Strain the custard through a fine sieve twice, then skim visible foam. Divide over the set caramel and cover the ramekins loosely with foil.",
+        "bain_marie": "Place ramekins in a deep tray and add hot water to halfway up their sides. Bake at 150°C for 25–30 minutes. The edges should be set while the centre still gives a gentle unified wobble rather than sloshing.",
+        "cool_chill": "Remove from the water bath, cool until no longer hot, then refrigerate at least 3 hours. Full chilling lets the custard finish setting and the caramel loosen into a sauce.",
+        "unmould": "Run a thin knife around the edge, place a plate over the ramekin and invert decisively. If it resists, hold the base in warm water for a few seconds, dry it and try again."
+      }
+    },
+    "recipe_000045": {
+      "title": "Ebi Fry — Panko-Fried Shrimp",
+      "description": "Straight, crisp Japanese fried shrimp with a coarse panko shell and juicy interior. Small cuts release the abdominal tendons so the shrimp fries almost straight, while careful tail drying reduces oil splatter.",
+      "animeContext": "Inspired by the school-and-family food atmosphere of My Hero Academia. No exact ebi-fry scene is claimed without direct evidence.",
+      "ingredientTexts": {
+        "shrimp": {
+          "name": "Large raw shrimp, shell-on",
+          "note": null
+        },
+        "flour": {
+          "name": "All-purpose flour",
+          "note": null
+        },
+        "egg": {
+          "name": "Egg",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
+          "note": null
+        },
+        "salt": {
+          "name": "Salt",
+          "note": null
+        },
+        "pepper": {
+          "name": "Black pepper",
+          "note": null
+        },
+        "oil": {
+          "name": "Neutral frying oil",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Finely shredded cabbage",
+          "note": null
+        },
+        "lemon": {
+          "name": "Lemon wedges",
+          "note": null
+        },
+        "tartar": {
+          "name": "Tartar sauce or Japanese mayonnaise",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "clean_shrimp": "Remove the heads and peel the shrimp, leaving the last shell segment and tail attached. Make a shallow cut along the back and remove the dark intestinal vein, then rinse quickly and pat dry.",
+        "straighten": "Make 3–4 shallow diagonal cuts across the belly without slicing through. Turn the shrimp over and gently press along the back until the muscle fibres relax and the shrimp lies almost straight; do not crush the flesh.",
+        "dry_season": "Trim the sharp tail tip and scrape or squeeze out trapped water from the tail fins to reduce dangerous splattering. Pat every shrimp very dry, then season lightly with salt and pepper.",
+        "bread": "Set up flour, beaten egg and panko in separate trays. Coat each shrimp in a thin layer of flour, then egg, then panko, pressing crumbs onto the body while keeping the tail free.",
+        "fry": "Heat oil to 175–180°C. Fry only 3–4 shrimp at a time so the oil quickly recovers its temperature; cook about 2–3 minutes, turning once, until the panko is deep golden and the shrimp opaque and firm.",
+        "drain_serve": "Drain upright or on a wire rack so steam escapes from the crust. Serve immediately with shredded cabbage, lemon and tartar sauce or Japanese mayonnaise."
+      }
+    },
+    "recipe_000046": {
+      "title": "Isobeyaki (Isobe-maki) Mochi",
+      "description": "Grilled kirimochi brushed with soy sauce and wrapped in crisp nori, a simple Japanese snack built entirely on texture and umami. It is commonly called Isobeyaki and is also described as Isobe-maki; the mochi should be blistered outside and molten-chewy inside.",
+      "animeContext": "Inspired by K-On!’s tea-time snack culture. The culinary preparation is real, but the app does not claim a specific Isobeyaki scene without direct evidence.",
+      "ingredientTexts": {
+        "kirimochi": {
+          "name": "Kirimochi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar, optional",
+          "note": null
+        },
+        "nori": {
+          "name": "Nori sheets",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "make_sauce": "Stir soy sauce with the optional sugar until dissolved. A plain soy version is also traditional; use sweetness only if you like the glossy sweet-savoury style.",
+        "toast_first_side": "Place kirimochi in a dry non-stick pan over medium-low heat and cover. Toast about 5 minutes, checking occasionally, until the lower face is golden and the centre begins to puff.",
+        "toast_second_side": "Turn the mochi and cook uncovered for about 3 minutes more, until the second face is lightly blistered and the centre is fully soft and stretchy. Remove as soon as it puffs strongly so it does not burst and leak.",
+        "coat": "While the mochi is piping hot, brush or dip both faces in the soy mixture. Return to the pan for only 20–30 seconds per side if you want the sauce lightly caramelized; watch closely because soy and sugar burn quickly.",
+        "wrap_serve": "Wrap each mochi immediately with a strip of crisp nori and serve hot. The contrast is best at once: as cooked mochi cools it firms and loses the soft elastic texture."
+      }
+    },
+    "recipe_000047": {
+      "title": "Sanshoku Soboro Don",
+      "description": "A classic tricolour Japanese rice bowl of sweet-savoury ground chicken, tiny soft egg curds and a bright green vegetable stripe. The defining technique is continuous stirring so both chicken and egg become fine, even soboro rather than large pieces.",
+      "animeContext": "Inspired by Food Wars!’ focus on technique and presentation. The dish itself is a real Japanese home-cooking and bento staple; the anime connection here is editorial rather than an episode claim.",
+      "ingredientTexts": {
+        "rice": {
+          "name": "Cooked Japanese short-grain rice",
+          "note": null
+        },
+        "ground_chicken": {
+          "name": "Ground chicken",
+          "note": null
+        },
+        "ginger": {
+          "name": "Fresh grated ginger",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "meat_sugar": {
+          "name": "Sugar for chicken",
+          "note": null
+        },
+        "eggs": {
+          "name": "Eggs",
+          "note": null
+        },
+        "egg_sugar": {
+          "name": "Sugar for eggs",
+          "note": null
+        },
+        "egg_salt": {
+          "name": "Salt for eggs",
+          "note": null
+        },
+        "peas": {
+          "name": "Cooked green peas",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "season_chicken_cold": "Put ground chicken, ginger, soy sauce, mirin, sake and sugar in a cold saucepan. Break the meat apart thoroughly before turning on the heat; starting cold makes it easier to create the very fine, even crumbs characteristic of soboro.",
+        "cook_chicken": "Set over medium-low heat and stir constantly with several chopsticks or a whisk-like motion, scraping the bottom and breaking every clump. Cook 6–8 minutes until the chicken is fully cooked, finely crumbled and the liquid has reduced to a moist glaze rather than a puddle.",
+        "mix_eggs": "Beat eggs with sugar and salt only until homogeneous. Use a clean small saucepan so the yellow colour stays bright.",
+        "cook_egg_soboro": "Cook eggs over low to medium-low heat, stirring rapidly and continuously with chopsticks. Break up curds as soon as they form and remove from heat while they are still moist, before they become dry rubbery crumbs.",
+        "prep_green": "Blanch or reheat the peas just until bright green and hot, then drain very well. If using another green vegetable, cut it into small neat pieces so the three-colour pattern remains distinct.",
+        "assemble": "Divide steaming rice between two bowls. Cover one third with chicken soboro, one third with fine egg soboro and place a narrow green stripe between them. Serve hot, or cool promptly and safely if packing for bento."
+      }
+    },
+    "recipe_000048": {
+      "title": "Chawanmushi — Savoury Steamed Egg Custard",
+      "description": "A delicate Japanese steamed egg custard suspended in dashi with small pieces of chicken, shrimp, mushroom and fish cake. The signature texture is almost silken: a balanced egg-to-dashi ratio, straining and very gentle steam prevent holes and curdling.",
+      "animeContext": "Inspired by the careful home-cooking focus of Today's Menu for the Emiya Family. No exact chawanmushi episode is claimed without direct scene evidence.",
+      "ingredientTexts": {
+        "eggs": {
+          "name": "Large eggs",
+          "note": null
+        },
+        "dashi": {
+          "name": "Lukewarm dashi",
+          "note": null
+        },
+        "usukuchi": {
+          "name": "Light soy sauce (usukuchi)",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "salt": {
+          "name": "Salt",
+          "note": null
+        },
+        "shrimp": {
+          "name": "Small peeled shrimp",
+          "note": null
+        },
+        "chicken": {
+          "name": "Chicken thigh or breast",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Fresh shiitake",
+          "note": null
+        },
+        "kamaboko": {
+          "name": "Kamaboko slices",
+          "note": null
+        },
+        "mitsuba": {
+          "name": "Mitsuba or chives",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "prep_fillings": "Cut chicken and shiitake into small pieces. Quickly blanch or sear the chicken until the exterior is no longer raw, and briefly blanch the shrimp if they are thick; the gentle custard steam should finish, not rescue, large cold raw fillings.",
+        "mix_seasoned_dashi": "Season lukewarm dashi with usukuchi, mirin and a small pinch of salt. Let it cool to lukewarm or room temperature; hot stock can begin setting the egg before the mixture is strained.",
+        "mix_eggs": "Break the eggs and stir gently with chopsticks or a whisk without beating air into them. Measure roughly 100 ml egg for two large eggs and use about 250 ml dashi for the classic soft set.",
+        "strain_fill": "Combine egg and seasoned dashi slowly, then pass through a fine sieve. Divide chicken, shrimp, shiitake and kamaboko between two heatproof cups and pour in the custard to about three-quarters full; pop or skim surface bubbles.",
+        "steam": "Cover the cups. Steam over high heat for about 2 minutes to heat them, then reduce to very gentle steam for 10–12 minutes. The water should not violently boil around the cups or the custard will turn porous.",
+        "check_finish": "The surface should be smooth and set while the centre gives a delicate wobble. Insert a thin skewer: clear broth should appear around it, not raw egg. Garnish with mitsuba and serve warm."
+      }
+    },
+    "recipe_000049": {
+      "title": "Kashiwa Mochi",
+      "description": "A Children’s Day wagashi of soft rice cake filled with smooth anko and wrapped in a fragrant kashiwa oak leaf. The leaf is a ceremonial, aromatic wrapper rather than food; using prepared culinary leaves and the correct joshinko flour is essential.",
+      "animeContext": "Inspired by Ranma ½’s broad connection to traditional Japanese sweets and comic food scenes. No exact kashiwa-mochi appearance is claimed without direct episode evidence.",
+      "ingredientTexts": {
+        "joshinko": {
+          "name": "Joshinko (Japanese non-glutinous short-grain rice flour)",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "water": {
+          "name": "Water",
+          "note": null
+        },
+        "anko": {
+          "name": "Smooth sweet red bean paste (koshian)",
+          "note": null
+        },
+        "kashiwa_leaves": {
+          "name": "Food-grade prepared kashiwa oak leaves",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "prep_leaves_filling": "Use only kashiwa leaves sold for culinary wrapping, not leaves gathered outdoors. Rinse prepared or salt-pickled leaves and drain; if your package specifies boiling/soaking, follow it. Divide anko into eight smooth 25 g balls.",
+        "mix_dough": "Whisk joshinko and sugar together, then add most of the water gradually until the mixture is thick but smooth and ribbon-like. Hold back a little water because different rice flours absorb differently.",
+        "cook_mochi": "Cover loosely and microwave in short stages, stirring between them, until the dough is fully cooked, opaque-white to slightly translucent and very hot, about 3–4 minutes total depending on microwave power. Follow package guidance if your joshinko behaves differently.",
+        "knead": "Transfer to a heatproof surface or bowl and knead with a wet spatula, then with damp hands once cool enough, until the dough becomes smoother, shinier and pliable. Do not over-knead until tough.",
+        "shape_fill": "Divide into eight equal pieces. With damp hands shape each into an oval, flatten it, place one anko ball slightly off-centre and fold into a half-moon, sealing the edges gently without thinning them to tears.",
+        "wrap_serve": "Wrap each filled mochi in one prepared kashiwa leaf with the decorative side outward. The leaf perfumes and protects the sweet but is not eaten. Serve at room temperature, preferably the same day."
+      }
+    },
+    "recipe_000050": {
+      "title": "Gintama-style Giant Japanese Fruit Parfait",
+      "description": "A towering Japanese kissaten-style parfait layered with ice cream, whipped cream, fruit and crunchy cereal, pushed into an intentionally extravagant anime presentation. Japanese fruit parfait is a real café dessert; the giant scale here is the app’s playful Gintama-inspired variation.",
+      "animeContext": "Parfait is a verified recurring Gintama motif around Gintoki’s sweet tooth. A direct platform reference is season 3 episode 40 (overall episode 139), where Gintoki is treated to parfait; the oversized composition here remains an original app interpretation.",
+      "ingredientTexts": {
+        "vanilla_ice_cream": {
+          "name": "Vanilla ice cream",
+          "note": null
+        },
+        "matcha_ice_cream": {
+          "name": "Matcha ice cream",
+          "note": null
+        },
+        "cream": {
+          "name": "Cold whipping cream, lightly sweetened",
+          "note": null
+        },
+        "cornflakes": {
+          "name": "Cornflakes or granola",
+          "note": null
+        },
+        "strawberries": {
+          "name": "Strawberries",
+          "note": null
+        },
+        "banana": {
+          "name": "Banana",
+          "note": null
+        },
+        "blueberries": {
+          "name": "Blueberries",
+          "note": null
+        },
+        "pocky": {
+          "name": "Pocky sticks",
+          "note": null
+        },
+        "wafers": {
+          "name": "Wafer biscuits",
+          "note": null
+        },
+        "syrup": {
+          "name": "Chocolate or strawberry sauce",
+          "note": null
+        },
+        "cherries": {
+          "name": "Candied or cocktail cherries",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "chill_glasses": "Chill two tall sturdy parfait glasses for at least 5 minutes. A cold glass slows melting and buys time while you build the upper layers.",
+        "whip_cream": "Whip the cold cream to firm but smooth peaks and transfer to a piping bag. Stop before it becomes grainy; the cream needs enough structure to support fruit and wafers.",
+        "prep_fruit": "Wash and dry the berries thoroughly. Slice strawberries and banana immediately before assembly and keep a few attractive pieces whole for the top; wet fruit makes the layers slide.",
+        "build_base": "Add a thin ribbon of sauce to each glass, then a layer of cornflakes or granola. Add a small amount of whipped cream and press a few fruit slices against the glass for visible colour.",
+        "layer": "Add vanilla and matcha ice cream, alternating with more fruit and whipped cream. Work quickly and keep the ice cream scoops separated by solid ingredients so the structure does not collapse.",
+        "finish_serve": "Pipe a tall final swirl of cream and decorate with Pocky, wafer, reserved fruit and a cherry. This deliberately oversized anime-style version should be served immediately with a long spoon before the ice cream melts into the crunchy layers."
       }
     }
   }
