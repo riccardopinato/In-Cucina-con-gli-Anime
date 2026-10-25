@@ -105,7 +105,7 @@
       },
       "steps": {
         "step_1": "Score the steak lightly in a crosshatch, cover it completely with the finely chopped onion and rest for 30 minutes. Spread the chopped onion evenly over both faces and keep the steak chilled during the rest. Scrape the onion off and reserve it before searing; wet onion left on the surface prevents browning. Pat the steak completely dry after removing the onion, then season just before it hits the pan; salting far in advance would draw more moisture to the surface.",
-        "step_2": "Sear the steak over high heat for about 2 minutes per side, then deglaze with soy sauce and red wine. Use a heavy pan over high heat and avoid moving the steak for the first 60–90 seconds. Turn once a brown crust forms, then reduce heat if needed so the centre reaches your preferred safe doneness without scorching the butter.",
+        "step_2": "Sear the steak over high heat for about 2 minutes per side, adjusting for thickness and your preferred safe doneness. Use a heavy pan over high heat and avoid moving the steak for the first 60–90 seconds. Turn once a brown crust forms, then reduce heat if needed so the centre reaches your preferred safe doneness without scorching the butter.",
         "step_3": "Remove the onion and sauté it in butter until golden and deeply caramelized. Cook the reserved onion until soft and lightly golden before adding wine. Let the wine reduce by roughly half, then add soy sauce and butter off the strongest heat so the sauce becomes glossy rather than greasy.",
         "step_4": "Mix the hot rice with chopped umeboshi and pack it into a bowl.",
         "step_5": "Rest the steak 5–8 minutes before slicing across the grain. Slice only when the juices have settled, then spoon any collected resting juices back into the sauce. Slice the steak, lay it over the rice and finish with the caramelized onion and pan juices. Spread the rice in a wide bowl, fan the steak slices slightly so they stay visible and spoon sauce mostly around and between them rather than completely covering the seared surface."
@@ -147,7 +147,7 @@
       },
       "steps": {
         "step_1": "Incidi leggermente la bistecca a griglia, coprila con la cipolla tritata finissima e lasciala riposare per 30 minuti. Distribuisci la cipolla tritata su entrambi i lati e tieni la carne in frigorifero durante il riposo. Prima di rosolare rimuovi e conserva la cipolla: se resta bagnata sulla superficie impedisce una buona doratura. Dopo aver tolto la cipolla asciuga perfettamente la carne e condiscila solo poco prima della padella: salare con troppo anticipo riporterebbe umidità in superficie.",
-        "step_2": "Rosola la bistecca a fuoco alto per circa 2 minuti per lato, poi sfuma con salsa di soia e vino rosso. Usa una padella pesante ben calda e non muovere la bistecca per i primi 60–90 secondi. Girala quando si è formata la crosta, poi abbassa la fiamma se serve per portare il cuore al grado di cottura desiderato senza bruciare il burro.",
+        "step_2": "Rosola la bistecca a fuoco alto per circa 2 minuti per lato, adattando il tempo allo spessore e al grado di cottura sicuro desiderato. Usa una padella pesante ben calda e non muovere la bistecca per i primi 60–90 secondi. Girala quando si è formata la crosta, poi abbassa la fiamma se serve per portare il cuore al grado di cottura desiderato senza bruciare il burro.",
         "step_3": "Rimuovi la cipolla e rosolala nel burro finché è dorata e ben caramellata. Cuoci la cipolla tenuta da parte finché è morbida e appena dorata prima di aggiungere il vino. Riduci il vino circa della metà, poi unisci soia e burro lontano dalla fiamma più forte, così la salsa diventa lucida invece che unta.",
         "step_4": "Mescola il riso caldo con l’umeboshi tritata e sistemalo in una ciotola.",
         "step_5": "Lascia riposare la bistecca 5–8 minuti prima di tagliarla controfibra. Quando i succhi si sono stabilizzati, affetta e versa nella salsa anche il liquido raccolto durante il riposo. Affetta la bistecca, adagiala sul riso e completa con cipolla caramellata e fondo di cottura. Allarga il riso nella ciotola, disponi le fette di carne leggermente a ventaglio e versa la salsa soprattutto attorno e tra le fette, senza coprire del tutto la superficie rosolata."
@@ -189,7 +189,7 @@
       },
       "steps": {
         "step_1": "Marca ligeramente el bistec en rejilla, cúbrelo con la cebolla muy picada y déjalo reposar 30 minutos. Reparte la cebolla por ambos lados y mantén la carne fría durante el reposo. Retírala y resérvala antes de dorar para no impedir la reacción de la superficie. Seca muy bien la carne y sazona justo antes de llevarla a la sartén.",
-        "step_2": "Dora el bistec a fuego fuerte unos 2 minutos por lado y desglasa con soja y vino tinto. Usa una sartén pesada muy caliente y no muevas el bistec 60–90 segundos. Gira al formar costra y ajusta el fuego para terminar sin quemar.",
+        "step_2": "Dora el bistec a fuego fuerte unos 2 minutos por lado, ajustando el tiempo al grosor y al punto de cocción seguro deseado. Usa una sartén pesada muy caliente y no muevas el bistec 60–90 segundos. Gira al formar costra y ajusta el fuego para terminar sin quemar.",
         "step_3": "Retira la cebolla y sofríela con mantequilla hasta que quede dorada y caramelizada. Cocina la cebolla hasta suave y dorada, reduce el vino aproximadamente a la mitad y añade soja y mantequilla con fuego suave.",
         "step_4": "Mezcla el arroz caliente con umeboshi picada y colócalo en un bol.",
         "step_5": "Reposa 5–8 minutos y corta contra la fibra; incorpora los jugos del reposo a la salsa. Corta el bistec, colócalo sobre el arroz y termina con la cebolla caramelizada y los jugos de la sartén. Extiende el arroz, abre las lonchas en abanico y reparte la salsa alrededor y entre ellas sin cubrir totalmente la costra."
@@ -231,7 +231,7 @@
       },
       "steps": {
         "step_1": "Quadrillez légèrement le steak, couvrez-le d’oignon finement haché et laissez reposer 30 minutes. Répartissez l’oignon sur les deux faces et gardez la viande au froid. Retirez et réservez l’oignon avant de saisir pour permettre une bonne coloration. Séchez parfaitement la viande et assaisonnez juste avant la poêle.",
-        "step_2": "Saisissez le steak à feu vif environ 2 minutes de chaque côté puis déglacez avec sauce soja et vin rouge. Utilisez une poêle lourde très chaude et ne bougez pas le steak pendant 60–90 secondes. Retournez après formation de la croûte puis ajustez le feu.",
+        "step_2": "Saisissez le steak à feu vif environ 2 minutes par face, en adaptant le temps à l’épaisseur et à la cuisson sûre souhaitée. Utilisez une poêle lourde très chaude et ne bougez pas le steak pendant 60–90 secondes. Retournez après formation de la croûte puis ajustez le feu.",
         "step_3": "Retirez l’oignon et faites-le revenir au beurre jusqu’à belle caramélisation. Faites fondre l’oignon jusqu’à légère coloration, réduisez le vin de moitié puis ajoutez soja et beurre à feu doux.",
         "step_4": "Mélangez le riz chaud avec l’umeboshi hachée et mettez-le dans un bol.",
         "step_5": "Reposez 5–8 minutes puis tranchez contre les fibres; ajoutez le jus de repos à la sauce. Tranchez le steak, posez-le sur le riz et terminez avec l’oignon caramélisé et le jus de cuisson. Étalez le riz, disposez les tranches en éventail et versez la sauce surtout autour et entre elles."
@@ -273,7 +273,7 @@
       },
       "steps": {
         "step_1": "Das Steak kreuzweise leicht einschneiden, vollständig mit fein gehackter Zwiebel bedecken und 30 Minuten ruhen lassen. Zwiebel auf beiden Seiten verteilen und das Steak während der Ruhe kalt halten. Vor dem Anbraten abstreifen und aufbewahren, damit die Oberfläche bräunt. Steak nach dem Entfernen der Zwiebel sehr gut trocknen und erst direkt vor dem Braten würzen.",
-        "step_2": "Das Steak bei hoher Hitze etwa 2 Minuten je Seite anbraten und mit Sojasauce und Rotwein ablöschen. Schwere Pfanne stark erhitzen und das Steak 60–90 Sekunden nicht bewegen. Nach Krustenbildung wenden und Hitze zum Fertiggaren anpassen.",
+        "step_2": "Das Steak bei starker Hitze etwa 2 Minuten pro Seite anbraten; die Zeit an Dicke und gewünschten sicheren Gargrad anpassen. Schwere Pfanne stark erhitzen und das Steak 60–90 Sekunden nicht bewegen. Nach Krustenbildung wenden und Hitze zum Fertiggaren anpassen.",
         "step_3": "Die Zwiebel abnehmen und in Butter goldbraun karamellisieren. Zwiebel weich und leicht goldbraun garen, Wein etwa halb reduzieren und Soja sowie Butter bei schwächerer Hitze einarbeiten.",
         "step_4": "Den heißen Reis mit gehackter Umeboshi mischen und in eine Schüssel geben.",
         "step_5": "5–8 Minuten ruhen lassen, quer zur Faser schneiden und Ruhesaft in die Sauce geben. Das Steak aufschneiden, auf den Reis legen und mit karamellisierter Zwiebel und Bratensaft vollenden. Reis breit verteilen, Steak leicht auffächern und Sauce hauptsächlich dazwischen und darumgeben."
@@ -315,7 +315,7 @@
       },
       "steps": {
         "step_1": "Faça cortes superficiais em grade no bife, cubra com a cebola bem picada e deixe descansar por 30 minutos. Distribua a cebola nos dois lados e mantenha o bife refrigerado no descanso. Retire e reserve antes de selar para permitir douramento. Seque muito bem o bife e tempere somente antes de levar à frigideira.",
-        "step_2": "Sele o bife em fogo alto por cerca de 2 minutos de cada lado e deglaceie com molho de soja e vinho tinto. Use frigideira pesada bem quente e não mova o bife por 60–90 segundos. Vire após formar crosta e ajuste o fogo.",
+        "step_2": "Sele o bife em fogo alto por cerca de 2 minutos de cada lado, ajustando ao espessamento e ao ponto seguro desejado. Use frigideira pesada bem quente e não mova o bife por 60–90 segundos. Vire após formar crosta e ajuste o fogo.",
         "step_3": "Retire a cebola e refogue-a na manteiga até dourar e caramelizar. Cozinhe a cebola até macia e levemente dourada, reduza o vinho pela metade e junte soja e manteiga em fogo mais baixo.",
         "step_4": "Misture o arroz quente com umeboshi picada e coloque numa tigela.",
         "step_5": "Descanse 5–8 minutos, corte contra as fibras e devolva os sucos do descanso ao molho. Fatie o bife, coloque sobre o arroz e finalize com a cebola caramelizada e o molho da frigideira. Espalhe o arroz, disponha as fatias em leque e coloque o molho principalmente ao redor e entre elas."
