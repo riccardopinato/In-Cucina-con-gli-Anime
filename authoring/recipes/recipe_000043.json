@@ -1,0 +1,284 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000043",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Demon Slayer",
+  "animeReferences": [
+    {
+      "workTitle": "Demon Slayer: Kimetsu no Yaiba",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "corrected",
+    "culinaryNote": "Terminology corrected: shiro miso means white miso, not 'yellow'. Miso is added off heat mainly to protect aroma and flavour; probiotic claims are not exaggerated.",
+    "animeStatus": "unverified",
+    "animeNote": "Association kept as inspiration."
+  },
+  "prepMinutes": 10,
+  "cookMinutes": 10,
+  "servings": 2,
+  "difficulty": "easy",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from Ricettario Vol. 5; miso terminology and heat explanation corrected.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "dashi",
+      "quantity": 500,
+      "unit": "ml"
+    },
+    {
+      "id": "miso",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "silken_tofu",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "id": "wakame",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "scallions",
+      "quantity": 2,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "rehydrate_wakame",
+      "timerSeconds": 300
+    },
+    {
+      "id": "heat_dashi",
+      "timerSeconds": 300
+    },
+    {
+      "id": "warm_tofu",
+      "timerSeconds": 120
+    },
+    {
+      "id": "dissolve_miso",
+      "timerSeconds": 180
+    },
+    {
+      "id": "finish",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Classic Miso Soup with Tofu and Wakame",
+      "description": "A simple everyday Japanese soup where dashi provides umami and miso is dissolved at the end for a fragrant, rounded finish. Tofu and wakame make the classic combination, but the salt level should always be adjusted to the specific miso used.",
+      "animeContext": "Inspired by the traditional home-food atmosphere of Demon Slayer. This is a culinary-cultural association rather than a claim about one exact bowl shown in a particular episode.",
+      "ingredients": {
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        },
+        "miso": {
+          "name": "White, awase or red miso paste",
+          "note": null
+        },
+        "silken_tofu": {
+          "name": "Silken tofu",
+          "note": null
+        },
+        "wakame": {
+          "name": "Dried wakame",
+          "note": null
+        },
+        "scallions": {
+          "name": "Scallions",
+          "note": null
+        }
+      },
+      "steps": {
+        "rehydrate_wakame": "Soak dried wakame in cool or lukewarm water for about 5 minutes until expanded. Drain well and squeeze gently; a small amount grows significantly, so do not over-portion it.",
+        "heat_dashi": "Bring dashi to a gentle simmer. Taste it plain before seasoning so you know how salty your miso needs to be; different miso brands vary considerably in salt level.",
+        "warm_tofu": "Lower the heat and add tofu cut into 1–1.5 cm cubes. Warm for about 2 minutes without vigorous boiling, which can break the delicate tofu.",
+        "dissolve_miso": "Turn off the heat. Put miso in a ladle or fine strainer, loosen it with hot dashi and dissolve it back into the pot. Start with less, taste, then add more if needed; avoiding a hard boil preserves the freshest miso aroma and flavour.",
+        "finish": "Add drained wakame and sliced scallion. Reheat only gently if necessary, without bringing the soup to a rolling boil, and serve immediately."
+      }
+    },
+    "it": {
+      "title": "Zuppa di miso con tofu e wakame",
+      "description": "Una semplice zuppa giapponese quotidiana in cui il dashi porta umami e il miso viene sciolto alla fine per mantenere un profilo aromatico pieno. Tofu e wakame sono una combinazione classica, ma la sapidità va sempre regolata in base alla pasta di miso scelta.",
+      "animeContext": "Ispirato all’atmosfera della cucina domestica tradizionale di Demon Slayer. È un’associazione culinaria e culturale, non la dichiarazione di una ciotola precisa mostrata in un episodio.",
+      "ingredients": {
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        },
+        "miso": {
+          "name": "Pasta di miso bianco, awase o rosso",
+          "note": null
+        },
+        "silken_tofu": {
+          "name": "Tofu setoso",
+          "note": null
+        },
+        "wakame": {
+          "name": "Wakame essiccata",
+          "note": null
+        },
+        "scallions": {
+          "name": "Cipollotti",
+          "note": null
+        }
+      },
+      "steps": {
+        "rehydrate_wakame": "Metti la wakame essiccata in acqua fresca o tiepida per circa 5 minuti, finché si espande. Scola bene e strizza con delicatezza: ne basta poca perché aumenta molto di volume.",
+        "heat_dashi": "Porta il dashi a leggero fremito. Assaggialo prima di condire, perché la sapidità delle diverse paste di miso cambia molto da marca a marca.",
+        "warm_tofu": "Abbassa la fiamma e aggiungi il tofu tagliato in cubi da 1–1,5 cm. Scaldalo circa 2 minuti senza bollore violento, che potrebbe romperlo.",
+        "dissolve_miso": "Spegni il fuoco. Metti il miso in un mestolo o colino fine, stemperalo con dashi caldo e scioglilo nella pentola. Parti con una quantità più bassa, assaggia e regola: evitare una bollitura forte aiuta soprattutto a conservare profumo e gusto freschi del miso.",
+        "finish": "Aggiungi wakame scolata e cipollotto affettato. Se serve riscalda solo dolcemente, senza riportare a bollore vigoroso, e servi subito."
+      }
+    },
+    "es": {
+      "title": "Sopa de miso con tofu y wakame",
+      "description": "Sopa japonesa cotidiana donde el dashi aporta umami y el miso se disuelve al final para mantener aroma. Tofu y wakame forman una combinación clásica.",
+      "animeContext": "Inspirado en la cocina doméstica tradicional de Demon Slayer; es una asociación cultural, no una escena exacta.",
+      "ingredients": {
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        },
+        "miso": {
+          "name": "Pasta de miso blanco, awase o rojo",
+          "note": null
+        },
+        "silken_tofu": {
+          "name": "Tofu sedoso",
+          "note": null
+        },
+        "wakame": {
+          "name": "Wakame seco",
+          "note": null
+        },
+        "scallions": {
+          "name": "Cebolletas",
+          "note": null
+        }
+      },
+      "steps": {
+        "rehydrate_wakame": "Hidrata el wakame unos 5 minutos, escurre y exprime suavemente.",
+        "heat_dashi": "Lleva el dashi a hervor suave y prueba antes de salar; cada miso tiene distinta salinidad.",
+        "warm_tofu": "Añade tofu en cubos y calienta unos 2 minutos sin hervor fuerte.",
+        "dissolve_miso": "Apaga el fuego, disuelve el miso con un poco de dashi en un cucharón o colador, prueba y ajusta. Evitar hervir fuerte preserva mejor aroma y sabor.",
+        "finish": "Añade wakame y cebolleta, recalienta suavemente si hace falta y sirve."
+      }
+    },
+    "fr": {
+      "title": "Soupe miso au tofu et wakame",
+      "description": "Soupe japonaise quotidienne où le dashi apporte l’umami et le miso est dissous à la fin pour préserver son parfum. Tofu et wakame forment un duo classique.",
+      "animeContext": "Inspiré de la cuisine familiale traditionnelle de Demon Slayer; il s’agit d’une association culturelle, pas d’une scène précise.",
+      "ingredients": {
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        },
+        "miso": {
+          "name": "Miso blanc, awase ou rouge",
+          "note": null
+        },
+        "silken_tofu": {
+          "name": "Tofu soyeux",
+          "note": null
+        },
+        "wakame": {
+          "name": "Wakame séché",
+          "note": null
+        },
+        "scallions": {
+          "name": "Ciboules",
+          "note": null
+        }
+      },
+      "steps": {
+        "rehydrate_wakame": "Réhydratez le wakame environ 5 minutes, égouttez et pressez doucement.",
+        "heat_dashi": "Portez le dashi à léger frémissement et goûtez avant d’assaisonner; les miso varient en sel.",
+        "warm_tofu": "Ajoutez le tofu en cubes et chauffez environ 2 minutes sans forte ébullition.",
+        "dissolve_miso": "Coupez le feu, diluez le miso avec un peu de dashi puis remettez-le dans la soupe. Éviter une forte ébullition préserve mieux arôme et saveur.",
+        "finish": "Ajoutez wakame et ciboule, réchauffez doucement si nécessaire et servez."
+      }
+    },
+    "de": {
+      "title": "Miso-Suppe mit Tofu und Wakame",
+      "description": "Alltägliche japanische Suppe, bei der Dashi Umami liefert und Miso erst am Ende für frisches Aroma eingerührt wird. Tofu und Wakame sind eine klassische Kombination.",
+      "animeContext": "Von der traditionellen Hausküche in Demon Slayer inspiriert; ein kultureller Bezug, keine konkrete Schale aus einer Episode.",
+      "ingredients": {
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        },
+        "miso": {
+          "name": "Weiße, Awase- oder rote Misopaste",
+          "note": null
+        },
+        "silken_tofu": {
+          "name": "Seidentofu",
+          "note": null
+        },
+        "wakame": {
+          "name": "Getrocknete Wakame",
+          "note": null
+        },
+        "scallions": {
+          "name": "Frühlingszwiebeln",
+          "note": null
+        }
+      },
+      "steps": {
+        "rehydrate_wakame": "Wakame etwa 5 Minuten einweichen, gut abtropfen und sanft ausdrücken.",
+        "heat_dashi": "Dashi sanft erhitzen und vor dem Würzen probieren; Misopasten unterscheiden sich stark im Salzgehalt.",
+        "warm_tofu": "Tofu würfeln und etwa 2 Minuten ohne starkes Kochen erwärmen.",
+        "dissolve_miso": "Hitze ausschalten, Miso mit etwas heißem Dashi lösen und einrühren. Nach Geschmack dosieren; starkes Kochen mindert frisches Aroma und Geschmack.",
+        "finish": "Wakame und Frühlingszwiebel zugeben, falls nötig sanft erwärmen und servieren."
+      }
+    },
+    "pt": {
+      "title": "Sopa de miso com tofu e wakame",
+      "description": "Sopa japonesa cotidiana em que o dashi traz umami e o miso é dissolvido no final para preservar aroma. Tofu e wakame formam uma combinação clássica.",
+      "animeContext": "Inspirado na cozinha caseira tradicional de Demon Slayer; é uma associação cultural, não uma cena exata.",
+      "ingredients": {
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        },
+        "miso": {
+          "name": "Pasta de miso branco, awase ou vermelho",
+          "note": null
+        },
+        "silken_tofu": {
+          "name": "Tofu sedoso",
+          "note": null
+        },
+        "wakame": {
+          "name": "Wakame seco",
+          "note": null
+        },
+        "scallions": {
+          "name": "Cebolinha",
+          "note": null
+        }
+      },
+      "steps": {
+        "rehydrate_wakame": "Hidrate o wakame por cerca de 5 minutos, escorra e esprema suavemente.",
+        "heat_dashi": "Leve o dashi a fervura suave e prove antes de temperar; cada miso tem salinidade diferente.",
+        "warm_tofu": "Adicione tofu em cubos e aqueça cerca de 2 minutos sem ferver forte.",
+        "dissolve_miso": "Desligue o fogo, dissolva o miso com um pouco de dashi e incorpore. Ajuste ao gosto; evitar fervura forte preserva melhor aroma e sabor.",
+        "finish": "Junte wakame e cebolinha, aqueça suavemente se necessário e sirva."
+      }
+    }
+  }
+}
