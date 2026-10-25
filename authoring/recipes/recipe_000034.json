@@ -1,0 +1,458 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000034",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Komi Can't Communicate",
+  "animeReferences": [
+    {
+      "workTitle": "Komi Can't Communicate",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Napolitan verified as Japanese yoshoku/kissaten spaghetti seasoned with cooked ketchup, onion, pepper and sausage.",
+    "animeStatus": "unverified",
+    "animeNote": "Association retained as inspiration, not a verified scene."
+  },
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "servings": 2,
+  "difficulty": "easy",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from Ricettario Vol. 4; yoshoku identity and ketchup-cooking technique clarified.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "spaghetti",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "id": "sausages",
+      "quantity": 4,
+      "unit": null
+    },
+    {
+      "id": "onion",
+      "quantity": 0.5,
+      "unit": null
+    },
+    {
+      "id": "green_pepper",
+      "quantity": 0.5,
+      "unit": null
+    },
+    {
+      "id": "mushrooms",
+      "quantity": 4,
+      "unit": null
+    },
+    {
+      "id": "ketchup",
+      "quantity": 5,
+      "unit": "tbsp"
+    },
+    {
+      "id": "milk",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "butter",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "oil",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "parmesan",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "tabasco",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "cook_pasta",
+      "timerSeconds": 600
+    },
+    {
+      "id": "saute_fillings",
+      "timerSeconds": 300
+    },
+    {
+      "id": "cook_ketchup",
+      "timerSeconds": 90
+    },
+    {
+      "id": "toss",
+      "timerSeconds": 120
+    },
+    {
+      "id": "finish",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Japanese Napolitan Spaghetti",
+      "description": "A retro Japanese yoshoku pasta from kissaten cafés, built around ketchup cooked in the pan with sausage, onion, green pepper and mushrooms. Its intentionally soft noodles and sweet-tangy sauce are part of the style, not an attempt at Italian tomato pasta.",
+      "animeContext": "Inspired by the café and everyday-food atmosphere associated with Komi Can't Communicate. The link is editorial unless an exact Napolitan scene is independently verified.",
+      "ingredients": {
+        "spaghetti": {
+          "name": "Spaghetti",
+          "note": null
+        },
+        "sausages": {
+          "name": "Frankfurter-style sausages",
+          "note": null
+        },
+        "onion": {
+          "name": "Onion",
+          "note": null
+        },
+        "green_pepper": {
+          "name": "Green bell pepper",
+          "note": null
+        },
+        "mushrooms": {
+          "name": "Button mushrooms",
+          "note": null
+        },
+        "ketchup": {
+          "name": "Ketchup",
+          "note": null
+        },
+        "milk": {
+          "name": "Whole milk",
+          "note": null
+        },
+        "butter": {
+          "name": "Butter",
+          "note": null
+        },
+        "oil": {
+          "name": "Olive or neutral oil",
+          "note": null
+        },
+        "parmesan": {
+          "name": "Grated Parmesan-style cheese",
+          "note": null
+        },
+        "tabasco": {
+          "name": "Tabasco, optional",
+          "note": null
+        }
+      },
+      "steps": {
+        "cook_pasta": "Cook spaghetti in well-salted water until just past firm al dente if you want the classic kissaten softness. Drain, rinse very briefly with cool water and toss with a few drops of oil; this is intentionally different from an Italian pasta technique.",
+        "saute_fillings": "Melt butter with oil in a wide skillet. Add sliced sausages, onion, green pepper and mushrooms and sauté over medium-high heat for 4–5 minutes until the sausage browns and the vegetables soften without turning mushy.",
+        "cook_ketchup": "Push the fillings to the side and add ketchup directly to the hot empty area of the pan. Cook it for 60–90 seconds, stirring, until it darkens slightly and loses its raw acidic smell.",
+        "toss": "Stir in the milk, then add spaghetti and toss over high heat for about 2 minutes until every strand is coated in a glossy red sauce and the pasta is hot throughout.",
+        "finish": "Taste before adding salt because ketchup and sausage are already seasoned. Serve immediately with grated cheese and, if desired, a few drops of Tabasco."
+      }
+    },
+    "it": {
+      "title": "Spaghetti Napolitan",
+      "description": "Una pasta yōshoku rétro dei kissaten giapponesi, con ketchup cotto in padella insieme a wurstel, cipolla, peperone verde e funghi. Noodles volutamente morbidi e salsa dolce-acidula fanno parte dello stile: non vuole imitare una pasta al pomodoro italiana.",
+      "animeContext": "Ispirato all’atmosfera da caffetteria e cucina quotidiana associata a Komi Can't Communicate. Il collegamento resta editoriale finché non viene verificata una scena precisa.",
+      "ingredients": {
+        "spaghetti": {
+          "name": "Spaghetti",
+          "note": null
+        },
+        "sausages": {
+          "name": "Wurstel tipo frankfurter",
+          "note": null
+        },
+        "onion": {
+          "name": "Cipolla",
+          "note": null
+        },
+        "green_pepper": {
+          "name": "Peperone verde",
+          "note": null
+        },
+        "mushrooms": {
+          "name": "Funghi champignon",
+          "note": null
+        },
+        "ketchup": {
+          "name": "Ketchup",
+          "note": null
+        },
+        "milk": {
+          "name": "Latte intero",
+          "note": null
+        },
+        "butter": {
+          "name": "Burro",
+          "note": null
+        },
+        "oil": {
+          "name": "Olio",
+          "note": null
+        },
+        "parmesan": {
+          "name": "Parmigiano grattugiato",
+          "note": null
+        },
+        "tabasco": {
+          "name": "Tabasco, facoltativo",
+          "note": null
+        }
+      },
+      "steps": {
+        "cook_pasta": "Cuoci gli spaghetti in acqua ben salata fino a un punto leggermente più morbido dell’al dente, se vuoi la consistenza tipica dei kissaten. Scola, sciacqua molto brevemente con acqua fresca e condisci con poche gocce d’olio: è volutamente diverso dalla tecnica italiana.",
+        "saute_fillings": "Sciogli burro e olio in una padella larga. Aggiungi wurstel, cipolla, peperone e funghi e salta a fuoco medio-alto 4–5 minuti, finché i wurstel dorano e le verdure si ammorbidiscono senza disfarsi.",
+        "cook_ketchup": "Sposta gli ingredienti su un lato e versa il ketchup sulla parte libera e calda della padella. Cuocilo 60–90 secondi mescolando, finché scurisce appena e perde il profumo acido da crudo.",
+        "toss": "Aggiungi il latte, poi gli spaghetti e salta a fiamma alta circa 2 minuti, finché ogni filo è avvolto da una salsa rossa lucida e la pasta è ben calda.",
+        "finish": "Assaggia prima di aggiungere sale, perché ketchup e wurstel sono già sapidi. Servi subito con formaggio grattugiato e, se vuoi, poche gocce di Tabasco."
+      }
+    },
+    "es": {
+      "title": "Espaguetis Napolitan japoneses",
+      "description": "Pasta yōshoku retro de cafés kissaten, con kétchup cocinado junto a salchicha, cebolla, pimiento y setas. La textura más suave y la salsa dulce-ácida son parte del estilo.",
+      "animeContext": "Inspirado en la atmósfera de cafetería y comida cotidiana de Komi Can't Communicate; el vínculo es editorial hasta verificar una escena exacta.",
+      "ingredients": {
+        "spaghetti": {
+          "name": "Espaguetis",
+          "note": null
+        },
+        "sausages": {
+          "name": "Salchichas tipo frankfurt",
+          "note": null
+        },
+        "onion": {
+          "name": "Cebolla",
+          "note": null
+        },
+        "green_pepper": {
+          "name": "Pimiento verde",
+          "note": null
+        },
+        "mushrooms": {
+          "name": "Champiñones",
+          "note": null
+        },
+        "ketchup": {
+          "name": "Kétchup",
+          "note": null
+        },
+        "milk": {
+          "name": "Leche entera",
+          "note": null
+        },
+        "butter": {
+          "name": "Mantequilla",
+          "note": null
+        },
+        "oil": {
+          "name": "Aceite",
+          "note": null
+        },
+        "parmesan": {
+          "name": "Queso tipo parmesano rallado",
+          "note": null
+        },
+        "tabasco": {
+          "name": "Tabasco, opcional",
+          "note": null
+        }
+      },
+      "steps": {
+        "cook_pasta": "Cuece los espaguetis algo más suaves que al dente para imitar el estilo kissaten, escurre, enjuaga muy brevemente y añade unas gotas de aceite.",
+        "saute_fillings": "Saltea salchicha, cebolla, pimiento y champiñones con mantequilla y aceite 4–5 minutos.",
+        "cook_ketchup": "Aparta los ingredientes y cocina el kétchup directamente en la sartén 60–90 segundos hasta perder aroma crudo.",
+        "toss": "Añade leche y pasta y saltea a fuego fuerte unos 2 minutos hasta cubrir por completo.",
+        "finish": "Prueba antes de salar y sirve con queso y Tabasco opcional."
+      }
+    },
+    "fr": {
+      "title": "Spaghetti Napolitan japonais",
+      "description": "Pâtes yōshoku rétro des cafés kissaten, au ketchup cuit avec saucisse, oignon, poivron et champignons. La texture tendre et la sauce douce-acidulée sont volontaires.",
+      "animeContext": "Inspiré de l’atmosphère de café et de cuisine quotidienne de Komi Can't Communicate; le lien reste éditorial sans scène vérifiée.",
+      "ingredients": {
+        "spaghetti": {
+          "name": "Spaghetti",
+          "note": null
+        },
+        "sausages": {
+          "name": "Saucisses type francfort",
+          "note": null
+        },
+        "onion": {
+          "name": "Oignon",
+          "note": null
+        },
+        "green_pepper": {
+          "name": "Poivron vert",
+          "note": null
+        },
+        "mushrooms": {
+          "name": "Champignons de Paris",
+          "note": null
+        },
+        "ketchup": {
+          "name": "Ketchup",
+          "note": null
+        },
+        "milk": {
+          "name": "Lait entier",
+          "note": null
+        },
+        "butter": {
+          "name": "Beurre",
+          "note": null
+        },
+        "oil": {
+          "name": "Huile",
+          "note": null
+        },
+        "parmesan": {
+          "name": "Parmesan râpé",
+          "note": null
+        },
+        "tabasco": {
+          "name": "Tabasco, facultatif",
+          "note": null
+        }
+      },
+      "steps": {
+        "cook_pasta": "Cuisez les spaghetti un peu plus tendres qu’al dente pour le style kissaten, égouttez, rincez très brièvement et huilez légèrement.",
+        "saute_fillings": "Sautez saucisses, oignon, poivron et champignons avec beurre et huile 4–5 minutes.",
+        "cook_ketchup": "Repoussez la garniture et cuisez le ketchup directement dans la poêle 60–90 secondes jusqu’à perte de l’odeur crue.",
+        "toss": "Ajoutez le lait puis les pâtes et sautez environ 2 minutes à feu vif.",
+        "finish": "Goûtez avant de saler et servez avec fromage râpé et Tabasco facultatif."
+      }
+    },
+    "de": {
+      "title": "Japanische Napolitan-Spaghetti",
+      "description": "Retro-Yōshoku-Pasta aus japanischen Kissaten-Cafés, mit angebratenem Ketchup, Würstchen, Zwiebel, Paprika und Pilzen. Weichere Nudeln und süß-säuerliche Sauce gehören zum Stil.",
+      "animeContext": "Von der Café- und Alltagsessensatmosphäre in Komi Can't Communicate inspiriert; der Bezug bleibt ohne verifizierte Szene redaktionell.",
+      "ingredients": {
+        "spaghetti": {
+          "name": "Spaghetti",
+          "note": null
+        },
+        "sausages": {
+          "name": "Frankfurter Würstchen",
+          "note": null
+        },
+        "onion": {
+          "name": "Zwiebel",
+          "note": null
+        },
+        "green_pepper": {
+          "name": "Grüne Paprika",
+          "note": null
+        },
+        "mushrooms": {
+          "name": "Champignons",
+          "note": null
+        },
+        "ketchup": {
+          "name": "Ketchup",
+          "note": null
+        },
+        "milk": {
+          "name": "Vollmilch",
+          "note": null
+        },
+        "butter": {
+          "name": "Butter",
+          "note": null
+        },
+        "oil": {
+          "name": "Öl",
+          "note": null
+        },
+        "parmesan": {
+          "name": "Geriebener Parmesan",
+          "note": null
+        },
+        "tabasco": {
+          "name": "Tabasco, optional",
+          "note": null
+        }
+      },
+      "steps": {
+        "cook_pasta": "Spaghetti für den Kissaten-Stil etwas weicher als al dente kochen, abgießen, sehr kurz kühl spülen und leicht ölen.",
+        "saute_fillings": "Würstchen, Zwiebel, Paprika und Pilze mit Butter und Öl 4–5 Minuten braten.",
+        "cook_ketchup": "Zutaten zur Seite schieben und Ketchup 60–90 Sekunden direkt in der heißen Pfanne anrösten, bis der rohe Säuregeruch nachlässt.",
+        "toss": "Milch und Spaghetti zugeben und etwa 2 Minuten bei hoher Hitze schwenken.",
+        "finish": "Vor dem Salzen abschmecken und mit Käse sowie optional Tabasco servieren."
+      }
+    },
+    "pt": {
+      "title": "Espaguete Napolitan japonês",
+      "description": "Massa yōshoku retrô dos cafés kissaten, com ketchup cozido na frigideira junto de salsicha, cebola, pimentão e cogumelos. A massa mais macia e o molho agridoce são parte do estilo.",
+      "animeContext": "Inspirado na atmosfera de café e comida cotidiana de Komi Can't Communicate; o vínculo é editorial sem cena verificada.",
+      "ingredients": {
+        "spaghetti": {
+          "name": "Espaguete",
+          "note": null
+        },
+        "sausages": {
+          "name": "Salsichas tipo frankfurter",
+          "note": null
+        },
+        "onion": {
+          "name": "Cebola",
+          "note": null
+        },
+        "green_pepper": {
+          "name": "Pimentão verde",
+          "note": null
+        },
+        "mushrooms": {
+          "name": "Cogumelos",
+          "note": null
+        },
+        "ketchup": {
+          "name": "Ketchup",
+          "note": null
+        },
+        "milk": {
+          "name": "Leite integral",
+          "note": null
+        },
+        "butter": {
+          "name": "Manteiga",
+          "note": null
+        },
+        "oil": {
+          "name": "Óleo",
+          "note": null
+        },
+        "parmesan": {
+          "name": "Parmesão ralado",
+          "note": null
+        },
+        "tabasco": {
+          "name": "Tabasco, opcional",
+          "note": null
+        }
+      },
+      "steps": {
+        "cook_pasta": "Cozinhe o espaguete um pouco mais macio que al dente para o estilo kissaten, escorra, lave muito rapidamente e unte levemente.",
+        "saute_fillings": "Salteie salsicha, cebola, pimentão e cogumelos com manteiga e óleo por 4–5 minutos.",
+        "cook_ketchup": "Empurre os ingredientes e cozinhe o ketchup diretamente na frigideira por 60–90 segundos até perder o cheiro cru.",
+        "toss": "Junte leite e massa e salteie em fogo alto por cerca de 2 minutos.",
+        "finish": "Prove antes de salgar e sirva com queijo e Tabasco opcional."
+      }
+    }
+  }
+}
