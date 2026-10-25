@@ -25,7 +25,7 @@
   "difficulty": "easy",
   "contentOrigin": "adapted",
   "sourceNote": "Editorial rebuild from Ricettario Vol. 4; authentic shaved-ice texture distinguished from crushed blender ice.",
-  "imageAssetId": null,
+  "imageAssetId": "recipe_000038_artwork",
   "ingredients": [
     {
       "id": "ice",

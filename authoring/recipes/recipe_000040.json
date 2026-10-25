@@ -25,7 +25,7 @@
   "difficulty": "medium",
   "contentOrigin": "adapted",
   "sourceNote": "Editorial rebuild from Ricettario Vol. 4; rolling, cooling and refrigeration timing corrected.",
-  "imageAssetId": null,
+  "imageAssetId": "recipe_000040_artwork",
   "ingredients": [
     {
       "id": "eggs",

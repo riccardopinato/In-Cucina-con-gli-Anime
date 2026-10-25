@@ -25,7 +25,7 @@
   "difficulty": "medium",
   "contentOrigin": "adapted",
   "sourceNote": "Editorial rebuild from Ricettario Vol. 4; workflow made standalone instead of silently requiring a pre-cooked tonkatsu.",
-  "imageAssetId": null,
+  "imageAssetId": "recipe_000035_artwork",
   "ingredients": [
     {
       "id": "shokupan",
