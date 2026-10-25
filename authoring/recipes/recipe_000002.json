@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000002",
-  "contentVersion": 1,
+  "contentVersion": 2,
   "status": "published",
   "inspirationTitle": "Naruto",
   "prepMinutes": 20,
@@ -9,7 +9,7 @@
   "servings": 2,
   "difficulty": "medium",
   "contentOrigin": "adapted",
-  "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. Servings inferred from ingredient quantities because the source does not state yield.",
+  "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. Servings inferred from ingredient quantities because the source does not state yield. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
   "imageAssetId": "recipe_000002_artwork",
   "ingredients": [
     {
@@ -122,12 +122,14 @@
         }
       },
       "steps": {
-        "season_broth": "Heat the broth gently and whisk in the miso until smooth. Keep it hot without letting it reduce aggressively.",
-        "cook_noodles": "Cook the ramen noodles separately according to their package timing, then drain thoroughly.",
-        "fill_bowls": "Divide the hot noodles between two bowls and ladle over enough broth to surround them.",
-        "add_toppings": "Arrange the chashu, halved marinated eggs, narutomaki, spring onion, bean sprouts and nori over the noodles.",
-        "serve": "Serve immediately while the broth and noodles are piping hot."
-      }
+        "season_broth": "Heat the broth gently and whisk in the miso until smooth. Keep it hot without letting it reduce aggressively. Keep the broth below a hard boil after adding miso so its aroma stays fresh; taste before adding any extra salt because both broth concentrate and miso may be salty.",
+        "cook_noodles": "Cook the ramen noodles separately according to their package timing, then drain thoroughly. Start checking 30 seconds before the package time and drain as soon as the centre loses its raw core; ramen softens quickly once it meets hot broth.",
+        "fill_bowls": "Divide the hot noodles between two bowls and ladle over enough broth to surround them. Warm the serving bowls with hot water first, dry them, then add noodles and broth; a warm bowl prevents the soup from cooling before the toppings are arranged.",
+        "add_toppings": "Arrange the chashu, halved marinated eggs, narutomaki, spring onion, bean sprouts and nori over the noodles. Warm chashu briefly in the broth or a pan, but add egg, nori and spring onion only at the end so their texture stays distinct.",
+        "serve": "Serve immediately while the broth and noodles are piping hot. Serve within a minute of assembly and encourage eating the noodles first, before they absorb too much broth."
+      },
+      "description": "A practical miso ramen bowl with a rich savoury broth, springy noodles, chashu, marinated egg, narutomaki and fresh toppings. This version assumes the long components such as chashu and ajitsuke tamago are prepared in advance, so the final assembly stays realistic for a weeknight meal.",
+      "animeContext": "Ramen is a recurring signature food in Naruto through Ichiraku Ramen and Naruto's well-known attachment to the shop. This bowl is an app recipe inspired by that recurring association rather than a reconstruction of one exact serving."
     },
     "it": {
       "title": "Ramen al miso con chashu",
@@ -170,12 +172,14 @@
         }
       },
       "steps": {
-        "season_broth": "Scalda il brodo dolcemente e incorpora il miso mescolando finché si scioglie. Mantienilo caldo senza farlo restringere troppo.",
-        "cook_noodles": "Cuoci i noodles a parte seguendo il tempo indicato sulla confezione, quindi scolali con cura.",
-        "fill_bowls": "Distribuisci i noodles caldi in due ciotole e versa il brodo fino a circondarli bene.",
-        "add_toppings": "Completa con chashu, uova marinate tagliate a metà, narutomaki, cipollotto, germogli di soia e nori.",
-        "serve": "Porta subito in tavola, quando brodo e noodles sono ancora molto caldi."
-      }
+        "season_broth": "Scalda il brodo dolcemente e incorpora il miso mescolando finché si scioglie. Mantienilo caldo senza farlo restringere troppo. Dopo aver aggiunto il miso evita un bollore violento, così il profumo resta più fresco; assaggia prima di salare perché sia il concentrato sia il miso possono essere molto sapidi.",
+        "cook_noodles": "Cuoci i noodles a parte seguendo il tempo indicato sulla confezione, quindi scolali con cura. Inizia ad assaggiare 30 secondi prima del tempo indicato e scola appena il centro perde la parte cruda: nel brodo caldo il ramen continua ad ammorbidirsi rapidamente.",
+        "fill_bowls": "Distribuisci i noodles caldi in due ciotole e versa il brodo fino a circondarli bene. Scalda prima le ciotole con acqua bollente, asciugale e solo allora aggiungi noodles e brodo: una ciotola calda evita che la zuppa perda temperatura mentre sistemi le guarnizioni.",
+        "add_toppings": "Completa con chashu, uova marinate tagliate a metà, narutomaki, cipollotto, germogli di soia e nori. Scalda brevemente il chashu nel brodo o in padella, ma aggiungi uovo, nori e cipollotto solo alla fine, così mantengono consistenze distinte.",
+        "serve": "Porta subito in tavola, quando brodo e noodles sono ancora molto caldi. Servi entro un minuto dall’assemblaggio e mangia per primi i noodles, prima che assorbano troppo brodo."
+      },
+      "description": "Una ciotola pratica di ramen al miso con brodo ricco e sapido, noodles elastici, chashu, uovo marinato, narutomaki e guarnizioni fresche. Questa versione considera chashu e ajitsuke tamago preparati in anticipo, così l’assemblaggio finale resta realistico anche in una sera normale.",
+      "animeContext": "Il ramen è un cibo ricorrente e identitario in Naruto grazie a Ichiraku Ramen e al forte legame del protagonista con il locale. Questa ciotola è una ricetta dell’app ispirata a quell’associazione, non la copia di una porzione precisa mostrata nella serie."
     },
     "es": {
       "title": "Ramen de miso con chashu",
@@ -218,12 +222,14 @@
         }
       },
       "steps": {
-        "season_broth": "Calienta el caldo suavemente e incorpora el miso hasta que quede bien disuelto. Mantenlo caliente.",
-        "cook_noodles": "Cuece los fideos ramen por separado según el tiempo del envase y escúrrelos bien.",
-        "fill_bowls": "Reparte los fideos calientes en dos cuencos y añade el caldo.",
-        "add_toppings": "Coloca encima el chashu, los huevos marinados partidos por la mitad, el narutomaki, la cebolleta, los brotes y el nori.",
-        "serve": "Sirve en cuanto termines el montaje."
-      }
+        "season_broth": "Calienta el caldo suavemente e incorpora el miso hasta que quede bien disuelto. Mantenlo caliente. Tras añadir el miso evita hervir fuerte; prueba antes de añadir sal porque el concentrado y el miso ya pueden ser salados.",
+        "cook_noodles": "Cuece los fideos ramen por separado según el tiempo del envase y escúrrelos bien. Empieza a probar 30 segundos antes del tiempo indicado y escurre en cuanto desaparezca el centro crudo; en el caldo seguirá ablandándose.",
+        "fill_bowls": "Reparte los fideos calientes en dos cuencos y añade el caldo. Calienta antes los cuencos con agua caliente y sécalos; así el caldo no se enfría mientras colocas los toppings.",
+        "add_toppings": "Coloca encima el chashu, los huevos marinados partidos por la mitad, el narutomaki, la cebolleta, los brotes y el nori. Calienta brevemente el chashu, pero añade huevo, nori y cebolleta al final para conservar sus texturas.",
+        "serve": "Sirve en cuanto termines el montaje. Sirve en menos de un minuto y come primero los fideos antes de que absorban demasiado caldo."
+      },
+      "description": "Ramen al miso práctico con caldo sabroso, fideos elásticos, chashu, huevo marinado, narutomaki y toppings frescos. Se da por hecho que chashu y huevo están preparados de antemano.",
+      "animeContext": "El ramen es una comida emblemática y recurrente en Naruto gracias a Ichiraku Ramen. Esta receta se inspira en esa asociación, no en una porción exacta."
     },
     "fr": {
       "title": "Ramen au miso et chashu",
@@ -266,12 +272,14 @@
         }
       },
       "steps": {
-        "season_broth": "Faites chauffer doucement le bouillon et délayez-y le miso jusqu’à obtenir un mélange homogène. Gardez au chaud.",
-        "cook_noodles": "Faites cuire les nouilles séparément selon les indications du paquet puis égouttez-les soigneusement.",
-        "fill_bowls": "Répartissez les nouilles chaudes dans deux bols et versez le bouillon.",
-        "add_toppings": "Disposez le chashu, les œufs marinés coupés en deux, le narutomaki, la ciboule, les germes et le nori.",
-        "serve": "Servez immédiatement tant que le bouillon est très chaud."
-      }
+        "season_broth": "Faites chauffer doucement le bouillon et délayez-y le miso jusqu’à obtenir un mélange homogène. Gardez au chaud. Après le miso, évitez une forte ébullition; goûtez avant de saler car concentré et miso peuvent être très salés.",
+        "cook_noodles": "Faites cuire les nouilles séparément selon les indications du paquet puis égouttez-les soigneusement. Commencez à goûter 30 secondes avant le temps indiqué et égouttez dès que le cœur cru disparaît; les nouilles continuent de ramollir dans le bouillon.",
+        "fill_bowls": "Répartissez les nouilles chaudes dans deux bols et versez le bouillon. Réchauffez les bols à l’eau chaude puis séchez-les; le bouillon restera chaud pendant le dressage.",
+        "add_toppings": "Disposez le chashu, les œufs marinés coupés en deux, le narutomaki, la ciboule, les germes et le nori. Réchauffez brièvement le chashu, mais ajoutez œuf, nori et ciboule à la fin pour préserver leurs textures.",
+        "serve": "Servez immédiatement tant que le bouillon est très chaud. Servez dans la minute et mangez d’abord les nouilles avant qu’elles n’absorbent trop de bouillon."
+      },
+      "description": "Ramen miso pratique au bouillon riche, nouilles souples, chashu, œuf mariné, narutomaki et garnitures fraîches. Le chashu et l’œuf sont supposés préparés à l’avance.",
+      "animeContext": "Le ramen est un aliment emblématique et récurrent dans Naruto grâce à Ichiraku Ramen. Cette recette s’inspire de ce lien, sans reproduire un bol précis."
     },
     "de": {
       "title": "Miso-Ramen mit Chashu",
@@ -314,12 +322,14 @@
         }
       },
       "steps": {
-        "season_broth": "Die Brühe sanft erhitzen und die Misopaste glatt einrühren. Warm halten, ohne sie stark einzukochen.",
-        "cook_noodles": "Die Ramen-Nudeln separat nach Packungsangabe garen und gründlich abtropfen lassen.",
-        "fill_bowls": "Die heißen Nudeln auf zwei Schalen verteilen und mit Brühe umgießen.",
-        "add_toppings": "Chashu, halbierte marinierte Eier, Narutomaki, Frühlingszwiebeln, Sojasprossen und Nori darauf anrichten.",
-        "serve": "Sofort heiß servieren."
-      }
+        "season_broth": "Die Brühe sanft erhitzen und die Misopaste glatt einrühren. Warm halten, ohne sie stark einzukochen. Nach Zugabe von Miso nicht stark kochen; vor weiterem Salzen probieren, da Brühenkonzentrat und Miso bereits salzig sind.",
+        "cook_noodles": "Die Ramen-Nudeln separat nach Packungsangabe garen und gründlich abtropfen lassen. 30 Sekunden vor Packungszeit prüfen und abgießen, sobald der rohe Kern weg ist; in heißer Brühe werden Ramen schnell weicher.",
+        "fill_bowls": "Die heißen Nudeln auf zwei Schalen verteilen und mit Brühe umgießen. Servierschalen zuerst mit heißem Wasser vorwärmen und trocknen; so kühlt die Brühe beim Belegen nicht aus.",
+        "add_toppings": "Chashu, halbierte marinierte Eier, Narutomaki, Frühlingszwiebeln, Sojasprossen und Nori darauf anrichten. Chashu kurz erwärmen, Ei, Nori und Frühlingszwiebel aber erst am Ende auflegen.",
+        "serve": "Sofort heiß servieren. Innerhalb einer Minute servieren und die Nudeln zuerst essen, bevor sie zu viel Brühe aufnehmen."
+      },
+      "description": "Praktische Miso-Ramen-Schale mit kräftiger Brühe, elastischen Nudeln, Chashu, mariniertem Ei, Narutomaki und frischen Toppings. Chashu und Ei werden als vorbereitet vorausgesetzt.",
+      "animeContext": "Ramen ist durch Ichiraku Ramen ein prägendes wiederkehrendes Essen in Naruto. Diese App-Version ist davon inspiriert, nicht die Rekonstruktion einer einzelnen Schale."
     },
     "pt": {
       "title": "Ramen de missô com chashu",
@@ -362,12 +372,29 @@
         }
       },
       "steps": {
-        "season_broth": "Aqueça o caldo suavemente e misture o missô até dissolver por completo. Mantenha quente.",
-        "cook_noodles": "Cozinhe o macarrão separadamente conforme o tempo indicado na embalagem e escorra bem.",
-        "fill_bowls": "Divida o macarrão quente entre duas tigelas e cubra com o caldo.",
-        "add_toppings": "Disponha o chashu, os ovos marinados cortados ao meio, o narutomaki, a cebolinha, os brotos e o nori.",
-        "serve": "Sirva imediatamente enquanto tudo está bem quente."
-      }
+        "season_broth": "Aqueça o caldo suavemente e misture o missô até dissolver por completo. Mantenha quente. Depois de adicionar o miso, evite fervura forte; prove antes de salgar, pois o concentrado e o miso já podem ser salgados.",
+        "cook_noodles": "Cozinhe o macarrão separadamente conforme o tempo indicado na embalagem e escorra bem. Comece a provar 30 segundos antes do tempo da embalagem e escorra assim que o centro cru desaparecer; no caldo quente o macarrão continua amolecendo.",
+        "fill_bowls": "Divida o macarrão quente entre duas tigelas e cubra com o caldo. Aqueça as tigelas com água quente e seque; isso evita que o caldo esfrie durante a montagem.",
+        "add_toppings": "Disponha o chashu, os ovos marinados cortados ao meio, o narutomaki, a cebolinha, os brotos e o nori. Aqueça o chashu brevemente, mas coloque ovo, nori e cebolinha somente no final para preservar as texturas.",
+        "serve": "Sirva imediatamente enquanto tudo está bem quente. Sirva em até um minuto e coma o macarrão primeiro, antes que absorva caldo demais."
+      },
+      "description": "Ramen de miso prático com caldo rico, macarrão elástico, chashu, ovo marinado, narutomaki e coberturas frescas. Chashu e ovo são considerados preparados antes.",
+      "animeContext": "Ramen é uma comida recorrente e emblemática em Naruto por meio do Ichiraku Ramen. Esta receita se inspira nessa associação, não em uma tigela específica."
     }
+  },
+  "animeReferences": [
+    {
+      "workTitle": "Naruto",
+      "relation": "recurring_association",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Miso ramen is a real ramen style; this app version is explicitly a practical bowl using prepared chashu, marinated eggs and concentrated broth.",
+    "animeStatus": "verified",
+    "animeNote": "Ramen, especially Ichiraku Ramen, is a recurring and defining food association for Naruto."
   }
 }
