@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000016",
-  "contentVersion": 1,
+  "contentVersion": 2,
   "status": "published",
   "inspirationTitle": "Haikyuu!! / Food Wars!",
   "prepMinutes": 20,
@@ -9,7 +9,7 @@
   "servings": 4,
   "difficulty": "easy",
   "contentOrigin": "adapted",
-  "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23.",
+  "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
   "imageAssetId": "recipe_000016_artwork",
   "ingredients": [
     {
@@ -112,8 +112,17 @@
         "step_1": "Cut the chicken into 3–4 cm pieces and marinate for 20 minutes with soy sauce, sake, ginger and garlic.",
         "step_2": "Coat each piece generously in potato starch.",
         "step_3": "Fry at about 160°C for 4 minutes, drain and rest for 2 minutes.",
-        "step_4": "Fry again at about 180°C for 1 minute until deeply crisp and serve with lemon."
-      }
+        "step_4": "Fry again at about 180°C for 1 minute until deeply crisp and serve with lemon.",
+        "cut_chicken": "undefined Keep pieces close to 3–4 cm so they fry at the same rate; leave a little skin on each piece because it protects the meat and becomes especially crisp.",
+        "marinate": "undefined Marinate in the refrigerator, not at room temperature, and keep the time moderate so soy sauce seasons without making the exterior overly salty. Drain excess liquid before coating.",
+        "coat_starch": "undefined Coat immediately before frying and squeeze a little starch onto uneven folds of skin; loose dry patches create the characteristic craggy karaage crust.",
+        "first_fry": "undefined Fry in small batches so the oil stays near the target temperature. The first fry should cook the chicken through gently without taking the crust past pale gold.",
+        "rest_chicken": "undefined Rest on a wire rack, not paper, for several minutes; air circulation prevents the underside from steaming while carryover heat moves toward the centre.",
+        "second_fry": "undefined Raise the oil temperature and fry only until the exterior turns deep golden and audibly crisp, usually under 1–2 minutes. The chicken must already be safely cooked before this fast finishing step.",
+        "serve": "undefined Season only after tasting because the marinade is salty, and serve with lemon immediately while the crust is dry and brittle."
+      },
+      "description": "Japanese fried chicken made from marinated thigh pieces coated in potato starch and fried twice for a crisp, craggy shell around juicy meat. The short rest between fries lets internal heat finish the centre while the second fry drives off surface moisture.",
+      "animeContext": "This card is inspired by Haikyuu!!’s energetic school-and-team food atmosphere. Without a verified exact karaage scene, the app does not present the dish as an on-screen fact."
     },
     "it": {
       "title": "Karaage, pollo fritto giapponese",
@@ -155,8 +164,17 @@
         "step_1": "Taglia il pollo a bocconcini da 3–4 cm e marinalo per 20 minuti con salsa di soia, sake, zenzero e aglio.",
         "step_2": "Passa ogni bocconcino nella fecola di patate facendola aderire bene.",
         "step_3": "Friggi a circa 160°C per 4 minuti, scola e lascia riposare 2 minuti.",
-        "step_4": "Fai una seconda frittura a circa 180°C per 1 minuto finché è molto croccante e servi con limone."
-      }
+        "step_4": "Fai una seconda frittura a circa 180°C per 1 minuto finché è molto croccante e servi con limone.",
+        "cut_chicken": "undefined Mantieni i bocconi intorno a 3–4 cm, così cuociono allo stesso ritmo; lascia un po’ di pelle su ogni pezzo perché protegge la carne e diventa molto croccante.",
+        "marinate": "undefined Marina in frigorifero, non a temperatura ambiente, e non prolungare troppo: la soia deve insaporire senza rendere l’esterno eccessivamente salato. Scola il liquido in eccesso prima della fecola.",
+        "coat_starch": "undefined Passa nella fecola subito prima della frittura e premi un po’ di amido nelle pieghe della pelle: piccole zone irregolari e asciutte creano la tipica crosta frastagliata.",
+        "first_fry": "undefined Friggi poche porzioni alla volta, così l’olio resta vicino alla temperatura prevista. La prima frittura deve cuocere il pollo con delicatezza senza portare la crosta oltre un dorato chiaro.",
+        "rest_chicken": "undefined Lascia riposare su una griglia, non sulla carta, per alcuni minuti: l’aria evita che la parte inferiore si ammorbidisca e il calore residuo raggiunge il centro.",
+        "second_fry": "undefined Alza la temperatura dell’olio e friggi solo finché l’esterno diventa ben dorato e chiaramente croccante, in genere meno di 1–2 minuti. Il pollo deve essere già cotto in sicurezza prima di questa finitura rapida.",
+        "serve": "undefined Condisci solo dopo aver assaggiato perché la marinata è già sapida e servi subito con limone, finché la crosta è asciutta e fragile."
+      },
+      "description": "Pollo fritto giapponese con bocconi di coscia marinati, rivestiti di fecola e fritti in due tempi per ottenere una crosta irregolare e croccante attorno a carne succosa. Il breve riposo tra le fritture completa il calore al centro e la seconda elimina l’umidità superficiale.",
+      "animeContext": "La scheda si ispira all’atmosfera di pasti scolastici e di squadra di Haikyuu!!. Senza una scena precisa di karaage verificata, l’app non presenta il piatto come fatto mostrato nell’anime."
     },
     "es": {
       "title": "Karaage, pollo frito japonés",
@@ -198,8 +216,17 @@
         "step_1": "Corta el pollo en trozos de 3–4 cm y marina 20 minutos con soja, sake, jengibre y ajo.",
         "step_2": "Reboza cada trozo abundantemente con fécula de patata.",
         "step_3": "Fríe a 160°C unos 4 minutos, escurre y deja reposar 2 minutos.",
-        "step_4": "Fríe de nuevo a 180°C durante 1 minuto y sirve con limón."
-      }
+        "step_4": "Fríe de nuevo a 180°C durante 1 minuto y sirve con limón.",
+        "cut_chicken": "undefined Corta piezas de 3–4 cm para cocción uniforme y deja algo de piel para proteger la carne.",
+        "marinate": "undefined Marina en refrigeración y no demasiado tiempo; escurre el exceso antes de cubrir.",
+        "coat_starch": "undefined Cubre justo antes de freír y presiona algo de fécula en los pliegues para crear la corteza irregular típica.",
+        "first_fry": "undefined Fríe en tandas pequeñas para mantener temperatura; la primera fritura cocina sin dorar demasiado.",
+        "rest_chicken": "undefined Reposa en rejilla, no sobre papel, para evitar vapor y permitir que el calor llegue al centro.",
+        "second_fry": "undefined Sube la temperatura y fríe solo 1–2 minutos hasta dorado intenso; el pollo ya debe estar cocido de forma segura.",
+        "serve": "undefined Prueba antes de añadir sal y sirve enseguida con limón mientras la corteza está seca y crujiente."
+      },
+      "description": "Pollo frito japonés de muslo marinado, cubierto de fécula y frito dos veces para lograr una corteza crujiente y carne jugosa. El reposo entre frituras ayuda al centro y la segunda elimina humedad.",
+      "animeContext": "La ficha se inspira en la comida escolar y de equipo de Haikyuu!!; sin una escena verificada, no se presenta como aparición."
     },
     "fr": {
       "title": "Karaage, poulet frit japonais",
@@ -241,8 +268,17 @@
         "step_1": "Coupez le poulet en morceaux de 3–4 cm et marinez 20 minutes avec soja, saké, gingembre et ail.",
         "step_2": "Enrobez chaque morceau généreusement de fécule de pomme de terre.",
         "step_3": "Faites frire à 160°C environ 4 minutes, égouttez et laissez reposer 2 minutes.",
-        "step_4": "Faites une seconde friture à 180°C pendant 1 minute et servez avec du citron."
-      }
+        "step_4": "Faites une seconde friture à 180°C pendant 1 minute et servez avec du citron.",
+        "cut_chicken": "undefined Coupez des morceaux de 3–4 cm pour une cuisson régulière et gardez un peu de peau.",
+        "marinate": "undefined Marinez au réfrigérateur et sans excès de durée; égouttez le surplus avant l’enrobage.",
+        "coat_starch": "undefined Enrobez juste avant friture et pressez un peu de fécule dans les plis pour obtenir la croûte irrégulière.",
+        "first_fry": "undefined Faites frire par petites quantités pour maintenir la température; la première friture cuit sans trop colorer.",
+        "rest_chicken": "undefined Reposez sur grille, pas sur papier, pour éviter la vapeur sous la croûte et répartir la chaleur.",
+        "second_fry": "undefined Montez la température et refaites frire moins de 1–2 minutes jusqu’à belle couleur; le poulet doit déjà être cuit.",
+        "serve": "undefined Goûtez avant de saler et servez aussitôt avec citron pendant que la croûte est sèche."
+      },
+      "description": "Poulet frit japonais, morceaux de cuisse marinés, enrobés de fécule et frits deux fois pour une croûte croustillante et une chair juteuse. Le repos entre les fritures répartit la chaleur.",
+      "animeContext": "Cette fiche s’inspire des repas scolaires et d’équipe de Haikyuu!!; sans scène vérifiée, le plat n’est pas présenté comme apparition."
     },
     "de": {
       "title": "Karaage, japanisches Brathähnchen",
@@ -284,8 +320,17 @@
         "step_1": "Hähnchen in 3–4-cm-Stücke schneiden und 20 Minuten mit Sojasauce, Sake, Ingwer und Knoblauch marinieren.",
         "step_2": "Jedes Stück großzügig in Kartoffelstärke wenden.",
         "step_3": "Bei etwa 160°C 4 Minuten frittieren, abtropfen lassen und 2 Minuten ruhen lassen.",
-        "step_4": "Noch einmal bei etwa 180°C 1 Minute frittieren und mit Zitrone servieren."
-      }
+        "step_4": "Noch einmal bei etwa 180°C 1 Minute frittieren und mit Zitrone servieren.",
+        "cut_chicken": "undefined Stücke etwa 3–4 cm groß schneiden und etwas Haut dranlassen, damit alles gleichmäßig gart.",
+        "marinate": "undefined Im Kühlschrank marinieren und nicht zu lange; überschüssige Flüssigkeit vor dem Panieren abtropfen lassen.",
+        "coat_starch": "undefined Direkt vor dem Frittieren Stärke auftragen und in Hautfalten drücken, damit die typische unregelmäßige Kruste entsteht.",
+        "first_fry": "undefined In kleinen Portionen frittieren, damit die Temperatur stabil bleibt; die erste Runde soll garen, aber nur hell bräunen.",
+        "rest_chicken": "undefined Auf einem Gitter statt Papier ruhen lassen, damit kein Dampf die Unterseite weich macht.",
+        "second_fry": "undefined Öltemperatur erhöhen und nur 1–2 Minuten tief goldbraun nachfrittieren; das Huhn muss bereits sicher gar sein.",
+        "serve": "undefined Vor zusätzlichem Salzen probieren und sofort mit Zitrone servieren, solange die Kruste trocken ist."
+      },
+      "description": "Japanisches frittiertes Huhn aus marinierten Schenkelstücken mit Stärkekruste und zweistufigem Frittieren für knusprige Hülle und saftiges Fleisch.",
+      "animeContext": "Die Karte ist von Schul- und Teamessen in Haikyuu!! inspiriert; ohne verifizierte Szene wird keine Erscheinung behauptet."
     },
     "pt": {
       "title": "Karaage, frango frito japonês",
@@ -327,8 +372,32 @@
         "step_1": "Corte o frango em pedaços de 3–4 cm e marine 20 minutos com soja, saquê, gengibre e alho.",
         "step_2": "Passe cada pedaço generosamente na fécula de batata.",
         "step_3": "Frite a cerca de 160°C por 4 minutos, escorra e descanse 2 minutos.",
-        "step_4": "Frite novamente a 180°C por 1 minuto e sirva com limão."
-      }
+        "step_4": "Frite novamente a 180°C por 1 minuto e sirva com limão.",
+        "cut_chicken": "undefined Corte pedaços de 3–4 cm para cozinhar por igual e mantenha um pouco de pele.",
+        "marinate": "undefined Marine na geladeira e sem tempo excessivo; escorra o líquido antes de empanar.",
+        "coat_starch": "undefined Empane logo antes de fritar e pressione fécula nas dobras para formar a crosta irregular.",
+        "first_fry": "undefined Frite em pequenas porções para manter a temperatura; a primeira fritura cozinha sem dourar demais.",
+        "rest_chicken": "undefined Descanse em grade, não em papel, para evitar vapor e distribuir o calor.",
+        "second_fry": "undefined Aumente a temperatura e frite só 1–2 minutos até dourar bem; o frango já deve estar cozido com segurança.",
+        "serve": "undefined Prove antes de adicionar sal e sirva imediatamente com limão enquanto a crosta está seca."
+      },
+      "description": "Frango frito japonês de coxa marinada, coberto com fécula e frito em duas etapas para crosta crocante e carne suculenta.",
+      "animeContext": "A ficha se inspira nas refeições escolares e de equipe de Haikyuu!!; sem cena verificada, não é apresentada como aparição."
     }
+  },
+  "animeReferences": [
+    {
+      "workTitle": "Haikyuu!!",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Japanese karaage verified: soy-sake-ginger-garlic marinated thigh, starch coating and two-stage frying for juicy meat and crisp crust.",
+    "animeStatus": "unverified",
+    "animeNote": "Haikyuu!! association retained as inspiration; no specific karaage scene claimed."
   }
 }
