@@ -113,19 +113,11 @@
         }
       },
       "steps": {
-        "step_1": "Boil the potatoes until tender and mash them. Sauté the chopped onion and mushroom in butter, then fold them into the potato.",
-        "step_2": "Shape the potato mixture into a compact roast-shaped loaf.",
-        "step_3": "Wrap the loaf completely with overlapping bacon and secure it with kitchen twine and rosemary.",
-        "step_4": "Bake at 200°C until the bacon is browned and crisp, about 30–40 minutes.",
-        "step_5": "Deglaze the roasting pan with red wine, soy sauce and butter and spoon the sauce over the sliced roast.",
-        "cook_potatoes": "undefined Drain the potatoes extremely well and return them to the warm pan for 1–2 minutes to steam-dry before mashing; a wet mash will not hold the loaf shape.",
-        "saute_mushrooms": "undefined Cook the mushrooms until their released moisture has evaporated and the edges begin to brown; adding them while watery would loosen the potato centre.",
-        "mash_mix": "undefined Fold the mushrooms into warm potato and season before the mixture cools. Taste now because later the bacon adds salt but the centre itself still needs seasoning.",
-        "shape_loaf": "undefined Chill the shaped potato log for about 10 minutes if it feels soft; a firmer surface makes the bacon wrapping much easier and prevents flattening.",
-        "wrap_bacon": "undefined Overlap the bacon slices by roughly one third so the potato cannot escape as the fat renders, and place the seam underneath before roasting.",
-        "roast": "undefined Roast until the bacon is deeply browned and crisp at the edges; if the centre is already hot but the bacon remains pale, finish briefly under the grill rather than overbaking the potato.",
-        "make_sauce": "undefined Deglaze only after pouring off excess bacon fat. Reduce wine until its raw alcohol smell fades, then add soy and butter for a glossy sauce rather than a greasy one.",
-        "finish": "undefined Rest the roast 5 minutes before slicing so the potato centre firms slightly; use a serrated knife with gentle sawing to keep the bacon attached."
+        "step_1": "Boil the potatoes until tender and mash them. Sauté the chopped onion and mushroom in butter, then fold them into the potato. undefined Drain the potatoes extremely well and return them to the warm pan for 1–2 minutes to steam-dry before mashing; a wet mash will not hold the loaf shape. undefined Cook the mushrooms until their released moisture has evaporated and the edges begin to brown; adding them while watery would loosen the potato centre. undefined Fold the mushrooms into warm potato and season before the mixture cools. Taste now because later the bacon adds salt but the centre itself still needs seasoning.",
+        "step_2": "Shape the potato mixture into a compact roast-shaped loaf. undefined Chill the shaped potato log for about 10 minutes if it feels soft; a firmer surface makes the bacon wrapping much easier and prevents flattening. undefined Overlap the bacon slices by roughly one third so the potato cannot escape as the fat renders, and place the seam underneath before roasting.",
+        "step_3": "Wrap the loaf completely with overlapping bacon and secure it with kitchen twine and rosemary. undefined Roast until the bacon is deeply browned and crisp at the edges; if the centre is already hot but the bacon remains pale, finish briefly under the grill rather than overbaking the potato.",
+        "step_4": "Bake at 200°C until the bacon is browned and crisp, about 30–40 minutes. undefined Deglaze only after pouring off excess bacon fat. Reduce wine until its raw alcohol smell fades, then add soy and butter for a glossy sauce rather than a greasy one.",
+        "step_5": "Deglaze the roasting pan with red wine, soy sauce and butter and spoon the sauce over the sliced roast. undefined Rest the roast 5 minutes before slicing so the potato centre firms slightly; use a serrated knife with gentle sawing to keep the bacon attached."
       },
       "description": "A bacon-wrapped potato-and-mushroom roast inspired by Soma’s improvised dish: creamy potato and king oyster mushroom form the centre while overlapping bacon supplies fat, smoke and structure. It is an anime-origin dish made cookable rather than presented as a traditional Japanese classic.",
       "animeContext": "This is a direct Food Wars dish from season 1 episode 1. Because its concept is fictional/anime-origin rather than a named traditional recipe, the app labels it as an adapted recreation and verifies whether the cooking method itself is coherent."
@@ -167,19 +159,11 @@
         }
       },
       "steps": {
-        "step_1": "Lessa le patate finché sono morbide e schiacciale. Salta cipolla e fungo tritati nel burro e incorporali alle patate.",
-        "step_2": "Compatta il composto di patate dandogli la forma di un arrosto.",
-        "step_3": "Avvolgi il blocco con fette di bacon sovrapposte e fermalo con spago da cucina e rosmarino.",
-        "step_4": "Inforna a 200°C finché il bacon è dorato e croccante, circa 30–40 minuti.",
-        "step_5": "Sfuma la teglia con vino rosso, salsa di soia e burro e versa la salsa sull’arrosto affettato.",
-        "cook_potatoes": "undefined Scola le patate molto bene e rimet tile nella pentola calda per 1–2 minuti per far evaporare l’umidità prima di schiacciarle: un purè bagnato non manterrà la forma dell’arrosto.",
-        "saute_mushrooms": "undefined Cuoci i funghi finché l’acqua rilasciata è evaporata e i bordi iniziano a dorare: aggiungerli ancora acquosi renderebbe il centro di patate troppo morbido.",
-        "mash_mix": "undefined Incorpora i funghi alle patate ancora tiepide e condisci prima che il composto si raffreddi. Assaggia ora: il bacon aggiungerà sapidità, ma anche il cuore deve essere ben condito.",
-        "shape_loaf": "undefined Se il cilindro di patate è morbido, raffreddalo circa 10 minuti: una superficie più ferma facilita molto l’avvolgimento con il bacon e impedisce che si schiacci.",
-        "wrap_bacon": "undefined Sovrapponi le fette di bacon per circa un terzo, così il ripieno non fuoriesce mentre il grasso si scioglie, e sistema la chiusura verso il basso prima del forno.",
-        "roast": "undefined Cuoci finché il bacon è ben dorato e croccante ai bordi; se il centro è già caldo ma il bacon resta pallido, termina brevemente con il grill invece di seccare troppo le patate.",
-        "make_sauce": "undefined Deglassa solo dopo aver eliminato il grasso di bacon in eccesso. Riduci il vino finché perde l’odore alcolico crudo, poi unisci soia e burro per una salsa lucida e non unta.",
-        "finish": "undefined Lascia riposare l’arrosto 5 minuti prima di affettarlo, così il cuore di patate si rassoda leggermente; usa un coltello seghettato con movimenti delicati per non staccare il bacon."
+        "step_1": "Lessa le patate finché sono morbide e schiacciale. Salta cipolla e fungo tritati nel burro e incorporali alle patate. undefined Scola le patate molto bene e rimet tile nella pentola calda per 1–2 minuti per far evaporare l’umidità prima di schiacciarle: un purè bagnato non manterrà la forma dell’arrosto. undefined Cuoci i funghi finché l’acqua rilasciata è evaporata e i bordi iniziano a dorare: aggiungerli ancora acquosi renderebbe il centro di patate troppo morbido. undefined Incorpora i funghi alle patate ancora tiepide e condisci prima che il composto si raffreddi. Assaggia ora: il bacon aggiungerà sapidità, ma anche il cuore deve essere ben condito.",
+        "step_2": "Compatta il composto di patate dandogli la forma di un arrosto. undefined Se il cilindro di patate è morbido, raffreddalo circa 10 minuti: una superficie più ferma facilita molto l’avvolgimento con il bacon e impedisce che si schiacci. undefined Sovrapponi le fette di bacon per circa un terzo, così il ripieno non fuoriesce mentre il grasso si scioglie, e sistema la chiusura verso il basso prima del forno.",
+        "step_3": "Avvolgi il blocco con fette di bacon sovrapposte e fermalo con spago da cucina e rosmarino. undefined Cuoci finché il bacon è ben dorato e croccante ai bordi; se il centro è già caldo ma il bacon resta pallido, termina brevemente con il grill invece di seccare troppo le patate.",
+        "step_4": "Inforna a 200°C finché il bacon è dorato e croccante, circa 30–40 minuti. undefined Deglassa solo dopo aver eliminato il grasso di bacon in eccesso. Riduci il vino finché perde l’odore alcolico crudo, poi unisci soia e burro per una salsa lucida e non unta.",
+        "step_5": "Sfuma la teglia con vino rosso, salsa di soia e burro e versa la salsa sull’arrosto affettato. undefined Lascia riposare l’arrosto 5 minuti prima di affettarlo, così il cuore di patate si rassoda leggermente; usa un coltello seghettato con movimenti delicati per non staccare il bacon."
       },
       "description": "Un arrosto di patate e funghi avvolto nel bacon, ispirato al piatto improvvisato di Soma: patate cremose e cardoncelli formano il cuore, mentre il bacon sovrapposto porta grasso, affumicatura e struttura. È un piatto nato dall’anime reso cucinabile, non una ricetta tradizionale giapponese.",
       "animeContext": "È un riferimento diretto a Food Wars, stagione 1 episodio 1. Poiché il concetto nasce dall’anime e non da una ricetta tradizionale codificata, l’app lo presenta come ricostruzione adattata e ne verifica la coerenza culinaria."
@@ -221,19 +205,11 @@
         }
       },
       "steps": {
-        "step_1": "Cuece las patatas y aplástalas. Saltea cebolla y seta picadas con mantequilla e incorpóralas a la patata.",
-        "step_2": "Moldea la mezcla de patata con forma compacta de asado.",
-        "step_3": "Envuelve el bloque con bacon solapado y átalo con hilo de cocina y romero.",
-        "step_4": "Hornea a 200°C hasta que el bacon esté dorado y crujiente, unos 30–40 minutos.",
-        "step_5": "Desglasa la bandeja con vino tinto, soja y mantequilla y sirve la salsa sobre el asado cortado.",
-        "cook_potatoes": "undefined Escurre muy bien y seca las patatas 1–2 minutos en la olla caliente antes de aplastar; un puré húmedo no mantendrá la forma.",
-        "saute_mushrooms": "undefined Cocina las setas hasta evaporar el agua y dorar los bordes; húmedas aflojarían el relleno.",
-        "mash_mix": "undefined Mezcla las setas con la patata tibia y sazona antes de enfriar; prueba ahora porque el interior necesita sabor propio.",
-        "shape_loaf": "undefined Si el cilindro está blando, enfríalo unos 10 minutos antes de envolver con bacon.",
-        "wrap_bacon": "undefined Superpone el bacon aproximadamente un tercio y coloca la unión abajo antes de hornear.",
-        "roast": "undefined Hornea hasta bacon bien dorado; si el centro está caliente y el bacon pálido, termina brevemente bajo el grill.",
-        "make_sauce": "undefined Retira exceso de grasa antes de desglasar. Reduce el vino hasta perder olor alcohólico y añade soja y mantequilla.",
-        "finish": "undefined Reposa 5 minutos antes de cortar y usa cuchillo de sierra suavemente para mantener el bacon adherido."
+        "step_1": "Cuece las patatas y aplástalas. Saltea cebolla y seta picadas con mantequilla e incorpóralas a la patata. undefined Escurre muy bien y seca las patatas 1–2 minutos en la olla caliente antes de aplastar; un puré húmedo no mantendrá la forma. undefined Cocina las setas hasta evaporar el agua y dorar los bordes; húmedas aflojarían el relleno. undefined Mezcla las setas con la patata tibia y sazona antes de enfriar; prueba ahora porque el interior necesita sabor propio.",
+        "step_2": "Moldea la mezcla de patata con forma compacta de asado. undefined Si el cilindro está blando, enfríalo unos 10 minutos antes de envolver con bacon. undefined Superpone el bacon aproximadamente un tercio y coloca la unión abajo antes de hornear.",
+        "step_3": "Envuelve el bloque con bacon solapado y átalo con hilo de cocina y romero. undefined Hornea hasta bacon bien dorado; si el centro está caliente y el bacon pálido, termina brevemente bajo el grill.",
+        "step_4": "Hornea a 200°C hasta que el bacon esté dorado y crujiente, unos 30–40 minutos. undefined Retira exceso de grasa antes de desglasar. Reduce el vino hasta perder olor alcohólico y añade soja y mantequilla.",
+        "step_5": "Desglasa la bandeja con vino tinto, soja y mantequilla y sirve la salsa sobre el asado cortado. undefined Reposa 5 minutos antes de cortar y usa cuchillo de sierra suavemente para mantener el bacon adherido."
       },
       "description": "Asado de patata y setas envuelto en bacon, inspirado en el plato improvisado de Soma. Es un plato de origen anime adaptado para cocinar, no un clásico tradicional japonés.",
       "animeContext": "Es un plato directo de Food Wars, temporada 1 episodio 1. Como nace del anime y no de una receta tradicional, la app lo presenta como recreación adaptada."
@@ -275,19 +251,11 @@
         }
       },
       "steps": {
-        "step_1": "Faites cuire les pommes de terre puis écrasez-les. Faites revenir oignon et champignon au beurre et incorporez-les.",
-        "step_2": "Façonnez la purée en un rôti compact.",
-        "step_3": "Enveloppez le pain de bacon en les faisant se chevaucher puis ficelez avec le romarin.",
-        "step_4": "Faites cuire à 200°C jusqu’à ce que le bacon soit doré et croustillant, environ 30–40 minutes.",
-        "step_5": "Déglacez le plat avec vin rouge, sauce soja et beurre puis nappez le rôti tranché.",
-        "cook_potatoes": "undefined Égouttez très bien puis séchez les pommes de terre 1–2 minutes dans la casserole chaude avant de les écraser.",
-        "saute_mushrooms": "undefined Cuisez les champignons jusqu’à évaporation de leur eau et légère coloration; trop humides, ils détendraient la farce.",
-        "mash_mix": "undefined Mélangez champignons et pomme de terre tiède et assaisonnez avant refroidissement; goûtez maintenant.",
-        "shape_loaf": "undefined Si le rouleau est mou, refroidissez-le environ 10 minutes avant le bacon.",
-        "wrap_bacon": "undefined Chevauchez le bacon d’environ un tiers et placez la soudure dessous avant cuisson.",
-        "roast": "undefined Cuisez jusqu’à bacon bien doré; si le centre est chaud mais le bacon pâle, terminez brièvement sous le gril.",
-        "make_sauce": "undefined Retirez l’excès de graisse avant de déglacer. Réduisez le vin puis ajoutez soja et beurre.",
-        "finish": "undefined Reposez 5 minutes puis tranchez doucement au couteau-scie pour garder le bacon en place."
+        "step_1": "Faites cuire les pommes de terre puis écrasez-les. Faites revenir oignon et champignon au beurre et incorporez-les. undefined Égouttez très bien puis séchez les pommes de terre 1–2 minutes dans la casserole chaude avant de les écraser. undefined Cuisez les champignons jusqu’à évaporation de leur eau et légère coloration; trop humides, ils détendraient la farce. undefined Mélangez champignons et pomme de terre tiède et assaisonnez avant refroidissement; goûtez maintenant.",
+        "step_2": "Façonnez la purée en un rôti compact. undefined Si le rouleau est mou, refroidissez-le environ 10 minutes avant le bacon. undefined Chevauchez le bacon d’environ un tiers et placez la soudure dessous avant cuisson.",
+        "step_3": "Enveloppez le pain de bacon en les faisant se chevaucher puis ficelez avec le romarin. undefined Cuisez jusqu’à bacon bien doré; si le centre est chaud mais le bacon pâle, terminez brièvement sous le gril.",
+        "step_4": "Faites cuire à 200°C jusqu’à ce que le bacon soit doré et croustillant, environ 30–40 minutes. undefined Retirez l’excès de graisse avant de déglacer. Réduisez le vin puis ajoutez soja et beurre.",
+        "step_5": "Déglacez le plat avec vin rouge, sauce soja et beurre puis nappez le rôti tranché. undefined Reposez 5 minutes puis tranchez doucement au couteau-scie pour garder le bacon en place."
       },
       "description": "Rôti de pomme de terre et champignons enveloppé de bacon, inspiré du plat improvisé de Soma. C’est un plat né de l’anime rendu réalisable, pas un classique traditionnel.",
       "animeContext": "C’est un plat direct de Food Wars, saison 1 épisode 1. Né de l’anime plutôt que d’une recette traditionnelle, il est présenté comme une recréation adaptée."
@@ -329,19 +297,11 @@
         }
       },
       "steps": {
-        "step_1": "Kartoffeln weich kochen und stampfen. Zwiebel und Pilz in Butter anbraten und unter die Kartoffeln mischen.",
-        "step_2": "Die Kartoffelmasse zu einem kompakten Braten formen.",
-        "step_3": "Den Laib vollständig mit überlappendem Bacon umwickeln und mit Küchengarn und Rosmarin fixieren.",
-        "step_4": "Bei 200°C etwa 30–40 Minuten backen, bis der Bacon knusprig ist.",
-        "step_5": "Den Bräter mit Rotwein, Sojasauce und Butter ablöschen und die Sauce über den aufgeschnittenen Braten geben.",
-        "cook_potatoes": "undefined Kartoffeln sehr gut abgießen und 1–2 Minuten im warmen Topf ausdampfen lassen; feuchter Stampf hält die Form nicht.",
-        "saute_mushrooms": "undefined Pilze garen, bis ihre Flüssigkeit verdampft und die Ränder bräunen; feuchte Pilze lockern die Kartoffelmasse.",
-        "mash_mix": "undefined Pilze in warme Kartoffeln einarbeiten und vor dem Abkühlen abschmecken; der Kern braucht eigene Würze.",
-        "shape_loaf": "undefined Falls die Kartoffelrolle weich ist, etwa 10 Minuten kühlen, bevor sie mit Bacon umwickelt wird.",
-        "wrap_bacon": "undefined Baconscheiben etwa zu einem Drittel überlappen und die Naht zum Braten nach unten legen.",
-        "roast": "undefined Braten, bis Bacon tief gebräunt ist; wenn der Kern heiß, Bacon aber blass ist, kurz grillen statt weiter auszutrocknen.",
-        "make_sauce": "undefined Überschüssiges Baconfett abgießen, dann mit Wein ablöschen und reduzieren; Soja und Butter zuletzt einarbeiten.",
-        "finish": "undefined 5 Minuten ruhen lassen und mit Sägemesser sanft schneiden, damit der Bacon hält."
+        "step_1": "Kartoffeln weich kochen und stampfen. Zwiebel und Pilz in Butter anbraten und unter die Kartoffeln mischen. undefined Kartoffeln sehr gut abgießen und 1–2 Minuten im warmen Topf ausdampfen lassen; feuchter Stampf hält die Form nicht. undefined Pilze garen, bis ihre Flüssigkeit verdampft und die Ränder bräunen; feuchte Pilze lockern die Kartoffelmasse. undefined Pilze in warme Kartoffeln einarbeiten und vor dem Abkühlen abschmecken; der Kern braucht eigene Würze.",
+        "step_2": "Die Kartoffelmasse zu einem kompakten Braten formen. undefined Falls die Kartoffelrolle weich ist, etwa 10 Minuten kühlen, bevor sie mit Bacon umwickelt wird. undefined Baconscheiben etwa zu einem Drittel überlappen und die Naht zum Braten nach unten legen.",
+        "step_3": "Den Laib vollständig mit überlappendem Bacon umwickeln und mit Küchengarn und Rosmarin fixieren. undefined Braten, bis Bacon tief gebräunt ist; wenn der Kern heiß, Bacon aber blass ist, kurz grillen statt weiter auszutrocknen.",
+        "step_4": "Bei 200°C etwa 30–40 Minuten backen, bis der Bacon knusprig ist. undefined Überschüssiges Baconfett abgießen, dann mit Wein ablöschen und reduzieren; Soja und Butter zuletzt einarbeiten.",
+        "step_5": "Den Bräter mit Rotwein, Sojasauce und Butter ablöschen und die Sauce über den aufgeschnittenen Braten geben. undefined 5 Minuten ruhen lassen und mit Sägemesser sanft schneiden, damit der Bacon hält."
       },
       "description": "Bacon-umwickelter Kartoffel-Pilz-Braten nach Somas improvisiertem Gericht. Ein aus dem Anime stammendes, kochbar gemachtes Gericht, kein traditioneller japanischer Klassiker.",
       "animeContext": "Direktes Food-Wars-Gericht aus Staffel 1 Episode 1. Da das Konzept aus dem Anime stammt, wird es als angepasste Rekonstruktion geführt."
@@ -383,19 +343,11 @@
         }
       },
       "steps": {
-        "step_1": "Cozinhe e amasse as batatas. Refogue cebola e cogumelo na manteiga e misture às batatas.",
-        "step_2": "Modele a massa de batata no formato de um assado compacto.",
-        "step_3": "Envolva completamente com bacon sobreposto e amarre com barbante culinário e alecrim.",
-        "step_4": "Asse a 200°C por cerca de 30–40 minutos, até o bacon dourar e ficar crocante.",
-        "step_5": "Deglaceie a assadeira com vinho tinto, molho de soja e manteiga e regue o assado fatiado.",
-        "cook_potatoes": "undefined Escorra muito bem e seque as batatas 1–2 minutos na panela quente antes de amassar; purê úmido não mantém o formato.",
-        "saute_mushrooms": "undefined Cozinhe os cogumelos até evaporar a água e dourar as bordas; úmidos demais afrouxam o recheio.",
-        "mash_mix": "undefined Misture cogumelos na batata morna e tempere antes de esfriar; prove agora porque o centro precisa de sabor.",
-        "shape_loaf": "undefined Se o rolo estiver macio, resfrie por cerca de 10 minutos antes de envolver no bacon.",
-        "wrap_bacon": "undefined Sobreponha as fatias de bacon em cerca de um terço e deixe a emenda para baixo.",
-        "roast": "undefined Asse até o bacon dourar bem; se o centro estiver quente e o bacon pálido, finalize rapidamente no grill.",
-        "make_sauce": "undefined Retire o excesso de gordura antes de deglaçar. Reduza o vinho e só então adicione soja e manteiga.",
-        "finish": "undefined Descanse 5 minutos e corte suavemente com faca serrilhada para manter o bacon preso."
+        "step_1": "Cozinhe e amasse as batatas. Refogue cebola e cogumelo na manteiga e misture às batatas. undefined Escorra muito bem e seque as batatas 1–2 minutos na panela quente antes de amassar; purê úmido não mantém o formato. undefined Cozinhe os cogumelos até evaporar a água e dourar as bordas; úmidos demais afrouxam o recheio. undefined Misture cogumelos na batata morna e tempere antes de esfriar; prove agora porque o centro precisa de sabor.",
+        "step_2": "Modele a massa de batata no formato de um assado compacto. undefined Se o rolo estiver macio, resfrie por cerca de 10 minutos antes de envolver no bacon. undefined Sobreponha as fatias de bacon em cerca de um terço e deixe a emenda para baixo.",
+        "step_3": "Envolva completamente com bacon sobreposto e amarre com barbante culinário e alecrim. undefined Asse até o bacon dourar bem; se o centro estiver quente e o bacon pálido, finalize rapidamente no grill.",
+        "step_4": "Asse a 200°C por cerca de 30–40 minutos, até o bacon dourar e ficar crocante. undefined Retire o excesso de gordura antes de deglaçar. Reduza o vinho e só então adicione soja e manteiga.",
+        "step_5": "Deglaceie a assadeira com vinho tinto, molho de soja e manteiga e regue o assado fatiado. undefined Descanse 5 minutos e corte suavemente com faca serrilhada para manter o bacon preso."
       },
       "description": "Assado de batata e cogumelos envolto em bacon, inspirado no prato improvisado de Soma. É um prato originado no anime e adaptado para cozinhar, não um clássico tradicional.",
       "animeContext": "É um prato direto de Food Wars, temporada 1 episódio 1. Como nasce do anime e não de receita tradicional, é apresentado como recriação adaptada."
