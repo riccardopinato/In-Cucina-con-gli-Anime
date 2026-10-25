@@ -38,6 +38,9 @@ class RecipeCardMascotPeek extends StatefulWidget {
 }
 
 class _RecipeCardMascotPeekState extends State<RecipeCardMascotPeek> {
+  static Object? _activeOwner;
+
+  final Object _owner = Object();
   Timer? _showTimer;
   Timer? _hideTimer;
   bool _visible = false;
@@ -74,6 +77,7 @@ class _RecipeCardMascotPeekState extends State<RecipeCardMascotPeek> {
       if (_visible) {
         setState(() => _visible = false);
       }
+      _releaseOwner();
       return;
     }
 
@@ -118,11 +122,17 @@ class _RecipeCardMascotPeekState extends State<RecipeCardMascotPeek> {
       if (!mounted || _reduceMotion) {
         return;
       }
-      _showFor(const Duration(milliseconds: 2100));
+      _showFor(
+        const Duration(milliseconds: 2100),
+        rescheduleIfBusy: true,
+      );
     });
   }
 
-  void _showFor(Duration duration) {
+  void _showFor(
+    Duration duration, {
+    bool rescheduleIfBusy = false,
+  }) {
     _showTimer?.cancel();
     _showTimer = null;
     _hideTimer?.cancel();
@@ -131,6 +141,14 @@ class _RecipeCardMascotPeekState extends State<RecipeCardMascotPeek> {
       return;
     }
 
+    if (_activeOwner != null && !identical(_activeOwner, _owner)) {
+      if (rescheduleIfBusy) {
+        _schedulePassive(initial: false);
+      }
+      return;
+    }
+
+    _activeOwner = _owner;
     setState(() {
       _visible = true;
       _appearanceSerial += 1;
@@ -141,14 +159,22 @@ class _RecipeCardMascotPeekState extends State<RecipeCardMascotPeek> {
         return;
       }
       setState(() => _visible = false);
+      _releaseOwner();
       _schedulePassive(initial: false);
     });
+  }
+
+  void _releaseOwner() {
+    if (identical(_activeOwner, _owner)) {
+      _activeOwner = null;
+    }
   }
 
   @override
   void dispose() {
     _showTimer?.cancel();
     _hideTimer?.cancel();
+    _releaseOwner();
     super.dispose();
   }
 
