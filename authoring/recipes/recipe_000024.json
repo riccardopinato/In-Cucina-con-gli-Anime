@@ -25,7 +25,7 @@
   "difficulty": "medium",
   "contentOrigin": "adapted",
   "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3; timing corrected to include proofing and bench rest.",
-  "imageAssetId": null,
+  "imageAssetId": "recipe_000024_artwork",
   "ingredients": [
     {
       "id": "bread_flour",

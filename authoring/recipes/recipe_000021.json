@@ -25,7 +25,7 @@
   "difficulty": "medium",
   "contentOrigin": "adapted",
   "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3 received 2026-10-25; culinary structure verified and wording rewritten for the app.",
-  "imageAssetId": null,
+  "imageAssetId": "recipe_000021_artwork",
   "ingredients": [
     {
       "id": "beef",

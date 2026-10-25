@@ -1729,7 +1729,7 @@
       "cookMinutes": 25,
       "servings": 4,
       "difficulty": "medium",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000021.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3 received 2026-10-25; culinary structure verified and wording rewritten for the app.",
       "ingredients": [
@@ -1844,7 +1844,7 @@
       "cookMinutes": 20,
       "servings": 2,
       "difficulty": "easy",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000022.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3 received 2026-10-25; quantities and technique normalized.",
       "ingredients": [
@@ -1950,7 +1950,7 @@
       "cookMinutes": 15,
       "servings": 2,
       "difficulty": "medium",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000023.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3; double-fry wording normalized with safe doneness cues.",
       "ingredients": [
@@ -2050,7 +2050,7 @@
       "cookMinutes": 15,
       "servings": 8,
       "difficulty": "medium",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000024.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3; timing corrected to include proofing and bench rest.",
       "ingredients": [
@@ -2145,7 +2145,7 @@
       "cookMinutes": 10,
       "servings": 2,
       "difficulty": "easy",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000025.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3 with timing and texture cues expanded.",
       "ingredients": [
@@ -2260,7 +2260,7 @@
       "cookMinutes": 15,
       "servings": 2,
       "difficulty": "easy",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000026.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3; method expanded and terminology normalized.",
       "ingredients": [
@@ -2355,7 +2355,7 @@
       "cookMinutes": 15,
       "servings": 6,
       "difficulty": "medium",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000027.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3; proofing and cookie-crust technique expanded.",
       "ingredients": [
@@ -2465,7 +2465,7 @@
       "cookMinutes": 15,
       "servings": 4,
       "difficulty": "medium",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000028.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3; rapid-cooling and frying cues improved.",
       "ingredients": [
@@ -2575,7 +2575,7 @@
       "cookMinutes": 45,
       "servings": 2,
       "difficulty": "medium",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000029.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from Ricettario Vol. 3; title and ambiguous curry-roux quantity corrected.",
       "ingredients": [
@@ -2670,7 +2670,7 @@
       "cookMinutes": 25,
       "servings": 8,
       "difficulty": "medium",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000030.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from Ricettario Vol. 3; total elapsed time corrected to include cooling and refrigeration.",
       "ingredients": [
@@ -2774,7 +2774,7 @@
       "cookMinutes": 10,
       "servings": 2,
       "difficulty": "easy",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000031.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 4; mentsuyu balance and noodle washing clarified.",
       "ingredients": [
@@ -2860,7 +2860,7 @@
       "cookMinutes": 15,
       "servings": 4,
       "difficulty": "medium",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000032.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from Ricettario Vol. 4; canonical Japanese name corrected and filling/cooking safety clarified.",
       "ingredients": [
@@ -2970,7 +2970,7 @@
       "cookMinutes": 10,
       "servings": 8,
       "difficulty": "easy",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000033.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from Ricettario Vol. 4; fresh-aburaage path clarified and prepared inari-age kept as simple default.",
       "ingredients": [
@@ -3051,7 +3051,7 @@
       "cookMinutes": 15,
       "servings": 2,
       "difficulty": "easy",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000034.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from Ricettario Vol. 4; yoshoku identity and ketchup-cooking technique clarified.",
       "ingredients": [
@@ -3152,7 +3152,7 @@
       "cookMinutes": 15,
       "servings": 2,
       "difficulty": "medium",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000035.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from Ricettario Vol. 4; workflow made standalone instead of silently requiring a pre-cooked tonkatsu.",
       "ingredients": [
@@ -3252,7 +3252,7 @@
       "cookMinutes": 15,
       "servings": 2,
       "difficulty": "medium",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000036.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from Ricettario Vol. 4; tare handling and safe glazing sequence expanded.",
       "ingredients": [
@@ -3333,7 +3333,7 @@
       "cookMinutes": 20,
       "servings": 2,
       "difficulty": "easy",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000037.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from Ricettario Vol. 4; regional identity clarified and mochi safety cues added.",
       "ingredients": [
@@ -3428,7 +3428,7 @@
       "cookMinutes": 0,
       "servings": 2,
       "difficulty": "easy",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000038.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from Ricettario Vol. 4; authentic shaved-ice texture distinguished from crushed blender ice.",
       "ingredients": [
@@ -3499,7 +3499,7 @@
       "cookMinutes": 5,
       "servings": 6,
       "difficulty": "medium",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000039.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from Ricettario Vol. 4; hot-mochi handling and freshness guidance expanded.",
       "ingredients": [
@@ -3579,7 +3579,7 @@
       "cookMinutes": 12,
       "servings": 8,
       "difficulty": "medium",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000040.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from Ricettario Vol. 4; rolling, cooling and refrigeration timing corrected.",
       "ingredients": [
@@ -3674,7 +3674,7 @@
       "cookMinutes": 15,
       "servings": 2,
       "difficulty": "medium",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000041.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from Ricettario Vol. 5; sauce corrected toward the anime-associated tomato presentation and egg-cooking cues expanded.",
       "ingredients": [
@@ -3774,7 +3774,7 @@
       "cookMinutes": 20,
       "servings": 2,
       "difficulty": "medium",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000042.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from Ricettario Vol. 5; corrected against Nagasaki regional-cuisine guidance.",
       "ingredients": [
@@ -3904,7 +3904,7 @@
       "cookMinutes": 10,
       "servings": 2,
       "difficulty": "easy",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000043.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from Ricettario Vol. 5; miso terminology and heat explanation corrected.",
       "ingredients": [
@@ -3975,7 +3975,7 @@
       "cookMinutes": 30,
       "servings": 4,
       "difficulty": "medium",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000044.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from Ricettario Vol. 5; custard temperature, bain-marie and chilling cues expanded.",
       "ingredients": [
@@ -4069,7 +4069,7 @@
       "cookMinutes": 10,
       "servings": 2,
       "difficulty": "medium",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000045.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from Ricettario Vol. 5; straightening, tail preparation and oil-temperature recovery expanded.",
       "ingredients": [
@@ -4169,7 +4169,7 @@
       "cookMinutes": 10,
       "servings": 2,
       "difficulty": "easy",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000046.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from Ricettario Vol. 5; naming re-audited against Japanese culinary sources: Isobeyaki and Isobe-maki are both attested.",
       "ingredients": [
@@ -4235,7 +4235,7 @@
       "cookMinutes": 20,
       "servings": 2,
       "difficulty": "easy",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000047.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from Ricettario Vol. 5; normalized as Sanshoku Soboro Don and chicken/egg curd technique expanded.",
       "ingredients": [
@@ -4340,7 +4340,7 @@
       "cookMinutes": 15,
       "servings": 2,
       "difficulty": "medium",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000048.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from Ricettario Vol. 5; ratio aligned to tested chawanmushi guidance and filling pre-cooking made explicit.",
       "ingredients": [
@@ -4440,7 +4440,7 @@
       "cookMinutes": 5,
       "servings": 8,
       "difficulty": "medium",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000049.jpg",
       "contentOrigin": "adapted",
       "sourceNote": "Editorial rebuild from Ricettario Vol. 5; corrected toward common Children’s Day kashiwa mochi method with joshinko and commercially prepared kashiwa leaves.",
       "ingredients": [
@@ -4515,7 +4515,7 @@
       "cookMinutes": 0,
       "servings": 2,
       "difficulty": "easy",
-      "imageAsset": null,
+      "imageAsset": "assets/recipe_artwork/recipe_000050.jpg",
       "contentOrigin": "inspired",
       "sourceNote": "Editorial reconstruction from Ricettario Vol. 5; marked inspired because the oversized anime-style composition is an app variation of real Japanese fruit parfait.",
       "ingredients": [

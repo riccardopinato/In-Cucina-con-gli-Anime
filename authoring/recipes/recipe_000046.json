@@ -25,7 +25,7 @@
   "difficulty": "easy",
   "contentOrigin": "adapted",
   "sourceNote": "Editorial rebuild from Ricettario Vol. 5; naming re-audited against Japanese culinary sources: Isobeyaki and Isobe-maki are both attested.",
-  "imageAssetId": null,
+  "imageAssetId": "recipe_000046_artwork",
   "ingredients": [
     {
       "id": "kirimochi",

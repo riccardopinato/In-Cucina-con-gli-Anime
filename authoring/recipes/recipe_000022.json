@@ -25,7 +25,7 @@
   "difficulty": "easy",
   "contentOrigin": "adapted",
   "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3 received 2026-10-25; quantities and technique normalized.",
-  "imageAssetId": null,
+  "imageAssetId": "recipe_000022_artwork",
   "ingredients": [
     {
       "id": "udon",
