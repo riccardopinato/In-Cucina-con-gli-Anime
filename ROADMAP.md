@@ -223,6 +223,15 @@ Required quality:
 
 Evidence:
 - initial incoming audit: `docs/F3G_CULINARY_ANIME_REFERENCE_AUDIT.md`.
+- F3G implementation evidence — 2026-10-25:
+  - F3G-A: recipe_000021..recipe_000030 authored in EN/IT/ES/FR/DE/PT with culinary corrections;
+  - F3G-B: recipe_000031..recipe_000040 authored and normalized;
+  - F3G-C: recipe_000041..recipe_000050 authored, including corrected Champon/Miso/Kashiwa and verified Food Wars/Gintama references;
+  - F3G-D: recipe_000001..recipe_000020 re-audited without changing stable IDs; descriptions, detailed steps and anime-reference semantics upgraded;
+  - recipe_000019 rebuilt as true Mitarashi Dango;
+  - recipe_000020 now includes the real taiyaki batter rest;
+  - existing user-approved artwork semantic reviews advanced to the new content versions;
+  - F3G-E: runtime materialization, similarity closure, new artwork and final CI/QA in progress.
 
 Exit: 50 published recipes pass authoring/catalog validation, culinary/editorial review, duplicate/similarity review, localization, artwork gates, Flutter tests, Web build, Android build and physical-device smoke QA.
 
