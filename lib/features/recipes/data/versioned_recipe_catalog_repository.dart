@@ -190,6 +190,43 @@ class VersionedRecipeCatalogRepository implements RecipeCatalogRepository {
       );
     }).toList(growable: false);
 
+    final animeReferences = <RecipeAnimeReference>[];
+    final rawAnimeReferences = metadata['animeReferences'];
+    if (rawAnimeReferences != null) {
+      if (rawAnimeReferences is! List) {
+        throw const RecipeCatalogException(
+          'animeReferences must be an array',
+        );
+      }
+      for (final rawReference in rawAnimeReferences) {
+        final reference = _object(rawReference, 'anime reference');
+        final relation = switch (
+            _string(reference, 'relation', 'anime reference')) {
+          'verified_appearance' => RecipeAnimeRelation.verifiedAppearance,
+          'recurring_association' =>
+            RecipeAnimeRelation.recurringAssociation,
+          'inspired' => RecipeAnimeRelation.inspired,
+          'unverified' => RecipeAnimeRelation.unverified,
+          _ => throw const RecipeCatalogException(
+              'Unsupported anime reference relation',
+            ),
+        };
+        animeReferences.add(
+          RecipeAnimeReference(
+            workTitle: _string(
+              reference,
+              'workTitle',
+              'anime reference',
+            ),
+            relation: relation,
+            season: _optionalInt(reference['season']),
+            episode: _optionalString(reference['episode']),
+            chapter: _optionalString(reference['chapter']),
+          ),
+        );
+      }
+    }
+
     return Recipe(
       id: id,
       contentVersion: _int(metadata, 'contentVersion', 'recipe'),
@@ -202,6 +239,11 @@ class VersionedRecipeCatalogRepository implements RecipeCatalogRepository {
       sourceNote: _optionalString(metadata['sourceNote']),
       title: _string(localized, 'title', 'localized recipe'),
       animeSource: _string(metadata, 'inspirationTitle', 'recipe'),
+      description: _optionalString(localized['description']),
+      animeContext: _optionalString(localized['animeContext']),
+      animeReferences: List<RecipeAnimeReference>.unmodifiable(
+        animeReferences,
+      ),
       prepMinutes: _int(metadata, 'prepMinutes', 'recipe'),
       cookMinutes: _int(metadata, 'cookMinutes', 'recipe'),
       servings: _int(metadata, 'servings', 'recipe'),
