@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000015",
-  "contentVersion": 1,
+  "contentVersion": 2,
   "status": "published",
   "inspirationTitle": "Demon Slayer (Kimetsu no Yaiba) / Inuyasha",
   "prepMinutes": 15,
@@ -9,7 +9,7 @@
   "servings": 4,
   "difficulty": "easy",
   "contentOrigin": "adapted",
-  "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23.",
+  "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
   "imageAssetId": "recipe_000015_artwork",
   "ingredients": [
     {
@@ -112,8 +112,16 @@
         "step_1": "Cut the potatoes and carrot into irregular bite-size pieces and slice the onion.",
         "step_2": "Brown the thin beef in a little oil, then add onion, potatoes and carrot.",
         "step_3": "Add dashi, soy sauce, mirin and sugar and bring to a gentle simmer.",
-        "step_4": "Cover with a drop lid and simmer about 20 minutes, until the vegetables are tender and glossy."
-      }
+        "step_4": "Cover with a drop lid and simmer about 20 minutes, until the vegetables are tender and glossy.",
+        "sear_meat": "undefined Work quickly with thin slices: colour the surface without fully cooking the meat, because it will simmer later. Remove any excess rendered fat if it pools heavily.",
+        "add_vegetables": "undefined Cut potatoes into large even chunks and round very sharp corners if you want them to stay intact; tiny pieces break down before the broth reduces.",
+        "add_broth": "undefined Bring the liquid just to a boil, skim surface foam, then lower immediately to a gentle simmer. Violent boiling breaks the potatoes and makes the broth cloudy.",
+        "simmer": "undefined Use a drop lid or parchment circle if available so the surface stays moist while the liquid reduces. Stop when a skewer enters the potato with little resistance but the pieces still hold shape.",
+        "rest_nikujaga": "undefined Let the pot rest covered off heat 15–20 minutes, then rewarm gently. Cooling slightly in the broth helps the potatoes take in seasoning without further breaking down.",
+        "finish_greens": "undefined Add the green beans only during the final reheat so they remain bright and slightly crisp instead of turning olive and soft."
+      },
+      "description": "A classic Japanese home-style simmer of thin meat, potatoes, onion and carrot in sweet-savoury dashi. Nikujaga tastes best when the vegetables are tender but intact and the pot rests briefly off heat so the potatoes absorb the seasoned broth.",
+      "animeContext": "This recipe is inspired by the traditional domestic-food atmosphere of Demon Slayer. Without a verified nikujaga scene, the app treats the connection as cultural inspiration rather than an appearance claim."
     },
     "it": {
       "title": "Nikujaga, spezzatino di carne e patate",
@@ -155,8 +163,16 @@
         "step_1": "Taglia patate e carota a tocchetti irregolari e affetta la cipolla.",
         "step_2": "Rosola il manzo sottile con poco olio, poi aggiungi cipolla, patate e carota.",
         "step_3": "Versa dashi, salsa di soia, mirin e zucchero e porta a leggero bollore.",
-        "step_4": "Copri con un otoshibuta e fai sobbollire per circa 20 minuti, finché le verdure sono morbide e lucide."
-      }
+        "step_4": "Copri con un otoshibuta e fai sobbollire per circa 20 minuti, finché le verdure sono morbide e lucide.",
+        "sear_meat": "undefined Con le fette sottili lavora rapidamente: colora la superficie senza cuocere del tutto la carne, perché finirà nel brodo. Se si accumula molto grasso, eliminane l’eccesso.",
+        "add_vegetables": "undefined Taglia le patate in pezzi grandi e regolari e, se vuoi mantenerle integre, arrotonda gli spigoli più netti: pezzi piccoli si sfaldano prima che il fondo si riduca.",
+        "add_broth": "undefined Porta appena a bollore, elimina la schiuma e abbassa subito a sobbollire dolcemente. Un bollore violento rompe le patate e intorbida il fondo.",
+        "simmer": "undefined Se disponibile usa un otoshibuta o un disco di carta forno, così la superficie resta umida mentre il fondo si riduce. Fermati quando uno stecchino entra nella patata con poca resistenza ma i pezzi tengono ancora la forma.",
+        "rest_nikujaga": "undefined Lascia riposare la pentola coperta fuori dal fuoco 15–20 minuti, poi riscalda dolcemente. Raffreddandosi leggermente nel fondo le patate assorbono sapore senza continuare a sfaldarsi.",
+        "finish_greens": "undefined Aggiungi i fagiolini solo nel riscaldamento finale, così restano verdi e leggermente croccanti invece di diventare molli e spenti."
+      },
+      "description": "Un classico stufato casalingo giapponese con carne sottile, patate, cipolla e carota in dashi dolce-sapido. Il nikujaga riesce meglio quando le verdure sono tenere ma integre e la pentola riposa brevemente fuori dal fuoco, così le patate assorbono il fondo.",
+      "animeContext": "La ricetta si ispira all’atmosfera della cucina domestica tradizionale di Demon Slayer. Senza una scena di nikujaga verificata, il collegamento viene dichiarato come ispirazione culturale e non come presenza nell’opera."
     },
     "es": {
       "title": "Nikujaga, estofado de carne y patata",
@@ -198,8 +214,16 @@
         "step_1": "Corta patatas y zanahoria en trozos irregulares y lamina la cebolla.",
         "step_2": "Dora la ternera con un poco de aceite y añade cebolla, patata y zanahoria.",
         "step_3": "Añade dashi, soja, mirin y azúcar y lleva a hervor suave.",
-        "step_4": "Cubre con una tapa de contacto y cocina unos 20 minutos."
-      }
+        "step_4": "Cubre con una tapa de contacto y cocina unos 20 minutos.",
+        "sear_meat": "undefined Con carne fina, dora rápido sin cocinar por completo; terminará en el caldo. Retira exceso de grasa si se acumula.",
+        "add_vegetables": "undefined Corta las patatas en piezas grandes y uniformes; piezas pequeñas se deshacen antes de que reduzca el caldo.",
+        "add_broth": "undefined Lleva justo a hervor, retira espuma y baja a fuego suave; hervir fuerte rompe las patatas.",
+        "simmer": "undefined Usa tapa caída o papel si puedes y detente cuando la patata esté tierna pero aún mantenga forma.",
+        "rest_nikujaga": "undefined Reposa tapado fuera del fuego 15–20 minutos y recalienta suavemente; así las patatas absorben sabor.",
+        "finish_greens": "undefined Añade las judías verdes solo al recalentar para mantener color y algo de textura."
+      },
+      "description": "Clásico guiso casero japonés de carne fina, patatas, cebolla y zanahoria en dashi dulce-salado. Mejora con un breve reposo para que las patatas absorban el caldo.",
+      "animeContext": "La receta se inspira en la cocina doméstica tradicional de Demon Slayer; sin escena verificada, el vínculo es cultural."
     },
     "fr": {
       "title": "Nikujaga, ragoût de viande et pommes de terre",
@@ -241,8 +265,16 @@
         "step_1": "Coupez pommes de terre et carotte en morceaux irréguliers et émincez l’oignon.",
         "step_2": "Faites revenir le bœuf puis ajoutez oignon, pommes de terre et carotte.",
         "step_3": "Ajoutez dashi, sauce soja, mirin et sucre puis portez à frémissement.",
-        "step_4": "Couvrez d’un couvercle au contact et mijotez environ 20 minutes."
-      }
+        "step_4": "Couvrez d’un couvercle au contact et mijotez environ 20 minutes.",
+        "sear_meat": "undefined Avec la viande fine, colorez rapidement sans cuire complètement; elle finira dans le bouillon. Retirez l’excès de gras si nécessaire.",
+        "add_vegetables": "undefined Coupez les pommes de terre en gros morceaux réguliers; de petits morceaux se défont trop tôt.",
+        "add_broth": "undefined Portez juste à ébullition, écumez puis baissez immédiatement; une forte ébullition casse les pommes de terre.",
+        "simmer": "undefined Utilisez un couvercle tombant ou du papier et arrêtez lorsque la pomme de terre est tendre mais encore entière.",
+        "rest_nikujaga": "undefined Reposez couvert hors feu 15–20 minutes puis réchauffez doucement; les pommes de terre absorbent mieux le goût.",
+        "finish_greens": "undefined Ajoutez les haricots verts seulement au réchauffage final pour garder couleur et croquant."
+      },
+      "description": "Classique mijoté familial japonais de viande fine, pommes de terre, oignon et carotte dans un dashi doux-salé. Un court repos aide les pommes de terre à absorber le bouillon.",
+      "animeContext": "La recette s’inspire de la cuisine familiale traditionnelle de Demon Slayer; sans scène vérifiée, le lien reste culturel."
     },
     "de": {
       "title": "Nikujaga, Fleisch-Kartoffel-Eintopf",
@@ -284,8 +316,16 @@
         "step_1": "Kartoffeln und Karotte unregelmäßig schneiden und die Zwiebel in Scheiben schneiden.",
         "step_2": "Dünnes Rindfleisch anbraten, dann Zwiebel, Kartoffeln und Karotte zugeben.",
         "step_3": "Dashi, Sojasauce, Mirin und Zucker zugeben und sanft köcheln lassen.",
-        "step_4": "Mit einem Fall-Deckel abdecken und etwa 20 Minuten köcheln lassen."
-      }
+        "step_4": "Mit einem Fall-Deckel abdecken und etwa 20 Minuten köcheln lassen.",
+        "sear_meat": "undefined Dünne Fleischscheiben nur schnell anbräunen, nicht vollständig garen; sie garen später weiter. Überschüssiges Fett abgießen.",
+        "add_vegetables": "undefined Kartoffeln groß und gleichmäßig schneiden; kleine Stücke zerfallen vor der Reduktion.",
+        "add_broth": "undefined Kurz aufkochen, abschäumen und sofort sanft köcheln; starkes Kochen zerbricht die Kartoffeln.",
+        "simmer": "undefined Wenn möglich Otoshibuta oder Pergament verwenden und stoppen, wenn Kartoffeln weich, aber noch formstabil sind.",
+        "rest_nikujaga": "undefined Abgedeckt 15–20 Minuten vom Herd ruhen lassen und sanft wieder erwärmen; so nehmen die Kartoffeln Würze auf.",
+        "finish_greens": "undefined Grüne Bohnen erst beim finalen Erwärmen zugeben, damit Farbe und Biss bleiben."
+      },
+      "description": "Klassischer japanischer Hausmannseintopf aus dünnem Fleisch, Kartoffeln, Zwiebeln und Karotten in süß-herzhaftem Dashi. Kurzes Ruhen lässt die Kartoffeln Brühe aufnehmen.",
+      "animeContext": "Das Rezept ist von der traditionellen Hausküche in Demon Slayer inspiriert; ohne verifizierte Szene bleibt der Bezug kulturell."
     },
     "pt": {
       "title": "Nikujaga, ensopado de carne e batata",
@@ -327,8 +367,31 @@
         "step_1": "Corte batatas e cenoura em pedaços irregulares e fatie a cebola.",
         "step_2": "Doure a carne em pouco óleo e junte cebola, batatas e cenoura.",
         "step_3": "Adicione dashi, molho de soja, mirin e açúcar e deixe ferver suavemente.",
-        "step_4": "Cubra com uma tampa de contato e cozinhe por cerca de 20 minutos."
-      }
+        "step_4": "Cubra com uma tampa de contato e cozinhe por cerca de 20 minutos.",
+        "sear_meat": "undefined Com carne fina, doure rapidamente sem cozinhar por completo; ela terminará no caldo. Retire excesso de gordura se houver.",
+        "add_vegetables": "undefined Corte as batatas em pedaços grandes e uniformes; pedaços pequenos se desfazem cedo.",
+        "add_broth": "undefined Leve apenas à fervura, retire espuma e abaixe imediatamente; fervura forte quebra as batatas.",
+        "simmer": "undefined Use tampa caída ou papel se possível e pare quando a batata estiver macia mas ainda inteira.",
+        "rest_nikujaga": "undefined Descanse tampado fora do fogo por 15–20 minutos e reaqueça suavemente; as batatas absorvem melhor o sabor.",
+        "finish_greens": "undefined Adicione vagem apenas no reaquecimento final para manter cor e textura."
+      },
+      "description": "Clássico cozido caseiro japonês de carne fina, batatas, cebola e cenoura em dashi agridoce. Um breve descanso ajuda as batatas a absorver o caldo.",
+      "animeContext": "A receita se inspira na cozinha caseira tradicional de Demon Slayer; sem cena verificada, o vínculo é cultural."
     }
+  },
+  "animeReferences": [
+    {
+      "workTitle": "Demon Slayer: Kimetsu no Yaiba",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Nikujaga verified as Japanese home cooking of thin meat, potatoes and onion simmered in dashi/soy/mirin/sake/sugar; resting in the broth improves flavour.",
+    "animeStatus": "unverified",
+    "animeNote": "Demon Slayer association retained as inspiration; no exact nikujaga scene claimed."
   }
 }
