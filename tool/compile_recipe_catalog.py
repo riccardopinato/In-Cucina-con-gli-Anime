@@ -5,6 +5,8 @@ import json
 import sys
 from pathlib import Path
 
+from f3g_editorial_gate import validate_f3g_recipe
+
 from recipe_authoring_lib import (
     AuthoringError,
     build_authoring_report,
@@ -129,6 +131,10 @@ def run(
         validation_errors.extend(
             f"{path.relative_to(ROOT)}: {error}"
             for error in errors
+        )
+        validation_errors.extend(
+            f"{path.relative_to(ROOT)}: {error}"
+            for error in validate_f3g_recipe(recipe, config)
         )
         completeness.append(locale_report)
         recipes.append(recipe)
