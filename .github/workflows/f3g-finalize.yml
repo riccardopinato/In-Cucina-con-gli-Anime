@@ -48,3 +48,5 @@ jobs:
       - name: Enforce compiler
         shell: bash
         run: test "$(cat build/f3g-finalize-status.txt)" = "0"
+
+# rerun after final semantic-review fix
