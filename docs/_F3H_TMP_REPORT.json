@@ -4,10 +4,8 @@
   "catalogVersion": "0.7.0",
   "recipeCount": 50,
   "validation": {
-    "status": "FAIL",
-    "errors": [
-      "authoring/recipes/recipe_000015.json: recipe_000015.imageAssetId semantic review is stale"
-    ]
+    "status": "PASS",
+    "errors": []
   },
   "localization": [
     {

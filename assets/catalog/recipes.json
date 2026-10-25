@@ -1227,7 +1227,7 @@
     },
     {
       "id": "recipe_000015",
-      "contentVersion": 3,
+      "contentVersion": 4,
       "status": "published",
       "inspirationTitle": "Demon Slayer: Kimetsu no Yaiba",
       "animeReferences": [
@@ -1245,7 +1245,7 @@
       "difficulty": "easy",
       "imageAsset": "assets/recipe_artwork/recipe_000015.jpg",
       "contentOrigin": "adapted",
-      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
+      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded. F3H: green-bean finishing ingredient declared explicitly to match the preparation.",
       "ingredients": [
         {
           "id": "thin_beef",
@@ -1286,6 +1286,11 @@
           "id": "sugar",
           "quantity": 1,
           "unit": "tbsp"
+        },
+        {
+          "id": "green_beans",
+          "quantity": 50,
+          "unit": "g"
         }
       ],
       "steps": [

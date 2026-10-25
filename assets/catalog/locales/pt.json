@@ -698,6 +698,10 @@
         "sugar": {
           "name": "Açúcar",
           "note": null
+        },
+        "green_beans": {
+          "name": "Vagem",
+          "note": null
         }
       },
       "stepTexts": {
