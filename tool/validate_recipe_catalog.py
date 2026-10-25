@@ -82,6 +82,38 @@ def validate_recipe(
     if not non_empty_string(recipe.get("inspirationTitle")):
         errors.append(f"{recipe_id}.inspirationTitle is required")
 
+    anime_references = recipe.get("animeReferences", [])
+    if not isinstance(anime_references, list):
+        errors.append(f"{recipe_id}.animeReferences must be an array")
+    else:
+        for position, reference in enumerate(anime_references):
+            ref_label = f"{recipe_id}.animeReferences[{position}]"
+            if not isinstance(reference, dict):
+                errors.append(f"{ref_label} must be an object")
+                continue
+            if not non_empty_string(reference.get("workTitle")):
+                errors.append(f"{ref_label}.workTitle is required")
+            if reference.get("relation") not in {
+                "verified_appearance",
+                "recurring_association",
+                "inspired",
+                "unverified",
+            }:
+                errors.append(f"{ref_label}.relation is invalid")
+            season = reference.get("season")
+            if season is not None and (
+                not is_int(season) or season < 1
+            ):
+                errors.append(
+                    f"{ref_label}.season must be null or integer >= 1"
+                )
+            for key in ("episode", "chapter"):
+                value = reference.get(key)
+                if value is not None and not isinstance(value, str):
+                    errors.append(
+                        f"{ref_label}.{key} must be null or string"
+                    )
+
     for field in ("prepMinutes", "cookMinutes"):
         value = recipe.get(field)
         if not is_int(value) or value < 0:
@@ -259,6 +291,13 @@ def validate() -> list[str]:
                 continue
             if not non_empty_string(text.get("title")):
                 errors.append(f"{locale}.{recipe_id}.title is required")
+            for field in ("description", "animeContext"):
+                value = text.get(field)
+                if value is not None and not non_empty_string(value):
+                    errors.append(
+                        f"{locale}.{recipe_id}.{field} must be "
+                        "null or a non-empty string"
+                    )
 
             ingredient_texts = text.get("ingredientTexts")
             if not isinstance(ingredient_texts, dict):
