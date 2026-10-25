@@ -1,6 +1,6 @@
 # Android persistent signing — update in place
 
-Status: VERIFIED on 2026-10-25 — persistent Android signing active in CI.
+Status: CI VERIFIED + FIRST PERSISTENT DEVICE INSTALL PASS on 2026-10-25 — update-in-place verification pending.
 
 ## Goal
 
@@ -81,3 +81,22 @@ Verified on GitHub Actions run `40148542064`:
 - certificate SHA-256: `DE:E1:CC:45:2B:F6:08:9D:67:98:D9:23:1F:21:DD:A5:C8:88:81:16:8B:07:B3:58:9B:F6:4B:E1:99:A1:22:5A`.
 
 This matches the documented persistent certificate exactly.
+
+
+## Physical device evidence — first persistent install
+
+User-confirmed on 2026-10-25:
+
+- the persistent-signed Android APK launches and works correctly on the physical phone;
+- the newly added recipe artwork renders correctly on-device;
+- no artwork defect was reported in the current twenty-recipe catalog.
+
+This closes the first-install runtime check for the persistent signing lane, but it does **not** yet prove update-in-place continuity.
+
+The next acceptance check is:
+
+1. produce a later persistent-signed APK with a higher Android versionCode;
+2. install it over the currently installed persistent-signed APK **without uninstalling**;
+3. confirm launch succeeds and existing local user state remains available.
+
+Only after that physical check may update-in-place be marked VERIFIED.
