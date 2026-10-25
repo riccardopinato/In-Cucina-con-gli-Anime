@@ -323,7 +323,7 @@
         "fill_moulds": "Versa la pastella nelle cavità arrivando quasi al bordo. Riempi completamente le cavità e lascia volutamente un po’ di pastella anche sulla superficie superiore: l’eccesso verrà inglobato nelle sfere durante la rotazione.",
         "add_fillings": "Inserisci in ogni cavità un cubetto di polpo con un po’ di beni shoga, tenkasu e cipollotto. Usa cubetti di polpo piccoli, così ogni sfera può ruotare liberamente: troppo ripieno strappa la crosta e lascia il centro freddo.",
         "turn_balls": "Quando il fondo inizia a rassodarsi, gira gradualmente i takoyaki con stecchini di legno, raccogliendo la pastella in eccesso finché diventano rotondi e dorati. Inizia con una rotazione di circa 90° appena il bordo esterno è stabile, infila sotto la pastella libera e continua a ruotare poco alla volta finché tutte le facce sono dorate. Non aspettare che un lato diventi duro prima del primo giro.",
-        "finish": "Servi caldi con salsa takoyaki, maionese giapponese e katsuobushi. undefined Controlla che il polpo sia caldo e la superficie uniformemente dorata, poi aggiungi le salse solo al servizio: condire troppo presto ammorbidisce la crosta."
+        "finish": "Servi caldi con salsa takoyaki, maionese giapponese e katsuobushi. Controlla che il polpo sia caldo e la superficie uniformemente dorata, poi aggiungi le salse solo al servizio: condire troppo presto ammorbidisce la crosta."
       }
     },
     "recipe_000008": {
@@ -503,11 +503,11 @@
         }
       },
       "stepTexts": {
-        "step_1": "Incidi leggermente la bistecca a griglia, coprila con la cipolla tritata finissima e lasciala riposare per 30 minuti. undefined Distribuisci la cipolla tritata su entrambi i lati e tieni la carne in frigorifero durante il riposo. Prima di rosolare rimuovi e conserva la cipolla: se resta bagnata sulla superficie impedisce una buona doratura. undefined Dopo aver tolto la cipolla asciuga perfettamente la carne e condiscila solo poco prima della padella: salare con troppo anticipo riporterebbe umidità in superficie.",
-        "step_2": "Rimuovi la cipolla e rosolala nel burro finché è dorata e ben caramellata. undefined Usa una padella pesante ben calda e non muovere la bistecca per i primi 60–90 secondi. Girala quando si è formata la crosta, poi abbassa la fiamma se serve per portare il cuore al grado di cottura desiderato senza bruciare il burro.",
-        "step_3": "Rosola la bistecca a fuoco alto per circa 2 minuti per lato, poi sfuma con salsa di soia e vino rosso. undefined Cuoci la cipolla tenuta da parte finché è morbida e appena dorata prima di aggiungere il vino. Riduci il vino circa della metà, poi unisci soia e burro lontano dalla fiamma più forte, così la salsa diventa lucida invece che unta.",
-        "step_4": "Mescola il riso caldo con l’umeboshi tritata e sistemalo in una ciotola. undefined Lascia riposare la bistecca 5–8 minuti prima di tagliarla controfibra. Quando i succhi si sono stabilizzati, affetta e versa nella salsa anche il liquido raccolto durante il riposo.",
-        "step_5": "Affetta la bistecca, adagiala sul riso e completa con cipolla caramellata e fondo di cottura. undefined Allarga il riso nella ciotola, disponi le fette di carne leggermente a ventaglio e versa la salsa soprattutto attorno e tra le fette, senza coprire del tutto la superficie rosolata."
+        "step_1": "Incidi leggermente la bistecca a griglia, coprila con la cipolla tritata finissima e lasciala riposare per 30 minuti. Distribuisci la cipolla tritata su entrambi i lati e tieni la carne in frigorifero durante il riposo. Prima di rosolare rimuovi e conserva la cipolla: se resta bagnata sulla superficie impedisce una buona doratura. Dopo aver tolto la cipolla asciuga perfettamente la carne e condiscila solo poco prima della padella: salare con troppo anticipo riporterebbe umidità in superficie.",
+        "step_2": "Rosola la bistecca a fuoco alto per circa 2 minuti per lato, adattando il tempo allo spessore e al grado di cottura sicuro desiderato. Usa una padella pesante ben calda e non muovere la bistecca per i primi 60–90 secondi. Girala quando si è formata la crosta, poi abbassa la fiamma se serve per portare il cuore al grado di cottura desiderato senza bruciare il burro.",
+        "step_3": "Rimuovi la cipolla e rosolala nel burro finché è dorata e ben caramellata. Cuoci la cipolla tenuta da parte finché è morbida e appena dorata prima di aggiungere il vino. Riduci il vino circa della metà, poi unisci soia e burro lontano dalla fiamma più forte, così la salsa diventa lucida invece che unta.",
+        "step_4": "Mescola il riso caldo con l’umeboshi tritata e sistemalo in una ciotola.",
+        "step_5": "Lascia riposare la bistecca 5–8 minuti prima di tagliarla controfibra. Quando i succhi si sono stabilizzati, affetta e versa nella salsa anche il liquido raccolto durante il riposo. Affetta la bistecca, adagiala sul riso e completa con cipolla caramellata e fondo di cottura. Allarga il riso nella ciotola, disponi le fette di carne leggermente a ventaglio e versa la salsa soprattutto attorno e tra le fette, senza coprire del tutto la superficie rosolata."
       }
     },
     "recipe_000012": {
@@ -549,11 +549,11 @@
         }
       },
       "stepTexts": {
-        "step_1": "Lessa le patate finché sono morbide e schiacciale. Salta cipolla e fungo tritati nel burro e incorporali alle patate. undefined Scola le patate molto bene e rimet tile nella pentola calda per 1–2 minuti per far evaporare l’umidità prima di schiacciarle: un purè bagnato non manterrà la forma dell’arrosto. undefined Cuoci i funghi finché l’acqua rilasciata è evaporata e i bordi iniziano a dorare: aggiungerli ancora acquosi renderebbe il centro di patate troppo morbido. undefined Incorpora i funghi alle patate ancora tiepide e condisci prima che il composto si raffreddi. Assaggia ora: il bacon aggiungerà sapidità, ma anche il cuore deve essere ben condito.",
-        "step_2": "Compatta il composto di patate dandogli la forma di un arrosto. undefined Se il cilindro di patate è morbido, raffreddalo circa 10 minuti: una superficie più ferma facilita molto l’avvolgimento con il bacon e impedisce che si schiacci. undefined Sovrapponi le fette di bacon per circa un terzo, così il ripieno non fuoriesce mentre il grasso si scioglie, e sistema la chiusura verso il basso prima del forno.",
-        "step_3": "Avvolgi il blocco con fette di bacon sovrapposte e fermalo con spago da cucina e rosmarino. undefined Cuoci finché il bacon è ben dorato e croccante ai bordi; se il centro è già caldo ma il bacon resta pallido, termina brevemente con il grill invece di seccare troppo le patate.",
-        "step_4": "Inforna a 200°C finché il bacon è dorato e croccante, circa 30–40 minuti. undefined Deglassa solo dopo aver eliminato il grasso di bacon in eccesso. Riduci il vino finché perde l’odore alcolico crudo, poi unisci soia e burro per una salsa lucida e non unta.",
-        "step_5": "Sfuma la teglia con vino rosso, salsa di soia e burro e versa la salsa sull’arrosto affettato. undefined Lascia riposare l’arrosto 5 minuti prima di affettarlo, così il cuore di patate si rassoda leggermente; usa un coltello seghettato con movimenti delicati per non staccare il bacon."
+        "step_1": "Lessa le patate finché sono morbide e schiacciale. Salta cipolla e fungo tritati nel burro e incorporali alle patate. Scola le patate molto bene e rimettile nella pentola calda per 1–2 minuti per far evaporare l’umidità prima di schiacciarle: un purè bagnato non manterrà la forma dell’arrosto. Cuoci i funghi finché l’acqua rilasciata è evaporata e i bordi iniziano a dorare: aggiungerli ancora acquosi renderebbe il centro di patate troppo morbido. Incorpora i funghi alle patate ancora tiepide e condisci prima che il composto si raffreddi. Assaggia ora: il bacon aggiungerà sapidità, ma anche il cuore deve essere ben condito.",
+        "step_2": "Compatta il composto di patate dandogli la forma di un arrosto. Se il cilindro di patate è morbido, raffreddalo circa 10 minuti: una superficie più ferma facilita molto l’avvolgimento con il bacon e impedisce che si schiacci.",
+        "step_3": "Avvolgi il blocco con fette di bacon sovrapposte e fermalo con spago da cucina e rosmarino. Sovrapponi le fette di bacon per circa un terzo, così il ripieno non fuoriesce mentre il grasso si scioglie, e sistema la chiusura verso il basso prima del forno.",
+        "step_4": "Inforna a 200°C finché il bacon è dorato e croccante, circa 30–40 minuti. Cuoci finché il bacon è ben dorato e croccante ai bordi; se il centro è già caldo ma il bacon resta pallido, termina brevemente con il grill invece di seccare troppo le patate.",
+        "step_5": "Lascia riposare l’arrosto 5 minuti prima di affettarlo, così il cuore di patate si rassoda leggermente; usa un coltello seghettato con movimenti delicati per non staccare il bacon. Sfuma la teglia con vino rosso, salsa di soia e burro e versa la salsa sull’arrosto affettato. Deglassa solo dopo aver eliminato il grasso di bacon in eccesso. Riduci il vino finché perde l’odore alcolico crudo, poi unisci soia e burro per una salsa lucida e non unta."
       }
     },
     "recipe_000013": {
@@ -591,10 +591,10 @@
         }
       },
       "stepTexts": {
-        "step_1": "Rosola la carne a dadini in pentola, poi aggiungi cipolla affettata, carote e patate. undefined Lascia alla cipolla il tempo di ammorbidirsi e prendere una leggera doratura: costruisce dolcezza prima del roux ed evita una salsa piatta. undefined Se la pentola è affollata rosola il pollo in due riprese: cuocerlo pallido nel vapore in questa fase toglie profondità al curry.",
-        "step_2": "Copri con acqua o brodo e fai sobbollire per circa 20 minuti, finché le verdure sono tenere. undefined Taglia carota e patata in pezzi di dimensioni simili, così arrivano insieme a cottura; cubi di patata troppo piccoli si disfano e addensano la salsa prima del tempo. undefined Mantieni solo un sobbollore dolce e rimuovi schiuma o grasso in eccesso. Fermati quando le verdure sono appena tenere, perché continueranno a cuocere dopo l’aggiunta del roux.",
-        "step_3": "Aggiungi la mela grattugiata, spegni brevemente il fuoco e sciogli il roux di curry mescolando bene. undefined Aggiungi la mela grattugiata finemente, così si scioglie nella salsa senza lasciare pezzi. Parti con una quantità moderata: la dolcezza cambia molto tra varietà. undefined Spegni il fuoco prima di aggiungere il roux e scioglilo completamente, un pezzo alla volta. Sul fondo a calore diretto può bruciare prima di disperdersi.",
-        "step_4": "Riporta a fuoco basso finché la salsa è ricca e densa, poi servi accanto al riso caldo. undefined Riporta a fuoco basso e mescola dal fondo per 5–10 minuti, finché la salsa vela il cucchiaio. Aggiungi poca acqua calda solo se diventa più densa di una salsa colabile. undefined Lascia riposare il curry 5 minuti fuori dal fuoco prima di servire: la salsa si assesta e addensa leggermente, mentre il riso deve restare appena cotto e ben distinto."
+        "step_1": "Rosola la carne a dadini in pentola, poi aggiungi cipolla affettata, carote e patate. Lascia alla cipolla il tempo di ammorbidirsi e prendere una leggera doratura: costruisce dolcezza prima del roux ed evita una salsa piatta. Se la pentola è affollata, rosola la carne in due riprese: cuocerla pallida nel vapore in questa fase dà meno profondità al curry.",
+        "step_2": "Copri con acqua o brodo e fai sobbollire per circa 20 minuti, finché le verdure sono tenere. Taglia carota e patata in pezzi di dimensioni simili, così arrivano insieme a cottura; cubi di patata troppo piccoli si disfano e addensano la salsa prima del tempo. Mantieni solo un sobbollore dolce e rimuovi schiuma o grasso in eccesso. Fermati quando le verdure sono appena tenere, perché continueranno a cuocere dopo l’aggiunta del roux.",
+        "step_3": "Aggiungi la mela grattugiata, spegni brevemente il fuoco e sciogli il roux di curry mescolando bene. Aggiungi la mela grattugiata finemente, così si scioglie nella salsa senza lasciare pezzi. Parti con una quantità moderata: la dolcezza cambia molto tra varietà. Spegni il fuoco prima di aggiungere il roux e scioglilo completamente, un pezzo alla volta. Sul fondo a calore diretto può bruciare prima di disperdersi.",
+        "step_4": "Riporta a fuoco basso finché la salsa è ricca e densa, poi servi accanto al riso caldo. Riporta a fuoco basso e mescola dal fondo per 5–10 minuti, finché la salsa vela il cucchiaio. Aggiungi poca acqua calda solo se diventa più densa di una salsa colabile. Lascia riposare il curry 5 minuti fuori dal fuoco prima di servire: la salsa si assesta e addensa leggermente, mentre il riso deve restare appena cotto e ben distinto."
       }
     },
     "recipe_000014": {
@@ -637,13 +637,29 @@
         "spring_onion": {
           "name": "Cipollotto",
           "note": null
+        },
+        "neutral_oil": {
+          "name": "Olio neutro",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa di soia",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucchero",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Olio di sesamo tostato",
+          "note": null
         }
       },
       "stepTexts": {
-        "step_1": "Taglia il tofu a cubetti di circa 2 cm e sbollentalo per 1 minuto in acqua leggermente salata. undefined Taglia il tofu in cubi regolari da circa 2 cm e, se è molto fragile, scaldalo 1–2 minuti in acqua calda leggermente salata prima di scolarlo: la superficie si rassoda e si rompe meno. undefined Rosola finché il maiale non ha più parti crude e qualche bordo è croccante: la carne ben dorata crea profondità prima dell’aggiunta della pasta piccante.",
-        "step_2": "Scalda l’olio nel wok e soffriggi aglio, zenzero, pepe di Sichuan e doubanjiang finché sprigionano profumo. undefined Soffriggi brevemente il doubanjiang nel grasso finché l’olio diventa rosso e profumato, poi aggiungi aglio e zenzero solo negli ultimi 20–30 secondi per non bruciarli. undefined Aggiungi brodo e soia, porta a sobbollire e assaggia prima di aggiungere zucchero: marche diverse di doubanjiang cambiano molto per sale e piccantezza.",
-        "step_3": "Aggiungi il macinato di maiale e rosolalo bene, quindi versa il brodo. undefined Fai scivolare il tofu nella salsa e muovi la padella con piccoli scuotimenti o una spatola larga invece di mescolare con il cucchiaio; fai sobbollire 3–4 minuti senza sbriciolare i cubi.",
-        "step_4": "Unisci il tofu, cuoci per 5 minuti e addensa con amido di mais sciolto in acqua. Completa con cipollotto. undefined Versa la miscela di amido in due riprese mentre la salsa sobbolle, aspettando qualche secondo tra una e l’altra; fermati appena il fondo diventa lucido e vela leggermente il tofu. undefined Completa con olio di sesamo e cipollotto fuori dal fuoco: bollire a lungo dopo l’olio ne spegne il profumo."
+        "step_1": "Taglia il tofu a cubetti di circa 2 cm e sbollentalo per 1 minuto in acqua leggermente salata. Taglia il tofu in cubi regolari da circa 2 cm e, se è molto fragile, scaldalo 1–2 minuti in acqua calda leggermente salata prima di scolarlo: la superficie si rassoda e si rompe meno.",
+        "step_2": "Scalda l’olio neutro nel wok a fuoco medio-alto. Aggiungi il maiale macinato e rosolalo finché non resta carne cruda e qualche bordo diventa croccante. Unisci doubanjiang e pepe di Sichuan, soffriggi brevemente finché l’olio diventa rosso e profumato, poi aggiungi aglio e zenzero solo per 20–30 secondi per non bruciarli.",
+        "step_3": "Aggiungi brodo e soia, porta a sobbollire e assaggia prima di aggiungere zucchero: marche diverse di doubanjiang cambiano molto per sale e piccantezza. Fai scivolare il tofu nella salsa e muovi la padella con piccoli scuotimenti o una spatola larga invece di mescolare con il cucchiaio; fai sobbollire 3–4 minuti senza sbriciolare i cubi.",
+        "step_4": "Versa la miscela di amido in due riprese mentre la salsa sobbolle, aspettando qualche secondo tra una e l’altra; fermati appena il fondo diventa lucido e vela leggermente il tofu. Completa con olio di sesamo e cipollotto fuori dal fuoco: bollire a lungo dopo l’olio ne spegne il profumo."
       }
     },
     "recipe_000015": {
@@ -685,10 +701,10 @@
         }
       },
       "stepTexts": {
-        "step_1": "Taglia patate e carota a tocchetti irregolari e affetta la cipolla. undefined Con le fette sottili lavora rapidamente: colora la superficie senza cuocere del tutto la carne, perché finirà nel brodo. Se si accumula molto grasso, eliminane l’eccesso. undefined Taglia le patate in pezzi grandi e regolari e, se vuoi mantenerle integre, arrotonda gli spigoli più netti: pezzi piccoli si sfaldano prima che il fondo si riduca.",
-        "step_2": "Rosola il manzo sottile con poco olio, poi aggiungi cipolla, patate e carota. undefined Porta appena a bollore, elimina la schiuma e abbassa subito a sobbollire dolcemente. Un bollore violento rompe le patate e intorbida il fondo. undefined Se disponibile usa un otoshibuta o un disco di carta forno, così la superficie resta umida mentre il fondo si riduce. Fermati quando uno stecchino entra nella patata con poca resistenza ma i pezzi tengono ancora la forma.",
-        "step_3": "Versa dashi, salsa di soia, mirin e zucchero e porta a leggero bollore. undefined Lascia riposare la pentola coperta fuori dal fuoco 15–20 minuti, poi riscalda dolcemente. Raffreddandosi leggermente nel fondo le patate assorbono sapore senza continuare a sfaldarsi.",
-        "step_4": "Copri con un otoshibuta e fai sobbollire per circa 20 minuti, finché le verdure sono morbide e lucide. undefined Aggiungi i fagiolini solo nel riscaldamento finale, così restano verdi e leggermente croccanti invece di diventare molli e spenti."
+        "step_1": "Taglia patate e carota a tocchetti irregolari e affetta la cipolla. Taglia le patate in pezzi grandi e regolari e, se vuoi mantenerle integre, arrotonda gli spigoli più netti: pezzi piccoli si sfaldano prima che il fondo si riduca.",
+        "step_2": "Rosola il manzo sottile con poco olio, poi aggiungi cipolla, patate e carota. Con le fette sottili lavora rapidamente: colora la superficie senza cuocere del tutto la carne, perché finirà nel brodo. Se si accumula molto grasso, eliminane l’eccesso.",
+        "step_3": "Versa dashi, salsa di soia, mirin e zucchero e porta a leggero bollore. Porta appena a bollore, elimina la schiuma e abbassa subito a sobbollire dolcemente. Un bollore violento rompe le patate e intorbida il fondo.",
+        "step_4": "Copri con un otoshibuta e fai sobbollire per circa 20 minuti, finché le verdure sono morbide e lucide. Lascia riposare la pentola coperta fuori dal fuoco 15–20 minuti, poi riscalda dolcemente. Raffreddandosi leggermente nel fondo le patate assorbono sapore senza continuare a sfaldarsi."
       }
     },
     "recipe_000016": {
@@ -730,10 +746,10 @@
         }
       },
       "stepTexts": {
-        "step_1": "Taglia il pollo a bocconcini da 3–4 cm e marinalo per 20 minuti con salsa di soia, sake, zenzero e aglio. undefined Mantieni i bocconi intorno a 3–4 cm, così cuociono allo stesso ritmo; lascia un po’ di pelle su ogni pezzo perché protegge la carne e diventa molto croccante. undefined Marina in frigorifero, non a temperatura ambiente, e non prolungare troppo: la soia deve insaporire senza rendere l’esterno eccessivamente salato. Scola il liquido in eccesso prima della fecola.",
-        "step_2": "Passa ogni bocconcino nella fecola di patate facendola aderire bene. undefined Passa nella fecola subito prima della frittura e premi un po’ di amido nelle pieghe della pelle: piccole zone irregolari e asciutte creano la tipica crosta frastagliata. undefined Friggi poche porzioni alla volta, così l’olio resta vicino alla temperatura prevista. La prima frittura deve cuocere il pollo con delicatezza senza portare la crosta oltre un dorato chiaro.",
-        "step_3": "Friggi a circa 160°C per 4 minuti, scola e lascia riposare 2 minuti. undefined Lascia riposare su una griglia, non sulla carta, per alcuni minuti: l’aria evita che la parte inferiore si ammorbidisca e il calore residuo raggiunge il centro. undefined Alza la temperatura dell’olio e friggi solo finché l’esterno diventa ben dorato e chiaramente croccante, in genere meno di 1–2 minuti. Il pollo deve essere già cotto in sicurezza prima di questa finitura rapida.",
-        "step_4": "Fai una seconda frittura a circa 180°C per 1 minuto finché è molto croccante e servi con limone. undefined Condisci solo dopo aver assaggiato perché la marinata è già sapida e servi subito con limone, finché la crosta è asciutta e fragile."
+        "step_1": "Taglia il pollo a bocconcini da 3–4 cm e marinalo per 20 minuti con salsa di soia, sake, zenzero e aglio. Mantieni i bocconi intorno a 3–4 cm, così cuociono allo stesso ritmo; lascia un po’ di pelle su ogni pezzo perché protegge la carne e diventa molto croccante. Marina in frigorifero, non a temperatura ambiente, e non prolungare troppo: la soia deve insaporire senza rendere l’esterno eccessivamente salato. Scola il liquido in eccesso prima della fecola.",
+        "step_2": "Passa ogni bocconcino nella fecola di patate facendola aderire bene. Passa nella fecola subito prima della frittura e premi un po’ di amido nelle pieghe della pelle: piccole zone irregolari e asciutte creano la tipica crosta frastagliata.",
+        "step_3": "Friggi poche porzioni alla volta, così l’olio resta vicino alla temperatura prevista. La prima frittura deve cuocere il pollo con delicatezza senza portare la crosta oltre un dorato chiaro. Friggi a circa 160°C per 4 minuti, scola e lascia riposare 2 minuti. Lascia riposare su una griglia, non sulla carta, per alcuni minuti: l’aria evita che la parte inferiore si ammorbidisca e il calore residuo raggiunge il centro. Alza la temperatura dell’olio e friggi solo finché l’esterno diventa ben dorato e chiaramente croccante, in genere meno di 1–2 minuti. Il pollo deve essere già cotto in sicurezza prima di questa finitura rapida.",
+        "step_4": "Fai una seconda frittura a circa 180°C per 1 minuto finché è molto croccante e servi con limone. Condisci solo dopo aver assaggiato perché la marinata è già sapida e servi subito con limone, finché la crosta è asciutta e fragile."
       }
     },
     "recipe_000017": {
@@ -767,10 +783,10 @@
         }
       },
       "stepTexts": {
-        "step_1": "Sbatti delicatamente le uova con dashi, zucchero, salsa di soia e un pizzico di sale senza creare troppa schiuma. undefined Mescola invece di montare, così non crei uno strato di schiuma. Se vuoi una consistenza particolarmente uniforme, filtra il composto prima della cottura. undefined Mantieni la padella a fuoco medio-basso e passa solo un velo sottilissimo d’olio tra uno strato e l’altro. Troppo olio crea spazi unti nella spirale.",
-        "step_2": "Ungi leggermente una padella rettangolare e versa un velo sottile di uovo. undefined Versa solo l’uovo necessario a coprire il fondo con uno strato sottile. Rompi rapidamente le bolle grandi e inizia ad arrotolare quando la superficie è ancora appena umida, così gli strati si saldano. undefined Arrotola con bacchette o spatola senza schiacciare il cilindro. Riporta il rotolo al bordo di partenza e ungi la parte libera della padella prima del nuovo strato.",
-        "step_3": "Quando è appena rappreso, arrotola l’uovo verso un lato della padella. undefined Solleva leggermente il rotolo quando versi nuovo uovo, così una piccola quantità scorre sotto e incolla gli strati. Continua fino a terminare il composto.",
-        "step_4": "Versa un altro strato, fallo scorrere sotto il rotolo e arrotola di nuovo. Ripeti fino a esaurire il composto, poi modella e affetta. undefined Avvolgi il rotolo caldo in un makisu o carta forno pulita per 2–3 minuti, così prende una forma ordinata, poi affetta con coltello affilato e appena umido quando il vapore più intenso è passato."
+        "step_1": "Sbatti delicatamente le uova con dashi, zucchero, salsa di soia e un pizzico di sale senza creare troppa schiuma. Mescola invece di montare, così non crei uno strato di schiuma. Se vuoi una consistenza particolarmente uniforme, filtra il composto prima della cottura.",
+        "step_2": "Mantieni la padella a fuoco medio-basso e passa solo un velo sottilissimo d’olio tra uno strato e l’altro. Troppo olio crea spazi unti nella spirale. Ungi leggermente una padella rettangolare e versa un velo sottile di uovo. Versa solo l’uovo necessario a coprire il fondo con uno strato sottile. Rompi rapidamente le bolle grandi e inizia ad arrotolare quando la superficie è ancora appena umida, così gli strati si saldano. Arrotola con bacchette o spatola senza schiacciare il cilindro. Riporta il rotolo al bordo di partenza e ungi la parte libera della padella prima del nuovo strato.",
+        "step_3": "Quando è appena rappreso, arrotola l’uovo verso un lato della padella. Solleva leggermente il rotolo quando versi nuovo uovo, così una piccola quantità scorre sotto e incolla gli strati. Continua fino a terminare il composto.",
+        "step_4": "Versa un altro strato, fallo scorrere sotto il rotolo e arrotola di nuovo. Ripeti fino a esaurire il composto, poi modella e affetta. Avvolgi il rotolo caldo in un makisu o carta forno pulita per 2–3 minuti, così prende una forma ordinata, poi affetta con coltello affilato e appena umido quando il vapore più intenso è passato."
       }
     },
     "recipe_000018": {
@@ -817,14 +833,18 @@
         "soy_sauce": {
           "name": "Salsa di soia",
           "note": null
+        },
+        "shiitake": {
+          "name": "Funghi shiitake freschi",
+          "note": null
         }
       },
       "stepTexts": {
-        "step_1": "Impasta farina, lievito, acqua tiepida e zucchero fino a ottenere un impasto liscio, poi lascia lievitare circa 1 ora fino al raddoppio. undefined Usa acqua tiepida, non calda, per non danneggiare il lievito; prima di impastare il composto deve diventare grezzo ma senza farina asciutta. undefined Impasta finché la superficie diventa liscia ed elastica, non solo seguendo il cronometro. Se si strappa subito quando la tendi, lasciala riposare qualche minuto e lavora ancora. undefined Valuta la prima lievitazione dal volume: l’impasto deve circa raddoppiare e risultare arioso. In un ambiente fresco può servire più dell’ora indicativa.",
-        "step_2": "Mescola il maiale con cavolo tritato e ben strizzato, cipollotto, zenzero, salsa di soia e olio di sesamo. undefined Mescola il ripieno finché il maiale diventa leggermente appiccicoso e compatto, ma tienilo in frigorifero fino alla formatura. Strizza l’acqua in eccesso da cavolo e funghi se sono molto umidi.",
-        "step_3": "Dividi l’impasto, stendilo in dischi con i bordi più sottili e metti una cucchiaiata di ripieno al centro. undefined Tieni coperte le porzioni che non stai lavorando, così la superficie non forma una pellicola secca difficile da piegare e sigillare. undefined Lascia il centro di ogni disco più spesso del bordo, metti il ripieno al centro e crea le pieghe con la parte sottile verso l’alto. Pizzica bene la chiusura finale, così i succhi restano dentro durante il vapore.",
-        "step_4": "Pizzica le pieghe verso il centro per chiudere ogni panino a fagottino. undefined Lascia che i panini formati diventino visibilmente gonfi prima del vapore, ma senza arrivare a un raddoppio completo: una seconda lievitazione eccessiva può farli raggrinzire o collassare.",
-        "step_5": "Cuoci a vapore su quadratini di carta forno per 15–18 minuti e attendi un attimo prima di aprire la vaporiera. undefined Parti con vapore già attivo, tieni il coperchio chiuso durante la cottura e verifica che il ripieno di maiale sia cotto in sicurezza. A fine tempo spegni e aspetta 3–5 minuti prima di aprire gradualmente, così riduci il rischio di collasso."
+        "step_1": "Impasta farina, lievito, acqua tiepida e zucchero fino a ottenere un impasto liscio, poi lascia lievitare circa 1 ora fino al raddoppio. Usa acqua tiepida, non calda, per non danneggiare il lievito; prima di impastare il composto deve diventare grezzo ma senza farina asciutta. Impasta finché la superficie diventa liscia ed elastica, non solo seguendo il cronometro. Se si strappa subito quando la tendi, lasciala riposare qualche minuto e lavora ancora. Valuta la prima lievitazione dal volume: l’impasto deve circa raddoppiare e risultare arioso. In un ambiente fresco può servire più dell’ora indicativa.",
+        "step_2": "Mescola il maiale con cavolo tritato e ben strizzato, cipollotto, zenzero, salsa di soia e olio di sesamo. Mescola il ripieno finché il maiale diventa leggermente appiccicoso e compatto, ma tienilo in frigorifero fino alla formatura. Strizza l’acqua in eccesso da cavolo e funghi se sono molto umidi.",
+        "step_3": "Dividi l’impasto, stendilo in dischi con i bordi più sottili e metti una cucchiaiata di ripieno al centro. Tieni coperte le porzioni che non stai lavorando, così la superficie non forma una pellicola secca difficile da piegare e sigillare. Lascia il centro di ogni disco più spesso del bordo, metti il ripieno al centro e crea le pieghe con la parte sottile verso l’alto. Pizzica bene la chiusura finale, così i succhi restano dentro durante il vapore.",
+        "step_4": "Pizzica le pieghe verso il centro per chiudere ogni panino a fagottino. Lascia che i panini formati diventino visibilmente gonfi prima del vapore, ma senza arrivare a un raddoppio completo: una seconda lievitazione eccessiva può farli raggrinzire o collassare.",
+        "step_5": "Cuoci a vapore su quadratini di carta forno per 15–18 minuti e attendi un attimo prima di aprire la vaporiera. Parti con vapore già attivo, tieni il coperchio chiuso durante la cottura e verifica che il ripieno di maiale sia cotto in sicurezza. A fine tempo spegni e aspetta 3–5 minuti prima di aprire gradualmente, così riduci il rischio di collasso."
       }
     },
     "recipe_000019": {
@@ -1385,7 +1405,7 @@
         }
       },
       "stepTexts": {
-        "cook_potatoes": "Pela le patate e tagliale in pezzi regolari. Lessale in acqua salata finché un coltello entra senza resistenza, poi scolale molto bene e schiacciale ancora calde. Se sono umide, rimet tile brevemente nella pentola calda asciutta per far evaporare l’acqua.",
+        "cook_potatoes": "Pela le patate e tagliale in pezzi regolari. Lessale in acqua salata finché un coltello entra senza resistenza, poi scolale molto bene e schiacciale ancora calde. Se sono umide, rimettile brevemente nella pentola calda asciutta per far evaporare l’acqua.",
         "cook_filling": "Sciogli il burro, ammorbidisci la cipolla fino a trasparenza e aggiungi il macinato. Rosola sgranando bene; condisci con soia, pepe e poca noce moscata e prosegui finché non resta carne cruda.",
         "mix_cool": "Mescola patate asciutte, carne e cipolla. Stendi il composto in uno strato basso su una teglia per disperdere rapidamente il calore; quando non fuma più, trasferiscilo in frigorifero finché è abbastanza freddo da mantenere la forma, invece di lasciarlo a lungo a temperatura ambiente.",
         "shape": "Dividi in otto porzioni e forma ovali compatti spessi circa 2 cm. Liscia le crepe con mani umide: bordi sbriciolati possono aprirsi nell’olio.",
@@ -1399,7 +1419,7 @@
       "animeContext": "Ispirato al tono da comfort food quotidiano associato a Chainsaw Man. L’identità culinaria corretta è Katsu Curry; non indichiamo un episodio preciso.",
       "ingredientTexts": {
         "pork_cutlets": {
-          "name": "Cotolette tonkatsu di maiale",
+          "name": "Cotolette crude di lonza di maiale spesse 1,5–2 cm",
           "note": null
         },
         "rice": {
@@ -1427,11 +1447,23 @@
           "note": null
         },
         "oil": {
-          "name": "Olio neutro",
+          "name": "Olio neutro, per soffritto e frittura",
           "note": null
         },
         "fukujinzuke": {
           "name": "Fukujinzuke, facoltativo",
+          "note": null
+        },
+        "flour": {
+          "name": "Farina 00",
+          "note": null
+        },
+        "egg": {
+          "name": "Uovo grande",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
           "note": null
         }
       },
@@ -1440,7 +1472,7 @@
         "start_curry": "Scalda l’olio in casseruola, aggiungi la cipolla affettata e cuoci finché è morbida con bordi appena dorati. Unisci carota e patata a pezzi regolari e rosola 2–3 minuti.",
         "simmer_vegetables": "Versa 500 ml d’acqua o brodo leggero, porta a bollore, schiuma se necessario, poi copri parzialmente e cuoci circa 15 minuti, finché le verdure sono tenere ma non disfatte.",
         "add_roux": "Spegni il fuoco prima di aggiungere il roux. Spezzetta circa 45 g, mescola finché è completamente sciolto, poi riaccendi al minimo e fai sobbollire 4–5 minuti mescolando sul fondo, fino a ottenere una salsa lucida che vela il cucchiaio. Se la marca indica un rapporto diverso, segui la confezione.",
-        "cook_tonkatsu": "Mentre il curry sobbolle prepara il tonkatsu: impana e friggi il maiale fino a crosta croccante e interno cotto in sicurezza. Fallo riposare brevemente su griglia, poi affettalo con tagli netti.",
+        "cook_tonkatsu": "Asciuga bene il maiale. Pratica piccoli tagli nel bordo di grasso e connettivo ogni 2–3 cm per evitare che si incurvi, poi batti solo quanto basta a uniformare lo spessore e ricompatta la fetta con le mani. Sala e pepa entrambi i lati. Passa in poca farina eliminando l’eccesso, ricopri completamente con uovo sbattuto e premi nel panko senza schiacciare i fiocchi. Lascia riposare 5 minuti perché la crosta aderisca. Porta 4–5 cm d’olio a circa 170°C. Friggi senza affollare finché il panko è dorato chiaro, circa 3 minuti per lato per una fetta da 1,5–2 cm; mantieni l’olio tra 165 e 175°C. Trasferisci su una griglia per 3 minuti: il calore residuo completa il centro. Verifica una cottura sicura secondo le indicazioni locali; con un termometro misura il punto più spesso, non affidarti solo al colore della crosta.",
         "assemble": "Disponi il riso caldo su un lato del piatto, appoggia accanto il tonkatsu affettato e versa il curry in modo che copra solo parte della cotoletta, lasciando visibile una zona croccante. Completa con fukujinzuke se vuoi."
       }
     },
@@ -1809,7 +1841,7 @@
     "recipe_000037": {
       "title": "Ozoni in stile Kanto",
       "description": "Una zuppa di Capodanno in stile Kanto, con brodo limpido di dashi, mochi grigliato, pollo e verdure. L’ozoni cambia molto tra regioni e famiglie: per questo la ricetta dichiara esplicitamente lo stile invece di presentarlo come unica versione nazionale.",
-      "animeContext": "Fruits Basket ha forti riferimenti al Capodanno e al mochi, quindi l’ozoni è un’associazione culturale coerente. La ciotola qui proposta è esplicitamente la ricostruzione in stile Kanto dell’app.",
+      "animeContext": "Fruits Basket ha un forte contesto legato al Capodanno, ma questo ozoni in stile Kanto è presentato come ispirazione culinaria stagionale e non come piatto ricorrente verificato nella serie.",
       "ingredientTexts": {
         "kirimochi": {
           "name": "Kirimochi",
@@ -1933,7 +1965,7 @@
     "recipe_000040": {
       "title": "Matcha Roll Cake",
       "description": "Un biscuit leggero al tè verde arrotolato attorno a panna montata morbida, con anko facoltativo per una nota dolce e terrosa. Pre-arrotolare il biscuit da caldo abitua la mollica alla curva e riduce le crepe nel rotolo finale.",
-      "animeContext": "K-On! è fortemente associato a tè e torte nella stanza del club di musica leggera. Il rotolo al matcha è presentato come associazione ricorrente con quella cultura del dolce, non come ricetta mostrata in una scena precisa.",
+      "animeContext": "Tè e dolci sono elementi ricorrenti in K-On!, ma questo matcha roll cake è un’ispirazione culinaria dell’app e non una torta ricorrente verificata nella serie.",
       "ingredientTexts": {
         "eggs": {
           "name": "Uova grandi separate",
