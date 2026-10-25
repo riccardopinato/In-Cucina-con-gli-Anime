@@ -1,0 +1,439 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000041",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Food Wars! Shokugeki no Soma",
+  "animeReferences": [
+    {
+      "workTitle": "Food Wars! Shokugeki no Soma",
+      "relation": "verified_appearance",
+      "season": 1,
+      "episode": "13–14",
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "corrected",
+    "culinaryNote": "Dish is real, but source soy-broth sauce was replaced with a light tomato sauce to better match the anime-associated soufflé omelette recreation.",
+    "animeStatus": "verified",
+    "animeNote": "Soufflé omelette is directly associated with Food Wars season 1 episodes 13–14."
+  },
+  "prepMinutes": 15,
+  "cookMinutes": 15,
+  "servings": 2,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from Ricettario Vol. 5; sauce corrected toward the anime-associated tomato presentation and egg-cooking cues expanded.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "eggs",
+      "quantity": 4,
+      "unit": null
+    },
+    {
+      "id": "cream",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "butter",
+      "quantity": 15,
+      "unit": "g"
+    },
+    {
+      "id": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "id": "white_pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "id": "chives",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "tomato_passata",
+      "quantity": 150,
+      "unit": "ml"
+    },
+    {
+      "id": "ketchup",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "stock",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "id": "olive_oil",
+      "quantity": 1,
+      "unit": "tsp"
+    }
+  ],
+  "steps": [
+    {
+      "id": "make_tomato_sauce",
+      "timerSeconds": 480
+    },
+    {
+      "id": "separate_eggs",
+      "timerSeconds": 180
+    },
+    {
+      "id": "whip_whites",
+      "timerSeconds": 300
+    },
+    {
+      "id": "fold",
+      "timerSeconds": 180
+    },
+    {
+      "id": "cook_covered",
+      "timerSeconds": 360
+    },
+    {
+      "id": "fold_serve",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Food Wars-style Soufflé Omelette",
+      "description": "An ultra-light omelette built by folding whipped egg whites into seasoned yolks, cooked gently under a lid and paired with a bright tomato sauce. The texture is intentionally airy and fragile, so low heat and immediate serving matter more than aggressive browning.",
+      "animeContext": "This one has a direct Food Wars reference: the soufflé omelette is part of the season 1 breakfast-buffet challenge in episodes 13–14. The recipe is a fresh app reconstruction of the technique and tomato-sauce presentation.",
+      "ingredients": {
+        "eggs": {
+          "name": "Fresh eggs",
+          "note": null
+        },
+        "cream": {
+          "name": "Fresh cream",
+          "note": null
+        },
+        "butter": {
+          "name": "Butter",
+          "note": null
+        },
+        "salt": {
+          "name": "Fine salt",
+          "note": null
+        },
+        "white_pepper": {
+          "name": "White pepper",
+          "note": null
+        },
+        "chives": {
+          "name": "Fresh chives",
+          "note": null
+        },
+        "tomato_passata": {
+          "name": "Tomato passata",
+          "note": null
+        },
+        "ketchup": {
+          "name": "Ketchup",
+          "note": null
+        },
+        "stock": {
+          "name": "Light vegetable or chicken stock",
+          "note": null
+        },
+        "olive_oil": {
+          "name": "Olive oil",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_tomato_sauce": "Heat olive oil in a small saucepan, add passata, ketchup and stock, and simmer 6–8 minutes until the raw tomato edge softens and the sauce lightly coats a spoon. Keep warm, not boiling, while the omelette cooks.",
+        "separate_eggs": "Separate yolks and whites into perfectly clean dry bowls. Whisk yolks with cream, salt and white pepper until smooth; any yolk or grease in the whites can prevent a stable foam.",
+        "whip_whites": "Whip the whites from foamy to firm glossy peaks. Stop as soon as the peak stands upright with a slight curl; dry, grainy whites are harder to fold and produce a rough omelette.",
+        "fold": "Stir one third of the whites into the yolks to lighten them, then fold the rest in two additions with a wide spatula. Turn the bowl and scoop from the bottom until no large white streaks remain.",
+        "cook_covered": "Melt butter in a 20–22 cm non-stick pan over low heat. Add the foam, level gently, cover and cook about 5–6 minutes until the base is golden and the top is just set and springy; keep the heat low so the bottom does not burn before the centre cooks.",
+        "fold_serve": "Slide a spatula underneath, fold the omelette in half without pressing out the air and transfer to a warm plate. Spoon the hot tomato sauce around, not over, the centre so the soufflé stays visible; finish with chives and serve immediately."
+      }
+    },
+    "it": {
+      "title": "Soufflé Omelette in stile Food Wars",
+      "description": "Un’omelette leggerissima ottenuta incorporando albumi montati ai tuorli conditi, cotta dolcemente con coperchio e accompagnata da una salsa di pomodoro fresca. La struttura è volutamente ariosa e fragile: contano fiamma bassa e servizio immediato.",
+      "animeContext": "Qui il riferimento è diretto: la soufflé omelette compare nella sfida del buffet della prima stagione di Food Wars, episodi 13–14. La ricetta è una ricostruzione originale dell’app della tecnica e della presentazione con salsa di pomodoro.",
+      "ingredients": {
+        "eggs": {
+          "name": "Uova fresche",
+          "note": null
+        },
+        "cream": {
+          "name": "Panna fresca",
+          "note": null
+        },
+        "butter": {
+          "name": "Burro",
+          "note": null
+        },
+        "salt": {
+          "name": "Sale fino",
+          "note": null
+        },
+        "white_pepper": {
+          "name": "Pepe bianco",
+          "note": null
+        },
+        "chives": {
+          "name": "Erba cipollina",
+          "note": null
+        },
+        "tomato_passata": {
+          "name": "Passata di pomodoro",
+          "note": null
+        },
+        "ketchup": {
+          "name": "Ketchup",
+          "note": null
+        },
+        "stock": {
+          "name": "Brodo leggero vegetale o di pollo",
+          "note": null
+        },
+        "olive_oil": {
+          "name": "Olio d’oliva",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_tomato_sauce": "Scalda l’olio in un pentolino, aggiungi passata, ketchup e brodo e fai sobbollire 6–8 minuti, finché il gusto crudo del pomodoro si attenua e la salsa vela leggermente il cucchiaio. Tienila calda senza farla bollire forte.",
+        "separate_eggs": "Separa tuorli e albumi in ciotole perfettamente pulite e asciutte. Sbatti i tuorli con panna, sale e pepe bianco; anche una piccola traccia di tuorlo o grasso negli albumi rende la montata meno stabile.",
+        "whip_whites": "Monta gli albumi fino a picchi sodi e lucidi. Fermati quando la punta resta in piedi con una leggera curva: albumi secchi e granulosi si incorporano male e danno un’omelette ruvida.",
+        "fold": "Mescola un terzo degli albumi nei tuorli per alleggerire la base, poi incorpora il resto in due riprese con una spatola larga. Ruota la ciotola e solleva dal fondo finché non restano grandi striature bianche.",
+        "cook_covered": "Sciogli il burro in una padella antiaderente da 20–22 cm a fuoco basso. Versa la massa, livella appena, copri e cuoci circa 5–6 minuti, finché il fondo è dorato e la superficie appena rassodata ed elastica. La fiamma deve restare dolce.",
+        "fold_serve": "Passa una spatola sotto l’omelette, piegala a metà senza schiacciare l’aria e trasferiscila su un piatto caldo. Versa la salsa di pomodoro attorno, non sopra il centro, completa con erba cipollina e servi subito."
+      }
+    },
+    "es": {
+      "title": "Omelette soufflé estilo Food Wars",
+      "description": "Omelette muy ligera hecha con claras montadas incorporadas a las yemas y servida con salsa de tomate. La cocción suave mantiene la textura aireada.",
+      "animeContext": "Aquí el vínculo es directo: la omelette soufflé forma parte del reto de desayuno de la temporada 1 de Food Wars, episodios 13–14. La receta es una reconstrucción original.",
+      "ingredients": {
+        "eggs": {
+          "name": "Huevos frescos",
+          "note": null
+        },
+        "cream": {
+          "name": "Nata líquida",
+          "note": null
+        },
+        "butter": {
+          "name": "Mantequilla",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal fina",
+          "note": null
+        },
+        "white_pepper": {
+          "name": "Pimienta blanca",
+          "note": null
+        },
+        "chives": {
+          "name": "Cebollino",
+          "note": null
+        },
+        "tomato_passata": {
+          "name": "Passata de tomate",
+          "note": null
+        },
+        "ketchup": {
+          "name": "Kétchup",
+          "note": null
+        },
+        "stock": {
+          "name": "Caldo ligero",
+          "note": null
+        },
+        "olive_oil": {
+          "name": "Aceite de oliva",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_tomato_sauce": "Cuece passata, kétchup y caldo con aceite 6–8 minutos hasta que la salsa pierda el sabor crudo y espese ligeramente.",
+        "separate_eggs": "Separa claras y yemas en cuencos limpios. Bate yemas con nata, sal y pimienta.",
+        "whip_whites": "Monta claras a picos firmes y brillantes sin llegar a secarlas.",
+        "fold": "Incorpora un tercio a las yemas y luego el resto con movimientos envolventes.",
+        "cook_covered": "Derrite mantequilla en sartén antiadherente a fuego bajo, añade la mezcla, tapa y cocina 5–6 minutos hasta base dorada y parte superior apenas cuajada.",
+        "fold_serve": "Dobla sin aplastar, sirve en plato caliente y coloca la salsa de tomate alrededor. Termina con cebollino."
+      }
+    },
+    "fr": {
+      "title": "Omelette soufflée style Food Wars",
+      "description": "Omelette très légère obtenue en incorporant des blancs montés aux jaunes, servie avec une sauce tomate vive. La cuisson douce préserve la texture aérienne.",
+      "animeContext": "Le lien est direct: l’omelette soufflée fait partie du défi du buffet de la saison 1 de Food Wars, épisodes 13–14. La recette est une reconstruction originale.",
+      "ingredients": {
+        "eggs": {
+          "name": "Œufs frais",
+          "note": null
+        },
+        "cream": {
+          "name": "Crème liquide",
+          "note": null
+        },
+        "butter": {
+          "name": "Beurre",
+          "note": null
+        },
+        "salt": {
+          "name": "Sel fin",
+          "note": null
+        },
+        "white_pepper": {
+          "name": "Poivre blanc",
+          "note": null
+        },
+        "chives": {
+          "name": "Ciboulette",
+          "note": null
+        },
+        "tomato_passata": {
+          "name": "Coulis de tomate",
+          "note": null
+        },
+        "ketchup": {
+          "name": "Ketchup",
+          "note": null
+        },
+        "stock": {
+          "name": "Bouillon léger",
+          "note": null
+        },
+        "olive_oil": {
+          "name": "Huile d’olive",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_tomato_sauce": "Faites mijoter passata, ketchup et bouillon avec l’huile 6–8 minutes jusqu’à légère réduction.",
+        "separate_eggs": "Séparez blancs et jaunes dans des bols impeccables. Fouettez les jaunes avec crème, sel et poivre.",
+        "whip_whites": "Montez les blancs en pics fermes et brillants sans les dessécher.",
+        "fold": "Incorporez un tiers aux jaunes puis le reste délicatement.",
+        "cook_covered": "Faites fondre le beurre à feu doux, versez la mousse, couvrez et cuisez 5–6 minutes jusqu’à base dorée et dessus juste pris.",
+        "fold_serve": "Pliez sans écraser, transférez sur assiette chaude et versez la sauce tomate autour. Ajoutez la ciboulette."
+      }
+    },
+    "de": {
+      "title": "Soufflé-Omelett im Food-Wars-Stil",
+      "description": "Sehr leichtes Omelett aus untergehobenem Eischnee und Eigelb, dazu helle Tomatensauce. Sanfte Hitze erhält die luftige Struktur.",
+      "animeContext": "Hier ist der Bezug direkt: Das Soufflé-Omelett gehört zur Frühstücksbuffet-Prüfung in Food Wars Staffel 1, Episoden 13–14. Das Rezept ist eine eigenständige Rekonstruktion.",
+      "ingredients": {
+        "eggs": {
+          "name": "Frische Eier",
+          "note": null
+        },
+        "cream": {
+          "name": "Sahne",
+          "note": null
+        },
+        "butter": {
+          "name": "Butter",
+          "note": null
+        },
+        "salt": {
+          "name": "Feines Salz",
+          "note": null
+        },
+        "white_pepper": {
+          "name": "Weißer Pfeffer",
+          "note": null
+        },
+        "chives": {
+          "name": "Schnittlauch",
+          "note": null
+        },
+        "tomato_passata": {
+          "name": "Tomatenpassata",
+          "note": null
+        },
+        "ketchup": {
+          "name": "Ketchup",
+          "note": null
+        },
+        "stock": {
+          "name": "Leichte Brühe",
+          "note": null
+        },
+        "olive_oil": {
+          "name": "Olivenöl",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_tomato_sauce": "Passata, Ketchup und Brühe mit Öl 6–8 Minuten sanft einkochen, bis die rohe Tomatensäure milder wird.",
+        "separate_eggs": "Eiweiß und Eigelb in absolut saubere Schüsseln trennen. Eigelb mit Sahne, Salz und Pfeffer verquirlen.",
+        "whip_whites": "Eiweiß zu festen glänzenden Spitzen schlagen, ohne es trocken werden zu lassen.",
+        "fold": "Ein Drittel unter die Eigelbmasse rühren, Rest vorsichtig unterheben.",
+        "cook_covered": "Butter bei niedriger Hitze in Antihaftpfanne schmelzen, Masse einfüllen, abdecken und 5–6 Minuten garen, bis unten goldbraun und oben gerade gestockt.",
+        "fold_serve": "Ohne Druck zusammenklappen, auf warmen Teller geben und Tomatensauce ringsum anrichten. Schnittlauch darüber."
+      }
+    },
+    "pt": {
+      "title": "Omelete soufflé estilo Food Wars",
+      "description": "Omelete muito leve feita com claras batidas incorporadas às gemas, servida com molho de tomate. Fogo baixo preserva a estrutura aerada.",
+      "animeContext": "Aqui o vínculo é direto: a omelete soufflé faz parte do desafio do buffet da 1ª temporada de Food Wars, episódios 13–14. A receita é uma reconstrução original.",
+      "ingredients": {
+        "eggs": {
+          "name": "Ovos frescos",
+          "note": null
+        },
+        "cream": {
+          "name": "Creme de leite fresco",
+          "note": null
+        },
+        "butter": {
+          "name": "Manteiga",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal fino",
+          "note": null
+        },
+        "white_pepper": {
+          "name": "Pimenta-branca",
+          "note": null
+        },
+        "chives": {
+          "name": "Cebolinha",
+          "note": null
+        },
+        "tomato_passata": {
+          "name": "Passata de tomate",
+          "note": null
+        },
+        "ketchup": {
+          "name": "Ketchup",
+          "note": null
+        },
+        "stock": {
+          "name": "Caldo leve",
+          "note": null
+        },
+        "olive_oil": {
+          "name": "Azeite",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_tomato_sauce": "Cozinhe passata, ketchup e caldo com azeite por 6–8 minutos até perder o sabor cru e engrossar levemente.",
+        "separate_eggs": "Separe claras e gemas em tigelas totalmente limpas. Bata gemas com creme, sal e pimenta.",
+        "whip_whites": "Bata as claras até picos firmes e brilhantes sem ressecar.",
+        "fold": "Misture um terço às gemas e incorpore o restante delicadamente.",
+        "cook_covered": "Derreta manteiga em frigideira antiaderente em fogo baixo, adicione a espuma, tampe e cozinhe 5–6 minutos até base dourada e topo apenas firme.",
+        "fold_serve": "Dobre sem esmagar, transfira para prato quente e coloque o molho de tomate ao redor. Finalize com cebolinha."
+      }
+    }
+  }
+}
