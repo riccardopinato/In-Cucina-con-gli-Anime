@@ -20,29 +20,94 @@
     "locales"
   ],
   "properties": {
-    "authoringVersion": {"const": 1},
-    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"},
-    "contentVersion": {"type": "integer", "minimum": 1},
-    "status": {"enum": ["draft", "published", "archived"]},
-    "inspirationTitle": {"type": "string", "minLength": 1},
-    "prepMinutes": {"type": "integer", "minimum": 0},
-    "cookMinutes": {"type": "integer", "minimum": 0},
-    "servings": {"type": "integer", "minimum": 1},
-    "difficulty": {"enum": ["easy", "medium", "hard"]},
-    "contentOrigin": {"enum": ["original", "inspired", "adapted"]},
-    "sourceNote": {"type": ["string", "null"]},
-    "imageAssetId": {"type": ["string", "null"]},
+    "authoringVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"
+    },
+    "contentVersion": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "published",
+        "archived"
+      ]
+    },
+    "inspirationTitle": {
+      "type": "string",
+      "minLength": 1
+    },
+    "prepMinutes": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "cookMinutes": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "servings": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "difficulty": {
+      "enum": [
+        "easy",
+        "medium",
+        "hard"
+      ]
+    },
+    "contentOrigin": {
+      "enum": [
+        "original",
+        "inspired",
+        "adapted"
+      ]
+    },
+    "sourceNote": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "imageAssetId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
     "ingredients": {
       "type": "array",
       "minItems": 1,
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["id", "quantity", "unit"],
+        "required": [
+          "id",
+          "quantity",
+          "unit"
+        ],
         "properties": {
-          "id": {"type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"},
-          "quantity": {"type": ["number", "null"]},
-          "unit": {"type": ["string", "null"]}
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"
+          },
+          "quantity": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "unit": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
         }
       }
     },
@@ -52,10 +117,22 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["id", "timerSeconds"],
+        "required": [
+          "id",
+          "timerSeconds"
+        ],
         "properties": {
-          "id": {"type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"},
-          "timerSeconds": {"type": ["integer", "null"], "minimum": 0}
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"
+          },
+          "timerSeconds": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          }
         }
       }
     },
@@ -64,11 +141,109 @@
       "additionalProperties": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["title", "ingredients", "steps"],
+        "required": [
+          "title",
+          "ingredients",
+          "steps"
+        ],
         "properties": {
-          "title": {"type": "string", "minLength": 1},
-          "ingredients": {"type": "object"},
-          "steps": {"type": "object"}
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ingredients": {
+            "type": "object"
+          },
+          "steps": {
+            "type": "object"
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "animeContext": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "animeReferences": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "workTitle",
+          "relation"
+        ],
+        "properties": {
+          "workTitle": {
+            "type": "string",
+            "minLength": 1
+          },
+          "relation": {
+            "enum": [
+              "verified_appearance",
+              "recurring_association",
+              "inspired",
+              "unverified"
+            ]
+          },
+          "season": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          },
+          "episode": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "chapter": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "editorialVerification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "culinaryStatus",
+        "culinaryNote",
+        "animeStatus",
+        "animeNote"
+      ],
+      "properties": {
+        "culinaryStatus": {
+          "enum": [
+            "verified",
+            "corrected",
+            "review_required"
+          ]
+        },
+        "culinaryNote": {
+          "type": "string",
+          "minLength": 1
+        },
+        "animeStatus": {
+          "enum": [
+            "verified",
+            "partial",
+            "unverified"
+          ]
+        },
+        "animeNote": {
+          "type": "string",
+          "minLength": 1
         }
       }
     }
