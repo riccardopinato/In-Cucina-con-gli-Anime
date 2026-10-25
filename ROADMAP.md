@@ -231,7 +231,9 @@ Evidence:
   - recipe_000019 rebuilt as true Mitarashi Dango;
   - recipe_000020 now includes the real taiyaki batter rest;
   - existing user-approved artwork semantic reviews advanced to the new content versions;
-  - F3G-E: runtime materialization, similarity closure, new artwork and final CI/QA in progress.
+  - F3G-E automated repository scope completed: runtime catalog 0.7.0 materialized at 50 recipes, duplicate/similarity blockers closed, and 30 new original JPEG artworks installed so all 50 published recipes resolve a semantically reviewed artwork asset;
+  - artwork manifest now contains 50 approved recipe assets and the generated runtime has zero missing `imageAsset` values;
+  - full F3G PASS remains gated only by final physical-device smoke of the expanded 50-recipe catalog.
 
 Exit: 50 published recipes pass authoring/catalog validation, culinary/editorial review, duplicate/similarity review, localization, artwork gates, Flutter tests, Web build, Android build and physical-device smoke QA.
 
@@ -326,7 +328,7 @@ Delivers:
 Early evidence already completed before F5 opens:
 - persistent Android signing active in CI with the documented certificate fingerprint;
 - first persistent-signed APK physically installed and user-confirmed working on 2026-10-25;
-- all twenty current recipe artworks user-confirmed correct on the physical phone;
+- the initial twenty recipe artworks user-confirmed correct on the physical phone;
 - update-in-place continuity physically VERIFIED on 2026-10-25: later persistent-signed APK installed over the existing app without uninstalling and existing Favorites were preserved;
 - production AAB / exact release artifact evidence remains part of F5A and is not claimed by this early internal validation.
 
