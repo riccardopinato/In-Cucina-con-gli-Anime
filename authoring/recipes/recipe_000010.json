@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000010",
-  "contentVersion": 1,
+  "contentVersion": 2,
   "status": "published",
   "inspirationTitle": "Kiki - Consegne a domicilio",
   "prepMinutes": 30,
@@ -9,7 +9,7 @@
   "servings": 4,
   "difficulty": "hard",
   "contentOrigin": "adapted",
-  "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; four servings are an editorial estimate from the listed quantities.",
+  "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; four servings are an editorial estimate from the listed quantities. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
   "imageAssetId": "recipe_000010_artwork",
   "ingredients": [
     {
@@ -113,12 +113,14 @@
         }
       },
       "steps": {
-        "cook_pumpkin": "Cook the pumpkin until tender, mash it into a coarse purée and season with salt, pepper and nutmeg.",
-        "cook_fish": "Soften the chopped onion in a pan with a little oil, add the fish and cook briefly so the flavours combine.",
-        "assemble_filling": "Spread the pumpkin over the base of a baking dish, add the fish and onion, scatter over the sliced black olives and cover with béchamel.",
-        "cover_and_decorate": "Lay the puff pastry over the dish. Use any trimmings to make a simple fish-shaped decoration for the top.",
-        "bake": "Brush the pastry with egg yolk and bake in a preheated 200°C static oven until the pastry is deeply golden."
-      }
+        "cook_pumpkin": "Cook the pumpkin until tender, mash it into a coarse purée and season with salt, pepper and nutmeg. Cut the pumpkin into equal pieces so it softens evenly and drain or steam-dry it after cooking; watery pumpkin makes the pastry base soggy.",
+        "cook_fish": "Soften the chopped onion in a pan with a little oil, add the fish and cook briefly so the flavours combine. Pat the fish dry and remove any bones before cooking. Sauté only until the fish is just opaque and flakes easily; it will continue cooking in the oven.",
+        "assemble_filling": "Spread the pumpkin over the base of a baking dish, add the fish and onion, scatter over the sliced black olives and cover with béchamel. Let pumpkin and fish cool until merely warm before adding béchamel and filling the pastry; hot filling melts the butter layers before the pie reaches the oven.",
+        "cover_and_decorate": "Lay the puff pastry over the dish. Use any trimmings to make a simple fish-shaped decoration for the top. Keep the pastry cold, seal the rim firmly and cut two or three small steam vents even if you add a decorative fish on top.",
+        "bake": "Brush the pastry with egg yolk and bake in a preheated 200°C static oven until the pastry is deeply golden. Bake until the pastry is deeply golden and visibly puffed all the way to the centre, usually 25–35 minutes depending on the dish; a pale lid is often still underbaked and greasy inside."
+      },
+      "description": "A savoury pumpkin-and-fish pie under golden puff pastry, inspired by the memorable baked dish prepared for delivery in Kiki's Delivery Service. Sweet pumpkin softens the briny fish, while béchamel and onion bind the filling beneath a crisp decorated lid.",
+      "animeContext": "This is a direct film reference: a herring-and-pumpkin pie is prepared and becomes part of Kiki's delivery story. The app turns the visual idea into a practical recipe with original quantities and instructions."
     },
     "it": {
       "title": "Sformato di zucca e pesce in sfoglia",
@@ -157,12 +159,14 @@
         }
       },
       "steps": {
-        "cook_pumpkin": "Cuoci la zucca finché è morbida, schiacciala in una purea rustica e condiscila con sale, pepe e noce moscata.",
-        "cook_fish": "Fai appassire la cipolla tritata in padella con poco olio, aggiungi il pesce e lascialo insaporire per qualche minuto.",
-        "assemble_filling": "Distribuisci la purea di zucca sul fondo di una pirofila, aggiungi pesce e cipolla, le olive nere a rondelle e copri con la besciamella.",
-        "cover_and_decorate": "Chiudi la pirofila con la pasta sfoglia. Usa gli eventuali ritagli per creare una semplice decorazione a forma di pesce.",
-        "bake": "Spennella la sfoglia con il tuorlo e cuoci in forno statico preriscaldato a 200°C finché la superficie è ben dorata."
-      }
+        "cook_pumpkin": "Cuoci la zucca finché è morbida, schiacciala in una purea rustica e condiscila con sale, pepe e noce moscata. Taglia la zucca in pezzi regolari e, dopo la cottura, lasciala asciugare bene dal vapore: una purea acquosa rende molle il fondo di sfoglia.",
+        "cook_fish": "Fai appassire la cipolla tritata in padella con poco olio, aggiungi il pesce e lascialo insaporire per qualche minuto. Asciuga il pesce e rimuovi eventuali lische prima della padella. Cuocilo solo finché diventa opaco e si sfalda facilmente: continuerà la cottura in forno.",
+        "assemble_filling": "Distribuisci la purea di zucca sul fondo di una pirofila, aggiungi pesce e cipolla, le olive nere a rondelle e copri con la besciamella. Lascia intiepidire zucca e pesce prima di aggiungere la besciamella e riempire la sfoglia: un ripieno bollente scioglie gli strati di burro prima che la torta arrivi in forno.",
+        "cover_and_decorate": "Chiudi la pirofila con la pasta sfoglia. Usa gli eventuali ritagli per creare una semplice decorazione a forma di pesce. Mantieni la sfoglia fredda, sigilla bene il bordo e pratica comunque due o tre piccoli sfiati per il vapore, anche se aggiungi la decorazione a forma di pesce.",
+        "bake": "Spennella la sfoglia con il tuorlo e cuoci in forno statico preriscaldato a 200°C finché la superficie è ben dorata. Cuoci finché la sfoglia è ben dorata e gonfia anche verso il centro, in genere 25–35 minuti secondo la pirofila: un coperchio pallido spesso è ancora crudo e grasso all’interno."
+      },
+      "description": "Una torta salata di zucca e pesce sotto una sfoglia dorata, ispirata al memorabile piatto preparato per la consegna in Kiki - Consegne a domicilio. La dolcezza della zucca equilibra il pesce sapido, mentre besciamella e cipolla legano il ripieno sotto il coperchio croccante.",
+      "animeContext": "Il riferimento è diretto: nel film viene preparata una torta di aringa e zucca che entra nella storia della consegna di Kiki. L’app trasforma quell’idea visiva in una ricetta pratica con quantità e istruzioni originali."
     },
     "es": {
       "title": "Pastel de calabaza y pescado con hojaldre",
@@ -201,12 +205,14 @@
         }
       },
       "steps": {
-        "cook_pumpkin": "Cuece la calabaza hasta que esté tierna, aplástala hasta obtener un puré rústico y condimenta con sal, pimienta y nuez moscada.",
-        "cook_fish": "Pocha la cebolla picada con un poco de aceite, añade el pescado y cocina unos minutos para integrar los sabores.",
-        "assemble_filling": "Extiende la calabaza en una fuente, añade el pescado con la cebolla y las aceitunas en rodajas y cubre con bechamel.",
-        "cover_and_decorate": "Cubre la fuente con el hojaldre y usa los recortes para crear una decoración sencilla con forma de pez.",
-        "bake": "Pincela con yema y hornea a 200°C en horno estático precalentado hasta que el hojaldre quede bien dorado."
-      }
+        "cook_pumpkin": "Cuece la calabaza hasta que esté tierna, aplástala hasta obtener un puré rústico y condimenta con sal, pimienta y nuez moscada. Corta la calabaza en piezas iguales y deja evaporar bien el agua tras cocerla; demasiada humedad ablanda el hojaldre.",
+        "cook_fish": "Pocha la cebolla picada con un poco de aceite, añade el pescado y cocina unos minutos para integrar los sabores. Seca el pescado y retira espinas; cocina solo hasta opaco porque seguirá en el horno.",
+        "assemble_filling": "Extiende la calabaza en una fuente, añade el pescado con la cebolla y las aceitunas en rodajas y cubre con bechamel. Deja que calabaza y pescado estén solo tibios antes de añadir bechamel y rellenar; el calor excesivo derrite el hojaldre.",
+        "cover_and_decorate": "Cubre la fuente con el hojaldre y usa los recortes para crear una decoración sencilla con forma de pez. Mantén el hojaldre frío, sella bien el borde y abre 2–3 respiraderos de vapor.",
+        "bake": "Pincela con yema y hornea a 200°C en horno estático precalentado hasta que el hojaldre quede bien dorado. Hornea hasta hojaldre bien dorado e inflado incluso en el centro, normalmente 25–35 minutos."
+      },
+      "description": "Tarta salada de calabaza y pescado bajo hojaldre dorado, inspirada en el memorable plato preparado para entrega en Kiki's Delivery Service. La calabaza suaviza el pescado y la bechamel liga el relleno.",
+      "animeContext": "La referencia es directa: en la película se prepara una tarta de arenque y calabaza ligada a una entrega de Kiki. La app convierte la idea visual en una receta práctica original."
     },
     "fr": {
       "title": "Gratin de courge et poisson en croûte",
@@ -245,12 +251,14 @@
         }
       },
       "steps": {
-        "cook_pumpkin": "Faites cuire la courge jusqu’à tendreté, écrasez-la grossièrement et assaisonnez de sel, poivre et noix de muscade.",
-        "cook_fish": "Faites fondre l’oignon haché avec un peu d’huile, ajoutez le poisson et laissez cuire quelques minutes.",
-        "assemble_filling": "Étalez la courge dans un plat, ajoutez le poisson et l’oignon, répartissez les olives en rondelles puis couvrez de béchamel.",
-        "cover_and_decorate": "Recouvrez le plat de pâte feuilletée et utilisez les chutes pour créer une décoration simple en forme de poisson.",
-        "bake": "Badigeonnez de jaune d’œuf et enfournez à 200°C dans un four statique préchauffé jusqu’à obtenir une croûte bien dorée."
-      }
+        "cook_pumpkin": "Faites cuire la courge jusqu’à tendreté, écrasez-la grossièrement et assaisonnez de sel, poivre et noix de muscade. Coupez le potiron régulièrement et laissez bien évaporer l’humidité après cuisson; une purée aqueuse détrempe la pâte.",
+        "cook_fish": "Faites fondre l’oignon haché avec un peu d’huile, ajoutez le poisson et laissez cuire quelques minutes. Séchez le poisson et retirez les arêtes; cuisez seulement jusqu’à opacité car la cuisson continuera au four.",
+        "assemble_filling": "Étalez la courge dans un plat, ajoutez le poisson et l’oignon, répartissez les olives en rondelles puis couvrez de béchamel. Laissez potiron et poisson tiédir avant la béchamel et le montage; une farce chaude fait fondre le feuilletage.",
+        "cover_and_decorate": "Recouvrez le plat de pâte feuilletée et utilisez les chutes pour créer une décoration simple en forme de poisson. Gardez la pâte froide, scellez bien le bord et faites 2–3 petites cheminées.",
+        "bake": "Badigeonnez de jaune d’œuf et enfournez à 200°C dans un four statique préchauffé jusqu’à obtenir une croûte bien dorée. Cuisez jusqu’à feuilletage bien doré et gonflé jusqu’au centre, généralement 25–35 minutes."
+      },
+      "description": "Tourte salée au potiron et poisson sous pâte feuilletée dorée, inspirée du plat préparé pour une livraison dans Kiki's Delivery Service. Le potiron adoucit le poisson et la béchamel lie la garniture.",
+      "animeContext": "La référence est directe: une tourte au hareng et potiron est préparée dans le film pour une livraison de Kiki. L’application en fait une recette pratique originale."
     },
     "de": {
       "title": "Kürbis-Fisch-Auflauf mit Blätterteig",
@@ -289,12 +297,14 @@
         }
       },
       "steps": {
-        "cook_pumpkin": "Den Kürbis weich garen, grob zerdrücken und mit Salz, Pfeffer und Muskat würzen.",
-        "cook_fish": "Die gehackte Zwiebel in wenig Öl weich dünsten, den Fisch zugeben und einige Minuten mitgaren.",
-        "assemble_filling": "Kürbis in einer Auflaufform verteilen, Fisch und Zwiebel daraufgeben, Olivenscheiben darüberstreuen und mit Béchamel bedecken.",
-        "cover_and_decorate": "Die Form mit Blätterteig abdecken und aus Resten eine einfache Fischdekoration formen.",
-        "bake": "Mit Eigelb bestreichen und im vorgeheizten statischen Ofen bei 200°C backen, bis der Blätterteig kräftig goldbraun ist."
-      }
+        "cook_pumpkin": "Den Kürbis weich garen, grob zerdrücken und mit Salz, Pfeffer und Muskat würzen. Kürbis gleichmäßig schneiden und nach dem Garen gut ausdampfen lassen; zu feuchte Masse macht den Blätterteig weich.",
+        "cook_fish": "Die gehackte Zwiebel in wenig Öl weich dünsten, den Fisch zugeben und einige Minuten mitgaren. Fisch trocknen und Gräten entfernen; nur bis gerade opak garen, da er im Ofen weitergart.",
+        "assemble_filling": "Kürbis in einer Auflaufform verteilen, Fisch und Zwiebel daraufgeben, Olivenscheiben darüberstreuen und mit Béchamel bedecken. Kürbis und Fisch vor Béchamel und Füllen nur lauwarm werden lassen; heiße Füllung schmilzt die Butterschichten.",
+        "cover_and_decorate": "Die Form mit Blätterteig abdecken und aus Resten eine einfache Fischdekoration formen. Blätterteig kalt halten, Rand gut versiegeln und 2–3 Dampfschlitze schneiden.",
+        "bake": "Mit Eigelb bestreichen und im vorgeheizten statischen Ofen bei 200°C backen, bis der Blätterteig kräftig goldbraun ist. Backen, bis der Blätterteig tief goldbraun und bis zur Mitte aufgegangen ist, meist 25–35 Minuten."
+      },
+      "description": "Herzhafter Kürbis-Fisch-Pie unter goldener Blätterteigdecke, inspiriert vom bekannten Liefergericht in Kiki's Delivery Service. Kürbis mildert den Fisch, Béchamel bindet die Füllung.",
+      "animeContext": "Der Bezug ist direkt: Im Film wird ein Hering-Kürbis-Pie für eine Lieferung von Kiki zubereitet. Die App macht daraus ein eigenständiges praktisches Rezept."
     },
     "pt": {
       "title": "Assado de abóbora e peixe com massa folhada",
@@ -333,12 +343,29 @@
         }
       },
       "steps": {
-        "cook_pumpkin": "Cozinhe a abóbora até ficar macia, amasse até obter um purê rústico e tempere com sal, pimenta e noz-moscada.",
-        "cook_fish": "Refogue a cebola picada com um pouco de óleo, junte o peixe e cozinhe por alguns minutos.",
-        "assemble_filling": "Espalhe a abóbora no fundo de um refratário, adicione o peixe com a cebola, as azeitonas fatiadas e cubra com béchamel.",
-        "cover_and_decorate": "Cubra o refratário com a massa folhada e use as sobras para criar uma decoração simples em forma de peixe.",
-        "bake": "Pincele com gema e asse em forno estático preaquecido a 200°C até a massa ficar bem dourada."
-      }
+        "cook_pumpkin": "Cozinhe a abóbora até ficar macia, amasse até obter um purê rústico e tempere com sal, pimenta e noz-moscada. Corte a abóbora em pedaços iguais e deixe secar bem após cozinhar; purê aguado deixa a massa mole.",
+        "cook_fish": "Refogue a cebola picada com um pouco de óleo, junte o peixe e cozinhe por alguns minutos. Seque o peixe e retire espinhas; cozinhe só até ficar opaco, pois continuará no forno.",
+        "assemble_filling": "Espalhe a abóbora no fundo de um refratário, adicione o peixe com a cebola, as azeitonas fatiadas e cubra com béchamel. Deixe abóbora e peixe apenas mornos antes de adicionar o molho e rechear; recheio quente derrete as camadas da massa.",
+        "cover_and_decorate": "Cubra o refratário com a massa folhada e use as sobras para criar uma decoração simples em forma de peixe. Mantenha a massa fria, vede bem a borda e faça 2–3 pequenas saídas de vapor.",
+        "bake": "Pincele com gema e asse em forno estático preaquecido a 200°C até a massa ficar bem dourada. Asse até a massa ficar bem dourada e inflada até o centro, geralmente 25–35 minutos."
+      },
+      "description": "Torta salgada de abóbora e peixe sob massa folhada dourada, inspirada no prato memorável preparado para entrega em Kiki's Delivery Service. A abóbora equilibra o peixe e o molho liga o recheio.",
+      "animeContext": "A referência é direta: no filme é preparada uma torta de arenque e abóbora ligada a uma entrega de Kiki. O app transforma a ideia visual em receita prática original."
     }
+  },
+  "animeReferences": [
+    {
+      "workTitle": "Kiki's Delivery Service",
+      "relation": "verified_appearance",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "The herring-and-pumpkin pie is a cookable savoury pie reconstruction inspired by the film dish; safe fish handling and pastry doneness cues expanded.",
+    "animeStatus": "verified",
+    "animeNote": "A herring-and-pumpkin pie is directly prepared and delivered in Kiki's Delivery Service."
   }
 }
