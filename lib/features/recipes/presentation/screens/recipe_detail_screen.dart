@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../../core/theme/app_design_tokens.dart';
+import '../../../../core/widgets/motion_entrance.dart';
 import '../../../../l10n/app_localizations.dart';
 import '../../domain/recipe.dart';
 import '../widgets/cooking_timer_widget.dart';
@@ -106,13 +107,15 @@ class _RecipeDetailScreenState extends State<RecipeDetailScreen> {
                       )
                     : ColoredBox(
                         color: colors.surface,
-                        child: Center(
+                        child: MotionEntrance(
+              child: Center(
                           child: Image.asset(
                             imageAsset,
                             fit: BoxFit.contain,
                             alignment: Alignment.center,
                           ),
                         ),
+            ),
                       ),
               ),
             ),
@@ -485,7 +488,7 @@ class _IngredientsPanel extends StatelessWidget {
   }
 }
 
-class _IngredientRow extends StatelessWidget {
+class _IngredientRow extends StatefulWidget {
   const _IngredientRow({
     required this.text,
     required this.checked,
@@ -497,33 +500,101 @@ class _IngredientRow extends StatelessWidget {
   final ValueChanged<bool> onChanged;
 
   @override
+  State<_IngredientRow> createState() => _IngredientRowState();
+}
+
+class _IngredientRowState extends State<_IngredientRow>
+    with SingleTickerProviderStateMixin {
+  late final AnimationController _checkController;
+  late final Animation<double> _checkScale;
+
+  @override
+  void initState() {
+    super.initState();
+    _checkController = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 240),
+    );
+    _checkScale = TweenSequence<double>([
+      TweenSequenceItem(
+        tween: Tween<double>(begin: 1, end: 1.16)
+            .chain(CurveTween(curve: Curves.easeOutCubic)),
+        weight: 45,
+      ),
+      TweenSequenceItem(
+        tween: Tween<double>(begin: 1.16, end: 1)
+            .chain(CurveTween(curve: Curves.easeOutBack)),
+        weight: 55,
+      ),
+    ]).animate(_checkController);
+  }
+
+  @override
+  void didUpdateWidget(covariant _IngredientRow oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    final reduceMotion =
+        MediaQuery.maybeOf(context)?.disableAnimations ?? false;
+
+    if (!reduceMotion && !oldWidget.checked && widget.checked) {
+      _checkController.forward(from: 0);
+    }
+  }
+
+  @override
+  void dispose() {
+    _checkController.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final colors = theme.colorScheme;
+    final reduceMotion =
+        MediaQuery.maybeOf(context)?.disableAnimations ?? false;
 
     return InkWell(
       borderRadius: BorderRadius.circular(AppRadii.small),
-      onTap: () => onChanged(!checked),
-      child: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 7),
+      onTap: () => widget.onChanged(!widget.checked),
+      child: AnimatedContainer(
+        duration: reduceMotion ? Duration.zero : AppMotion.feedback,
+        curve: AppMotion.standardCurve,
+        padding: const EdgeInsets.symmetric(
+          horizontal: AppSpacing.xSmall,
+          vertical: 7,
+        ),
+        decoration: BoxDecoration(
+          color: widget.checked
+              ? colors.primary.withValues(alpha: 0.055)
+              : Colors.transparent,
+          borderRadius: BorderRadius.circular(AppRadii.small),
+        ),
         child: Row(
           children: [
-            Checkbox(
-              value: checked,
-              onChanged: (value) => onChanged(value ?? false),
+            ScaleTransition(
+              scale: reduceMotion
+                  ? const AlwaysStoppedAnimation<double>(1)
+                  : _checkScale,
+              child: Checkbox(
+                value: widget.checked,
+                onChanged: (value) =>
+                    widget.onChanged(value ?? false),
+              ),
             ),
             const SizedBox(width: AppSpacing.small),
             Expanded(
               child: AnimatedDefaultTextStyle(
-                duration: AppMotion.feedback,
+                duration:
+                    reduceMotion ? Duration.zero : AppMotion.feedback,
                 style: theme.textTheme.bodyMedium!.copyWith(
-                  color: checked
+                  color: widget.checked
                       ? colors.onSurfaceVariant
                       : colors.onSurface,
-                  decoration:
-                      checked ? TextDecoration.lineThrough : null,
+                  decoration: widget.checked
+                      ? TextDecoration.lineThrough
+                      : null,
                 ),
-                child: Text(text),
+                child: Text(widget.text),
               ),
             ),
           ],
