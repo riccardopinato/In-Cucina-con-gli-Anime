@@ -108,14 +108,38 @@
       "description": "Chewy Japanese rice dumplings served on skewers under a glossy sweet-savoury soy glaze. A balanced mix of joshinko and shiratamako gives more of the classic dango bite than a pure shiratamako dough, while a brief grill adds the lightly toasted surface often paired with mitarashi sauce.",
       "animeContext": "Inspired by the traditional snack and festival atmosphere that fits Naruto’s world. The app does not claim that this exact mitarashi dango is prepared in a verified episode.",
       "ingredients": {
-        "joshinko": "Joshinko (Japanese non-glutinous short-grain rice flour)",
-        "shiratamako": "Shiratamako (glutinous rice flour)",
-        "warm_water": "Warm water",
-        "glaze_sugar": "Sugar for glaze",
-        "mirin": "Mirin",
-        "soy_sauce": "Soy sauce",
-        "glaze_water": "Water for glaze",
-        "cornstarch": "Cornstarch for glaze"
+        "joshinko": {
+          "name": "Joshinko (Japanese non-glutinous short-grain rice flour)",
+          "note": null
+        },
+        "shiratamako": {
+          "name": "Shiratamako (glutinous rice flour)",
+          "note": null
+        },
+        "warm_water": {
+          "name": "Warm water",
+          "note": null
+        },
+        "glaze_sugar": {
+          "name": "Sugar for glaze",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "glaze_water": {
+          "name": "Water for glaze",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Cornstarch for glaze",
+          "note": null
+        }
       },
       "steps": {
         "make_dough": "Mix joshinko and shiratamako thoroughly. Add warm water gradually while mixing with chopsticks or a spatula, then knead by hand until the dough is smooth, soft and about as firm as an earlobe. Hold back a little water at first because different rice flours absorb differently.",
@@ -133,14 +157,38 @@
       "description": "Dango giapponesi gommosi serviti su spiedino sotto una glassa lucida dolce-sapida di soia. L’equilibrio tra joshinko e shiratamako dà una masticabilità più vicina al dango classico rispetto a un impasto di solo shiratamako; una breve grigliatura aggiunge leggere note tostate.",
       "animeContext": "Ispirato all’atmosfera di snack tradizionali e feste popolari coerente con il mondo di Naruto. L’app non afferma che questo preciso mitarashi dango venga preparato in un episodio verificato.",
       "ingredients": {
-        "joshinko": "Joshinko, farina giapponese di riso non glutinoso",
-        "shiratamako": "Shiratamako, farina di riso glutinoso",
-        "warm_water": "Acqua tiepida",
-        "glaze_sugar": "Zucchero per la glassa",
-        "mirin": "Mirin",
-        "soy_sauce": "Salsa di soia",
-        "glaze_water": "Acqua per la glassa",
-        "cornstarch": "Amido di mais per la glassa"
+        "joshinko": {
+          "name": "Joshinko, farina giapponese di riso non glutinoso",
+          "note": null
+        },
+        "shiratamako": {
+          "name": "Shiratamako, farina di riso glutinoso",
+          "note": null
+        },
+        "warm_water": {
+          "name": "Acqua tiepida",
+          "note": null
+        },
+        "glaze_sugar": {
+          "name": "Zucchero per la glassa",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa di soia",
+          "note": null
+        },
+        "glaze_water": {
+          "name": "Acqua per la glassa",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Amido di mais per la glassa",
+          "note": null
+        }
       },
       "steps": {
         "make_dough": "Mescola molto bene joshinko e shiratamako. Aggiungi gradualmente l’acqua tiepida mescolando con bacchette o spatola, poi impasta a mano finché ottieni una massa liscia, morbida e con una consistenza simile al lobo dell’orecchio. Tieni inizialmente da parte un po’ d’acqua perché farine diverse assorbono in modo diverso.",
@@ -158,14 +206,38 @@
       "description": "Bolas japonesas de arroz masticables en brocheta con glaseado brillante dulce-salado de soja. La mezcla de joshinko y shiratamako da una textura más clásica y un breve tostado aporta notas doradas.",
       "animeContext": "Inspirado en la atmósfera de snacks tradicionales y festivales compatible con Naruto; no se afirma una aparición exacta.",
       "ingredients": {
-        "joshinko": "Joshinko, harina japonesa de arroz no glutinoso",
-        "shiratamako": "Shiratamako, harina de arroz glutinoso",
-        "warm_water": "Agua tibia",
-        "glaze_sugar": "Azúcar para el glaseado",
-        "mirin": "Mirin",
-        "soy_sauce": "Salsa de soja",
-        "glaze_water": "Agua para el glaseado",
-        "cornstarch": "Maicena para el glaseado"
+        "joshinko": {
+          "name": "Joshinko, harina japonesa de arroz no glutinoso",
+          "note": null
+        },
+        "shiratamako": {
+          "name": "Shiratamako, harina de arroz glutinoso",
+          "note": null
+        },
+        "warm_water": {
+          "name": "Agua tibia",
+          "note": null
+        },
+        "glaze_sugar": {
+          "name": "Azúcar para el glaseado",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "glaze_water": {
+          "name": "Agua para el glaseado",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Maicena para el glaseado",
+          "note": null
+        }
       },
       "steps": {
         "make_dough": "Mezcla joshinko y shiratamako y añade agua tibia poco a poco hasta una masa lisa, suave y flexible; reserva algo de agua al principio.",
@@ -183,14 +255,38 @@
       "description": "Boulettes japonaises de riz moelleuses et élastiques en brochette, nappées d’une sauce soja sucrée-salée brillante. Le mélange joshinko-shiratamako donne une texture plus classique et un léger grillage apporte des notes toastées.",
       "animeContext": "Inspiré de l’ambiance de snacks traditionnels et de fêtes correspondant à Naruto; aucune apparition précise n’est revendiquée.",
       "ingredients": {
-        "joshinko": "Joshinko, farine japonaise de riz non gluant",
-        "shiratamako": "Shiratamako, farine de riz gluant",
-        "warm_water": "Eau tiède",
-        "glaze_sugar": "Sucre pour glaçage",
-        "mirin": "Mirin",
-        "soy_sauce": "Sauce soja",
-        "glaze_water": "Eau pour glaçage",
-        "cornstarch": "Fécule de maïs"
+        "joshinko": {
+          "name": "Joshinko, farine japonaise de riz non gluant",
+          "note": null
+        },
+        "shiratamako": {
+          "name": "Shiratamako, farine de riz gluant",
+          "note": null
+        },
+        "warm_water": {
+          "name": "Eau tiède",
+          "note": null
+        },
+        "glaze_sugar": {
+          "name": "Sucre pour glaçage",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "glaze_water": {
+          "name": "Eau pour glaçage",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Fécule de maïs",
+          "note": null
+        }
       },
       "steps": {
         "make_dough": "Mélangez joshinko et shiratamako puis ajoutez l’eau tiède progressivement jusqu’à pâte lisse et souple; gardez un peu d’eau en réserve.",
@@ -208,14 +304,38 @@
       "description": "Elastische japanische Reiskugeln am Spieß mit glänzender süß-herzhafter Sojaglasur. Die Mischung aus Joshinko und Shiratamako ergibt klassischeren Biss; kurzes Grillen bringt Röstaromen.",
       "animeContext": "Von traditioneller Snack- und Festatmosphäre passend zu Naruto inspiriert; keine konkrete Erscheinung wird behauptet.",
       "ingredients": {
-        "joshinko": "Joshinko, japanisches nicht-klebriges Reismehl",
-        "shiratamako": "Shiratamako, Klebreismehl",
-        "warm_water": "Lauwarmes Wasser",
-        "glaze_sugar": "Zucker für Glasur",
-        "mirin": "Mirin",
-        "soy_sauce": "Sojasauce",
-        "glaze_water": "Wasser für Glasur",
-        "cornstarch": "Maisstärke für Glasur"
+        "joshinko": {
+          "name": "Joshinko, japanisches nicht-klebriges Reismehl",
+          "note": null
+        },
+        "shiratamako": {
+          "name": "Shiratamako, Klebreismehl",
+          "note": null
+        },
+        "warm_water": {
+          "name": "Lauwarmes Wasser",
+          "note": null
+        },
+        "glaze_sugar": {
+          "name": "Zucker für Glasur",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "glaze_water": {
+          "name": "Wasser für Glasur",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Maisstärke für Glasur",
+          "note": null
+        }
       },
       "steps": {
         "make_dough": "Joshinko und Shiratamako mischen und lauwarmes Wasser schrittweise bis zu glattem, weichem Teig zugeben; etwas Wasser zunächst zurückhalten.",
@@ -233,14 +353,38 @@
       "description": "Bolinhas japonesas de arroz elásticas no espeto, cobertas com molho brilhante doce-salgado de soja. A mistura de joshinko e shiratamako dá textura mais clássica e uma leve grelha acrescenta sabor tostado.",
       "animeContext": "Inspirado na atmosfera de snacks tradicionais e festivais compatível com Naruto; não afirmamos aparição exata.",
       "ingredients": {
-        "joshinko": "Joshinko, farinha japonesa de arroz não glutinoso",
-        "shiratamako": "Shiratamako, farinha de arroz glutinoso",
-        "warm_water": "Água morna",
-        "glaze_sugar": "Açúcar para a cobertura",
-        "mirin": "Mirin",
-        "soy_sauce": "Molho de soja",
-        "glaze_water": "Água para a cobertura",
-        "cornstarch": "Amido de milho"
+        "joshinko": {
+          "name": "Joshinko, farinha japonesa de arroz não glutinoso",
+          "note": null
+        },
+        "shiratamako": {
+          "name": "Shiratamako, farinha de arroz glutinoso",
+          "note": null
+        },
+        "warm_water": {
+          "name": "Água morna",
+          "note": null
+        },
+        "glaze_sugar": {
+          "name": "Açúcar para a cobertura",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Molho de soja",
+          "note": null
+        },
+        "glaze_water": {
+          "name": "Água para a cobertura",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Amido de milho",
+          "note": null
+        }
       },
       "steps": {
         "make_dough": "Misture joshinko e shiratamako e adicione água morna aos poucos até massa lisa e macia; reserve um pouco da água no início.",
