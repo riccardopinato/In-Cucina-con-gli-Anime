@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000003",
-  "contentVersion": 1,
+  "contentVersion": 2,
   "status": "published",
   "inspirationTitle": "Yuri!!! on ICE / My Hero Academia",
   "prepMinutes": 20,
@@ -9,7 +9,7 @@
   "servings": 2,
   "difficulty": "medium",
   "contentOrigin": "adapted",
-  "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. Servings inferred from ingredient quantities because the source does not state yield.",
+  "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. Servings inferred from ingredient quantities because the source does not state yield. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
   "imageAssetId": "recipe_000003_artwork",
   "ingredients": [
     {
@@ -122,12 +122,14 @@
         }
       },
       "steps": {
-        "simmer_onion": "Combine dashi, soy sauce, mirin and sugar in a small skillet. Add the onion and simmer until softened.",
-        "add_tonkatsu": "Slice the fried pork cutlets into strips and lay them over the seasoned onion.",
-        "add_eggs": "Beat the eggs only lightly, then pour them over the cutlets so distinct streaks of white and yolk remain.",
-        "steam_finish": "Cover and cook briefly, stopping while the egg is still soft and creamy rather than fully firm.",
-        "assemble_bowl": "Fill two bowls with hot rice, slide the pork-and-egg mixture on top and finish with peas or chives."
-      }
+        "simmer_onion": "Combine dashi, soy sauce, mirin and sugar in a small skillet. Add the onion and simmer until softened. Keep the pan at a quiet simmer for about 5 minutes; the onion should turn translucent and tender while enough liquid remains to steam the egg.",
+        "add_tonkatsu": "Slice the fried pork cutlets into strips and lay them over the seasoned onion. Place the cutlet crust-side up and simmer only 30–60 seconds before adding egg; longer soaking makes the entire panko layer soft.",
+        "add_eggs": "Beat the eggs only lightly, then pour them over the cutlets so distinct streaks of white and yolk remain. Pour in a loose spiral rather than one spot so some egg touches the broth while some stays on the cutlet.",
+        "steam_finish": "Cover and cook briefly, stopping while the egg is still soft and creamy rather than fully firm. About 60–90 seconds covered is usually enough; stop while the surface is still glossy because residual heat continues setting the egg.",
+        "assemble_bowl": "Fill two bowls with hot rice, slide the pork-and-egg mixture on top and finish with peas or chives. Use freshly steamed rice and transfer the pan contents in one piece if possible so the layers remain visually distinct."
+      },
+      "description": "A comforting katsudon where sliced tonkatsu is briefly simmered with sweet-savoury onion and loosely set egg before sliding over hot rice. The best bowl preserves some cutlet texture while letting the underside absorb the seasoned dashi.",
+      "animeContext": "Katsudon is one of the most recognizable recurring foods in Yuri!!! on ICE and is tied to Yuri's identity and motivations; episode 2 contains a direct katsudon exchange. The app recipe follows the real Japanese dish rather than reproducing dialogue."
     },
     "it": {
       "title": "Katsudon della vittoria",
@@ -170,12 +172,14 @@
         }
       },
       "steps": {
-        "simmer_onion": "Riunisci in un padellino dashi, salsa di soia, mirin e zucchero. Aggiungi la cipolla e falla sobbollire finché si ammorbidisce.",
-        "add_tonkatsu": "Taglia le cotolette fritte a strisce e sistemale sopra la cipolla insaporita.",
-        "add_eggs": "Sbatti le uova solo leggermente e versale sulle cotolette, lasciando il composto volutamente poco uniforme.",
-        "steam_finish": "Copri e cuoci per poco tempo: l’uovo deve restare morbido e cremoso, non asciutto.",
-        "assemble_bowl": "Distribuisci il riso caldo in due ciotole, fai scivolare sopra maiale, uovo e cipolla e completa con piselli o erba cipollina."
-      }
+        "simmer_onion": "Riunisci in un padellino dashi, salsa di soia, mirin e zucchero. Aggiungi la cipolla e falla sobbollire finché si ammorbidisce. Mantieni un sobbollore tranquillo per circa 5 minuti: la cipolla deve diventare traslucida e tenera, ma deve restare abbastanza liquido da cuocere l’uovo a vapore.",
+        "add_tonkatsu": "Taglia le cotolette fritte a strisce e sistemale sopra la cipolla insaporita. Sistema il tonkatsu con la crosta verso l’alto e lascialo nel fondo solo 30–60 secondi prima dell’uovo: un ammollo più lungo ammorbidisce tutta la panatura.",
+        "add_eggs": "Sbatti le uova solo leggermente e versale sulle cotolette, lasciando il composto volutamente poco uniforme. Versa l’uovo a spirale, non in un punto solo, così una parte tocca il brodo e una parte resta sopra la cotoletta.",
+        "steam_finish": "Copri e cuoci per poco tempo: l’uovo deve restare morbido e cremoso, non asciutto. In genere bastano 60–90 secondi coperti; fermati quando la superficie è ancora lucida, perché il calore residuo continua a rapprendere l’uovo.",
+        "assemble_bowl": "Distribuisci il riso caldo in due ciotole, fai scivolare sopra maiale, uovo e cipolla e completa con piselli o erba cipollina. Usa riso appena cotto e fai scivolare il contenuto della padella possibilmente in un solo blocco, così gli strati restano riconoscibili."
+      },
+      "description": "Un katsudon confortante in cui il tonkatsu affettato sobbolle brevemente con cipolla dolce-sapida e uovo appena rappreso prima di scivolare sul riso caldo. Il risultato migliore conserva un po’ di croccantezza sopra, mentre la parte inferiore assorbe il dashi condito.",
+      "animeContext": "Il katsudon è uno dei cibi ricorrenti più riconoscibili di Yuri!!! on ICE ed è legato all’identità e alle motivazioni di Yuri; nell’episodio 2 c’è un riferimento diretto al piatto. La ricetta segue il vero katsudon giapponese senza riprodurre dialoghi."
     },
     "es": {
       "title": "Katsudon de la victoria",
@@ -218,12 +222,14 @@
         }
       },
       "steps": {
-        "simmer_onion": "Pon en una sartén pequeña el dashi, la salsa de soja, el mirin y el azúcar. Añade la cebolla y cocina suavemente hasta que se ablande.",
-        "add_tonkatsu": "Corta las chuletas fritas en tiras y colócalas sobre la cebolla.",
-        "add_eggs": "Bate los huevos apenas y viértelos sobre el cerdo sin homogeneizarlos por completo.",
-        "steam_finish": "Tapa y cocina brevemente, dejando el huevo suave y cremoso.",
-        "assemble_bowl": "Reparte el arroz caliente en dos cuencos, coloca encima la mezcla de cerdo y huevo y termina con guisantes o cebollino."
-      }
+        "simmer_onion": "Pon en una sartén pequeña el dashi, la salsa de soja, el mirin y el azúcar. Añade la cebolla y cocina suavemente hasta que se ablande. Mantén un hervor suave unos 5 minutos; la cebolla debe quedar tierna y debe quedar líquido para cocinar el huevo.",
+        "add_tonkatsu": "Corta las chuletas fritas en tiras y colócalas sobre la cebolla. Coloca el tonkatsu con la corteza arriba y cocina solo 30–60 segundos antes del huevo para no ablandar toda la panura.",
+        "add_eggs": "Bate los huevos apenas y viértelos sobre el cerdo sin homogeneizarlos por completo. Vierte el huevo en espiral para que una parte toque el caldo y otra quede sobre la chuleta.",
+        "steam_finish": "Tapa y cocina brevemente, dejando el huevo suave y cremoso. Normalmente bastan 60–90 segundos tapado; detente con la superficie aún brillante porque el calor residual sigue cuajando.",
+        "assemble_bowl": "Reparte el arroz caliente en dos cuencos, coloca encima la mezcla de cerdo y huevo y termina con guisantes o cebollino. Usa arroz recién hecho y desliza el contenido de la sartén de una vez para mantener las capas."
+      },
+      "description": "Katsudon reconfortante con tonkatsu, cebolla dulce-salada y huevo apenas cuajado sobre arroz caliente. La parte superior conserva algo de crocante mientras la inferior absorbe el caldo.",
+      "animeContext": "El katsudon es una comida recurrente muy reconocible en Yuri!!! on ICE y está ligado a Yuri; el episodio 2 contiene una referencia directa. La receta sigue el plato japonés real."
     },
     "fr": {
       "title": "Katsudon de la victoire",
@@ -266,12 +272,14 @@
         }
       },
       "steps": {
-        "simmer_onion": "Versez le dashi, la sauce soja, le mirin et le sucre dans une petite poêle. Ajoutez l’oignon et laissez frémir jusqu’à ce qu’il soit tendre.",
-        "add_tonkatsu": "Découpez les escalopes frites en lanières et posez-les sur l’oignon.",
-        "add_eggs": "Battez les œufs très légèrement puis versez-les sur le porc sans chercher un mélange parfaitement homogène.",
-        "steam_finish": "Couvrez et cuisez brièvement afin de conserver une texture d’œuf souple et crémeuse.",
-        "assemble_bowl": "Répartissez le riz chaud dans deux bols, ajoutez le mélange porc-œuf et terminez par les petits pois ou la ciboulette."
-      }
+        "simmer_onion": "Versez le dashi, la sauce soja, le mirin et le sucre dans une petite poêle. Ajoutez l’oignon et laissez frémir jusqu’à ce qu’il soit tendre. Gardez un léger frémissement environ 5 minutes; l’oignon doit être tendre et il doit rester assez de liquide pour l’œuf.",
+        "add_tonkatsu": "Découpez les escalopes frites en lanières et posez-les sur l’oignon. Posez le tonkatsu croûte vers le haut et ne mijotez que 30–60 secondes avant l’œuf pour conserver du croustillant.",
+        "add_eggs": "Battez les œufs très légèrement puis versez-les sur le porc sans chercher un mélange parfaitement homogène. Versez l’œuf en spirale afin qu’une partie touche le bouillon et l’autre reste sur l’escalope.",
+        "steam_finish": "Couvrez et cuisez brièvement afin de conserver une texture d’œuf souple et crémeuse. Environ 60–90 secondes couvert suffisent; arrêtez quand la surface est encore brillante, la chaleur résiduelle poursuit la prise.",
+        "assemble_bowl": "Répartissez le riz chaud dans deux bols, ajoutez le mélange porc-œuf et terminez par les petits pois ou la ciboulette. Utilisez du riz fraîchement cuit et faites glisser le contenu en un seul bloc si possible pour garder les couches."
+      },
+      "description": "Katsudon réconfortant au tonkatsu, oignon doux-salé et œuf juste pris sur riz chaud. Le dessus garde un peu de croustillant tandis que le dessous s’imprègne du bouillon.",
+      "animeContext": "Le katsudon est un aliment récurrent très reconnaissable dans Yuri!!! on ICE et lié à Yuri; l’épisode 2 comporte une référence directe. La recette suit le vrai plat japonais."
     },
     "de": {
       "title": "Katsudon zum Feiern",
@@ -314,12 +322,14 @@
         }
       },
       "steps": {
-        "simmer_onion": "Dashi, Sojasauce, Mirin und Zucker in einer kleinen Pfanne erhitzen. Die Zwiebel hinzufügen und weich köcheln lassen.",
-        "add_tonkatsu": "Die frittierten Koteletts in Streifen schneiden und auf die Zwiebeln legen.",
-        "add_eggs": "Die Eier nur leicht verquirlen und über das Fleisch gießen, sodass Eiweiß und Eigelb nicht völlig vermischt sind.",
-        "steam_finish": "Abdecken und nur kurz garen, damit das Ei weich und cremig bleibt.",
-        "assemble_bowl": "Heißen Reis auf zwei Schalen verteilen, Schweinefleisch und Ei daraufgeben und mit Erbsen oder Schnittlauch abschließen."
-      }
+        "simmer_onion": "Dashi, Sojasauce, Mirin und Zucker in einer kleinen Pfanne erhitzen. Die Zwiebel hinzufügen und weich köcheln lassen. Etwa 5 Minuten sanft köcheln; die Zwiebel soll weich werden und genug Flüssigkeit für das Ei bleiben.",
+        "add_tonkatsu": "Die frittierten Koteletts in Streifen schneiden und auf die Zwiebeln legen. Tonkatsu mit Kruste nach oben nur 30–60 Sekunden mitsimmern, bevor das Ei kommt, damit Panko nicht ganz weich wird.",
+        "add_eggs": "Die Eier nur leicht verquirlen und über das Fleisch gießen, sodass Eiweiß und Eigelb nicht völlig vermischt sind. Ei spiralförmig eingießen, damit ein Teil in die Brühe und ein Teil auf das Katsu gelangt.",
+        "steam_finish": "Abdecken und nur kurz garen, damit das Ei weich und cremig bleibt. Meist reichen 60–90 Sekunden abgedeckt; bei noch glänzender Oberfläche stoppen, da Restwärme weiter stockt.",
+        "assemble_bowl": "Heißen Reis auf zwei Schalen verteilen, Schweinefleisch und Ei daraufgeben und mit Erbsen oder Schnittlauch abschließen. Frisch gedämpften Reis verwenden und den Pfanneninhalt möglichst in einem Stück auflegen."
+      },
+      "description": "Wärmender Katsudon mit Tonkatsu, süß-herzhafter Zwiebel und weich gestocktem Ei auf heißem Reis. Oben bleibt etwas Kruste, unten saugt die Sauce ein.",
+      "animeContext": "Katsudon ist ein markantes wiederkehrendes Essen in Yuri!!! on ICE und mit Yuri verbunden; Episode 2 enthält einen direkten Bezug. Das Rezept folgt dem realen Gericht."
     },
     "pt": {
       "title": "Katsudon da vitória",
@@ -362,12 +372,29 @@
         }
       },
       "steps": {
-        "simmer_onion": "Coloque dashi, molho de soja, mirin e açúcar em uma frigideira pequena. Junte a cebola e cozinhe suavemente até amaciar.",
-        "add_tonkatsu": "Corte as costeletas fritas em tiras e acomode-as sobre a cebola.",
-        "add_eggs": "Bata os ovos apenas de leve e despeje sobre a carne sem deixar a mistura totalmente uniforme.",
-        "steam_finish": "Tampe e cozinhe rapidamente para que o ovo permaneça macio e cremoso.",
-        "assemble_bowl": "Divida o arroz quente em duas tigelas, coloque a mistura de porco e ovo por cima e finalize com ervilhas ou cebolinha."
-      }
+        "simmer_onion": "Coloque dashi, molho de soja, mirin e açúcar em uma frigideira pequena. Junte a cebola e cozinhe suavemente até amaciar. Mantenha fervura suave por cerca de 5 minutos; a cebola deve ficar macia e ainda deve haver líquido para o ovo.",
+        "add_tonkatsu": "Corte as costeletas fritas em tiras e acomode-as sobre a cebola. Coloque o tonkatsu com a crosta para cima e cozinhe só 30–60 segundos antes do ovo para preservar crocância.",
+        "add_eggs": "Bata os ovos apenas de leve e despeje sobre a carne sem deixar a mistura totalmente uniforme. Despeje o ovo em espiral para que parte toque o caldo e parte fique sobre o katsu.",
+        "steam_finish": "Tampe e cozinhe rapidamente para que o ovo permaneça macio e cremoso. Geralmente 60–90 segundos tampado bastam; pare com a superfície ainda brilhante, pois o calor residual continua firmando.",
+        "assemble_bowl": "Divida o arroz quente em duas tigelas, coloque a mistura de porco e ovo por cima e finalize com ervilhas ou cebolinha. Use arroz recém-cozido e deslize o conteúdo da panela de uma vez, se possível, para manter as camadas."
+      },
+      "description": "Katsudon reconfortante com tonkatsu, cebola agridoce e ovo levemente firme sobre arroz quente. A parte de cima mantém crocância e a de baixo absorve o caldo.",
+      "animeContext": "Katsudon é uma comida recorrente marcante em Yuri!!! on ICE e ligada a Yuri; o episódio 2 traz referência direta. A receita segue o prato japonês real."
     }
+  },
+  "animeReferences": [
+    {
+      "workTitle": "Yuri!!! on ICE",
+      "relation": "recurring_association",
+      "season": 1,
+      "episode": "2",
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Katsudon verified as a Japanese rice bowl of tonkatsu simmered briefly with onion, seasoned dashi and softly set egg.",
+    "animeStatus": "verified",
+    "animeNote": "Katsudon is a recurring and plot-relevant food in Yuri!!! on ICE; episode 2 contains an explicit katsudon reference."
   }
 }
