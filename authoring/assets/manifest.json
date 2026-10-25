@@ -39,9 +39,9 @@
       "recipeId": "recipe_000003",
       "semanticReview": {
         "status": "approved",
-        "reviewedContentVersion": 2,
+        "reviewedContentVersion": 3,
         "reviewedAt": "2026-10-25",
-        "note": "Katsudon with sliced panko pork cutlet, softly set egg, simmered onion and steamed rice; no curry or thick tonkatsu sauce. F3G re-review confirms the approved artwork still matches the revised culinary identity."
+        "note": "Katsudon with sliced panko pork cutlet, softly set egg, simmered onion and steamed rice; no curry or thick tonkatsu sauce. F3G re-review confirms the approved artwork still matches the revised culinary identity. F3H visual hardening: regenerated food-only artwork manually reviewed against the final dish identity and current recipe content."
       }
     },
     {
@@ -63,9 +63,9 @@
       "recipeId": "recipe_000005",
       "semanticReview": {
         "status": "approved",
-        "reviewedContentVersion": 2,
+        "reviewedContentVersion": 3,
         "reviewedAt": "2026-10-25",
-        "note": "Triangular short-grain rice onigiri with nori and visibly flaky tuna-mayonnaise filling. F3G re-review confirms the approved artwork still matches the revised culinary identity."
+        "note": "Triangular short-grain rice onigiri with nori and visibly flaky tuna-mayonnaise filling. F3G re-review confirms the approved artwork still matches the revised culinary identity. F3H editorial hardening: existing approved artwork re-reviewed against the revised recipe content and remains semantically compatible."
       }
     },
     {
@@ -75,9 +75,9 @@
       "recipeId": "recipe_000006",
       "semanticReview": {
         "status": "approved",
-        "reviewedContentVersion": 3,
+        "reviewedContentVersion": 4,
         "reviewedAt": "2026-10-25",
-        "note": "Kansai cabbage okonomiyaki with pork belly, okonomiyaki sauce, Japanese mayonnaise, aonori and katsuobushi. F3G re-review confirms the approved artwork still matches the revised culinary identity."
+        "note": "Kansai cabbage okonomiyaki with pork belly, okonomiyaki sauce, Japanese mayonnaise, aonori and katsuobushi. F3G re-review confirms the approved artwork still matches the revised culinary identity. F3H editorial hardening: existing approved artwork re-reviewed against the revised recipe content and remains semantically compatible."
       }
     },
     {
@@ -87,9 +87,9 @@
       "recipeId": "recipe_000007",
       "semanticReview": {
         "status": "approved",
-        "reviewedContentVersion": 2,
+        "reviewedContentVersion": 3,
         "reviewedAt": "2026-10-25",
-        "note": "Round takoyaki with octopus, takoyaki sauce, Japanese mayonnaise, beni shoga, spring onion and katsuobushi. F3G re-review confirms the approved artwork still matches the revised culinary identity."
+        "note": "Round takoyaki with octopus, takoyaki sauce, Japanese mayonnaise, beni shoga, spring onion and katsuobushi. F3G re-review confirms the approved artwork still matches the revised culinary identity. F3H editorial hardening: existing approved artwork re-reviewed against the revised recipe content and remains semantically compatible."
       }
     },
     {
@@ -99,9 +99,9 @@
       "recipeId": "recipe_000008",
       "semanticReview": {
         "status": "approved",
-        "reviewedContentVersion": 2,
+        "reviewedContentVersion": 3,
         "reviewedAt": "2026-10-25",
-        "note": "Japanese omurice with ketchup chicken rice under a soft golden omelette and ketchup heart. F3G re-review confirms the approved artwork still matches the revised culinary identity."
+        "note": "Japanese omurice with ketchup chicken rice under a soft golden omelette and ketchup heart. F3G re-review confirms the approved artwork still matches the revised culinary identity. F3H editorial hardening: existing approved artwork re-reviewed against the revised recipe content and remains semantically compatible."
       }
     },
     {
@@ -111,9 +111,9 @@
       "recipeId": "recipe_000009",
       "semanticReview": {
         "status": "approved",
-        "reviewedContentVersion": 2,
+        "reviewedContentVersion": 3,
         "reviewedAt": "2026-10-25",
-        "note": "Oyakodon with chicken, soft egg, onion and rice; no salmon or mushroom-led composition. F3G re-review confirms the approved artwork still matches the revised culinary identity."
+        "note": "Oyakodon with chicken, soft egg, onion and rice; no salmon or mushroom-led composition. F3G re-review confirms the approved artwork still matches the revised culinary identity. F3H visual hardening: regenerated food-only artwork manually reviewed against the final dish identity and current recipe content."
       }
     },
     {
@@ -125,7 +125,7 @@
         "status": "approved",
         "reviewedContentVersion": 2,
         "reviewedAt": "2026-10-25",
-        "note": "Pumpkin and white-fish bake with onion, black olives and béchamel under golden puff pastry with fish-shaped decoration. F3G re-review confirms the approved artwork still matches the revised culinary identity."
+        "note": "Pumpkin and white-fish bake with onion, black olives and béchamel under golden puff pastry with fish-shaped decoration. F3G re-review confirms the approved artwork still matches the revised culinary identity. F3H visual hardening: regenerated food-only artwork manually reviewed against the final dish identity and current recipe content."
       }
     },
     {
@@ -135,9 +135,9 @@
       "recipeId": "recipe_000011",
       "semanticReview": {
         "status": "approved",
-        "reviewedContentVersion": 2,
+        "reviewedContentVersion": 3,
         "reviewedAt": "2026-10-25",
-        "note": "Chaliapin Steak Don with sliced beef over rice, caramelized chopped onion, umeboshi in the rice and glossy soy-red-wine pan sauce. F3G re-review confirms the approved artwork still matches the revised culinary identity."
+        "note": "Chaliapin Steak Don with sliced beef over rice, caramelized chopped onion, umeboshi in the rice and glossy soy-red-wine pan sauce. F3G re-review confirms the approved artwork still matches the revised culinary identity. F3H editorial hardening: existing approved artwork re-reviewed against the revised recipe content and remains semantically compatible."
       }
     },
     {
@@ -147,9 +147,9 @@
       "recipeId": "recipe_000012",
       "semanticReview": {
         "status": "approved",
-        "reviewedContentVersion": 2,
+        "reviewedContentVersion": 3,
         "reviewedAt": "2026-10-25",
-        "note": "Gotcha Pork Roast: potato-onion-mushroom loaf fully wrapped in bacon, sliced to show potato filling, with rosemary and red-wine soy butter sauce. F3G re-review confirms the approved artwork still matches the revised culinary identity."
+        "note": "Gotcha Pork Roast: potato-onion-mushroom loaf fully wrapped in bacon, sliced to show potato filling, with rosemary and red-wine soy butter sauce. F3G re-review confirms the approved artwork still matches the revised culinary identity. F3H editorial hardening: existing approved artwork re-reviewed against the revised recipe content and remains semantically compatible."
       }
     },
     {
@@ -159,9 +159,9 @@
       "recipeId": "recipe_000013",
       "semanticReview": {
         "status": "approved",
-        "reviewedContentVersion": 2,
+        "reviewedContentVersion": 3,
         "reviewedAt": "2026-10-25",
-        "note": "Japanese curry rice with thick brown roux, diced meat, potato, carrot and onion beside steamed white rice. F3G re-review confirms the approved artwork still matches the revised culinary identity."
+        "note": "Japanese curry rice with thick brown roux, diced meat, potato, carrot and onion beside steamed white rice. F3G re-review confirms the approved artwork still matches the revised culinary identity. F3H editorial hardening: existing approved artwork re-reviewed against the revised recipe content and remains semantically compatible."
       }
     },
     {
@@ -171,9 +171,9 @@
       "recipeId": "recipe_000014",
       "semanticReview": {
         "status": "approved",
-        "reviewedContentVersion": 2,
+        "reviewedContentVersion": 3,
         "reviewedAt": "2026-10-25",
-        "note": "Mapo tofu with soft tofu cubes, browned ground pork, doubanjiang-red sauce, Sichuan pepper and spring onion. F3G re-review confirms the approved artwork still matches the revised culinary identity."
+        "note": "Mapo tofu with soft tofu cubes, browned ground pork, doubanjiang-red sauce, Sichuan pepper and spring onion. F3G re-review confirms the approved artwork still matches the revised culinary identity. F3H editorial hardening: existing approved artwork re-reviewed against the revised recipe content and remains semantically compatible."
       }
     },
     {
@@ -183,9 +183,9 @@
       "recipeId": "recipe_000015",
       "semanticReview": {
         "status": "approved",
-        "reviewedContentVersion": 2,
+        "reviewedContentVersion": 3,
         "reviewedAt": "2026-10-25",
-        "note": "Nikujaga with thin beef slices, potato, carrot and onion in a light soy-dashi-mirin broth. F3G re-review confirms the approved artwork still matches the revised culinary identity."
+        "note": "Nikujaga with thin beef slices, potato, carrot and onion in a light soy-dashi-mirin broth. F3G re-review confirms the approved artwork still matches the revised culinary identity. F3H editorial hardening: existing approved artwork re-reviewed against the revised recipe content and remains semantically compatible."
       }
     },
     {
@@ -195,9 +195,9 @@
       "recipeId": "recipe_000016",
       "semanticReview": {
         "status": "approved",
-        "reviewedContentVersion": 2,
+        "reviewedContentVersion": 3,
         "reviewedAt": "2026-10-25",
-        "note": "Karaage made from bite-size boneless chicken thigh with craggy potato-starch crust and lemon. F3G re-review confirms the approved artwork still matches the revised culinary identity."
+        "note": "Karaage made from bite-size boneless chicken thigh with craggy potato-starch crust and lemon. F3G re-review confirms the approved artwork still matches the revised culinary identity. F3H editorial hardening: existing approved artwork re-reviewed against the revised recipe content and remains semantically compatible."
       }
     },
     {
@@ -207,9 +207,9 @@
       "recipeId": "recipe_000017",
       "semanticReview": {
         "status": "approved",
-        "reviewedContentVersion": 2,
+        "reviewedContentVersion": 3,
         "reviewedAt": "2026-10-25",
-        "note": "Bright yellow tamagoyaki showing multiple rolled egg layers, sliced into thick even pieces. F3G re-review confirms the approved artwork still matches the revised culinary identity."
+        "note": "Bright yellow tamagoyaki showing multiple rolled egg layers, sliced into thick even pieces. F3G re-review confirms the approved artwork still matches the revised culinary identity. F3H editorial hardening: existing approved artwork re-reviewed against the revised recipe content and remains semantically compatible."
       }
     },
     {
@@ -219,9 +219,9 @@
       "recipeId": "recipe_000018",
       "semanticReview": {
         "status": "approved",
-        "reviewedContentVersion": 2,
+        "reviewedContentVersion": 3,
         "reviewedAt": "2026-10-25",
-        "note": "White steamed nikuman with pleated tops; cut bun shows ground pork, Chinese cabbage, spring onion and ginger filling. F3G re-review confirms the approved artwork still matches the revised culinary identity."
+        "note": "White steamed nikuman with pleated tops; cut bun shows ground pork, Chinese cabbage, spring onion and ginger filling. F3G re-review confirms the approved artwork still matches the revised culinary identity. F3H editorial hardening: existing approved artwork re-reviewed against the revised recipe content and remains semantically compatible."
       }
     },
     {
@@ -257,7 +257,7 @@
         "status": "approved",
         "reviewedContentVersion": 1,
         "reviewedAt": "2026-10-25",
-        "note": "F3G original food-only artwork reviewed against March Comes in Like a Lion recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+        "note": "F3G original food-only artwork reviewed against March Comes in Like a Lion recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text. F3H visual hardening: regenerated food-only artwork manually reviewed against the final dish identity and current recipe content."
       }
     },
     {
@@ -339,9 +339,9 @@
       "recipeId": "recipe_000028",
       "semanticReview": {
         "status": "approved",
-        "reviewedContentVersion": 1,
+        "reviewedContentVersion": 2,
         "reviewedAt": "2026-10-25",
-        "note": "F3G original food-only artwork reviewed against From Up on Poppy Hill recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+        "note": "F3G original food-only artwork reviewed against From Up on Poppy Hill recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text. F3H editorial hardening: existing approved artwork re-reviewed against the revised recipe content and remains semantically compatible."
       }
     },
     {
@@ -351,9 +351,9 @@
       "recipeId": "recipe_000029",
       "semanticReview": {
         "status": "approved",
-        "reviewedContentVersion": 1,
+        "reviewedContentVersion": 2,
         "reviewedAt": "2026-10-25",
-        "note": "F3G original food-only artwork reviewed against Chainsaw Man recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+        "note": "F3G original food-only artwork reviewed against Chainsaw Man recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text. F3H editorial hardening: existing approved artwork re-reviewed against the revised recipe content and remains semantically compatible."
       }
     },
     {
@@ -365,7 +365,7 @@
         "status": "approved",
         "reviewedContentVersion": 1,
         "reviewedAt": "2026-10-25",
-        "note": "F3G original food-only artwork reviewed against K-On! recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+        "note": "F3G original food-only artwork reviewed against K-On! recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text. F3H visual hardening: regenerated food-only artwork manually reviewed against the final dish identity and current recipe content."
       }
     },
     {
@@ -425,7 +425,7 @@
         "status": "approved",
         "reviewedContentVersion": 1,
         "reviewedAt": "2026-10-25",
-        "note": "F3G original food-only artwork reviewed against Spy x Family recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+        "note": "F3G original food-only artwork reviewed against Spy x Family recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text. F3H visual hardening: regenerated food-only artwork manually reviewed against the final dish identity and current recipe content."
       }
     },
     {
@@ -437,7 +437,7 @@
         "status": "approved",
         "reviewedContentVersion": 1,
         "reviewedAt": "2026-10-25",
-        "note": "F3G original food-only artwork reviewed against Gintama recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+        "note": "F3G original food-only artwork reviewed against Gintama recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text. F3H visual hardening: regenerated food-only artwork manually reviewed against the final dish identity and current recipe content."
       }
     },
     {
@@ -447,9 +447,9 @@
       "recipeId": "recipe_000037",
       "semanticReview": {
         "status": "approved",
-        "reviewedContentVersion": 1,
+        "reviewedContentVersion": 2,
         "reviewedAt": "2026-10-25",
-        "note": "F3G original food-only artwork reviewed against Fruits Basket recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+        "note": "F3G original food-only artwork reviewed against Fruits Basket recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text. F3H visual hardening: regenerated food-only artwork manually reviewed against the final dish identity and current recipe content."
       }
     },
     {
@@ -483,9 +483,9 @@
       "recipeId": "recipe_000040",
       "semanticReview": {
         "status": "approved",
-        "reviewedContentVersion": 1,
+        "reviewedContentVersion": 2,
         "reviewedAt": "2026-10-25",
-        "note": "F3G original food-only artwork reviewed against K-On! recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+        "note": "F3G original food-only artwork reviewed against K-On! recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text. F3H editorial hardening: existing approved artwork re-reviewed against the revised recipe content and remains semantically compatible."
       }
     },
     {
@@ -497,7 +497,7 @@
         "status": "approved",
         "reviewedContentVersion": 1,
         "reviewedAt": "2026-10-25",
-        "note": "F3G original food-only artwork reviewed against Food Wars! Shokugeki no Soma recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+        "note": "F3G original food-only artwork reviewed against Food Wars! Shokugeki no Soma recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text. F3H visual hardening: regenerated food-only artwork manually reviewed against the final dish identity and current recipe content."
       }
     },
     {
@@ -509,7 +509,7 @@
         "status": "approved",
         "reviewedContentVersion": 1,
         "reviewedAt": "2026-10-25",
-        "note": "F3G original food-only artwork reviewed against Today's Menu for the Emiya Family recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+        "note": "F3G original food-only artwork reviewed against Today's Menu for the Emiya Family recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text. F3H visual hardening: regenerated food-only artwork manually reviewed against the final dish identity and current recipe content."
       }
     },
     {
@@ -569,7 +569,7 @@
         "status": "approved",
         "reviewedContentVersion": 1,
         "reviewedAt": "2026-10-25",
-        "note": "F3G original food-only artwork reviewed against Food Wars! recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+        "note": "F3G original food-only artwork reviewed against Food Wars! recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text. F3H visual hardening: regenerated food-only artwork manually reviewed against the final dish identity and current recipe content."
       }
     },
     {
@@ -581,7 +581,7 @@
         "status": "approved",
         "reviewedContentVersion": 1,
         "reviewedAt": "2026-10-25",
-        "note": "F3G original food-only artwork reviewed against Today's Menu for the Emiya Family recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+        "note": "F3G original food-only artwork reviewed against Today's Menu for the Emiya Family recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text. F3H visual hardening: regenerated food-only artwork manually reviewed against the final dish identity and current recipe content."
       }
     },
     {
@@ -605,7 +605,7 @@
         "status": "approved",
         "reviewedContentVersion": 1,
         "reviewedAt": "2026-10-25",
-        "note": "F3G original food-only artwork reviewed against Gintama recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+        "note": "F3G original food-only artwork reviewed against Gintama recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text. F3H visual hardening: regenerated food-only artwork manually reviewed against the final dish identity and current recipe content."
       }
     }
   ]
