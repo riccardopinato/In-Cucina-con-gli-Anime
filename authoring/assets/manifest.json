@@ -183,9 +183,9 @@
       "recipeId": "recipe_000015",
       "semanticReview": {
         "status": "approved",
-        "reviewedContentVersion": 3,
+        "reviewedContentVersion": 4,
         "reviewedAt": "2026-10-25",
-        "note": "Nikujaga with thin beef slices, potato, carrot and onion in a light soy-dashi-mirin broth. F3G re-review confirms the approved artwork still matches the revised culinary identity. F3H editorial hardening: existing approved artwork re-reviewed against the revised recipe content and remains semantically compatible."
+        "note": "Nikujaga with thin beef slices, potato, carrot and onion in a light soy-dashi-mirin broth. F3G re-review confirms the approved artwork still matches the revised culinary identity. F3H editorial hardening: existing approved artwork re-reviewed against the revised recipe content and remains semantically compatible. F3H: re-reviewed after explicit green-bean ingredient declaration; artwork remains semantically compatible."
       }
     },
     {
