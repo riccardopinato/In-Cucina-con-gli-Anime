@@ -107,190 +107,20 @@ class _RecipeDetailScreenState extends State<RecipeDetailScreen> {
                       )
                     : ColoredBox(
                         color: colors.surface,
-                        child: MotionEntrance(
-              child: Center(
+                        child: Center(
                           child: Image.asset(
                             imageAsset,
                             fit: BoxFit.contain,
                             alignment: Alignment.center,
                           ),
                         ),
-            ),
                       ),
               ),
             ),
           ),
           SliverToBoxAdapter(
-            child: Center(
-              child: ConstrainedBox(
-                constraints: const BoxConstraints(
-                  maxWidth: AppLayout.detailMaxWidth,
-                ),
-                child: Padding(
-                  padding: const EdgeInsets.fromLTRB(
-                    AppSpacing.medium,
-                    AppSpacing.xLarge,
-                    AppSpacing.medium,
-                    AppSpacing.xxxLarge,
-                  ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
-                    children: [
-                      Text(
-                        recipe.title,
-                        style: theme.textTheme.headlineLarge,
-                      ),
-                      const SizedBox(height: AppSpacing.small),
-                      Row(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Icon(
-                            Icons.auto_awesome_rounded,
-                            size: 19,
-                            color: colors.secondary,
-                          ),
-                          const SizedBox(width: AppSpacing.small),
-                          Expanded(
-                            child: Text(
-                              primaryAnimeReference == null
-                                  ? '${l10n.animeReferenceLabel}: '
-                                      '${recipe.animeSource}'
-                                  : '${_animeRelationLabel(
-                                      l10n,
-                                      primaryAnimeReference.relation,
-                                    )}: ${primaryAnimeReference.workTitle}',
-                              style: theme.textTheme.bodyLarge?.copyWith(
-                                color: colors.onSurfaceVariant,
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                      if (recipe.description != null &&
-                          recipe.description!.trim().isNotEmpty) ...[
-                        const SizedBox(height: AppSpacing.large),
-                        Text(
-                          recipe.description!,
-                          style: theme.textTheme.bodyLarge?.copyWith(
-                            height: 1.55,
-                            color: colors.onSurface,
-                          ),
-                        ),
-                      ],
-                      const SizedBox(height: AppSpacing.xLarge),
-                      Wrap(
-                        spacing: AppSpacing.small,
-                        runSpacing: AppSpacing.small,
-                        children: [
-                          _FactTile(
-                            icon: Icons.timer_outlined,
-                            label: l10n.prepTimeLabel,
-                            value: '${recipe.prepMinutes} min',
-                          ),
-                          _FactTile(
-                            icon: Icons.local_fire_department_outlined,
-                            label: l10n.cookTimeLabel,
-                            value: '${recipe.cookMinutes} min',
-                          ),
-                          _FactTile(
-                            icon: Icons.signal_cellular_alt_rounded,
-                            label: l10n.difficultyLabel,
-                            value: _difficultyLabel(l10n),
-                          ),
-                          _FactTile(
-                            icon: Icons.people_alt_outlined,
-                            label: l10n.servingsLabel,
-                            value: '${recipe.servings}',
-                          ),
-                        ],
-                      ),
-                      const SizedBox(height: AppSpacing.xLarge),
-                      if ((recipe.animeContext != null &&
-                              recipe.animeContext!.trim().isNotEmpty) ||
-                          primaryAnimeReference != null) ...[
-                        _AnimeContextPanel(
-                          title: l10n.animeSectionTitle,
-                          contextText: recipe.animeContext,
-                          reference: primaryAnimeReference,
-                          relationLabel: primaryAnimeReference == null
-                              ? l10n.animeReferenceLabel
-                              : _animeRelationLabel(
-                                  l10n,
-                                  primaryAnimeReference.relation,
-                                ),
-                          location: primaryAnimeReference == null
-                              ? null
-                              : _animeLocation(
-                                  l10n,
-                                  primaryAnimeReference,
-                                ),
-                        ),
-                        const SizedBox(height: AppSpacing.xLarge),
-                      ],
-                      LayoutBuilder(
-                        builder: (context, constraints) {
-                          final wide = constraints.maxWidth >= 820;
-                          final timer = recipe.cookMinutes > 0
-                              ? CookingTimerWidget(
-                                  minutes: recipe.cookMinutes,
-                                )
-                              : null;
-
-                          if (!wide) {
-                            return Column(
-                              crossAxisAlignment:
-                                  CrossAxisAlignment.stretch,
-                              children: [
-                                if (timer != null) ...[
-                                  timer,
-                                  const SizedBox(
-                                    height: AppSpacing.large,
-                                  ),
-                                ],
-                                ingredients,
-                                const SizedBox(
-                                  height: AppSpacing.large,
-                                ),
-                                steps,
-                              ],
-                            );
-                          }
-
-                          return Row(
-                            crossAxisAlignment:
-                                CrossAxisAlignment.start,
-                            children: [
-                              Expanded(
-                                flex: 4,
-                                child: Column(
-                                  crossAxisAlignment:
-                                      CrossAxisAlignment.stretch,
-                                  children: [
-                                    if (timer != null) ...[
-                                      timer,
-                                      const SizedBox(
-                                        height: AppSpacing.large,
-                                      ),
-                                    ],
-                                    ingredients,
-                                  ],
-                                ),
-                              ),
-                              const SizedBox(
-                                width: AppSpacing.large,
-                              ),
-                              Expanded(
-                                flex: 6,
-                                child: steps,
-                              ),
-                            ],
-                          );
-                        },
-                      ),
-                    ],
-                  ),
-                ),
-              ),
+            child: MotionEntrance(
+              child: ${expr},
             ),
           ),
         ],
