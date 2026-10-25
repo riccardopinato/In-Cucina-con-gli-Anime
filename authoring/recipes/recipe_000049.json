@@ -1,0 +1,294 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000049",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Ranma ½",
+  "animeReferences": [
+    {
+      "workTitle": "Ranma ½",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "corrected",
+    "culinaryNote": "Source flour mix and generic fresh oak-leaf wording replaced with a common joshinko-based formula and food-grade prepared kashiwa leaves; leaves are wrappers and not edible.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime association retained as inspiration."
+  },
+  "prepMinutes": 30,
+  "cookMinutes": 5,
+  "servings": 8,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from Ricettario Vol. 5; corrected toward common Children’s Day kashiwa mochi method with joshinko and commercially prepared kashiwa leaves.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "joshinko",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "id": "sugar",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "water",
+      "quantity": 270,
+      "unit": "ml"
+    },
+    {
+      "id": "anko",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "id": "kashiwa_leaves",
+      "quantity": 8,
+      "unit": "piece"
+    }
+  ],
+  "steps": [
+    {
+      "id": "prep_leaves_filling",
+      "timerSeconds": 600
+    },
+    {
+      "id": "mix_dough",
+      "timerSeconds": 180
+    },
+    {
+      "id": "cook_mochi",
+      "timerSeconds": 240
+    },
+    {
+      "id": "knead",
+      "timerSeconds": 300
+    },
+    {
+      "id": "shape_fill",
+      "timerSeconds": 600
+    },
+    {
+      "id": "wrap_serve",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Kashiwa Mochi",
+      "description": "A Children’s Day wagashi of soft rice cake filled with smooth anko and wrapped in a fragrant kashiwa oak leaf. The leaf is a ceremonial, aromatic wrapper rather than food; using prepared culinary leaves and the correct joshinko flour is essential.",
+      "animeContext": "Inspired by Ranma ½’s broad connection to traditional Japanese sweets and comic food scenes. No exact kashiwa-mochi appearance is claimed without direct episode evidence.",
+      "ingredients": {
+        "joshinko": {
+          "name": "Joshinko (Japanese non-glutinous short-grain rice flour)",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "water": {
+          "name": "Water",
+          "note": null
+        },
+        "anko": {
+          "name": "Smooth sweet red bean paste (koshian)",
+          "note": null
+        },
+        "kashiwa_leaves": {
+          "name": "Food-grade prepared kashiwa oak leaves",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_leaves_filling": "Use only kashiwa leaves sold for culinary wrapping, not leaves gathered outdoors. Rinse prepared or salt-pickled leaves and drain; if your package specifies boiling/soaking, follow it. Divide anko into eight smooth 25 g balls.",
+        "mix_dough": "Whisk joshinko and sugar together, then add most of the water gradually until the mixture is thick but smooth and ribbon-like. Hold back a little water because different rice flours absorb differently.",
+        "cook_mochi": "Cover loosely and microwave in short stages, stirring between them, until the dough is fully cooked, opaque-white to slightly translucent and very hot, about 3–4 minutes total depending on microwave power. Follow package guidance if your joshinko behaves differently.",
+        "knead": "Transfer to a heatproof surface or bowl and knead with a wet spatula, then with damp hands once cool enough, until the dough becomes smoother, shinier and pliable. Do not over-knead until tough.",
+        "shape_fill": "Divide into eight equal pieces. With damp hands shape each into an oval, flatten it, place one anko ball slightly off-centre and fold into a half-moon, sealing the edges gently without thinning them to tears.",
+        "wrap_serve": "Wrap each filled mochi in one prepared kashiwa leaf with the decorative side outward. The leaf perfumes and protects the sweet but is not eaten. Serve at room temperature, preferably the same day."
+      }
+    },
+    "it": {
+      "title": "Kashiwa Mochi",
+      "description": "Un wagashi del Giorno dei Bambini: morbido impasto di riso farcito con anko liscio e avvolto in una profumata foglia di kashiwa. La foglia è un involucro cerimoniale e aromatico, non un ingrediente da mangiare; servono foglie preparate per uso alimentare e la corretta farina joshinko.",
+      "animeContext": "Ispirato al legame generale di Ranma ½ con dolci tradizionali e scene comiche legate al cibo. Non attribuiamo il kashiwa mochi a un episodio preciso senza verifica diretta.",
+      "ingredients": {
+        "joshinko": {
+          "name": "Joshinko, farina giapponese di riso a chicco corto non glutinoso",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucchero",
+          "note": null
+        },
+        "water": {
+          "name": "Acqua",
+          "note": null
+        },
+        "anko": {
+          "name": "Pasta dolce liscia di azuki (koshian)",
+          "note": null
+        },
+        "kashiwa_leaves": {
+          "name": "Foglie di kashiwa preparate per uso alimentare",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_leaves_filling": "Usa solo foglie di kashiwa vendute per uso alimentare, non foglie raccolte all’aperto. Sciacqua le foglie preparate o sotto sale e scolale; se la confezione richiede bollitura o ammollo, segui quelle istruzioni. Forma otto palline lisce di anko da 25 g.",
+        "mix_dough": "Mescola joshinko e zucchero, poi aggiungi gradualmente quasi tutta l’acqua fino a ottenere un composto denso ma liscio, che cade a nastro. Tieni da parte un po’ d’acqua perché farine diverse assorbono in modo diverso.",
+        "cook_mochi": "Copri senza sigillare e cuoci al microonde a intervalli brevi, mescolando tra uno e l’altro, finché l’impasto è completamente cotto, bianco-opaco tendente al traslucido e molto caldo, circa 3–4 minuti totali secondo la potenza. Se il produttore del joshinko indica tempi diversi, seguili.",
+        "knead": "Trasferisci in una ciotola o superficie resistente al calore e lavora prima con spatola bagnata, poi con mani umide appena è possibile toccarlo, finché diventa più liscio, lucido e malleabile. Non lavorarlo oltre il necessario.",
+        "shape_fill": "Dividi in otto pezzi. Con mani umide forma ovali, appiattiscili, metti una pallina di anko leggermente fuori centro e piega a mezzaluna, sigillando delicatamente senza assottigliare troppo i bordi.",
+        "wrap_serve": "Avvolgi ogni mochi farcito in una foglia di kashiwa preparata, con il lato decorativo all’esterno. La foglia profuma e protegge il dolce ma non si mangia. Servi a temperatura ambiente, preferibilmente in giornata."
+      }
+    },
+    "es": {
+      "title": "Kashiwa Mochi",
+      "description": "Wagashi del Día del Niño con pastel de arroz suave, anko y hoja aromática de kashiwa. La hoja es envoltorio, no alimento; deben usarse hojas culinarias y joshinko.",
+      "animeContext": "Inspirado en la relación general de Ranma ½ con dulces japoneses y escenas de comida; no se afirma un episodio exacto.",
+      "ingredients": {
+        "joshinko": {
+          "name": "Joshinko, harina japonesa de arroz de grano corto",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "water": {
+          "name": "Agua",
+          "note": null
+        },
+        "anko": {
+          "name": "Pasta dulce lisa de azuki",
+          "note": null
+        },
+        "kashiwa_leaves": {
+          "name": "Hojas de kashiwa preparadas para uso alimentario",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_leaves_filling": "Usa solo hojas de kashiwa vendidas para uso culinario, nunca recogidas al aire libre. Enjuaga según el envase y forma ocho bolas de anko de 25 g.",
+        "mix_dough": "Mezcla joshinko y azúcar y añade casi toda el agua poco a poco hasta una masa espesa y lisa; reserva algo de agua.",
+        "cook_mochi": "Cocina al microondas en intervalos, removiendo, hasta que la masa esté completamente cocida, muy caliente y algo translúcida, unos 3–4 minutos según potencia.",
+        "knead": "Amasa primero con espátula húmeda y luego con manos mojadas hasta quedar lisa y flexible, sin excederte.",
+        "shape_fill": "Divide en ocho, forma óvalos, aplana, coloca anko y dobla en media luna sellando suavemente.",
+        "wrap_serve": "Envuelve en hoja de kashiwa alimentaria; la hoja aromatiza pero no se come. Sirve el mismo día."
+      }
+    },
+    "fr": {
+      "title": "Kashiwa Mochi",
+      "description": "Wagashi de la Fête des Enfants, pâte de riz tendre à l’anko enveloppée d’une feuille parfumée de kashiwa. La feuille est un emballage non comestible; il faut du joshinko et des feuilles culinaires.",
+      "animeContext": "Inspiré du lien général de Ranma ½ avec les douceurs japonaises et les scènes culinaires; aucun épisode précis n’est affirmé.",
+      "ingredients": {
+        "joshinko": {
+          "name": "Joshinko, farine japonaise de riz à grains courts",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre",
+          "note": null
+        },
+        "water": {
+          "name": "Eau",
+          "note": null
+        },
+        "anko": {
+          "name": "Pâte lisse sucrée d’azuki",
+          "note": null
+        },
+        "kashiwa_leaves": {
+          "name": "Feuilles de kashiwa préparées pour usage alimentaire",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_leaves_filling": "Utilisez uniquement des feuilles de kashiwa vendues pour usage culinaire, jamais cueillies dehors. Rincez selon l’emballage et formez huit boules d’anko de 25 g.",
+        "mix_dough": "Mélangez joshinko et sucre, ajoutez progressivement presque toute l’eau jusqu’à pâte épaisse et lisse, en réservant un peu.",
+        "cook_mochi": "Cuisez au micro-ondes par étapes en mélangeant jusqu’à pâte entièrement cuite, très chaude et légèrement translucide, environ 3–4 minutes selon puissance.",
+        "knead": "Pétrissez d’abord à la spatule humide puis avec les mains mouillées jusqu’à pâte lisse et souple.",
+        "shape_fill": "Divisez en huit, aplatissez en ovales, placez l’anko et repliez en demi-lune en scellant doucement.",
+        "wrap_serve": "Enveloppez de feuille de kashiwa alimentaire; la feuille parfume mais ne se mange pas. Servez le jour même."
+      }
+    },
+    "de": {
+      "title": "Kashiwa Mochi",
+      "description": "Wagashi zum Kindertag aus weichem Reiskuchen mit Anko in duftendem Kashiwa-Eichenblatt. Das Blatt ist nicht essbar; Lebensmittelblätter und Joshinko sind wichtig.",
+      "animeContext": "Von Ranma ½s allgemeinem Bezug zu japanischen Süßigkeiten und Essensszenen inspiriert; keine konkrete Episode wird behauptet.",
+      "ingredients": {
+        "joshinko": {
+          "name": "Joshinko, japanisches Rundkorn-Reismehl",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker",
+          "note": null
+        },
+        "water": {
+          "name": "Wasser",
+          "note": null
+        },
+        "anko": {
+          "name": "Glatte süße Azukipaste",
+          "note": null
+        },
+        "kashiwa_leaves": {
+          "name": "Lebensmittelgeeignete vorbereitete Kashiwa-Eichenblätter",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_leaves_filling": "Nur für Lebensmittel verkaufte Kashiwa-Blätter verwenden, keine gesammelten Eichenblätter. Nach Packung spülen/vorbereiten und acht 25-g-Anko-Kugeln formen.",
+        "mix_dough": "Joshinko und Zucker mischen, fast das gesamte Wasser schrittweise bis zu einem dicken glatten Teig einarbeiten; etwas zurückhalten.",
+        "cook_mochi": "In Mikrowellenintervallen unter Rühren insgesamt etwa 3–4 Minuten vollständig garen, bis sehr heiß und leicht durchscheinend; Packungshinweise beachten.",
+        "knead": "Mit feuchtem Spatel und später nassen Händen glatt, glänzend und formbar kneten, nicht überarbeiten.",
+        "shape_fill": "In acht Teile teilen, oval drücken, Anko einlegen und halbmondförmig schließen.",
+        "wrap_serve": "In vorbereitetes Kashiwa-Blatt wickeln. Das Blatt duftet, wird aber nicht gegessen. Am besten am selben Tag servieren."
+      }
+    },
+    "pt": {
+      "title": "Kashiwa Mochi",
+      "description": "Wagashi do Dia das Crianças com massa de arroz macia, anko e folha aromática de kashiwa. A folha é embalagem não comestível; use folhas culinárias e joshinko.",
+      "animeContext": "Inspirado na ligação geral de Ranma ½ com doces japoneses e cenas de comida; não afirmamos episódio específico.",
+      "ingredients": {
+        "joshinko": {
+          "name": "Joshinko, farinha japonesa de arroz de grão curto",
+          "note": null
+        },
+        "sugar": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "water": {
+          "name": "Água",
+          "note": null
+        },
+        "anko": {
+          "name": "Pasta lisa doce de azuki",
+          "note": null
+        },
+        "kashiwa_leaves": {
+          "name": "Folhas de kashiwa preparadas para uso alimentar",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_leaves_filling": "Use apenas folhas de kashiwa vendidas para uso culinário, nunca folhas coletadas ao ar livre. Lave conforme a embalagem e faça oito bolas de anko de 25 g.",
+        "mix_dough": "Misture joshinko e açúcar e adicione quase toda a água gradualmente até massa grossa e lisa; reserve um pouco.",
+        "cook_mochi": "Cozinhe no micro-ondas em etapas, mexendo, até totalmente cozida, muito quente e levemente translúcida, cerca de 3–4 minutos conforme a potência.",
+        "knead": "Trabalhe com espátula úmida e depois mãos molhadas até ficar lisa e maleável, sem sovar demais.",
+        "shape_fill": "Divida em oito, forme ovais, achate, coloque anko e dobre em meia-lua fechando suavemente.",
+        "wrap_serve": "Envolva em folha de kashiwa própria para alimentos; a folha perfuma mas não é comida. Sirva de preferência no mesmo dia."
+      }
+    }
+  }
+}
