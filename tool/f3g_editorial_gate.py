@@ -11,10 +11,21 @@ _ALLOWED_RELATIONS = {
 }
 _ALLOWED_CULINARY = {"verified", "corrected", "review_required"}
 _ALLOWED_ANIME = {"verified", "partial", "unverified"}
+_FORBIDDEN_EDITORIAL_TOKENS = ("undefined", "todo", "tbd", "placeholder")
 
 
 def _non_empty(value: Any, minimum: int = 1) -> bool:
     return isinstance(value, str) and len(value.strip()) >= minimum
+
+
+def _contains_forbidden_editorial_token(value: Any) -> str | None:
+    if not isinstance(value, str):
+        return None
+    normalized = value.casefold()
+    for token in _FORBIDDEN_EDITORIAL_TOKENS:
+        if token in normalized:
+            return token
+    return None
 
 
 def validate_f3g_recipe(
@@ -102,6 +113,32 @@ def validate_f3g_recipe(
             )
             continue
 
+        for field_name in ("title", "description", "animeContext"):
+            token = _contains_forbidden_editorial_token(localized.get(field_name))
+            if token:
+                errors.append(
+                    f"{recipe_id}/{locale}: {field_name} contains forbidden "
+                    f"editorial token '{token}'"
+                )
+
+        ingredients = localized.get("ingredients")
+        if isinstance(ingredients, dict):
+            for ingredient_id, ingredient_text in ingredients.items():
+                if isinstance(ingredient_text, dict):
+                    values = (
+                        ingredient_text.get("name"),
+                        ingredient_text.get("note"),
+                    )
+                else:
+                    values = (ingredient_text,)
+                for value in values:
+                    token = _contains_forbidden_editorial_token(value)
+                    if token:
+                        errors.append(
+                            f"{recipe_id}/{locale}: ingredient {ingredient_id} "
+                            f"contains forbidden editorial token '{token}'"
+                        )
+
         if not _non_empty(localized.get("description"), 80):
             errors.append(
                 f"{recipe_id}/{locale}: description must be at least 80 characters"
@@ -122,6 +159,12 @@ def validate_f3g_recipe(
                 errors.append(
                     f"{recipe_id}/{locale}: step {step_id} must contain "
                     "at least 30 characters of usable instruction"
+                )
+            token = _contains_forbidden_editorial_token(text)
+            if token:
+                errors.append(
+                    f"{recipe_id}/{locale}: step {step_id} contains forbidden "
+                    f"editorial token '{token}'"
                 )
             if isinstance(text, str):
                 total_chars += len(text.strip())
