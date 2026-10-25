@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000018",
-  "contentVersion": 1,
+  "contentVersion": 2,
   "status": "published",
   "inspirationTitle": "Dragon Ball / La città incantata",
   "prepMinutes": 75,
@@ -9,7 +9,7 @@
   "servings": 6,
   "difficulty": "medium",
   "contentOrigin": "adapted",
-  "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. Source table lists 45 min, but the method itself includes a 60-minute proof plus 15–18 minutes steaming; timing corrected editorially.",
+  "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. Source table lists 45 min, but the method itself includes a 60-minute proof plus 15–18 minutes steaming; timing corrected editorially. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
   "imageAssetId": "recipe_000018_artwork",
   "ingredients": [
     {
@@ -135,8 +135,18 @@
         "step_2": "Mix the pork with squeezed chopped cabbage, spring onion, ginger, soy sauce and sesame oil.",
         "step_3": "Divide the dough, roll into discs with thinner edges and place a spoonful of filling in the centre.",
         "step_4": "Pleat the edges together to close each bun into a small pouch.",
-        "step_5": "Steam on parchment squares for 15–18 minutes and let stand briefly before opening the steamer."
-      }
+        "step_5": "Steam on parchment squares for 15–18 minutes and let stand briefly before opening the steamer.",
+        "mix_dough": "undefined Use water that is warm rather than hot so the yeast is not damaged; the mixture should form a shaggy dough with no dry flour before kneading.",
+        "knead_dough": "undefined Knead until the surface becomes smooth and elastic rather than simply timing the process. If the dough tears immediately when stretched, give it a short rest and knead a little longer.",
+        "proof_dough": "undefined Judge the first proof by volume: the dough should roughly double and feel airy. In a cool room it may need longer than the stated hour.",
+        "make_filling": "undefined Mix the filling until the pork becomes slightly tacky so it holds together, but keep it refrigerated until assembly. Squeeze excess water from cabbage and mushrooms if they are wet.",
+        "portion_dough": "undefined Keep unused portions covered while shaping so the surface does not skin over; a dry edge is difficult to pleat and seal.",
+        "fill_buns": "undefined Keep the centre of each wrapper thicker than the rim, place filling in the middle and pleat the thin edge upward. Pinch the final opening firmly closed so meat juices stay inside during steaming.",
+        "second_rest": "undefined Let shaped buns become visibly puffy before steaming, but not fully doubled; overproofed buns can wrinkle or collapse after cooking.",
+        "steam_buns": "undefined Start with active steam, keep the lid closed during cooking and verify the pork filling is safely cooked. When time is up, turn off the heat and wait 3–5 minutes before opening the lid gradually to reduce collapse."
+      },
+      "description": "Japanese steamed buns with a soft yeast dough wrapped around a juicy pork, cabbage and mushroom filling. Proper proofing gives a light crumb, while a short covered rest after steaming prevents the buns from collapsing from a sudden temperature change.",
+      "animeContext": "This recipe is inspired by the abundant steamed-bun and hearty-food imagery associated with Dragon Ball. The app does not claim that this exact nikuman filling appears in a particular episode."
     },
     "it": {
       "title": "Nikuman, panini al vapore con maiale",
@@ -187,8 +197,18 @@
         "step_2": "Mescola il maiale con cavolo tritato e ben strizzato, cipollotto, zenzero, salsa di soia e olio di sesamo.",
         "step_3": "Dividi l’impasto, stendilo in dischi con i bordi più sottili e metti una cucchiaiata di ripieno al centro.",
         "step_4": "Pizzica le pieghe verso il centro per chiudere ogni panino a fagottino.",
-        "step_5": "Cuoci a vapore su quadratini di carta forno per 15–18 minuti e attendi un attimo prima di aprire la vaporiera."
-      }
+        "step_5": "Cuoci a vapore su quadratini di carta forno per 15–18 minuti e attendi un attimo prima di aprire la vaporiera.",
+        "mix_dough": "undefined Usa acqua tiepida, non calda, per non danneggiare il lievito; prima di impastare il composto deve diventare grezzo ma senza farina asciutta.",
+        "knead_dough": "undefined Impasta finché la superficie diventa liscia ed elastica, non solo seguendo il cronometro. Se si strappa subito quando la tendi, lasciala riposare qualche minuto e lavora ancora.",
+        "proof_dough": "undefined Valuta la prima lievitazione dal volume: l’impasto deve circa raddoppiare e risultare arioso. In un ambiente fresco può servire più dell’ora indicativa.",
+        "make_filling": "undefined Mescola il ripieno finché il maiale diventa leggermente appiccicoso e compatto, ma tienilo in frigorifero fino alla formatura. Strizza l’acqua in eccesso da cavolo e funghi se sono molto umidi.",
+        "portion_dough": "undefined Tieni coperte le porzioni che non stai lavorando, così la superficie non forma una pellicola secca difficile da piegare e sigillare.",
+        "fill_buns": "undefined Lascia il centro di ogni disco più spesso del bordo, metti il ripieno al centro e crea le pieghe con la parte sottile verso l’alto. Pizzica bene la chiusura finale, così i succhi restano dentro durante il vapore.",
+        "second_rest": "undefined Lascia che i panini formati diventino visibilmente gonfi prima del vapore, ma senza arrivare a un raddoppio completo: una seconda lievitazione eccessiva può farli raggrinzire o collassare.",
+        "steam_buns": "undefined Parti con vapore già attivo, tieni il coperchio chiuso durante la cottura e verifica che il ripieno di maiale sia cotto in sicurezza. A fine tempo spegni e aspetta 3–5 minuti prima di aprire gradualmente, così riduci il rischio di collasso."
+      },
+      "description": "Panini giapponesi al vapore con impasto lievitato soffice attorno a un ripieno succoso di maiale, cavolo e funghi. Una lievitazione corretta rende la mollica leggera, mentre il breve riposo coperto dopo il vapore evita che i panini collassino per lo sbalzo termico.",
+      "animeContext": "La ricetta si ispira all’immaginario di panini al vapore e cibo sostanzioso associato a Dragon Ball. L’app non afferma che questo ripieno preciso di nikuman compaia in un episodio particolare."
     },
     "es": {
       "title": "Nikuman, bollos al vapor con cerdo",
@@ -239,8 +259,18 @@
         "step_2": "Mezcla el cerdo con col escurrida, cebolleta, jengibre, soja y aceite de sésamo.",
         "step_3": "Divide la masa, forma discos con bordes finos y pon relleno en el centro.",
         "step_4": "Pliega y pellizca los bordes para cerrar cada bollo.",
-        "step_5": "Cuece al vapor sobre papel 15–18 minutos y espera un momento antes de abrir."
-      }
+        "step_5": "Cuece al vapor sobre papel 15–18 minutos y espera un momento antes de abrir.",
+        "mix_dough": "undefined Usa agua tibia, no caliente, para proteger la levadura; mezcla hasta que no quede harina seca.",
+        "knead_dough": "undefined Amasa hasta que quede liso y elástico; si se rompe al estirar, reposa unos minutos y amasa de nuevo.",
+        "proof_dough": "undefined Juzga la fermentación por volumen: debe casi duplicar y sentirse aireada; en frío puede necesitar más tiempo.",
+        "make_filling": "undefined Mezcla hasta que el cerdo quede ligeramente pegajoso y mantén frío; elimina exceso de agua de col y setas.",
+        "portion_dough": "undefined Mantén cubiertas las porciones sin usar para que no se seque el borde.",
+        "fill_buns": "undefined Deja el centro más grueso que el borde, rellena y pliega el borde fino hacia arriba, cerrando con firmeza.",
+        "second_rest": "undefined Deja que se hinchen visiblemente sin duplicar por completo; sobrefermentar puede hacerlos colapsar.",
+        "steam_buns": "undefined Empieza con vapor activo, no abras durante la cocción y verifica el cerdo. Al terminar, apaga y espera 3–5 minutos antes de abrir gradualmente."
+      },
+      "description": "Panecillos japoneses al vapor con masa de levadura y relleno jugoso de cerdo, col y setas. Una buena fermentación da miga ligera y el reposo tras el vapor evita colapsos.",
+      "animeContext": "La receta se inspira en la abundante comida y panecillos al vapor asociados a Dragon Ball; no se afirma que este relleno exacto aparezca en un episodio."
     },
     "fr": {
       "title": "Nikuman, brioches vapeur au porc",
@@ -291,8 +321,18 @@
         "step_2": "Mélangez le porc avec chou essoré, ciboule, gingembre, sauce soja et huile de sésame.",
         "step_3": "Divisez la pâte, formez des disques aux bords fins et déposez la farce au centre.",
         "step_4": "Pincez les plis vers le centre pour fermer chaque brioche.",
-        "step_5": "Faites cuire à la vapeur sur papier 15–18 minutes puis attendez un instant avant d’ouvrir."
-      }
+        "step_5": "Faites cuire à la vapeur sur papier 15–18 minutes puis attendez un instant avant d’ouvrir.",
+        "mix_dough": "undefined Utilisez de l’eau tiède, non chaude, pour préserver la levure; mélangez jusqu’à disparition de la farine sèche.",
+        "knead_dough": "undefined Pétrissez jusqu’à pâte lisse et élastique; si elle se déchire immédiatement, reposez puis pétrissez encore.",
+        "proof_dough": "undefined Jugez la levée au volume: la pâte doit presque doubler et devenir aérienne; au frais, cela peut prendre plus longtemps.",
+        "make_filling": "undefined Mélangez jusqu’à ce que le porc devienne légèrement collant et gardez au froid; retirez l’excès d’eau du chou et des champignons.",
+        "portion_dough": "undefined Gardez les portions non travaillées couvertes afin que le bord ne sèche pas.",
+        "fill_buns": "undefined Gardez le centre plus épais que le bord, garnissez puis plissez le bord fin vers le haut et fermez fermement.",
+        "second_rest": "undefined Laissez gonfler visiblement sans doubler complètement; une surlevée peut les faire retomber.",
+        "steam_buns": "undefined Commencez avec vapeur active, gardez fermé et vérifiez la cuisson du porc. À la fin, coupez et attendez 3–5 minutes avant d’ouvrir progressivement."
+      },
+      "description": "Brioches japonaises vapeur à pâte levée, farcies de porc, chou et champignons. Une bonne levée allège la mie et un court repos après cuisson évite l’affaissement.",
+      "animeContext": "La recette s’inspire de l’imagerie de nourriture abondante et de pains vapeur associée à Dragon Ball; aucune apparition exacte de cette farce n’est affirmée."
     },
     "de": {
       "title": "Nikuman, gedämpfte Schweinebrötchen",
@@ -343,8 +383,18 @@
         "step_2": "Schweinehack mit ausgedrücktem Kohl, Frühlingszwiebel, Ingwer, Sojasauce und Sesamöl mischen.",
         "step_3": "Teig teilen, zu Scheiben mit dünneren Rändern ausrollen und füllen.",
         "step_4": "Die Ränder in Falten zur Mitte ziehen und die Brötchen schließen.",
-        "step_5": "Auf Backpapier 15–18 Minuten dämpfen und vor dem Öffnen kurz warten."
-      }
+        "step_5": "Auf Backpapier 15–18 Minuten dämpfen und vor dem Öffnen kurz warten.",
+        "mix_dough": "undefined Lauwarmes, nicht heißes Wasser verwenden, damit die Hefe aktiv bleibt; vor dem Kneten kein trockenes Mehl mehr sichtbar.",
+        "knead_dough": "undefined Kneten, bis der Teig glatt und elastisch ist; bei sofortigem Reißen kurz ruhen lassen und weiterkneten.",
+        "proof_dough": "undefined Die Gare nach Volumen beurteilen: der Teig soll sich etwa verdoppeln und luftig wirken; in kühler Umgebung dauert es länger.",
+        "make_filling": "undefined Füllung mischen, bis das Fleisch leicht klebrig wird, und kalt halten; überschüssiges Wasser aus Kohl und Pilzen entfernen.",
+        "portion_dough": "undefined Nicht bearbeitete Portionen abdecken, damit die Oberfläche nicht austrocknet.",
+        "fill_buns": "undefined Mitte dicker als Rand lassen, füllen und den dünnen Rand nach oben falten; Öffnung fest schließen.",
+        "second_rest": "undefined Geformte Buns sichtbar aufgehen lassen, aber nicht vollständig verdoppeln; Übergare kann sie zusammenfallen lassen.",
+        "steam_buns": "undefined Mit aktivem Dampf starten, Deckel geschlossen halten und sichere Fleischgarung prüfen. Danach 3–5 Minuten warten und langsam öffnen."
+      },
+      "description": "Japanische gedämpfte Hefebrötchen mit saftiger Schweine-Kohl-Pilz-Füllung. Gute Gare macht die Krume leicht; kurze Ruhe nach dem Dämpfen verhindert Zusammenfallen.",
+      "animeContext": "Das Rezept ist von der üppigen Essens- und Dampfbrötchen-Atmosphäre in Dragon Ball inspiriert; keine konkrete Füllung wird einer Episode zugeschrieben."
     },
     "pt": {
       "title": "Nikuman, pães no vapor com porco",
@@ -395,8 +445,33 @@
         "step_2": "Misture a carne suína com couve espremida, cebolinha, gengibre, soja e óleo de gergelim.",
         "step_3": "Divida a massa, abra discos com bordas finas e coloque o recheio no centro.",
         "step_4": "Faça pregas e feche cada pão no centro.",
-        "step_5": "Cozinhe no vapor sobre papel por 15–18 minutos e aguarde um instante antes de abrir."
-      }
+        "step_5": "Cozinhe no vapor sobre papel por 15–18 minutos e aguarde um instante antes de abrir.",
+        "mix_dough": "undefined Use água morna, não quente, para não danificar o fermento; misture até não restar farinha seca.",
+        "knead_dough": "undefined Sove até ficar lisa e elástica; se rasgar imediatamente ao esticar, descanse e sove mais um pouco.",
+        "proof_dough": "undefined Avalie a fermentação pelo volume: deve quase dobrar e ficar aerada; em ambiente frio pode levar mais tempo.",
+        "make_filling": "undefined Misture até o porco ficar levemente pegajoso e mantenha refrigerado; retire excesso de água do repolho e cogumelos.",
+        "portion_dough": "undefined Mantenha as porções não usadas cobertas para não ressecar a borda.",
+        "fill_buns": "undefined Deixe o centro mais grosso que a borda, recheie e pregue a borda fina para cima, fechando bem.",
+        "second_rest": "undefined Deixe os pães visivelmente fofos sem dobrar totalmente; fermentação excessiva pode fazê-los murchar.",
+        "steam_buns": "undefined Comece com vapor ativo, mantenha fechado e confirme cocção segura do porco. Ao final, desligue e espere 3–5 minutos antes de abrir gradualmente."
+      },
+      "description": "Pães japoneses no vapor com massa fermentada e recheio suculento de porco, repolho e cogumelos. Boa fermentação deixa o miolo leve e o descanso após o vapor evita colapso.",
+      "animeContext": "A receita se inspira na comida abundante e pães no vapor associados a Dragon Ball; não afirmamos que este recheio exato apareça em episódio específico."
     }
+  },
+  "animeReferences": [
+    {
+      "workTitle": "Dragon Ball",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Nikuman verified as Japanese steamed pork buns with yeast-leavened dough and seasoned meat/vegetable filling; proofing and steaming/rest cues retained.",
+    "animeStatus": "unverified",
+    "animeNote": "Dragon Ball association retained as inspiration; no exact nikuman scene claimed."
   }
 }
