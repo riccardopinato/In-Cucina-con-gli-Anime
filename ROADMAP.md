@@ -287,7 +287,7 @@ Early evidence already completed before F5 opens:
 - persistent Android signing active in CI with the documented certificate fingerprint;
 - first persistent-signed APK physically installed and user-confirmed working on 2026-10-25;
 - all twenty current recipe artworks user-confirmed correct on the physical phone;
-- update-in-place continuity remains pending until a later persistent-signed APK is installed over the current one without uninstalling;
+- update-in-place continuity physically VERIFIED on 2026-10-25: later persistent-signed APK installed over the existing app without uninstalling and existing Favorites were preserved;
 - production AAB / exact release artifact evidence remains part of F5A and is not claimed by this early internal validation.
 
 ### F5B — Device + platform QA
