@@ -1,0 +1,62 @@
+name: F3G raw artwork restore
+
+on:
+  push:
+    branches:
+      - f3g-artwork-21-50
+    paths:
+      - '.github/workflows/f3g-artwork-raw-restore.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Reconstruct raw JPEG archive
+        shell: bash
+        run: |
+          cat .tmp/F3G_payload_00.txt .tmp/F3G_payload_01.txt .tmp/F3G_payload_02.txt .tmp/F3G_payload_03.txt | base64 -d > /tmp/f3g_artworks.tar.gz
+          test "$(tar -tzf /tmp/f3g_artworks.tar.gz | grep -c '^recipe_0000.*\.jpg$')" = "30"
+          tar -xzf /tmp/f3g_artworks.tar.gz -C assets/recipe_artwork
+
+      - name: Verify raw JPEG envelope
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          for i in range(21, 51):
+              p = Path(f"assets/recipe_artwork/recipe_{i:06d}.jpg")
+              data = p.read_bytes()
+              assert data[:2] == b"\xff\xd8", p
+              assert data[-2:] == b"\xff\xd9", p
+              assert 10_000 <= len(data) <= 140 * 1024, (p, len(data))
+          print("30 JPEG envelopes verified")
+          PY
+
+      - name: Compile canonical catalog
+        run: python3 tool/compile_recipe_catalog.py
+
+      - name: Validate canonical catalog
+        run: python3 tool/validate_recipe_catalog.py
+
+      - name: Remove transport helpers
+        shell: bash
+        run: |
+          rm -f .tmp/F3G_payload_00.txt .tmp/F3G_payload_01.txt .tmp/F3G_payload_02.txt .tmp/F3G_payload_03.txt
+          rm -f .github/workflows/f3g-artwork-materialize.yml
+          rm -f .github/workflows/f3g-artwork-raw-restore.yml
+          rmdir .tmp 2>/dev/null || true
+
+      - name: Commit validated artwork and runtime
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A assets/recipe_artwork assets/catalog .github/workflows .tmp 2>/dev/null || true
+          git commit -m "F3G artwork: install validated recipes 21-50"
+          git push origin HEAD:f3g-artwork-21-50
