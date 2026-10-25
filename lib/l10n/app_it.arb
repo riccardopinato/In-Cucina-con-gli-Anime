@@ -65,5 +65,12 @@
   "privacyStatusBlock": "Blocca annunci",
   "privacyAllowAds": "Consenti richieste pubblicitarie",
   "privacyBlockAds": "Blocca richieste pubblicitarie",
-  "privacyResetChoice": "Azzera scelta"
+  "privacyResetChoice": "Azzera scelta",
+  "animeSectionTitle": "Nell'anime",
+  "animeRelationVerified": "Presenza verificata",
+  "animeRelationRecurring": "Associazione ricorrente",
+  "animeRelationInspired": "Ispirato a",
+  "animeSeasonLabel": "Stagione",
+  "animeEpisodeLabel": "Episodio",
+  "animeChapterLabel": "Capitolo"
 }
