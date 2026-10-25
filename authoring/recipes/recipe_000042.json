@@ -1,0 +1,613 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000042",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Today's Menu for the Emiya Family",
+  "animeReferences": [
+    {
+      "workTitle": "Today's Menu for the Emiya Family",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "corrected",
+    "culinaryNote": "Source milk/soy-milk broth was removed. Recipe normalized toward Nagasaki champon: pork, seafood, vegetables and champon noodles simmered with strong savoury soup.",
+    "animeStatus": "unverified",
+    "animeNote": "Association retained as inspiration."
+  },
+  "prepMinutes": 20,
+  "cookMinutes": 20,
+  "servings": 2,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from Ricettario Vol. 5; corrected against Nagasaki regional-cuisine guidance.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "champon_noodles",
+      "quantity": 2,
+      "unit": "portion"
+    },
+    {
+      "id": "pork",
+      "quantity": 80,
+      "unit": "g"
+    },
+    {
+      "id": "shrimp",
+      "quantity": 80,
+      "unit": "g"
+    },
+    {
+      "id": "squid",
+      "quantity": 80,
+      "unit": "g"
+    },
+    {
+      "id": "cabbage",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "id": "carrot",
+      "quantity": 30,
+      "unit": "g"
+    },
+    {
+      "id": "bean_sprouts",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "id": "kamaboko",
+      "quantity": 30,
+      "unit": "g"
+    },
+    {
+      "id": "shiitake",
+      "quantity": 2,
+      "unit": null
+    },
+    {
+      "id": "oil",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "water",
+      "quantity": 400,
+      "unit": "ml"
+    },
+    {
+      "id": "chicken_stock",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "oyster_sauce",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "id": "sake",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "sugar",
+      "quantity": 0.5,
+      "unit": "tbsp"
+    },
+    {
+      "id": "salt",
+      "quantity": 0.5,
+      "unit": "tsp"
+    }
+  ],
+  "steps": [
+    {
+      "id": "prep",
+      "timerSeconds": 600
+    },
+    {
+      "id": "mix_soup",
+      "timerSeconds": 120
+    },
+    {
+      "id": "stir_fry_proteins",
+      "timerSeconds": 180
+    },
+    {
+      "id": "stir_fry_veg",
+      "timerSeconds": 180
+    },
+    {
+      "id": "simmer_soup",
+      "timerSeconds": 300
+    },
+    {
+      "id": "add_noodles",
+      "timerSeconds": 240
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Nagasaki Champon",
+      "description": "Nagasaki’s hearty mixed noodle dish, combining pork, seafood, vegetables and thick champon noodles in one savoury wok. Unlike the source draft, this version does not rely on milk or soy milk: its body comes from the concentrated soup and the ingredients simmering together.",
+      "animeContext": "Inspired by the home-cooking focus of Today's Menu for the Emiya Family. The connection is editorial; no exact champon episode is claimed.",
+      "ingredients": {
+        "champon_noodles": {
+          "name": "Nagasaki champon noodles",
+          "note": null
+        },
+        "pork": {
+          "name": "Thinly sliced pork",
+          "note": null
+        },
+        "shrimp": {
+          "name": "Shelled shrimp",
+          "note": null
+        },
+        "squid": {
+          "name": "Squid",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Cabbage",
+          "note": null
+        },
+        "carrot": {
+          "name": "Carrot",
+          "note": null
+        },
+        "bean_sprouts": {
+          "name": "Bean sprouts",
+          "note": null
+        },
+        "kamaboko": {
+          "name": "Kamaboko",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Shiitake mushrooms",
+          "note": null
+        },
+        "oil": {
+          "name": "Neutral oil",
+          "note": null
+        },
+        "water": {
+          "name": "Water",
+          "note": null
+        },
+        "chicken_stock": {
+          "name": "Concentrated chicken stock base",
+          "note": null
+        },
+        "oyster_sauce": {
+          "name": "Oyster sauce",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "salt": {
+          "name": "Salt",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep": "Cut pork, squid, cabbage, carrot, kamaboko and shiitake into even bite-size pieces and have everything beside the stove. Champon is cooked quickly, so the mise en place should be complete before the wok heats.",
+        "mix_soup": "Mix water, chicken-stock base, oyster sauce, sake, sugar and salt until dissolved. Taste the uncooked mix only for salt balance if your stock base is safe to taste; otherwise adjust after simmering.",
+        "stir_fry_proteins": "Heat oil in a wok over high heat. Add pork, shrimp and squid and stir-fry 2–3 minutes until the pork changes colour and seafood is just beginning to turn opaque; do not fully overcook it at this stage.",
+        "stir_fry_veg": "Add carrot, cabbage, shiitake and kamaboko and toss another 2–3 minutes. Keep the vegetables bright and slightly crisp because they continue cooking in the soup.",
+        "simmer_soup": "Pour in the prepared soup and bring to a lively simmer. Add bean sprouts and cook about 2 minutes, skimming any foam; the broth should be savoury and full-bodied but not milky.",
+        "add_noodles": "Add champon noodles directly to the wok and simmer 3–4 minutes, or according to the package, so they absorb the soup. Return the seafood to perfect doneness, divide noodles and toppings between bowls and serve immediately."
+      }
+    },
+    "it": {
+      "title": "Nagasaki Champon",
+      "description": "Il ricco piatto di noodles misti di Nagasaki, con maiale, frutti di mare, verdure e noodles champon cotti insieme nel wok. A differenza della bozza sorgente, questa versione non usa latte o latte di soia: la corposità nasce dal brodo sapido e dalla cottura degli ingredienti insieme.",
+      "animeContext": "Ispirato all’attenzione per la cucina domestica di Today's Menu for the Emiya Family. Il collegamento è editoriale: non attribuiamo il champon a un episodio preciso.",
+      "ingredients": {
+        "champon_noodles": {
+          "name": "Noodles per Nagasaki champon",
+          "note": null
+        },
+        "pork": {
+          "name": "Maiale affettato sottile",
+          "note": null
+        },
+        "shrimp": {
+          "name": "Gamberi sgusciati",
+          "note": null
+        },
+        "squid": {
+          "name": "Calamaro o seppia",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Cavolo cappuccio",
+          "note": null
+        },
+        "carrot": {
+          "name": "Carota",
+          "note": null
+        },
+        "bean_sprouts": {
+          "name": "Germogli di soia",
+          "note": null
+        },
+        "kamaboko": {
+          "name": "Kamaboko",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Shiitake",
+          "note": null
+        },
+        "oil": {
+          "name": "Olio neutro",
+          "note": null
+        },
+        "water": {
+          "name": "Acqua",
+          "note": null
+        },
+        "chicken_stock": {
+          "name": "Base concentrata di brodo di pollo",
+          "note": null
+        },
+        "oyster_sauce": {
+          "name": "Salsa d’ostrica",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucchero",
+          "note": null
+        },
+        "salt": {
+          "name": "Sale",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep": "Taglia maiale, calamaro, cavolo, carota, kamaboko e shiitake in bocconi regolari e prepara tutto accanto ai fornelli. Il champon cuoce velocemente: la mise en place deve essere completa prima di scaldare il wok.",
+        "mix_soup": "Mescola acqua, base di brodo di pollo, salsa d’ostrica, sake, zucchero e sale fino a scioglimento. Regolerai la sapidità dopo il primo sobbollore se la base di brodo è molto concentrata.",
+        "stir_fry_proteins": "Scalda l’olio nel wok a fuoco alto. Aggiungi maiale, gamberi e calamaro e salta 2–3 minuti, finché il maiale cambia colore e il pesce inizia appena a diventare opaco; non cuocerlo completamente ora.",
+        "stir_fry_veg": "Unisci carota, cavolo, shiitake e kamaboko e salta altri 2–3 minuti. Le verdure devono restare vivaci e leggermente croccanti, perché continueranno a cuocere nel brodo.",
+        "simmer_soup": "Versa il brodo preparato e porta a sobbollire vivacemente. Aggiungi i germogli e cuoci circa 2 minuti, schiumando se serve; il fondo deve risultare sapido e corposo, non lattiginoso.",
+        "add_noodles": "Aggiungi i noodles champon direttamente nel wok e fai sobbollire 3–4 minuti, o secondo confezione, così assorbono il brodo. Porta i frutti di mare alla cottura finale, dividi noodles e condimenti nelle ciotole e servi subito."
+      }
+    },
+    "es": {
+      "title": "Nagasaki Champon",
+      "description": "Plato contundente de Nagasaki con cerdo, marisco, verduras y noodles champon en un solo wok. Esta versión no usa leche: el cuerpo viene del caldo concentrado.",
+      "animeContext": "Inspirado en la cocina doméstica de Today's Menu for the Emiya Family; no se afirma un episodio exacto.",
+      "ingredients": {
+        "champon_noodles": {
+          "name": "Fideos de Nagasaki champon",
+          "note": null
+        },
+        "pork": {
+          "name": "Cerdo fino",
+          "note": null
+        },
+        "shrimp": {
+          "name": "Gambas peladas",
+          "note": null
+        },
+        "squid": {
+          "name": "Calamar",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Col",
+          "note": null
+        },
+        "carrot": {
+          "name": "Zanahoria",
+          "note": null
+        },
+        "bean_sprouts": {
+          "name": "Brotes de soja",
+          "note": null
+        },
+        "kamaboko": {
+          "name": "Kamaboko",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Shiitake",
+          "note": null
+        },
+        "oil": {
+          "name": "Aceite neutro",
+          "note": null
+        },
+        "water": {
+          "name": "Agua",
+          "note": null
+        },
+        "chicken_stock": {
+          "name": "Base concentrada de caldo de pollo",
+          "note": null
+        },
+        "oyster_sauce": {
+          "name": "Salsa de ostras",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep": "Corta todos los ingredientes en piezas uniformes y deja la mise en place lista antes de calentar el wok.",
+        "mix_soup": "Mezcla agua, base de pollo, salsa de ostras, sake, azúcar y sal.",
+        "stir_fry_proteins": "Saltea cerdo, gambas y calamar a fuego fuerte 2–3 minutos sin terminar de cocinarlos.",
+        "stir_fry_veg": "Añade zanahoria, col, shiitake y kamaboko y saltea 2–3 minutos manteniendo textura.",
+        "simmer_soup": "Vierte el caldo, lleva a hervor vivo, añade brotes y cocina unos 2 minutos.",
+        "add_noodles": "Añade los noodles directamente y cuece 3–4 minutos o según el paquete. Sirve inmediatamente."
+      }
+    },
+    "fr": {
+      "title": "Nagasaki Champon",
+      "description": "Plat généreux de Nagasaki réunissant porc, fruits de mer, légumes et nouilles champon dans un même wok. Cette version n’utilise pas de lait; la richesse vient du bouillon.",
+      "animeContext": "Inspiré de la cuisine familiale de Today's Menu for the Emiya Family; aucun épisode précis n’est affirmé.",
+      "ingredients": {
+        "champon_noodles": {
+          "name": "Nouilles de Nagasaki champon",
+          "note": null
+        },
+        "pork": {
+          "name": "Porc finement tranché",
+          "note": null
+        },
+        "shrimp": {
+          "name": "Crevettes décortiquées",
+          "note": null
+        },
+        "squid": {
+          "name": "Calamar",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Chou",
+          "note": null
+        },
+        "carrot": {
+          "name": "Carotte",
+          "note": null
+        },
+        "bean_sprouts": {
+          "name": "Germes de soja",
+          "note": null
+        },
+        "kamaboko": {
+          "name": "Kamaboko",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Shiitake",
+          "note": null
+        },
+        "oil": {
+          "name": "Huile neutre",
+          "note": null
+        },
+        "water": {
+          "name": "Eau",
+          "note": null
+        },
+        "chicken_stock": {
+          "name": "Base de bouillon de poulet",
+          "note": null
+        },
+        "oyster_sauce": {
+          "name": "Sauce huître",
+          "note": null
+        },
+        "sake": {
+          "name": "Saké",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre",
+          "note": null
+        },
+        "salt": {
+          "name": "Sel",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep": "Coupez tous les ingrédients régulièrement et préparez la mise en place avant de chauffer le wok.",
+        "mix_soup": "Mélangez eau, base de poulet, sauce huître, saké, sucre et sel.",
+        "stir_fry_proteins": "Sautez porc, crevettes et calamar 2–3 minutes à feu vif sans terminer leur cuisson.",
+        "stir_fry_veg": "Ajoutez carotte, chou, shiitake et kamaboko et sautez 2–3 minutes en gardant du croquant.",
+        "simmer_soup": "Versez le bouillon, portez à frémissement vif, ajoutez les germes et cuisez environ 2 minutes.",
+        "add_noodles": "Ajoutez les nouilles directement et mijotez 3–4 minutes ou selon l’emballage. Servez aussitôt."
+      }
+    },
+    "de": {
+      "title": "Nagasaki Champon",
+      "description": "Herzhaftes Nagasaki-Nudelgericht mit Schwein, Meeresfrüchten, Gemüse und Champon-Nudeln aus einem Wok. Diese Version verwendet keine Milch; die Fülle kommt aus der kräftigen Brühe.",
+      "animeContext": "Von der Hausmannskost in Today's Menu for the Emiya Family inspiriert; keine konkrete Episode wird behauptet.",
+      "ingredients": {
+        "champon_noodles": {
+          "name": "Nagasaki-Champon-Nudeln",
+          "note": null
+        },
+        "pork": {
+          "name": "Dünn geschnittenes Schwein",
+          "note": null
+        },
+        "shrimp": {
+          "name": "Geschälte Garnelen",
+          "note": null
+        },
+        "squid": {
+          "name": "Tintenfisch",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Kohl",
+          "note": null
+        },
+        "carrot": {
+          "name": "Karotte",
+          "note": null
+        },
+        "bean_sprouts": {
+          "name": "Sojasprossen",
+          "note": null
+        },
+        "kamaboko": {
+          "name": "Kamaboko",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Shiitake",
+          "note": null
+        },
+        "oil": {
+          "name": "Neutrales Öl",
+          "note": null
+        },
+        "water": {
+          "name": "Wasser",
+          "note": null
+        },
+        "chicken_stock": {
+          "name": "Konzentrierte Hühnerbrühe-Basis",
+          "note": null
+        },
+        "oyster_sauce": {
+          "name": "Austernsauce",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker",
+          "note": null
+        },
+        "salt": {
+          "name": "Salz",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep": "Alle Zutaten gleichmäßig schneiden und vollständig bereitstellen, bevor der Wok erhitzt wird.",
+        "mix_soup": "Wasser, Hühnerbrühe-Basis, Austernsauce, Sake, Zucker und Salz mischen.",
+        "stir_fry_proteins": "Schwein, Garnelen und Tintenfisch 2–3 Minuten bei hoher Hitze anbraten, ohne vollständig durchzugaren.",
+        "stir_fry_veg": "Karotte, Kohl, Shiitake und Kamaboko 2–3 Minuten mitbraten, dabei Biss erhalten.",
+        "simmer_soup": "Brühe angießen, kräftig köcheln, Sprossen zugeben und etwa 2 Minuten garen.",
+        "add_noodles": "Nudeln direkt in den Wok geben und 3–4 Minuten oder nach Packung köcheln. Sofort servieren."
+      }
+    },
+    "pt": {
+      "title": "Nagasaki Champon",
+      "description": "Prato robusto de Nagasaki com porco, frutos do mar, legumes e macarrão champon no mesmo wok. Esta versão não usa leite; o corpo vem do caldo concentrado.",
+      "animeContext": "Inspirado na cozinha caseira de Today's Menu for the Emiya Family; não afirmamos episódio específico.",
+      "ingredients": {
+        "champon_noodles": {
+          "name": "Macarrão Nagasaki champon",
+          "note": null
+        },
+        "pork": {
+          "name": "Porco fatiado fino",
+          "note": null
+        },
+        "shrimp": {
+          "name": "Camarões descascados",
+          "note": null
+        },
+        "squid": {
+          "name": "Lula",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Repolho",
+          "note": null
+        },
+        "carrot": {
+          "name": "Cenoura",
+          "note": null
+        },
+        "bean_sprouts": {
+          "name": "Broto de feijão",
+          "note": null
+        },
+        "kamaboko": {
+          "name": "Kamaboko",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Shiitake",
+          "note": null
+        },
+        "oil": {
+          "name": "Óleo neutro",
+          "note": null
+        },
+        "water": {
+          "name": "Água",
+          "note": null
+        },
+        "chicken_stock": {
+          "name": "Base concentrada de caldo de frango",
+          "note": null
+        },
+        "oyster_sauce": {
+          "name": "Molho de ostra",
+          "note": null
+        },
+        "sake": {
+          "name": "Saquê",
+          "note": null
+        },
+        "sugar": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep": "Corte todos os ingredientes de maneira uniforme e deixe a mise en place pronta antes de aquecer o wok.",
+        "mix_soup": "Misture água, base de frango, molho de ostra, saquê, açúcar e sal.",
+        "stir_fry_proteins": "Salteie porco, camarão e lula em fogo alto por 2–3 minutos sem cozinhar totalmente.",
+        "stir_fry_veg": "Junte cenoura, repolho, shiitake e kamaboko e salteie 2–3 minutos mantendo textura.",
+        "simmer_soup": "Adicione o caldo, leve a fervura viva, junte brotos e cozinhe cerca de 2 minutos.",
+        "add_noodles": "Coloque o macarrão diretamente no wok e cozinhe 3–4 minutos ou conforme a embalagem. Sirva imediatamente."
+      }
+    }
+  }
+}

@@ -1,0 +1,497 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000032",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Dorohedoro",
+  "animeReferences": [
+    {
+      "workTitle": "Dorohedoro",
+      "relation": "recurring_association",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "corrected",
+    "culinaryNote": "Source label normalized from Hanatsuki to Hanetsuki/Hane-tsuki Gyoza (羽根つき餃子), a real winged pan-fried gyoza style.",
+    "animeStatus": "verified",
+    "animeNote": "Gyoza is a recurring, central food association in Dorohedoro; the winged variation is treated as this app's technique rather than an exact scene claim."
+  },
+  "prepMinutes": 30,
+  "cookMinutes": 15,
+  "servings": 4,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from Ricettario Vol. 4; canonical Japanese name corrected and filling/cooking safety clarified.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "wrappers",
+      "quantity": 24,
+      "unit": "piece"
+    },
+    {
+      "id": "pork",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "id": "napa_cabbage",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "id": "scallions",
+      "quantity": 2,
+      "unit": null
+    },
+    {
+      "id": "garlic",
+      "quantity": 1,
+      "unit": "clove"
+    },
+    {
+      "id": "ginger",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "soy_sauce",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "sesame_oil",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "salt",
+      "quantity": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "water",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "id": "cornstarch",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "frying_oil",
+      "quantity": 1,
+      "unit": "tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "id": "prep_cabbage_filling",
+      "timerSeconds": 900
+    },
+    {
+      "id": "fold",
+      "timerSeconds": 900
+    },
+    {
+      "id": "brown_bases",
+      "timerSeconds": 180
+    },
+    {
+      "id": "steam",
+      "timerSeconds": 360
+    },
+    {
+      "id": "crisp_wings",
+      "timerSeconds": 120
+    },
+    {
+      "id": "invert_serve",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Hanetsuki Gyoza — Gyoza with Crispy Wings",
+      "description": "Pan-fried Japanese dumplings joined by a paper-thin, brittle starch lace. The filling stays juicy inside while the bottoms and wing turn deeply crisp, giving a dramatic presentation without changing the classic gyoza flavour.",
+      "animeContext": "Gyoza is one of Dorohedoro’s most recognizable recurring foods, closely associated with Nikaido and Hungry Bug. The winged hanetsuki presentation is this app’s cookable variation, not a claim that every shown gyoza has the lace.",
+      "ingredients": {
+        "wrappers": {
+          "name": "Gyoza wrappers",
+          "note": null
+        },
+        "pork": {
+          "name": "Ground pork",
+          "note": null
+        },
+        "napa_cabbage": {
+          "name": "Napa cabbage",
+          "note": null
+        },
+        "scallions": {
+          "name": "Scallions",
+          "note": null
+        },
+        "garlic": {
+          "name": "Garlic",
+          "note": null
+        },
+        "ginger": {
+          "name": "Fresh grated ginger",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Toasted sesame oil",
+          "note": null
+        },
+        "salt": {
+          "name": "Salt",
+          "note": null
+        },
+        "water": {
+          "name": "Water for lace",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Cornstarch",
+          "note": null
+        },
+        "frying_oil": {
+          "name": "Neutral oil",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_cabbage_filling": "Salt the finely chopped cabbage lightly and leave 10 minutes, then squeeze it very dry. Mix with pork, scallion, garlic, ginger, soy sauce and sesame oil, stirring in one direction until the filling becomes tacky; keep chilled until folding.",
+        "fold": "Place about a teaspoon of filling in the centre of each wrapper. Moisten only the rim, fold and pleat the front edge against the flat back edge, pressing out trapped air. Keep finished dumplings covered so the wrappers do not dry.",
+        "brown_bases": "Heat a non-stick skillet over medium heat with neutral oil. Arrange gyoza flat-side down in a tight ring or rows and cook 2–3 minutes until the bases are evenly golden.",
+        "steam": "Whisk water and cornstarch until completely smooth and pour around, not directly over, the gyoza. Cover immediately and steam 5–6 minutes, until the pork filling is fully cooked and most liquid has evaporated.",
+        "crisp_wings": "Remove the lid and continue over medium heat until the remaining starch mixture dries into a thin golden lace. Add a few drops of sesame oil around the edge and cook another 1–2 minutes until crisp and releasing from the pan.",
+        "invert_serve": "Loosen the edge with a thin spatula, place a large plate over the skillet and invert in one confident motion so the crisp lace faces upward. Serve immediately while the wing is brittle."
+      }
+    },
+    "it": {
+      "title": "Hanetsuki Gyoza — Gyoza con ali croccanti",
+      "description": "Ravioli giapponesi in padella uniti da un pizzo sottilissimo e fragile di amido. Il ripieno resta succoso, mentre base e “ali” diventano croccanti: una presentazione scenografica senza snaturare il gusto del gyoza.",
+      "animeContext": "I gyoza sono uno dei cibi ricorrenti più riconoscibili di Dorohedoro, legati a Nikaido e Hungry Bug. La presentazione hanetsuki con il pizzo è la variante cucinabile dell’app, non la pretesa che ogni gyoza mostrato abbia le ali.",
+      "ingredients": {
+        "wrappers": {
+          "name": "Dischi per gyoza",
+          "note": null
+        },
+        "pork": {
+          "name": "Macinato di maiale",
+          "note": null
+        },
+        "napa_cabbage": {
+          "name": "Cavolo cinese",
+          "note": null
+        },
+        "scallions": {
+          "name": "Cipollotti",
+          "note": null
+        },
+        "garlic": {
+          "name": "Aglio",
+          "note": null
+        },
+        "ginger": {
+          "name": "Zenzero fresco grattugiato",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa di soia",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Olio di sesamo tostato",
+          "note": null
+        },
+        "salt": {
+          "name": "Sale",
+          "note": null
+        },
+        "water": {
+          "name": "Acqua per il pizzo",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Amido di mais",
+          "note": null
+        },
+        "frying_oil": {
+          "name": "Olio neutro",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_cabbage_filling": "Sala leggermente il cavolo tritato e lascialo riposare 10 minuti, poi strizzalo molto bene. Mescola con maiale, cipollotto, aglio, zenzero, soia e olio di sesamo, lavorando sempre nello stesso verso finché il ripieno diventa appiccicoso; tienilo freddo.",
+        "fold": "Metti circa un cucchiaino di ripieno al centro di ogni disco. Inumidisci solo il bordo, piega e crea le pieghe sul lembo anteriore contro quello posteriore, espellendo l’aria. Copri i gyoza già formati perché non secchino.",
+        "brown_bases": "Scalda una padella antiaderente a fuoco medio con olio neutro. Disponi i gyoza con la base piatta verso il basso e cuoci 2–3 minuti, finché il fondo è dorato in modo uniforme.",
+        "steam": "Mescola acqua e amido senza grumi e versa il liquido attorno ai gyoza, non sopra. Copri subito e cuoci 5–6 minuti, finché il maiale è completamente cotto e quasi tutto il liquido è evaporato.",
+        "crisp_wings": "Togli il coperchio e continua a fuoco medio finché l’amido rimasto forma una cialda sottile e dorata. Aggiungi poche gocce d’olio di sesamo sul bordo e cuoci ancora 1–2 minuti, finché il pizzo è croccante e si stacca.",
+        "invert_serve": "Stacca il bordo con una spatola sottile, appoggia un piatto grande sulla padella e capovolgi con un gesto deciso, lasciando il pizzo in alto. Servi subito mentre è fragile e croccante."
+      }
+    },
+    "es": {
+      "title": "Hanetsuki Gyoza — Gyoza con alas crujientes",
+      "description": "Gyoza japoneses unidos por una fina red crujiente de almidón, con relleno jugoso y base dorada.",
+      "animeContext": "Los gyoza son una comida recurrente muy reconocible en Dorohedoro, asociada con Nikaido y Hungry Bug. La versión hanetsuki con encaje es la variante de la app.",
+      "ingredients": {
+        "wrappers": {
+          "name": "Oblatas de gyoza",
+          "note": null
+        },
+        "pork": {
+          "name": "Cerdo picado",
+          "note": null
+        },
+        "napa_cabbage": {
+          "name": "Col china",
+          "note": null
+        },
+        "scallions": {
+          "name": "Cebolletas",
+          "note": null
+        },
+        "garlic": {
+          "name": "Ajo",
+          "note": null
+        },
+        "ginger": {
+          "name": "Jengibre fresco",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Aceite de sésamo",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        },
+        "water": {
+          "name": "Agua para el encaje",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Maicena",
+          "note": null
+        },
+        "frying_oil": {
+          "name": "Aceite neutro",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_cabbage_filling": "Sala la col 10 minutos y exprímela muy bien. Mezcla con cerdo, cebolleta, ajo, jengibre, soja y sésamo hasta que el relleno quede pegajoso; mantén frío.",
+        "fold": "Pon una cucharadita de relleno, humedece el borde, pliega y sella expulsando aire. Mantén cubiertos los gyoza.",
+        "brown_bases": "Dora las bases 2–3 minutos en sartén antiadherente con aceite.",
+        "steam": "Mezcla agua y maicena, vierte alrededor, tapa y cuece 5–6 minutos hasta que el cerdo esté cocido y casi no quede líquido.",
+        "crisp_wings": "Destapa y cocina hasta formar una fina red dorada; añade unas gotas de aceite de sésamo y deja crujir 1–2 minutos.",
+        "invert_serve": "Despega el borde e invierte sobre un plato grande. Sirve inmediatamente."
+      }
+    },
+    "fr": {
+      "title": "Hanetsuki Gyoza — Gyoza à dentelle croustillante",
+      "description": "Gyoza japonais reliés par une fine dentelle croustillante, avec farce juteuse et base bien dorée.",
+      "animeContext": "Les gyoza sont un aliment récurrent très reconnaissable dans Dorohedoro, lié à Nikaido et Hungry Bug. La dentelle hanetsuki est ici la variante de l’application.",
+      "ingredients": {
+        "wrappers": {
+          "name": "Pâtes à gyoza",
+          "note": null
+        },
+        "pork": {
+          "name": "Porc haché",
+          "note": null
+        },
+        "napa_cabbage": {
+          "name": "Chou chinois",
+          "note": null
+        },
+        "scallions": {
+          "name": "Ciboules",
+          "note": null
+        },
+        "garlic": {
+          "name": "Ail",
+          "note": null
+        },
+        "ginger": {
+          "name": "Gingembre frais",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Huile de sésame",
+          "note": null
+        },
+        "salt": {
+          "name": "Sel",
+          "note": null
+        },
+        "water": {
+          "name": "Eau pour la dentelle",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Fécule de maïs",
+          "note": null
+        },
+        "frying_oil": {
+          "name": "Huile neutre",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_cabbage_filling": "Salez le chou 10 minutes puis essorez-le très fortement. Mélangez avec porc, ciboule, ail, gingembre, soja et sésame jusqu’à texture collante; gardez froid.",
+        "fold": "Déposez une cuillère de farce, humidifiez le bord, plissez et chassez l’air. Gardez les gyoza couverts.",
+        "brown_bases": "Dorez les bases 2–3 minutes dans une poêle antiadhésive huilée.",
+        "steam": "Mélangez eau et fécule, versez autour, couvrez et cuisez 5–6 minutes jusqu’à cuisson complète du porc et évaporation presque totale.",
+        "crisp_wings": "Découvrez et laissez sécher en fine dentelle dorée; ajoutez quelques gouttes d’huile de sésame et croustillez 1–2 minutes.",
+        "invert_serve": "Décollez les bords et retournez sur un grand plat. Servez aussitôt."
+      }
+    },
+    "de": {
+      "title": "Hanetsuki Gyoza — Gyoza mit knusprigen Flügeln",
+      "description": "Japanische Gyoza mit hauchdünner knuspriger Stärkespitze, saftiger Füllung und goldbraunem Boden.",
+      "animeContext": "Gyoza sind in Dorohedoro ein markantes wiederkehrendes Essen rund um Nikaido und Hungry Bug. Die Hanetsuki-Kruste ist die kochbare App-Variante.",
+      "ingredients": {
+        "wrappers": {
+          "name": "Gyoza-Teigblätter",
+          "note": null
+        },
+        "pork": {
+          "name": "Schweinehack",
+          "note": null
+        },
+        "napa_cabbage": {
+          "name": "Chinakohl",
+          "note": null
+        },
+        "scallions": {
+          "name": "Frühlingszwiebeln",
+          "note": null
+        },
+        "garlic": {
+          "name": "Knoblauch",
+          "note": null
+        },
+        "ginger": {
+          "name": "Frischer Ingwer",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Sesamöl",
+          "note": null
+        },
+        "salt": {
+          "name": "Salz",
+          "note": null
+        },
+        "water": {
+          "name": "Wasser für die Kruste",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Maisstärke",
+          "note": null
+        },
+        "frying_oil": {
+          "name": "Neutrales Öl",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_cabbage_filling": "Kohl 10 Minuten leicht salzen und sehr gut ausdrücken. Mit Schweinehack, Frühlingszwiebel, Knoblauch, Ingwer, Soja und Sesamöl klebrig rühren; kalt halten.",
+        "fold": "Je einen Teelöffel Füllung auflegen, Rand befeuchten, falten und ohne Luft einschließen. Fertige Gyoza abdecken.",
+        "brown_bases": "Gyoza 2–3 Minuten mit der flachen Seite in geölter Antihaftpfanne goldbraun braten.",
+        "steam": "Wasser und Stärke glatt mischen, ringsum eingießen, abdecken und 5–6 Minuten dämpfen, bis das Fleisch gar und fast alle Flüssigkeit verdampft ist.",
+        "crisp_wings": "Deckel abnehmen und die Stärkemischung zu einer dünnen goldenen Kruste trocknen lassen; wenig Sesamöl zugeben und 1–2 Minuten knusprig werden lassen.",
+        "invert_serve": "Rand lösen und auf einen großen Teller stürzen. Sofort servieren."
+      }
+    },
+    "pt": {
+      "title": "Hanetsuki Gyoza — Gyoza com renda crocante",
+      "description": "Gyoza japoneses unidos por uma renda fina e crocante de amido, com recheio suculento e base dourada.",
+      "animeContext": "Gyoza é uma comida recorrente marcante em Dorohedoro, ligada a Nikaido e Hungry Bug. A renda hanetsuki é a variação culinária do app.",
+      "ingredients": {
+        "wrappers": {
+          "name": "Discos de gyoza",
+          "note": null
+        },
+        "pork": {
+          "name": "Carne suína moída",
+          "note": null
+        },
+        "napa_cabbage": {
+          "name": "Acelga chinesa",
+          "note": null
+        },
+        "scallions": {
+          "name": "Cebolinha",
+          "note": null
+        },
+        "garlic": {
+          "name": "Alho",
+          "note": null
+        },
+        "ginger": {
+          "name": "Gengibre fresco",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Molho de soja",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Óleo de gergelim",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        },
+        "water": {
+          "name": "Água para a renda",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Amido de milho",
+          "note": null
+        },
+        "frying_oil": {
+          "name": "Óleo neutro",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_cabbage_filling": "Salgue levemente a acelga por 10 minutos e esprema muito bem. Misture com porco, cebolinha, alho, gengibre, soja e óleo de gergelim até ficar pegajoso; mantenha frio.",
+        "fold": "Coloque uma colher de recheio, umedeça a borda, faça pregas e retire o ar. Mantenha os gyoza cobertos.",
+        "brown_bases": "Doure as bases por 2–3 minutos em frigideira antiaderente com óleo.",
+        "steam": "Misture água e amido, despeje ao redor, tampe e cozinhe 5–6 minutos até o porco estar totalmente cozido e quase toda a água evaporar.",
+        "crisp_wings": "Destampe e deixe a mistura formar uma renda fina e dourada; acrescente gotas de óleo de gergelim e deixe crocante por 1–2 minutos.",
+        "invert_serve": "Solte a borda e vire sobre um prato grande. Sirva imediatamente."
+      }
+    }
+  }
+}

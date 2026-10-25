@@ -132,3 +132,31 @@ Errors are sorted before output so the same invalid input produces stable diagno
 `VersionedRecipeCatalogRepository` never exposes a partially accepted catalog. Unsupported/malformed input throws `RecipeCatalogException`; the UI can show its normal error state.
 
 At the end of F2 the production package still contains zero real recipes. The synthetic authoring fixture exists only for tests/preview and is restored out of the production catalog after preview builds.
+
+
+## F3G rich editorial fields
+
+Catalog 0.7.0 adds structured editorial data while preserving stable recipe IDs and the existing split between canonical metadata and localized copy.
+
+Canonical recipe metadata may contain:
+
+- `animeReferences`: ordered reference objects with:
+  - `workTitle`;
+  - `relation`: `verified_appearance | recurring_association | inspired | unverified`;
+  - optional `season`, `episode`, `chapter`.
+- authoring-only `editorialVerification` remains outside the compiled public runtime package.
+
+Localized recipe payloads add:
+
+- `description`: substantial original editorial description of the dish;
+- `animeContext`: original relation-aware explanation of the anime connection.
+
+Publication policy is enforced by `tool/f3g_editorial_gate.py`:
+
+- every published recipe must have structured anime references;
+- `unverified` relations cannot ship as public factual claims;
+- a `verified_appearance` requires verified anime evidence;
+- culinary status must be `verified` or `corrected`, never `review_required`;
+- every supported locale requires sufficiently substantial description, anime context and preparation copy.
+
+The Flutter runtime parser remains backward-compatible with older packages that omit these F3G fields. When rich fields are absent, the UI falls back to the legacy `inspirationTitle` presentation. This compatibility is intentional and does not weaken the authoring publication gate for the current production catalog.

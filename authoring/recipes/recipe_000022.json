@@ -1,0 +1,487 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000022",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "A Whisker Away",
+  "animeReferences": [
+    {
+      "workTitle": "A Whisker Away",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Kitsune udon structure verified: hot dashi broth, udon and sweet-simmered aburaage.",
+    "animeStatus": "unverified",
+    "animeNote": "Source association retained as inspiration; no episode-level claim."
+  },
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "servings": 2,
+  "difficulty": "easy",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3 received 2026-10-25; quantities and technique normalized.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "udon",
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "id": "aburaage",
+      "quantity": 2,
+      "unit": "piece"
+    },
+    {
+      "id": "scallion",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "kamaboko",
+      "quantity": 6,
+      "unit": "slice"
+    },
+    {
+      "id": "dashi_aburaage",
+      "quantity": 150,
+      "unit": "ml"
+    },
+    {
+      "id": "soy_aburaage",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "sugar",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "mirin_aburaage",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "dashi_broth",
+      "quantity": 600,
+      "unit": "ml"
+    },
+    {
+      "id": "usukuchi",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "mirin_broth",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "salt",
+      "quantity": 0.5,
+      "unit": "tsp"
+    }
+  ],
+  "steps": [
+    {
+      "id": "deoil_aburaage",
+      "timerSeconds": 120
+    },
+    {
+      "id": "simmer_aburaage",
+      "timerSeconds": 600
+    },
+    {
+      "id": "make_broth",
+      "timerSeconds": 300
+    },
+    {
+      "id": "cook_udon",
+      "timerSeconds": 180
+    },
+    {
+      "id": "assemble",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Kitsune Udon",
+      "description": "A comforting bowl of udon in clear dashi broth topped with aburaage simmered until sweet, savoury and juicy. The contrast between springy noodles and the seasoned tofu pouch is the defining feature.",
+      "animeContext": "Inspired by the everyday-food atmosphere of A Whisker Away; no exact on-screen kitsune-udon scene is claimed.",
+      "ingredients": {
+        "udon": {
+          "name": "Fresh or frozen udon noodles",
+          "note": null
+        },
+        "aburaage": {
+          "name": "Aburaage tofu pouches",
+          "note": null
+        },
+        "scallion": {
+          "name": "Scallion",
+          "note": null
+        },
+        "kamaboko": {
+          "name": "Kamaboko slices",
+          "note": null
+        },
+        "dashi_aburaage": {
+          "name": "Dashi for aburaage",
+          "note": null
+        },
+        "soy_aburaage": {
+          "name": "Soy sauce for aburaage",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "mirin_aburaage": {
+          "name": "Mirin for aburaage",
+          "note": null
+        },
+        "dashi_broth": {
+          "name": "Dashi for broth",
+          "note": null
+        },
+        "usukuchi": {
+          "name": "Light soy sauce (usukuchi)",
+          "note": null
+        },
+        "mirin_broth": {
+          "name": "Mirin for broth",
+          "note": null
+        },
+        "salt": {
+          "name": "Salt",
+          "note": null
+        }
+      },
+      "steps": {
+        "deoil_aburaage": "Pour boiling water over both sides of the aburaage to remove excess surface oil, cool briefly, press dry and cut each pouch into a neat serving piece.",
+        "simmer_aburaage": "Simmer the aburaage with 150 ml dashi, soy sauce, sugar and mirin over low heat for about 10 minutes. Turn once; stop when most liquid is absorbed but the tofu still looks moist.",
+        "make_broth": "Combine 600 ml dashi, usukuchi, mirin and salt. Bring to a gentle simmer, taste and adjust saltiness, then keep just below a boil.",
+        "cook_udon": "Cook or reheat the udon according to the package, usually 2–3 minutes for fresh/frozen noodles. Separate them gently, drain thoroughly and avoid overcooking.",
+        "assemble": "Divide hot udon between bowls, cover with hot broth and top with sweet aburaage, kamaboko and finely sliced scallion. Serve immediately while the noodles retain bounce."
+      }
+    },
+    "it": {
+      "title": "Kitsune Udon",
+      "description": "Una ciotola confortante di udon in brodo dashi limpido, completata da aburaage stufato finché diventa dolce, sapido e succoso. Il contrasto tra noodles elastici e tofu condito è il tratto distintivo.",
+      "animeContext": "Ispirato all’atmosfera quotidiana di A Whisker Away; non viene dichiarata una scena precisa di kitsune udon.",
+      "ingredients": {
+        "udon": {
+          "name": "Udon freschi o congelati",
+          "note": null
+        },
+        "aburaage": {
+          "name": "Fette di aburaage",
+          "note": null
+        },
+        "scallion": {
+          "name": "Cipollotto",
+          "note": null
+        },
+        "kamaboko": {
+          "name": "Fette di kamaboko",
+          "note": null
+        },
+        "dashi_aburaage": {
+          "name": "Dashi per l’aburaage",
+          "note": null
+        },
+        "soy_aburaage": {
+          "name": "Salsa di soia per l’aburaage",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucchero",
+          "note": null
+        },
+        "mirin_aburaage": {
+          "name": "Mirin per l’aburaage",
+          "note": null
+        },
+        "dashi_broth": {
+          "name": "Dashi per il brodo",
+          "note": null
+        },
+        "usukuchi": {
+          "name": "Salsa di soia chiara (usukuchi)",
+          "note": null
+        },
+        "mirin_broth": {
+          "name": "Mirin per il brodo",
+          "note": null
+        },
+        "salt": {
+          "name": "Sale",
+          "note": null
+        }
+      },
+      "steps": {
+        "deoil_aburaage": "Versa acqua bollente su entrambi i lati dell’aburaage per eliminare l’olio superficiale, lascia intiepidire, tampona e taglia in porzioni regolari.",
+        "simmer_aburaage": "Fai sobbollire l’aburaage con 150 ml di dashi, salsa di soia, zucchero e mirin a fuoco basso per circa 10 minuti. Giralo una volta e fermati quando il liquido è quasi assorbito ma il tofu resta umido.",
+        "make_broth": "Unisci 600 ml di dashi, usukuchi, mirin e sale. Porta a leggero fremito, assaggia e regola la sapidità, poi mantieni appena sotto il bollore.",
+        "cook_udon": "Cuoci o rigenera gli udon secondo la confezione, in genere 2–3 minuti se freschi o congelati. Separali delicatamente e scolali molto bene senza cuocerli troppo.",
+        "assemble": "Dividi gli udon caldi nelle ciotole, copri con il brodo e completa con aburaage dolce, kamaboko e cipollotto finissimo. Servi subito per mantenere i noodles elastici."
+      }
+    },
+    "es": {
+      "title": "Kitsune Udon",
+      "description": "Un cuenco reconfortante de udon en dashi claro con aburaage cocido hasta quedar dulce, salado y jugoso. El contraste entre los fideos elásticos y el tofu sazonado define el plato.",
+      "animeContext": "Inspirado en la atmósfera cotidiana de A Whisker Away; no se afirma una escena exacta de kitsune udon.",
+      "ingredients": {
+        "udon": {
+          "name": "Udon fresco o congelado",
+          "note": null
+        },
+        "aburaage": {
+          "name": "Láminas de aburaage",
+          "note": null
+        },
+        "scallion": {
+          "name": "Cebolleta",
+          "note": null
+        },
+        "kamaboko": {
+          "name": "Rodajas de kamaboko",
+          "note": null
+        },
+        "dashi_aburaage": {
+          "name": "Dashi para el aburaage",
+          "note": null
+        },
+        "soy_aburaage": {
+          "name": "Salsa de soja para el aburaage",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "mirin_aburaage": {
+          "name": "Mirin para el aburaage",
+          "note": null
+        },
+        "dashi_broth": {
+          "name": "Dashi para el caldo",
+          "note": null
+        },
+        "usukuchi": {
+          "name": "Salsa de soja clara (usukuchi)",
+          "note": null
+        },
+        "mirin_broth": {
+          "name": "Mirin para el caldo",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        }
+      },
+      "steps": {
+        "deoil_aburaage": "Vierte agua hirviendo sobre ambos lados del aburaage para retirar aceite superficial, deja templar, seca y corta en porciones.",
+        "simmer_aburaage": "Cuece el aburaage con 150 ml de dashi, soja, azúcar y mirin a fuego bajo unos 10 minutos. Dale la vuelta una vez y para cuando casi haya absorbido el líquido pero siga jugoso.",
+        "make_broth": "Mezcla 600 ml de dashi, usukuchi, mirin y sal. Lleva a hervor suave, prueba y ajusta, y mantén justo por debajo de ebullición.",
+        "cook_udon": "Cuece o recalienta el udon según el paquete, normalmente 2–3 minutos. Separa con cuidado, escurre muy bien y evita pasarlo de cocción.",
+        "assemble": "Reparte el udon caliente, añade el caldo y corona con aburaage dulce, kamaboko y cebolleta fina. Sirve inmediatamente."
+      }
+    },
+    "fr": {
+      "title": "Kitsune Udon",
+      "description": "Un bol réconfortant d’udon dans un dashi clair, garni d’aburaage mijoté jusqu’à devenir doux, salé et juteux. Le contraste entre les nouilles souples et le tofu assaisonné caractérise le plat.",
+      "animeContext": "Inspiré de l’atmosphère quotidienne de A Whisker Away; aucune scène précise de kitsune udon n’est affirmée.",
+      "ingredients": {
+        "udon": {
+          "name": "Udon frais ou surgelés",
+          "note": null
+        },
+        "aburaage": {
+          "name": "Poches d’aburaage",
+          "note": null
+        },
+        "scallion": {
+          "name": "Ciboule",
+          "note": null
+        },
+        "kamaboko": {
+          "name": "Tranches de kamaboko",
+          "note": null
+        },
+        "dashi_aburaage": {
+          "name": "Dashi pour l’aburaage",
+          "note": null
+        },
+        "soy_aburaage": {
+          "name": "Sauce soja pour l’aburaage",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre",
+          "note": null
+        },
+        "mirin_aburaage": {
+          "name": "Mirin pour l’aburaage",
+          "note": null
+        },
+        "dashi_broth": {
+          "name": "Dashi pour le bouillon",
+          "note": null
+        },
+        "usukuchi": {
+          "name": "Sauce soja claire (usukuchi)",
+          "note": null
+        },
+        "mirin_broth": {
+          "name": "Mirin pour le bouillon",
+          "note": null
+        },
+        "salt": {
+          "name": "Sel",
+          "note": null
+        }
+      },
+      "steps": {
+        "deoil_aburaage": "Versez de l’eau bouillante sur les deux faces de l’aburaage pour enlever l’excès d’huile, laissez tiédir, séchez puis coupez en portions.",
+        "simmer_aburaage": "Faites mijoter l’aburaage avec 150 ml de dashi, soja, sucre et mirin à feu doux environ 10 minutes. Retournez une fois et arrêtez quand le liquide est presque absorbé mais le tofu encore juteux.",
+        "make_broth": "Mélangez 600 ml de dashi, usukuchi, mirin et sel. Portez à léger frémissement, goûtez et gardez juste sous l’ébullition.",
+        "cook_udon": "Cuisez ou réchauffez les udon selon l’emballage, généralement 2–3 minutes. Séparez-les doucement, égouttez très bien et ne les surcuisez pas.",
+        "assemble": "Répartissez les udon chauds, versez le bouillon et ajoutez aburaage sucré, kamaboko et ciboule fine. Servez aussitôt."
+      }
+    },
+    "de": {
+      "title": "Kitsune Udon",
+      "description": "Eine wärmende Schale Udon in klarem Dashi mit süß-salzig geschmortem, saftigem Aburaage. Der Kontrast zwischen elastischen Nudeln und gewürztem Tofu prägt das Gericht.",
+      "animeContext": "Von der Alltagsatmosphäre in A Whisker Away inspiriert; es wird keine konkrete Kitsune-Udon-Szene behauptet.",
+      "ingredients": {
+        "udon": {
+          "name": "Frische oder gefrorene Udon",
+          "note": null
+        },
+        "aburaage": {
+          "name": "Aburaage-Tofutaschen",
+          "note": null
+        },
+        "scallion": {
+          "name": "Frühlingszwiebel",
+          "note": null
+        },
+        "kamaboko": {
+          "name": "Kamaboko-Scheiben",
+          "note": null
+        },
+        "dashi_aburaage": {
+          "name": "Dashi für Aburaage",
+          "note": null
+        },
+        "soy_aburaage": {
+          "name": "Sojasauce für Aburaage",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker",
+          "note": null
+        },
+        "mirin_aburaage": {
+          "name": "Mirin für Aburaage",
+          "note": null
+        },
+        "dashi_broth": {
+          "name": "Dashi für die Brühe",
+          "note": null
+        },
+        "usukuchi": {
+          "name": "Helle Sojasauce (Usukuchi)",
+          "note": null
+        },
+        "mirin_broth": {
+          "name": "Mirin für die Brühe",
+          "note": null
+        },
+        "salt": {
+          "name": "Salz",
+          "note": null
+        }
+      },
+      "steps": {
+        "deoil_aburaage": "Aburaage beidseitig mit kochendem Wasser übergießen, um Oberflächenöl zu entfernen, kurz abkühlen lassen, trocken drücken und portionieren.",
+        "simmer_aburaage": "Aburaage mit 150 ml Dashi, Sojasauce, Zucker und Mirin etwa 10 Minuten sanft köcheln. Einmal wenden und stoppen, wenn fast alles aufgenommen ist, der Tofu aber saftig bleibt.",
+        "make_broth": "600 ml Dashi, Usukuchi, Mirin und Salz mischen. Sanft erhitzen, abschmecken und knapp unter dem Siedepunkt warm halten.",
+        "cook_udon": "Udon nach Packungsangabe garen oder erhitzen, meist 2–3 Minuten. Vorsichtig lösen, gründlich abgießen und nicht übergaren.",
+        "assemble": "Heiße Udon auf Schalen verteilen, Brühe angießen und mit süßem Aburaage, Kamaboko und feinen Frühlingszwiebeln belegen. Sofort servieren."
+      }
+    },
+    "pt": {
+      "title": "Kitsune Udon",
+      "description": "Uma tigela reconfortante de udon em dashi claro, coberta com aburaage cozido até ficar doce, salgado e suculento. O contraste entre o macarrão elástico e o tofu temperado define o prato.",
+      "animeContext": "Inspirado na atmosfera cotidiana de A Whisker Away; não afirmamos uma cena específica de kitsune udon.",
+      "ingredients": {
+        "udon": {
+          "name": "Udon fresco ou congelado",
+          "note": null
+        },
+        "aburaage": {
+          "name": "Fatias de aburaage",
+          "note": null
+        },
+        "scallion": {
+          "name": "Cebolinha",
+          "note": null
+        },
+        "kamaboko": {
+          "name": "Fatias de kamaboko",
+          "note": null
+        },
+        "dashi_aburaage": {
+          "name": "Dashi para o aburaage",
+          "note": null
+        },
+        "soy_aburaage": {
+          "name": "Molho de soja para o aburaage",
+          "note": null
+        },
+        "sugar": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "mirin_aburaage": {
+          "name": "Mirin para o aburaage",
+          "note": null
+        },
+        "dashi_broth": {
+          "name": "Dashi para o caldo",
+          "note": null
+        },
+        "usukuchi": {
+          "name": "Molho de soja claro (usukuchi)",
+          "note": null
+        },
+        "mirin_broth": {
+          "name": "Mirin para o caldo",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        }
+      },
+      "steps": {
+        "deoil_aburaage": "Despeje água fervente nos dois lados do aburaage para retirar o excesso de óleo, deixe amornar, seque e corte em porções.",
+        "simmer_aburaage": "Cozinhe o aburaage com 150 ml de dashi, soja, açúcar e mirin em fogo baixo por cerca de 10 minutos. Vire uma vez e pare quando quase todo o líquido tiver sido absorvido, mantendo o tofu úmido.",
+        "make_broth": "Misture 600 ml de dashi, usukuchi, mirin e sal. Leve a uma fervura suave, prove e mantenha logo abaixo da ebulição.",
+        "cook_udon": "Cozinhe ou aqueça o udon conforme a embalagem, geralmente 2–3 minutos. Separe delicadamente, escorra muito bem e não cozinhe demais.",
+        "assemble": "Divida o udon quente entre as tigelas, cubra com o caldo e finalize com aburaage doce, kamaboko e cebolinha fina. Sirva imediatamente."
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000006",
-  "contentVersion": 2,
+  "contentVersion": 3,
   "status": "published",
   "inspirationTitle": "Ranma ½ / Kiss Me Licia",
   "prepMinutes": 20,
@@ -9,7 +9,7 @@
   "servings": 2,
   "difficulty": "easy",
   "contentOrigin": "adapted",
-  "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; two servings are an editorial estimate from the listed quantities. Culinary terminology audited 2026-10-23: source label 'Aoki seaweed' normalized to aonori; stable ingredient ID retained.",
+  "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; two servings are an editorial estimate from the listed quantities. Culinary terminology audited 2026-10-23: source label 'Aoki seaweed' normalized to aonori; stable ingredient ID retained. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
   "imageAssetId": "recipe_000006_artwork",
   "ingredients": [
     {
@@ -122,12 +122,14 @@
         }
       },
       "steps": {
-        "make_batter": "Whisk the flour, cold dashi and egg until the batter is smooth and evenly combined.",
-        "add_cabbage": "Fold in the finely sliced cabbage until it is well coated by the batter.",
-        "shape_and_top": "Heat a lightly oiled griddle or skillet, spoon in the mixture as a thick round and lay the pork slices across the top.",
-        "cook_both_sides": "Cook covered over medium heat until the first side is set, then turn carefully and continue until the pork side is browned and the centre is cooked through.",
-        "finish": "Transfer to a plate and finish with okonomiyaki sauce, Japanese mayonnaise, katsuobushi and the seaweed garnish."
-      }
+        "make_batter": "Whisk the flour, cold dashi and egg until the batter is smooth and evenly combined. Mix only until the dry flour disappears; a few tiny lumps are preferable to overworking the batter. Let it stand 5–10 minutes while you cut the cabbage so the flour hydrates.",
+        "add_cabbage": "Fold in the finely sliced cabbage until it is well coated by the batter. Fold the cabbage in just before cooking so it stays crisp; the mixture should look mostly like cabbage lightly coated in batter, not a bowl of liquid pancake mix.",
+        "shape_and_top": "Heat a lightly oiled griddle or skillet, spoon in the mixture as a thick round and lay the pork slices across the top. Form a round about 2 cm thick and do not press it flat. Lay the pork in one even layer so it will contact the pan after flipping.",
+        "cook_both_sides": "Cook covered over medium heat until the first side is set, then turn carefully and continue until the pork side is browned and the centre is cooked through. Cook the first side about 5 minutes over medium heat until the base is stable and browned, flip with two spatulas, then cook another 5–6 minutes until the pork is crisp and the centre is hot and set.",
+        "finish": "Transfer to a plate and finish with okonomiyaki sauce, Japanese mayonnaise, katsuobushi and the seaweed garnish. Brush the hot surface with sauce first, then draw mayonnaise lines, scatter aonori and add bonito flakes last so they move in the rising heat and stay aromatic."
+      },
+      "description": "A Kansai-style savoury pancake packed with cabbage, topped with pork belly and finished with okonomiyaki sauce, Japanese mayonnaise, bonito flakes and aonori. The batter should bind the cabbage rather than drown it, giving a moist centre with browned edges.",
+      "animeContext": "Okonomiyaki is a recurring food and character motif in Ranma ½ through Ukyo Kuonji, an okonomiyaki chef. This app version follows the real Kansai style rather than recreating a single animated plate."
     },
     "it": {
       "title": "Okonomiyaki in stile Kansai",
@@ -170,12 +172,14 @@
         }
       },
       "steps": {
-        "make_batter": "Mescola farina, dashi freddo e uovo fino a ottenere una pastella liscia e uniforme.",
-        "add_cabbage": "Incorpora il cavolo tagliato sottile, distribuendolo bene nella pastella.",
-        "shape_and_top": "Scalda una piastra o una padella leggermente unta, versa il composto formando un disco spesso e sistema sopra le fette di pancetta.",
-        "cook_both_sides": "Cuoci coperto a fuoco medio finché il primo lato è stabile, poi gira con attenzione e prosegui finché la pancetta è dorata e il centro è ben cotto.",
-        "finish": "Trasferisci su un piatto e completa con salsa okonomiyaki, maionese giapponese, katsuobushi e l’alga di guarnizione."
-      }
+        "make_batter": "Mescola farina, dashi freddo e uovo fino a ottenere una pastella liscia e uniforme. Mescola solo finché la farina asciutta scompare: qualche piccolo grumo è meglio di una pastella lavorata troppo. Lasciala riposare 5–10 minuti mentre tagli il cavolo.",
+        "add_cabbage": "Incorpora il cavolo tagliato sottile, distribuendolo bene nella pastella. Incorpora il cavolo solo poco prima della cottura, così resta croccante: il composto deve sembrare soprattutto cavolo velato di pastella, non una ciotola di impasto liquido.",
+        "shape_and_top": "Scalda una piastra o una padella leggermente unta, versa il composto formando un disco spesso e sistema sopra le fette di pancetta. Forma un disco spesso circa 2 cm e non schiacciarlo. Disponi la pancetta in uno strato uniforme, così dopo il giro entrerà bene a contatto con la piastra.",
+        "cook_both_sides": "Cuoci coperto a fuoco medio finché il primo lato è stabile, poi gira con attenzione e prosegui finché la pancetta è dorata e il centro è ben cotto. Cuoci il primo lato circa 5 minuti a fuoco medio, finché la base è stabile e dorata; gira con due spatole e prosegui 5–6 minuti, finché la pancetta è croccante e il centro caldo e ben rappreso.",
+        "finish": "Trasferisci su un piatto e completa con salsa okonomiyaki, maionese giapponese, katsuobushi e l’alga di guarnizione. Spennella prima la superficie calda con la salsa, poi traccia la maionese, aggiungi aonori e per ultimo il katsuobushi, così resta aromatico e si muove con il calore."
+      },
+      "description": "Un okonomiyaki in stile Kansai ricco di cavolo, con pancetta sulla superficie e finitura di salsa okonomiyaki, maionese giapponese, katsuobushi e aonori. La pastella deve legare il cavolo senza sommergerlo, così il centro resta umido e i bordi ben dorati.",
+      "animeContext": "L’okonomiyaki è un motivo ricorrente e legato direttamente al personaggio di Ukyo Kuonji in Ranma ½, cuoca specializzata nel piatto. La versione dell’app segue lo stile Kansai reale, non la copia di un singolo piatto animato."
     },
     "es": {
       "title": "Okonomiyaki al estilo Kansai",
@@ -218,12 +222,14 @@
         }
       },
       "steps": {
-        "make_batter": "Mezcla la harina con el dashi frío y el huevo hasta obtener una masa lisa.",
-        "add_cabbage": "Incorpora la col cortada fina hasta repartirla bien en la masa.",
-        "shape_and_top": "Calienta una plancha o sartén ligeramente engrasada, forma un disco grueso con la mezcla y coloca encima las lonchas de panceta.",
-        "cook_both_sides": "Cocina tapado a fuego medio hasta que la primera cara esté firme, da la vuelta con cuidado y continúa hasta dorar la panceta y cocinar el centro.",
-        "finish": "Pasa al plato y termina con salsa okonomiyaki, mayonesa japonesa, katsuobushi y el alga."
-      }
+        "make_batter": "Mezcla la harina con el dashi frío y el huevo hasta obtener una masa lisa. Mezcla solo hasta que desaparezca la harina seca; deja reposar 5–10 minutos mientras cortas la col.",
+        "add_cabbage": "Incorpora la col cortada fina hasta repartirla bien en la masa. Incorpora la col justo antes de cocinar; debe verse mayormente col apenas cubierta de masa.",
+        "shape_and_top": "Calienta una plancha o sartén ligeramente engrasada, forma un disco grueso con la mezcla y coloca encima las lonchas de panceta. Forma un disco de unos 2 cm sin aplastarlo y coloca la panceta en una capa uniforme.",
+        "cook_both_sides": "Cocina tapado a fuego medio hasta que la primera cara esté firme, da la vuelta con cuidado y continúa hasta dorar la panceta y cocinar el centro. Cocina unos 5 minutos por el primer lado, gira con dos espátulas y cocina 5–6 minutos más hasta centro firme y panceta crujiente.",
+        "finish": "Pasa al plato y termina con salsa okonomiyaki, mayonesa japonesa, katsuobushi y el alga. Pon primero la salsa, luego mayonesa, aonori y al final katsuobushi para conservar aroma."
+      },
+      "description": "Tortita salada estilo Kansai cargada de col, con panceta y acabado de salsa okonomiyaki, mayonesa, katsuobushi y aonori. La masa debe ligar la col sin ahogarla.",
+      "animeContext": "El okonomiyaki es un motivo recurrente ligado a Ukyo Kuonji en Ranma ½, cocinera especializada en este plato. La receta sigue el estilo Kansai real."
     },
     "fr": {
       "title": "Okonomiyaki style Kansai",
@@ -266,12 +272,14 @@
         }
       },
       "steps": {
-        "make_batter": "Mélangez la farine, le dashi froid et l’œuf jusqu’à obtenir une pâte homogène.",
-        "add_cabbage": "Incorporez le chou finement émincé afin de bien l’enrober.",
-        "shape_and_top": "Chauffez une plaque ou une poêle légèrement huilée, formez un disque épais et disposez les tranches de porc sur le dessus.",
-        "cook_both_sides": "Cuisez à couvert à feu moyen jusqu’à ce que la première face soit prise, retournez délicatement puis poursuivez jusqu’à coloration du porc et cuisson du centre.",
-        "finish": "Déposez sur une assiette et ajoutez sauce okonomiyaki, mayonnaise japonaise, katsuobushi et algue."
-      }
+        "make_batter": "Mélangez la farine, le dashi froid et l’œuf jusqu’à obtenir une pâte homogène. Mélangez juste jusqu’à disparition de la farine sèche puis laissez reposer 5–10 minutes.",
+        "add_cabbage": "Incorporez le chou finement émincé afin de bien l’enrober. Incorporez le chou juste avant cuisson; le mélange doit être surtout du chou légèrement enrobé.",
+        "shape_and_top": "Chauffez une plaque ou une poêle légèrement huilée, formez un disque épais et disposez les tranches de porc sur le dessus. Formez un disque d’environ 2 cm sans le tasser et posez le porc en couche régulière.",
+        "cook_both_sides": "Cuisez à couvert à feu moyen jusqu’à ce que la première face soit prise, retournez délicatement puis poursuivez jusqu’à coloration du porc et cuisson du centre. Cuisez environ 5 minutes sur la première face, retournez avec deux spatules puis 5–6 minutes jusqu’à centre pris et porc croustillant.",
+        "finish": "Déposez sur une assiette et ajoutez sauce okonomiyaki, mayonnaise japonaise, katsuobushi et algue. Ajoutez d’abord la sauce, puis mayonnaise, aonori et enfin katsuobushi pour garder son parfum."
+      },
+      "description": "Galette salée de style Kansai riche en chou, garnie de poitrine de porc puis de sauce okonomiyaki, mayonnaise, katsuobushi et aonori. La pâte doit lier le chou sans le noyer.",
+      "animeContext": "L’okonomiyaki est un motif récurrent lié à Ukyo Kuonji dans Ranma ½, spécialiste du plat. La recette suit le vrai style Kansai."
     },
     "de": {
       "title": "Okonomiyaki nach Kansai-Art",
@@ -314,12 +322,14 @@
         }
       },
       "steps": {
-        "make_batter": "Mehl, kalte Dashi-Brühe und Ei zu einem glatten Teig verrühren.",
-        "add_cabbage": "Den fein geschnittenen Kohl unterheben, bis er gleichmäßig vom Teig umhüllt ist.",
-        "shape_and_top": "Eine leicht geölte Platte oder Pfanne erhitzen, die Mischung als dicken Kreis formen und die Schweinebauchscheiben obenauf legen.",
-        "cook_both_sides": "Zugedeckt bei mittlerer Hitze garen, bis die erste Seite fest ist, vorsichtig wenden und weitergaren, bis das Fleisch gebräunt und die Mitte durchgegart ist.",
-        "finish": "Auf einen Teller geben und mit Okonomiyaki-Sauce, japanischer Mayonnaise, Katsuobushi und Alge abschließen."
-      }
+        "make_batter": "Mehl, kalte Dashi-Brühe und Ei zu einem glatten Teig verrühren. Nur so lange mischen, bis kein trockenes Mehl mehr sichtbar ist, dann 5–10 Minuten ruhen lassen.",
+        "add_cabbage": "Den fein geschnittenen Kohl unterheben, bis er gleichmäßig vom Teig umhüllt ist. Kohl erst kurz vor dem Braten unterheben; die Mischung soll überwiegend aus leicht benetztem Kohl bestehen.",
+        "shape_and_top": "Eine leicht geölte Platte oder Pfanne erhitzen, die Mischung als dicken Kreis formen und die Schweinebauchscheiben obenauf legen. Etwa 2 cm dicken Kreis formen, nicht flach drücken, Schweinebauch gleichmäßig auflegen.",
+        "cook_both_sides": "Zugedeckt bei mittlerer Hitze garen, bis die erste Seite fest ist, vorsichtig wenden und weitergaren, bis das Fleisch gebräunt und die Mitte durchgegart ist. Erste Seite etwa 5 Minuten braten, mit zwei Pfannenwendern drehen und weitere 5–6 Minuten garen.",
+        "finish": "Auf einen Teller geben und mit Okonomiyaki-Sauce, japanischer Mayonnaise, Katsuobushi und Alge abschließen. Zuerst Sauce, dann Mayonnaise und Aonori, Katsuobushi zuletzt auf die heiße Oberfläche geben."
+      },
+      "description": "Herzhafter Kansai-Pfannkuchen mit viel Kohl, Schweinebauch, Okonomiyaki-Sauce, japanischer Mayonnaise, Katsuobushi und Aonori. Der Teig soll den Kohl nur binden.",
+      "animeContext": "Okonomiyaki ist in Ranma ½ eng mit Ukyo Kuonji verbunden, die darauf spezialisiert ist. Die App folgt dem realen Kansai-Stil."
     },
     "pt": {
       "title": "Okonomiyaki ao estilo Kansai",
@@ -362,12 +372,29 @@
         }
       },
       "steps": {
-        "make_batter": "Misture a farinha, o dashi frio e o ovo até obter uma massa lisa.",
-        "add_cabbage": "Incorpore o repolho fatiado fino até ficar bem distribuído na massa.",
-        "shape_and_top": "Aqueça uma chapa ou frigideira levemente untada, forme um disco espesso com a mistura e coloque as fatias de porco por cima.",
-        "cook_both_sides": "Cozinhe tampado em fogo médio até firmar a primeira face, vire com cuidado e continue até dourar o porco e cozinhar o centro.",
-        "finish": "Passe para um prato e finalize com molho okonomiyaki, maionese japonesa, katsuobushi e a alga."
-      }
+        "make_batter": "Misture a farinha, o dashi frio e o ovo até obter uma massa lisa. Misture apenas até sumir a farinha seca e deixe descansar 5–10 minutos.",
+        "add_cabbage": "Incorpore o repolho fatiado fino até ficar bem distribuído na massa. Misture o repolho somente antes de cozinhar; deve parecer principalmente repolho levemente coberto.",
+        "shape_and_top": "Aqueça uma chapa ou frigideira levemente untada, forme um disco espesso com a mistura e coloque as fatias de porco por cima. Forme um disco de cerca de 2 cm sem achatar e distribua a barriga de porco em camada uniforme.",
+        "cook_both_sides": "Cozinhe tampado em fogo médio até firmar a primeira face, vire com cuidado e continue até dourar o porco e cozinhar o centro. Cozinhe cerca de 5 minutos do primeiro lado, vire com duas espátulas e cozinhe mais 5–6 minutos.",
+        "finish": "Passe para um prato e finalize com molho okonomiyaki, maionese japonesa, katsuobushi e a alga. Passe primeiro o molho, depois maionese, aonori e por último katsuobushi para preservar o aroma."
+      },
+      "description": "Panqueca salgada estilo Kansai com bastante repolho, barriga de porco e finalização de molho okonomiyaki, maionese japonesa, katsuobushi e aonori. A massa deve apenas ligar o repolho.",
+      "animeContext": "Okonomiyaki é um motivo recorrente ligado a Ukyo Kuonji em Ranma ½, especialista no prato. A receita segue o estilo Kansai real."
     }
+  },
+  "animeReferences": [
+    {
+      "workTitle": "Ranma ½",
+      "relation": "recurring_association",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Kansai-style okonomiyaki verified: cabbage folded into a dashi batter, pork belly cooked on the surface, then finished with sauce, mayonnaise, katsuobushi and aonori.",
+    "animeStatus": "verified",
+    "animeNote": "Okonomiyaki is a recurring and character-defining food association in Ranma ½ through Ukyo and her restaurant."
   }
 }

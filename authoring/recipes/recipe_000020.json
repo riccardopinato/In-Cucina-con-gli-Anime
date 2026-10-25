@@ -1,15 +1,15 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000020",
-  "contentVersion": 1,
+  "contentVersion": 2,
   "status": "published",
-  "inspirationTitle": "My Hero Academia / Kanon",
-  "prepMinutes": 10,
+  "inspirationTitle": "Kanon",
+  "prepMinutes": 75,
   "cookMinutes": 20,
   "servings": 4,
   "difficulty": "medium",
   "contentOrigin": "adapted",
-  "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23.",
+  "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. F3G editorial re-audit 2026-10-25: one-hour batter rest added; Kanon taiyaki association promoted to recurring.",
   "imageAssetId": "recipe_000020_artwork",
   "ingredients": [
     {
@@ -45,20 +45,24 @@
   ],
   "steps": [
     {
-      "id": "step_1",
-      "timerSeconds": null
+      "id": "make_batter",
+      "timerSeconds": 300
     },
     {
-      "id": "step_2",
-      "timerSeconds": null
+      "id": "rest_batter",
+      "timerSeconds": 3600
     },
     {
-      "id": "step_3",
-      "timerSeconds": null
+      "id": "heat_mould",
+      "timerSeconds": 180
     },
     {
-      "id": "step_4",
-      "timerSeconds": null
+      "id": "fill_mould",
+      "timerSeconds": 180
+    },
+    {
+      "id": "cook_taiyaki",
+      "timerSeconds": 480
     }
   ],
   "locales": {
@@ -74,7 +78,7 @@
           "note": null
         },
         "egg": {
-          "name": "Eggs",
+          "name": "Egg",
           "note": null
         },
         "milk": {
@@ -91,11 +95,14 @@
         }
       },
       "steps": {
-        "step_1": "Whisk the egg with sugar and milk, then sift in flour and baking powder to make a smooth batter.",
-        "step_2": "Heat and lightly oil a fish-shaped taiyaki pan.",
-        "step_3": "Pour in a thin layer of batter, add a generous spoonful of anko in the centre and cover with more batter.",
-        "step_4": "Close the pan and cook over medium-low heat for 3–4 minutes per side until crisp and golden."
-      }
+        "make_batter": "Whisk the egg, sugar and milk until smooth. Sift in flour and baking powder and mix only until no dry flour remains; a few tiny lumps are preferable to overmixing and developing a tough crumb.",
+        "rest_batter": "Cover the batter and refrigerate for about 1 hour. The rest hydrates the flour and lets bubbles settle. Stir gently once before cooking; if it has thickened heavily, loosen with a teaspoon or two of milk rather than making it runny.",
+        "heat_mould": "Preheat the taiyaki mould over medium-low heat and brush both halves with a very thin film of neutral oil. Test with a drop of batter: it should sizzle gently rather than darken instantly.",
+        "fill_mould": "Pour batter to cover roughly 60% of each fish cavity, add anko in a narrow mound along the centre without touching the edges, then cover with just enough batter to hide the filling. Overfilling prevents a clean seal.",
+        "cook_taiyaki": "Close the mould and cook over medium-low heat, turning every 1–2 minutes for even browning, for about 6–8 minutes total. Open carefully near the end: the shell should be evenly golden, release cleanly and feel crisp at the edges. Cool briefly on a rack before serving."
+      },
+      "description": "Fish-shaped Japanese cakes with a thin crisp shell and soft interior around sweet red-bean paste. Resting the batter hydrates the flour and smooths the crumb, while controlled mould heat prevents the detailed fish surface from burning before the centre cooks.",
+      "animeContext": "Taiyaki is a recurring and character-defining food association for Ayu in Kanon. The app uses that verified recurring link while presenting a real-world taiyaki recipe rather than copying dialogue or a specific animated serving."
     },
     "it": {
       "title": "Taiyaki con anko",
@@ -109,7 +116,7 @@
           "note": null
         },
         "egg": {
-          "name": "Uova",
+          "name": "Uovo",
           "note": null
         },
         "milk": {
@@ -126,11 +133,14 @@
         }
       },
       "steps": {
-        "step_1": "Sbatti l’uovo con zucchero e latte, poi incorpora farina e lievito setacciati fino a ottenere una pastella liscia.",
-        "step_2": "Scalda la piastra a forma di pesce e ungila leggermente.",
-        "step_3": "Versa un velo di pastella, aggiungi una cucchiaiata abbondante di anko al centro e copri con altra pastella.",
-        "step_4": "Chiudi la piastra e cuoci a fuoco medio-basso per 3–4 minuti per lato, finché è dorato e croccante."
-      }
+        "make_batter": "Sbatti uovo, zucchero e latte fino a ottenere un composto uniforme. Setaccia farina e lievito e mescola solo finché non resta farina asciutta: qualche piccolo grumo è meglio di una pastella lavorata troppo e tenace.",
+        "rest_batter": "Copri la pastella e lasciala riposare in frigorifero circa 1 ora. Il riposo idrata la farina e lascia assestare le bolle. Mescola delicatamente una volta prima della cottura; se si è addensata molto, aggiungi solo uno o due cucchiaini di latte.",
+        "heat_mould": "Preriscalda la piastra da taiyaki a fuoco medio-basso e spennella entrambe le metà con un velo sottilissimo di olio neutro. Una goccia di pastella deve sfrigolare dolcemente, non scurire subito.",
+        "fill_mould": "Versa pastella fino a coprire circa il 60% di ogni cavità, aggiungi l’anko in una striscia centrale senza toccare i bordi e copri con appena altra pastella. Riempire troppo impedisce una chiusura pulita.",
+        "cook_taiyaki": "Chiudi lo stampo e cuoci a fuoco medio-basso, girando ogni 1–2 minuti per colorare in modo uniforme, per circa 6–8 minuti totali. Verso la fine controlla: il guscio deve essere dorato, staccarsi bene e risultare croccante ai bordi. Raffredda brevemente su griglia."
+      },
+      "description": "Dolcetti giapponesi a forma di pesce con guscio sottile e croccante, interno morbido e cuore di pasta dolce di azuki. Il riposo della pastella idrata la farina e rende la mollica più uniforme; una piastra non troppo calda evita che i dettagli del pesce brucino prima della cottura del centro.",
+      "animeContext": "Il taiyaki è un cibo ricorrente e fortemente associato ad Ayu in Kanon. L’app usa questo legame verificato ma propone una vera ricetta di taiyaki, senza copiare dialoghi o una porzione animata specifica."
     },
     "es": {
       "title": "Taiyaki con anko",
@@ -144,7 +154,7 @@
           "note": null
         },
         "egg": {
-          "name": "Huevos",
+          "name": "Huevo",
           "note": null
         },
         "milk": {
@@ -161,11 +171,14 @@
         }
       },
       "steps": {
-        "step_1": "Bate el huevo con azúcar y leche e incorpora harina y levadura tamizadas.",
-        "step_2": "Calienta y engrasa ligeramente el molde de taiyaki.",
-        "step_3": "Vierte una capa fina de masa, añade anko y cubre con más masa.",
-        "step_4": "Cierra el molde y cocina 3–4 minutos por lado a fuego medio-bajo."
-      }
+        "make_batter": "Bate huevo, azúcar y leche. Incorpora harina y levadura tamizadas solo hasta eliminar harina seca.",
+        "rest_batter": "Cubre y refrigera aproximadamente 1 hora. Remueve suavemente antes de cocinar y ajusta con muy poca leche solo si espesó demasiado.",
+        "heat_mould": "Precalienta el molde a fuego medio-bajo y engrasa apenas. Una gota debe chisporrotear sin quemarse.",
+        "fill_mould": "Llena alrededor del 60%, coloca anko en el centro sin tocar bordes y cubre con poca masa.",
+        "cook_taiyaki": "Cierra y cocina 6–8 minutos totales a fuego medio-bajo, girando cada 1–2 minutos, hasta dorado uniforme y bordes crujientes. Enfría brevemente en rejilla."
+      },
+      "description": "Pasteles japoneses con forma de pez, capa fina crujiente e interior suave con anko. El reposo de la masa hidrata la harina y el calor moderado evita quemar el dibujo.",
+      "animeContext": "El taiyaki es una asociación recurrente y definitoria de Ayu en Kanon. La app usa ese vínculo y ofrece una receta real."
     },
     "fr": {
       "title": "Taiyaki à l’anko",
@@ -179,7 +192,7 @@
           "note": null
         },
         "egg": {
-          "name": "Œufs",
+          "name": "Œuf",
           "note": null
         },
         "milk": {
@@ -196,11 +209,14 @@
         }
       },
       "steps": {
-        "step_1": "Fouettez l’œuf avec sucre et lait puis incorporez farine et levure tamisées.",
-        "step_2": "Faites chauffer et graissez légèrement le moule à taiyaki.",
-        "step_3": "Versez une fine couche de pâte, ajoutez l’anko puis recouvrez de pâte.",
-        "step_4": "Fermez le moule et cuisez 3–4 minutes par face à feu moyen-doux."
-      }
+        "make_batter": "Fouettez œuf, sucre et lait. Incorporez farine et levure tamisées juste jusqu’à disparition de la farine sèche.",
+        "rest_batter": "Couvrez et réfrigérez environ 1 heure. Mélangez doucement avant cuisson et détendez avec très peu de lait seulement si nécessaire.",
+        "heat_mould": "Préchauffez le moule à feu moyen-doux et huilez très légèrement. Une goutte doit grésiller sans brûler.",
+        "fill_mould": "Remplissez à environ 60%, placez l’anko au centre sans toucher les bords puis recouvrez d’un peu de pâte.",
+        "cook_taiyaki": "Fermez et cuisez 6–8 minutes au total à feu moyen-doux en retournant toutes les 1–2 minutes, jusqu’à coloration uniforme. Refroidissez brièvement sur grille."
+      },
+      "description": "Gâteaux japonais en forme de poisson, fine coque croustillante et cœur tendre à l’anko. Le repos hydrate la farine et une chaleur modérée préserve les détails du moule.",
+      "animeContext": "Le taiyaki est un aliment récurrent fortement associé à Ayu dans Kanon. L’application utilise ce lien vérifié avec une vraie recette."
     },
     "de": {
       "title": "Taiyaki mit Anko",
@@ -214,7 +230,7 @@
           "note": null
         },
         "egg": {
-          "name": "Eier",
+          "name": "Ei",
           "note": null
         },
         "milk": {
@@ -231,11 +247,14 @@
         }
       },
       "steps": {
-        "step_1": "Ei mit Zucker und Milch verquirlen, dann Mehl und Backpulver einsieben.",
-        "step_2": "Taiyaki-Form erhitzen und leicht ölen.",
-        "step_3": "Eine dünne Teigschicht einfüllen, Anko in die Mitte geben und mit Teig bedecken.",
-        "step_4": "Form schließen und bei mittlerer bis niedriger Hitze 3–4 Minuten je Seite goldbraun backen."
-      }
+        "make_batter": "Ei, Zucker und Milch verrühren. Gesiebtes Mehl und Backpulver nur einarbeiten, bis kein trockenes Mehl mehr sichtbar ist.",
+        "rest_batter": "Abdecken und etwa 1 Stunde kühlen. Vor dem Backen sanft rühren und nur bei starker Dicke mit wenig Milch lockern.",
+        "heat_mould": "Form bei mittlerer bis niedriger Hitze vorheizen und sehr dünn ölen. Ein Teigtropfen soll sanft zischen, nicht sofort dunkel werden.",
+        "fill_mould": "Mulden etwa zu 60% füllen, Anko mittig ohne Randkontakt auflegen und knapp mit Teig bedecken.",
+        "cook_taiyaki": "Form schließen und insgesamt 6–8 Minuten bei mittlerer bis niedriger Hitze backen, alle 1–2 Minuten wenden, bis gleichmäßig goldbraun. Kurz auf Gitter kühlen."
+      },
+      "description": "Japanische fischförmige Küchlein mit dünner knuspriger Hülle und weichem Anko-Kern. Die Ruhezeit hydratisiert das Mehl, moderate Hitze schützt die Formdetails vor Verbrennen.",
+      "animeContext": "Taiyaki ist in Kanon ein wiederkehrendes, stark mit Ayu verbundenes Essen. Die App nutzt diesen verifizierten Bezug mit einem realen Rezept."
     },
     "pt": {
       "title": "Taiyaki com anko",
@@ -249,7 +268,7 @@
           "note": null
         },
         "egg": {
-          "name": "Ovos",
+          "name": "Ovo",
           "note": null
         },
         "milk": {
@@ -266,11 +285,29 @@
         }
       },
       "steps": {
-        "step_1": "Bata o ovo com açúcar e leite e incorpore farinha e fermento peneirados.",
-        "step_2": "Aqueça e unte levemente a forma de taiyaki.",
-        "step_3": "Coloque uma camada fina de massa, adicione anko e cubra com mais massa.",
-        "step_4": "Feche a forma e cozinhe em fogo médio-baixo por 3–4 minutos de cada lado."
-      }
+        "make_batter": "Bata ovo, açúcar e leite. Incorpore farinha e fermento peneirados apenas até sumir a farinha seca.",
+        "rest_batter": "Cubra e leve à geladeira por cerca de 1 hora. Mexa suavemente antes de assar e ajuste com pouquíssimo leite somente se engrossar muito.",
+        "heat_mould": "Pré-aqueça a forma em fogo médio-baixo e unte muito levemente. Uma gota deve chiar sem escurecer imediatamente.",
+        "fill_mould": "Preencha cerca de 60%, coloque anko no centro sem tocar as bordas e cubra com pouca massa.",
+        "cook_taiyaki": "Feche e cozinhe por 6–8 minutos totais em fogo médio-baixo, virando a cada 1–2 minutos, até dourar por igual. Resfrie brevemente em grade."
+      },
+      "description": "Bolinhos japoneses em forma de peixe com casca fina crocante e interior macio com anko. O descanso hidrata a farinha e o fogo moderado evita queimar os detalhes da forma.",
+      "animeContext": "Taiyaki é uma comida recorrente e fortemente associada a Ayu em Kanon. O app usa esse vínculo verificado com uma receita real."
     }
+  },
+  "animeReferences": [
+    {
+      "workTitle": "Kanon",
+      "relation": "recurring_association",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "corrected",
+    "culinaryNote": "Taiyaki verified as fish-shaped Japanese cakes commonly filled with anko. F3G adds a one-hour batter rest that the previous recipe omitted and expands mould-temperature/filling cues.",
+    "animeStatus": "verified",
+    "animeNote": "Taiyaki is a recurring character-food association in Kanon through Ayu."
   }
 }

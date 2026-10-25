@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000001",
-  "contentVersion": 1,
+  "contentVersion": 2,
   "status": "published",
   "inspirationTitle": "Il castello errante di Howl",
   "prepMinutes": 5,
@@ -9,7 +9,7 @@
   "servings": 2,
   "difficulty": "easy",
   "contentOrigin": "adapted",
-  "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. Servings inferred from ingredient quantities because the source does not state yield.",
+  "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. Servings inferred from ingredient quantities because the source does not state yield. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
   "imageAssetId": "recipe_000001_artwork",
   "ingredients": [
     {
@@ -86,12 +86,14 @@
         }
       },
       "steps": {
-        "heat_pan": "Warm a cast-iron or heavy skillet over medium heat and melt the butter.",
-        "crisp_bacon": "Lay in the bacon and cook until the edges are browned and crisp while the centre stays tender.",
-        "add_eggs": "Move the bacon toward the sides of the pan, then crack the eggs into the open centre without breaking the yolks.",
-        "finish_eggs": "Lower the heat and cook gently until the whites are set and the yolks are still soft.",
-        "season_serve": "Finish with black pepper and serve immediately with toasted rustic bread."
-      }
+        "heat_pan": "Warm a cast-iron or heavy skillet over medium heat and melt the butter. Let the pan heat for 1–2 minutes before the butter goes in; it should foam gently, not brown immediately.",
+        "crisp_bacon": "Lay in the bacon and cook until the edges are browned and crisp while the centre stays tender. Turn once or twice and allow 4–6 minutes for the fat to render; lower the heat if the lean meat darkens before the fat turns translucent.",
+        "add_eggs": "Move the bacon toward the sides of the pan, then crack the eggs into the open centre without breaking the yolks. Crack each egg into a small cup first if you want more control, then slide it into the pan so shell fragments never reach the skillet.",
+        "finish_eggs": "Lower the heat and cook gently until the whites are set and the yolks are still soft. Cook 3–5 minutes depending on the pan and preferred yolk; cover for the final minute if the top of the white remains translucent.",
+        "season_serve": "Finish with black pepper and serve immediately with toasted rustic bread. Rest the pan off heat for only 30 seconds before serving; longer waiting keeps cooking the yolks."
+      },
+      "description": "A rustic skillet breakfast of crisp-edged bacon and gently set eggs, cooked in the same pan so the rendered fat seasons everything. The goal is contrast: bacon browned at the edges, whites fully set and yolks still soft if desired.",
+      "animeContext": "This dish has a direct film reference: Calcifer cooks the bacon and eggs in Howl's Moving Castle. The app recreates the food itself in practical kitchen terms without reproducing dialogue or film imagery."
     },
     "it": {
       "title": "Uova in padella con bacon croccante",
@@ -118,12 +120,14 @@
         }
       },
       "steps": {
-        "heat_pan": "Scalda una padella in ghisa o dal fondo pesante a fuoco medio e fai sciogliere il burro.",
-        "crisp_bacon": "Sistema il bacon in padella e cuocilo finché i bordi diventano ben dorati e croccanti.",
-        "add_eggs": "Sposta il bacon verso i lati e rompi le uova nello spazio centrale, lasciando i tuorli integri.",
-        "finish_eggs": "Abbassa la fiamma e prosegui la cottura finché gli albumi sono rassodati ma i tuorli restano morbidi.",
-        "season_serve": "Completa con pepe nero e porta subito in tavola con pane casereccio tostato."
-      }
+        "heat_pan": "Scalda una padella in ghisa o dal fondo pesante a fuoco medio e fai sciogliere il burro. Lascia scaldare la padella 1–2 minuti prima del burro: deve spumeggiare dolcemente, non scurire subito.",
+        "crisp_bacon": "Sistema il bacon in padella e cuocilo finché i bordi diventano ben dorati e croccanti. Giralo una o due volte e lascia 4–6 minuti perché il grasso si sciolga; abbassa la fiamma se la parte magra scurisce prima che il grasso diventi traslucido.",
+        "add_eggs": "Sposta il bacon verso i lati e rompi le uova nello spazio centrale, lasciando i tuorli integri. Se vuoi più controllo, rompi ogni uovo prima in una tazzina e fallo scivolare in padella, così eventuali frammenti di guscio restano fuori.",
+        "finish_eggs": "Abbassa la fiamma e prosegui la cottura finché gli albumi sono rassodati ma i tuorli restano morbidi. Cuoci 3–5 minuti secondo la padella e il punto del tuorlo; copri nell’ultimo minuto se la parte superiore dell’albume resta traslucida.",
+        "season_serve": "Completa con pepe nero e porta subito in tavola con pane casereccio tostato. Lascia la padella fuori dal fuoco solo 30 secondi prima di servire: attese più lunghe continuano a cuocere i tuorli."
+      },
+      "description": "Una colazione rustica in padella con bacon dai bordi croccanti e uova cotte dolcemente nello stesso fondo, così il grasso sciolto insaporisce tutto. Il contrasto ideale è tra bacon ben dorato, albumi completamente rappresi e tuorli ancora morbidi se graditi.",
+      "animeContext": "Il riferimento è diretto: ne Il castello errante di Howl, Calcifer cuoce bacon e uova. L’app ricostruisce il piatto in termini culinari pratici, senza riprodurre dialoghi o immagini del film."
     },
     "es": {
       "title": "Huevos a la sartén con bacon crujiente",
@@ -150,12 +154,14 @@
         }
       },
       "steps": {
-        "heat_pan": "Calienta una sartén de hierro o de fondo grueso a fuego medio y derrite la mantequilla.",
-        "crisp_bacon": "Cocina el bacon hasta que los bordes queden dorados y crujientes.",
-        "add_eggs": "Aparta el bacon hacia los lados y casca los huevos en el centro procurando no romper las yemas.",
-        "finish_eggs": "Baja el fuego y cocina suavemente hasta que las claras cuajen y las yemas sigan tiernas.",
-        "season_serve": "Añade pimienta negra y sirve de inmediato con pan rústico tostado."
-      }
+        "heat_pan": "Calienta una sartén de hierro o de fondo grueso a fuego medio y derrite la mantequilla. Calienta la sartén 1–2 minutos antes de añadir la mantequilla; debe espumar sin quemarse.",
+        "crisp_bacon": "Cocina el bacon hasta que los bordes queden dorados y crujientes. Gira una o dos veces y deja 4–6 minutos para que funda la grasa; baja el fuego si la carne se oscurece demasiado pronto.",
+        "add_eggs": "Aparta el bacon hacia los lados y casca los huevos en el centro procurando no romper las yemas. Casca cada huevo primero en una taza y deslízalo a la sartén para controlar mejor la colocación.",
+        "finish_eggs": "Baja el fuego y cocina suavemente hasta que las claras cuajen y las yemas sigan tiernas. Cocina 3–5 minutos según el punto deseado; tapa el último minuto si la clara superior sigue translúcida.",
+        "season_serve": "Añade pimienta negra y sirve de inmediato con pan rústico tostado. Deja reposar fuera del fuego solo 30 segundos; más tiempo seguirá cocinando las yemas."
+      },
+      "description": "Desayuno rústico de sartén con bacon crujiente y huevos cocidos suavemente en la misma grasa. El objetivo es bacon dorado, claras cuajadas y yemas aún tiernas si se desea.",
+      "animeContext": "La referencia es directa: Calcifer cocina bacon y huevos en Howl's Moving Castle. La app reconstruye el plato de forma culinaria sin copiar diálogos ni imágenes."
     },
     "fr": {
       "title": "Œufs à la poêle et bacon croustillant",
@@ -182,12 +188,14 @@
         }
       },
       "steps": {
-        "heat_pan": "Faites chauffer une poêle en fonte ou à fond épais à feu moyen et faites fondre le beurre.",
-        "crisp_bacon": "Faites cuire le bacon jusqu’à ce que les bords soient bien dorés et croustillants.",
-        "add_eggs": "Repoussez le bacon sur les côtés puis cassez les œufs au centre sans percer les jaunes.",
-        "finish_eggs": "Baissez le feu et poursuivez doucement jusqu’à ce que les blancs soient pris et les jaunes encore tendres.",
-        "season_serve": "Poivrez et servez aussitôt avec du pain rustique grillé."
-      }
+        "heat_pan": "Faites chauffer une poêle en fonte ou à fond épais à feu moyen et faites fondre le beurre. Chauffez la poêle 1–2 minutes avant le beurre; il doit mousser sans brunir aussitôt.",
+        "crisp_bacon": "Faites cuire le bacon jusqu’à ce que les bords soient bien dorés et croustillants. Retournez une ou deux fois et laissez 4–6 minutes pour faire fondre le gras; baissez le feu si la viande colore trop vite.",
+        "add_eggs": "Repoussez le bacon sur les côtés puis cassez les œufs au centre sans percer les jaunes. Cassez chaque œuf d’abord dans une tasse puis faites-le glisser dans la poêle pour mieux contrôler le placement.",
+        "finish_eggs": "Baissez le feu et poursuivez doucement jusqu’à ce que les blancs soient pris et les jaunes encore tendres. Cuisez 3–5 minutes selon le jaune souhaité; couvrez la dernière minute si le blanc reste translucide.",
+        "season_serve": "Poivrez et servez aussitôt avec du pain rustique grillé. Laissez hors du feu seulement 30 secondes; plus longtemps, les jaunes continuent de cuire."
+      },
+      "description": "Petit-déjeuner rustique à la poêle, bacon croustillant et œufs cuits doucement dans la même matière grasse. On recherche bacon doré, blancs pris et jaunes encore tendres selon le goût.",
+      "animeContext": "La référence est directe: Calcifer cuit bacon et œufs dans Howl's Moving Castle. L’application reconstruit le plat sans reprendre dialogues ni images."
     },
     "de": {
       "title": "Pfanneneier mit knusprigem Bacon",
@@ -214,12 +222,14 @@
         }
       },
       "steps": {
-        "heat_pan": "Eine gusseiserne oder schwere Pfanne bei mittlerer Hitze erwärmen und die Butter schmelzen.",
-        "crisp_bacon": "Den Bacon braten, bis die Ränder goldbraun und knusprig sind.",
-        "add_eggs": "Den Bacon an den Rand schieben und die Eier in die freie Mitte schlagen, ohne die Eigelbe zu verletzen.",
-        "finish_eggs": "Die Hitze reduzieren und sanft garen, bis das Eiweiß gestockt ist und die Eigelbe weich bleiben.",
-        "season_serve": "Mit schwarzem Pfeffer würzen und sofort mit geröstetem Sauerteigbrot servieren."
-      }
+        "heat_pan": "Eine gusseiserne oder schwere Pfanne bei mittlerer Hitze erwärmen und die Butter schmelzen. Die Pfanne 1–2 Minuten vorheizen; die Butter soll sanft schäumen, nicht sofort bräunen.",
+        "crisp_bacon": "Den Bacon braten, bis die Ränder goldbraun und knusprig sind. Ein- bis zweimal wenden und 4–6 Minuten Fett auslassen; Hitze senken, wenn das magere Fleisch zu schnell dunkel wird.",
+        "add_eggs": "Den Bacon an den Rand schieben und die Eier in die freie Mitte schlagen, ohne die Eigelbe zu verletzen. Eier zuerst einzeln in eine Tasse schlagen und dann in die Pfanne gleiten lassen.",
+        "finish_eggs": "Die Hitze reduzieren und sanft garen, bis das Eiweiß gestockt ist und die Eigelbe weich bleiben. Je nach Eigelb 3–5 Minuten garen; bei noch glasigem Eiweiß die letzte Minute abdecken.",
+        "season_serve": "Mit schwarzem Pfeffer würzen und sofort mit geröstetem Sauerteigbrot servieren. Nur 30 Sekunden vom Herd ruhen lassen; längeres Warten gart das Eigelb weiter."
+      },
+      "description": "Rustikales Pfannenfrühstück mit knusprigem Bacon und sanft gegarten Eiern im gleichen Bratfett. Ideal sind gebräunte Ränder, festes Eiweiß und nach Wunsch weiches Eigelb.",
+      "animeContext": "Der Bezug ist direkt: Calcifer brät Bacon und Eier in Howl's Moving Castle. Die App rekonstruiert das Gericht kulinarisch, ohne Dialoge oder Filmbilder zu übernehmen."
     },
     "pt": {
       "title": "Ovos na frigideira com bacon crocante",
@@ -246,12 +256,29 @@
         }
       },
       "steps": {
-        "heat_pan": "Aqueça uma frigideira de ferro ou de fundo pesado em fogo médio e derreta a manteiga.",
-        "crisp_bacon": "Doure o bacon até as bordas ficarem crocantes.",
-        "add_eggs": "Empurre o bacon para as laterais e quebre os ovos no centro, mantendo as gemas inteiras.",
-        "finish_eggs": "Abaixe o fogo e cozinhe delicadamente até as claras firmarem e as gemas continuarem macias.",
-        "season_serve": "Finalize com pimenta-do-reino e sirva imediatamente com pão rústico torrado."
-      }
+        "heat_pan": "Aqueça uma frigideira de ferro ou de fundo pesado em fogo médio e derreta a manteiga. Aqueça a frigideira por 1–2 minutos; a manteiga deve espumar suavemente, sem queimar.",
+        "crisp_bacon": "Doure o bacon até as bordas ficarem crocantes. Vire uma ou duas vezes e deixe 4–6 minutos para a gordura derreter; reduza o fogo se a carne escurecer cedo.",
+        "add_eggs": "Empurre o bacon para as laterais e quebre os ovos no centro, mantendo as gemas inteiras. Quebre cada ovo primeiro em uma xícara e deslize para a frigideira para ter mais controle.",
+        "finish_eggs": "Abaixe o fogo e cozinhe delicadamente até as claras firmarem e as gemas continuarem macias. Cozinhe 3–5 minutos conforme o ponto da gema; tampe no último minuto se a clara ainda estiver translúcida.",
+        "season_serve": "Finalize com pimenta-do-reino e sirva imediatamente com pão rústico torrado. Descanse fora do fogo por apenas 30 segundos; mais tempo continua cozinhando as gemas."
+      },
+      "description": "Café da manhã rústico de frigideira com bacon crocante e ovos cozidos suavemente na mesma gordura. O ideal é bacon dourado, claras firmes e gemas ainda macias, se desejado.",
+      "animeContext": "A referência é direta: Calcifer cozinha bacon e ovos em Howl's Moving Castle. O app reconstrói o prato de forma culinária, sem copiar diálogos ou imagens."
     }
+  },
+  "animeReferences": [
+    {
+      "workTitle": "Howl's Moving Castle",
+      "relation": "verified_appearance",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Skillet eggs with bacon is a simple real breakfast preparation; technique re-reviewed for rendered bacon fat and egg doneness.",
+    "animeStatus": "verified",
+    "animeNote": "Bacon and eggs are directly cooked and eaten in Howl's Moving Castle."
   }
 }

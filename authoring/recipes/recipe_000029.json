@@ -1,0 +1,410 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000029",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Chainsaw Man",
+  "animeReferences": [
+    {
+      "workTitle": "Chainsaw Man",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "corrected",
+    "culinaryNote": "Canonical public dish name normalized from source 'Katsu Curry Don' to Katsu Curry; recipe uses explicit curry-roux mass and complete curry + tonkatsu workflow.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime association retained only as inspiration."
+  },
+  "prepMinutes": 30,
+  "cookMinutes": 45,
+  "servings": 2,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from Ricettario Vol. 3; title and ambiguous curry-roux quantity corrected.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "pork_cutlets",
+      "quantity": 2,
+      "unit": "piece"
+    },
+    {
+      "id": "rice",
+      "quantity": 350,
+      "unit": "g"
+    },
+    {
+      "id": "curry_roux",
+      "quantity": 45,
+      "unit": "g"
+    },
+    {
+      "id": "potato",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "carrot",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "onion",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "water",
+      "quantity": 500,
+      "unit": "ml"
+    },
+    {
+      "id": "oil",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "fukujinzuke",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "cook_rice",
+      "timerSeconds": 1800
+    },
+    {
+      "id": "start_curry",
+      "timerSeconds": 300
+    },
+    {
+      "id": "simmer_vegetables",
+      "timerSeconds": 900
+    },
+    {
+      "id": "add_roux",
+      "timerSeconds": 300
+    },
+    {
+      "id": "cook_tonkatsu",
+      "timerSeconds": 900
+    },
+    {
+      "id": "assemble",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Katsu Curry",
+      "description": "Japanese curry rice topped with a crisp panko cutlet: rich, thick sauce, steamed short-grain rice and a crunchy katsu in one plate. Keeping part of the cutlet out of the sauce preserves the contrast that makes the dish so satisfying.",
+      "animeContext": "Inspired by the everyday comfort-food tone associated with Chainsaw Man. The culinary identity is Katsu Curry; no specific episode is claimed.",
+      "ingredients": {
+        "pork_cutlets": {
+          "name": "Tonkatsu pork cutlets",
+          "note": null
+        },
+        "rice": {
+          "name": "Cooked Japanese short-grain rice",
+          "note": null
+        },
+        "curry_roux": {
+          "name": "Japanese curry roux",
+          "note": null
+        },
+        "potato": {
+          "name": "Medium potato",
+          "note": null
+        },
+        "carrot": {
+          "name": "Carrot",
+          "note": null
+        },
+        "onion": {
+          "name": "Onion",
+          "note": null
+        },
+        "water": {
+          "name": "Water or light stock",
+          "note": null
+        },
+        "oil": {
+          "name": "Neutral oil",
+          "note": null
+        },
+        "fukujinzuke": {
+          "name": "Fukujinzuke pickles, optional",
+          "note": null
+        }
+      },
+      "steps": {
+        "cook_rice": "Cook Japanese short-grain rice so it is ready and hot when the curry and cutlet finish. After cooking, rest it covered for about 10 minutes, then fluff gently without crushing the grains.",
+        "start_curry": "Heat oil in a saucepan, add sliced onion and cook until soft with light golden edges. Add carrot and potato cut into even bite-size pieces and sauté for 2–3 minutes so their surfaces pick up flavour.",
+        "simmer_vegetables": "Add 500 ml water or light stock, bring to a boil, skim if needed, then cover partially and simmer about 15 minutes until the vegetables are tender but not collapsing.",
+        "add_roux": "Turn the heat off before adding the curry roux. Break in about 45 g, stir until fully dissolved, then return to low heat and simmer 4–5 minutes, stirring from the bottom, until glossy and thick enough to coat a spoon. Follow the package ratio if your brand differs.",
+        "cook_tonkatsu": "Prepare the tonkatsu while the curry simmers: bread and fry the pork until the crust is crisp and the centre reaches safe doneness. Rest briefly on a rack, then slice into clean strips.",
+        "assemble": "Place hot rice on one side of each plate, arrange sliced tonkatsu alongside and ladle curry so it laps over part of the cutlet while leaving some crust exposed. Add fukujinzuke if desired and serve immediately."
+      }
+    },
+    "it": {
+      "title": "Katsu Curry",
+      "description": "Curry rice giapponese con cotoletta di panko croccante: salsa ricca e densa, riso a chicco corto e katsu nello stesso piatto. Lasciare una parte della cotoletta fuori dalla salsa conserva il contrasto di consistenze.",
+      "animeContext": "Ispirato al tono da comfort food quotidiano associato a Chainsaw Man. L’identità culinaria corretta è Katsu Curry; non indichiamo un episodio preciso.",
+      "ingredients": {
+        "pork_cutlets": {
+          "name": "Cotolette tonkatsu di maiale",
+          "note": null
+        },
+        "rice": {
+          "name": "Riso giapponese a chicco corto cotto",
+          "note": null
+        },
+        "curry_roux": {
+          "name": "Roux per curry giapponese",
+          "note": null
+        },
+        "potato": {
+          "name": "Patata media",
+          "note": null
+        },
+        "carrot": {
+          "name": "Carota",
+          "note": null
+        },
+        "onion": {
+          "name": "Cipolla",
+          "note": null
+        },
+        "water": {
+          "name": "Acqua o brodo leggero",
+          "note": null
+        },
+        "oil": {
+          "name": "Olio neutro",
+          "note": null
+        },
+        "fukujinzuke": {
+          "name": "Fukujinzuke, facoltativo",
+          "note": null
+        }
+      },
+      "steps": {
+        "cook_rice": "Cuoci il riso giapponese a chicco corto in modo che sia pronto e caldo quando terminano curry e cotoletta. Dopo la cottura lascialo riposare coperto circa 10 minuti, poi sgranalo delicatamente.",
+        "start_curry": "Scalda l’olio in casseruola, aggiungi la cipolla affettata e cuoci finché è morbida con bordi appena dorati. Unisci carota e patata a pezzi regolari e rosola 2–3 minuti.",
+        "simmer_vegetables": "Versa 500 ml d’acqua o brodo leggero, porta a bollore, schiuma se necessario, poi copri parzialmente e cuoci circa 15 minuti, finché le verdure sono tenere ma non disfatte.",
+        "add_roux": "Spegni il fuoco prima di aggiungere il roux. Spezzetta circa 45 g, mescola finché è completamente sciolto, poi riaccendi al minimo e fai sobbollire 4–5 minuti mescolando sul fondo, fino a ottenere una salsa lucida che vela il cucchiaio. Se la marca indica un rapporto diverso, segui la confezione.",
+        "cook_tonkatsu": "Mentre il curry sobbolle prepara il tonkatsu: impana e friggi il maiale fino a crosta croccante e interno cotto in sicurezza. Fallo riposare brevemente su griglia, poi affettalo con tagli netti.",
+        "assemble": "Disponi il riso caldo su un lato del piatto, appoggia accanto il tonkatsu affettato e versa il curry in modo che copra solo parte della cotoletta, lasciando visibile una zona croccante. Completa con fukujinzuke se vuoi."
+      }
+    },
+    "es": {
+      "title": "Katsu Curry",
+      "description": "Curry japonés con arroz y una chuleta de panko crujiente. Dejar parte del katsu fuera de la salsa conserva el contraste de texturas.",
+      "animeContext": "Inspirado en el tono de comfort food asociado a Chainsaw Man. El nombre culinario correcto es Katsu Curry; no se afirma un episodio concreto.",
+      "ingredients": {
+        "pork_cutlets": {
+          "name": "Tonkatsu de cerdo",
+          "note": null
+        },
+        "rice": {
+          "name": "Arroz japonés de grano corto cocido",
+          "note": null
+        },
+        "curry_roux": {
+          "name": "Roux de curry japonés",
+          "note": null
+        },
+        "potato": {
+          "name": "Patata mediana",
+          "note": null
+        },
+        "carrot": {
+          "name": "Zanahoria",
+          "note": null
+        },
+        "onion": {
+          "name": "Cebolla",
+          "note": null
+        },
+        "water": {
+          "name": "Agua o caldo ligero",
+          "note": null
+        },
+        "oil": {
+          "name": "Aceite neutro",
+          "note": null
+        },
+        "fukujinzuke": {
+          "name": "Fukujinzuke, opcional",
+          "note": null
+        }
+      },
+      "steps": {
+        "cook_rice": "Cocina arroz japonés y déjalo reposar tapado 10 minutos; suelta los granos con cuidado.",
+        "start_curry": "Pocha cebolla en aceite hasta suave y ligeramente dorada, añade zanahoria y patata y saltea 2–3 minutos.",
+        "simmer_vegetables": "Añade 500 ml de agua o caldo y cocina parcialmente tapado unos 15 minutos hasta que las verduras estén tiernas.",
+        "add_roux": "Apaga el fuego, disuelve unos 45 g de roux, vuelve a fuego bajo y cocina 4–5 minutos hasta espesar; respeta la proporción del fabricante si cambia.",
+        "cook_tonkatsu": "Prepara el tonkatsu hasta que quede crujiente y cocido de forma segura; reposa sobre rejilla y corta.",
+        "assemble": "Sirve arroz, tonkatsu y curry dejando parte de la corteza al descubierto; añade fukujinzuke si deseas."
+      }
+    },
+    "fr": {
+      "title": "Katsu Curry",
+      "description": "Curry japonais servi avec riz et escalope panko croustillante. Laisser une partie du katsu hors de la sauce préserve le contraste des textures.",
+      "animeContext": "Inspiré du registre de comfort food associé à Chainsaw Man. Le nom culinaire correct est Katsu Curry; aucun épisode précis n’est affirmé.",
+      "ingredients": {
+        "pork_cutlets": {
+          "name": "Tonkatsu de porc",
+          "note": null
+        },
+        "rice": {
+          "name": "Riz japonais à grains courts cuit",
+          "note": null
+        },
+        "curry_roux": {
+          "name": "Roux de curry japonais",
+          "note": null
+        },
+        "potato": {
+          "name": "Pomme de terre moyenne",
+          "note": null
+        },
+        "carrot": {
+          "name": "Carotte",
+          "note": null
+        },
+        "onion": {
+          "name": "Oignon",
+          "note": null
+        },
+        "water": {
+          "name": "Eau ou bouillon léger",
+          "note": null
+        },
+        "oil": {
+          "name": "Huile neutre",
+          "note": null
+        },
+        "fukujinzuke": {
+          "name": "Fukujinzuke, facultatif",
+          "note": null
+        }
+      },
+      "steps": {
+        "cook_rice": "Cuisez le riz japonais, reposez-le couvert 10 minutes puis aérez doucement.",
+        "start_curry": "Faites fondre l’oignon dans l’huile jusqu’à légère coloration, ajoutez carotte et pomme de terre et sautez 2–3 minutes.",
+        "simmer_vegetables": "Ajoutez 500 ml d’eau ou bouillon et mijotez environ 15 minutes, partiellement couvert, jusqu’à tendreté.",
+        "add_roux": "Coupez le feu, dissolvez environ 45 g de roux, puis mijotez 4–5 minutes à feu doux jusqu’à épaississement; adaptez selon la marque.",
+        "cook_tonkatsu": "Préparez le tonkatsu croustillant et cuit à cœur, reposez sur grille puis tranchez.",
+        "assemble": "Servez riz, tonkatsu et curry en laissant une partie de la panure hors sauce; ajoutez du fukujinzuke si souhaité."
+      }
+    },
+    "de": {
+      "title": "Katsu Curry",
+      "description": "Japanisches Curry mit Reis und knusprigem Panko-Katsu. Ein Teil der Kruste bleibt außerhalb der Sauce, damit der Texturkontrast erhalten bleibt.",
+      "animeContext": "Von der Comfort-Food-Stimmung in Chainsaw Man inspiriert. Die korrekte kulinarische Bezeichnung ist Katsu Curry; keine konkrete Episode wird behauptet.",
+      "ingredients": {
+        "pork_cutlets": {
+          "name": "Schweine-Tonkatsu",
+          "note": null
+        },
+        "rice": {
+          "name": "Gekochter japanischer Rundkornreis",
+          "note": null
+        },
+        "curry_roux": {
+          "name": "Japanisches Curry-Roux",
+          "note": null
+        },
+        "potato": {
+          "name": "Mittlere Kartoffel",
+          "note": null
+        },
+        "carrot": {
+          "name": "Karotte",
+          "note": null
+        },
+        "onion": {
+          "name": "Zwiebel",
+          "note": null
+        },
+        "water": {
+          "name": "Wasser oder leichte Brühe",
+          "note": null
+        },
+        "oil": {
+          "name": "Neutrales Öl",
+          "note": null
+        },
+        "fukujinzuke": {
+          "name": "Fukujinzuke, optional",
+          "note": null
+        }
+      },
+      "steps": {
+        "cook_rice": "Japanischen Reis garen, 10 Minuten abgedeckt ruhen lassen und vorsichtig lockern.",
+        "start_curry": "Zwiebel in Öl weich und leicht goldbraun braten, Karotte und Kartoffel zugeben und 2–3 Minuten anschwitzen.",
+        "simmer_vegetables": "500 ml Wasser oder Brühe zugeben und etwa 15 Minuten teilweise abgedeckt köcheln, bis das Gemüse weich ist.",
+        "add_roux": "Hitze ausschalten, etwa 45 g Curry-Roux vollständig lösen, dann bei niedriger Hitze 4–5 Minuten eindicken; Packungsverhältnis bei abweichender Marke beachten.",
+        "cook_tonkatsu": "Tonkatsu knusprig und sicher durchgaren, kurz auf Gitter ruhen lassen und schneiden.",
+        "assemble": "Reis, Tonkatsu und Curry so anrichten, dass ein Teil der Kruste trocken bleibt; optional Fukujinzuke dazu."
+      }
+    },
+    "pt": {
+      "title": "Katsu Curry",
+      "description": "Curry japonês com arroz e katsu crocante de panko. Deixar parte da crosta fora do molho preserva o contraste de texturas.",
+      "animeContext": "Inspirado no clima de comfort food associado a Chainsaw Man. O nome culinário correto é Katsu Curry; não afirmamos um episódio específico.",
+      "ingredients": {
+        "pork_cutlets": {
+          "name": "Tonkatsu de porco",
+          "note": null
+        },
+        "rice": {
+          "name": "Arroz japonês de grão curto cozido",
+          "note": null
+        },
+        "curry_roux": {
+          "name": "Roux de curry japonês",
+          "note": null
+        },
+        "potato": {
+          "name": "Batata média",
+          "note": null
+        },
+        "carrot": {
+          "name": "Cenoura",
+          "note": null
+        },
+        "onion": {
+          "name": "Cebola",
+          "note": null
+        },
+        "water": {
+          "name": "Água ou caldo leve",
+          "note": null
+        },
+        "oil": {
+          "name": "Óleo neutro",
+          "note": null
+        },
+        "fukujinzuke": {
+          "name": "Fukujinzuke, opcional",
+          "note": null
+        }
+      },
+      "steps": {
+        "cook_rice": "Cozinhe o arroz japonês, descanse tampado por 10 minutos e solte os grãos delicadamente.",
+        "start_curry": "Refogue a cebola no óleo até macia e levemente dourada, junte cenoura e batata e salteie 2–3 minutos.",
+        "simmer_vegetables": "Adicione 500 ml de água ou caldo e cozinhe parcialmente tampado por cerca de 15 minutos até os legumes ficarem macios.",
+        "add_roux": "Desligue o fogo, dissolva cerca de 45 g de roux, volte ao fogo baixo e cozinhe 4–5 minutos até engrossar; siga a proporção da embalagem se a marca for diferente.",
+        "cook_tonkatsu": "Prepare o tonkatsu crocante e com cocção segura, descanse em grade e fatie.",
+        "assemble": "Sirva arroz, tonkatsu e curry deixando parte da crosta fora do molho; acrescente fukujinzuke se desejar."
+      }
+    }
+  }
+}

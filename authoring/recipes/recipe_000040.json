@@ -1,0 +1,410 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000040",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "K-On!",
+  "animeReferences": [
+    {
+      "workTitle": "K-On!",
+      "relation": "recurring_association",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Matcha roll cake verified as a Japanese-style sponge roll with matcha and whipped cream; hot pre-roll and chill included.",
+    "animeStatus": "partial",
+    "animeNote": "K-On! has a recurring tea-and-cake association; exact matcha-roll appearance not asserted."
+  },
+  "prepMinutes": 90,
+  "cookMinutes": 12,
+  "servings": 8,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from Ricettario Vol. 4; rolling, cooling and refrigeration timing corrected.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "eggs",
+      "quantity": 4,
+      "unit": null
+    },
+    {
+      "id": "sugar",
+      "quantity": 70,
+      "unit": "g"
+    },
+    {
+      "id": "flour",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "id": "matcha",
+      "quantity": 10,
+      "unit": "g"
+    },
+    {
+      "id": "milk",
+      "quantity": 40,
+      "unit": "ml"
+    },
+    {
+      "id": "oil",
+      "quantity": 30,
+      "unit": "ml"
+    },
+    {
+      "id": "cream",
+      "quantity": 200,
+      "unit": "ml"
+    },
+    {
+      "id": "icing_sugar",
+      "quantity": 25,
+      "unit": "g"
+    },
+    {
+      "id": "anko",
+      "quantity": 2,
+      "unit": "tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "id": "make_yolk_batter",
+      "timerSeconds": 300
+    },
+    {
+      "id": "whip_meringue",
+      "timerSeconds": 480
+    },
+    {
+      "id": "fold",
+      "timerSeconds": 300
+    },
+    {
+      "id": "bake",
+      "timerSeconds": 720
+    },
+    {
+      "id": "pre_roll_cool",
+      "timerSeconds": 1800
+    },
+    {
+      "id": "fill_roll_chill",
+      "timerSeconds": 3600
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Matcha Roll Cake",
+      "description": "A light green-tea sponge rolled around softly whipped cream, with optional anko for an earthy-sweet accent. Pre-rolling the sponge while warm trains the crumb so the final cold roll bends instead of splitting.",
+      "animeContext": "K-On! is strongly associated with tea and cake in the Light Music Club room. This matcha roll is presented as a recurring dessert-culture association rather than an exact on-screen recipe.",
+      "ingredients": {
+        "eggs": {
+          "name": "Large eggs, separated",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "flour": {
+          "name": "All-purpose or cake flour",
+          "note": null
+        },
+        "matcha": {
+          "name": "Culinary-grade matcha",
+          "note": null
+        },
+        "milk": {
+          "name": "Whole milk",
+          "note": null
+        },
+        "oil": {
+          "name": "Neutral oil",
+          "note": null
+        },
+        "cream": {
+          "name": "Cold whipping cream",
+          "note": null
+        },
+        "icing_sugar": {
+          "name": "Icing sugar",
+          "note": null
+        },
+        "anko": {
+          "name": "Anko, optional",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_yolk_batter": "Whisk yolks with 20 g sugar until smooth. Warm the milk just enough to dissolve the sifted matcha without lumps, mix it with the oil, then whisk into the yolks. Sift in flour and mix only until the batter is smooth.",
+        "whip_meringue": "Whip the egg whites until foamy, then add the remaining 50 g sugar in three additions. Stop at glossy medium-stiff peaks: over-whipped dry whites are harder to fold and make the sponge crack.",
+        "fold": "Fold one third of the meringue into the matcha batter to lighten it, then fold in the rest in two additions with broad bottom-to-top strokes. Stop as soon as no white streaks remain.",
+        "bake": "Spread evenly in a parchment-lined 28 cm square tray, tap lightly to release large bubbles and bake at 170°C for 11–12 minutes. The surface should spring back without becoming dry or deeply browned.",
+        "pre_roll_cool": "Turn the hot sponge onto clean parchment, remove the baking paper carefully and trim any hard edge. Roll it loosely with the parchment while warm and let it cool completely in that shape; this trains the crumb and reduces cracking later.",
+        "fill_roll_chill": "Whip cold cream with icing sugar to medium-stiff peaks. Unroll the cold sponge, spread cream evenly leaving the far edge thinner, add a narrow strip of anko if desired, then roll firmly but without crushing. Wrap and chill at least 1 hour before slicing."
+      }
+    },
+    "it": {
+      "title": "Matcha Roll Cake",
+      "description": "Un biscuit leggero al tè verde arrotolato attorno a panna montata morbida, con anko facoltativo per una nota dolce e terrosa. Pre-arrotolare il biscuit da caldo abitua la mollica alla curva e riduce le crepe nel rotolo finale.",
+      "animeContext": "K-On! è fortemente associato a tè e torte nella stanza del club di musica leggera. Il rotolo al matcha è presentato come associazione ricorrente con quella cultura del dolce, non come ricetta mostrata in una scena precisa.",
+      "ingredients": {
+        "eggs": {
+          "name": "Uova grandi separate",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucchero",
+          "note": null
+        },
+        "flour": {
+          "name": "Farina 00 o da dolci",
+          "note": null
+        },
+        "matcha": {
+          "name": "Matcha di qualità culinaria",
+          "note": null
+        },
+        "milk": {
+          "name": "Latte intero",
+          "note": null
+        },
+        "oil": {
+          "name": "Olio neutro",
+          "note": null
+        },
+        "cream": {
+          "name": "Panna fresca fredda",
+          "note": null
+        },
+        "icing_sugar": {
+          "name": "Zucchero a velo",
+          "note": null
+        },
+        "anko": {
+          "name": "Anko, facoltativo",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_yolk_batter": "Sbatti i tuorli con 20 g di zucchero. Intiepidisci appena il latte e scioglici il matcha setacciato senza grumi, unisci l’olio e incorpora ai tuorli. Setaccia la farina e mescola solo finché la pastella è liscia.",
+        "whip_meringue": "Monta gli albumi finché diventano schiumosi, poi aggiungi i 50 g di zucchero rimasti in tre riprese. Fermati a picchi medio-sodi e lucidi: albumi secchi e troppo montati si incorporano peggio e favoriscono le crepe.",
+        "fold": "Incorpora un terzo della meringa alla base al matcha per alleggerirla, poi il resto in due riprese con movimenti ampi dal basso verso l’alto. Fermati appena non restano striature bianche.",
+        "bake": "Stendi in modo uniforme in una teglia quadrata da 28 cm foderata, dai un colpetto leggero e cuoci a 170°C per 11–12 minuti. La superficie deve tornare su al tocco senza seccarsi o scurire troppo.",
+        "pre_roll_cool": "Rovescia il biscuit caldo su carta forno pulita, rimuovi con cautela quella di cottura e rifila eventuali bordi duri. Arrotolalo morbido insieme alla carta mentre è tiepido e fallo raffreddare completamente in forma.",
+        "fill_roll_chill": "Monta la panna fredda con lo zucchero a velo a picchi medio-sodi. Srotola il biscuit freddo, stendi la panna lasciando più sottile il bordo finale, aggiungi se vuoi una striscia di anko e riarrotola con decisione senza schiacciare. Avvolgi e raffredda almeno 1 ora."
+      }
+    },
+    "es": {
+      "title": "Rollo de matcha",
+      "description": "Bizcocho ligero de té verde enrollado con nata y anko opcional. Pre-enrollarlo caliente ayuda a evitar grietas.",
+      "animeContext": "K-On! está muy ligado al té y los pasteles del club; este rollo se presenta como asociación recurrente, no receta exacta de una escena.",
+      "ingredients": {
+        "eggs": {
+          "name": "Huevos grandes separados",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "flour": {
+          "name": "Harina de trigo o repostería",
+          "note": null
+        },
+        "matcha": {
+          "name": "Matcha culinario",
+          "note": null
+        },
+        "milk": {
+          "name": "Leche entera",
+          "note": null
+        },
+        "oil": {
+          "name": "Aceite neutro",
+          "note": null
+        },
+        "cream": {
+          "name": "Nata fría",
+          "note": null
+        },
+        "icing_sugar": {
+          "name": "Azúcar glas",
+          "note": null
+        },
+        "anko": {
+          "name": "Anko, opcional",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_yolk_batter": "Bate yemas con 20 g de azúcar. Disuelve matcha tamizado en leche tibia, mezcla con aceite y añade; incorpora harina hasta alisar.",
+        "whip_meringue": "Monta claras y añade los 50 g de azúcar restantes en tres veces hasta picos medios-firmes y brillantes.",
+        "fold": "Incorpora un tercio del merengue y luego el resto con movimientos envolventes hasta eliminar vetas blancas.",
+        "bake": "Extiende en molde de 28 cm y hornea a 170°C 11–12 minutos hasta que rebote al tacto.",
+        "pre_roll_cool": "Vuelca sobre papel, retira el papel de cocción, enrolla flojo en caliente y enfría completamente así.",
+        "fill_roll_chill": "Rellena con nata montada, añade anko opcional, enrolla sin aplastar y refrigera al menos 1 hora."
+      }
+    },
+    "fr": {
+      "title": "Roulé au matcha",
+      "description": "Biscuit léger au thé vert roulé avec crème fouettée et anko facultatif. Le pré-roulage à chaud réduit les fissures.",
+      "animeContext": "K-On! est fortement lié au thé et aux gâteaux du club; ce roulé est une association récurrente, pas une recette exacte d’une scène.",
+      "ingredients": {
+        "eggs": {
+          "name": "Gros œufs séparés",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre",
+          "note": null
+        },
+        "flour": {
+          "name": "Farine",
+          "note": null
+        },
+        "matcha": {
+          "name": "Matcha culinaire",
+          "note": null
+        },
+        "milk": {
+          "name": "Lait entier",
+          "note": null
+        },
+        "oil": {
+          "name": "Huile neutre",
+          "note": null
+        },
+        "cream": {
+          "name": "Crème froide",
+          "note": null
+        },
+        "icing_sugar": {
+          "name": "Sucre glace",
+          "note": null
+        },
+        "anko": {
+          "name": "Anko, facultatif",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_yolk_batter": "Fouettez jaunes et 20 g de sucre. Dissolvez le matcha tamisé dans le lait tiède, ajoutez huile puis farine.",
+        "whip_meringue": "Montez les blancs et ajoutez les 50 g de sucre restants en trois fois jusqu’à pics moyens-fermes brillants.",
+        "fold": "Incorporez un tiers de meringue puis le reste délicatement jusqu’à disparition des traces blanches.",
+        "bake": "Étalez dans un moule de 28 cm et cuisez à 170°C 11–12 minutes, surface souple.",
+        "pre_roll_cool": "Retournez sur papier, retirez le papier de cuisson, roulez souplement à chaud et laissez refroidir ainsi.",
+        "fill_roll_chill": "Garnissez de crème, ajoutez éventuellement l’anko, roulez sans écraser et réfrigérez au moins 1 heure."
+      }
+    },
+    "de": {
+      "title": "Matcha-Rolle",
+      "description": "Leichter Grüntee-Biskuit mit Sahne und optional Anko. Warmes Vorrollen trainiert die Krume und verhindert Risse.",
+      "animeContext": "K-On! ist stark mit Tee und Kuchen im Clubraum verbunden; diese Matcha-Rolle ist eine wiederkehrende Dessert-Assoziation, keine exakte Szene.",
+      "ingredients": {
+        "eggs": {
+          "name": "Große Eier, getrennt",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker",
+          "note": null
+        },
+        "flour": {
+          "name": "Weizen- oder Kuchenmehl",
+          "note": null
+        },
+        "matcha": {
+          "name": "Matcha zum Backen",
+          "note": null
+        },
+        "milk": {
+          "name": "Vollmilch",
+          "note": null
+        },
+        "oil": {
+          "name": "Neutrales Öl",
+          "note": null
+        },
+        "cream": {
+          "name": "Kalte Schlagsahne",
+          "note": null
+        },
+        "icing_sugar": {
+          "name": "Puderzucker",
+          "note": null
+        },
+        "anko": {
+          "name": "Anko, optional",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_yolk_batter": "Eigelb mit 20 g Zucker verrühren. Gesiebtes Matcha in lauwarmer Milch lösen, Öl zugeben und einrühren; Mehl nur glatt einarbeiten.",
+        "whip_meringue": "Eiweiß schlagen und restliche 50 g Zucker in drei Portionen bis glänzende mittelfeste Spitzen einarbeiten.",
+        "fold": "Ein Drittel Baiser unterrühren, dann Rest vorsichtig unterheben, bis keine weißen Streifen bleiben.",
+        "bake": "In 28-cm-Form streichen und bei 170°C 11–12 Minuten backen, bis die Oberfläche zurückfedert.",
+        "pre_roll_cool": "Heiß auf Papier stürzen, Backpapier lösen, locker vorrollen und vollständig in Form auskühlen lassen.",
+        "fill_roll_chill": "Mit Sahne füllen, optional Anko einlegen, ohne Druck aufrollen und mindestens 1 Stunde kühlen."
+      }
+    },
+    "pt": {
+      "title": "Rocambole de matcha",
+      "description": "Bolo leve de chá verde enrolado com chantilly e anko opcional. Pré-enrolar ainda quente reduz rachaduras.",
+      "animeContext": "K-On! é fortemente ligado a chá e bolos no clube; este rocambole é uma associação recorrente, não uma receita exata de cena.",
+      "ingredients": {
+        "eggs": {
+          "name": "Ovos grandes separados",
+          "note": null
+        },
+        "sugar": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "flour": {
+          "name": "Farinha de trigo ou bolo",
+          "note": null
+        },
+        "matcha": {
+          "name": "Matcha culinário",
+          "note": null
+        },
+        "milk": {
+          "name": "Leite integral",
+          "note": null
+        },
+        "oil": {
+          "name": "Óleo neutro",
+          "note": null
+        },
+        "cream": {
+          "name": "Creme de leite fresco gelado",
+          "note": null
+        },
+        "icing_sugar": {
+          "name": "Açúcar de confeiteiro",
+          "note": null
+        },
+        "anko": {
+          "name": "Anko, opcional",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_yolk_batter": "Bata gemas com 20 g de açúcar. Dissolva matcha peneirado no leite morno, misture óleo e junte; incorpore farinha até ficar liso.",
+        "whip_meringue": "Bata claras e adicione os 50 g restantes em três etapas até picos médios-firmes e brilhantes.",
+        "fold": "Misture um terço do merengue e depois o restante delicadamente até sumirem faixas brancas.",
+        "bake": "Espalhe em forma de 28 cm e asse a 170°C por 11–12 minutos até voltar ao toque.",
+        "pre_roll_cool": "Vire sobre papel, retire o papel de assar, enrole frouxamente ainda quente e esfrie completamente assim.",
+        "fill_roll_chill": "Recheie com chantilly, acrescente anko opcional, enrole sem esmagar e gele por pelo menos 1 hora."
+      }
+    }
+  }
+}

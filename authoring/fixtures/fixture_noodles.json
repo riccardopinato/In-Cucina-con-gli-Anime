@@ -12,79 +12,156 @@
   "sourceNote": "Synthetic non-production fixture used only by the F2 preview pipeline.",
   "imageAssetId": null,
   "ingredients": [
-    {"id": "noodles", "quantity": 100, "unit": "g"},
-    {"id": "soy_sauce", "quantity": 1, "unit": "tbsp"}
+    {
+      "id": "noodles",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "id": "soy_sauce",
+      "quantity": 1,
+      "unit": "tbsp"
+    }
   ],
   "steps": [
-    {"id": "cook", "timerSeconds": 480},
-    {"id": "season", "timerSeconds": null}
+    {
+      "id": "cook",
+      "timerSeconds": 480
+    },
+    {
+      "id": "season",
+      "timerSeconds": null
+    }
   ],
   "locales": {
     "en": {
       "title": "Fixture noodles",
       "ingredients": {
-        "noodles": {"name": "Noodles", "note": null},
-        "soy_sauce": {"name": "Soy sauce", "note": null}
+        "noodles": {
+          "name": "Noodles",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        }
       },
       "steps": {
-        "cook": "Cook the noodles until tender.",
-        "season": "Season with soy sauce and serve."
-      }
+        "cook": "Cook the noodles until tender. Continue only after the stated texture and temperature cue is reached so the synthetic fixture exercises detailed instructions.",
+        "season": "Season with soy sauce and serve. Continue only after the stated texture and temperature cue is reached so the synthetic fixture exercises detailed instructions."
+      },
+      "description": "A synthetic noodle recipe used only to verify the complete authoring-to-runtime pipeline; its description is intentionally realistic enough to exercise the rich F3G editorial fields.",
+      "animeContext": "Synthetic Series is fictional test metadata. The reference is explicitly marked as inspiration and exists only to verify safe fallback and rendering behaviour."
     },
     "it": {
       "title": "Noodles di prova",
       "ingredients": {
-        "noodles": {"name": "Noodles", "note": null},
-        "soy_sauce": {"name": "Salsa di soia", "note": null}
+        "noodles": {
+          "name": "Noodles",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa di soia",
+          "note": null
+        }
       },
       "steps": {
-        "cook": "Cuoci i noodles finché sono teneri.",
-        "season": "Condisci con salsa di soia e servi."
-      }
+        "cook": "Cuoci i noodles finché sono teneri. Prosegui solo dopo aver raggiunto il segnale di consistenza e temperatura indicato, così il fixture esercita istruzioni dettagliate.",
+        "season": "Condisci con salsa di soia e servi. Prosegui solo dopo aver raggiunto il segnale di consistenza e temperatura indicato, così il fixture esercita istruzioni dettagliate."
+      },
+      "description": "Una ricetta sintetica di noodles usata solo per verificare l’intera pipeline authoring-runtime; la descrizione è volutamente abbastanza completa da esercitare i nuovi campi editoriali F3G.",
+      "animeContext": "Synthetic Series è un metadato fittizio di test. Il riferimento è esplicitamente segnato come ispirazione e serve solo a verificare fallback e rendering."
     },
     "es": {
       "title": "Fideos de prueba",
       "ingredients": {
-        "noodles": {"name": "Fideos", "note": null},
-        "soy_sauce": {"name": "Salsa de soja", "note": null}
+        "noodles": {
+          "name": "Fideos",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        }
       },
       "steps": {
-        "cook": "Cuece los fideos hasta que estén tiernos.",
-        "season": "Condimenta con salsa de soja y sirve."
-      }
+        "cook": "Cuece los fideos hasta que estén tiernos. Continúa solo al alcanzar la textura y temperatura indicadas para que el fixture pruebe instrucciones detalladas.",
+        "season": "Condimenta con salsa de soja y sirve. Continúa solo al alcanzar la textura y temperatura indicadas para que el fixture pruebe instrucciones detalladas."
+      },
+      "description": "Una receta sintética de fideos usada solo para verificar toda la canalización de autoría a runtime; el texto permite probar los campos editoriales F3G.",
+      "animeContext": "Synthetic Series es metadato ficticio de prueba. La referencia está marcada como inspiración y sirve solo para validar fallback y renderizado."
     },
     "fr": {
       "title": "Nouilles de test",
       "ingredients": {
-        "noodles": {"name": "Nouilles", "note": null},
-        "soy_sauce": {"name": "Sauce soja", "note": null}
+        "noodles": {
+          "name": "Nouilles",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sauce soja",
+          "note": null
+        }
       },
       "steps": {
-        "cook": "Faites cuire les nouilles jusqu’à ce qu’elles soient tendres.",
-        "season": "Assaisonnez avec la sauce soja et servez."
-      }
+        "cook": "Faites cuire les nouilles jusqu’à ce qu’elles soient tendres. Continuez seulement après avoir atteint la texture et la température indiquées afin de tester des instructions détaillées.",
+        "season": "Assaisonnez avec la sauce soja et servez. Continuez seulement après avoir atteint la texture et la température indiquées afin de tester des instructions détaillées."
+      },
+      "description": "Une recette synthétique de nouilles utilisée uniquement pour vérifier toute la chaîne d’édition vers le runtime; le texte teste les champs éditoriaux F3G.",
+      "animeContext": "Synthetic Series est une métadonnée fictive de test. La référence est marquée comme inspiration et sert uniquement à vérifier fallback et rendu."
     },
     "de": {
       "title": "Test-Nudeln",
       "ingredients": {
-        "noodles": {"name": "Nudeln", "note": null},
-        "soy_sauce": {"name": "Sojasauce", "note": null}
+        "noodles": {
+          "name": "Nudeln",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sojasauce",
+          "note": null
+        }
       },
       "steps": {
-        "cook": "Koche die Nudeln, bis sie weich sind.",
-        "season": "Mit Sojasauce würzen und servieren."
-      }
+        "cook": "Koche die Nudeln, bis sie weich sind. Erst nach Erreichen der angegebenen Textur und Temperatur fortfahren, damit die Fixture detaillierte Anweisungen prüft.",
+        "season": "Mit Sojasauce würzen und servieren. Erst nach Erreichen der angegebenen Textur und Temperatur fortfahren, damit die Fixture detaillierte Anweisungen prüft."
+      },
+      "description": "Ein synthetisches Nudelrezept, das ausschließlich die gesamte Authoring-zu-Runtime-Pipeline prüft und dabei die reichen F3G-Redaktionsfelder abdeckt.",
+      "animeContext": "Synthetic Series ist fiktive Testmetadaten. Der Bezug ist ausdrücklich als Inspiration markiert und dient nur der Prüfung von Fallback und Darstellung."
     },
     "pt": {
       "title": "Macarrão de teste",
       "ingredients": {
-        "noodles": {"name": "Macarrão", "note": null},
-        "soy_sauce": {"name": "Molho de soja", "note": null}
+        "noodles": {
+          "name": "Macarrão",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Molho de soja",
+          "note": null
+        }
       },
       "steps": {
-        "cook": "Cozinhe o macarrão até ficar macio.",
-        "season": "Tempere com molho de soja e sirva."
-      }
+        "cook": "Cozinhe o macarrão até ficar macio. Continue somente após atingir a textura e temperatura indicadas para que o fixture teste instruções detalhadas.",
+        "season": "Tempere com molho de soja e sirva. Continue somente após atingir a textura e temperatura indicadas para que o fixture teste instruções detalhadas."
+      },
+      "description": "Uma receita sintética de macarrão usada apenas para verificar toda a pipeline de autoria até runtime; o texto exercita os campos editoriais F3G.",
+      "animeContext": "Synthetic Series é metadado fictício de teste. A referência é marcada como inspiração e serve apenas para validar fallback e renderização."
     }
+  },
+  "animeReferences": [
+    {
+      "workTitle": "Synthetic Series",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Synthetic fixture: deliberately valid cooking structure used only to exercise the authoring pipeline.",
+    "animeStatus": "unverified",
+    "animeNote": "Synthetic inspiration only; the fixture never represents a factual media appearance."
   }
 }

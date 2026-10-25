@@ -1,0 +1,410 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000026",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Jujutsu Kaisen",
+  "animeReferences": [
+    {
+      "workTitle": "Jujutsu Kaisen",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Yakisoba pan verified as a real Japanese convenience/bakery food: sauced yakisoba tucked into a soft koppepan.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime link kept as inspiration; no exact scene claim."
+  },
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "servings": 2,
+  "difficulty": "easy",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3; method expanded and terminology normalized.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "koppepan",
+      "quantity": 2,
+      "unit": null
+    },
+    {
+      "id": "yakisoba_noodles",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "id": "pork_belly",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "id": "onion",
+      "quantity": 0.25,
+      "unit": null
+    },
+    {
+      "id": "cabbage",
+      "quantity": 2,
+      "unit": "leaf"
+    },
+    {
+      "id": "yakisoba_sauce",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "id": "aonori",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "beni_shoga",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "kewpie",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "sear_pork",
+      "timerSeconds": 180
+    },
+    {
+      "id": "cook_vegetables",
+      "timerSeconds": 180
+    },
+    {
+      "id": "loosen_noodles",
+      "timerSeconds": 120
+    },
+    {
+      "id": "sauce_noodles",
+      "timerSeconds": 120
+    },
+    {
+      "id": "prep_buns",
+      "timerSeconds": 120
+    },
+    {
+      "id": "fill_finish",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Yakisoba Pan",
+      "description": "A classic Japanese bread-and-noodle snack: savoury stir-fried yakisoba packed into a soft koppepan and finished with aonori and pickled ginger. The key is reducing the sauce enough that the noodles stay glossy without soaking the bread.",
+      "animeContext": "Inspired by the convenience-food atmosphere associated with Jujutsu Kaisen; no exact yakisoba-pan scene is asserted.",
+      "ingredients": {
+        "koppepan": {
+          "name": "Soft koppepan or hot-dog rolls",
+          "note": null
+        },
+        "yakisoba_noodles": {
+          "name": "Yakisoba noodles",
+          "note": null
+        },
+        "pork_belly": {
+          "name": "Pork belly, thin strips",
+          "note": null
+        },
+        "onion": {
+          "name": "Onion",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Cabbage leaves",
+          "note": null
+        },
+        "yakisoba_sauce": {
+          "name": "Yakisoba sauce",
+          "note": null
+        },
+        "aonori": {
+          "name": "Aonori",
+          "note": null
+        },
+        "beni_shoga": {
+          "name": "Beni shoga",
+          "note": null
+        },
+        "kewpie": {
+          "name": "Japanese mayonnaise, optional",
+          "note": null
+        }
+      },
+      "steps": {
+        "sear_pork": "Heat a wide skillet over medium-high heat. Add the pork and cook until the fat begins to render and the edges turn golden; leave enough fat in the pan to season the noodles.",
+        "cook_vegetables": "Add sliced onion and cabbage and stir-fry for about 3 minutes. Keep the heat high enough to wilt the vegetables while preserving a little bite.",
+        "loosen_noodles": "Add the yakisoba noodles and splash in 2 tablespoons of water. Cover for 30 seconds, then loosen gently with tongs or chopsticks so the strands separate without tearing.",
+        "sauce_noodles": "Add yakisoba sauce and toss over high heat for about 2 minutes until every strand is glossy and the excess moisture has evaporated. The noodles should be saucy but not wet.",
+        "prep_buns": "Cut each bun lengthwise without cutting through the hinge. If desired, spread a very thin layer of Japanese mayonnaise inside to protect the crumb from moisture.",
+        "fill_finish": "Pack the hot yakisoba into the buns while it is still steaming. Finish with aonori, a small ribbon of mayonnaise and beni shoga; serve immediately before the bread softens too much."
+      }
+    },
+    "it": {
+      "title": "Yakisoba Pan",
+      "description": "Un classico snack giapponese che unisce pane e noodles: yakisoba saltata e sapida dentro un koppepan soffice, con aonori e zenzero sottaceto. Il segreto è ridurre bene la salsa, così i noodles restano lucidi senza inzuppare il pane.",
+      "animeContext": "Ispirato all’atmosfera da convenience food associata a Jujutsu Kaisen; non dichiariamo una scena precisa di yakisoba pan.",
+      "ingredients": {
+        "koppepan": {
+          "name": "Koppepan o panini soffici",
+          "note": null
+        },
+        "yakisoba_noodles": {
+          "name": "Noodles yakisoba",
+          "note": null
+        },
+        "pork_belly": {
+          "name": "Pancetta di maiale a striscioline",
+          "note": null
+        },
+        "onion": {
+          "name": "Cipolla",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Foglie di cavolo cappuccio",
+          "note": null
+        },
+        "yakisoba_sauce": {
+          "name": "Salsa yakisoba",
+          "note": null
+        },
+        "aonori": {
+          "name": "Aonori",
+          "note": null
+        },
+        "beni_shoga": {
+          "name": "Beni shoga",
+          "note": null
+        },
+        "kewpie": {
+          "name": "Maionese giapponese, facoltativa",
+          "note": null
+        }
+      },
+      "steps": {
+        "sear_pork": "Scalda una padella larga a fuoco medio-alto. Rosola la pancetta finché rilascia parte del grasso e i bordi iniziano a dorare; lascia in padella il fondo necessario a insaporire i noodles.",
+        "cook_vegetables": "Aggiungi cipolla e cavolo e salta per circa 3 minuti. Mantieni la fiamma abbastanza vivace da ammorbidire le verdure lasciandole ancora leggermente croccanti.",
+        "loosen_noodles": "Unisci i noodles e 2 cucchiai d’acqua. Copri 30 secondi, poi separali delicatamente con pinze o bacchette senza spezzarli.",
+        "sauce_noodles": "Versa la salsa yakisoba e salta a fiamma alta per circa 2 minuti, finché ogni filo è lucido e l’umidità in eccesso è evaporata. Devono essere conditi, non acquosi.",
+        "prep_buns": "Incidi i panini nel senso della lunghezza senza dividerli del tutto. Se vuoi, spalma un velo sottilissimo di maionese per proteggere la mollica.",
+        "fill_finish": "Farcisci i panini con la yakisoba ancora fumante. Completa con aonori, poca maionese e beni shoga e servi subito, prima che il pane diventi troppo morbido."
+      }
+    },
+    "es": {
+      "title": "Yakisoba Pan",
+      "description": "Un clásico snack japonés de pan y fideos: yakisoba salteado dentro de un pan suave con aonori y jengibre encurtido. La salsa debe reducirse para no empapar el pan.",
+      "animeContext": "Inspirado en la comida cotidiana asociada a Jujutsu Kaisen; no se afirma una escena exacta.",
+      "ingredients": {
+        "koppepan": {
+          "name": "Koppepan o panecillos suaves",
+          "note": null
+        },
+        "yakisoba_noodles": {
+          "name": "Fideos yakisoba",
+          "note": null
+        },
+        "pork_belly": {
+          "name": "Panceta de cerdo en tiras",
+          "note": null
+        },
+        "onion": {
+          "name": "Cebolla",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Hojas de col",
+          "note": null
+        },
+        "yakisoba_sauce": {
+          "name": "Salsa yakisoba",
+          "note": null
+        },
+        "aonori": {
+          "name": "Aonori",
+          "note": null
+        },
+        "beni_shoga": {
+          "name": "Beni shoga",
+          "note": null
+        },
+        "kewpie": {
+          "name": "Mayonesa japonesa, opcional",
+          "note": null
+        }
+      },
+      "steps": {
+        "sear_pork": "Dora la panceta a fuego medio-alto hasta que suelte grasa y tome color.",
+        "cook_vegetables": "Añade cebolla y col y saltea unos 3 minutos manteniendo algo de textura.",
+        "loosen_noodles": "Agrega los fideos con 2 cucharadas de agua, tapa 30 segundos y sepáralos con cuidado.",
+        "sauce_noodles": "Incorpora la salsa yakisoba y saltea a fuego fuerte unos 2 minutos hasta que queden brillantes y sin exceso de líquido.",
+        "prep_buns": "Abre los panecillos a lo largo sin separarlos por completo; añade una capa fina de mayonesa si deseas.",
+        "fill_finish": "Rellena con yakisoba caliente y termina con aonori, mayonesa y beni shoga. Sirve enseguida."
+      }
+    },
+    "fr": {
+      "title": "Yakisoba Pan",
+      "description": "Un snack japonais classique associant pain moelleux et yakisoba sautée, avec aonori et gingembre mariné. La sauce doit être suffisamment réduite pour ne pas détremper le pain.",
+      "animeContext": "Inspiré de l’ambiance de restauration rapide associée à Jujutsu Kaisen; aucune scène précise n’est affirmée.",
+      "ingredients": {
+        "koppepan": {
+          "name": "Koppepan ou petits pains moelleux",
+          "note": null
+        },
+        "yakisoba_noodles": {
+          "name": "Nouilles yakisoba",
+          "note": null
+        },
+        "pork_belly": {
+          "name": "Poitrine de porc en lanières",
+          "note": null
+        },
+        "onion": {
+          "name": "Oignon",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Feuilles de chou",
+          "note": null
+        },
+        "yakisoba_sauce": {
+          "name": "Sauce yakisoba",
+          "note": null
+        },
+        "aonori": {
+          "name": "Aonori",
+          "note": null
+        },
+        "beni_shoga": {
+          "name": "Beni shoga",
+          "note": null
+        },
+        "kewpie": {
+          "name": "Mayonnaise japonaise, facultative",
+          "note": null
+        }
+      },
+      "steps": {
+        "sear_pork": "Faites dorer la poitrine de porc à feu moyen-vif jusqu’à ce qu’elle rende sa graisse.",
+        "cook_vegetables": "Ajoutez oignon et chou et sautez environ 3 minutes en gardant un peu de croquant.",
+        "loosen_noodles": "Ajoutez les nouilles avec 2 cuillères d’eau, couvrez 30 secondes puis séparez délicatement.",
+        "sauce_noodles": "Versez la sauce yakisoba et sautez à feu vif environ 2 minutes jusqu’à ce que les nouilles soient brillantes et non détrempées.",
+        "prep_buns": "Incisez les pains dans la longueur sans les séparer; ajoutez éventuellement un voile de mayonnaise.",
+        "fill_finish": "Garnissez de yakisoba brûlante, puis aonori, mayonnaise et beni shoga. Servez aussitôt."
+      }
+    },
+    "de": {
+      "title": "Yakisoba Pan",
+      "description": "Ein klassischer japanischer Snack aus weichem Brötchen und herzhaften Yakisoba, garniert mit Aonori und eingelegtem Ingwer. Die Sauce muss gut einkochen, damit das Brot nicht durchnässt.",
+      "animeContext": "Von der Convenience-Food-Atmosphäre in Jujutsu Kaisen inspiriert; keine konkrete Szene wird behauptet.",
+      "ingredients": {
+        "koppepan": {
+          "name": "Weiche Koppepan- oder Hotdog-Brötchen",
+          "note": null
+        },
+        "yakisoba_noodles": {
+          "name": "Yakisoba-Nudeln",
+          "note": null
+        },
+        "pork_belly": {
+          "name": "Schweinebauch in Streifen",
+          "note": null
+        },
+        "onion": {
+          "name": "Zwiebel",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Kohlblätter",
+          "note": null
+        },
+        "yakisoba_sauce": {
+          "name": "Yakisoba-Sauce",
+          "note": null
+        },
+        "aonori": {
+          "name": "Aonori",
+          "note": null
+        },
+        "beni_shoga": {
+          "name": "Beni Shoga",
+          "note": null
+        },
+        "kewpie": {
+          "name": "Japanische Mayonnaise, optional",
+          "note": null
+        }
+      },
+      "steps": {
+        "sear_pork": "Schweinebauch bei mittelhoher Hitze anbraten, bis Fett austritt und die Ränder bräunen.",
+        "cook_vegetables": "Zwiebel und Kohl etwa 3 Minuten kräftig braten, sodass sie weich werden, aber etwas Biss behalten.",
+        "loosen_noodles": "Nudeln mit 2 EL Wasser zugeben, 30 Sekunden abdecken und vorsichtig lösen.",
+        "sauce_noodles": "Yakisoba-Sauce zugeben und etwa 2 Minuten bei hoher Hitze schwenken, bis die Nudeln glänzen und überschüssige Flüssigkeit verdampft ist.",
+        "prep_buns": "Brötchen längs einschneiden, aber nicht ganz durchtrennen; optional dünn Mayonnaise aufstreichen.",
+        "fill_finish": "Heiße Yakisoba einfüllen, mit Aonori, wenig Mayonnaise und Beni Shoga abschließen und sofort servieren."
+      }
+    },
+    "pt": {
+      "title": "Yakisoba Pan",
+      "description": "Um lanche japonês clássico que combina pão macio e yakisoba salteado, com aonori e gengibre em conserva. O molho deve reduzir bem para não encharcar o pão.",
+      "animeContext": "Inspirado na atmosfera de comida prática associada a Jujutsu Kaisen; não afirmamos uma cena específica.",
+      "ingredients": {
+        "koppepan": {
+          "name": "Koppepan ou pães macios",
+          "note": null
+        },
+        "yakisoba_noodles": {
+          "name": "Macarrão yakisoba",
+          "note": null
+        },
+        "pork_belly": {
+          "name": "Barriga de porco em tiras",
+          "note": null
+        },
+        "onion": {
+          "name": "Cebola",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Folhas de repolho",
+          "note": null
+        },
+        "yakisoba_sauce": {
+          "name": "Molho yakisoba",
+          "note": null
+        },
+        "aonori": {
+          "name": "Aonori",
+          "note": null
+        },
+        "beni_shoga": {
+          "name": "Beni shoga",
+          "note": null
+        },
+        "kewpie": {
+          "name": "Maionese japonesa, opcional",
+          "note": null
+        }
+      },
+      "steps": {
+        "sear_pork": "Doure a barriga de porco em fogo médio-alto até soltar gordura e ganhar cor.",
+        "cook_vegetables": "Junte cebola e repolho e salteie por cerca de 3 minutos, preservando alguma crocância.",
+        "loosen_noodles": "Adicione o macarrão com 2 colheres de água, tampe 30 segundos e solte com cuidado.",
+        "sauce_noodles": "Acrescente o molho yakisoba e salteie em fogo alto por cerca de 2 minutos até ficar brilhante e sem excesso de líquido.",
+        "prep_buns": "Abra os pães no sentido do comprimento sem separar totalmente; passe uma camada fina de maionese se quiser.",
+        "fill_finish": "Recheie com yakisoba quente, finalize com aonori, maionese e beni shoga e sirva imediatamente."
+      }
+    }
+  }
+}

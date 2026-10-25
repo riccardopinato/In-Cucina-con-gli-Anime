@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000009",
-  "contentVersion": 1,
+  "contentVersion": 2,
   "status": "published",
   "inspirationTitle": "Yuri!!! on ICE / Food Wars!",
   "prepMinutes": 10,
@@ -9,7 +9,7 @@
   "servings": 2,
   "difficulty": "easy",
   "contentOrigin": "adapted",
-  "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; two servings are an editorial estimate from the listed quantities.",
+  "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; two servings are an editorial estimate from the listed quantities. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
   "imageAssetId": "recipe_000009_artwork",
   "ingredients": [
     {
@@ -122,12 +122,14 @@
         }
       },
       "steps": {
-        "season_broth": "Bring the dashi, soy sauce, mirin and sugar to a gentle boil in a small skillet.",
-        "cook_chicken": "Add the onion and chicken, cover and cook over medium heat until the chicken is cooked through and the onion has softened.",
-        "first_egg": "Beat the eggs lightly and pour roughly three quarters over the chicken. Cover and cook briefly so the egg begins to set.",
-        "finish_egg": "Add the remaining egg, turn off the heat and cover for a short rest so the surface stays soft and creamy.",
-        "assemble": "Spoon the chicken, egg and seasoned broth over bowls of hot rice and finish with mitsuba or chives."
-      }
+        "season_broth": "Bring the dashi, soy sauce, mirin and sugar to a gentle boil in a small skillet. Keep the liquid shallow in a small pan so it concentrates around the chicken rather than turning the dish into soup.",
+        "cook_chicken": "Add the onion and chicken, cover and cook over medium heat until the chicken is cooked through and the onion has softened. Cut the thigh into even bite-size pieces and simmer about 6–8 minutes, turning once, until the thickest piece is safely cooked and the onion is translucent.",
+        "first_egg": "Beat the eggs lightly and pour roughly three quarters over the chicken. Cover and cook briefly so the egg begins to set. Pour the first portion in a loose spiral, cover, and let it form tender curds rather than stirring; this keeps the classic layered appearance.",
+        "finish_egg": "Add the remaining egg, turn off the heat and cover for a short rest so the surface stays soft and creamy. After adding the final egg, use residual heat only if you prefer a very soft finish; otherwise keep low heat briefly until it reaches the doneness you are comfortable eating.",
+        "assemble": "Spoon the chicken, egg and seasoned broth over bowls of hot rice and finish with mitsuba or chives. Slide the topping onto rice immediately and spoon over the remaining pan juices; waiting in the pan dries the egg quickly."
+      },
+      "description": "A one-pan Japanese rice bowl of chicken and onion simmered in sweet-savoury dashi, finished with softly set egg and spooned over hot rice. Adding the egg in two stages gives both cooked curds and a glossy tender surface.",
+      "animeContext": "This card is only inspired by Yuri!!! on ICE. The series has a strong verified katsudon association, but the app does not convert that into a false claim that this specific oyakodon is shown."
     },
     "it": {
       "title": "Oyakodon con pollo e uova",
@@ -170,12 +172,14 @@
         }
       },
       "steps": {
-        "season_broth": "Porta a leggero bollore dashi, salsa di soia, mirin e zucchero in una padella piccola.",
-        "cook_chicken": "Aggiungi cipolla e pollo, copri e cuoci a fuoco medio finché il pollo è ben cotto e la cipolla morbida.",
-        "first_egg": "Sbatti appena le uova e versane circa tre quarti sul pollo. Copri e cuoci brevemente in modo che inizino a rapprendersi.",
-        "finish_egg": "Aggiungi l’uovo rimasto, spegni il fuoco e lascia coperto per poco: la superficie deve restare morbida e cremosa.",
-        "assemble": "Distribuisci pollo, uovo e fondo di cottura sul riso caldo e completa con mitsuba o erba cipollina."
-      }
+        "season_broth": "Porta a leggero bollore dashi, salsa di soia, mirin e zucchero in una padella piccola. Mantieni il fondo poco profondo in una padella piccola, così si concentra attorno al pollo invece di trasformare il piatto in una zuppa.",
+        "cook_chicken": "Aggiungi cipolla e pollo, copri e cuoci a fuoco medio finché il pollo è ben cotto e la cipolla morbida. Taglia la coscia in bocconi regolari e lascia sobbollire circa 6–8 minuti, girando una volta, finché il pezzo più spesso è cotto in sicurezza e la cipolla traslucida.",
+        "first_egg": "Sbatti appena le uova e versane circa tre quarti sul pollo. Copri e cuoci brevemente in modo che inizino a rapprendersi. Versa la prima parte a spirale, copri e lascia che formi grumi teneri senza mescolare: così resta il classico aspetto a strati.",
+        "finish_egg": "Aggiungi l’uovo rimasto, spegni il fuoco e lascia coperto per poco: la superficie deve restare morbida e cremosa. Dopo l’ultima aggiunta usa solo il calore residuo se preferisci una finitura molto morbida; altrimenti tieni ancora brevemente a fuoco basso fino al grado di cottura che consideri sicuro e gradevole.",
+        "assemble": "Distribuisci pollo, uovo e fondo di cottura sul riso caldo e completa con mitsuba o erba cipollina. Fai scivolare subito il condimento sul riso e aggiungi il fondo rimasto: aspettare in padella asciuga rapidamente l’uovo."
+      },
+      "description": "Un donburi giapponese in una sola padella, con pollo e cipolla sobbolliti in dashi dolce-sapido, completati da uovo morbido e versati sul riso caldo. Aggiungere l’uovo in due riprese crea insieme parti rapprese e una superficie lucida e tenera.",
+      "animeContext": "Questa scheda è solo ispirata a Yuri!!! on ICE. La serie ha un forte riferimento verificato al katsudon, ma l’app non trasforma quel legame in una falsa affermazione sulla presenza specifica dell’oyakodon."
     },
     "es": {
       "title": "Oyakodon de pollo y huevo",
@@ -218,12 +222,14 @@
         }
       },
       "steps": {
-        "season_broth": "Lleva a un hervor suave el dashi, la salsa de soja, el mirin y el azúcar en una sartén pequeña.",
-        "cook_chicken": "Añade la cebolla y el pollo, tapa y cocina a fuego medio hasta que el pollo esté hecho y la cebolla tierna.",
-        "first_egg": "Bate los huevos ligeramente y vierte unas tres cuartas partes sobre el pollo. Tapa y cocina brevemente.",
-        "finish_egg": "Añade el huevo restante, apaga el fuego y deja reposar tapado unos instantes para conservar una textura cremosa.",
-        "assemble": "Sirve el pollo, el huevo y su caldo sobre cuencos de arroz caliente y termina con mitsuba o cebollino."
-      }
+        "season_broth": "Lleva a un hervor suave el dashi, la salsa de soja, el mirin y el azúcar en una sartén pequeña. Usa una sartén pequeña y poco líquido para concentrar el sabor alrededor del pollo.",
+        "cook_chicken": "Añade la cebolla y el pollo, tapa y cocina a fuego medio hasta que el pollo esté hecho y la cebolla tierna. Corta el pollo en piezas iguales y cocina 6–8 minutos hasta cocción segura y cebolla translúcida.",
+        "first_egg": "Bate los huevos ligeramente y vierte unas tres cuartas partes sobre el pollo. Tapa y cocina brevemente. Vierte la primera parte en espiral, tapa y deja cuajar sin remover para conservar capas.",
+        "finish_egg": "Añade el huevo restante, apaga el fuego y deja reposar tapado unos instantes para conservar una textura cremosa. Tras añadir el resto usa calor residual para un acabado muy suave o fuego bajo breve hasta el punto de cocción deseado.",
+        "assemble": "Sirve el pollo, el huevo y su caldo sobre cuencos de arroz caliente y termina con mitsuba o cebollino. Desliza enseguida sobre el arroz y añade los jugos; esperar seca el huevo."
+      },
+      "description": "Donburi japonés de pollo y cebolla en dashi dulce-salado, terminado con huevo suave sobre arroz. Añadir el huevo en dos veces crea distintas texturas.",
+      "animeContext": "Esta ficha solo se inspira en Yuri!!! on ICE. La serie tiene una asociación verificada con katsudon, pero eso no se convierte en una falsa aparición de oyakodon."
     },
     "fr": {
       "title": "Oyakodon au poulet et aux œufs",
@@ -266,12 +272,14 @@
         }
       },
       "steps": {
-        "season_broth": "Portez doucement à ébullition le dashi, la sauce soja, le mirin et le sucre dans une petite poêle.",
-        "cook_chicken": "Ajoutez l’oignon et le poulet, couvrez et faites cuire à feu moyen jusqu’à cuisson complète du poulet et tendreté de l’oignon.",
-        "first_egg": "Battez légèrement les œufs et versez-en environ les trois quarts sur le poulet. Couvrez et cuisez brièvement.",
-        "finish_egg": "Ajoutez le reste d’œuf, coupez le feu et laissez reposer couvert quelques instants pour conserver une texture crémeuse.",
-        "assemble": "Répartissez poulet, œuf et jus de cuisson sur le riz chaud et terminez avec mitsuba ou ciboulette."
-      }
+        "season_broth": "Portez doucement à ébullition le dashi, la sauce soja, le mirin et le sucre dans une petite poêle. Utilisez une petite poêle et peu de liquide afin de concentrer le goût autour du poulet.",
+        "cook_chicken": "Ajoutez l’oignon et le poulet, couvrez et faites cuire à feu moyen jusqu’à cuisson complète du poulet et tendreté de l’oignon. Coupez le poulet régulièrement et mijotez 6–8 minutes jusqu’à cuisson sûre et oignon translucide.",
+        "first_egg": "Battez légèrement les œufs et versez-en environ les trois quarts sur le poulet. Couvrez et cuisez brièvement. Versez la première partie en spirale, couvrez et laissez prendre sans remuer.",
+        "finish_egg": "Ajoutez le reste d’œuf, coupez le feu et laissez reposer couvert quelques instants pour conserver une texture crémeuse. Après le reste d’œuf, utilisez la chaleur résiduelle pour un résultat très tendre ou un bref feu doux jusqu’au degré souhaité.",
+        "assemble": "Répartissez poulet, œuf et jus de cuisson sur le riz chaud et terminez avec mitsuba ou ciboulette. Faites glisser aussitôt sur le riz avec le jus restant; attendre dessèche l’œuf."
+      },
+      "description": "Donburi japonais de poulet et oignon mijotés dans un dashi doux-salé, terminé par un œuf tendre sur riz. L’œuf ajouté en deux fois crée plusieurs textures.",
+      "animeContext": "Cette fiche est seulement inspirée de Yuri!!! on ICE. La série est vérifiée pour le katsudon, sans prétendre que cet oyakodon précis apparaît."
     },
     "de": {
       "title": "Oyakodon mit Hähnchen und Ei",
@@ -314,12 +322,14 @@
         }
       },
       "steps": {
-        "season_broth": "Dashi, Sojasauce, Mirin und Zucker in einer kleinen Pfanne sanft aufkochen.",
-        "cook_chicken": "Zwiebel und Hähnchen hinzufügen, abdecken und bei mittlerer Hitze garen, bis das Fleisch durch und die Zwiebel weich ist.",
-        "first_egg": "Die Eier nur leicht verquirlen und etwa drei Viertel über das Hähnchen gießen. Abdecken und kurz stocken lassen.",
-        "finish_egg": "Das restliche Ei zugeben, die Hitze ausschalten und kurz zugedeckt ruhen lassen, damit die Oberfläche weich und cremig bleibt.",
-        "assemble": "Hähnchen, Ei und Würzbrühe auf heißen Reis geben und mit Mitsuba oder Schnittlauch abschließen."
-      }
+        "season_broth": "Dashi, Sojasauce, Mirin und Zucker in einer kleinen Pfanne sanft aufkochen. Kleine Pfanne und flachen Flüssigkeitsstand verwenden, damit sich der Geschmack konzentriert.",
+        "cook_chicken": "Zwiebel und Hähnchen hinzufügen, abdecken und bei mittlerer Hitze garen, bis das Fleisch durch und die Zwiebel weich ist. Huhn gleichmäßig schneiden und 6–8 Minuten garen, bis es sicher durch und die Zwiebel glasig ist.",
+        "first_egg": "Die Eier nur leicht verquirlen und etwa drei Viertel über das Hähnchen gießen. Abdecken und kurz stocken lassen. Erste Portion spiralförmig eingießen, abdecken und ohne Rühren stocken lassen.",
+        "finish_egg": "Das restliche Ei zugeben, die Hitze ausschalten und kurz zugedeckt ruhen lassen, damit die Oberfläche weich und cremig bleibt. Nach dem restlichen Ei für sehr weiches Ergebnis nur Restwärme nutzen oder kurz bei niedriger Hitze bis zum gewünschten Gargrad weitergaren.",
+        "assemble": "Hähnchen, Ei und Würzbrühe auf heißen Reis geben und mit Mitsuba oder Schnittlauch abschließen. Sofort auf den Reis gleiten lassen und Pfannensaft darübergeben; Warten trocknet das Ei."
+      },
+      "description": "Japanische Reisschale mit Huhn und Zwiebel in süß-herzhaftem Dashi und weich gestocktem Ei. Zweistufiges Ei sorgt für unterschiedliche Texturen.",
+      "animeContext": "Diese Karte ist nur von Yuri!!! on ICE inspiriert. Katsudon ist dort verifiziert, daraus wird aber keine falsche Oyakodon-Behauptung."
     },
     "pt": {
       "title": "Oyakodon de frango e ovos",
@@ -362,12 +372,29 @@
         }
       },
       "steps": {
-        "season_broth": "Leve o dashi, o molho de soja, o mirin e o açúcar a uma fervura suave em uma frigideira pequena.",
-        "cook_chicken": "Junte a cebola e o frango, tampe e cozinhe em fogo médio até o frango ficar cozido e a cebola macia.",
-        "first_egg": "Bata os ovos levemente e despeje cerca de três quartos sobre o frango. Tampe e cozinhe rapidamente.",
-        "finish_egg": "Acrescente o restante do ovo, desligue o fogo e deixe descansar tampado por alguns instantes para manter a textura cremosa.",
-        "assemble": "Sirva o frango, o ovo e o caldo temperado sobre arroz quente e finalize com mitsuba ou cebolinha."
-      }
+        "season_broth": "Leve o dashi, o molho de soja, o mirin e o açúcar a uma fervura suave em uma frigideira pequena. Use uma panela pequena e pouco líquido para concentrar o sabor ao redor do frango.",
+        "cook_chicken": "Junte a cebola e o frango, tampe e cozinhe em fogo médio até o frango ficar cozido e a cebola macia. Corte o frango em pedaços iguais e cozinhe 6–8 minutos até cocção segura e cebola translúcida.",
+        "first_egg": "Bata os ovos levemente e despeje cerca de três quartos sobre o frango. Tampe e cozinhe rapidamente. Despeje a primeira parte em espiral, tampe e deixe firmar sem mexer.",
+        "finish_egg": "Acrescente o restante do ovo, desligue o fogo e deixe descansar tampado por alguns instantes para manter a textura cremosa. Após o restante do ovo, use calor residual para resultado bem macio ou fogo baixo breve até o ponto desejado.",
+        "assemble": "Sirva o frango, o ovo e o caldo temperado sobre arroz quente e finalize com mitsuba ou cebolinha. Deslize imediatamente sobre o arroz com o caldo restante; esperar resseca o ovo."
+      },
+      "description": "Donburi japonês de frango e cebola em dashi agridoce, finalizado com ovo macio sobre arroz. Adicionar o ovo em duas etapas cria texturas diferentes.",
+      "animeContext": "Esta ficha é apenas inspirada em Yuri!!! on ICE. A série tem associação verificada com katsudon, mas isso não vira uma falsa afirmação sobre oyakodon."
     }
+  },
+  "animeReferences": [
+    {
+      "workTitle": "Yuri!!! on ICE",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Oyakodon verified as chicken and onion simmered in seasoned dashi with softly set egg over rice; two-stage egg addition is appropriate.",
+    "animeStatus": "unverified",
+    "animeNote": "Yuri!!! on ICE association retained only as inspiration; katsudon, not oyakodon, is the verified recurring dish."
   }
 }

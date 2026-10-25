@@ -1,0 +1,439 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000035",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Spy x Family",
+  "animeReferences": [
+    {
+      "workTitle": "Spy x Family",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Katsu sando verified as a Japanese sandwich built around breaded cutlet and soft shokupan; total time includes cutlet preparation rather than assuming a pre-made katsu.",
+    "animeStatus": "unverified",
+    "animeNote": "Association retained as inspiration."
+  },
+  "prepMinutes": 15,
+  "cookMinutes": 15,
+  "servings": 2,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from Ricettario Vol. 4; workflow made standalone instead of silently requiring a pre-cooked tonkatsu.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "shokupan",
+      "quantity": 4,
+      "unit": "slice"
+    },
+    {
+      "id": "pork",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "id": "flour",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "egg",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "panko",
+      "quantity": 80,
+      "unit": "g"
+    },
+    {
+      "id": "cabbage",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "id": "kewpie",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "tonkatsu_sauce",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "id": "butter",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "oil",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "bread_pork",
+      "timerSeconds": 360
+    },
+    {
+      "id": "fry_rest",
+      "timerSeconds": 600
+    },
+    {
+      "id": "prep_bread",
+      "timerSeconds": 120
+    },
+    {
+      "id": "sauce_stack",
+      "timerSeconds": 180
+    },
+    {
+      "id": "press",
+      "timerSeconds": 300
+    },
+    {
+      "id": "trim_slice",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Katsu Sando",
+      "description": "A Japanese cutlet sandwich where soft white bread compresses around crisp pork, tangy tonkatsu sauce and fine cabbage. The short press is not cosmetic: it binds the layers and makes the iconic clean cross-section possible.",
+      "animeContext": "Inspired by the polished everyday-food world of Spy x Family. No exact katsu-sando scene is claimed without a direct source.",
+      "ingredients": {
+        "shokupan": {
+          "name": "Soft shokupan-style white bread",
+          "note": null
+        },
+        "pork": {
+          "name": "Pork cutlets, about 1.5 cm thick",
+          "note": null
+        },
+        "flour": {
+          "name": "All-purpose flour",
+          "note": null
+        },
+        "egg": {
+          "name": "Egg",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Finely shredded cabbage",
+          "note": null
+        },
+        "kewpie": {
+          "name": "Japanese mayonnaise",
+          "note": null
+        },
+        "tonkatsu_sauce": {
+          "name": "Tonkatsu sauce",
+          "note": null
+        },
+        "butter": {
+          "name": "Softened butter",
+          "note": null
+        },
+        "oil": {
+          "name": "Neutral frying oil",
+          "note": null
+        }
+      },
+      "steps": {
+        "bread_pork": "Pat the pork dry, make small cuts through the outer fat so it stays flat, season lightly and coat in flour, beaten egg and panko. Press the crumbs on without crushing them and let the breaded cutlets sit a few minutes.",
+        "fry_rest": "Fry at about 170°C until deep golden and safely cooked through, roughly 3–4 minutes per side depending on thickness. Rest on a rack for 3 minutes so steam does not soften the crust.",
+        "prep_bread": "Trim the crusts now or after pressing. Spread a very thin layer of softened butter on the inner faces of the bread; this creates a moisture barrier against sauce and cabbage.",
+        "sauce_stack": "Coat the hot cutlets generously but not excessively with tonkatsu sauce. Spread mayonnaise on two bread slices, add a compact layer of very finely shredded dry cabbage, place the cutlets on top and close.",
+        "press": "Wrap each sandwich firmly in parchment or plastic and place a light cutting board on top for about 5 minutes. The goal is to compact the layers enough for a clean cut without crushing the bread.",
+        "trim_slice": "Unwrap and use a sharp serrated knife to square the edges if desired. Cut each sandwich into halves or three neat fingers, wiping the blade between cuts so the cross-section stays clean."
+      }
+    },
+    "it": {
+      "title": "Katsu Sando",
+      "description": "Un sandwich giapponese in cui pane bianco soffice avvolge maiale croccante, salsa tonkatsu e cavolo finissimo. La breve pressatura non è solo estetica: lega gli strati e permette il classico taglio pulito.",
+      "animeContext": "Ispirato alla cucina quotidiana curata di Spy x Family. Non attribuiamo il katsu sando a una scena precisa senza una fonte diretta.",
+      "ingredients": {
+        "shokupan": {
+          "name": "Pane bianco soffice tipo shokupan",
+          "note": null
+        },
+        "pork": {
+          "name": "Fette di maiale spesse circa 1,5 cm",
+          "note": null
+        },
+        "flour": {
+          "name": "Farina 00",
+          "note": null
+        },
+        "egg": {
+          "name": "Uovo",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Cavolo cappuccio finissimo",
+          "note": null
+        },
+        "kewpie": {
+          "name": "Maionese giapponese",
+          "note": null
+        },
+        "tonkatsu_sauce": {
+          "name": "Salsa tonkatsu",
+          "note": null
+        },
+        "butter": {
+          "name": "Burro morbido",
+          "note": null
+        },
+        "oil": {
+          "name": "Olio neutro per friggere",
+          "note": null
+        }
+      },
+      "steps": {
+        "bread_pork": "Asciuga il maiale, pratica piccoli tagli nel bordo di grasso perché resti piatto, condisci leggermente e passa in farina, uovo e panko. Premi le briciole senza schiacciarle e lascia assestare la panatura qualche minuto.",
+        "fry_rest": "Friggi a circa 170°C fino a doratura intensa e cottura sicura al cuore, indicativamente 3–4 minuti per lato secondo lo spessore. Riposa su griglia 3 minuti, così il vapore non ammorbidisce la crosta.",
+        "prep_bread": "Elimina le croste ora oppure dopo la pressatura. Spalma un velo sottilissimo di burro sulle facce interne del pane: crea una barriera contro salsa e umidità del cavolo.",
+        "sauce_stack": "Ricopri le cotolette calde con salsa tonkatsu in modo generoso ma non eccessivo. Spalma maionese su due fette, aggiungi uno strato compatto di cavolo finissimo e ben asciutto, appoggia le cotolette e chiudi.",
+        "press": "Avvolgi ogni sandwich con carta o pellicola e appoggia sopra un tagliere leggero per circa 5 minuti. Deve compattarsi abbastanza da tagliarsi bene, senza schiacciare il pane.",
+        "trim_slice": "Scarta l’involucro e usa un coltello seghettato affilato per rifilare i bordi se vuoi. Taglia a metà o in tre rettangoli, pulendo la lama tra un taglio e l’altro."
+      }
+    },
+    "es": {
+      "title": "Katsu Sando",
+      "description": "Sándwich japonés de pan blanco suave, cerdo crujiente, salsa tonkatsu y repollo fino. La breve presión une las capas y permite un corte limpio.",
+      "animeContext": "Inspirado en la comida cotidiana de Spy x Family; no se atribuye a una escena exacta sin fuente directa.",
+      "ingredients": {
+        "shokupan": {
+          "name": "Pan blanco suave tipo shokupan",
+          "note": null
+        },
+        "pork": {
+          "name": "Chuletas de cerdo de 1,5 cm",
+          "note": null
+        },
+        "flour": {
+          "name": "Harina",
+          "note": null
+        },
+        "egg": {
+          "name": "Huevo",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Repollo muy fino",
+          "note": null
+        },
+        "kewpie": {
+          "name": "Mayonesa japonesa",
+          "note": null
+        },
+        "tonkatsu_sauce": {
+          "name": "Salsa tonkatsu",
+          "note": null
+        },
+        "butter": {
+          "name": "Mantequilla blanda",
+          "note": null
+        },
+        "oil": {
+          "name": "Aceite para freír",
+          "note": null
+        }
+      },
+      "steps": {
+        "bread_pork": "Seca y sazona el cerdo, corta el borde graso y empana con harina, huevo y panko. Deja asentar unos minutos.",
+        "fry_rest": "Fríe a unos 170°C hasta dorado y cocción segura, 3–4 minutos por lado según grosor; reposa 3 minutos en rejilla.",
+        "prep_bread": "Unta una capa muy fina de mantequilla en el interior del pan para protegerlo de la humedad.",
+        "sauce_stack": "Cubre la carne con salsa tonkatsu, añade mayonesa y repollo seco y fino, y cierra el sándwich.",
+        "press": "Envuelve y prensa suavemente 5 minutos bajo una tabla ligera.",
+        "trim_slice": "Corta con cuchillo de sierra limpio en mitades o tres piezas."
+      }
+    },
+    "fr": {
+      "title": "Katsu Sando",
+      "description": "Sandwich japonais au pain blanc moelleux, porc croustillant, sauce tonkatsu et chou fin. Une courte pression soude les couches et permet une coupe nette.",
+      "animeContext": "Inspiré du quotidien culinaire de Spy x Family; aucune scène précise n’est revendiquée sans source directe.",
+      "ingredients": {
+        "shokupan": {
+          "name": "Pain blanc moelleux type shokupan",
+          "note": null
+        },
+        "pork": {
+          "name": "Escalopes de porc de 1,5 cm",
+          "note": null
+        },
+        "flour": {
+          "name": "Farine",
+          "note": null
+        },
+        "egg": {
+          "name": "Œuf",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Chou très fin",
+          "note": null
+        },
+        "kewpie": {
+          "name": "Mayonnaise japonaise",
+          "note": null
+        },
+        "tonkatsu_sauce": {
+          "name": "Sauce tonkatsu",
+          "note": null
+        },
+        "butter": {
+          "name": "Beurre mou",
+          "note": null
+        },
+        "oil": {
+          "name": "Huile de friture",
+          "note": null
+        }
+      },
+      "steps": {
+        "bread_pork": "Séchez et assaisonnez le porc, incisez le gras et panez farine, œuf, panko. Laissez reposer quelques minutes.",
+        "fry_rest": "Faites frire vers 170°C jusqu’à belle coloration et cuisson sûre, environ 3–4 minutes par face selon l’épaisseur; reposez 3 minutes sur grille.",
+        "prep_bread": "Étalez une très fine couche de beurre à l’intérieur du pain pour limiter l’humidité.",
+        "sauce_stack": "Nappez la viande de sauce tonkatsu, ajoutez mayonnaise et chou fin bien sec, puis fermez.",
+        "press": "Emballez et pressez doucement 5 minutes sous une planche légère.",
+        "trim_slice": "Découpez proprement en moitiés ou en trois avec un couteau-scie essuyé."
+      }
+    },
+    "de": {
+      "title": "Katsu Sando",
+      "description": "Japanisches Sandwich aus weichem Weißbrot, knusprigem Schwein, Tonkatsu-Sauce und feinem Kohl. Kurzes Pressen verbindet die Schichten für einen sauberen Schnitt.",
+      "animeContext": "Von der gepflegten Alltagsküche in Spy x Family inspiriert; ohne direkte Quelle wird keine konkrete Szene behauptet.",
+      "ingredients": {
+        "shokupan": {
+          "name": "Weiches Shokupan-Weißbrot",
+          "note": null
+        },
+        "pork": {
+          "name": "Schweinekoteletts ca. 1,5 cm dick",
+          "note": null
+        },
+        "flour": {
+          "name": "Mehl",
+          "note": null
+        },
+        "egg": {
+          "name": "Ei",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Sehr fein geschnittener Kohl",
+          "note": null
+        },
+        "kewpie": {
+          "name": "Japanische Mayonnaise",
+          "note": null
+        },
+        "tonkatsu_sauce": {
+          "name": "Tonkatsu-Sauce",
+          "note": null
+        },
+        "butter": {
+          "name": "Weiche Butter",
+          "note": null
+        },
+        "oil": {
+          "name": "Frittieröl",
+          "note": null
+        }
+      },
+      "steps": {
+        "bread_pork": "Schweinefleisch trocknen, Fettrand einschneiden, würzen und in Mehl, Ei und Panko panieren; einige Minuten setzen lassen.",
+        "fry_rest": "Bei etwa 170°C je nach Dicke ungefähr 3–4 Minuten pro Seite goldbraun und sicher gar frittieren; 3 Minuten auf Gitter ruhen.",
+        "prep_bread": "Innenseiten des Brotes hauchdünn buttern, damit Sauce und Kohl es weniger durchweichen.",
+        "sauce_stack": "Katsu mit Sauce überziehen, Mayonnaise und sehr fein geschnittenen trockenen Kohl auflegen und schließen.",
+        "press": "Einwickeln und 5 Minuten unter einem leichten Brett sanft pressen.",
+        "trim_slice": "Mit sauberem Sägemesser in Hälften oder drei Stücke schneiden."
+      }
+    },
+    "pt": {
+      "title": "Katsu Sando",
+      "description": "Sanduíche japonês de pão branco macio, porco crocante, molho tonkatsu e repolho fino. A breve prensagem une as camadas e permite um corte limpo.",
+      "animeContext": "Inspirado na comida cotidiana de Spy x Family; não atribuímos a uma cena específica sem fonte direta.",
+      "ingredients": {
+        "shokupan": {
+          "name": "Pão branco macio tipo shokupan",
+          "note": null
+        },
+        "pork": {
+          "name": "Bifes de porco de cerca de 1,5 cm",
+          "note": null
+        },
+        "flour": {
+          "name": "Farinha",
+          "note": null
+        },
+        "egg": {
+          "name": "Ovo",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Repolho bem fino",
+          "note": null
+        },
+        "kewpie": {
+          "name": "Maionese japonesa",
+          "note": null
+        },
+        "tonkatsu_sauce": {
+          "name": "Molho tonkatsu",
+          "note": null
+        },
+        "butter": {
+          "name": "Manteiga macia",
+          "note": null
+        },
+        "oil": {
+          "name": "Óleo para fritar",
+          "note": null
+        }
+      },
+      "steps": {
+        "bread_pork": "Seque e tempere o porco, corte a borda de gordura e empane em farinha, ovo e panko; deixe firmar alguns minutos.",
+        "fry_rest": "Frite a cerca de 170°C até dourar e cozinhar com segurança, cerca de 3–4 minutos de cada lado conforme a espessura; descanse 3 minutos em grade.",
+        "prep_bread": "Passe uma camada muito fina de manteiga na parte interna do pão para reduzir a umidade.",
+        "sauce_stack": "Cubra o katsu com molho, adicione maionese e repolho bem fino e seco e feche.",
+        "press": "Embrulhe e pressione suavemente por 5 minutos sob uma tábua leve.",
+        "trim_slice": "Corte em metades ou três partes com faca de serra limpa."
+      }
+    }
+  }
+}

@@ -1,0 +1,468 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000047",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Food Wars!",
+  "animeReferences": [
+    {
+      "workTitle": "Food Wars! Shokugeki no Soma",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Soboro don verified as Japanese home/bento rice bowl with finely crumbled seasoned chicken and egg; green peas/vegetable stripe makes a common tricolor presentation.",
+    "animeStatus": "unverified",
+    "animeNote": "Food Wars relation retained as inspiration."
+  },
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "servings": 2,
+  "difficulty": "easy",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from Ricettario Vol. 5; normalized as Sanshoku Soboro Don and chicken/egg curd technique expanded.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "rice",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "id": "ground_chicken",
+      "quantity": 225,
+      "unit": "g"
+    },
+    {
+      "id": "ginger",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "soy_sauce",
+      "quantity": 2.5,
+      "unit": "tbsp"
+    },
+    {
+      "id": "mirin",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "sake",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "meat_sugar",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "eggs",
+      "quantity": 3,
+      "unit": null
+    },
+    {
+      "id": "egg_sugar",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "egg_salt",
+      "quantity": 0.25,
+      "unit": "tsp"
+    },
+    {
+      "id": "peas",
+      "quantity": 2,
+      "unit": "tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "id": "season_chicken_cold",
+      "timerSeconds": 120
+    },
+    {
+      "id": "cook_chicken",
+      "timerSeconds": 480
+    },
+    {
+      "id": "mix_eggs",
+      "timerSeconds": 120
+    },
+    {
+      "id": "cook_egg_soboro",
+      "timerSeconds": 300
+    },
+    {
+      "id": "prep_green",
+      "timerSeconds": 180
+    },
+    {
+      "id": "assemble",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Sanshoku Soboro Don",
+      "description": "A classic tricolour Japanese rice bowl of sweet-savoury ground chicken, tiny soft egg curds and a bright green vegetable stripe. The defining technique is continuous stirring so both chicken and egg become fine, even soboro rather than large pieces.",
+      "animeContext": "Inspired by Food Wars!’ focus on technique and presentation. The dish itself is a real Japanese home-cooking and bento staple; the anime connection here is editorial rather than an episode claim.",
+      "ingredients": {
+        "rice": {
+          "name": "Cooked Japanese short-grain rice",
+          "note": null
+        },
+        "ground_chicken": {
+          "name": "Ground chicken",
+          "note": null
+        },
+        "ginger": {
+          "name": "Fresh grated ginger",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "meat_sugar": {
+          "name": "Sugar for chicken",
+          "note": null
+        },
+        "eggs": {
+          "name": "Eggs",
+          "note": null
+        },
+        "egg_sugar": {
+          "name": "Sugar for eggs",
+          "note": null
+        },
+        "egg_salt": {
+          "name": "Salt for eggs",
+          "note": null
+        },
+        "peas": {
+          "name": "Cooked green peas",
+          "note": null
+        }
+      },
+      "steps": {
+        "season_chicken_cold": "Put ground chicken, ginger, soy sauce, mirin, sake and sugar in a cold saucepan. Break the meat apart thoroughly before turning on the heat; starting cold makes it easier to create the very fine, even crumbs characteristic of soboro.",
+        "cook_chicken": "Set over medium-low heat and stir constantly with several chopsticks or a whisk-like motion, scraping the bottom and breaking every clump. Cook 6–8 minutes until the chicken is fully cooked, finely crumbled and the liquid has reduced to a moist glaze rather than a puddle.",
+        "mix_eggs": "Beat eggs with sugar and salt only until homogeneous. Use a clean small saucepan so the yellow colour stays bright.",
+        "cook_egg_soboro": "Cook eggs over low to medium-low heat, stirring rapidly and continuously with chopsticks. Break up curds as soon as they form and remove from heat while they are still moist, before they become dry rubbery crumbs.",
+        "prep_green": "Blanch or reheat the peas just until bright green and hot, then drain very well. If using another green vegetable, cut it into small neat pieces so the three-colour pattern remains distinct.",
+        "assemble": "Divide steaming rice between two bowls. Cover one third with chicken soboro, one third with fine egg soboro and place a narrow green stripe between them. Serve hot, or cool promptly and safely if packing for bento."
+      }
+    },
+    "it": {
+      "title": "Sanshoku Soboro Don",
+      "description": "Una classica ciotola giapponese tricolore con pollo macinato dolce-sapido, minuscole briciole morbide d’uovo e una striscia verde. La tecnica decisiva è mescolare continuamente, così pollo e uovo diventano soboro fine e uniforme invece di pezzi grossi.",
+      "animeContext": "Ispirato all’attenzione di Food Wars! per tecnica e presentazione. Il piatto è un vero classico domestico e da bento giapponese; il collegamento all’anime è editoriale, non legato a un episodio preciso.",
+      "ingredients": {
+        "rice": {
+          "name": "Riso giapponese a chicco corto cotto",
+          "note": null
+        },
+        "ground_chicken": {
+          "name": "Macinato di pollo",
+          "note": null
+        },
+        "ginger": {
+          "name": "Zenzero fresco grattugiato",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa di soia",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "meat_sugar": {
+          "name": "Zucchero per il pollo",
+          "note": null
+        },
+        "eggs": {
+          "name": "Uova",
+          "note": null
+        },
+        "egg_sugar": {
+          "name": "Zucchero per le uova",
+          "note": null
+        },
+        "egg_salt": {
+          "name": "Sale per le uova",
+          "note": null
+        },
+        "peas": {
+          "name": "Piselli cotti",
+          "note": null
+        }
+      },
+      "steps": {
+        "season_chicken_cold": "Metti pollo macinato, zenzero, salsa di soia, mirin, sake e zucchero in un pentolino ancora freddo. Sgrana molto bene la carne prima di accendere: partire a freddo aiuta a ottenere le briciole finissime e uniformi tipiche del soboro.",
+        "cook_chicken": "Cuoci a fuoco medio-basso mescolando continuamente con più bacchette o con un movimento simile a una frusta, raschiando il fondo e rompendo ogni grumo. In 6–8 minuti il pollo deve essere completamente cotto, finemente sgranato e avvolto da una glassa umida, senza liquido libero.",
+        "mix_eggs": "Sbatti uova, zucchero e sale solo finché sono uniformi. Usa un pentolino pulito per mantenere il colore giallo brillante.",
+        "cook_egg_soboro": "Cuoci a fuoco basso o medio-basso mescolando rapidamente e senza sosta con le bacchette. Rompi subito i grumi e togli dal fuoco quando le briciole sono appena rapprese e ancora umide, prima che diventino secche.",
+        "prep_green": "Sbollenta o scalda i piselli solo finché sono caldi e verdi, poi scolali benissimo. Se usi un’altra verdura verde, tagliala in pezzi piccoli e regolari.",
+        "assemble": "Dividi il riso fumante in due ciotole. Copri un terzo con soboro di pollo, un terzo con soboro d’uovo e crea al centro una striscia verde. Servi caldo oppure raffredda rapidamente e in sicurezza se lo prepari per bento."
+      }
+    },
+    "es": {
+      "title": "Sanshoku Soboro Don",
+      "description": "Bol japonés tricolor de pollo dulce-salado, huevo en migas finas y una franja verde. Remover continuamente crea el soboro uniforme.",
+      "animeContext": "Inspirado en la técnica y presentación de Food Wars!; el plato es un clásico real de hogar y bento, pero el vínculo anime es editorial.",
+      "ingredients": {
+        "rice": {
+          "name": "Arroz japonés cocido",
+          "note": null
+        },
+        "ground_chicken": {
+          "name": "Pollo picado",
+          "note": null
+        },
+        "ginger": {
+          "name": "Jengibre fresco",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "meat_sugar": {
+          "name": "Azúcar para el pollo",
+          "note": null
+        },
+        "eggs": {
+          "name": "Huevos",
+          "note": null
+        },
+        "egg_sugar": {
+          "name": "Azúcar para los huevos",
+          "note": null
+        },
+        "egg_salt": {
+          "name": "Sal para los huevos",
+          "note": null
+        },
+        "peas": {
+          "name": "Guisantes cocidos",
+          "note": null
+        }
+      },
+      "steps": {
+        "season_chicken_cold": "Mezcla pollo, jengibre, soja, mirin, sake y azúcar en un cazo frío y desmenuza antes de encender.",
+        "cook_chicken": "Cocina a fuego medio-bajo removiendo sin parar 6–8 minutos hasta obtener migas muy finas, totalmente cocidas y glaseadas.",
+        "mix_eggs": "Bate huevos con azúcar y sal solo hasta unir.",
+        "cook_egg_soboro": "Cocina a fuego bajo removiendo rápidamente para crear migas pequeñas y húmedas; retira antes de secar.",
+        "prep_green": "Calienta o blanquea los guisantes y escurre bien.",
+        "assemble": "Sirve arroz con tercios de pollo, huevo y una franja verde. Si va a bento, enfría de forma rápida y segura."
+      }
+    },
+    "fr": {
+      "title": "Sanshoku Soboro Don",
+      "description": "Bol japonais tricolore de poulet sucré-salé, petites miettes d’œuf et bande verte. Le mélange continu donne le soboro fin et régulier.",
+      "animeContext": "Inspiré par l’attention de Food Wars! à la technique et à la présentation; le plat est un vrai classique maison/bento, le lien anime reste éditorial.",
+      "ingredients": {
+        "rice": {
+          "name": "Riz japonais cuit",
+          "note": null
+        },
+        "ground_chicken": {
+          "name": "Poulet haché",
+          "note": null
+        },
+        "ginger": {
+          "name": "Gingembre frais",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Saké",
+          "note": null
+        },
+        "meat_sugar": {
+          "name": "Sucre pour le poulet",
+          "note": null
+        },
+        "eggs": {
+          "name": "Œufs",
+          "note": null
+        },
+        "egg_sugar": {
+          "name": "Sucre pour les œufs",
+          "note": null
+        },
+        "egg_salt": {
+          "name": "Sel pour les œufs",
+          "note": null
+        },
+        "peas": {
+          "name": "Petits pois cuits",
+          "note": null
+        }
+      },
+      "steps": {
+        "season_chicken_cold": "Mélangez poulet, gingembre, soja, mirin, saké et sucre dans une casserole froide et émiettez avant de chauffer.",
+        "cook_chicken": "Cuisez 6–8 minutes à feu moyen-doux en remuant sans cesse jusqu’à fines miettes entièrement cuites et glacées.",
+        "mix_eggs": "Battez œufs, sucre et sel juste pour homogénéiser.",
+        "cook_egg_soboro": "Cuisez à feu doux en remuant rapidement pour obtenir de petites miettes encore moelleuses.",
+        "prep_green": "Réchauffez ou blanchissez les petits pois et égouttez bien.",
+        "assemble": "Garnissez le riz en tiers de poulet, œuf et bande verte. Pour bento, refroidissez rapidement et en sécurité."
+      }
+    },
+    "de": {
+      "title": "Sanshoku Soboro Don",
+      "description": "Dreifarbige japanische Reisschale aus süß-herzhaftem Hühner-Soboro, feinen Eierkrümeln und grünem Gemüse. Ständiges Rühren erzeugt die typische feine Struktur.",
+      "animeContext": "Von Food Wars!s Fokus auf Technik und Präsentation inspiriert; das Gericht ist ein echter Haus- und Bento-Klassiker, der Anime-Bezug redaktionell.",
+      "ingredients": {
+        "rice": {
+          "name": "Gekochter japanischer Rundkornreis",
+          "note": null
+        },
+        "ground_chicken": {
+          "name": "Hähnchenhack",
+          "note": null
+        },
+        "ginger": {
+          "name": "Frischer Ingwer",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "meat_sugar": {
+          "name": "Zucker für Huhn",
+          "note": null
+        },
+        "eggs": {
+          "name": "Eier",
+          "note": null
+        },
+        "egg_sugar": {
+          "name": "Zucker für Eier",
+          "note": null
+        },
+        "egg_salt": {
+          "name": "Salz für Eier",
+          "note": null
+        },
+        "peas": {
+          "name": "Gekochte Erbsen",
+          "note": null
+        }
+      },
+      "steps": {
+        "season_chicken_cold": "Hähnchen, Ingwer, Soja, Mirin, Sake und Zucker im kalten Topf mischen und vor dem Erhitzen fein zerteilen.",
+        "cook_chicken": "Bei mittlerer bis niedriger Hitze 6–8 Minuten ständig rühren, bis sehr feine, vollständig gegarte, glasierte Krümel entstehen.",
+        "mix_eggs": "Eier mit Zucker und Salz nur homogen verquirlen.",
+        "cook_egg_soboro": "Bei niedriger Hitze schnell rühren, kleine noch feuchte Krümel bilden und früh vom Herd nehmen.",
+        "prep_green": "Erbsen kurz erhitzen oder blanchieren und gut abtropfen.",
+        "assemble": "Reis mit Huhn, Ei und grünem Streifen in Dritteln belegen. Für Bento rasch und sicher abkühlen."
+      }
+    },
+    "pt": {
+      "title": "Sanshoku Soboro Don",
+      "description": "Tigela japonesa tricolor de frango doce-salgado, pequenos grumos de ovo e faixa verde. Mexer continuamente cria o soboro fino.",
+      "animeContext": "Inspirado no foco de Food Wars! em técnica e apresentação; o prato é um clássico real de casa e bento, e o vínculo anime é editorial.",
+      "ingredients": {
+        "rice": {
+          "name": "Arroz japonês cozido",
+          "note": null
+        },
+        "ground_chicken": {
+          "name": "Frango moído",
+          "note": null
+        },
+        "ginger": {
+          "name": "Gengibre fresco",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Molho de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Saquê",
+          "note": null
+        },
+        "meat_sugar": {
+          "name": "Açúcar para o frango",
+          "note": null
+        },
+        "eggs": {
+          "name": "Ovos",
+          "note": null
+        },
+        "egg_sugar": {
+          "name": "Açúcar para os ovos",
+          "note": null
+        },
+        "egg_salt": {
+          "name": "Sal para os ovos",
+          "note": null
+        },
+        "peas": {
+          "name": "Ervilhas cozidas",
+          "note": null
+        }
+      },
+      "steps": {
+        "season_chicken_cold": "Misture frango, gengibre, soja, mirin, saquê e açúcar na panela fria e desfaça bem antes de ligar o fogo.",
+        "cook_chicken": "Cozinhe em fogo médio-baixo mexendo sem parar por 6–8 minutos até obter migalhas finas, cozidas e glaceadas.",
+        "mix_eggs": "Bata ovos, açúcar e sal apenas até homogeneizar.",
+        "cook_egg_soboro": "Cozinhe em fogo baixo mexendo rapidamente para formar grumos pequenos e úmidos; retire antes de secar.",
+        "prep_green": "Aqueça ou branqueie as ervilhas e escorra bem.",
+        "assemble": "Cubra o arroz em terços com frango, ovo e uma faixa verde. Para bento, resfrie rapidamente com segurança."
+      }
+    }
+  }
+}

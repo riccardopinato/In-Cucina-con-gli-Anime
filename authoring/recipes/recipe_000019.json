@@ -1,26 +1,56 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000019",
-  "contentVersion": 1,
+  "contentVersion": 2,
   "status": "published",
-  "inspirationTitle": "Naruto / Demon Slayer",
-  "prepMinutes": 15,
-  "cookMinutes": 10,
-  "servings": 4,
-  "difficulty": "easy",
+  "inspirationTitle": "Naruto",
+  "animeReferences": [
+    {
+      "workTitle": "Naruto",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "corrected",
+    "culinaryNote": "The previous shiratamako + silken-tofu formula was closer to shiratama/tofu dango. F3G rebuilds this as mitarashi dango using joshinko + shiratamako, boiled dumplings, optional light grilling and a soy-sugar-mirin starch glaze.",
+    "animeStatus": "unverified",
+    "animeNote": "Naruto relation is cultural/editorial inspiration only; no direct mitarashi-dango appearance is claimed."
+  },
+  "prepMinutes": 30,
+  "cookMinutes": 20,
+  "servings": 5,
+  "difficulty": "medium",
   "contentOrigin": "adapted",
-  "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23.",
+  "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. F3G culinary correction 2026-10-25: dough formula replaced with a verified mitarashi-dango structure; anime reference downgraded to inspiration.",
   "imageAssetId": "recipe_000019_artwork",
   "ingredients": [
+    {
+      "id": "joshinko",
+      "quantity": 100,
+      "unit": "g"
+    },
     {
       "id": "shiratamako",
       "quantity": 100,
       "unit": "g"
     },
     {
-      "id": "silken_tofu",
-      "quantity": 100,
-      "unit": "g"
+      "id": "warm_water",
+      "quantity": 160,
+      "unit": "ml"
+    },
+    {
+      "id": "glaze_sugar",
+      "quantity": 4,
+      "unit": "tbsp"
+    },
+    {
+      "id": "mirin",
+      "quantity": 2,
+      "unit": "tbsp"
     },
     {
       "id": "soy_sauce",
@@ -28,187 +58,229 @@
       "unit": "tbsp"
     },
     {
-      "id": "sugar",
-      "quantity": 2,
-      "unit": "tbsp"
-    },
-    {
-      "id": "mirin",
-      "quantity": 1,
-      "unit": "tbsp"
-    },
-    {
-      "id": "water",
-      "quantity": 100,
+      "id": "glaze_water",
+      "quantity": 160,
       "unit": "ml"
     },
     {
       "id": "cornstarch",
-      "quantity": 1,
+      "quantity": 2,
       "unit": "tbsp"
     }
   ],
   "steps": [
     {
-      "id": "step_1",
-      "timerSeconds": null
+      "id": "make_dough",
+      "timerSeconds": 480
     },
     {
-      "id": "step_2",
-      "timerSeconds": null
+      "id": "shape_dango",
+      "timerSeconds": 600
     },
     {
-      "id": "step_3",
-      "timerSeconds": null
+      "id": "boil_dango",
+      "timerSeconds": 420
     },
     {
-      "id": "step_4",
+      "id": "chill_dango",
+      "timerSeconds": 120
+    },
+    {
+      "id": "skewer_dango",
+      "timerSeconds": 300
+    },
+    {
+      "id": "grill_dango",
+      "timerSeconds": 180
+    },
+    {
+      "id": "make_glaze",
+      "timerSeconds": 360
+    },
+    {
+      "id": "coat_dango",
       "timerSeconds": null
     }
   ],
   "locales": {
     "en": {
       "title": "Mitarashi Dango",
+      "description": "Chewy Japanese rice dumplings served on skewers under a glossy sweet-savoury soy glaze. A balanced mix of joshinko and shiratamako gives more of the classic dango bite than a pure shiratamako dough, while a brief grill adds the lightly toasted surface often paired with mitarashi sauce.",
+      "animeContext": "Inspired by the traditional snack and festival atmosphere that fits Naruto’s world. The app does not claim that this exact mitarashi dango is prepared in a verified episode.",
       "ingredients": {
-        "shiratamako": {
-          "name": "Shiratamako glutinous rice flour",
+        "joshinko": {
+          "name": "Joshinko (Japanese non-glutinous short-grain rice flour)",
           "note": null
         },
-        "silken_tofu": {
-          "name": "Silken tofu",
+        "shiratamako": {
+          "name": "Shiratamako (glutinous rice flour)",
+          "note": null
+        },
+        "warm_water": {
+          "name": "Warm water",
+          "note": null
+        },
+        "glaze_sugar": {
+          "name": "Sugar for glaze",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
           "note": null
         },
         "soy_sauce": {
           "name": "Soy sauce",
           "note": null
         },
-        "sugar": {
-          "name": "Sugar",
-          "note": null
-        },
-        "mirin": {
-          "name": "Mirin",
-          "note": null
-        },
-        "water": {
-          "name": "Lukewarm water",
+        "glaze_water": {
+          "name": "Water for glaze",
           "note": null
         },
         "cornstarch": {
-          "name": "Cornstarch",
+          "name": "Cornstarch for glaze",
           "note": null
         }
       },
       "steps": {
-        "step_1": "Knead the glutinous rice flour with silken tofu until soft and pliable.",
-        "step_2": "Form walnut-size balls, boil them and cook 2 minutes more after they float. Chill in iced water.",
-        "step_3": "Thread 3–4 dumplings onto each skewer and grill briefly to create light char marks.",
-        "step_4": "Heat soy sauce, sugar, mirin, water and cornstarch while whisking until glossy and thick. Coat the skewers generously."
+        "make_dough": "Mix joshinko and shiratamako thoroughly. Add warm water gradually while mixing with chopsticks or a spatula, then knead by hand until the dough is smooth, soft and about as firm as an earlobe. Hold back a little water at first because different rice flours absorb differently.",
+        "shape_dango": "Divide the dough into about 20 equal pieces and roll each between your palms into a smooth ball about 2.5 cm wide. Keep the balls covered with a damp cloth so the surface does not dry or crack.",
+        "boil_dango": "Bring a large pot of water to a steady boil and add the dango without overcrowding. Stir gently once so they do not stick to the bottom. After they float, continue boiling about 1–2 minutes so the centres cook fully rather than remaining floury.",
+        "chill_dango": "Lift the cooked dango into a bowl of cold water for about 1–2 minutes to stop carryover cooking, then drain very well and blot the surface dry. Excess water would dilute the glaze.",
+        "skewer_dango": "Thread four dango onto each skewer, leaving a little handle. Work gently so the balls remain round and do not split along the skewer.",
+        "grill_dango": "For a lightly toasted version, place the skewers on a hot dry grill or non-stick pan for 1–2 minutes per side until small golden patches appear. Do not dry them out; the centre should remain chewy and soft.",
+        "make_glaze": "Whisk sugar, mirin, soy sauce, water and cornstarch together while cold so there are no starch lumps. Bring to a gentle simmer, stirring constantly, and cook 2–3 minutes until the sauce becomes clear, glossy and thick enough to coat a spoon.",
+        "coat_dango": "Brush or spoon the warm glaze generously over the skewers immediately before serving. Let excess sauce drip back into the pan; serve warm or at room temperature while the dango is still tender."
       }
     },
     "it": {
       "title": "Mitarashi Dango",
+      "description": "Dango giapponesi gommosi serviti su spiedino sotto una glassa lucida dolce-sapida di soia. L’equilibrio tra joshinko e shiratamako dà una masticabilità più vicina al dango classico rispetto a un impasto di solo shiratamako; una breve grigliatura aggiunge leggere note tostate.",
+      "animeContext": "Ispirato all’atmosfera di snack tradizionali e feste popolari coerente con il mondo di Naruto. L’app non afferma che questo preciso mitarashi dango venga preparato in un episodio verificato.",
       "ingredients": {
-        "shiratamako": {
-          "name": "Farina di riso glutinoso shiratamako",
+        "joshinko": {
+          "name": "Joshinko, farina giapponese di riso non glutinoso",
           "note": null
         },
-        "silken_tofu": {
-          "name": "Tofu setoso",
+        "shiratamako": {
+          "name": "Shiratamako, farina di riso glutinoso",
+          "note": null
+        },
+        "warm_water": {
+          "name": "Acqua tiepida",
+          "note": null
+        },
+        "glaze_sugar": {
+          "name": "Zucchero per la glassa",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
           "note": null
         },
         "soy_sauce": {
           "name": "Salsa di soia",
           "note": null
         },
-        "sugar": {
-          "name": "Zucchero",
-          "note": null
-        },
-        "mirin": {
-          "name": "Mirin",
-          "note": null
-        },
-        "water": {
-          "name": "Acqua tiepida",
+        "glaze_water": {
+          "name": "Acqua per la glassa",
           "note": null
         },
         "cornstarch": {
-          "name": "Amido di mais",
+          "name": "Amido di mais per la glassa",
           "note": null
         }
       },
       "steps": {
-        "step_1": "Impasta la farina di riso glutinoso con il tofu setoso fino a ottenere un panetto morbido e modellabile.",
-        "step_2": "Forma palline grandi come una noce, lessale e cuocile altri 2 minuti da quando salgono a galla. Raffreddale in acqua e ghiaccio.",
-        "step_3": "Infilza 3–4 dango per spiedino e grigliali brevemente per creare leggere bruciacchiature.",
-        "step_4": "Scalda salsa di soia, zucchero, mirin, acqua e amido mescolando finché la salsa è lucida e densa. Nappa bene gli spiedini."
+        "make_dough": "Mescola molto bene joshinko e shiratamako. Aggiungi gradualmente l’acqua tiepida mescolando con bacchette o spatola, poi impasta a mano finché ottieni una massa liscia, morbida e con una consistenza simile al lobo dell’orecchio. Tieni inizialmente da parte un po’ d’acqua perché farine diverse assorbono in modo diverso.",
+        "shape_dango": "Dividi l’impasto in circa 20 pezzi uguali e rotolali tra i palmi fino a ottenere palline lisce di circa 2,5 cm. Tienile coperte con un panno umido perché la superficie non secchi e non crepi.",
+        "boil_dango": "Porta a bollore abbondante acqua e aggiungi i dango senza affollare la pentola. Mescola una volta con delicatezza perché non si attacchino al fondo. Quando vengono a galla continua a bollire circa 1–2 minuti, così anche il centro è completamente cotto.",
+        "chill_dango": "Trasferisci i dango cotti in acqua fredda per circa 1–2 minuti per fermare la cottura, poi scolali molto bene e tampona la superficie. Acqua residua renderebbe più liquida la glassa.",
+        "skewer_dango": "Infila quattro dango su ogni spiedino lasciando un piccolo manico. Procedi con delicatezza per mantenere le palline tonde e non spaccarle lungo lo stecco.",
+        "grill_dango": "Per una finitura leggermente tostata, passa gli spiedini su griglia o padella antiaderente asciutta e ben calda per 1–2 minuti per lato, finché compaiono piccole zone dorate. Non asciugare l’interno, che deve restare morbido e gommoso.",
+        "make_glaze": "Mescola a freddo zucchero, mirin, salsa di soia, acqua e amido finché non ci sono grumi. Porta a leggero sobbollore mescolando continuamente e cuoci 2–3 minuti, finché la salsa è trasparente, lucida e abbastanza densa da velare il cucchiaio.",
+        "coat_dango": "Spennella o versa generosamente la glassa tiepida sugli spiedini subito prima di servire. Lascia ricadere l’eccesso nel pentolino e porta in tavola caldo o a temperatura ambiente mentre i dango sono ancora teneri."
       }
     },
     "es": {
       "title": "Mitarashi Dango",
+      "description": "Bolas japonesas de arroz masticables en brocheta con glaseado brillante dulce-salado de soja. La mezcla de joshinko y shiratamako da una textura más clásica y un breve tostado aporta notas doradas.",
+      "animeContext": "Inspirado en la atmósfera de snacks tradicionales y festivales compatible con Naruto; no se afirma una aparición exacta.",
       "ingredients": {
-        "shiratamako": {
-          "name": "Harina de arroz glutinoso shiratamako",
+        "joshinko": {
+          "name": "Joshinko, harina japonesa de arroz no glutinoso",
           "note": null
         },
-        "silken_tofu": {
-          "name": "Tofu sedoso",
+        "shiratamako": {
+          "name": "Shiratamako, harina de arroz glutinoso",
+          "note": null
+        },
+        "warm_water": {
+          "name": "Agua tibia",
+          "note": null
+        },
+        "glaze_sugar": {
+          "name": "Azúcar para el glaseado",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
           "note": null
         },
         "soy_sauce": {
           "name": "Salsa de soja",
           "note": null
         },
-        "sugar": {
-          "name": "Azúcar",
-          "note": null
-        },
-        "mirin": {
-          "name": "Mirin",
-          "note": null
-        },
-        "water": {
-          "name": "Agua templada",
+        "glaze_water": {
+          "name": "Agua para el glaseado",
           "note": null
         },
         "cornstarch": {
-          "name": "Maicena",
+          "name": "Maicena para el glaseado",
           "note": null
         }
       },
       "steps": {
-        "step_1": "Amasa la harina de arroz glutinoso con tofu sedoso hasta obtener una masa suave.",
-        "step_2": "Forma bolitas, hiérvelas y cuece 2 minutos más tras flotar. Enfría en agua con hielo.",
-        "step_3": "Ensarta 3–4 dango por brocheta y ásalos brevemente.",
-        "step_4": "Calienta soja, azúcar, mirin, agua y maicena hasta espesar y glasea las brochetas."
+        "make_dough": "Mezcla joshinko y shiratamako y añade agua tibia poco a poco hasta una masa lisa, suave y flexible; reserva algo de agua al principio.",
+        "shape_dango": "Divide en unas 20 porciones y forma bolas lisas de unos 2,5 cm. Mantén cubiertas con paño húmedo.",
+        "boil_dango": "Hierve en abundante agua sin amontonar. Cuando floten, cocina 1–2 minutos más para cocer el centro.",
+        "chill_dango": "Pasa 1–2 minutos a agua fría, escurre muy bien y seca la superficie.",
+        "skewer_dango": "Ensarta cuatro dango por brocheta con cuidado para no partirlos.",
+        "grill_dango": "Tuesta opcionalmente 1–2 minutos por lado en plancha seca caliente hasta pequeñas manchas doradas, manteniendo el interior suave.",
+        "make_glaze": "Mezcla en frío azúcar, mirin, soja, agua y maicena. Lleva a hervor suave y remueve 2–3 minutos hasta brillo y espesor.",
+        "coat_dango": "Cubre generosamente con glaseado tibio justo antes de servir y consume mientras siguen tiernos."
       }
     },
     "fr": {
       "title": "Mitarashi Dango",
+      "description": "Boulettes japonaises de riz moelleuses et élastiques en brochette, nappées d’une sauce soja sucrée-salée brillante. Le mélange joshinko-shiratamako donne une texture plus classique et un léger grillage apporte des notes toastées.",
+      "animeContext": "Inspiré de l’ambiance de snacks traditionnels et de fêtes correspondant à Naruto; aucune apparition précise n’est revendiquée.",
       "ingredients": {
-        "shiratamako": {
-          "name": "Farine de riz gluant shiratamako",
+        "joshinko": {
+          "name": "Joshinko, farine japonaise de riz non gluant",
           "note": null
         },
-        "silken_tofu": {
-          "name": "Tofu soyeux",
+        "shiratamako": {
+          "name": "Shiratamako, farine de riz gluant",
+          "note": null
+        },
+        "warm_water": {
+          "name": "Eau tiède",
+          "note": null
+        },
+        "glaze_sugar": {
+          "name": "Sucre pour glaçage",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
           "note": null
         },
         "soy_sauce": {
           "name": "Sauce soja",
           "note": null
         },
-        "sugar": {
-          "name": "Sucre",
-          "note": null
-        },
-        "mirin": {
-          "name": "Mirin",
-          "note": null
-        },
-        "water": {
-          "name": "Eau tiède",
+        "glaze_water": {
+          "name": "Eau pour glaçage",
           "note": null
         },
         "cornstarch": {
@@ -217,76 +289,96 @@
         }
       },
       "steps": {
-        "step_1": "Pétrissez la farine de riz gluant avec le tofu soyeux jusqu’à obtenir une pâte souple.",
-        "step_2": "Formez des boules, faites-les bouillir 2 minutes après remontée puis refroidissez dans l’eau glacée.",
-        "step_3": "Enfilez 3–4 dango par brochette et grillez brièvement.",
-        "step_4": "Chauffez soja, sucre, mirin, eau et fécule jusqu’à épaississement puis nappez les brochettes."
+        "make_dough": "Mélangez joshinko et shiratamako puis ajoutez l’eau tiède progressivement jusqu’à pâte lisse et souple; gardez un peu d’eau en réserve.",
+        "shape_dango": "Divisez en environ 20 portions et roulez en boules lisses de 2,5 cm. Gardez sous linge humide.",
+        "boil_dango": "Faites bouillir sans surcharger. Une fois à la surface, poursuivez 1–2 minutes pour cuire le cœur.",
+        "chill_dango": "Passez 1–2 minutes dans l’eau froide, égouttez parfaitement et séchez la surface.",
+        "skewer_dango": "Enfilez quatre dango par brochette avec délicatesse.",
+        "grill_dango": "Grillez facultativement 1–2 minutes par face sur plaque sèche chaude jusqu’à petites marques dorées, sans dessécher.",
+        "make_glaze": "Mélangez à froid sucre, mirin, soja, eau et fécule puis faites frémir 2–3 minutes en remuant jusqu’à sauce brillante et nappante.",
+        "coat_dango": "Nappez généreusement de sauce tiède juste avant de servir pendant que les dango restent tendres."
       }
     },
     "de": {
       "title": "Mitarashi Dango",
+      "description": "Elastische japanische Reiskugeln am Spieß mit glänzender süß-herzhafter Sojaglasur. Die Mischung aus Joshinko und Shiratamako ergibt klassischeren Biss; kurzes Grillen bringt Röstaromen.",
+      "animeContext": "Von traditioneller Snack- und Festatmosphäre passend zu Naruto inspiriert; keine konkrete Erscheinung wird behauptet.",
       "ingredients": {
-        "shiratamako": {
-          "name": "Shiratamako-Klebreismehl",
+        "joshinko": {
+          "name": "Joshinko, japanisches nicht-klebriges Reismehl",
           "note": null
         },
-        "silken_tofu": {
-          "name": "Seidentofu",
+        "shiratamako": {
+          "name": "Shiratamako, Klebreismehl",
+          "note": null
+        },
+        "warm_water": {
+          "name": "Lauwarmes Wasser",
+          "note": null
+        },
+        "glaze_sugar": {
+          "name": "Zucker für Glasur",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
           "note": null
         },
         "soy_sauce": {
           "name": "Sojasauce",
           "note": null
         },
-        "sugar": {
-          "name": "Zucker",
-          "note": null
-        },
-        "mirin": {
-          "name": "Mirin",
-          "note": null
-        },
-        "water": {
-          "name": "Lauwarmes Wasser",
+        "glaze_water": {
+          "name": "Wasser für Glasur",
           "note": null
         },
         "cornstarch": {
-          "name": "Maisstärke",
+          "name": "Maisstärke für Glasur",
           "note": null
         }
       },
       "steps": {
-        "step_1": "Klebreismehl mit Seidentofu zu einem weichen Teig kneten.",
-        "step_2": "Kugeln formen, kochen und nach dem Aufsteigen noch 2 Minuten garen. In Eiswasser abschrecken.",
-        "step_3": "Je 3–4 Dango aufspießen und kurz angrillen.",
-        "step_4": "Sojasauce, Zucker, Mirin, Wasser und Stärke dicklich kochen und die Spieße glasieren."
+        "make_dough": "Joshinko und Shiratamako mischen und lauwarmes Wasser schrittweise bis zu glattem, weichem Teig zugeben; etwas Wasser zunächst zurückhalten.",
+        "shape_dango": "In etwa 20 Portionen teilen und zu glatten 2,5-cm-Kugeln rollen. Mit feuchtem Tuch abdecken.",
+        "boil_dango": "In reichlich kochendem Wasser garen. Nach dem Aufschwimmen weitere 1–2 Minuten kochen.",
+        "chill_dango": "1–2 Minuten in kaltes Wasser geben, sehr gut abtropfen und Oberfläche trocknen.",
+        "skewer_dango": "Je vier Dango vorsichtig auf einen Spieß stecken.",
+        "grill_dango": "Optional 1–2 Minuten je Seite auf heißer trockener Fläche leicht anrösten, innen weich lassen.",
+        "make_glaze": "Zucker, Mirin, Soja, Wasser und Stärke kalt glatt rühren und 2–3 Minuten sanft köcheln, bis die Sauce glänzt und bindet.",
+        "coat_dango": "Kurz vor dem Servieren großzügig mit warmer Glasur überziehen und essen, solange die Dango weich sind."
       }
     },
     "pt": {
       "title": "Mitarashi Dango",
+      "description": "Bolinhas japonesas de arroz elásticas no espeto, cobertas com molho brilhante doce-salgado de soja. A mistura de joshinko e shiratamako dá textura mais clássica e uma leve grelha acrescenta sabor tostado.",
+      "animeContext": "Inspirado na atmosfera de snacks tradicionais e festivais compatível com Naruto; não afirmamos aparição exata.",
       "ingredients": {
-        "shiratamako": {
-          "name": "Farinha de arroz glutinoso shiratamako",
+        "joshinko": {
+          "name": "Joshinko, farinha japonesa de arroz não glutinoso",
           "note": null
         },
-        "silken_tofu": {
-          "name": "Tofu sedoso",
+        "shiratamako": {
+          "name": "Shiratamako, farinha de arroz glutinoso",
+          "note": null
+        },
+        "warm_water": {
+          "name": "Água morna",
+          "note": null
+        },
+        "glaze_sugar": {
+          "name": "Açúcar para a cobertura",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
           "note": null
         },
         "soy_sauce": {
           "name": "Molho de soja",
           "note": null
         },
-        "sugar": {
-          "name": "Açúcar",
-          "note": null
-        },
-        "mirin": {
-          "name": "Mirin",
-          "note": null
-        },
-        "water": {
-          "name": "Água morna",
+        "glaze_water": {
+          "name": "Água para a cobertura",
           "note": null
         },
         "cornstarch": {
@@ -295,10 +387,14 @@
         }
       },
       "steps": {
-        "step_1": "Amasse a farinha de arroz glutinoso com tofu sedoso até obter uma massa macia.",
-        "step_2": "Faça bolinhas, ferva e cozinhe mais 2 minutos após subirem. Resfrie em água com gelo.",
-        "step_3": "Espete 3–4 dangos por palito e grelhe rapidamente.",
-        "step_4": "Aqueça soja, açúcar, mirin, água e amido até engrossar e cubra os espetos."
+        "make_dough": "Misture joshinko e shiratamako e adicione água morna aos poucos até massa lisa e macia; reserve um pouco da água no início.",
+        "shape_dango": "Divida em cerca de 20 porções e faça bolas lisas de 2,5 cm. Mantenha cobertas com pano úmido.",
+        "boil_dango": "Cozinhe em bastante água fervente. Depois que subirem, cozinhe mais 1–2 minutos para chegar ao centro.",
+        "chill_dango": "Passe 1–2 minutos em água fria, escorra muito bem e seque a superfície.",
+        "skewer_dango": "Espete quatro dango em cada palito com cuidado.",
+        "grill_dango": "Opcionalmente grelhe 1–2 minutos de cada lado em superfície quente e seca até pequenas marcas douradas, mantendo o interior macio.",
+        "make_glaze": "Misture frio açúcar, mirin, soja, água e amido e cozinhe em fervura suave por 2–3 minutos até ficar brilhante e espesso.",
+        "coat_dango": "Cubra generosamente com molho morno antes de servir e consuma enquanto os dango estão macios."
       }
     }
   }

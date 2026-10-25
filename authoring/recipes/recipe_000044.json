@@ -1,0 +1,391 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000044",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Gintama",
+  "animeReferences": [
+    {
+      "workTitle": "Gintama",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Japanese purin verified as gently baked/steamed caramel custard; refrigeration time included in prep elapsed time.",
+    "animeStatus": "unverified",
+    "animeNote": "Gintama association kept as inspiration; no exact purin episode asserted."
+  },
+  "prepMinutes": 210,
+  "cookMinutes": 30,
+  "servings": 4,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from Ricettario Vol. 5; custard temperature, bain-marie and chilling cues expanded.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "caramel_sugar",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "id": "cold_water",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "hot_water",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "milk",
+      "quantity": 300,
+      "unit": "ml"
+    },
+    {
+      "id": "eggs",
+      "quantity": 2,
+      "unit": null
+    },
+    {
+      "id": "yolk",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "custard_sugar",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "id": "vanilla",
+      "quantity": 1,
+      "unit": "tsp"
+    }
+  ],
+  "steps": [
+    {
+      "id": "make_caramel",
+      "timerSeconds": 480
+    },
+    {
+      "id": "warm_milk",
+      "timerSeconds": 300
+    },
+    {
+      "id": "mix_eggs",
+      "timerSeconds": 180
+    },
+    {
+      "id": "temper_filter",
+      "timerSeconds": 300
+    },
+    {
+      "id": "bain_marie",
+      "timerSeconds": 1800
+    },
+    {
+      "id": "cool_chill",
+      "timerSeconds": 10800
+    },
+    {
+      "id": "unmould",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Japanese Caramel Purin",
+      "description": "A smooth Japanese caramel custard with a firm but trembling set and a glossy bitter-sweet sauce released when unmoulded. Gentle mixing and low-temperature bain-marie cooking prevent bubbles and keep the texture almost glassy.",
+      "animeContext": "Inspired by Gintama’s well-known affection for sweets and parfait-style desserts. This purin card is an editorial sweet-tooth association, not an episode-specific claim.",
+      "ingredients": {
+        "caramel_sugar": {
+          "name": "Sugar for caramel",
+          "note": null
+        },
+        "cold_water": {
+          "name": "Cold water",
+          "note": null
+        },
+        "hot_water": {
+          "name": "Hot water",
+          "note": null
+        },
+        "milk": {
+          "name": "Whole milk",
+          "note": null
+        },
+        "eggs": {
+          "name": "Whole eggs",
+          "note": null
+        },
+        "yolk": {
+          "name": "Egg yolk",
+          "note": null
+        },
+        "custard_sugar": {
+          "name": "Sugar for custard",
+          "note": null
+        },
+        "vanilla": {
+          "name": "Vanilla extract",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_caramel": "Put caramel sugar and cold water in a small light-coloured saucepan. Heat without stirring until the syrup turns deep amber, swirling the pan gently. Remove from heat and carefully add the hot water away from your face; it will spit. Divide immediately among four ramekins.",
+        "warm_milk": "Warm milk with custard sugar and vanilla until steaming but not boiling, stirring to dissolve the sugar. Remove from the heat and let it stand a minute so it is hot but not violently scalding.",
+        "mix_eggs": "Whisk whole eggs and yolk gently just until uniform. Avoid incorporating air: bubbles create holes instead of the smooth, dense texture characteristic of purin.",
+        "temper_filter": "Pour warm milk slowly into the eggs while stirring continuously. Strain the custard through a fine sieve twice, then skim visible foam. Divide over the set caramel and cover the ramekins loosely with foil.",
+        "bain_marie": "Place ramekins in a deep tray and add hot water to halfway up their sides. Bake at 150°C for 25–30 minutes. The edges should be set while the centre still gives a gentle unified wobble rather than sloshing.",
+        "cool_chill": "Remove from the water bath, cool until no longer hot, then refrigerate at least 3 hours. Full chilling lets the custard finish setting and the caramel loosen into a sauce.",
+        "unmould": "Run a thin knife around the edge, place a plate over the ramekin and invert decisively. If it resists, hold the base in warm water for a few seconds, dry it and try again."
+      }
+    },
+    "it": {
+      "title": "Purin giapponese al caramello",
+      "description": "Un budino giapponese al caramello liscio, compatto ma tremolante, con salsa lucida dolce-amara che scende quando viene sformato. Mescolare senza montare e cuocere dolcemente a bagnomaria evita bolle e mantiene la struttura setosa.",
+      "animeContext": "Ispirato alla nota passione per i dolci nell’universo di Gintama. Il purin è qui un’associazione editoriale con quel lato goloso, non un riferimento a un episodio preciso.",
+      "ingredients": {
+        "caramel_sugar": {
+          "name": "Zucchero per il caramello",
+          "note": null
+        },
+        "cold_water": {
+          "name": "Acqua fredda",
+          "note": null
+        },
+        "hot_water": {
+          "name": "Acqua calda",
+          "note": null
+        },
+        "milk": {
+          "name": "Latte intero",
+          "note": null
+        },
+        "eggs": {
+          "name": "Uova intere",
+          "note": null
+        },
+        "yolk": {
+          "name": "Tuorlo",
+          "note": null
+        },
+        "custard_sugar": {
+          "name": "Zucchero per la crema",
+          "note": null
+        },
+        "vanilla": {
+          "name": "Estratto di vaniglia",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_caramel": "Metti zucchero e acqua fredda in un pentolino chiaro. Scalda senza mescolare finché lo sciroppo diventa ambrato intenso, ruotando appena il recipiente. Togli dal fuoco e aggiungi con molta cautela l’acqua calda tenendo il viso lontano: schizza. Dividi subito in quattro stampini.",
+        "warm_milk": "Scalda latte, zucchero della crema e vaniglia finché fumano ma non bollono, mescolando per sciogliere lo zucchero. Togli dal fuoco e lascia riposare un minuto.",
+        "mix_eggs": "Mescola uova intere e tuorlo solo finché sono uniformi. Non incorporare aria: le bolle creano fori invece della consistenza liscia e compatta tipica del purin.",
+        "temper_filter": "Versa lentamente il latte caldo sulle uova mescolando senza sosta. Filtra la crema due volte con colino fine e rimuovi la schiuma visibile. Versa sul caramello solidificato e copri gli stampini con alluminio.",
+        "bain_marie": "Sistema gli stampini in una teglia profonda e versa acqua calda fino a metà altezza. Cuoci a 150°C per 25–30 minuti. I bordi devono essere fermi e il centro oscillare dolcemente come un blocco unico, non essere liquido.",
+        "cool_chill": "Togli dal bagnomaria, lascia raffreddare finché non è più caldo e metti in frigorifero almeno 3 ore. Il riposo completa la struttura e trasforma il caramello in salsa.",
+        "unmould": "Passa una lama sottile lungo il bordo, appoggia un piatto sopra e capovolgi con decisione. Se non scende, immergi la base pochi secondi in acqua tiepida, asciuga e riprova."
+      }
+    },
+    "es": {
+      "title": "Purin japonés de caramelo",
+      "description": "Flan japonés de caramelo liso, firme pero tembloroso, con salsa brillante al desmoldar. Mezclar suavemente y cocinar al baño maría evita burbujas.",
+      "animeContext": "Inspirado en la conocida afición por los dulces de Gintama; es una asociación editorial, no un episodio concreto.",
+      "ingredients": {
+        "caramel_sugar": {
+          "name": "Azúcar para caramelo",
+          "note": null
+        },
+        "cold_water": {
+          "name": "Agua fría",
+          "note": null
+        },
+        "hot_water": {
+          "name": "Agua caliente",
+          "note": null
+        },
+        "milk": {
+          "name": "Leche entera",
+          "note": null
+        },
+        "eggs": {
+          "name": "Huevos enteros",
+          "note": null
+        },
+        "yolk": {
+          "name": "Yema",
+          "note": null
+        },
+        "custard_sugar": {
+          "name": "Azúcar para la crema",
+          "note": null
+        },
+        "vanilla": {
+          "name": "Vainilla",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_caramel": "Cuece azúcar y agua sin remover hasta ámbar. Retira y añade con cuidado el agua caliente; reparte en moldes.",
+        "warm_milk": "Calienta leche, azúcar y vainilla hasta humear sin hervir.",
+        "mix_eggs": "Mezcla huevos y yema suavemente sin crear espuma.",
+        "temper_filter": "Vierte leche caliente poco a poco, filtra dos veces y reparte sobre el caramelo. Cubre los moldes.",
+        "bain_marie": "Hornea al baño maría a 150°C durante 25–30 minutos, con bordes firmes y centro que tiemble suavemente.",
+        "cool_chill": "Enfría y refrigera al menos 3 horas.",
+        "unmould": "Pasa un cuchillo por el borde e invierte sobre un plato."
+      }
+    },
+    "fr": {
+      "title": "Purin japonais au caramel",
+      "description": "Crème caramel japonaise lisse, ferme mais tremblante, nappée de caramel au démoulage. Un mélange doux et une cuisson basse au bain-marie évitent les bulles.",
+      "animeContext": "Inspiré du goût bien connu de Gintama pour les desserts; il s’agit d’une association éditoriale, pas d’un épisode précis.",
+      "ingredients": {
+        "caramel_sugar": {
+          "name": "Sucre pour caramel",
+          "note": null
+        },
+        "cold_water": {
+          "name": "Eau froide",
+          "note": null
+        },
+        "hot_water": {
+          "name": "Eau chaude",
+          "note": null
+        },
+        "milk": {
+          "name": "Lait entier",
+          "note": null
+        },
+        "eggs": {
+          "name": "Œufs entiers",
+          "note": null
+        },
+        "yolk": {
+          "name": "Jaune d’œuf",
+          "note": null
+        },
+        "custard_sugar": {
+          "name": "Sucre pour crème",
+          "note": null
+        },
+        "vanilla": {
+          "name": "Vanille",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_caramel": "Cuisez sucre et eau sans remuer jusqu’à ambre. Hors feu, ajoutez prudemment l’eau chaude et répartissez dans les ramequins.",
+        "warm_milk": "Chauffez lait, sucre et vanille jusqu’à vapeur sans ébullition.",
+        "mix_eggs": "Mélangez œufs et jaune doucement sans faire mousser.",
+        "temper_filter": "Versez le lait chaud progressivement, filtrez deux fois et répartissez sur le caramel. Couvrez.",
+        "bain_marie": "Cuisez au bain-marie à 150°C 25–30 minutes, bords pris et centre tremblant doucement.",
+        "cool_chill": "Refroidissez puis réfrigérez au moins 3 heures.",
+        "unmould": "Passez un couteau fin sur le bord et retournez sur une assiette."
+      }
+    },
+    "de": {
+      "title": "Japanischer Karamell-Purin",
+      "description": "Glatter japanischer Karamellpudding, fest und doch zitternd, mit glänzender Karamellsauce. Sanftes Rühren und niedriges Wasserbad verhindern Blasen.",
+      "animeContext": "Von Gintamas bekannter Vorliebe für Süßes inspiriert; eine redaktionelle Assoziation, keine konkrete Episode.",
+      "ingredients": {
+        "caramel_sugar": {
+          "name": "Zucker für Karamell",
+          "note": null
+        },
+        "cold_water": {
+          "name": "Kaltes Wasser",
+          "note": null
+        },
+        "hot_water": {
+          "name": "Heißes Wasser",
+          "note": null
+        },
+        "milk": {
+          "name": "Vollmilch",
+          "note": null
+        },
+        "eggs": {
+          "name": "Ganze Eier",
+          "note": null
+        },
+        "yolk": {
+          "name": "Eigelb",
+          "note": null
+        },
+        "custard_sugar": {
+          "name": "Zucker für Creme",
+          "note": null
+        },
+        "vanilla": {
+          "name": "Vanille",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_caramel": "Zucker und kaltes Wasser ohne Rühren tief bernsteinfarben karamellisieren. Vom Herd nehmen, vorsichtig heißes Wasser zugeben und auf Förmchen verteilen.",
+        "warm_milk": "Milch, Zucker und Vanille bis zum Dampfen erhitzen, nicht kochen.",
+        "mix_eggs": "Eier und Eigelb sanft verrühren, ohne Schaum zu erzeugen.",
+        "temper_filter": "Heiße Milch langsam einrühren, zweimal passieren und über Karamell verteilen. Abdecken.",
+        "bain_marie": "Im Wasserbad bei 150°C 25–30 Minuten backen, bis der Rand fest und die Mitte sanft wackelig ist.",
+        "cool_chill": "Abkühlen und mindestens 3 Stunden kühlen.",
+        "unmould": "Rand mit dünnem Messer lösen und auf einen Teller stürzen."
+      }
+    },
+    "pt": {
+      "title": "Purin japonês de caramelo",
+      "description": "Pudim japonês de caramelo liso, firme mas tremendo, com calda brilhante ao desenformar. Mistura suave e banho-maria baixo evitam bolhas.",
+      "animeContext": "Inspirado na conhecida paixão por doces em Gintama; é uma associação editorial, não um episódio específico.",
+      "ingredients": {
+        "caramel_sugar": {
+          "name": "Açúcar para caramelo",
+          "note": null
+        },
+        "cold_water": {
+          "name": "Água fria",
+          "note": null
+        },
+        "hot_water": {
+          "name": "Água quente",
+          "note": null
+        },
+        "milk": {
+          "name": "Leite integral",
+          "note": null
+        },
+        "eggs": {
+          "name": "Ovos inteiros",
+          "note": null
+        },
+        "yolk": {
+          "name": "Gema",
+          "note": null
+        },
+        "custard_sugar": {
+          "name": "Açúcar para creme",
+          "note": null
+        },
+        "vanilla": {
+          "name": "Baunilha",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_caramel": "Cozinhe açúcar e água sem mexer até âmbar. Tire do fogo, adicione com cuidado a água quente e divida nos potinhos.",
+        "warm_milk": "Aqueça leite, açúcar e baunilha até soltar vapor sem ferver.",
+        "mix_eggs": "Misture ovos e gema delicadamente sem criar espuma.",
+        "temper_filter": "Despeje o leite quente aos poucos, coe duas vezes e distribua sobre o caramelo. Cubra.",
+        "bain_marie": "Asse em banho-maria a 150°C por 25–30 minutos, com bordas firmes e centro tremendo suavemente.",
+        "cool_chill": "Esfrie e leve à geladeira por pelo menos 3 horas.",
+        "unmould": "Passe uma faca fina na borda e vire sobre um prato."
+      }
+    }
+  }
+}

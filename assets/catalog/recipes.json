@@ -3,16 +3,25 @@
   "recipes": [
     {
       "id": "recipe_000001",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "status": "published",
       "inspirationTitle": "Il castello errante di Howl",
+      "animeReferences": [
+        {
+          "workTitle": "Howl's Moving Castle",
+          "relation": "verified_appearance",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
       "prepMinutes": 5,
       "cookMinutes": 10,
       "servings": 2,
       "difficulty": "easy",
       "imageAsset": "assets/recipe_artwork/recipe_000001.jpg",
       "contentOrigin": "adapted",
-      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. Servings inferred from ingredient quantities because the source does not state yield.",
+      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. Servings inferred from ingredient quantities because the source does not state yield. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
       "ingredients": [
         {
           "id": "smoked_bacon",
@@ -65,16 +74,25 @@
     },
     {
       "id": "recipe_000002",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "status": "published",
       "inspirationTitle": "Naruto",
+      "animeReferences": [
+        {
+          "workTitle": "Naruto",
+          "relation": "recurring_association",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
       "prepMinutes": 20,
       "cookMinutes": 30,
       "servings": 2,
       "difficulty": "medium",
       "imageAsset": "assets/recipe_artwork/recipe_000002.jpg",
       "contentOrigin": "adapted",
-      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. Servings inferred from ingredient quantities because the source does not state yield.",
+      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. Servings inferred from ingredient quantities because the source does not state yield. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
       "ingredients": [
         {
           "id": "ramen_noodles",
@@ -147,16 +165,25 @@
     },
     {
       "id": "recipe_000003",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "status": "published",
       "inspirationTitle": "Yuri!!! on ICE / My Hero Academia",
+      "animeReferences": [
+        {
+          "workTitle": "Yuri!!! on ICE",
+          "relation": "recurring_association",
+          "season": 1,
+          "episode": "2",
+          "chapter": null
+        }
+      ],
       "prepMinutes": 20,
       "cookMinutes": 15,
       "servings": 2,
       "difficulty": "medium",
       "imageAsset": "assets/recipe_artwork/recipe_000003.jpg",
       "contentOrigin": "adapted",
-      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. Servings inferred from ingredient quantities because the source does not state yield.",
+      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. Servings inferred from ingredient quantities because the source does not state yield. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
       "ingredients": [
         {
           "id": "tonkatsu",
@@ -229,16 +256,25 @@
     },
     {
       "id": "recipe_000004",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "status": "published",
       "inspirationTitle": "Doraemon",
+      "animeReferences": [
+        {
+          "workTitle": "Doraemon",
+          "relation": "recurring_association",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
       "prepMinutes": 15,
       "cookMinutes": 10,
       "servings": 4,
       "difficulty": "easy",
       "imageAsset": "assets/recipe_artwork/recipe_000004.jpg",
       "contentOrigin": "adapted",
-      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source gives no yield; four servings are an editorial estimate from the batter and filling quantities.",
+      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source gives no yield; four servings are an editorial estimate from the batter and filling quantities. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
       "ingredients": [
         {
           "id": "eggs",
@@ -305,16 +341,25 @@
     },
     {
       "id": "recipe_000005",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "status": "published",
       "inspirationTitle": "La città incantata / Pokémon",
+      "animeReferences": [
+        {
+          "workTitle": "Spirited Away",
+          "relation": "verified_appearance",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
       "prepMinutes": 15,
       "cookMinutes": 15,
       "servings": 2,
       "difficulty": "easy",
       "imageAsset": "assets/recipe_artwork/recipe_000005.jpg",
       "contentOrigin": "adapted",
-      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source gives no yield; two servings are an editorial estimate. The rice also rests for 10 minutes after cooking, retained in the step text because the runtime model has no separate rest-time field.",
+      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source gives no yield; two servings are an editorial estimate. The rice also rests for 10 minutes after cooking, retained in the step text because the runtime model has no separate rest-time field. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
       "ingredients": [
         {
           "id": "sushi_rice",
@@ -377,16 +422,25 @@
     },
     {
       "id": "recipe_000006",
-      "contentVersion": 2,
+      "contentVersion": 3,
       "status": "published",
       "inspirationTitle": "Ranma ½ / Kiss Me Licia",
+      "animeReferences": [
+        {
+          "workTitle": "Ranma ½",
+          "relation": "recurring_association",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
       "prepMinutes": 20,
       "cookMinutes": 12,
       "servings": 2,
       "difficulty": "easy",
       "imageAsset": "assets/recipe_artwork/recipe_000006.jpg",
       "contentOrigin": "adapted",
-      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; two servings are an editorial estimate from the listed quantities. Culinary terminology audited 2026-10-23: source label 'Aoki seaweed' normalized to aonori; stable ingredient ID retained.",
+      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; two servings are an editorial estimate from the listed quantities. Culinary terminology audited 2026-10-23: source label 'Aoki seaweed' normalized to aonori; stable ingredient ID retained. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
       "ingredients": [
         {
           "id": "cabbage",
@@ -459,16 +513,25 @@
     },
     {
       "id": "recipe_000007",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "status": "published",
       "inspirationTitle": "One Piece / My Hero Academia",
+      "animeReferences": [
+        {
+          "workTitle": "One Piece",
+          "relation": "recurring_association",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
       "prepMinutes": 20,
       "cookMinutes": 15,
       "servings": 3,
       "difficulty": "medium",
       "imageAsset": "assets/recipe_artwork/recipe_000007.jpg",
       "contentOrigin": "adapted",
-      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; three servings are an editorial estimate from the listed quantities.",
+      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; three servings are an editorial estimate from the listed quantities. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
       "ingredients": [
         {
           "id": "octopus",
@@ -550,16 +613,25 @@
     },
     {
       "id": "recipe_000008",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "status": "published",
       "inspirationTitle": "K-On! / Maid Sama!",
+      "animeReferences": [
+        {
+          "workTitle": "K-On!",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
       "prepMinutes": 15,
       "cookMinutes": 15,
       "servings": 2,
       "difficulty": "medium",
       "imageAsset": "assets/recipe_artwork/recipe_000008.jpg",
       "contentOrigin": "adapted",
-      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; two servings are an editorial estimate from the listed quantities.",
+      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; two servings are an editorial estimate from the listed quantities. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
       "ingredients": [
         {
           "id": "steamed_rice",
@@ -627,16 +699,25 @@
     },
     {
       "id": "recipe_000009",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "status": "published",
       "inspirationTitle": "Yuri!!! on ICE / Food Wars!",
+      "animeReferences": [
+        {
+          "workTitle": "Yuri!!! on ICE",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
       "prepMinutes": 10,
       "cookMinutes": 15,
       "servings": 2,
       "difficulty": "easy",
       "imageAsset": "assets/recipe_artwork/recipe_000009.jpg",
       "contentOrigin": "adapted",
-      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; two servings are an editorial estimate from the listed quantities.",
+      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; two servings are an editorial estimate from the listed quantities. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
       "ingredients": [
         {
           "id": "chicken_thigh",
@@ -709,16 +790,25 @@
     },
     {
       "id": "recipe_000010",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "status": "published",
       "inspirationTitle": "Kiki - Consegne a domicilio",
+      "animeReferences": [
+        {
+          "workTitle": "Kiki's Delivery Service",
+          "relation": "verified_appearance",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
       "prepMinutes": 30,
       "cookMinutes": 40,
       "servings": 4,
       "difficulty": "hard",
       "imageAsset": "assets/recipe_artwork/recipe_000010.jpg",
       "contentOrigin": "adapted",
-      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; four servings are an editorial estimate from the listed quantities.",
+      "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; four servings are an editorial estimate from the listed quantities. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
       "ingredients": [
         {
           "id": "pumpkin",
@@ -786,16 +876,25 @@
     },
     {
       "id": "recipe_000011",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "status": "published",
       "inspirationTitle": "Food Wars! (Shokugeki no Souma)",
+      "animeReferences": [
+        {
+          "workTitle": "Food Wars! Shokugeki no Soma",
+          "relation": "verified_appearance",
+          "season": 1,
+          "episode": "7",
+          "chapter": null
+        }
+      ],
       "prepMinutes": 35,
       "cookMinutes": 10,
       "servings": 1,
       "difficulty": "medium",
       "imageAsset": "assets/recipe_artwork/recipe_000011.jpg",
       "contentOrigin": "adapted",
-      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. Source table lists 25 min, but the method itself requires a 30-minute onion tenderizing rest; timing corrected editorially.",
+      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. Source table lists 25 min, but the method itself requires a 30-minute onion tenderizing rest; timing corrected editorially. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
       "ingredients": [
         {
           "id": "beef_steak",
@@ -858,16 +957,25 @@
     },
     {
       "id": "recipe_000012",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "status": "published",
       "inspirationTitle": "Food Wars! (Shokugeki no Souma)",
+      "animeReferences": [
+        {
+          "workTitle": "Food Wars! Shokugeki no Soma",
+          "relation": "verified_appearance",
+          "season": 1,
+          "episode": "1",
+          "chapter": null
+        }
+      ],
       "prepMinutes": 20,
       "cookMinutes": 40,
       "servings": 4,
       "difficulty": "hard",
       "imageAsset": "assets/recipe_artwork/recipe_000012.jpg",
       "contentOrigin": "adapted",
-      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23.",
+      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
       "ingredients": [
         {
           "id": "potatoes",
@@ -935,16 +1043,25 @@
     },
     {
       "id": "recipe_000013",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "status": "published",
       "inspirationTitle": "Persona 5 / Assassination Classroom",
+      "animeReferences": [
+        {
+          "workTitle": "Persona 5",
+          "relation": "recurring_association",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
       "prepMinutes": 15,
       "cookMinutes": 25,
       "servings": 4,
       "difficulty": "easy",
       "imageAsset": "assets/recipe_artwork/recipe_000013.jpg",
       "contentOrigin": "adapted",
-      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23.",
+      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
       "ingredients": [
         {
           "id": "beef_or_pork",
@@ -1003,16 +1120,25 @@
     },
     {
       "id": "recipe_000014",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "status": "published",
       "inspirationTitle": "Angel Beats! / Food Wars!",
+      "animeReferences": [
+        {
+          "workTitle": "Angel Beats!",
+          "relation": "recurring_association",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
       "prepMinutes": 10,
       "cookMinutes": 15,
       "servings": 3,
       "difficulty": "medium",
       "imageAsset": "assets/recipe_artwork/recipe_000014.jpg",
       "contentOrigin": "adapted",
-      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23.",
+      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
       "ingredients": [
         {
           "id": "soft_tofu",
@@ -1081,16 +1207,25 @@
     },
     {
       "id": "recipe_000015",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "status": "published",
       "inspirationTitle": "Demon Slayer (Kimetsu no Yaiba) / Inuyasha",
+      "animeReferences": [
+        {
+          "workTitle": "Demon Slayer: Kimetsu no Yaiba",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
       "prepMinutes": 15,
       "cookMinutes": 20,
       "servings": 4,
       "difficulty": "easy",
       "imageAsset": "assets/recipe_artwork/recipe_000015.jpg",
       "contentOrigin": "adapted",
-      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23.",
+      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
       "ingredients": [
         {
           "id": "thin_beef",
@@ -1154,16 +1289,25 @@
     },
     {
       "id": "recipe_000016",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "status": "published",
       "inspirationTitle": "Haikyuu!! / Food Wars!",
+      "animeReferences": [
+        {
+          "workTitle": "Haikyuu!!",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
       "prepMinutes": 20,
       "cookMinutes": 10,
       "servings": 4,
       "difficulty": "easy",
       "imageAsset": "assets/recipe_artwork/recipe_000016.jpg",
       "contentOrigin": "adapted",
-      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23.",
+      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
       "ingredients": [
         {
           "id": "chicken_thighs",
@@ -1227,16 +1371,25 @@
     },
     {
       "id": "recipe_000017",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "status": "published",
       "inspirationTitle": "Demon Slayer / Pokémon",
+      "animeReferences": [
+        {
+          "workTitle": "Demon Slayer: Kimetsu no Yaiba",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
       "prepMinutes": 5,
       "cookMinutes": 10,
       "servings": 2,
       "difficulty": "easy",
       "imageAsset": "assets/recipe_artwork/recipe_000017.jpg",
       "contentOrigin": "adapted",
-      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23.",
+      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
       "ingredients": [
         {
           "id": "eggs",
@@ -1290,16 +1443,25 @@
     },
     {
       "id": "recipe_000018",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "status": "published",
       "inspirationTitle": "Dragon Ball / La città incantata",
+      "animeReferences": [
+        {
+          "workTitle": "Dragon Ball",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
       "prepMinutes": 75,
       "cookMinutes": 18,
       "servings": 6,
       "difficulty": "medium",
       "imageAsset": "assets/recipe_artwork/recipe_000018.jpg",
       "contentOrigin": "adapted",
-      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. Source table lists 45 min, but the method itself includes a 60-minute proof plus 15–18 minutes steaming; timing corrected editorially.",
+      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. Source table lists 45 min, but the method itself includes a 60-minute proof plus 15–18 minutes steaming; timing corrected editorially. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
       "ingredients": [
         {
           "id": "flour",
@@ -1377,26 +1539,50 @@
     },
     {
       "id": "recipe_000019",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "status": "published",
-      "inspirationTitle": "Naruto / Demon Slayer",
-      "prepMinutes": 15,
-      "cookMinutes": 10,
-      "servings": 4,
-      "difficulty": "easy",
+      "inspirationTitle": "Naruto",
+      "animeReferences": [
+        {
+          "workTitle": "Naruto",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 30,
+      "cookMinutes": 20,
+      "servings": 5,
+      "difficulty": "medium",
       "imageAsset": "assets/recipe_artwork/recipe_000019.jpg",
       "contentOrigin": "adapted",
-      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23.",
+      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. F3G culinary correction 2026-10-25: dough formula replaced with a verified mitarashi-dango structure; anime reference downgraded to inspiration.",
       "ingredients": [
+        {
+          "id": "joshinko",
+          "quantity": 100,
+          "unit": "g"
+        },
         {
           "id": "shiratamako",
           "quantity": 100,
           "unit": "g"
         },
         {
-          "id": "silken_tofu",
-          "quantity": 100,
-          "unit": "g"
+          "id": "warm_water",
+          "quantity": 160,
+          "unit": "ml"
+        },
+        {
+          "id": "glaze_sugar",
+          "quantity": 4,
+          "unit": "tbsp"
+        },
+        {
+          "id": "mirin",
+          "quantity": 2,
+          "unit": "tbsp"
         },
         {
           "id": "soy_sauce",
@@ -1404,57 +1590,72 @@
           "unit": "tbsp"
         },
         {
-          "id": "sugar",
-          "quantity": 2,
-          "unit": "tbsp"
-        },
-        {
-          "id": "mirin",
-          "quantity": 1,
-          "unit": "tbsp"
-        },
-        {
-          "id": "water",
-          "quantity": 100,
+          "id": "glaze_water",
+          "quantity": 160,
           "unit": "ml"
         },
         {
           "id": "cornstarch",
-          "quantity": 1,
+          "quantity": 2,
           "unit": "tbsp"
         }
       ],
       "steps": [
         {
-          "id": "step_1",
-          "timerSeconds": null
+          "id": "make_dough",
+          "timerSeconds": 480
         },
         {
-          "id": "step_2",
-          "timerSeconds": null
+          "id": "shape_dango",
+          "timerSeconds": 600
         },
         {
-          "id": "step_3",
-          "timerSeconds": null
+          "id": "boil_dango",
+          "timerSeconds": 420
         },
         {
-          "id": "step_4",
+          "id": "chill_dango",
+          "timerSeconds": 120
+        },
+        {
+          "id": "skewer_dango",
+          "timerSeconds": 300
+        },
+        {
+          "id": "grill_dango",
+          "timerSeconds": 180
+        },
+        {
+          "id": "make_glaze",
+          "timerSeconds": 360
+        },
+        {
+          "id": "coat_dango",
           "timerSeconds": null
         }
       ]
     },
     {
       "id": "recipe_000020",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "status": "published",
-      "inspirationTitle": "My Hero Academia / Kanon",
-      "prepMinutes": 10,
+      "inspirationTitle": "Kanon",
+      "animeReferences": [
+        {
+          "workTitle": "Kanon",
+          "relation": "recurring_association",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 75,
       "cookMinutes": 20,
       "servings": 4,
       "difficulty": "medium",
       "imageAsset": "assets/recipe_artwork/recipe_000020.jpg",
       "contentOrigin": "adapted",
-      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23.",
+      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. F3G editorial re-audit 2026-10-25: one-hour batter rest added; Kanon taiyaki association promoted to recurring.",
       "ingredients": [
         {
           "id": "flour",
@@ -1489,19 +1690,2914 @@
       ],
       "steps": [
         {
-          "id": "step_1",
+          "id": "make_batter",
+          "timerSeconds": 300
+        },
+        {
+          "id": "rest_batter",
+          "timerSeconds": 3600
+        },
+        {
+          "id": "heat_mould",
+          "timerSeconds": 180
+        },
+        {
+          "id": "fill_mould",
+          "timerSeconds": 180
+        },
+        {
+          "id": "cook_taiyaki",
+          "timerSeconds": 480
+        }
+      ]
+    },
+    {
+      "id": "recipe_000021",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "March Comes in Like a Lion",
+      "animeReferences": [
+        {
+          "workTitle": "March Comes in Like a Lion",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 20,
+      "cookMinutes": 25,
+      "servings": 4,
+      "difficulty": "medium",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3 received 2026-10-25; culinary structure verified and wording rewritten for the app.",
+      "ingredients": [
+        {
+          "id": "beef",
+          "quantity": 450,
+          "unit": "g"
+        },
+        {
+          "id": "tofu",
+          "quantity": 250,
+          "unit": "g"
+        },
+        {
+          "id": "shiitake",
+          "quantity": 200,
+          "unit": "g"
+        },
+        {
+          "id": "enoki",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "id": "scallions",
+          "quantity": 1,
+          "unit": "bunch"
+        },
+        {
+          "id": "napa_cabbage",
+          "quantity": 0.5,
+          "unit": "head"
+        },
+        {
+          "id": "shirataki",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "id": "eggs",
+          "quantity": 4,
+          "unit": null
+        },
+        {
+          "id": "soy_sauce",
+          "quantity": 100,
+          "unit": "ml"
+        },
+        {
+          "id": "mirin",
+          "quantity": 100,
+          "unit": "ml"
+        },
+        {
+          "id": "sake",
+          "quantity": 100,
+          "unit": "ml"
+        },
+        {
+          "id": "sugar",
+          "quantity": 3,
+          "unit": "tbsp"
+        },
+        {
+          "id": "dashi",
+          "quantity": 100,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        {
+          "id": "make_warishita",
+          "timerSeconds": 120
+        },
+        {
+          "id": "prep_components",
+          "timerSeconds": 600
+        },
+        {
+          "id": "sear_beef",
+          "timerSeconds": 120
+        },
+        {
+          "id": "arrange_pot",
           "timerSeconds": null
         },
         {
-          "id": "step_2",
+          "id": "simmer",
+          "timerSeconds": 600
+        },
+        {
+          "id": "serve",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000022",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "A Whisker Away",
+      "animeReferences": [
+        {
+          "workTitle": "A Whisker Away",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 20,
+      "servings": 2,
+      "difficulty": "easy",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3 received 2026-10-25; quantities and technique normalized.",
+      "ingredients": [
+        {
+          "id": "udon",
+          "quantity": 400,
+          "unit": "g"
+        },
+        {
+          "id": "aburaage",
+          "quantity": 2,
+          "unit": "piece"
+        },
+        {
+          "id": "scallion",
+          "quantity": 1,
+          "unit": null
+        },
+        {
+          "id": "kamaboko",
+          "quantity": 6,
+          "unit": "slice"
+        },
+        {
+          "id": "dashi_aburaage",
+          "quantity": 150,
+          "unit": "ml"
+        },
+        {
+          "id": "soy_aburaage",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "sugar",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "mirin_aburaage",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "dashi_broth",
+          "quantity": 600,
+          "unit": "ml"
+        },
+        {
+          "id": "usukuchi",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "mirin_broth",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "salt",
+          "quantity": 0.5,
+          "unit": "tsp"
+        }
+      ],
+      "steps": [
+        {
+          "id": "deoil_aburaage",
+          "timerSeconds": 120
+        },
+        {
+          "id": "simmer_aburaage",
+          "timerSeconds": 600
+        },
+        {
+          "id": "make_broth",
+          "timerSeconds": 300
+        },
+        {
+          "id": "cook_udon",
+          "timerSeconds": 180
+        },
+        {
+          "id": "assemble",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000023",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Food Wars!",
+      "animeReferences": [
+        {
+          "workTitle": "Food Wars! Shokugeki no Soma",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 20,
+      "cookMinutes": 15,
+      "servings": 2,
+      "difficulty": "medium",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3; double-fry wording normalized with safe doneness cues.",
+      "ingredients": [
+        {
+          "id": "pork",
+          "quantity": 350,
+          "unit": "g"
+        },
+        {
+          "id": "salt",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "pepper",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "flour",
+          "quantity": 3,
+          "unit": "tbsp"
+        },
+        {
+          "id": "egg",
+          "quantity": 1,
+          "unit": null
+        },
+        {
+          "id": "panko",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "id": "oil",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "cabbage",
+          "quantity": 0.25,
+          "unit": "head"
+        },
+        {
+          "id": "tonkatsu_sauce",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "lemon",
+          "quantity": 2,
+          "unit": "wedge"
+        }
+      ],
+      "steps": [
+        {
+          "id": "prep_pork",
+          "timerSeconds": 300
+        },
+        {
+          "id": "season_bread",
+          "timerSeconds": 420
+        },
+        {
+          "id": "first_fry",
+          "timerSeconds": 360
+        },
+        {
+          "id": "rest_check",
+          "timerSeconds": 180
+        },
+        {
+          "id": "crisp_finish",
+          "timerSeconds": 60
+        },
+        {
+          "id": "slice_serve",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000024",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Clannad",
+      "animeReferences": [
+        {
+          "workTitle": "Clannad",
+          "relation": "verified_appearance",
+          "season": 1,
+          "episode": "1",
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 120,
+      "cookMinutes": 15,
+      "servings": 8,
+      "difficulty": "medium",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3; timing corrected to include proofing and bench rest.",
+      "ingredients": [
+        {
+          "id": "bread_flour",
+          "quantity": 250,
+          "unit": "g"
+        },
+        {
+          "id": "sugar",
+          "quantity": 30,
+          "unit": "g"
+        },
+        {
+          "id": "yeast",
+          "quantity": 3,
+          "unit": "g"
+        },
+        {
+          "id": "milk",
+          "quantity": 130,
+          "unit": "ml"
+        },
+        {
+          "id": "egg",
+          "quantity": 1,
+          "unit": null
+        },
+        {
+          "id": "butter",
+          "quantity": 30,
+          "unit": "g"
+        },
+        {
+          "id": "salt",
+          "quantity": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "anko",
+          "quantity": 240,
+          "unit": "g"
+        },
+        {
+          "id": "black_sesame",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "steps": [
+        {
+          "id": "mix_knead",
+          "timerSeconds": 720
+        },
+        {
+          "id": "first_proof",
+          "timerSeconds": 3600
+        },
+        {
+          "id": "divide_rest",
+          "timerSeconds": 600
+        },
+        {
+          "id": "fill_shape",
+          "timerSeconds": 600
+        },
+        {
+          "id": "second_proof",
+          "timerSeconds": 1800
+        },
+        {
+          "id": "bake",
+          "timerSeconds": 900
+        }
+      ]
+    },
+    {
+      "id": "recipe_000025",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Food Wars!",
+      "animeReferences": [
+        {
+          "workTitle": "Food Wars! Shokugeki no Soma",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 25,
+      "cookMinutes": 10,
+      "servings": 2,
+      "difficulty": "easy",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3 with timing and texture cues expanded.",
+      "ingredients": [
+        {
+          "id": "ramen_noodles",
+          "quantity": 2,
+          "unit": "portion"
+        },
+        {
+          "id": "ham",
+          "quantity": 4,
+          "unit": "slice"
+        },
+        {
+          "id": "cucumber",
+          "quantity": 0.5,
+          "unit": null
+        },
+        {
+          "id": "egg",
+          "quantity": 1,
+          "unit": null
+        },
+        {
+          "id": "tomatoes",
+          "quantity": 5,
+          "unit": null
+        },
+        {
+          "id": "surimi",
+          "quantity": 50,
+          "unit": "g"
+        },
+        {
+          "id": "bean_sprouts",
+          "quantity": 50,
+          "unit": "g"
+        },
+        {
+          "id": "soy_sauce",
+          "quantity": 4,
+          "unit": "tbsp"
+        },
+        {
+          "id": "rice_vinegar",
+          "quantity": 3,
+          "unit": "tbsp"
+        },
+        {
+          "id": "water",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "sugar",
+          "quantity": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "id": "sesame_oil",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "karashi",
+          "quantity": 0.5,
+          "unit": "tsp"
+        }
+      ],
+      "steps": [
+        {
+          "id": "make_dressing",
+          "timerSeconds": 300
+        },
+        {
+          "id": "make_kinshi",
+          "timerSeconds": 300
+        },
+        {
+          "id": "prep_toppings",
+          "timerSeconds": 420
+        },
+        {
+          "id": "cook_chill_noodles",
+          "timerSeconds": 300
+        },
+        {
+          "id": "plate",
           "timerSeconds": null
         },
         {
-          "id": "step_3",
+          "id": "dress_serve",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000026",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Jujutsu Kaisen",
+      "animeReferences": [
+        {
+          "workTitle": "Jujutsu Kaisen",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "servings": 2,
+      "difficulty": "easy",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3; method expanded and terminology normalized.",
+      "ingredients": [
+        {
+          "id": "koppepan",
+          "quantity": 2,
+          "unit": null
+        },
+        {
+          "id": "yakisoba_noodles",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "id": "pork_belly",
+          "quantity": 50,
+          "unit": "g"
+        },
+        {
+          "id": "onion",
+          "quantity": 0.25,
+          "unit": null
+        },
+        {
+          "id": "cabbage",
+          "quantity": 2,
+          "unit": "leaf"
+        },
+        {
+          "id": "yakisoba_sauce",
+          "quantity": 3,
+          "unit": "tbsp"
+        },
+        {
+          "id": "aonori",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "beni_shoga",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "kewpie",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "steps": [
+        {
+          "id": "sear_pork",
+          "timerSeconds": 180
+        },
+        {
+          "id": "cook_vegetables",
+          "timerSeconds": 180
+        },
+        {
+          "id": "loosen_noodles",
+          "timerSeconds": 120
+        },
+        {
+          "id": "sauce_noodles",
+          "timerSeconds": 120
+        },
+        {
+          "id": "prep_buns",
+          "timerSeconds": 120
+        },
+        {
+          "id": "fill_finish",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000027",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Shakugan no Shana",
+      "animeReferences": [
+        {
+          "workTitle": "Shakugan no Shana",
+          "relation": "recurring_association",
+          "season": 1,
+          "episode": "2",
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 105,
+      "cookMinutes": 15,
+      "servings": 6,
+      "difficulty": "medium",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3; proofing and cookie-crust technique expanded.",
+      "ingredients": [
+        {
+          "id": "bread_flour",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "id": "bread_sugar",
+          "quantity": 15,
+          "unit": "g"
+        },
+        {
+          "id": "yeast",
+          "quantity": 2,
+          "unit": "g"
+        },
+        {
+          "id": "milk",
+          "quantity": 90,
+          "unit": "ml"
+        },
+        {
+          "id": "bread_butter",
+          "quantity": 15,
+          "unit": "g"
+        },
+        {
+          "id": "salt",
+          "quantity": 1,
+          "unit": "pinch"
+        },
+        {
+          "id": "cookie_flour",
+          "quantity": 80,
+          "unit": "g"
+        },
+        {
+          "id": "cookie_butter",
+          "quantity": 30,
+          "unit": "g"
+        },
+        {
+          "id": "cookie_sugar",
+          "quantity": 35,
+          "unit": "g"
+        },
+        {
+          "id": "egg",
+          "quantity": 25,
+          "unit": "g"
+        },
+        {
+          "id": "vanilla",
+          "quantity": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "id": "coating_sugar",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "steps": [
+        {
+          "id": "make_bread_dough",
+          "timerSeconds": 600
+        },
+        {
+          "id": "first_proof",
+          "timerSeconds": 3600
+        },
+        {
+          "id": "make_cookie_dough",
+          "timerSeconds": 1200
+        },
+        {
+          "id": "divide_shape",
+          "timerSeconds": 600
+        },
+        {
+          "id": "coat_score",
+          "timerSeconds": 300
+        },
+        {
+          "id": "final_rest_bake",
+          "timerSeconds": 2100
+        }
+      ]
+    },
+    {
+      "id": "recipe_000028",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "From Up on Poppy Hill",
+      "animeReferences": [
+        {
+          "workTitle": "From Up on Poppy Hill",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 45,
+      "cookMinutes": 15,
+      "servings": 4,
+      "difficulty": "medium",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3; rapid-cooling and frying cues improved.",
+      "ingredients": [
+        {
+          "id": "potatoes",
+          "quantity": 500,
+          "unit": "g"
+        },
+        {
+          "id": "ground_meat",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "id": "onion",
+          "quantity": 0.5,
+          "unit": null
+        },
+        {
+          "id": "butter",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "soy_sauce",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "salt",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "pepper",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "nutmeg",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "flour",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "eggs",
+          "quantity": 2,
+          "unit": null
+        },
+        {
+          "id": "panko",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "id": "oil",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "steps": [
+        {
+          "id": "cook_potatoes",
+          "timerSeconds": 900
+        },
+        {
+          "id": "cook_filling",
+          "timerSeconds": 480
+        },
+        {
+          "id": "mix_cool",
+          "timerSeconds": 1200
+        },
+        {
+          "id": "shape",
+          "timerSeconds": 420
+        },
+        {
+          "id": "bread",
+          "timerSeconds": 420
+        },
+        {
+          "id": "fry",
+          "timerSeconds": 240
+        }
+      ]
+    },
+    {
+      "id": "recipe_000029",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Chainsaw Man",
+      "animeReferences": [
+        {
+          "workTitle": "Chainsaw Man",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 30,
+      "cookMinutes": 45,
+      "servings": 2,
+      "difficulty": "medium",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from Ricettario Vol. 3; title and ambiguous curry-roux quantity corrected.",
+      "ingredients": [
+        {
+          "id": "pork_cutlets",
+          "quantity": 2,
+          "unit": "piece"
+        },
+        {
+          "id": "rice",
+          "quantity": 350,
+          "unit": "g"
+        },
+        {
+          "id": "curry_roux",
+          "quantity": 45,
+          "unit": "g"
+        },
+        {
+          "id": "potato",
+          "quantity": 1,
+          "unit": null
+        },
+        {
+          "id": "carrot",
+          "quantity": 1,
+          "unit": null
+        },
+        {
+          "id": "onion",
+          "quantity": 1,
+          "unit": null
+        },
+        {
+          "id": "water",
+          "quantity": 500,
+          "unit": "ml"
+        },
+        {
+          "id": "oil",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "fukujinzuke",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "steps": [
+        {
+          "id": "cook_rice",
+          "timerSeconds": 1800
+        },
+        {
+          "id": "start_curry",
+          "timerSeconds": 300
+        },
+        {
+          "id": "simmer_vegetables",
+          "timerSeconds": 900
+        },
+        {
+          "id": "add_roux",
+          "timerSeconds": 300
+        },
+        {
+          "id": "cook_tonkatsu",
+          "timerSeconds": 900
+        },
+        {
+          "id": "assemble",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000030",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "K-On!",
+      "animeReferences": [
+        {
+          "workTitle": "K-On!",
+          "relation": "recurring_association",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 160,
+      "cookMinutes": 25,
+      "servings": 8,
+      "difficulty": "medium",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from Ricettario Vol. 3; total elapsed time corrected to include cooling and refrigeration.",
+      "ingredients": [
+        {
+          "id": "eggs",
+          "quantity": 3,
+          "unit": null
+        },
+        {
+          "id": "sugar",
+          "quantity": 90,
+          "unit": "g"
+        },
+        {
+          "id": "flour",
+          "quantity": 90,
+          "unit": "g"
+        },
+        {
+          "id": "butter",
+          "quantity": 20,
+          "unit": "g"
+        },
+        {
+          "id": "milk",
+          "quantity": 15,
+          "unit": "ml"
+        },
+        {
+          "id": "cream",
+          "quantity": 300,
+          "unit": "ml"
+        },
+        {
+          "id": "icing_sugar",
+          "quantity": 35,
+          "unit": "g"
+        },
+        {
+          "id": "strawberries",
+          "quantity": 300,
+          "unit": "g"
+        },
+        {
+          "id": "syrup_water",
+          "quantity": 30,
+          "unit": "ml"
+        },
+        {
+          "id": "syrup_sugar",
+          "quantity": 15,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        {
+          "id": "prep_pan_eggs",
+          "timerSeconds": 600
+        },
+        {
+          "id": "fold_batter",
+          "timerSeconds": 300
+        },
+        {
+          "id": "bake_cool",
+          "timerSeconds": 2700
+        },
+        {
+          "id": "prep_filling",
+          "timerSeconds": 600
+        },
+        {
+          "id": "split_syrup_fill",
+          "timerSeconds": 900
+        },
+        {
+          "id": "frost_decorate",
+          "timerSeconds": 900
+        },
+        {
+          "id": "chill",
+          "timerSeconds": 7200
+        }
+      ]
+    },
+    {
+      "id": "recipe_000031",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Demon Slayer",
+      "animeReferences": [
+        {
+          "workTitle": "Demon Slayer: Kimetsu no Yaiba",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 10,
+      "servings": 2,
+      "difficulty": "easy",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 4; mentsuyu balance and noodle washing clarified.",
+      "ingredients": [
+        {
+          "id": "soba",
+          "quantity": 200,
+          "unit": "g"
+        },
+        {
+          "id": "nori",
+          "quantity": 1,
+          "unit": "sheet"
+        },
+        {
+          "id": "scallion",
+          "quantity": 1,
+          "unit": null
+        },
+        {
+          "id": "wasabi",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "dashi",
+          "quantity": 200,
+          "unit": "ml"
+        },
+        {
+          "id": "soy_sauce",
+          "quantity": 50,
+          "unit": "ml"
+        },
+        {
+          "id": "mirin",
+          "quantity": 50,
+          "unit": "ml"
+        },
+        {
+          "id": "sugar",
+          "quantity": 0.5,
+          "unit": "tsp"
+        }
+      ],
+      "steps": [
+        {
+          "id": "make_mentsuyu",
+          "timerSeconds": 300
+        },
+        {
+          "id": "cook_soba",
+          "timerSeconds": 300
+        },
+        {
+          "id": "wash_chill",
+          "timerSeconds": 180
+        },
+        {
+          "id": "drain_plate",
           "timerSeconds": null
         },
         {
-          "id": "step_4",
+          "id": "serve",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000032",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Dorohedoro",
+      "animeReferences": [
+        {
+          "workTitle": "Dorohedoro",
+          "relation": "recurring_association",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 30,
+      "cookMinutes": 15,
+      "servings": 4,
+      "difficulty": "medium",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from Ricettario Vol. 4; canonical Japanese name corrected and filling/cooking safety clarified.",
+      "ingredients": [
+        {
+          "id": "wrappers",
+          "quantity": 24,
+          "unit": "piece"
+        },
+        {
+          "id": "pork",
+          "quantity": 250,
+          "unit": "g"
+        },
+        {
+          "id": "napa_cabbage",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "id": "scallions",
+          "quantity": 2,
+          "unit": null
+        },
+        {
+          "id": "garlic",
+          "quantity": 1,
+          "unit": "clove"
+        },
+        {
+          "id": "ginger",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "soy_sauce",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "sesame_oil",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "salt",
+          "quantity": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "water",
+          "quantity": 100,
+          "unit": "ml"
+        },
+        {
+          "id": "cornstarch",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "frying_oil",
+          "quantity": 1,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "id": "prep_cabbage_filling",
+          "timerSeconds": 900
+        },
+        {
+          "id": "fold",
+          "timerSeconds": 900
+        },
+        {
+          "id": "brown_bases",
+          "timerSeconds": 180
+        },
+        {
+          "id": "steam",
+          "timerSeconds": 360
+        },
+        {
+          "id": "crisp_wings",
+          "timerSeconds": 120
+        },
+        {
+          "id": "invert_serve",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000033",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "A Whisker Away",
+      "animeReferences": [
+        {
+          "workTitle": "A Whisker Away",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 20,
+      "cookMinutes": 10,
+      "servings": 8,
+      "difficulty": "easy",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from Ricettario Vol. 4; fresh-aburaage path clarified and prepared inari-age kept as simple default.",
+      "ingredients": [
+        {
+          "id": "inari_age",
+          "quantity": 8,
+          "unit": "piece"
+        },
+        {
+          "id": "rice",
+          "quantity": 300,
+          "unit": "g"
+        },
+        {
+          "id": "rice_vinegar",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "sugar",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "salt",
+          "quantity": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "sesame",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "vegetable_mix",
+          "quantity": 1,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "id": "season_rice",
+          "timerSeconds": 300
+        },
+        {
+          "id": "cool_rice",
+          "timerSeconds": 300
+        },
+        {
+          "id": "prepare_pouches",
+          "timerSeconds": 180
+        },
+        {
+          "id": "mix_garnish",
+          "timerSeconds": 120
+        },
+        {
+          "id": "fill",
+          "timerSeconds": 420
+        }
+      ]
+    },
+    {
+      "id": "recipe_000034",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Komi Can't Communicate",
+      "animeReferences": [
+        {
+          "workTitle": "Komi Can't Communicate",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "servings": 2,
+      "difficulty": "easy",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from Ricettario Vol. 4; yoshoku identity and ketchup-cooking technique clarified.",
+      "ingredients": [
+        {
+          "id": "spaghetti",
+          "quantity": 200,
+          "unit": "g"
+        },
+        {
+          "id": "sausages",
+          "quantity": 4,
+          "unit": null
+        },
+        {
+          "id": "onion",
+          "quantity": 0.5,
+          "unit": null
+        },
+        {
+          "id": "green_pepper",
+          "quantity": 0.5,
+          "unit": null
+        },
+        {
+          "id": "mushrooms",
+          "quantity": 4,
+          "unit": null
+        },
+        {
+          "id": "ketchup",
+          "quantity": 5,
+          "unit": "tbsp"
+        },
+        {
+          "id": "milk",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "butter",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "oil",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "parmesan",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "tabasco",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "steps": [
+        {
+          "id": "cook_pasta",
+          "timerSeconds": 600
+        },
+        {
+          "id": "saute_fillings",
+          "timerSeconds": 300
+        },
+        {
+          "id": "cook_ketchup",
+          "timerSeconds": 90
+        },
+        {
+          "id": "toss",
+          "timerSeconds": 120
+        },
+        {
+          "id": "finish",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000035",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Spy x Family",
+      "animeReferences": [
+        {
+          "workTitle": "Spy x Family",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 15,
+      "servings": 2,
+      "difficulty": "medium",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from Ricettario Vol. 4; workflow made standalone instead of silently requiring a pre-cooked tonkatsu.",
+      "ingredients": [
+        {
+          "id": "shokupan",
+          "quantity": 4,
+          "unit": "slice"
+        },
+        {
+          "id": "pork",
+          "quantity": 300,
+          "unit": "g"
+        },
+        {
+          "id": "flour",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "egg",
+          "quantity": 1,
+          "unit": null
+        },
+        {
+          "id": "panko",
+          "quantity": 80,
+          "unit": "g"
+        },
+        {
+          "id": "cabbage",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "id": "kewpie",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "tonkatsu_sauce",
+          "quantity": 3,
+          "unit": "tbsp"
+        },
+        {
+          "id": "butter",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "oil",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "steps": [
+        {
+          "id": "bread_pork",
+          "timerSeconds": 360
+        },
+        {
+          "id": "fry_rest",
+          "timerSeconds": 600
+        },
+        {
+          "id": "prep_bread",
+          "timerSeconds": 120
+        },
+        {
+          "id": "sauce_stack",
+          "timerSeconds": 180
+        },
+        {
+          "id": "press",
+          "timerSeconds": 300
+        },
+        {
+          "id": "trim_slice",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000036",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Gintama",
+      "animeReferences": [
+        {
+          "workTitle": "Gintama",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 20,
+      "cookMinutes": 15,
+      "servings": 2,
+      "difficulty": "medium",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from Ricettario Vol. 4; tare handling and safe glazing sequence expanded.",
+      "ingredients": [
+        {
+          "id": "chicken_thigh",
+          "quantity": 300,
+          "unit": "g"
+        },
+        {
+          "id": "scallions",
+          "quantity": 2,
+          "unit": null
+        },
+        {
+          "id": "soy_sauce",
+          "quantity": 80,
+          "unit": "ml"
+        },
+        {
+          "id": "mirin",
+          "quantity": 60,
+          "unit": "ml"
+        },
+        {
+          "id": "sake",
+          "quantity": 30,
+          "unit": "ml"
+        },
+        {
+          "id": "brown_sugar",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "garlic",
+          "quantity": 1,
+          "unit": "clove"
+        }
+      ],
+      "steps": [
+        {
+          "id": "make_tare",
+          "timerSeconds": 720
+        },
+        {
+          "id": "prep_skewers",
+          "timerSeconds": 600
+        },
+        {
+          "id": "assemble",
+          "timerSeconds": 300
+        },
+        {
+          "id": "grill_first",
+          "timerSeconds": 600
+        },
+        {
+          "id": "glaze_finish",
+          "timerSeconds": 180
+        }
+      ]
+    },
+    {
+      "id": "recipe_000037",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Fruits Basket",
+      "animeReferences": [
+        {
+          "workTitle": "Fruits Basket",
+          "relation": "recurring_association",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 20,
+      "servings": 2,
+      "difficulty": "easy",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from Ricettario Vol. 4; regional identity clarified and mochi safety cues added.",
+      "ingredients": [
+        {
+          "id": "kirimochi",
+          "quantity": 2,
+          "unit": "piece"
+        },
+        {
+          "id": "chicken",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "id": "carrot",
+          "quantity": 0.5,
+          "unit": null
+        },
+        {
+          "id": "shiitake",
+          "quantity": 2,
+          "unit": null
+        },
+        {
+          "id": "komatsuna",
+          "quantity": 50,
+          "unit": "g"
+        },
+        {
+          "id": "dashi",
+          "quantity": 500,
+          "unit": "ml"
+        },
+        {
+          "id": "usukuchi",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "mirin",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "salt",
+          "quantity": 0.5,
+          "unit": "tsp"
+        }
+      ],
+      "steps": [
+        {
+          "id": "prep_garnishes",
+          "timerSeconds": 420
+        },
+        {
+          "id": "grill_mochi",
+          "timerSeconds": 360
+        },
+        {
+          "id": "season_broth",
+          "timerSeconds": 180
+        },
+        {
+          "id": "cook_chicken_veg",
+          "timerSeconds": 480
+        },
+        {
+          "id": "assemble",
+          "timerSeconds": null
+        },
+        {
+          "id": "serve_safely",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000038",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "My Neighbor Totoro",
+      "animeReferences": [
+        {
+          "workTitle": "My Neighbor Totoro",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 0,
+      "servings": 2,
+      "difficulty": "easy",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from Ricettario Vol. 4; authentic shaved-ice texture distinguished from crushed blender ice.",
+      "ingredients": [
+        {
+          "id": "ice",
+          "quantity": 500,
+          "unit": "g"
+        },
+        {
+          "id": "syrup",
+          "quantity": 4,
+          "unit": "tbsp"
+        },
+        {
+          "id": "condensed_milk",
+          "quantity": 3,
+          "unit": "tbsp"
+        },
+        {
+          "id": "anko",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "shiratama",
+          "quantity": 6,
+          "unit": "piece"
+        }
+      ],
+      "steps": [
+        {
+          "id": "prep_ice",
+          "timerSeconds": 180
+        },
+        {
+          "id": "shave",
+          "timerSeconds": 180
+        },
+        {
+          "id": "shape",
+          "timerSeconds": 120
+        },
+        {
+          "id": "syrup",
+          "timerSeconds": null
+        },
+        {
+          "id": "finish",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000039",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Fruits Basket",
+      "animeReferences": [
+        {
+          "workTitle": "Fruits Basket",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 25,
+      "cookMinutes": 5,
+      "servings": 6,
+      "difficulty": "medium",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from Ricettario Vol. 4; hot-mochi handling and freshness guidance expanded.",
+      "ingredients": [
+        {
+          "id": "strawberries",
+          "quantity": 6,
+          "unit": null
+        },
+        {
+          "id": "anko",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "id": "shiratamako",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "id": "sugar",
+          "quantity": 50,
+          "unit": "g"
+        },
+        {
+          "id": "water",
+          "quantity": 120,
+          "unit": "ml"
+        },
+        {
+          "id": "starch",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "steps": [
+        {
+          "id": "prep_berries",
+          "timerSeconds": 420
+        },
+        {
+          "id": "mix_mochi",
+          "timerSeconds": 180
+        },
+        {
+          "id": "microwave",
+          "timerSeconds": 180
+        },
+        {
+          "id": "dust_divide",
+          "timerSeconds": 300
+        },
+        {
+          "id": "wrap",
+          "timerSeconds": 600
+        },
+        {
+          "id": "finish_store",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000040",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "K-On!",
+      "animeReferences": [
+        {
+          "workTitle": "K-On!",
+          "relation": "recurring_association",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 90,
+      "cookMinutes": 12,
+      "servings": 8,
+      "difficulty": "medium",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from Ricettario Vol. 4; rolling, cooling and refrigeration timing corrected.",
+      "ingredients": [
+        {
+          "id": "eggs",
+          "quantity": 4,
+          "unit": null
+        },
+        {
+          "id": "sugar",
+          "quantity": 70,
+          "unit": "g"
+        },
+        {
+          "id": "flour",
+          "quantity": 50,
+          "unit": "g"
+        },
+        {
+          "id": "matcha",
+          "quantity": 10,
+          "unit": "g"
+        },
+        {
+          "id": "milk",
+          "quantity": 40,
+          "unit": "ml"
+        },
+        {
+          "id": "oil",
+          "quantity": 30,
+          "unit": "ml"
+        },
+        {
+          "id": "cream",
+          "quantity": 200,
+          "unit": "ml"
+        },
+        {
+          "id": "icing_sugar",
+          "quantity": 25,
+          "unit": "g"
+        },
+        {
+          "id": "anko",
+          "quantity": 2,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "id": "make_yolk_batter",
+          "timerSeconds": 300
+        },
+        {
+          "id": "whip_meringue",
+          "timerSeconds": 480
+        },
+        {
+          "id": "fold",
+          "timerSeconds": 300
+        },
+        {
+          "id": "bake",
+          "timerSeconds": 720
+        },
+        {
+          "id": "pre_roll_cool",
+          "timerSeconds": 1800
+        },
+        {
+          "id": "fill_roll_chill",
+          "timerSeconds": 3600
+        }
+      ]
+    },
+    {
+      "id": "recipe_000041",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Food Wars! Shokugeki no Soma",
+      "animeReferences": [
+        {
+          "workTitle": "Food Wars! Shokugeki no Soma",
+          "relation": "verified_appearance",
+          "season": 1,
+          "episode": "13–14",
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 15,
+      "servings": 2,
+      "difficulty": "medium",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from Ricettario Vol. 5; sauce corrected toward the anime-associated tomato presentation and egg-cooking cues expanded.",
+      "ingredients": [
+        {
+          "id": "eggs",
+          "quantity": 4,
+          "unit": null
+        },
+        {
+          "id": "cream",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "butter",
+          "quantity": 15,
+          "unit": "g"
+        },
+        {
+          "id": "salt",
+          "quantity": 1,
+          "unit": "pinch"
+        },
+        {
+          "id": "white_pepper",
+          "quantity": 1,
+          "unit": "pinch"
+        },
+        {
+          "id": "chives",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "tomato_passata",
+          "quantity": 150,
+          "unit": "ml"
+        },
+        {
+          "id": "ketchup",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "stock",
+          "quantity": 50,
+          "unit": "ml"
+        },
+        {
+          "id": "olive_oil",
+          "quantity": 1,
+          "unit": "tsp"
+        }
+      ],
+      "steps": [
+        {
+          "id": "make_tomato_sauce",
+          "timerSeconds": 480
+        },
+        {
+          "id": "separate_eggs",
+          "timerSeconds": 180
+        },
+        {
+          "id": "whip_whites",
+          "timerSeconds": 300
+        },
+        {
+          "id": "fold",
+          "timerSeconds": 180
+        },
+        {
+          "id": "cook_covered",
+          "timerSeconds": 360
+        },
+        {
+          "id": "fold_serve",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000042",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Today's Menu for the Emiya Family",
+      "animeReferences": [
+        {
+          "workTitle": "Today's Menu for the Emiya Family",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 20,
+      "cookMinutes": 20,
+      "servings": 2,
+      "difficulty": "medium",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from Ricettario Vol. 5; corrected against Nagasaki regional-cuisine guidance.",
+      "ingredients": [
+        {
+          "id": "champon_noodles",
+          "quantity": 2,
+          "unit": "portion"
+        },
+        {
+          "id": "pork",
+          "quantity": 80,
+          "unit": "g"
+        },
+        {
+          "id": "shrimp",
+          "quantity": 80,
+          "unit": "g"
+        },
+        {
+          "id": "squid",
+          "quantity": 80,
+          "unit": "g"
+        },
+        {
+          "id": "cabbage",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "id": "carrot",
+          "quantity": 30,
+          "unit": "g"
+        },
+        {
+          "id": "bean_sprouts",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "id": "kamaboko",
+          "quantity": 30,
+          "unit": "g"
+        },
+        {
+          "id": "shiitake",
+          "quantity": 2,
+          "unit": null
+        },
+        {
+          "id": "oil",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "water",
+          "quantity": 400,
+          "unit": "ml"
+        },
+        {
+          "id": "chicken_stock",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "oyster_sauce",
+          "quantity": 2,
+          "unit": "tsp"
+        },
+        {
+          "id": "sake",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "sugar",
+          "quantity": 0.5,
+          "unit": "tbsp"
+        },
+        {
+          "id": "salt",
+          "quantity": 0.5,
+          "unit": "tsp"
+        }
+      ],
+      "steps": [
+        {
+          "id": "prep",
+          "timerSeconds": 600
+        },
+        {
+          "id": "mix_soup",
+          "timerSeconds": 120
+        },
+        {
+          "id": "stir_fry_proteins",
+          "timerSeconds": 180
+        },
+        {
+          "id": "stir_fry_veg",
+          "timerSeconds": 180
+        },
+        {
+          "id": "simmer_soup",
+          "timerSeconds": 300
+        },
+        {
+          "id": "add_noodles",
+          "timerSeconds": 240
+        }
+      ]
+    },
+    {
+      "id": "recipe_000043",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Demon Slayer",
+      "animeReferences": [
+        {
+          "workTitle": "Demon Slayer: Kimetsu no Yaiba",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "servings": 2,
+      "difficulty": "easy",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from Ricettario Vol. 5; miso terminology and heat explanation corrected.",
+      "ingredients": [
+        {
+          "id": "dashi",
+          "quantity": 500,
+          "unit": "ml"
+        },
+        {
+          "id": "miso",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "silken_tofu",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "id": "wakame",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "scallions",
+          "quantity": 2,
+          "unit": null
+        }
+      ],
+      "steps": [
+        {
+          "id": "rehydrate_wakame",
+          "timerSeconds": 300
+        },
+        {
+          "id": "heat_dashi",
+          "timerSeconds": 300
+        },
+        {
+          "id": "warm_tofu",
+          "timerSeconds": 120
+        },
+        {
+          "id": "dissolve_miso",
+          "timerSeconds": 180
+        },
+        {
+          "id": "finish",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000044",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Gintama",
+      "animeReferences": [
+        {
+          "workTitle": "Gintama",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 210,
+      "cookMinutes": 30,
+      "servings": 4,
+      "difficulty": "medium",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from Ricettario Vol. 5; custard temperature, bain-marie and chilling cues expanded.",
+      "ingredients": [
+        {
+          "id": "caramel_sugar",
+          "quantity": 50,
+          "unit": "g"
+        },
+        {
+          "id": "cold_water",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "hot_water",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "milk",
+          "quantity": 300,
+          "unit": "ml"
+        },
+        {
+          "id": "eggs",
+          "quantity": 2,
+          "unit": null
+        },
+        {
+          "id": "yolk",
+          "quantity": 1,
+          "unit": null
+        },
+        {
+          "id": "custard_sugar",
+          "quantity": 50,
+          "unit": "g"
+        },
+        {
+          "id": "vanilla",
+          "quantity": 1,
+          "unit": "tsp"
+        }
+      ],
+      "steps": [
+        {
+          "id": "make_caramel",
+          "timerSeconds": 480
+        },
+        {
+          "id": "warm_milk",
+          "timerSeconds": 300
+        },
+        {
+          "id": "mix_eggs",
+          "timerSeconds": 180
+        },
+        {
+          "id": "temper_filter",
+          "timerSeconds": 300
+        },
+        {
+          "id": "bain_marie",
+          "timerSeconds": 1800
+        },
+        {
+          "id": "cool_chill",
+          "timerSeconds": 10800
+        },
+        {
+          "id": "unmould",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000045",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "My Hero Academia",
+      "animeReferences": [
+        {
+          "workTitle": "My Hero Academia",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 20,
+      "cookMinutes": 10,
+      "servings": 2,
+      "difficulty": "medium",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from Ricettario Vol. 5; straightening, tail preparation and oil-temperature recovery expanded.",
+      "ingredients": [
+        {
+          "id": "shrimp",
+          "quantity": 8,
+          "unit": null
+        },
+        {
+          "id": "flour",
+          "quantity": 3,
+          "unit": "tbsp"
+        },
+        {
+          "id": "egg",
+          "quantity": 1,
+          "unit": null
+        },
+        {
+          "id": "panko",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "id": "salt",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "pepper",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "oil",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "cabbage",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "id": "lemon",
+          "quantity": 2,
+          "unit": "wedge"
+        },
+        {
+          "id": "tartar",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "steps": [
+        {
+          "id": "clean_shrimp",
+          "timerSeconds": 420
+        },
+        {
+          "id": "straighten",
+          "timerSeconds": 300
+        },
+        {
+          "id": "dry_season",
+          "timerSeconds": 120
+        },
+        {
+          "id": "bread",
+          "timerSeconds": 360
+        },
+        {
+          "id": "fry",
+          "timerSeconds": 240
+        },
+        {
+          "id": "drain_serve",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000046",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "K-On!",
+      "animeReferences": [
+        {
+          "workTitle": "K-On!",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 10,
+      "servings": 2,
+      "difficulty": "easy",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from Ricettario Vol. 5; naming re-audited against Japanese culinary sources: Isobeyaki and Isobe-maki are both attested.",
+      "ingredients": [
+        {
+          "id": "kirimochi",
+          "quantity": 4,
+          "unit": "piece"
+        },
+        {
+          "id": "soy_sauce",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "sugar",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "nori",
+          "quantity": 2,
+          "unit": "sheet"
+        }
+      ],
+      "steps": [
+        {
+          "id": "make_sauce",
+          "timerSeconds": 60
+        },
+        {
+          "id": "toast_first_side",
+          "timerSeconds": 300
+        },
+        {
+          "id": "toast_second_side",
+          "timerSeconds": 180
+        },
+        {
+          "id": "coat",
+          "timerSeconds": 60
+        },
+        {
+          "id": "wrap_serve",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000047",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Food Wars!",
+      "animeReferences": [
+        {
+          "workTitle": "Food Wars! Shokugeki no Soma",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "servings": 2,
+      "difficulty": "easy",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from Ricettario Vol. 5; normalized as Sanshoku Soboro Don and chicken/egg curd technique expanded.",
+      "ingredients": [
+        {
+          "id": "rice",
+          "quantity": 500,
+          "unit": "g"
+        },
+        {
+          "id": "ground_chicken",
+          "quantity": 225,
+          "unit": "g"
+        },
+        {
+          "id": "ginger",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "soy_sauce",
+          "quantity": 2.5,
+          "unit": "tbsp"
+        },
+        {
+          "id": "mirin",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "sake",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "meat_sugar",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "eggs",
+          "quantity": 3,
+          "unit": null
+        },
+        {
+          "id": "egg_sugar",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "egg_salt",
+          "quantity": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "id": "peas",
+          "quantity": 2,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        {
+          "id": "season_chicken_cold",
+          "timerSeconds": 120
+        },
+        {
+          "id": "cook_chicken",
+          "timerSeconds": 480
+        },
+        {
+          "id": "mix_eggs",
+          "timerSeconds": 120
+        },
+        {
+          "id": "cook_egg_soboro",
+          "timerSeconds": 300
+        },
+        {
+          "id": "prep_green",
+          "timerSeconds": 180
+        },
+        {
+          "id": "assemble",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000048",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Today's Menu for the Emiya Family",
+      "animeReferences": [
+        {
+          "workTitle": "Today's Menu for the Emiya Family",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 20,
+      "cookMinutes": 15,
+      "servings": 2,
+      "difficulty": "medium",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from Ricettario Vol. 5; ratio aligned to tested chawanmushi guidance and filling pre-cooking made explicit.",
+      "ingredients": [
+        {
+          "id": "eggs",
+          "quantity": 2,
+          "unit": null
+        },
+        {
+          "id": "dashi",
+          "quantity": 250,
+          "unit": "ml"
+        },
+        {
+          "id": "usukuchi",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "mirin",
+          "quantity": 1,
+          "unit": "tsp"
+        },
+        {
+          "id": "salt",
+          "quantity": 1,
+          "unit": "pinch"
+        },
+        {
+          "id": "shrimp",
+          "quantity": 4,
+          "unit": null
+        },
+        {
+          "id": "chicken",
+          "quantity": 50,
+          "unit": "g"
+        },
+        {
+          "id": "shiitake",
+          "quantity": 2,
+          "unit": null
+        },
+        {
+          "id": "kamaboko",
+          "quantity": 4,
+          "unit": "slice"
+        },
+        {
+          "id": "mitsuba",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "steps": [
+        {
+          "id": "prep_fillings",
+          "timerSeconds": 420
+        },
+        {
+          "id": "mix_seasoned_dashi",
+          "timerSeconds": 120
+        },
+        {
+          "id": "mix_eggs",
+          "timerSeconds": 120
+        },
+        {
+          "id": "strain_fill",
+          "timerSeconds": 300
+        },
+        {
+          "id": "steam",
+          "timerSeconds": 720
+        },
+        {
+          "id": "check_finish",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000049",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Ranma ½",
+      "animeReferences": [
+        {
+          "workTitle": "Ranma ½",
+          "relation": "inspired",
+          "season": null,
+          "episode": null,
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 30,
+      "cookMinutes": 5,
+      "servings": 8,
+      "difficulty": "medium",
+      "imageAsset": null,
+      "contentOrigin": "adapted",
+      "sourceNote": "Editorial rebuild from Ricettario Vol. 5; corrected toward common Children’s Day kashiwa mochi method with joshinko and commercially prepared kashiwa leaves.",
+      "ingredients": [
+        {
+          "id": "joshinko",
+          "quantity": 200,
+          "unit": "g"
+        },
+        {
+          "id": "sugar",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "id": "water",
+          "quantity": 270,
+          "unit": "ml"
+        },
+        {
+          "id": "anko",
+          "quantity": 200,
+          "unit": "g"
+        },
+        {
+          "id": "kashiwa_leaves",
+          "quantity": 8,
+          "unit": "piece"
+        }
+      ],
+      "steps": [
+        {
+          "id": "prep_leaves_filling",
+          "timerSeconds": 600
+        },
+        {
+          "id": "mix_dough",
+          "timerSeconds": 180
+        },
+        {
+          "id": "cook_mochi",
+          "timerSeconds": 240
+        },
+        {
+          "id": "knead",
+          "timerSeconds": 300
+        },
+        {
+          "id": "shape_fill",
+          "timerSeconds": 600
+        },
+        {
+          "id": "wrap_serve",
+          "timerSeconds": null
+        }
+      ]
+    },
+    {
+      "id": "recipe_000050",
+      "contentVersion": 1,
+      "status": "published",
+      "inspirationTitle": "Gintama",
+      "animeReferences": [
+        {
+          "workTitle": "Gintama",
+          "relation": "verified_appearance",
+          "season": 3,
+          "episode": "40 (139 overall)",
+          "chapter": null
+        }
+      ],
+      "prepMinutes": 20,
+      "cookMinutes": 0,
+      "servings": 2,
+      "difficulty": "easy",
+      "imageAsset": null,
+      "contentOrigin": "inspired",
+      "sourceNote": "Editorial reconstruction from Ricettario Vol. 5; marked inspired because the oversized anime-style composition is an app variation of real Japanese fruit parfait.",
+      "ingredients": [
+        {
+          "id": "vanilla_ice_cream",
+          "quantity": 4,
+          "unit": "scoop"
+        },
+        {
+          "id": "matcha_ice_cream",
+          "quantity": 2,
+          "unit": "scoop"
+        },
+        {
+          "id": "cream",
+          "quantity": 200,
+          "unit": "ml"
+        },
+        {
+          "id": "cornflakes",
+          "quantity": 50,
+          "unit": "g"
+        },
+        {
+          "id": "strawberries",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "id": "banana",
+          "quantity": 1,
+          "unit": null
+        },
+        {
+          "id": "blueberries",
+          "quantity": 50,
+          "unit": "g"
+        },
+        {
+          "id": "pocky",
+          "quantity": 4,
+          "unit": "piece"
+        },
+        {
+          "id": "wafers",
+          "quantity": 2,
+          "unit": "piece"
+        },
+        {
+          "id": "syrup",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "id": "cherries",
+          "quantity": 2,
+          "unit": null
+        }
+      ],
+      "steps": [
+        {
+          "id": "chill_glasses",
+          "timerSeconds": 300
+        },
+        {
+          "id": "whip_cream",
+          "timerSeconds": 300
+        },
+        {
+          "id": "prep_fruit",
+          "timerSeconds": 300
+        },
+        {
+          "id": "build_base",
+          "timerSeconds": 120
+        },
+        {
+          "id": "layer",
+          "timerSeconds": 180
+        },
+        {
+          "id": "finish_serve",
           "timerSeconds": null
         }
       ]

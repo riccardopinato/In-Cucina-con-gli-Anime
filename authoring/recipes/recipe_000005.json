@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000005",
-  "contentVersion": 1,
+  "contentVersion": 2,
   "status": "published",
   "inspirationTitle": "La città incantata / Pokémon",
   "prepMinutes": 15,
@@ -9,7 +9,7 @@
   "servings": 2,
   "difficulty": "easy",
   "contentOrigin": "adapted",
-  "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source gives no yield; two servings are an editorial estimate. The rice also rests for 10 minutes after cooking, retained in the step text because the runtime model has no separate rest-time field.",
+  "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source gives no yield; two servings are an editorial estimate. The rice also rests for 10 minutes after cooking, retained in the step text because the runtime model has no separate rest-time field. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
   "imageAssetId": "recipe_000005_artwork",
   "ingredients": [
     {
@@ -104,12 +104,14 @@
         }
       },
       "steps": {
-        "wash_cook_rice": "Rinse the rice several times until the water runs much clearer. Cook it with the measured water, covered, over low heat.",
-        "rest_rice": "Turn off the heat and leave the rice covered for 10 minutes before shaping.",
-        "make_filling": "Mix the drained tuna with the Japanese mayonnaise and a small pinch of salt.",
-        "fill_shape": "Moisten and lightly salt your hands. Flatten a portion of warm rice, add a little tuna filling in the centre, cover with more rice and shape into a compact triangle.",
-        "finish_nori": "Wrap a strip of nori around the base. Add sesame or furikake if desired and serve while the rice is still pleasantly warm."
-      }
+        "wash_cook_rice": "Rinse the rice several times until the water runs much clearer. Cook it with the measured water, covered, over low heat. After rinsing, drain the rice for a few minutes before cooking so the measured water stays accurate; once boiling, keep the lid closed and avoid stirring.",
+        "rest_rice": "Turn off the heat and leave the rice covered for 10 minutes before shaping. Fluff gently after the rest and let steam escape for 2–3 minutes; shape while warm, not piping hot, so it binds without burning your hands.",
+        "make_filling": "Mix the drained tuna with the Japanese mayonnaise and a small pinch of salt. Break the tuna into small flakes and add mayonnaise gradually; the mixture should hold together on a spoon without liquid pooling at the bottom.",
+        "fill_shape": "Moisten and lightly salt your hands. Flatten a portion of warm rice, add a little tuna filling in the centre, cover with more rice and shape into a compact triangle. Use roughly equal portions for each onigiri and press only enough to hold the grains together; squeezing hard makes the rice dense and pasty.",
+        "finish_nori": "Wrap a strip of nori around the base. Add sesame or furikake if desired and serve while the rice is still pleasantly warm. Add nori immediately for a soft wrapped texture, or only at the table if you want it crisp; refrigerate tuna-filled leftovers promptly."
+      },
+      "description": "Hand-shaped Japanese rice balls with a creamy tuna-mayo centre and crisp nori at the base. The rice must be freshly cooked and warm enough to bind, while the filling should be cool and well drained so the onigiri stays compact instead of becoming wet.",
+      "animeContext": "Spirited Away directly shows Haku giving Chihiro onigiri in an important scene. The film does not establish tuna-mayo filling, so that part is explicitly the app's everyday Japanese variation."
     },
     "it": {
       "title": "Onigiri al tonno e maionese",
@@ -144,12 +146,14 @@
         }
       },
       "steps": {
-        "wash_cook_rice": "Sciacqua il riso più volte finché l’acqua diventa molto più limpida. Cuocilo con la quantità misurata di acqua, coperto e a fuoco basso.",
-        "rest_rice": "Spegni il fuoco e lascia riposare il riso coperto per 10 minuti prima di modellarlo.",
-        "make_filling": "Mescola il tonno ben sgocciolato con la maionese giapponese e un piccolo pizzico di sale.",
-        "fill_shape": "Inumidisci e sala appena le mani. Appiattisci una porzione di riso tiepido, metti un po’ di ripieno al centro, copri con altro riso e forma un triangolo compatto.",
-        "finish_nori": "Avvolgi una striscia di nori intorno alla base. Aggiungi sesamo o furikake se vuoi e servi mentre il riso è ancora piacevolmente tiepido."
-      }
+        "wash_cook_rice": "Sciacqua il riso più volte finché l’acqua diventa molto più limpida. Cuocilo con la quantità misurata di acqua, coperto e a fuoco basso. Dopo il risciacquo lascia scolare il riso qualche minuto prima di cuocerlo, così la quantità d’acqua resta precisa; una volta iniziata la cottura non sollevare il coperchio e non mescolare.",
+        "rest_rice": "Spegni il fuoco e lascia riposare il riso coperto per 10 minuti prima di modellarlo. Dopo il riposo sgrana delicatamente e lascia uscire il vapore 2–3 minuti; modella il riso quando è caldo ma non ustionante, così lega senza bruciare le mani.",
+        "make_filling": "Mescola il tonno ben sgocciolato con la maionese giapponese e un piccolo pizzico di sale. Sbriciola il tonno finemente e aggiungi la maionese poco alla volta: il composto deve restare compatto sul cucchiaio senza liquido sul fondo.",
+        "fill_shape": "Inumidisci e sala appena le mani. Appiattisci una porzione di riso tiepido, metti un po’ di ripieno al centro, copri con altro riso e forma un triangolo compatto. Usa porzioni simili per ogni onigiri e premi solo quanto basta a tenere uniti i chicchi: comprimere troppo rende il riso denso e pastoso.",
+        "finish_nori": "Avvolgi una striscia di nori intorno alla base. Aggiungi sesamo o furikake se vuoi e servi mentre il riso è ancora piacevolmente tiepido. Aggiungi il nori subito se lo preferisci morbido e aderente, oppure solo a tavola se lo vuoi croccante; conserva rapidamente in frigorifero eventuali onigiri al tonno avanzati."
+      },
+      "description": "Polpette di riso giapponesi modellate a mano, con cuore cremoso di tonno e maionese e nori croccante alla base. Il riso deve essere appena cotto e ancora abbastanza caldo da legare, mentre il ripieno va tenuto fresco e ben sgocciolato per non bagnare la struttura.",
+      "animeContext": "La città incantata mostra direttamente Haku che offre onigiri a Chihiro in una scena importante. Il film non stabilisce un ripieno tonno-maionese: quella parte è dichiaratamente la variante quotidiana scelta dall’app."
     },
     "es": {
       "title": "Onigiri de atún y mayonesa",
@@ -184,12 +188,14 @@
         }
       },
       "steps": {
-        "wash_cook_rice": "Lava el arroz varias veces hasta que el agua salga mucho más clara. Cuécelo tapado con el agua medida a fuego bajo.",
-        "rest_rice": "Apaga el fuego y deja reposar el arroz tapado durante 10 minutos.",
-        "make_filling": "Mezcla el atún escurrido con la mayonesa japonesa y una pequeña pizca de sal.",
-        "fill_shape": "Humedece y sala ligeramente las manos. Aplana una porción de arroz tibio, añade relleno en el centro, cubre con más arroz y forma un triángulo compacto.",
-        "finish_nori": "Coloca una tira de nori en la base. Añade sésamo o furikake si quieres y sirve con el arroz todavía templado."
-      }
+        "wash_cook_rice": "Lava el arroz varias veces hasta que el agua salga mucho más clara. Cuécelo tapado con el agua medida a fuego bajo. Tras enjuagar, deja escurrir unos minutos para no alterar el agua medida; durante la cocción no levantes la tapa ni remuevas.",
+        "rest_rice": "Apaga el fuego y deja reposar el arroz tapado durante 10 minutos. Tras el reposo airea suavemente y deja salir vapor 2–3 minutos; forma cuando esté caliente pero manejable.",
+        "make_filling": "Mezcla el atún escurrido con la mayonesa japonesa y una pequeña pizca de sal. Desmenuza el atún y añade mayonesa poco a poco; debe mantenerse compacto sin líquido en el fondo.",
+        "fill_shape": "Humedece y sala ligeramente las manos. Aplana una porción de arroz tibio, añade relleno en el centro, cubre con más arroz y forma un triángulo compacto. Usa porciones iguales y presiona solo lo necesario; apretar demasiado vuelve el arroz denso.",
+        "finish_nori": "Coloca una tira de nori en la base. Añade sésamo o furikake si quieres y sirve con el arroz todavía templado. Añade nori al momento para que quede crujiente o antes si lo prefieres blando; refrigera pronto las sobras con atún."
+      },
+      "description": "Bolas de arroz japonesas hechas a mano con relleno cremoso de atún y mayonesa y nori crujiente. El arroz debe estar recién hecho y el relleno frío y bien escurrido.",
+      "animeContext": "Spirited Away muestra directamente a Haku dando onigiri a Chihiro. La película no establece relleno de atún y mayonesa; esa parte es una variante de la app."
     },
     "fr": {
       "title": "Onigiri au thon et à la mayonnaise",
@@ -224,12 +230,14 @@
         }
       },
       "steps": {
-        "wash_cook_rice": "Rincez plusieurs fois le riz jusqu’à ce que l’eau soit nettement plus claire. Faites-le cuire à couvert avec l’eau mesurée, à feu doux.",
-        "rest_rice": "Coupez le feu et laissez le riz reposer 10 minutes à couvert.",
-        "make_filling": "Mélangez le thon égoutté avec la mayonnaise japonaise et une petite pincée de sel.",
-        "fill_shape": "Humidifiez et salez légèrement vos mains. Aplatissez une portion de riz tiède, ajoutez un peu de farce au centre, recouvrez de riz et formez un triangle compact.",
-        "finish_nori": "Placez une bande de nori à la base. Ajoutez du sésame ou du furikake si souhaité et servez le riz encore tiède."
-      }
+        "wash_cook_rice": "Rincez plusieurs fois le riz jusqu’à ce que l’eau soit nettement plus claire. Faites-le cuire à couvert avec l’eau mesurée, à feu doux. Après rinçage, laissez égoutter quelques minutes pour respecter la quantité d’eau; ne soulevez pas le couvercle pendant la cuisson.",
+        "rest_rice": "Coupez le feu et laissez le riz reposer 10 minutes à couvert. Après repos, aérez doucement et laissez la vapeur sortir 2–3 minutes; façonnez chaud mais manipulable.",
+        "make_filling": "Mélangez le thon égoutté avec la mayonnaise japonaise et une petite pincée de sel. Émiettez le thon et ajoutez la mayonnaise progressivement; la farce doit tenir sans liquide au fond.",
+        "fill_shape": "Humidifiez et salez légèrement vos mains. Aplatissez une portion de riz tiède, ajoutez un peu de farce au centre, recouvrez de riz et formez un triangle compact. Utilisez des portions égales et pressez juste assez; trop comprimer rend le riz dense.",
+        "finish_nori": "Placez une bande de nori à la base. Ajoutez du sésame ou du furikake si souhaité et servez le riz encore tiède. Ajoutez le nori au dernier moment pour le garder croustillant, ou plus tôt pour une texture souple; réfrigérez rapidement les restes au thon."
+      },
+      "description": "Boulettes de riz japonaises façonnées à la main, cœur thon-mayonnaise et nori croustillant. Le riz doit être fraîchement cuit et la farce froide et bien égouttée.",
+      "animeContext": "Spirited Away montre directement Haku donnant des onigiri à Chihiro. Le film ne précise pas une farce thon-mayonnaise; c’est la variante de l’application."
     },
     "de": {
       "title": "Onigiri mit Thunfisch und Mayonnaise",
@@ -264,12 +272,14 @@
         }
       },
       "steps": {
-        "wash_cook_rice": "Den Reis mehrmals spülen, bis das Wasser deutlich klarer bleibt. Mit der abgemessenen Wassermenge zugedeckt bei niedriger Hitze garen.",
-        "rest_rice": "Den Herd ausschalten und den Reis zugedeckt 10 Minuten ruhen lassen.",
-        "make_filling": "Den abgetropften Thunfisch mit japanischer Mayonnaise und einer kleinen Prise Salz verrühren.",
-        "fill_shape": "Die Hände anfeuchten und leicht salzen. Eine Portion warmen Reis flachdrücken, etwas Füllung in die Mitte geben, mit weiterem Reis bedecken und zu einem kompakten Dreieck formen.",
-        "finish_nori": "Einen Nori-Streifen um die Basis legen. Nach Wunsch Sesam oder Furikake ergänzen und lauwarm servieren."
-      }
+        "wash_cook_rice": "Den Reis mehrmals spülen, bis das Wasser deutlich klarer bleibt. Mit der abgemessenen Wassermenge zugedeckt bei niedriger Hitze garen. Nach dem Spülen einige Minuten abtropfen lassen, damit die Wassermenge stimmt; beim Garen Deckel geschlossen lassen und nicht rühren.",
+        "rest_rice": "Den Herd ausschalten und den Reis zugedeckt 10 Minuten ruhen lassen. Nach der Ruhe sanft lockern und 2–3 Minuten abdampfen lassen; warm, aber nicht brennend heiß formen.",
+        "make_filling": "Den abgetropften Thunfisch mit japanischer Mayonnaise und einer kleinen Prise Salz verrühren. Thunfisch fein zerteilen und Mayonnaise nach und nach zugeben; die Füllung soll zusammenhalten und nicht wässrig sein.",
+        "fill_shape": "Die Hände anfeuchten und leicht salzen. Eine Portion warmen Reis flachdrücken, etwas Füllung in die Mitte geben, mit weiterem Reis bedecken und zu einem kompakten Dreieck formen. Gleich große Portionen nehmen und nur so stark drücken, dass der Reis hält; zu viel Druck macht ihn dicht.",
+        "finish_nori": "Einen Nori-Streifen um die Basis legen. Nach Wunsch Sesam oder Furikake ergänzen und lauwarm servieren. Nori erst beim Servieren für Knusprigkeit oder früher für weiche Textur anlegen; Thunfisch-Reste rasch kühlen."
+      },
+      "description": "Handgeformte japanische Reisbällchen mit cremiger Thunfisch-Mayonnaise-Füllung und knusprigem Nori. Frischer warmer Reis bindet, die Füllung soll kalt und gut abgetropft sein.",
+      "animeContext": "Spirited Away zeigt direkt, wie Haku Chihiro Onigiri gibt. Der Film legt keine Thunfisch-Mayonnaise-Füllung fest; das ist die App-Variante."
     },
     "pt": {
       "title": "Onigiri de atum com maionese",
@@ -304,12 +314,29 @@
         }
       },
       "steps": {
-        "wash_cook_rice": "Lave o arroz várias vezes até a água ficar bem mais clara. Cozinhe tampado com a água medida em fogo baixo.",
-        "rest_rice": "Desligue o fogo e deixe o arroz descansar tampado por 10 minutos.",
-        "make_filling": "Misture o atum escorrido com a maionese japonesa e uma pequena pitada de sal.",
-        "fill_shape": "Umedeça e salgue levemente as mãos. Achate uma porção de arroz morno, coloque um pouco do recheio no centro, cubra com mais arroz e modele um triângulo compacto.",
-        "finish_nori": "Envolva a base com uma tira de nori. Acrescente gergelim ou furikake se desejar e sirva enquanto o arroz ainda está morno."
-      }
+        "wash_cook_rice": "Lave o arroz várias vezes até a água ficar bem mais clara. Cozinhe tampado com a água medida em fogo baixo. Após lavar, deixe escorrer alguns minutos para manter a medida de água correta; durante o cozimento não abra a tampa nem mexa.",
+        "rest_rice": "Desligue o fogo e deixe o arroz descansar tampado por 10 minutos. Após o descanso, solte suavemente e deixe o vapor sair 2–3 minutos; molde morno-quente, não escaldante.",
+        "make_filling": "Misture o atum escorrido com a maionese japonesa e uma pequena pitada de sal. Desfie o atum e adicione maionese aos poucos; o recheio deve ficar firme sem líquido no fundo.",
+        "fill_shape": "Umedeça e salgue levemente as mãos. Achate uma porção de arroz morno, coloque um pouco do recheio no centro, cubra com mais arroz e modele um triângulo compacto. Use porções iguais e pressione só o necessário; apertar demais deixa o arroz denso.",
+        "finish_nori": "Envolva a base com uma tira de nori. Acrescente gergelim ou furikake se desejar e sirva enquanto o arroz ainda está morno. Coloque o nori na hora para ficar crocante ou antes para ficar macio; refrigere rapidamente sobras com atum."
+      },
+      "description": "Bolinhos de arroz japoneses moldados à mão com recheio cremoso de atum e maionese e nori crocante. O arroz deve estar recém-cozido e o recheio frio e bem escorrido.",
+      "animeContext": "Spirited Away mostra diretamente Haku dando onigiri a Chihiro. O filme não define recheio de atum com maionese; essa parte é a variação do app."
     }
+  },
+  "animeReferences": [
+    {
+      "workTitle": "Spirited Away",
+      "relation": "verified_appearance",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Onigiri is a real Japanese rice-ball preparation; tuna-mayo is a modern common filling. Rice cooling and food-safety handling clarified.",
+    "animeStatus": "verified",
+    "animeNote": "Onigiri is directly shown in Spirited Away when Haku gives Chihiro rice balls; the tuna-mayo filling is this app's practical variant, not a claim about the film filling."
   }
 }

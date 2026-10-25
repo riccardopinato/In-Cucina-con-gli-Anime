@@ -200,3 +200,23 @@ Therefore the fixture proves the full authoring -> runtime -> app-build path wit
 The deterministic tools do not perform culinary judgment or automatically rewrite arbitrary copyrighted prose. The human/agent editorial step happens before committed authoring JSON.
 
 This is deliberate: deterministic validation should validate facts/structure, not pretend to replace editorial judgment.
+
+
+## F3G editorial publication gate
+
+F3G raises the production standard from structural completeness to editorial usefulness.
+
+For every published recipe the pipeline now requires:
+
+- culinary verification with status `verified` or `corrected`;
+- structured anime-reference semantics;
+- fresh localized dish description;
+- localized anime-context copy that matches the evidence level;
+- preparation text substantial enough to explain technique, heat, timing and observable doneness cues;
+- EN / IT / ES / FR / DE / PT parity.
+
+The deterministic gate is implemented in `tool/f3g_editorial_gate.py` and is invoked by the normal catalog compiler. It complements, rather than replaces, schema validation and the duplicate/similarity gate.
+
+Source material is never promoted to production merely because it contains a plausible recipe. F3G explicitly permits correction of names, ingredient ratios, timings, safety wording and anime associations before publication.
+
+The 0.7.0 migration keeps `recipe_000001..recipe_000020` stable so existing Favorites remain valid while their `contentVersion` and editorial text advance.

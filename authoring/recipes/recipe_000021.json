@@ -1,0 +1,526 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000021",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "March Comes in Like a Lion",
+  "animeReferences": [
+    {
+      "workTitle": "March Comes in Like a Lion",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Warishita-based sukiyaki checked against Japanese regional-cuisine guidance; raw egg kept optional.",
+    "animeStatus": "unverified",
+    "animeNote": "User-supplied anime association retained only as inspiration until a direct scene reference is verified."
+  },
+  "prepMinutes": 20,
+  "cookMinutes": 25,
+  "servings": 4,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3 received 2026-10-25; culinary structure verified and wording rewritten for the app.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "beef",
+      "quantity": 450,
+      "unit": "g"
+    },
+    {
+      "id": "tofu",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "id": "shiitake",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "id": "enoki",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "id": "scallions",
+      "quantity": 1,
+      "unit": "bunch"
+    },
+    {
+      "id": "napa_cabbage",
+      "quantity": 0.5,
+      "unit": "head"
+    },
+    {
+      "id": "shirataki",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "id": "eggs",
+      "quantity": 4,
+      "unit": null
+    },
+    {
+      "id": "soy_sauce",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "id": "mirin",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "id": "sake",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "id": "sugar",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "id": "dashi",
+      "quantity": 100,
+      "unit": "ml"
+    }
+  ],
+  "steps": [
+    {
+      "id": "make_warishita",
+      "timerSeconds": 120
+    },
+    {
+      "id": "prep_components",
+      "timerSeconds": 600
+    },
+    {
+      "id": "sear_beef",
+      "timerSeconds": 120
+    },
+    {
+      "id": "arrange_pot",
+      "timerSeconds": null
+    },
+    {
+      "id": "simmer",
+      "timerSeconds": 600
+    },
+    {
+      "id": "serve",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Traditional Sukiyaki",
+      "description": "A shared Japanese hot pot built around paper-thin beef, tofu, mushrooms, napa cabbage and shirataki in a glossy sweet-savory warishita. The ingredients cook in stages at the table, so the beef stays tender while the vegetables absorb the sauce.",
+      "animeContext": "This version is inspired by the warm communal-meal atmosphere associated with March Comes in Like a Lion. The app does not claim a specific episode until a direct scene reference is verified.",
+      "ingredients": {
+        "beef": {
+          "name": "Thinly sliced beef",
+          "note": null
+        },
+        "tofu": {
+          "name": "Firm tofu",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Fresh shiitake mushrooms",
+          "note": null
+        },
+        "enoki": {
+          "name": "Enoki mushrooms",
+          "note": null
+        },
+        "scallions": {
+          "name": "Japanese scallions or spring onions",
+          "note": null
+        },
+        "napa_cabbage": {
+          "name": "Napa cabbage",
+          "note": null
+        },
+        "shirataki": {
+          "name": "Shirataki noodles",
+          "note": null
+        },
+        "eggs": {
+          "name": "Very fresh eggs, optional for dipping",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Cooking sake",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_warishita": "Combine soy sauce, mirin, sake and sugar in a small saucepan. Bring just to a simmer for about 2 minutes, stirring until the sugar dissolves; add the dashi and keep the sauce warm without reducing it heavily.",
+        "prep_components": "Drain and pat the tofu dry, cut it into large cubes and brown two sides in a dry non-stick pan. Trim the mushrooms, cut the cabbage into large bite-size pieces, slice the scallions on the diagonal and rinse the shirataki well; blanch the noodles for 2 minutes and drain.",
+        "sear_beef": "Heat a wide shallow pot over medium-high heat with a small film of neutral oil or beef fat. Sear part of the beef for only 20–30 seconds per side, stopping as soon as the surface changes colour so it does not toughen.",
+        "arrange_pot": "Move the beef to one side and arrange tofu, mushrooms, cabbage, scallions and shirataki in separate sections. Keep shirataki away from a large pile of raw beef so the pot heats evenly.",
+        "simmer": "Pour in enough warishita to come roughly halfway up the ingredients. Cover loosely and simmer over medium-low heat for 8–10 minutes, adding the remaining beef near the end and cooking it only until just done.",
+        "serve": "Serve directly from the pot while bubbling gently. If using raw egg as the traditional dip, use pasteurized or very fresh eggs and follow local food-safety guidance; the dish is also complete without egg."
+      }
+    },
+    "it": {
+      "title": "Sukiyaki tradizionale",
+      "description": "Un nabe giapponese conviviale con manzo affettato sottilissimo, tofu, funghi, cavolo cinese e shirataki immersi in una warishita dolce-salata e lucida. Gli ingredienti cuociono a più riprese, così la carne resta tenera e le verdure assorbono il fondo senza disfarsi.",
+      "animeContext": "Questa versione si ispira all’atmosfera dei pasti condivisi associata a March Comes in Like a Lion. Non indichiamo un episodio preciso finché la scena non viene verificata direttamente.",
+      "ingredients": {
+        "beef": {
+          "name": "Manzo affettato sottilissimo",
+          "note": null
+        },
+        "tofu": {
+          "name": "Tofu compatto",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Funghi shiitake freschi",
+          "note": null
+        },
+        "enoki": {
+          "name": "Funghi enoki",
+          "note": null
+        },
+        "scallions": {
+          "name": "Cipollotti",
+          "note": null
+        },
+        "napa_cabbage": {
+          "name": "Cavolo cinese",
+          "note": null
+        },
+        "shirataki": {
+          "name": "Shirataki",
+          "note": null
+        },
+        "eggs": {
+          "name": "Uova freschissime, facoltative per l’intingolo",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa di soia",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake da cucina",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucchero",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_warishita": "Riunisci salsa di soia, mirin, sake e zucchero in un pentolino. Porta appena a fremito per circa 2 minuti mescolando finché lo zucchero è sciolto; aggiungi il dashi e tieni la salsa calda senza ridurla troppo.",
+        "prep_components": "Scola e asciuga il tofu, taglialo a cubi grandi e doralo su due lati in padella antiaderente asciutta. Pulisci i funghi, taglia il cavolo a pezzi grandi, i cipollotti in diagonale e sciacqua bene gli shirataki; sbollentali 2 minuti e scolali.",
+        "sear_beef": "Scalda una pentola bassa e larga a fuoco medio-alto con un velo d’olio neutro o grasso di manzo. Scottane una parte per soli 20–30 secondi per lato, fermandoti appena cambia colore per non indurirla.",
+        "arrange_pot": "Sposta il manzo da un lato e disponi tofu, funghi, cavolo, cipollotti e shirataki in settori separati. Evita di ammucchiare gli shirataki contro molta carne cruda, così il calore resta uniforme.",
+        "simmer": "Versa warishita fino a raggiungere circa metà altezza degli ingredienti. Copri parzialmente e lascia sobbollire a fuoco medio-basso 8–10 minuti; aggiungi il manzo rimasto verso la fine e cuocilo solo finché non è più crudo.",
+        "serve": "Porta la pentola in tavola ancora in leggero fremito. Se scegli l’uovo crudo tradizionale usa uova pastorizzate o freschissime e segui le indicazioni di sicurezza alimentare locali; il sukiyaki è completo anche senza uovo."
+      }
+    },
+    "es": {
+      "title": "Sukiyaki tradicional",
+      "description": "Un hot pot japonés para compartir con ternera muy fina, tofu, setas, col china y shirataki en una salsa warishita brillante, dulce y salada. Los ingredientes se cocinan por tandas para mantener la carne tierna y dejar que las verduras absorban el caldo.",
+      "animeContext": "Esta versión se inspira en el ambiente de comidas compartidas asociado con March Comes in Like a Lion. No indicamos un episodio concreto hasta verificar directamente la escena.",
+      "ingredients": {
+        "beef": {
+          "name": "Ternera cortada muy fina",
+          "note": null
+        },
+        "tofu": {
+          "name": "Tofu firme",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Setas shiitake frescas",
+          "note": null
+        },
+        "enoki": {
+          "name": "Setas enoki",
+          "note": null
+        },
+        "scallions": {
+          "name": "Cebolletas",
+          "note": null
+        },
+        "napa_cabbage": {
+          "name": "Col china",
+          "note": null
+        },
+        "shirataki": {
+          "name": "Fideos shirataki",
+          "note": null
+        },
+        "eggs": {
+          "name": "Huevos muy frescos, opcionales",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake de cocina",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_warishita": "Mezcla soja, mirin, sake y azúcar en un cazo. Lleva a un hervor suave unos 2 minutos hasta disolver el azúcar; añade el dashi y mantén caliente sin reducir demasiado.",
+        "prep_components": "Escurre y seca el tofu, córtalo en cubos grandes y dóralo por dos caras. Limpia las setas, corta la col en trozos grandes y las cebolletas en diagonal; enjuaga los shirataki, hiérvelos 2 minutos y escurre.",
+        "sear_beef": "Calienta una cazuela baja y ancha a fuego medio-alto con una película de aceite o grasa de ternera. Marca parte de la carne 20–30 segundos por lado, solo hasta que cambie de color.",
+        "arrange_pot": "Aparta la carne y coloca tofu, setas, col, cebolletas y shirataki en secciones. Distribúyelos sin amontonarlos para que el calor llegue de forma uniforme.",
+        "simmer": "Vierte warishita hasta cubrir aproximadamente la mitad de los ingredientes. Tapa parcialmente y cocina 8–10 minutos a fuego medio-bajo; añade el resto de la carne al final y cocínala solo hasta el punto deseado.",
+        "serve": "Sirve directamente de la cazuela. Si utilizas huevo crudo como salsa tradicional, emplea huevos pasteurizados o muy frescos y sigue las recomendaciones locales de seguridad alimentaria."
+      }
+    },
+    "fr": {
+      "title": "Sukiyaki traditionnel",
+      "description": "Une fondue japonaise conviviale mêlant bœuf très fin, tofu, champignons, chou chinois et shirataki dans une warishita brillante, douce et salée. La cuisson par étapes garde la viande tendre tout en laissant les légumes s’imprégner du jus.",
+      "animeContext": "Cette version s’inspire de l’atmosphère des repas partagés associée à March Comes in Like a Lion. Aucun épisode précis n’est indiqué tant qu’une scène directe n’a pas été vérifiée.",
+      "ingredients": {
+        "beef": {
+          "name": "Bœuf tranché très fin",
+          "note": null
+        },
+        "tofu": {
+          "name": "Tofu ferme",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Shiitake frais",
+          "note": null
+        },
+        "enoki": {
+          "name": "Champignons enoki",
+          "note": null
+        },
+        "scallions": {
+          "name": "Ciboules",
+          "note": null
+        },
+        "napa_cabbage": {
+          "name": "Chou chinois",
+          "note": null
+        },
+        "shirataki": {
+          "name": "Nouilles shirataki",
+          "note": null
+        },
+        "eggs": {
+          "name": "Œufs très frais, facultatifs",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Saké de cuisine",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_warishita": "Mélangez soja, mirin, saké et sucre dans une petite casserole. Faites frémir environ 2 minutes jusqu’à dissolution du sucre, ajoutez le dashi puis gardez chaud sans trop réduire.",
+        "prep_components": "Égouttez et séchez le tofu, coupez-le en gros cubes et dorez deux faces. Nettoyez les champignons, coupez le chou en gros morceaux et les ciboules en biais; rincez les shirataki, blanchissez-les 2 minutes puis égouttez.",
+        "sear_beef": "Chauffez une cocotte basse et large à feu moyen-vif avec un film d’huile ou de graisse de bœuf. Saisissez une partie de la viande 20–30 secondes par face, juste jusqu’au changement de couleur.",
+        "arrange_pot": "Repoussez le bœuf sur le côté et rangez tofu, champignons, chou, ciboules et shirataki en zones distinctes afin que la chaleur circule régulièrement.",
+        "simmer": "Versez la warishita jusqu’à mi-hauteur environ. Couvrez partiellement et laissez frémir 8–10 minutes à feu moyen-doux; ajoutez le reste du bœuf vers la fin et cuisez-le juste à point.",
+        "serve": "Servez directement dans la cocotte. Si vous utilisez l’œuf cru traditionnel, choisissez des œufs pasteurisés ou très frais et respectez les consignes locales de sécurité alimentaire."
+      }
+    },
+    "de": {
+      "title": "Traditionelles Sukiyaki",
+      "description": "Ein geselliger japanischer Eintopf mit hauchdünnem Rindfleisch, Tofu, Pilzen, Chinakohl und Shirataki in einer glänzenden süß-salzigen Warishita. Die Zutaten garen portionsweise, damit das Fleisch zart bleibt und das Gemüse die Sauce aufnehmen kann.",
+      "animeContext": "Diese Version ist von der gemeinsamen Essensatmosphäre in March Comes in Like a Lion inspiriert. Eine konkrete Episode nennen wir erst nach direkter Überprüfung der Szene.",
+      "ingredients": {
+        "beef": {
+          "name": "Sehr dünn geschnittenes Rindfleisch",
+          "note": null
+        },
+        "tofu": {
+          "name": "Fester Tofu",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Frische Shiitake",
+          "note": null
+        },
+        "enoki": {
+          "name": "Enoki-Pilze",
+          "note": null
+        },
+        "scallions": {
+          "name": "Frühlingszwiebeln",
+          "note": null
+        },
+        "napa_cabbage": {
+          "name": "Chinakohl",
+          "note": null
+        },
+        "shirataki": {
+          "name": "Shirataki-Nudeln",
+          "note": null
+        },
+        "eggs": {
+          "name": "Sehr frische Eier, optional",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Kochsake",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_warishita": "Sojasauce, Mirin, Sake und Zucker in einem kleinen Topf mischen. Etwa 2 Minuten sanft köcheln, bis sich der Zucker gelöst hat; Dashi zugeben und warm halten, ohne stark einzukochen.",
+        "prep_components": "Tofu abtropfen und trocknen, in große Würfel schneiden und auf zwei Seiten trocken anrösten. Pilze putzen, Kohl grob und Frühlingszwiebeln schräg schneiden; Shirataki gut spülen, 2 Minuten blanchieren und abgießen.",
+        "sear_beef": "Einen breiten flachen Topf bei mittelhoher Hitze mit wenig neutralem Öl oder Rinderfett erhitzen. Einen Teil des Fleisches nur 20–30 Sekunden je Seite anbraten, bis es gerade die Farbe ändert.",
+        "arrange_pot": "Fleisch zur Seite schieben und Tofu, Pilze, Kohl, Frühlingszwiebeln und Shirataki in getrennten Bereichen anordnen, damit alles gleichmäßig erhitzt.",
+        "simmer": "Warishita bis ungefähr zur halben Höhe der Zutaten angießen. Teilweise abdecken und 8–10 Minuten bei mittlerer bis niedriger Hitze köcheln; restliches Fleisch erst gegen Ende kurz garen.",
+        "serve": "Direkt aus dem Topf servieren. Für den traditionellen Dip nur pasteurisierte oder sehr frische rohe Eier verwenden und lokale Lebensmittelsicherheitsregeln beachten."
+      }
+    },
+    "pt": {
+      "title": "Sukiyaki tradicional",
+      "description": "Um hot pot japonês para compartilhar, com carne bovina bem fina, tofu, cogumelos, acelga chinesa e shirataki em warishita doce-salgada e brilhante. Os ingredientes cozinham em etapas para manter a carne macia e permitir que os vegetais absorvam o molho.",
+      "animeContext": "Esta versão se inspira no clima de refeições compartilhadas associado a March Comes in Like a Lion. Não indicamos episódio específico sem antes verificar diretamente a cena.",
+      "ingredients": {
+        "beef": {
+          "name": "Carne bovina fatiada bem fina",
+          "note": null
+        },
+        "tofu": {
+          "name": "Tofu firme",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Shiitake fresco",
+          "note": null
+        },
+        "enoki": {
+          "name": "Cogumelos enoki",
+          "note": null
+        },
+        "scallions": {
+          "name": "Cebolinha",
+          "note": null
+        },
+        "napa_cabbage": {
+          "name": "Acelga chinesa",
+          "note": null
+        },
+        "shirataki": {
+          "name": "Macarrão shirataki",
+          "note": null
+        },
+        "eggs": {
+          "name": "Ovos muito frescos, opcionais",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Molho de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Saquê culinário",
+          "note": null
+        },
+        "sugar": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_warishita": "Misture soja, mirin, saquê e açúcar em uma panela pequena. Ferva suavemente por cerca de 2 minutos até dissolver o açúcar; junte o dashi e mantenha quente sem reduzir demais.",
+        "prep_components": "Escorra e seque o tofu, corte em cubos grandes e doure dois lados. Limpe os cogumelos, corte a acelga em pedaços grandes e a cebolinha na diagonal; lave o shirataki, ferva 2 minutos e escorra.",
+        "sear_beef": "Aqueça uma panela larga e baixa em fogo médio-alto com uma película de óleo neutro ou gordura bovina. Sele parte da carne por apenas 20–30 segundos de cada lado, até mudar de cor.",
+        "arrange_pot": "Empurre a carne para um lado e distribua tofu, cogumelos, acelga, cebolinha e shirataki em setores separados para aquecer de modo uniforme.",
+        "simmer": "Adicione warishita até cerca de metade da altura dos ingredientes. Tampe parcialmente e cozinhe 8–10 minutos em fogo médio-baixo; acrescente o restante da carne no fim e cozinhe apenas até o ponto desejado.",
+        "serve": "Sirva diretamente da panela. Se usar ovo cru como acompanhamento tradicional, prefira ovos pasteurizados ou muito frescos e siga as orientações locais de segurança alimentar."
+      }
+    }
+  }
+}

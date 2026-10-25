@@ -499,6 +499,86 @@ def validate_authoring_recipe(
 
     _require_string(recipe, "inspirationTitle", label, errors)
 
+    anime_references = recipe.get("animeReferences")
+    if anime_references is not None:
+        if not isinstance(anime_references, list) or not anime_references:
+            errors.append(
+                f"{label}.animeReferences must be a non-empty array"
+            )
+        else:
+            for index, reference in enumerate(anime_references):
+                ref_label = f"{label}.animeReferences[{index}]"
+                if not isinstance(reference, dict):
+                    errors.append(f"{ref_label} must be an object")
+                    continue
+                _require_string(
+                    reference, "workTitle", ref_label, errors
+                )
+                if reference.get("relation") not in {
+                    "verified_appearance",
+                    "recurring_association",
+                    "inspired",
+                    "unverified",
+                }:
+                    errors.append(f"{ref_label}.relation is invalid")
+                season = reference.get("season")
+                if season is not None and (
+                    isinstance(season, bool)
+                    or not isinstance(season, int)
+                    or season < 1
+                ):
+                    errors.append(
+                        f"{ref_label}.season must be null or integer >= 1"
+                    )
+                _optional_string(
+                    reference.get("episode"),
+                    f"{ref_label}.episode",
+                    errors,
+                )
+                _optional_string(
+                    reference.get("chapter"),
+                    f"{ref_label}.chapter",
+                    errors,
+                )
+
+    editorial = recipe.get("editorialVerification")
+    if editorial is not None:
+        if not isinstance(editorial, dict):
+            errors.append(
+                f"{label}.editorialVerification must be an object"
+            )
+        else:
+            if editorial.get("culinaryStatus") not in {
+                "verified",
+                "corrected",
+                "review_required",
+            }:
+                errors.append(
+                    f"{label}.editorialVerification.culinaryStatus "
+                    "is invalid"
+                )
+            _require_string(
+                editorial,
+                "culinaryNote",
+                f"{label}.editorialVerification",
+                errors,
+            )
+            if editorial.get("animeStatus") not in {
+                "verified",
+                "partial",
+                "unverified",
+            }:
+                errors.append(
+                    f"{label}.editorialVerification.animeStatus "
+                    "is invalid"
+                )
+            _require_string(
+                editorial,
+                "animeNote",
+                f"{label}.editorialVerification",
+                errors,
+            )
+
     for field in ("prepMinutes", "cookMinutes"):
         value = _require_int(recipe, field, label, errors)
         if value is not None and value < 0:
@@ -656,6 +736,14 @@ def validate_authoring_recipe(
         _require_string(
             localized, "title", locale_label, errors
         )
+        if "description" in localized:
+            _require_string(
+                localized, "description", locale_label, errors
+            )
+        if "animeContext" in localized:
+            _require_string(
+                localized, "animeContext", locale_label, errors
+            )
 
         localized_ingredients = localized.get("ingredients")
         if not isinstance(localized_ingredients, dict):
@@ -1147,6 +1235,9 @@ def compile_runtime_catalog(
             "inspirationTitle": recipe[
                 "inspirationTitle"
             ],
+            "animeReferences": recipe.get(
+                "animeReferences", []
+            ),
             "prepMinutes": recipe["prepMinutes"],
             "cookMinutes": recipe["cookMinutes"],
             "servings": recipe["servings"],
@@ -1181,6 +1272,8 @@ def compile_runtime_catalog(
                 recipe["id"]
             ] = {
                 "title": localized["title"],
+                "description": localized.get("description"),
+                "animeContext": localized.get("animeContext"),
                 "ingredientTexts": localized[
                     "ingredients"
                 ],

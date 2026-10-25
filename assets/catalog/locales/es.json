@@ -4,6 +4,8 @@
   "recipes": {
     "recipe_000001": {
       "title": "Huevos a la sartén con bacon crujiente",
+      "description": "Desayuno rústico de sartén con bacon crujiente y huevos cocidos suavemente en la misma grasa. El objetivo es bacon dorado, claras cuajadas y yemas aún tiernas si se desea.",
+      "animeContext": "La referencia es directa: Calcifer cocina bacon y huevos en Howl's Moving Castle. La app reconstruye el plato de forma culinaria sin copiar diálogos ni imágenes.",
       "ingredientTexts": {
         "smoked_bacon": {
           "name": "Bacon ahumado de corte grueso",
@@ -27,15 +29,17 @@
         }
       },
       "stepTexts": {
-        "heat_pan": "Calienta una sartén de hierro o de fondo grueso a fuego medio y derrite la mantequilla.",
-        "crisp_bacon": "Cocina el bacon hasta que los bordes queden dorados y crujientes.",
-        "add_eggs": "Aparta el bacon hacia los lados y casca los huevos en el centro procurando no romper las yemas.",
-        "finish_eggs": "Baja el fuego y cocina suavemente hasta que las claras cuajen y las yemas sigan tiernas.",
-        "season_serve": "Añade pimienta negra y sirve de inmediato con pan rústico tostado."
+        "heat_pan": "Calienta una sartén de hierro o de fondo grueso a fuego medio y derrite la mantequilla. Calienta la sartén 1–2 minutos antes de añadir la mantequilla; debe espumar sin quemarse.",
+        "crisp_bacon": "Cocina el bacon hasta que los bordes queden dorados y crujientes. Gira una o dos veces y deja 4–6 minutos para que funda la grasa; baja el fuego si la carne se oscurece demasiado pronto.",
+        "add_eggs": "Aparta el bacon hacia los lados y casca los huevos en el centro procurando no romper las yemas. Casca cada huevo primero en una taza y deslízalo a la sartén para controlar mejor la colocación.",
+        "finish_eggs": "Baja el fuego y cocina suavemente hasta que las claras cuajen y las yemas sigan tiernas. Cocina 3–5 minutos según el punto deseado; tapa el último minuto si la clara superior sigue translúcida.",
+        "season_serve": "Añade pimienta negra y sirve de inmediato con pan rústico tostado. Deja reposar fuera del fuego solo 30 segundos; más tiempo seguirá cocinando las yemas."
       }
     },
     "recipe_000002": {
       "title": "Ramen de miso con chashu",
+      "description": "Ramen al miso práctico con caldo sabroso, fideos elásticos, chashu, huevo marinado, narutomaki y toppings frescos. Se da por hecho que chashu y huevo están preparados de antemano.",
+      "animeContext": "El ramen es una comida emblemática y recurrente en Naruto gracias a Ichiraku Ramen. Esta receta se inspira en esa asociación, no en una porción exacta.",
       "ingredientTexts": {
         "ramen_noodles": {
           "name": "Fideos ramen",
@@ -75,15 +79,17 @@
         }
       },
       "stepTexts": {
-        "season_broth": "Calienta el caldo suavemente e incorpora el miso hasta que quede bien disuelto. Mantenlo caliente.",
-        "cook_noodles": "Cuece los fideos ramen por separado según el tiempo del envase y escúrrelos bien.",
-        "fill_bowls": "Reparte los fideos calientes en dos cuencos y añade el caldo.",
-        "add_toppings": "Coloca encima el chashu, los huevos marinados partidos por la mitad, el narutomaki, la cebolleta, los brotes y el nori.",
-        "serve": "Sirve en cuanto termines el montaje."
+        "season_broth": "Calienta el caldo suavemente e incorpora el miso hasta que quede bien disuelto. Mantenlo caliente. Tras añadir el miso evita hervir fuerte; prueba antes de añadir sal porque el concentrado y el miso ya pueden ser salados.",
+        "cook_noodles": "Cuece los fideos ramen por separado según el tiempo del envase y escúrrelos bien. Empieza a probar 30 segundos antes del tiempo indicado y escurre en cuanto desaparezca el centro crudo; en el caldo seguirá ablandándose.",
+        "fill_bowls": "Reparte los fideos calientes en dos cuencos y añade el caldo. Calienta antes los cuencos con agua caliente y sécalos; así el caldo no se enfría mientras colocas los toppings.",
+        "add_toppings": "Coloca encima el chashu, los huevos marinados partidos por la mitad, el narutomaki, la cebolleta, los brotes y el nori. Calienta brevemente el chashu, pero añade huevo, nori y cebolleta al final para conservar sus texturas.",
+        "serve": "Sirve en cuanto termines el montaje. Sirve en menos de un minuto y come primero los fideos antes de que absorban demasiado caldo."
       }
     },
     "recipe_000003": {
       "title": "Katsudon de la victoria",
+      "description": "Katsudon reconfortante con tonkatsu, cebolla dulce-salada y huevo apenas cuajado sobre arroz caliente. La parte superior conserva algo de crocante mientras la inferior absorbe el caldo.",
+      "animeContext": "El katsudon es una comida recurrente muy reconocible en Yuri!!! on ICE y está ligado a Yuri; el episodio 2 contiene una referencia directa. La receta sigue el plato japonés real.",
       "ingredientTexts": {
         "tonkatsu": {
           "name": "Chuletas de cerdo empanadas con panko",
@@ -123,15 +129,17 @@
         }
       },
       "stepTexts": {
-        "simmer_onion": "Pon en una sartén pequeña el dashi, la salsa de soja, el mirin y el azúcar. Añade la cebolla y cocina suavemente hasta que se ablande.",
-        "add_tonkatsu": "Corta las chuletas fritas en tiras y colócalas sobre la cebolla.",
-        "add_eggs": "Bate los huevos apenas y viértelos sobre el cerdo sin homogeneizarlos por completo.",
-        "steam_finish": "Tapa y cocina brevemente, dejando el huevo suave y cremoso.",
-        "assemble_bowl": "Reparte el arroz caliente en dos cuencos, coloca encima la mezcla de cerdo y huevo y termina con guisantes o cebollino."
+        "simmer_onion": "Pon en una sartén pequeña el dashi, la salsa de soja, el mirin y el azúcar. Añade la cebolla y cocina suavemente hasta que se ablande. Mantén un hervor suave unos 5 minutos; la cebolla debe quedar tierna y debe quedar líquido para cocinar el huevo.",
+        "add_tonkatsu": "Corta las chuletas fritas en tiras y colócalas sobre la cebolla. Coloca el tonkatsu con la corteza arriba y cocina solo 30–60 segundos antes del huevo para no ablandar toda la panura.",
+        "add_eggs": "Bate los huevos apenas y viértelos sobre el cerdo sin homogeneizarlos por completo. Vierte el huevo en espiral para que una parte toque el caldo y otra quede sobre la chuleta.",
+        "steam_finish": "Tapa y cocina brevemente, dejando el huevo suave y cremoso. Normalmente bastan 60–90 segundos tapado; detente con la superficie aún brillante porque el calor residual sigue cuajando.",
+        "assemble_bowl": "Reparte el arroz caliente en dos cuencos, coloca encima la mezcla de cerdo y huevo y termina con guisantes o cebollino. Usa arroz recién hecho y desliza el contenido de la sartén de una vez para mantener las capas."
       }
     },
     "recipe_000004": {
       "title": "Dorayaki con anko",
+      "description": "Dos pequeños discos con miel, dorados de forma uniforme, encierran anko. El calor bajo, el reposo de la masa y discos iguales crean la forma lisa característica.",
+      "animeContext": "El dorayaki es la famosa comida favorita de Doraemon y aparece de forma recurrente; la receta sigue el dulce japonés real.",
       "ingredientTexts": {
         "eggs": {
           "name": "Huevos",
@@ -163,16 +171,18 @@
         }
       },
       "stepTexts": {
-        "whisk_base": "Bate los huevos con el azúcar y la miel hasta obtener una mezcla más clara y ligeramente espumosa.",
-        "finish_batter": "Disuelve la levadura en el agua, añádela al bol e incorpora la harina tamizada hasta conseguir una masa lisa.",
-        "rest_batter": "Deja reposar la masa 15 minutos en el frigorífico.",
-        "cook_first_side": "Calienta una sartén antiadherente a fuego bajo, engrásala apenas y forma discos pequeños con la masa. Cocina hasta que aparezcan burbujas.",
-        "cook_second_side": "Da la vuelta a los discos y cocina brevemente la segunda cara hasta que se dore.",
-        "fill_dorayaki": "Deja enfriar, une los discos de dos en dos con anko en el centro y presiona suavemente los bordes."
+        "whisk_base": "Bate los huevos con el azúcar y la miel hasta obtener una mezcla más clara y ligeramente espumosa. Bate unos 2 minutos hasta que el azúcar casi se disuelva y la mezcla caiga en cinta, sin montarla en exceso.",
+        "finish_batter": "Disuelve la levadura en el agua, añádela al bol e incorpora la harina tamizada hasta conseguir una masa lisa. Deja de mezclar en cuanto desaparezca la harina; batir de más desarrolla gluten.",
+        "rest_batter": "Deja reposar la masa 15 minutos en el frigorífico. Tras el reposo debe caer en cinta espesa y extenderse lentamente; añade solo una cucharadita de agua si está demasiado densa.",
+        "cook_first_side": "Calienta una sartén antiadherente a fuego bajo, engrásala apenas y forma discos pequeños con la masa. Cocina hasta que aparezcan burbujas. Usa siempre la misma medida. Cuando aparezcan muchas burbujas y el borde se vea mate, gira.",
+        "cook_second_side": "Da la vuelta a los discos y cocina brevemente la segunda cara hasta que se dore. El segundo lado suele necesitar solo 30–60 segundos; demasiado tiempo seca los discos.",
+        "fill_dorayaki": "Deja enfriar, une los discos de dos en dos con anko en el centro y presiona suavemente los bordes. Empareja discos del mismo tamaño, deja el anko más grueso en el centro y más fino en el borde."
       }
     },
     "recipe_000005": {
       "title": "Onigiri de atún y mayonesa",
+      "description": "Bolas de arroz japonesas hechas a mano con relleno cremoso de atún y mayonesa y nori crujiente. El arroz debe estar recién hecho y el relleno frío y bien escurrido.",
+      "animeContext": "Spirited Away muestra directamente a Haku dando onigiri a Chihiro. La película no establece relleno de atún y mayonesa; esa parte es una variante de la app.",
       "ingredientTexts": {
         "sushi_rice": {
           "name": "Arroz para sushi o de grano corto",
@@ -204,15 +214,17 @@
         }
       },
       "stepTexts": {
-        "wash_cook_rice": "Lava el arroz varias veces hasta que el agua salga mucho más clara. Cuécelo tapado con el agua medida a fuego bajo.",
-        "rest_rice": "Apaga el fuego y deja reposar el arroz tapado durante 10 minutos.",
-        "make_filling": "Mezcla el atún escurrido con la mayonesa japonesa y una pequeña pizca de sal.",
-        "fill_shape": "Humedece y sala ligeramente las manos. Aplana una porción de arroz tibio, añade relleno en el centro, cubre con más arroz y forma un triángulo compacto.",
-        "finish_nori": "Coloca una tira de nori en la base. Añade sésamo o furikake si quieres y sirve con el arroz todavía templado."
+        "wash_cook_rice": "Lava el arroz varias veces hasta que el agua salga mucho más clara. Cuécelo tapado con el agua medida a fuego bajo. Tras enjuagar, deja escurrir unos minutos para no alterar el agua medida; durante la cocción no levantes la tapa ni remuevas.",
+        "rest_rice": "Apaga el fuego y deja reposar el arroz tapado durante 10 minutos. Tras el reposo airea suavemente y deja salir vapor 2–3 minutos; forma cuando esté caliente pero manejable.",
+        "make_filling": "Mezcla el atún escurrido con la mayonesa japonesa y una pequeña pizca de sal. Desmenuza el atún y añade mayonesa poco a poco; debe mantenerse compacto sin líquido en el fondo.",
+        "fill_shape": "Humedece y sala ligeramente las manos. Aplana una porción de arroz tibio, añade relleno en el centro, cubre con más arroz y forma un triángulo compacto. Usa porciones iguales y presiona solo lo necesario; apretar demasiado vuelve el arroz denso.",
+        "finish_nori": "Coloca una tira de nori en la base. Añade sésamo o furikake si quieres y sirve con el arroz todavía templado. Añade nori al momento para que quede crujiente o antes si lo prefieres blando; refrigera pronto las sobras con atún."
       }
     },
     "recipe_000006": {
       "title": "Okonomiyaki al estilo Kansai",
+      "description": "Tortita salada estilo Kansai cargada de col, con panceta y acabado de salsa okonomiyaki, mayonesa, katsuobushi y aonori. La masa debe ligar la col sin ahogarla.",
+      "animeContext": "El okonomiyaki es un motivo recurrente ligado a Ukyo Kuonji en Ranma ½, cocinera especializada en este plato. La receta sigue el estilo Kansai real.",
       "ingredientTexts": {
         "cabbage": {
           "name": "Col verde",
@@ -252,15 +264,17 @@
         }
       },
       "stepTexts": {
-        "make_batter": "Mezcla la harina con el dashi frío y el huevo hasta obtener una masa lisa.",
-        "add_cabbage": "Incorpora la col cortada fina hasta repartirla bien en la masa.",
-        "shape_and_top": "Calienta una plancha o sartén ligeramente engrasada, forma un disco grueso con la mezcla y coloca encima las lonchas de panceta.",
-        "cook_both_sides": "Cocina tapado a fuego medio hasta que la primera cara esté firme, da la vuelta con cuidado y continúa hasta dorar la panceta y cocinar el centro.",
-        "finish": "Pasa al plato y termina con salsa okonomiyaki, mayonesa japonesa, katsuobushi y el alga."
+        "make_batter": "Mezcla la harina con el dashi frío y el huevo hasta obtener una masa lisa. Mezcla solo hasta que desaparezca la harina seca; deja reposar 5–10 minutos mientras cortas la col.",
+        "add_cabbage": "Incorpora la col cortada fina hasta repartirla bien en la masa. Incorpora la col justo antes de cocinar; debe verse mayormente col apenas cubierta de masa.",
+        "shape_and_top": "Calienta una plancha o sartén ligeramente engrasada, forma un disco grueso con la mezcla y coloca encima las lonchas de panceta. Forma un disco de unos 2 cm sin aplastarlo y coloca la panceta en una capa uniforme.",
+        "cook_both_sides": "Cocina tapado a fuego medio hasta que la primera cara esté firme, da la vuelta con cuidado y continúa hasta dorar la panceta y cocinar el centro. Cocina unos 5 minutos por el primer lado, gira con dos espátulas y cocina 5–6 minutos más hasta centro firme y panceta crujiente.",
+        "finish": "Pasa al plato y termina con salsa okonomiyaki, mayonesa japonesa, katsuobushi y el alga. Pon primero la salsa, luego mayonesa, aonori y al final katsuobushi para conservar aroma."
       }
     },
     "recipe_000007": {
       "title": "Takoyaki de pulpo",
+      "description": "Takoyaki estilo Osaka, dorado por fuera y muy suave dentro, con pulpo, jengibre encurtido y tenkasu. La piastra caliente y los giros progresivos crean la forma.",
+      "animeContext": "El takoyaki es una asociación recurrente en One Piece a través de Hatchan (Hachi), ligado a un negocio de takoyaki. La receta sigue el snack real de Osaka.",
       "ingredientTexts": {
         "octopus": {
           "name": "Pulpo cocido",
@@ -304,16 +318,18 @@
         }
       },
       "stepTexts": {
-        "make_batter": "Bate la harina, el huevo y el dashi frío hasta obtener una masa líquida y lisa.",
-        "heat_pan": "Calienta bien la plancha para takoyaki y engrasa cada cavidad.",
-        "fill_moulds": "Llena las cavidades casi hasta el borde con la masa.",
-        "add_fillings": "Añade a cada cavidad un trozo de pulpo junto con un poco de beni shoga, tenkasu y cebolleta.",
-        "turn_balls": "Cuando la base se firme, gira poco a poco las piezas con palillos, metiendo la masa sobrante hacia dentro hasta formar bolas doradas.",
-        "finish": "Sirve calientes con salsa takoyaki, mayonesa japonesa y katsuobushi."
+        "make_batter": "Bate la harina, el huevo y el dashi frío hasta obtener una masa líquida y lisa. La masa debe ser mucho más líquida que una de panqueques, casi como crema, para mantener el centro tierno.",
+        "heat_pan": "Calienta bien la plancha para takoyaki y engrasa cada cavidad. Calienta hasta que una gota chisporrotee y engrasa también la superficie entre cavidades.",
+        "fill_moulds": "Llena las cavidades casi hasta el borde con la masa. Llena por completo y deja algo de masa sobre la superficie; ese exceso se incorpora al girar.",
+        "add_fillings": "Añade a cada cavidad un trozo de pulpo junto con un poco de beni shoga, tenkasu y cebolleta. Usa cubos pequeños de pulpo; demasiado relleno dificulta el giro y puede dejar el centro frío.",
+        "turn_balls": "Cuando la base se firme, gira poco a poco las piezas con palillos, metiendo la masa sobrante hacia dentro hasta formar bolas doradas. Empieza con un giro de 90° cuando el borde esté firme, mete la masa suelta debajo y sigue girando poco a poco.",
+        "finish": "Sirve calientes con salsa takoyaki, mayonesa japonesa y katsuobushi. undefined Comprueba que el pulpo esté caliente y la superficie dorada; añade las salsas solo al servir."
       }
     },
     "recipe_000008": {
       "title": "Omurice con ketchup",
+      "description": "Comfort food yōshoku japonés con arroz de pollo al kétchup envuelto en una tortilla suave. Importa mantener el relleno húmedo y el huevo flexible.",
+      "animeContext": "Esta versión se inspira en la estética de cafetería y comida kawaii asociada a K-On!; sin escena exacta verificada, el vínculo sigue siendo inspiración.",
       "ingredientTexts": {
         "steamed_rice": {
           "name": "Arroz al vapor",
@@ -349,15 +365,17 @@
         }
       },
       "stepTexts": {
-        "cook_rice_filling": "Saltea el pollo y la cebolla con un poco de aceite. Añade el arroz y el ketchup y mezcla hasta que el arroz quede caliente y bien condimentado.",
-        "shape_rice": "Forma con el arroz un montículo ovalado y compacto sobre el plato.",
-        "beat_eggs": "Bate los huevos con la leche y un poco de sal y pimienta.",
-        "cook_omelette": "Derrite la mantequilla en una sartén limpia a fuego medio-bajo y prepara una tortilla blanda y flexible.",
-        "wrap_and_decorate": "Coloca la tortilla sobre el arroz cubriéndolo y dibuja encima un corazón o un mensaje corto con ketchup."
+        "cook_rice_filling": "Saltea el pollo y la cebolla con un poco de aceite. Añade el arroz y el ketchup y mezcla hasta que el arroz quede caliente y bien condimentado. Cocina el pollo por completo y sofríe brevemente el kétchup en la sartén antes de mezclarlo con el arroz.",
+        "shape_rice": "Forma con el arroz un montículo ovalado y compacto sobre el plato. Da forma con una cuchara sin comprimir demasiado para mantener el arroz tierno.",
+        "beat_eggs": "Bate los huevos con la leche y un poco de sal y pimienta. Para una tortilla más lisa, cuela el huevo batido y deja reposar un minuto para eliminar burbujas.",
+        "cook_omelette": "Derrite la mantequilla en una sartén limpia a fuego medio-bajo y prepara una tortilla blanda y flexible. Cocina a fuego medio-bajo y retira con la superficie aún ligeramente brillante; el calor residual termina la cocción.",
+        "wrap_and_decorate": "Coloca la tortilla sobre el arroz cubriéndolo y dibuja encima un corazón o un mensaje corto con ketchup. Coloca la tortilla mientras aún está flexible y decora con kétchup solo después de emplatar."
       }
     },
     "recipe_000009": {
       "title": "Oyakodon de pollo y huevo",
+      "description": "Donburi japonés de pollo y cebolla en dashi dulce-salado, terminado con huevo suave sobre arroz. Añadir el huevo en dos veces crea distintas texturas.",
+      "animeContext": "Esta ficha solo se inspira en Yuri!!! on ICE. La serie tiene una asociación verificada con katsudon, pero eso no se convierte en una falsa aparición de oyakodon.",
       "ingredientTexts": {
         "chicken_thigh": {
           "name": "Muslo de pollo deshuesado",
@@ -397,15 +415,17 @@
         }
       },
       "stepTexts": {
-        "season_broth": "Lleva a un hervor suave el dashi, la salsa de soja, el mirin y el azúcar en una sartén pequeña.",
-        "cook_chicken": "Añade la cebolla y el pollo, tapa y cocina a fuego medio hasta que el pollo esté hecho y la cebolla tierna.",
-        "first_egg": "Bate los huevos ligeramente y vierte unas tres cuartas partes sobre el pollo. Tapa y cocina brevemente.",
-        "finish_egg": "Añade el huevo restante, apaga el fuego y deja reposar tapado unos instantes para conservar una textura cremosa.",
-        "assemble": "Sirve el pollo, el huevo y su caldo sobre cuencos de arroz caliente y termina con mitsuba o cebollino."
+        "season_broth": "Lleva a un hervor suave el dashi, la salsa de soja, el mirin y el azúcar en una sartén pequeña. Usa una sartén pequeña y poco líquido para concentrar el sabor alrededor del pollo.",
+        "cook_chicken": "Añade la cebolla y el pollo, tapa y cocina a fuego medio hasta que el pollo esté hecho y la cebolla tierna. Corta el pollo en piezas iguales y cocina 6–8 minutos hasta cocción segura y cebolla translúcida.",
+        "first_egg": "Bate los huevos ligeramente y vierte unas tres cuartas partes sobre el pollo. Tapa y cocina brevemente. Vierte la primera parte en espiral, tapa y deja cuajar sin remover para conservar capas.",
+        "finish_egg": "Añade el huevo restante, apaga el fuego y deja reposar tapado unos instantes para conservar una textura cremosa. Tras añadir el resto usa calor residual para un acabado muy suave o fuego bajo breve hasta el punto de cocción deseado.",
+        "assemble": "Sirve el pollo, el huevo y su caldo sobre cuencos de arroz caliente y termina con mitsuba o cebollino. Desliza enseguida sobre el arroz y añade los jugos; esperar seca el huevo."
       }
     },
     "recipe_000010": {
       "title": "Pastel de calabaza y pescado con hojaldre",
+      "description": "Tarta salada de calabaza y pescado bajo hojaldre dorado, inspirada en el memorable plato preparado para entrega en Kiki's Delivery Service. La calabaza suaviza el pescado y la bechamel liga el relleno.",
+      "animeContext": "La referencia es directa: en la película se prepara una tarta de arenque y calabaza ligada a una entrega de Kiki. La app convierte la idea visual en una receta práctica original.",
       "ingredientTexts": {
         "pumpkin": {
           "name": "Calabaza",
@@ -441,15 +461,17 @@
         }
       },
       "stepTexts": {
-        "cook_pumpkin": "Cuece la calabaza hasta que esté tierna, aplástala hasta obtener un puré rústico y condimenta con sal, pimienta y nuez moscada.",
-        "cook_fish": "Pocha la cebolla picada con un poco de aceite, añade el pescado y cocina unos minutos para integrar los sabores.",
-        "assemble_filling": "Extiende la calabaza en una fuente, añade el pescado con la cebolla y las aceitunas en rodajas y cubre con bechamel.",
-        "cover_and_decorate": "Cubre la fuente con el hojaldre y usa los recortes para crear una decoración sencilla con forma de pez.",
-        "bake": "Pincela con yema y hornea a 200°C en horno estático precalentado hasta que el hojaldre quede bien dorado."
+        "cook_pumpkin": "Cuece la calabaza hasta que esté tierna, aplástala hasta obtener un puré rústico y condimenta con sal, pimienta y nuez moscada. Corta la calabaza en piezas iguales y deja evaporar bien el agua tras cocerla; demasiada humedad ablanda el hojaldre.",
+        "cook_fish": "Pocha la cebolla picada con un poco de aceite, añade el pescado y cocina unos minutos para integrar los sabores. Seca el pescado y retira espinas; cocina solo hasta opaco porque seguirá en el horno.",
+        "assemble_filling": "Extiende la calabaza en una fuente, añade el pescado con la cebolla y las aceitunas en rodajas y cubre con bechamel. Deja que calabaza y pescado estén solo tibios antes de añadir bechamel y rellenar; el calor excesivo derrite el hojaldre.",
+        "cover_and_decorate": "Cubre la fuente con el hojaldre y usa los recortes para crear una decoración sencilla con forma de pez. Mantén el hojaldre frío, sella bien el borde y abre 2–3 respiraderos de vapor.",
+        "bake": "Pincela con yema y hornea a 200°C en horno estático precalentado hasta que el hojaldre quede bien dorado. Hornea hasta hojaldre bien dorado e inflado incluso en el centro, normalmente 25–35 minutos."
       }
     },
     "recipe_000011": {
       "title": "Chaliapin Steak Don",
+      "description": "Donburi de bistec con método Chaliapin: cebolla picada reposa sobre la carne para ablandarla y luego se convierte en salsa de vino tinto y soja. El bistec reposado conserva jugosidad.",
+      "animeContext": "La referencia es directa: el Chaliapin Steak Don de Soma es central en el episodio 7 de la temporada 1 de Food Wars. La app mantiene la idea culinaria con instrucciones propias.",
       "ingredientTexts": {
         "beef_steak": {
           "name": "Bistec de ternera",
@@ -481,15 +503,17 @@
         }
       },
       "stepTexts": {
-        "step_1": "Marca ligeramente el bistec en rejilla, cúbrelo con la cebolla muy picada y déjalo reposar 30 minutos.",
-        "step_2": "Retira la cebolla y sofríela con mantequilla hasta que quede dorada y caramelizada.",
-        "step_3": "Dora el bistec a fuego fuerte unos 2 minutos por lado y desglasa con soja y vino tinto.",
-        "step_4": "Mezcla el arroz caliente con umeboshi picada y colócalo en un bol.",
-        "step_5": "Corta el bistec, colócalo sobre el arroz y termina con la cebolla caramelizada y los jugos de la sartén."
+        "step_1": "Marca ligeramente el bistec en rejilla, cúbrelo con la cebolla muy picada y déjalo reposar 30 minutos. undefined Reparte la cebolla por ambos lados y mantén la carne fría durante el reposo. Retírala y resérvala antes de dorar para no impedir la reacción de la superficie. undefined Seca muy bien la carne y sazona justo antes de llevarla a la sartén.",
+        "step_2": "Retira la cebolla y sofríela con mantequilla hasta que quede dorada y caramelizada. undefined Usa una sartén pesada muy caliente y no muevas el bistec 60–90 segundos. Gira al formar costra y ajusta el fuego para terminar sin quemar.",
+        "step_3": "Dora el bistec a fuego fuerte unos 2 minutos por lado y desglasa con soja y vino tinto. undefined Cocina la cebolla hasta suave y dorada, reduce el vino aproximadamente a la mitad y añade soja y mantequilla con fuego suave.",
+        "step_4": "Mezcla el arroz caliente con umeboshi picada y colócalo en un bol. undefined Reposa 5–8 minutos y corta contra la fibra; incorpora los jugos del reposo a la salsa.",
+        "step_5": "Corta el bistec, colócalo sobre el arroz y termina con la cebolla caramelizada y los jugos de la sartén. undefined Extiende el arroz, abre las lonchas en abanico y reparte la salsa alrededor y entre ellas sin cubrir totalmente la costra."
       }
     },
     "recipe_000012": {
       "title": "Gotcha Pork Roast (asado falso)",
+      "description": "Asado de patata y setas envuelto en bacon, inspirado en el plato improvisado de Soma. Es un plato de origen anime adaptado para cocinar, no un clásico tradicional japonés.",
+      "animeContext": "Es un plato directo de Food Wars, temporada 1 episodio 1. Como nace del anime y no de una receta tradicional, la app lo presenta como recreación adaptada.",
       "ingredientTexts": {
         "potatoes": {
           "name": "Patatas",
@@ -525,15 +549,17 @@
         }
       },
       "stepTexts": {
-        "step_1": "Cuece las patatas y aplástalas. Saltea cebolla y seta picadas con mantequilla e incorpóralas a la patata.",
-        "step_2": "Moldea la mezcla de patata con forma compacta de asado.",
-        "step_3": "Envuelve el bloque con bacon solapado y átalo con hilo de cocina y romero.",
-        "step_4": "Hornea a 200°C hasta que el bacon esté dorado y crujiente, unos 30–40 minutos.",
-        "step_5": "Desglasa la bandeja con vino tinto, soja y mantequilla y sirve la salsa sobre el asado cortado."
+        "step_1": "Cuece las patatas y aplástalas. Saltea cebolla y seta picadas con mantequilla e incorpóralas a la patata. undefined Escurre muy bien y seca las patatas 1–2 minutos en la olla caliente antes de aplastar; un puré húmedo no mantendrá la forma. undefined Cocina las setas hasta evaporar el agua y dorar los bordes; húmedas aflojarían el relleno. undefined Mezcla las setas con la patata tibia y sazona antes de enfriar; prueba ahora porque el interior necesita sabor propio.",
+        "step_2": "Moldea la mezcla de patata con forma compacta de asado. undefined Si el cilindro está blando, enfríalo unos 10 minutos antes de envolver con bacon. undefined Superpone el bacon aproximadamente un tercio y coloca la unión abajo antes de hornear.",
+        "step_3": "Envuelve el bloque con bacon solapado y átalo con hilo de cocina y romero. undefined Hornea hasta bacon bien dorado; si el centro está caliente y el bacon pálido, termina brevemente bajo el grill.",
+        "step_4": "Hornea a 200°C hasta que el bacon esté dorado y crujiente, unos 30–40 minutos. undefined Retira exceso de grasa antes de desglasar. Reduce el vino hasta perder olor alcohólico y añade soja y mantequilla.",
+        "step_5": "Desglasa la bandeja con vino tinto, soja y mantequilla y sirve la salsa sobre el asado cortado. undefined Reposa 5 minutos antes de cortar y usa cuchillo de sierra suavemente para mantener el bacon adherido."
       }
     },
     "recipe_000013": {
       "title": "Arroz con curry japonés",
+      "description": "Curry japonés espeso con pollo, cebolla, zanahoria y patata, terminado con roux y un poco de manzana para redondear el dulzor. La salsa debe quedar brillante y densa.",
+      "animeContext": "El curry es una comida recurrente en Persona 5 a través de Café Leblanc y el curry de Sojiro. La app sigue la técnica real del curry japonés.",
       "ingredientTexts": {
         "beef_or_pork": {
           "name": "Ternera o cerdo en dados",
@@ -565,14 +591,16 @@
         }
       },
       "stepTexts": {
-        "step_1": "Dora la carne en una olla y añade cebolla, zanahoria y patata.",
-        "step_2": "Cubre con agua o caldo y cuece unos 20 minutos hasta que las verduras estén tiernas.",
-        "step_3": "Añade la manzana rallada, apaga un momento el fuego y disuelve el roux de curry.",
-        "step_4": "Vuelve a fuego bajo hasta que la salsa espese y sirve junto al arroz."
+        "step_1": "Dora la carne en una olla y añade cebolla, zanahoria y patata. undefined Deja que la cebolla se ablande y dore ligeramente para crear dulzor antes del roux. undefined Dora el pollo por tandas si la olla está llena; cocerlo al vapor sin color da menos profundidad.",
+        "step_2": "Cubre con agua o caldo y cuece unos 20 minutos hasta que las verduras estén tiernas. undefined Corta zanahoria y patata de tamaño similar para que se cocinen juntas; patata demasiado pequeña se deshace. undefined Mantén hervor suave y retira espuma; detente cuando las verduras estén apenas tiernas porque seguirán cocinando con el roux.",
+        "step_3": "Añade la manzana rallada, apaga un momento el fuego y disuelve el roux de curry. undefined Añade la manzana muy rallada para que se funda; usa poca al principio porque el dulzor varía. undefined Apaga el fuego antes de añadir el roux y disuélvelo pieza a pieza para evitar que se queme en el fondo.",
+        "step_4": "Vuelve a fuego bajo hasta que la salsa espese y sirve junto al arroz. undefined Vuelve a fuego bajo 5–10 minutos hasta que cubra la cuchara; añade agua caliente solo si espesa demasiado. undefined Deja reposar el curry 5 minutos fuera del fuego antes de servir; la salsa se asienta."
       }
     },
     "recipe_000014": {
       "title": "Mapo tofu picante",
+      "description": "Tofu picante y brillante con cerdo, doubanjiang, ajo y jengibre. Esta versión accesible al estilo japonés trata el tofu con cuidado mientras la salsa se espesa alrededor.",
+      "animeContext": "El mapo tofu está fuertemente asociado con Kanade/Tenshi en Angel Beats!, como detalle recurrente del personaje. La receta es una adaptación real y cocinable.",
       "ingredientTexts": {
         "soft_tofu": {
           "name": "Tofu suave",
@@ -612,14 +640,16 @@
         }
       },
       "stepTexts": {
-        "step_1": "Corta el tofu en cubos de 2 cm y escáldalo 1 minuto en agua salada.",
-        "step_2": "Calienta aceite en un wok y sofríe ajo, jengibre, pimienta de Sichuan y doubanjiang.",
-        "step_3": "Añade el cerdo picado, dóralo y vierte el caldo.",
-        "step_4": "Añade el tofu, cuece 5 minutos y espesa con maicena disuelta. Termina con cebolleta."
+        "step_1": "Corta el tofu en cubos de 2 cm y escáldalo 1 minuto en agua salada. undefined Corta el tofu en cubos de 2 cm y, si es muy frágil, caliéntalo 1–2 minutos en agua ligeramente salada para que se rompa menos. undefined Dora hasta que el cerdo esté cocido y algunos bordes crujientes; ese tostado aporta profundidad.",
+        "step_2": "Calienta aceite en un wok y sofríe ajo, jengibre, pimienta de Sichuan y doubanjiang. undefined Fríe brevemente el doubanjiang hasta teñir el aceite de rojo y añade ajo y jengibre solo 20–30 segundos. undefined Añade caldo y soja, lleva a hervor suave y prueba antes de poner azúcar; el doubanjiang varía mucho.",
+        "step_3": "Añade el cerdo picado, dóralo y vierte el caldo. undefined Añade el tofu y mueve la sartén con suavidad en vez de remover; cocina 3–4 minutos sin romper.",
+        "step_4": "Añade el tofu, cuece 5 minutos y espesa con maicena disuelta. Termina con cebolleta. undefined Añade la mezcla de almidón en dos veces y detente en cuanto la salsa quede brillante y cubra ligeramente el tofu. undefined Termina con aceite de sésamo y cebolleta fuera del fuego para conservar aroma."
       }
     },
     "recipe_000015": {
       "title": "Nikujaga, estofado de carne y patata",
+      "description": "Clásico guiso casero japonés de carne fina, patatas, cebolla y zanahoria en dashi dulce-salado. Mejora con un breve reposo para que las patatas absorban el caldo.",
+      "animeContext": "La receta se inspira en la cocina doméstica tradicional de Demon Slayer; sin escena verificada, el vínculo es cultural.",
       "ingredientTexts": {
         "thin_beef": {
           "name": "Ternera en lonchas finas",
@@ -655,14 +685,16 @@
         }
       },
       "stepTexts": {
-        "step_1": "Corta patatas y zanahoria en trozos irregulares y lamina la cebolla.",
-        "step_2": "Dora la ternera con un poco de aceite y añade cebolla, patata y zanahoria.",
-        "step_3": "Añade dashi, soja, mirin y azúcar y lleva a hervor suave.",
-        "step_4": "Cubre con una tapa de contacto y cocina unos 20 minutos."
+        "step_1": "Corta patatas y zanahoria en trozos irregulares y lamina la cebolla. undefined Con carne fina, dora rápido sin cocinar por completo; terminará en el caldo. Retira exceso de grasa si se acumula. undefined Corta las patatas en piezas grandes y uniformes; piezas pequeñas se deshacen antes de que reduzca el caldo.",
+        "step_2": "Dora la ternera con un poco de aceite y añade cebolla, patata y zanahoria. undefined Lleva justo a hervor, retira espuma y baja a fuego suave; hervir fuerte rompe las patatas. undefined Usa tapa caída o papel si puedes y detente cuando la patata esté tierna pero aún mantenga forma.",
+        "step_3": "Añade dashi, soja, mirin y azúcar y lleva a hervor suave. undefined Reposa tapado fuera del fuego 15–20 minutos y recalienta suavemente; así las patatas absorben sabor.",
+        "step_4": "Cubre con una tapa de contacto y cocina unos 20 minutos. undefined Añade las judías verdes solo al recalentar para mantener color y algo de textura."
       }
     },
     "recipe_000016": {
       "title": "Karaage, pollo frito japonés",
+      "description": "Pollo frito japonés de muslo marinado, cubierto de fécula y frito dos veces para lograr una corteza crujiente y carne jugosa. El reposo entre frituras ayuda al centro y la segunda elimina humedad.",
+      "animeContext": "La ficha se inspira en la comida escolar y de equipo de Haikyuu!!; sin una escena verificada, no se presenta como aparición.",
       "ingredientTexts": {
         "chicken_thighs": {
           "name": "Contramuslos de pollo deshuesados",
@@ -698,14 +730,16 @@
         }
       },
       "stepTexts": {
-        "step_1": "Corta el pollo en trozos de 3–4 cm y marina 20 minutos con soja, sake, jengibre y ajo.",
-        "step_2": "Reboza cada trozo abundantemente con fécula de patata.",
-        "step_3": "Fríe a 160°C unos 4 minutos, escurre y deja reposar 2 minutos.",
-        "step_4": "Fríe de nuevo a 180°C durante 1 minuto y sirve con limón."
+        "step_1": "Corta el pollo en trozos de 3–4 cm y marina 20 minutos con soja, sake, jengibre y ajo. undefined Corta piezas de 3–4 cm para cocción uniforme y deja algo de piel para proteger la carne. undefined Marina en refrigeración y no demasiado tiempo; escurre el exceso antes de cubrir.",
+        "step_2": "Reboza cada trozo abundantemente con fécula de patata. undefined Cubre justo antes de freír y presiona algo de fécula en los pliegues para crear la corteza irregular típica. undefined Fríe en tandas pequeñas para mantener temperatura; la primera fritura cocina sin dorar demasiado.",
+        "step_3": "Fríe a 160°C unos 4 minutos, escurre y deja reposar 2 minutos. undefined Reposa en rejilla, no sobre papel, para evitar vapor y permitir que el calor llegue al centro. undefined Sube la temperatura y fríe solo 1–2 minutos hasta dorado intenso; el pollo ya debe estar cocido de forma segura.",
+        "step_4": "Fríe de nuevo a 180°C durante 1 minuto y sirve con limón. undefined Prueba antes de añadir sal y sirve enseguida con limón mientras la corteza está seca y crujiente."
       }
     },
     "recipe_000017": {
       "title": "Tamagoyaki, tortilla enrollada",
+      "description": "Tortilla japonesa enrollada hecha con varias capas finas de huevo sazonado. Cada capa se cuaja apenas y se une con la siguiente para crear una espiral tierna.",
+      "animeContext": "Inspirado en el ambiente de desayuno y bento tradicional compatible con Demon Slayer; no se afirma una aparición exacta.",
       "ingredientTexts": {
         "eggs": {
           "name": "Huevos",
@@ -733,14 +767,16 @@
         }
       },
       "stepTexts": {
-        "step_1": "Bate suavemente los huevos con dashi, azúcar, soja y una pizca de sal.",
-        "step_2": "Engrasa ligeramente una sartén rectangular y vierte una capa fina de huevo.",
-        "step_3": "Cuando apenas cuaje, enrolla el huevo hacia un lado.",
-        "step_4": "Añade otra capa, deja que pase bajo el rollo y vuelve a enrollar. Repite y corta."
+        "step_1": "Bate suavemente los huevos con dashi, azúcar, soja y una pizca de sal. undefined Mezcla sin montar para evitar espuma; para textura muy uniforme, cuela la mezcla. undefined Mantén fuego medio-bajo y solo una película fina de aceite entre capas.",
+        "step_2": "Engrasa ligeramente una sartén rectangular y vierte una capa fina de huevo. undefined Vierte solo una capa fina, rompe burbujas grandes y empieza a enrollar cuando la superficie aún esté algo húmeda. undefined Enrolla sin aplastar, devuelve el rollo al borde inicial y engrasa la zona libre antes de añadir más huevo.",
+        "step_3": "Cuando apenas cuaje, enrolla el huevo hacia un lado. undefined Levanta ligeramente el rollo al añadir huevo para que pase por debajo y una las capas.",
+        "step_4": "Añade otra capa, deja que pase bajo el rollo y vuelve a enrollar. Repite y corta. undefined Envuelve 2–3 minutos en esterilla o papel para fijar la forma y corta con cuchillo afilado ligeramente húmedo."
       }
     },
     "recipe_000018": {
       "title": "Nikuman, bollos al vapor con cerdo",
+      "description": "Panecillos japoneses al vapor con masa de levadura y relleno jugoso de cerdo, col y setas. Una buena fermentación da miga ligera y el reposo tras el vapor evita colapsos.",
+      "animeContext": "La receta se inspira en la abundante comida y panecillos al vapor asociados a Dragon Ball; no se afirma que este relleno exacto aparezca en un episodio.",
       "ingredientTexts": {
         "flour": {
           "name": "Harina de trigo",
@@ -784,54 +820,66 @@
         }
       },
       "stepTexts": {
-        "step_1": "Amasa harina, levadura, agua templada y azúcar y deja levar 1 hora.",
-        "step_2": "Mezcla el cerdo con col escurrida, cebolleta, jengibre, soja y aceite de sésamo.",
-        "step_3": "Divide la masa, forma discos con bordes finos y pon relleno en el centro.",
-        "step_4": "Pliega y pellizca los bordes para cerrar cada bollo.",
-        "step_5": "Cuece al vapor sobre papel 15–18 minutos y espera un momento antes de abrir."
+        "step_1": "Amasa harina, levadura, agua templada y azúcar y deja levar 1 hora. undefined Usa agua tibia, no caliente, para proteger la levadura; mezcla hasta que no quede harina seca. undefined Amasa hasta que quede liso y elástico; si se rompe al estirar, reposa unos minutos y amasa de nuevo. undefined Juzga la fermentación por volumen: debe casi duplicar y sentirse aireada; en frío puede necesitar más tiempo.",
+        "step_2": "Mezcla el cerdo con col escurrida, cebolleta, jengibre, soja y aceite de sésamo. undefined Mezcla hasta que el cerdo quede ligeramente pegajoso y mantén frío; elimina exceso de agua de col y setas.",
+        "step_3": "Divide la masa, forma discos con bordes finos y pon relleno en el centro. undefined Mantén cubiertas las porciones sin usar para que no se seque el borde. undefined Deja el centro más grueso que el borde, rellena y pliega el borde fino hacia arriba, cerrando con firmeza.",
+        "step_4": "Pliega y pellizca los bordes para cerrar cada bollo. undefined Deja que se hinchen visiblemente sin duplicar por completo; sobrefermentar puede hacerlos colapsar.",
+        "step_5": "Cuece al vapor sobre papel 15–18 minutos y espera un momento antes de abrir. undefined Empieza con vapor activo, no abras durante la cocción y verifica el cerdo. Al terminar, apaga y espera 3–5 minutos antes de abrir gradualmente."
       }
     },
     "recipe_000019": {
       "title": "Mitarashi Dango",
+      "description": "Bolas japonesas de arroz masticables en brocheta con glaseado brillante dulce-salado de soja. La mezcla de joshinko y shiratamako da una textura más clásica y un breve tostado aporta notas doradas.",
+      "animeContext": "Inspirado en la atmósfera de snacks tradicionales y festivales compatible con Naruto; no se afirma una aparición exacta.",
       "ingredientTexts": {
+        "joshinko": {
+          "name": "Joshinko, harina japonesa de arroz no glutinoso",
+          "note": null
+        },
         "shiratamako": {
-          "name": "Harina de arroz glutinoso shiratamako",
+          "name": "Shiratamako, harina de arroz glutinoso",
           "note": null
         },
-        "silken_tofu": {
-          "name": "Tofu sedoso",
+        "warm_water": {
+          "name": "Agua tibia",
           "note": null
         },
-        "soy_sauce": {
-          "name": "Salsa de soja",
-          "note": null
-        },
-        "sugar": {
-          "name": "Azúcar",
+        "glaze_sugar": {
+          "name": "Azúcar para el glaseado",
           "note": null
         },
         "mirin": {
           "name": "Mirin",
           "note": null
         },
-        "water": {
-          "name": "Agua templada",
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "glaze_water": {
+          "name": "Agua para el glaseado",
           "note": null
         },
         "cornstarch": {
-          "name": "Maicena",
+          "name": "Maicena para el glaseado",
           "note": null
         }
       },
       "stepTexts": {
-        "step_1": "Amasa la harina de arroz glutinoso con tofu sedoso hasta obtener una masa suave.",
-        "step_2": "Forma bolitas, hiérvelas y cuece 2 minutos más tras flotar. Enfría en agua con hielo.",
-        "step_3": "Ensarta 3–4 dango por brocheta y ásalos brevemente.",
-        "step_4": "Calienta soja, azúcar, mirin, agua y maicena hasta espesar y glasea las brochetas."
+        "make_dough": "Mezcla joshinko y shiratamako y añade agua tibia poco a poco hasta una masa lisa, suave y flexible; reserva algo de agua al principio.",
+        "shape_dango": "Divide en unas 20 porciones y forma bolas lisas de unos 2,5 cm. Mantén cubiertas con paño húmedo.",
+        "boil_dango": "Hierve en abundante agua sin amontonar. Cuando floten, cocina 1–2 minutos más para cocer el centro.",
+        "chill_dango": "Pasa 1–2 minutos a agua fría, escurre muy bien y seca la superficie.",
+        "skewer_dango": "Ensarta cuatro dango por brocheta con cuidado para no partirlos.",
+        "grill_dango": "Tuesta opcionalmente 1–2 minutos por lado en plancha seca caliente hasta pequeñas manchas doradas, manteniendo el interior suave.",
+        "make_glaze": "Mezcla en frío azúcar, mirin, soja, agua y maicena. Lleva a hervor suave y remueve 2–3 minutos hasta brillo y espesor.",
+        "coat_dango": "Cubre generosamente con glaseado tibio justo antes de servir y consume mientras siguen tiernos."
       }
     },
     "recipe_000020": {
       "title": "Taiyaki con anko",
+      "description": "Pasteles japoneses con forma de pez, capa fina crujiente e interior suave con anko. El reposo de la masa hidrata la harina y el calor moderado evita quemar el dibujo.",
+      "animeContext": "El taiyaki es una asociación recurrente y definitoria de Ayu en Kanon. La app usa ese vínculo y ofrece una receta real.",
       "ingredientTexts": {
         "flour": {
           "name": "Harina de trigo",
@@ -842,7 +890,7 @@
           "note": null
         },
         "egg": {
-          "name": "Huevos",
+          "name": "Huevo",
           "note": null
         },
         "milk": {
@@ -859,10 +907,1587 @@
         }
       },
       "stepTexts": {
-        "step_1": "Bate el huevo con azúcar y leche e incorpora harina y levadura tamizadas.",
-        "step_2": "Calienta y engrasa ligeramente el molde de taiyaki.",
-        "step_3": "Vierte una capa fina de masa, añade anko y cubre con más masa.",
-        "step_4": "Cierra el molde y cocina 3–4 minutos por lado a fuego medio-bajo."
+        "make_batter": "Bate huevo, azúcar y leche. Incorpora harina y levadura tamizadas solo hasta eliminar harina seca.",
+        "rest_batter": "Cubre y refrigera aproximadamente 1 hora. Remueve suavemente antes de cocinar y ajusta con muy poca leche solo si espesó demasiado.",
+        "heat_mould": "Precalienta el molde a fuego medio-bajo y engrasa apenas. Una gota debe chisporrotear sin quemarse.",
+        "fill_mould": "Llena alrededor del 60%, coloca anko en el centro sin tocar bordes y cubre con poca masa.",
+        "cook_taiyaki": "Cierra y cocina 6–8 minutos totales a fuego medio-bajo, girando cada 1–2 minutos, hasta dorado uniforme y bordes crujientes. Enfría brevemente en rejilla."
+      }
+    },
+    "recipe_000021": {
+      "title": "Sukiyaki tradicional",
+      "description": "Un hot pot japonés para compartir con ternera muy fina, tofu, setas, col china y shirataki en una salsa warishita brillante, dulce y salada. Los ingredientes se cocinan por tandas para mantener la carne tierna y dejar que las verduras absorban el caldo.",
+      "animeContext": "Esta versión se inspira en el ambiente de comidas compartidas asociado con March Comes in Like a Lion. No indicamos un episodio concreto hasta verificar directamente la escena.",
+      "ingredientTexts": {
+        "beef": {
+          "name": "Ternera cortada muy fina",
+          "note": null
+        },
+        "tofu": {
+          "name": "Tofu firme",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Setas shiitake frescas",
+          "note": null
+        },
+        "enoki": {
+          "name": "Setas enoki",
+          "note": null
+        },
+        "scallions": {
+          "name": "Cebolletas",
+          "note": null
+        },
+        "napa_cabbage": {
+          "name": "Col china",
+          "note": null
+        },
+        "shirataki": {
+          "name": "Fideos shirataki",
+          "note": null
+        },
+        "eggs": {
+          "name": "Huevos muy frescos, opcionales",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake de cocina",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "make_warishita": "Mezcla soja, mirin, sake y azúcar en un cazo. Lleva a un hervor suave unos 2 minutos hasta disolver el azúcar; añade el dashi y mantén caliente sin reducir demasiado.",
+        "prep_components": "Escurre y seca el tofu, córtalo en cubos grandes y dóralo por dos caras. Limpia las setas, corta la col en trozos grandes y las cebolletas en diagonal; enjuaga los shirataki, hiérvelos 2 minutos y escurre.",
+        "sear_beef": "Calienta una cazuela baja y ancha a fuego medio-alto con una película de aceite o grasa de ternera. Marca parte de la carne 20–30 segundos por lado, solo hasta que cambie de color.",
+        "arrange_pot": "Aparta la carne y coloca tofu, setas, col, cebolletas y shirataki en secciones. Distribúyelos sin amontonarlos para que el calor llegue de forma uniforme.",
+        "simmer": "Vierte warishita hasta cubrir aproximadamente la mitad de los ingredientes. Tapa parcialmente y cocina 8–10 minutos a fuego medio-bajo; añade el resto de la carne al final y cocínala solo hasta el punto deseado.",
+        "serve": "Sirve directamente de la cazuela. Si utilizas huevo crudo como salsa tradicional, emplea huevos pasteurizados o muy frescos y sigue las recomendaciones locales de seguridad alimentaria."
+      }
+    },
+    "recipe_000022": {
+      "title": "Kitsune Udon",
+      "description": "Un cuenco reconfortante de udon en dashi claro con aburaage cocido hasta quedar dulce, salado y jugoso. El contraste entre los fideos elásticos y el tofu sazonado define el plato.",
+      "animeContext": "Inspirado en la atmósfera cotidiana de A Whisker Away; no se afirma una escena exacta de kitsune udon.",
+      "ingredientTexts": {
+        "udon": {
+          "name": "Udon fresco o congelado",
+          "note": null
+        },
+        "aburaage": {
+          "name": "Láminas de aburaage",
+          "note": null
+        },
+        "scallion": {
+          "name": "Cebolleta",
+          "note": null
+        },
+        "kamaboko": {
+          "name": "Rodajas de kamaboko",
+          "note": null
+        },
+        "dashi_aburaage": {
+          "name": "Dashi para el aburaage",
+          "note": null
+        },
+        "soy_aburaage": {
+          "name": "Salsa de soja para el aburaage",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "mirin_aburaage": {
+          "name": "Mirin para el aburaage",
+          "note": null
+        },
+        "dashi_broth": {
+          "name": "Dashi para el caldo",
+          "note": null
+        },
+        "usukuchi": {
+          "name": "Salsa de soja clara (usukuchi)",
+          "note": null
+        },
+        "mirin_broth": {
+          "name": "Mirin para el caldo",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "deoil_aburaage": "Vierte agua hirviendo sobre ambos lados del aburaage para retirar aceite superficial, deja templar, seca y corta en porciones.",
+        "simmer_aburaage": "Cuece el aburaage con 150 ml de dashi, soja, azúcar y mirin a fuego bajo unos 10 minutos. Dale la vuelta una vez y para cuando casi haya absorbido el líquido pero siga jugoso.",
+        "make_broth": "Mezcla 600 ml de dashi, usukuchi, mirin y sal. Lleva a hervor suave, prueba y ajusta, y mantén justo por debajo de ebullición.",
+        "cook_udon": "Cuece o recalienta el udon según el paquete, normalmente 2–3 minutos. Separa con cuidado, escurre muy bien y evita pasarlo de cocción.",
+        "assemble": "Reparte el udon caliente, añade el caldo y corona con aburaage dulce, kamaboko y cebolleta fina. Sirve inmediatamente."
+      }
+    },
+    "recipe_000023": {
+      "title": "Tonkatsu",
+      "description": "Chuleta de cerdo japonesa con corteza de panko ligera y centro jugoso, acompañada de repollo fino y salsa tonkatsu. El grosor uniforme, el empanado y la temperatura del aceite importan más que freír con exceso de calor.",
+      "animeContext": "Inspirado en el mundo culinario competitivo de Food Wars!; no se atribuye a un episodio concreto.",
+      "ingredientTexts": {
+        "pork": {
+          "name": "Lomo o aguja de cerdo de 1,5–2 cm",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal fina",
+          "note": null
+        },
+        "pepper": {
+          "name": "Pimienta negra",
+          "note": null
+        },
+        "flour": {
+          "name": "Harina de trigo",
+          "note": null
+        },
+        "egg": {
+          "name": "Huevo grande",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
+          "note": null
+        },
+        "oil": {
+          "name": "Aceite neutro para freír",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Repollo",
+          "note": null
+        },
+        "tonkatsu_sauce": {
+          "name": "Salsa tonkatsu",
+          "note": null
+        },
+        "lemon": {
+          "name": "Gajos de limón",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "prep_pork": "Seca el cerdo, corta superficialmente la banda de grasa cada 2–3 cm y golpea solo para igualar el grosor.",
+        "season_bread": "Salpimenta, pasa por harina retirando el exceso, cubre con huevo y presiona en panko sin triturarlo. Reposa 5 minutos.",
+        "first_fry": "Calienta 4–5 cm de aceite a unos 170°C y fríe sin amontonar, aproximadamente 3 minutos por lado para 1,5–2 cm, manteniendo 165–175°C.",
+        "rest_check": "Pasa a una rejilla 3 minutos para que el calor residual llegue al centro. Comprueba una cocción segura en la parte más gruesa, no solo el color exterior.",
+        "crisp_finish": "Para más crocante, vuelve a freír 30–60 segundos a unos 180°C hasta dorado intenso y escurre sobre rejilla.",
+        "slice_serve": "Reposa un minuto, corta en tiras de 2 cm y sirve enseguida con repollo, salsa tonkatsu y limón."
+      }
+    },
+    "recipe_000024": {
+      "title": "Anpan relleno de anko",
+      "description": "Panecillos japoneses suaves y enriquecidos con un corazón generoso de pasta dulce de azuki. Dos fermentaciones crean una miga ligera y un buen sellado mantiene el relleno centrado.",
+      "animeContext": "El anpan aparece como referencia directa al inicio de Clannad: Nagisa lo menciona en el episodio 1. La receta es una reconstrucción culinaria original, sin copiar diálogos.",
+      "ingredientTexts": {
+        "bread_flour": {
+          "name": "Harina de fuerza",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "yeast": {
+          "name": "Levadura seca",
+          "note": null
+        },
+        "milk": {
+          "name": "Leche tibia",
+          "note": null
+        },
+        "egg": {
+          "name": "Huevo",
+          "note": null
+        },
+        "butter": {
+          "name": "Mantequilla blanda",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        },
+        "anko": {
+          "name": "Pasta dulce de azuki (anko)",
+          "note": null
+        },
+        "black_sesame": {
+          "name": "Sésamo negro",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "mix_knead": "Mezcla harina, azúcar y levadura; añade leche tibia y media cantidad de huevo. Incorpora sal y luego la mantequilla poco a poco. Amasa 10–12 minutos hasta que esté liso y elástico.",
+        "first_proof": "Forma una bola, cubre y deja fermentar en ambiente templado hasta casi duplicar, unos 60 minutos; juzga por el volumen más que por el reloj.",
+        "divide_rest": "Forma ocho bolas de anko de 30 g. Desgasifica, divide la masa en ocho piezas, bolea y deja reposar cubiertas 10 minutos.",
+        "fill_shape": "Aplana cada pieza dejando el centro algo más grueso, coloca el anko, sube los bordes y sella firmemente; gira la unión hacia abajo.",
+        "second_proof": "Deja fermentar en bandeja unos 30 minutos hasta que los panes estén visiblemente hinchados y ligeros.",
+        "bake": "Pinta con el huevo restante diluido, añade sésamo negro y hornea a 180°C durante 13–15 minutos hasta dorado uniforme. Enfría sobre rejilla."
+      }
+    },
+    "recipe_000025": {
+      "title": "Hiyashi Chuka — Ramen frío de verano",
+      "description": "Un plato japonés de verano servido frío con ramen elástico, verduras crujientes, tiras de huevo y aderezos sabrosos sobre una salsa ácida de soja y vinagre de arroz. Enjuagar y secar bien los fideos evita un plato aguado.",
+      "animeContext": "Inspirado en el lenguaje culinario visual y estacional de Food Wars!; no se afirma un episodio concreto.",
+      "ingredientTexts": {
+        "ramen_noodles": {
+          "name": "Fideos ramen frescos",
+          "note": null
+        },
+        "ham": {
+          "name": "Jamón cocido o chashu",
+          "note": null
+        },
+        "cucumber": {
+          "name": "Pepino",
+          "note": null
+        },
+        "egg": {
+          "name": "Huevo",
+          "note": null
+        },
+        "tomatoes": {
+          "name": "Tomates cherry",
+          "note": null
+        },
+        "surimi": {
+          "name": "Surimi o carne de cangrejo",
+          "note": null
+        },
+        "bean_sprouts": {
+          "name": "Brotes de soja, opcionales",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "rice_vinegar": {
+          "name": "Vinagre de arroz",
+          "note": null
+        },
+        "water": {
+          "name": "Agua",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Aceite de sésamo tostado",
+          "note": null
+        },
+        "karashi": {
+          "name": "Mostaza japonesa karashi",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "make_dressing": "Disuelve el azúcar en el vinagre, añade soja, agua y aceite de sésamo y enfría al menos 5 minutos.",
+        "make_kinshi": "Bate el huevo con sal, cocina una lámina muy fina a fuego medio-bajo, enfría, enrolla y corta en tiras finas.",
+        "prep_toppings": "Corta pepino y jamón en juliana, divide tomates, desmenuza surimi y blanquea brevemente los brotes. Mantén todo frío y bien escurrido.",
+        "cook_chill_noodles": "Cuece el ramen 2–3 minutos o según el paquete. Escurre, enjuaga con agua fría para retirar almidón, enfría en hielo y vuelve a escurrir muy bien.",
+        "plate": "Coloca los fideos fríos y distribuye las coberturas en secciones de colores separadas.",
+        "dress_serve": "Añade la salsa fría justo antes de comer y una pequeña cantidad de karashi. Mezcla en la mesa y sirve de inmediato."
+      }
+    },
+    "recipe_000026": {
+      "title": "Yakisoba Pan",
+      "description": "Un clásico snack japonés de pan y fideos: yakisoba salteado dentro de un pan suave con aonori y jengibre encurtido. La salsa debe reducirse para no empapar el pan.",
+      "animeContext": "Inspirado en la comida cotidiana asociada a Jujutsu Kaisen; no se afirma una escena exacta.",
+      "ingredientTexts": {
+        "koppepan": {
+          "name": "Koppepan o panecillos suaves",
+          "note": null
+        },
+        "yakisoba_noodles": {
+          "name": "Fideos yakisoba",
+          "note": null
+        },
+        "pork_belly": {
+          "name": "Panceta de cerdo en tiras",
+          "note": null
+        },
+        "onion": {
+          "name": "Cebolla",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Hojas de col",
+          "note": null
+        },
+        "yakisoba_sauce": {
+          "name": "Salsa yakisoba",
+          "note": null
+        },
+        "aonori": {
+          "name": "Aonori",
+          "note": null
+        },
+        "beni_shoga": {
+          "name": "Beni shoga",
+          "note": null
+        },
+        "kewpie": {
+          "name": "Mayonesa japonesa, opcional",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "sear_pork": "Dora la panceta a fuego medio-alto hasta que suelte grasa y tome color.",
+        "cook_vegetables": "Añade cebolla y col y saltea unos 3 minutos manteniendo algo de textura.",
+        "loosen_noodles": "Agrega los fideos con 2 cucharadas de agua, tapa 30 segundos y sepáralos con cuidado.",
+        "sauce_noodles": "Incorpora la salsa yakisoba y saltea a fuego fuerte unos 2 minutos hasta que queden brillantes y sin exceso de líquido.",
+        "prep_buns": "Abre los panecillos a lo largo sin separarlos por completo; añade una capa fina de mayonesa si deseas.",
+        "fill_finish": "Rellena con yakisoba caliente y termina con aonori, mayonesa y beni shoga. Sirve enseguida."
+      }
+    },
+    "recipe_000027": {
+      "title": "Melonpan",
+      "description": "Un pan dulce japonés suave cubierto por una costra de galleta crujiente marcada como la piel de un melón. El nombre alude al aspecto, no obliga a usar sabor de melón.",
+      "animeContext": "El melonpan es una asociación recurrente con Shana en Shakugan no Shana y aparece muy pronto; usamos el episodio 2 como referencia verificada.",
+      "ingredientTexts": {
+        "bread_flour": {
+          "name": "Harina de fuerza",
+          "note": null
+        },
+        "bread_sugar": {
+          "name": "Azúcar para la masa",
+          "note": null
+        },
+        "yeast": {
+          "name": "Levadura seca",
+          "note": null
+        },
+        "milk": {
+          "name": "Leche tibia",
+          "note": null
+        },
+        "bread_butter": {
+          "name": "Mantequilla para la masa",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        },
+        "cookie_flour": {
+          "name": "Harina para la cobertura",
+          "note": null
+        },
+        "cookie_butter": {
+          "name": "Mantequilla para la cobertura",
+          "note": null
+        },
+        "cookie_sugar": {
+          "name": "Azúcar para la cobertura",
+          "note": null
+        },
+        "egg": {
+          "name": "Huevo batido",
+          "note": null
+        },
+        "vanilla": {
+          "name": "Vainilla",
+          "note": null
+        },
+        "coating_sugar": {
+          "name": "Azúcar para cubrir",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "make_bread_dough": "Amasa harina, azúcar y levadura con leche tibia; añade sal y mantequilla y trabaja unos 10 minutos hasta que quede liso y elástico.",
+        "first_proof": "Cubre y deja fermentar hasta casi duplicar, unos 60 minutos.",
+        "make_cookie_dough": "Bate mantequilla y azúcar, añade huevo y vainilla e incorpora harina solo hasta unir. Enfría 20 minutos.",
+        "divide_shape": "Divide la masa de pan y la cobertura en seis; estira la cobertura en discos y envuelve tres cuartos de cada bola.",
+        "coat_score": "Pasa la superficie por azúcar y marca una cuadrícula romboidal poco profunda sin cortar la masa de pan.",
+        "final_rest_bake": "Reposa 20 minutos y hornea a 170°C durante 12–15 minutos, hasta que la cobertura esté seca y ligeramente dorada."
+      }
+    },
+    "recipe_000028": {
+      "title": "Korokke japonesas",
+      "description": "Croquetas japonesas de patata con relleno suave de carne y cebolla y corteza crujiente de panko. Un puré seco y una mezcla bien fría ayudan a mantener la forma.",
+      "animeContext": "Inspirado en la cocina cotidiana y nostálgica de From Up on Poppy Hill; se presenta como inspiración hasta verificar una escena exacta.",
+      "ingredientTexts": {
+        "potatoes": {
+          "name": "Patatas de pulpa amarilla",
+          "note": null
+        },
+        "ground_meat": {
+          "name": "Carne picada mixta",
+          "note": null
+        },
+        "onion": {
+          "name": "Cebolla",
+          "note": null
+        },
+        "butter": {
+          "name": "Mantequilla",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        },
+        "pepper": {
+          "name": "Pimienta negra",
+          "note": null
+        },
+        "nutmeg": {
+          "name": "Nuez moscada",
+          "note": null
+        },
+        "flour": {
+          "name": "Harina",
+          "note": null
+        },
+        "eggs": {
+          "name": "Huevos",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
+          "note": null
+        },
+        "oil": {
+          "name": "Aceite para freír",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "cook_potatoes": "Cuece las patatas en trozos hasta muy tiernas, escurre a fondo y aplasta en caliente; evapora humedad extra en la olla si es necesario.",
+        "cook_filling": "Sofríe cebolla en mantequilla, añade carne y dórala desmenuzando; sazona con soja, pimienta y nuez moscada.",
+        "mix_cool": "Mezcla con la patata, extiende en una bandeja para enfriar rápido y refrigera cuando deje de humear hasta que esté firme.",
+        "shape": "Forma ocho óvalos compactos de unos 2 cm y alisa grietas.",
+        "bread": "Pasa por harina, huevo y panko; enfría brevemente mientras calienta el aceite.",
+        "fry": "Fríe a unos 175°C en tandas durante 3–4 minutos hasta dorado uniforme y escurre sobre rejilla."
+      }
+    },
+    "recipe_000029": {
+      "title": "Katsu Curry",
+      "description": "Curry japonés con arroz y una chuleta de panko crujiente. Dejar parte del katsu fuera de la salsa conserva el contraste de texturas.",
+      "animeContext": "Inspirado en el tono de comfort food asociado a Chainsaw Man. El nombre culinario correcto es Katsu Curry; no se afirma un episodio concreto.",
+      "ingredientTexts": {
+        "pork_cutlets": {
+          "name": "Tonkatsu de cerdo",
+          "note": null
+        },
+        "rice": {
+          "name": "Arroz japonés de grano corto cocido",
+          "note": null
+        },
+        "curry_roux": {
+          "name": "Roux de curry japonés",
+          "note": null
+        },
+        "potato": {
+          "name": "Patata mediana",
+          "note": null
+        },
+        "carrot": {
+          "name": "Zanahoria",
+          "note": null
+        },
+        "onion": {
+          "name": "Cebolla",
+          "note": null
+        },
+        "water": {
+          "name": "Agua o caldo ligero",
+          "note": null
+        },
+        "oil": {
+          "name": "Aceite neutro",
+          "note": null
+        },
+        "fukujinzuke": {
+          "name": "Fukujinzuke, opcional",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "cook_rice": "Cocina arroz japonés y déjalo reposar tapado 10 minutos; suelta los granos con cuidado.",
+        "start_curry": "Pocha cebolla en aceite hasta suave y ligeramente dorada, añade zanahoria y patata y saltea 2–3 minutos.",
+        "simmer_vegetables": "Añade 500 ml de agua o caldo y cocina parcialmente tapado unos 15 minutos hasta que las verduras estén tiernas.",
+        "add_roux": "Apaga el fuego, disuelve unos 45 g de roux, vuelve a fuego bajo y cocina 4–5 minutos hasta espesar; respeta la proporción del fabricante si cambia.",
+        "cook_tonkatsu": "Prepara el tonkatsu hasta que quede crujiente y cocido de forma segura; reposa sobre rejilla y corta.",
+        "assemble": "Sirve arroz, tonkatsu y curry dejando parte de la corteza al descubierto; añade fukujinzuke si deseas."
+      }
+    },
+    "recipe_000030": {
+      "title": "Tarta japonesa de fresas",
+      "description": "Tarta japonesa ligera de celebración con bizcocho aireado, nata poco dulce y fresas frescas. El resultado depende de una miga fina y una crema fría y estable.",
+      "animeContext": "K-On! está muy ligado a las pausas de té y pastel del club. La receta se presenta como asociación recurrente, no como una preparación exacta de una escena concreta.",
+      "ingredientTexts": {
+        "eggs": {
+          "name": "Huevos grandes a temperatura ambiente",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "flour": {
+          "name": "Harina floja para repostería",
+          "note": null
+        },
+        "butter": {
+          "name": "Mantequilla",
+          "note": null
+        },
+        "milk": {
+          "name": "Leche entera",
+          "note": null
+        },
+        "cream": {
+          "name": "Nata para montar fría",
+          "note": null
+        },
+        "icing_sugar": {
+          "name": "Azúcar glas",
+          "note": null
+        },
+        "strawberries": {
+          "name": "Fresas frescas",
+          "note": null
+        },
+        "syrup_water": {
+          "name": "Agua para almíbar",
+          "note": null
+        },
+        "syrup_sugar": {
+          "name": "Azúcar para almíbar",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "prep_pan_eggs": "Forra un molde de 18 cm y precalienta a 170°C. Entibia huevos y azúcar al baño maría y bate 8–10 minutos hasta triplicar volumen y formar cinta.",
+        "fold_batter": "Incorpora harina tamizada en dos veces con movimientos envolventes. Mezcla mantequilla con leche, aligera con un poco de masa y reincorpora sin perder aire.",
+        "bake_cool": "Hornea a 170°C 23–25 minutos hasta que rebote al tacto y el palillo salga limpio. Desmolda y enfría por completo antes de cortar.",
+        "prep_filling": "Monta nata fría con azúcar glas a picos medios-firmes. Corta parte de las fresas en láminas y enfría el almíbar.",
+        "split_syrup_fill": "Corta el bizcocho frío en dos, humedece ligeramente, rellena con nata y fresas sin grandes huecos y cierra con la segunda capa.",
+        "frost_decorate": "Aplica una capa fina, enfría si hace falta y cubre con el resto de nata. Decora con fresas bien secas.",
+        "chill": "Refrigera al menos 2 horas antes de cortar y conserva siempre en frío."
+      }
+    },
+    "recipe_000031": {
+      "title": "Zaru Soba",
+      "description": "Fideos de trigo sarraceno fríos servidos aparte de una salsa para mojar, con nori, cebolleta y wasabi. Lavarlos muy bien tras la cocción elimina el almidón y recupera una textura firme.",
+      "animeContext": "Inspirado en la atmósfera de cocina tradicional de Demon Slayer; no se afirma un episodio concreto.",
+      "ingredientTexts": {
+        "soba": {
+          "name": "Fideos soba",
+          "note": null
+        },
+        "nori": {
+          "name": "Hoja de nori",
+          "note": null
+        },
+        "scallion": {
+          "name": "Cebolleta",
+          "note": null
+        },
+        "wasabi": {
+          "name": "Wasabi",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "make_mentsuyu": "Hierve suavemente dashi, soja, mirin y azúcar 1–2 minutos y enfría por completo; debe quedar más concentrado que un caldo.",
+        "cook_soba": "Cuece la soba en abundante agua sin sal según el paquete, removiendo al principio y comprobando antes de pasarla.",
+        "wash_chill": "Escurre y lava bajo abundante agua fría, frotando suavemente para eliminar almidón; termina en agua muy fría.",
+        "drain_plate": "Escurre muy bien para no diluir la salsa y coloca en un plato o zaru con nori.",
+        "serve": "Sirve el mentsuyu frío aparte con cebolleta y un poco de wasabi; moja solo una parte de los fideos."
+      }
+    },
+    "recipe_000032": {
+      "title": "Hanetsuki Gyoza — Gyoza con alas crujientes",
+      "description": "Gyoza japoneses unidos por una fina red crujiente de almidón, con relleno jugoso y base dorada.",
+      "animeContext": "Los gyoza son una comida recurrente muy reconocible en Dorohedoro, asociada con Nikaido y Hungry Bug. La versión hanetsuki con encaje es la variante de la app.",
+      "ingredientTexts": {
+        "wrappers": {
+          "name": "Oblatas de gyoza",
+          "note": null
+        },
+        "pork": {
+          "name": "Cerdo picado",
+          "note": null
+        },
+        "napa_cabbage": {
+          "name": "Col china",
+          "note": null
+        },
+        "scallions": {
+          "name": "Cebolletas",
+          "note": null
+        },
+        "garlic": {
+          "name": "Ajo",
+          "note": null
+        },
+        "ginger": {
+          "name": "Jengibre fresco",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Aceite de sésamo",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        },
+        "water": {
+          "name": "Agua para el encaje",
+          "note": null
+        },
+        "cornstarch": {
+          "name": "Maicena",
+          "note": null
+        },
+        "frying_oil": {
+          "name": "Aceite neutro",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "prep_cabbage_filling": "Sala la col 10 minutos y exprímela muy bien. Mezcla con cerdo, cebolleta, ajo, jengibre, soja y sésamo hasta que el relleno quede pegajoso; mantén frío.",
+        "fold": "Pon una cucharadita de relleno, humedece el borde, pliega y sella expulsando aire. Mantén cubiertos los gyoza.",
+        "brown_bases": "Dora las bases 2–3 minutos en sartén antiadherente con aceite.",
+        "steam": "Mezcla agua y maicena, vierte alrededor, tapa y cuece 5–6 minutos hasta que el cerdo esté cocido y casi no quede líquido.",
+        "crisp_wings": "Destapa y cocina hasta formar una fina red dorada; añade unas gotas de aceite de sésamo y deja crujir 1–2 minutos.",
+        "invert_serve": "Despega el borde e invierte sobre un plato grande. Sirve inmediatamente."
+      }
+    },
+    "recipe_000033": {
+      "title": "Inari Sushi",
+      "description": "Bolsas de tofu dulce-salado rellenas de arroz japonés ligeramente avinagrado, una forma de sushi sencilla de preparar en casa.",
+      "animeContext": "Inspirado en la vida cotidiana japonesa de A Whisker Away; no se afirma que esta preparación exacta aparezca en pantalla.",
+      "ingredientTexts": {
+        "inari_age": {
+          "name": "Bolsas de inari-age sazonadas",
+          "note": null
+        },
+        "rice": {
+          "name": "Arroz japonés cocido",
+          "note": null
+        },
+        "rice_vinegar": {
+          "name": "Vinagre de arroz",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        },
+        "sesame": {
+          "name": "Sésamo tostado",
+          "note": null
+        },
+        "vegetable_mix": {
+          "name": "Zanahoria y shiitake guisados, opcionales",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "season_rice": "Con el arroz caliente disuelve azúcar y sal en vinagre e incorpóralo con movimientos de corte sin aplastar los granos.",
+        "cool_rice": "Enfría hasta tibio y brillante y cubre con un paño húmedo.",
+        "prepare_pouches": "Escurre el inari-age sin exprimir y abre las bolsas con cuidado.",
+        "mix_garnish": "Añade sésamo y, si deseas, verduras muy bien escurridas.",
+        "fill": "Forma ocho óvalos de arroz con manos húmedas, rellena las bolsas suavemente y sirve a temperatura ambiente."
+      }
+    },
+    "recipe_000034": {
+      "title": "Espaguetis Napolitan japoneses",
+      "description": "Pasta yōshoku retro de cafés kissaten, con kétchup cocinado junto a salchicha, cebolla, pimiento y setas. La textura más suave y la salsa dulce-ácida son parte del estilo.",
+      "animeContext": "Inspirado en la atmósfera de cafetería y comida cotidiana de Komi Can't Communicate; el vínculo es editorial hasta verificar una escena exacta.",
+      "ingredientTexts": {
+        "spaghetti": {
+          "name": "Espaguetis",
+          "note": null
+        },
+        "sausages": {
+          "name": "Salchichas tipo frankfurt",
+          "note": null
+        },
+        "onion": {
+          "name": "Cebolla",
+          "note": null
+        },
+        "green_pepper": {
+          "name": "Pimiento verde",
+          "note": null
+        },
+        "mushrooms": {
+          "name": "Champiñones",
+          "note": null
+        },
+        "ketchup": {
+          "name": "Kétchup",
+          "note": null
+        },
+        "milk": {
+          "name": "Leche entera",
+          "note": null
+        },
+        "butter": {
+          "name": "Mantequilla",
+          "note": null
+        },
+        "oil": {
+          "name": "Aceite",
+          "note": null
+        },
+        "parmesan": {
+          "name": "Queso tipo parmesano rallado",
+          "note": null
+        },
+        "tabasco": {
+          "name": "Tabasco, opcional",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "cook_pasta": "Cuece los espaguetis algo más suaves que al dente para imitar el estilo kissaten, escurre, enjuaga muy brevemente y añade unas gotas de aceite.",
+        "saute_fillings": "Saltea salchicha, cebolla, pimiento y champiñones con mantequilla y aceite 4–5 minutos.",
+        "cook_ketchup": "Aparta los ingredientes y cocina el kétchup directamente en la sartén 60–90 segundos hasta perder aroma crudo.",
+        "toss": "Añade leche y pasta y saltea a fuego fuerte unos 2 minutos hasta cubrir por completo.",
+        "finish": "Prueba antes de salar y sirve con queso y Tabasco opcional."
+      }
+    },
+    "recipe_000035": {
+      "title": "Katsu Sando",
+      "description": "Sándwich japonés de pan blanco suave, cerdo crujiente, salsa tonkatsu y repollo fino. La breve presión une las capas y permite un corte limpio.",
+      "animeContext": "Inspirado en la comida cotidiana de Spy x Family; no se atribuye a una escena exacta sin fuente directa.",
+      "ingredientTexts": {
+        "shokupan": {
+          "name": "Pan blanco suave tipo shokupan",
+          "note": null
+        },
+        "pork": {
+          "name": "Chuletas de cerdo de 1,5 cm",
+          "note": null
+        },
+        "flour": {
+          "name": "Harina",
+          "note": null
+        },
+        "egg": {
+          "name": "Huevo",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Repollo muy fino",
+          "note": null
+        },
+        "kewpie": {
+          "name": "Mayonesa japonesa",
+          "note": null
+        },
+        "tonkatsu_sauce": {
+          "name": "Salsa tonkatsu",
+          "note": null
+        },
+        "butter": {
+          "name": "Mantequilla blanda",
+          "note": null
+        },
+        "oil": {
+          "name": "Aceite para freír",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "bread_pork": "Seca y sazona el cerdo, corta el borde graso y empana con harina, huevo y panko. Deja asentar unos minutos.",
+        "fry_rest": "Fríe a unos 170°C hasta dorado y cocción segura, 3–4 minutos por lado según grosor; reposa 3 minutos en rejilla.",
+        "prep_bread": "Unta una capa muy fina de mantequilla en el interior del pan para protegerlo de la humedad.",
+        "sauce_stack": "Cubre la carne con salsa tonkatsu, añade mayonesa y repollo seco y fino, y cierra el sándwich.",
+        "press": "Envuelve y prensa suavemente 5 minutos bajo una tabla ligera.",
+        "trim_slice": "Corta con cuchillo de sierra limpio en mitades o tres piezas."
+      }
+    },
+    "recipe_000036": {
+      "title": "Yakitori Negima con tare",
+      "description": "Yakitori de pollo y cebolleta glaseado con tare de soja y mirin. El muslo con piel mantiene jugosidad y la salsa se carameliza al final.",
+      "animeContext": "Inspirado en la atmósfera de izakaya y comida callejera de Gintama; el vínculo sigue siendo inspiración sin una escena verificada.",
+      "ingredientTexts": {
+        "chicken_thigh": {
+          "name": "Muslos de pollo deshuesados con piel",
+          "note": null
+        },
+        "scallions": {
+          "name": "Cebolletas grandes o negi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "brown_sugar": {
+          "name": "Azúcar moreno",
+          "note": null
+        },
+        "garlic": {
+          "name": "Diente de ajo",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "make_tare": "Cuece soja, mirin, sake, azúcar y ajo 10–12 minutos hasta reducir y brillar. Separa una porción limpia antes de tocar pollo crudo.",
+        "prep_skewers": "Remoja brochetas de madera 20 minutos. Corta pollo y cebolleta en piezas de unos 2,5 cm.",
+        "assemble": "Ensarta alternando pollo y cebolleta sin comprimir demasiado.",
+        "grill_first": "Asa a fuego medio-alto 4–5 minutos por lado hasta dorar y lograr cocción segura.",
+        "glaze_finish": "Cuando el pollo esté casi hecho, pinta con tare limpia y carameliza 30–60 segundos por lado; vuelve a pintar fuera del fuego."
+      }
+    },
+    "recipe_000037": {
+      "title": "Ozoni estilo Kanto",
+      "description": "Sopa de Año Nuevo estilo Kanto con dashi claro, mochi tostado, pollo y verduras. El ozoni varía mucho según región y familia.",
+      "animeContext": "Fruits Basket tiene fuertes asociaciones con Año Nuevo y mochi; esta receta es explícitamente una reconstrucción estilo Kanto.",
+      "ingredientTexts": {
+        "kirimochi": {
+          "name": "Kirimochi",
+          "note": null
+        },
+        "chicken": {
+          "name": "Muslo o pechuga de pollo",
+          "note": null
+        },
+        "carrot": {
+          "name": "Zanahoria",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Shiitake fresco",
+          "note": null
+        },
+        "komatsuna": {
+          "name": "Komatsuna o espinaca",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        },
+        "usukuchi": {
+          "name": "Salsa de soja clara",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "prep_garnishes": "Corta pollo, zanahoria y shiitake; blanquea komatsuna o espinaca, enfría, escurre y corta.",
+        "grill_mochi": "Tuesta el kirimochi 5–6 minutos hasta que se hinche y dore ligeramente, quedando elástico dentro.",
+        "season_broth": "Calienta el dashi suavemente y sazona con usukuchi, mirin y sal manteniendo un sabor delicado.",
+        "cook_chicken_veg": "Cuece pollo, zanahoria y shiitake 6–8 minutos hasta cocción segura y verdura tierna.",
+        "assemble": "Pon un mochi en cada cuenco, distribuye los ingredientes y vierte caldo muy caliente.",
+        "serve_safely": "Sirve enseguida y come el mochi despacio; córtalo más pequeño para quien tenga dificultad al masticar o tragar."
+      }
+    },
+    "recipe_000038": {
+      "title": "Kakigori con leche condensada",
+      "description": "Hielo raspado japonés en forma de nieve muy ligera con sirope y leche condensada. El verdadero kakigori se raspa, no se tritura simplemente.",
+      "animeContext": "Inspirado en el verano japonés nostálgico de My Neighbor Totoro; es una referencia cultural, no una escena exacta.",
+      "ingredientTexts": {
+        "ice": {
+          "name": "Hielo para raspar",
+          "note": null
+        },
+        "syrup": {
+          "name": "Sirope de kakigori",
+          "note": null
+        },
+        "condensed_milk": {
+          "name": "Leche condensada",
+          "note": null
+        },
+        "anko": {
+          "name": "Anko, opcional",
+          "note": null
+        },
+        "shiratama": {
+          "name": "Shiratama dango, opcional",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "prep_ice": "Para textura suave usa hielo preparado para máquina de kakigori y déjalo templar unos minutos. La batidora solo da una aproximación más gruesa.",
+        "shave": "Raspa directamente en cuencos fríos con poca presión, girando el recipiente para repartir la nieve.",
+        "shape": "Forma una montaña alta sin compactar; el aire aporta ligereza.",
+        "syrup": "Añade el sirope en varias pasadas para que penetre sin derrumbar el hielo.",
+        "finish": "Termina con leche condensada y, si deseas, anko y shiratama. Sirve inmediatamente."
+      }
+    },
+    "recipe_000039": {
+      "title": "Ichigo Daifuku",
+      "description": "Fresa fresca y anko dulce envueltos en mochi suave y elástico. Hay que trabajar la masa aún tibia para poder estirarla sin romper.",
+      "animeContext": "Inspirado en la imaginería de dulces estacionales de Fruits Basket; no se afirma un episodio concreto.",
+      "ingredientTexts": {
+        "strawberries": {
+          "name": "Fresas medianas",
+          "note": null
+        },
+        "anko": {
+          "name": "Pasta dulce de azuki",
+          "note": null
+        },
+        "shiratamako": {
+          "name": "Shiratamako o mochiko",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "water": {
+          "name": "Agua",
+          "note": null
+        },
+        "starch": {
+          "name": "Fécula de patata o maicena",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "prep_berries": "Lava y seca perfectamente las fresas. Divide el anko en seis porciones y envuelve cada fruta dejando la punta visible.",
+        "mix_mochi": "Mezcla shiratamako, azúcar y agua sin grumos en un bol apto para microondas.",
+        "microwave": "Cocina tapado sin sellar 90 segundos a 600 W, remueve y cocina 60–90 segundos más hasta que quede brillante, translúcido y elástico.",
+        "dust_divide": "Vuelca sobre abundante almidón, enfría solo hasta poder tocar y divide en seis mientras sigue tibio.",
+        "wrap": "Aplana en discos, coloca la fresa con la punta hacia abajo, estira el mochi y cierra sin rasgar.",
+        "finish_store": "Retira almidón extra y sirve preferentemente el mismo día; la refrigeración prolongada endurece el mochi."
+      }
+    },
+    "recipe_000040": {
+      "title": "Rollo de matcha",
+      "description": "Bizcocho ligero de té verde enrollado con nata y anko opcional. Pre-enrollarlo caliente ayuda a evitar grietas.",
+      "animeContext": "K-On! está muy ligado al té y los pasteles del club; este rollo se presenta como asociación recurrente, no receta exacta de una escena.",
+      "ingredientTexts": {
+        "eggs": {
+          "name": "Huevos grandes separados",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "flour": {
+          "name": "Harina de trigo o repostería",
+          "note": null
+        },
+        "matcha": {
+          "name": "Matcha culinario",
+          "note": null
+        },
+        "milk": {
+          "name": "Leche entera",
+          "note": null
+        },
+        "oil": {
+          "name": "Aceite neutro",
+          "note": null
+        },
+        "cream": {
+          "name": "Nata fría",
+          "note": null
+        },
+        "icing_sugar": {
+          "name": "Azúcar glas",
+          "note": null
+        },
+        "anko": {
+          "name": "Anko, opcional",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "make_yolk_batter": "Bate yemas con 20 g de azúcar. Disuelve matcha tamizado en leche tibia, mezcla con aceite y añade; incorpora harina hasta alisar.",
+        "whip_meringue": "Monta claras y añade los 50 g de azúcar restantes en tres veces hasta picos medios-firmes y brillantes.",
+        "fold": "Incorpora un tercio del merengue y luego el resto con movimientos envolventes hasta eliminar vetas blancas.",
+        "bake": "Extiende en molde de 28 cm y hornea a 170°C 11–12 minutos hasta que rebote al tacto.",
+        "pre_roll_cool": "Vuelca sobre papel, retira el papel de cocción, enrolla flojo en caliente y enfría completamente así.",
+        "fill_roll_chill": "Rellena con nata montada, añade anko opcional, enrolla sin aplastar y refrigera al menos 1 hora."
+      }
+    },
+    "recipe_000041": {
+      "title": "Omelette soufflé estilo Food Wars",
+      "description": "Omelette muy ligera hecha con claras montadas incorporadas a las yemas y servida con salsa de tomate. La cocción suave mantiene la textura aireada.",
+      "animeContext": "Aquí el vínculo es directo: la omelette soufflé forma parte del reto de desayuno de la temporada 1 de Food Wars, episodios 13–14. La receta es una reconstrucción original.",
+      "ingredientTexts": {
+        "eggs": {
+          "name": "Huevos frescos",
+          "note": null
+        },
+        "cream": {
+          "name": "Nata líquida",
+          "note": null
+        },
+        "butter": {
+          "name": "Mantequilla",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal fina",
+          "note": null
+        },
+        "white_pepper": {
+          "name": "Pimienta blanca",
+          "note": null
+        },
+        "chives": {
+          "name": "Cebollino",
+          "note": null
+        },
+        "tomato_passata": {
+          "name": "Passata de tomate",
+          "note": null
+        },
+        "ketchup": {
+          "name": "Kétchup",
+          "note": null
+        },
+        "stock": {
+          "name": "Caldo ligero",
+          "note": null
+        },
+        "olive_oil": {
+          "name": "Aceite de oliva",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "make_tomato_sauce": "Cuece passata, kétchup y caldo con aceite 6–8 minutos hasta que la salsa pierda el sabor crudo y espese ligeramente.",
+        "separate_eggs": "Separa claras y yemas en cuencos limpios. Bate yemas con nata, sal y pimienta.",
+        "whip_whites": "Monta claras a picos firmes y brillantes sin llegar a secarlas.",
+        "fold": "Incorpora un tercio a las yemas y luego el resto con movimientos envolventes.",
+        "cook_covered": "Derrite mantequilla en sartén antiadherente a fuego bajo, añade la mezcla, tapa y cocina 5–6 minutos hasta base dorada y parte superior apenas cuajada.",
+        "fold_serve": "Dobla sin aplastar, sirve en plato caliente y coloca la salsa de tomate alrededor. Termina con cebollino."
+      }
+    },
+    "recipe_000042": {
+      "title": "Nagasaki Champon",
+      "description": "Plato contundente de Nagasaki con cerdo, marisco, verduras y noodles champon en un solo wok. Esta versión no usa leche: el cuerpo viene del caldo concentrado.",
+      "animeContext": "Inspirado en la cocina doméstica de Today's Menu for the Emiya Family; no se afirma un episodio exacto.",
+      "ingredientTexts": {
+        "champon_noodles": {
+          "name": "Fideos de Nagasaki champon",
+          "note": null
+        },
+        "pork": {
+          "name": "Cerdo fino",
+          "note": null
+        },
+        "shrimp": {
+          "name": "Gambas peladas",
+          "note": null
+        },
+        "squid": {
+          "name": "Calamar",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Col",
+          "note": null
+        },
+        "carrot": {
+          "name": "Zanahoria",
+          "note": null
+        },
+        "bean_sprouts": {
+          "name": "Brotes de soja",
+          "note": null
+        },
+        "kamaboko": {
+          "name": "Kamaboko",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Shiitake",
+          "note": null
+        },
+        "oil": {
+          "name": "Aceite neutro",
+          "note": null
+        },
+        "water": {
+          "name": "Agua",
+          "note": null
+        },
+        "chicken_stock": {
+          "name": "Base concentrada de caldo de pollo",
+          "note": null
+        },
+        "oyster_sauce": {
+          "name": "Salsa de ostras",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "prep": "Corta todos los ingredientes en piezas uniformes y deja la mise en place lista antes de calentar el wok.",
+        "mix_soup": "Mezcla agua, base de pollo, salsa de ostras, sake, azúcar y sal.",
+        "stir_fry_proteins": "Saltea cerdo, gambas y calamar a fuego fuerte 2–3 minutos sin terminar de cocinarlos.",
+        "stir_fry_veg": "Añade zanahoria, col, shiitake y kamaboko y saltea 2–3 minutos manteniendo textura.",
+        "simmer_soup": "Vierte el caldo, lleva a hervor vivo, añade brotes y cocina unos 2 minutos.",
+        "add_noodles": "Añade los noodles directamente y cuece 3–4 minutos o según el paquete. Sirve inmediatamente."
+      }
+    },
+    "recipe_000043": {
+      "title": "Sopa de miso con tofu y wakame",
+      "description": "Sopa japonesa cotidiana donde el dashi aporta umami y el miso se disuelve al final para mantener aroma. Tofu y wakame forman una combinación clásica.",
+      "animeContext": "Inspirado en la cocina doméstica tradicional de Demon Slayer; es una asociación cultural, no una escena exacta.",
+      "ingredientTexts": {
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        },
+        "miso": {
+          "name": "Pasta de miso blanco, awase o rojo",
+          "note": null
+        },
+        "silken_tofu": {
+          "name": "Tofu sedoso",
+          "note": null
+        },
+        "wakame": {
+          "name": "Wakame seco",
+          "note": null
+        },
+        "scallions": {
+          "name": "Cebolletas",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "rehydrate_wakame": "Hidrata el wakame unos 5 minutos, escurre y exprime suavemente.",
+        "heat_dashi": "Lleva el dashi a hervor suave y prueba antes de salar; cada miso tiene distinta salinidad.",
+        "warm_tofu": "Añade tofu en cubos y calienta unos 2 minutos sin hervor fuerte.",
+        "dissolve_miso": "Apaga el fuego, disuelve el miso con un poco de dashi en un cucharón o colador, prueba y ajusta. Evitar hervir fuerte preserva mejor aroma y sabor.",
+        "finish": "Añade wakame y cebolleta, recalienta suavemente si hace falta y sirve."
+      }
+    },
+    "recipe_000044": {
+      "title": "Purin japonés de caramelo",
+      "description": "Flan japonés de caramelo liso, firme pero tembloroso, con salsa brillante al desmoldar. Mezclar suavemente y cocinar al baño maría evita burbujas.",
+      "animeContext": "Inspirado en la conocida afición por los dulces de Gintama; es una asociación editorial, no un episodio concreto.",
+      "ingredientTexts": {
+        "caramel_sugar": {
+          "name": "Azúcar para caramelo",
+          "note": null
+        },
+        "cold_water": {
+          "name": "Agua fría",
+          "note": null
+        },
+        "hot_water": {
+          "name": "Agua caliente",
+          "note": null
+        },
+        "milk": {
+          "name": "Leche entera",
+          "note": null
+        },
+        "eggs": {
+          "name": "Huevos enteros",
+          "note": null
+        },
+        "yolk": {
+          "name": "Yema",
+          "note": null
+        },
+        "custard_sugar": {
+          "name": "Azúcar para la crema",
+          "note": null
+        },
+        "vanilla": {
+          "name": "Vainilla",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "make_caramel": "Cuece azúcar y agua sin remover hasta ámbar. Retira y añade con cuidado el agua caliente; reparte en moldes.",
+        "warm_milk": "Calienta leche, azúcar y vainilla hasta humear sin hervir.",
+        "mix_eggs": "Mezcla huevos y yema suavemente sin crear espuma.",
+        "temper_filter": "Vierte leche caliente poco a poco, filtra dos veces y reparte sobre el caramelo. Cubre los moldes.",
+        "bain_marie": "Hornea al baño maría a 150°C durante 25–30 minutos, con bordes firmes y centro que tiemble suavemente.",
+        "cool_chill": "Enfría y refrigera al menos 3 horas.",
+        "unmould": "Pasa un cuchillo por el borde e invierte sobre un plato."
+      }
+    },
+    "recipe_000045": {
+      "title": "Ebi Fry — Gambas con panko",
+      "description": "Gambas fritas japonesas rectas y crujientes con panko grueso e interior jugoso. Los cortes liberan los tendones y secar la cola reduce salpicaduras.",
+      "animeContext": "Inspirado en la comida escolar y familiar de My Hero Academia; no se afirma una escena exacta.",
+      "ingredientTexts": {
+        "shrimp": {
+          "name": "Gambas grandes crudas con cáscara",
+          "note": null
+        },
+        "flour": {
+          "name": "Harina",
+          "note": null
+        },
+        "egg": {
+          "name": "Huevo",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        },
+        "pepper": {
+          "name": "Pimienta negra",
+          "note": null
+        },
+        "oil": {
+          "name": "Aceite para freír",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Repollo muy fino",
+          "note": null
+        },
+        "lemon": {
+          "name": "Gajos de limón",
+          "note": null
+        },
+        "tartar": {
+          "name": "Salsa tártara o mayonesa japonesa",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "clean_shrimp": "Pela dejando cola y último segmento, abre el dorso y retira la vena; seca bien.",
+        "straighten": "Haz 3–4 cortes poco profundos en el vientre y presiona suavemente el dorso hasta dejar el camarón casi recto.",
+        "dry_season": "Corta la punta de la cola y elimina el agua atrapada para reducir salpicaduras. Seca y salpimenta.",
+        "bread": "Pasa por harina, huevo y panko dejando la cola libre.",
+        "fry": "Fríe 3–4 a la vez a 175–180°C durante 2–3 minutos, girando una vez, hasta dorado y carne opaca.",
+        "drain_serve": "Escurre en rejilla y sirve enseguida con repollo, limón y salsa."
+      }
+    },
+    "recipe_000046": {
+      "title": "Mochi Isobeyaki (Isobe-maki)",
+      "description": "Kirimochi tostado con soja y nori crujiente, un snack japonés de textura y umami. Se conoce como Isobeyaki y también Isobe-maki.",
+      "animeContext": "Inspirado en la cultura de meriendas de K-On!; la receta es real, pero no se afirma una escena concreta.",
+      "ingredientTexts": {
+        "kirimochi": {
+          "name": "Kirimochi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar, opcional",
+          "note": null
+        },
+        "nori": {
+          "name": "Hojas de nori",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "make_sauce": "Mezcla soja con azúcar opcional hasta disolver; la versión sin azúcar también es tradicional.",
+        "toast_first_side": "Tuesta el kirimochi tapado a fuego medio-bajo unos 5 minutos hasta dorar y empezar a inflarse.",
+        "toast_second_side": "Gira y cocina unos 3 minutos más hasta que esté blando y elástico por dentro.",
+        "coat": "Pinta o sumerge en la salsa; carameliza solo 20–30 segundos por lado si deseas.",
+        "wrap_serve": "Envuelve inmediatamente en nori y sirve caliente antes de que el mochi se endurezca."
+      }
+    },
+    "recipe_000047": {
+      "title": "Sanshoku Soboro Don",
+      "description": "Bol japonés tricolor de pollo dulce-salado, huevo en migas finas y una franja verde. Remover continuamente crea el soboro uniforme.",
+      "animeContext": "Inspirado en la técnica y presentación de Food Wars!; el plato es un clásico real de hogar y bento, pero el vínculo anime es editorial.",
+      "ingredientTexts": {
+        "rice": {
+          "name": "Arroz japonés cocido",
+          "note": null
+        },
+        "ground_chicken": {
+          "name": "Pollo picado",
+          "note": null
+        },
+        "ginger": {
+          "name": "Jengibre fresco",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "meat_sugar": {
+          "name": "Azúcar para el pollo",
+          "note": null
+        },
+        "eggs": {
+          "name": "Huevos",
+          "note": null
+        },
+        "egg_sugar": {
+          "name": "Azúcar para los huevos",
+          "note": null
+        },
+        "egg_salt": {
+          "name": "Sal para los huevos",
+          "note": null
+        },
+        "peas": {
+          "name": "Guisantes cocidos",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "season_chicken_cold": "Mezcla pollo, jengibre, soja, mirin, sake y azúcar en un cazo frío y desmenuza antes de encender.",
+        "cook_chicken": "Cocina a fuego medio-bajo removiendo sin parar 6–8 minutos hasta obtener migas muy finas, totalmente cocidas y glaseadas.",
+        "mix_eggs": "Bate huevos con azúcar y sal solo hasta unir.",
+        "cook_egg_soboro": "Cocina a fuego bajo removiendo rápidamente para crear migas pequeñas y húmedas; retira antes de secar.",
+        "prep_green": "Calienta o blanquea los guisantes y escurre bien.",
+        "assemble": "Sirve arroz con tercios de pollo, huevo y una franja verde. Si va a bento, enfría de forma rápida y segura."
+      }
+    },
+    "recipe_000048": {
+      "title": "Chawanmushi — Flan salado al vapor",
+      "description": "Flan salado japonés de huevo y dashi con pequeños trozos de pollo, gambas, setas y kamaboko. La proporción, el colado y el vapor suave crean textura sedosa.",
+      "animeContext": "Inspirado en la cocina doméstica de Today's Menu for the Emiya Family; no se afirma un episodio exacto.",
+      "ingredientTexts": {
+        "eggs": {
+          "name": "Huevos grandes",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi tibio",
+          "note": null
+        },
+        "usukuchi": {
+          "name": "Salsa de soja clara",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        },
+        "shrimp": {
+          "name": "Gambas pequeñas peladas",
+          "note": null
+        },
+        "chicken": {
+          "name": "Pollo",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Shiitake fresco",
+          "note": null
+        },
+        "kamaboko": {
+          "name": "Kamaboko",
+          "note": null
+        },
+        "mitsuba": {
+          "name": "Mitsuba o cebollino",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "prep_fillings": "Corta pollo y shiitake pequeños. Marca o blanquea el pollo y, si son grandes, las gambas; el vapor suave debe terminar la cocción.",
+        "mix_seasoned_dashi": "Sazona dashi tibio con usukuchi, mirin y sal; no debe estar caliente.",
+        "mix_eggs": "Mezcla huevos suavemente sin aire. Para unos 100 ml de huevo usa aproximadamente 250 ml de dashi.",
+        "strain_fill": "Combina y cuela. Reparte rellenos, vierte la crema y elimina burbujas.",
+        "steam": "Tapa, cocina 2 minutos con vapor fuerte y luego 10–12 minutos con vapor muy suave.",
+        "check_finish": "Debe cuajar liso y temblar en el centro; un pincho debe liberar caldo claro, no huevo crudo."
+      }
+    },
+    "recipe_000049": {
+      "title": "Kashiwa Mochi",
+      "description": "Wagashi del Día del Niño con pastel de arroz suave, anko y hoja aromática de kashiwa. La hoja es envoltorio, no alimento; deben usarse hojas culinarias y joshinko.",
+      "animeContext": "Inspirado en la relación general de Ranma ½ con dulces japoneses y escenas de comida; no se afirma un episodio exacto.",
+      "ingredientTexts": {
+        "joshinko": {
+          "name": "Joshinko, harina japonesa de arroz de grano corto",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "water": {
+          "name": "Agua",
+          "note": null
+        },
+        "anko": {
+          "name": "Pasta dulce lisa de azuki",
+          "note": null
+        },
+        "kashiwa_leaves": {
+          "name": "Hojas de kashiwa preparadas para uso alimentario",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "prep_leaves_filling": "Usa solo hojas de kashiwa vendidas para uso culinario, nunca recogidas al aire libre. Enjuaga según el envase y forma ocho bolas de anko de 25 g.",
+        "mix_dough": "Mezcla joshinko y azúcar y añade casi toda el agua poco a poco hasta una masa espesa y lisa; reserva algo de agua.",
+        "cook_mochi": "Cocina al microondas en intervalos, removiendo, hasta que la masa esté completamente cocida, muy caliente y algo translúcida, unos 3–4 minutos según potencia.",
+        "knead": "Amasa primero con espátula húmeda y luego con manos mojadas hasta quedar lisa y flexible, sin excederte.",
+        "shape_fill": "Divide en ocho, forma óvalos, aplana, coloca anko y dobla en media luna sellando suavemente.",
+        "wrap_serve": "Envuelve en hoja de kashiwa alimentaria; la hoja aromatiza pero no se come. Sirve el mismo día."
+      }
+    },
+    "recipe_000050": {
+      "title": "Parfait japonés gigante estilo Gintama",
+      "description": "Parfait alto estilo kissaten con helado, nata, fruta y cereal, llevado a una presentación deliberadamente exagerada de anime. El parfait japonés es real; el tamaño gigante es la variante inspirada en Gintama.",
+      "animeContext": "El parfait es un motivo recurrente verificado de Gintama ligado a la afición de Gintoki por los dulces. Una referencia directa es temporada 3 episodio 40 (139 total), donde recibe un parfait; la versión gigante es interpretación de la app.",
+      "ingredientTexts": {
+        "vanilla_ice_cream": {
+          "name": "Helado de vainilla",
+          "note": null
+        },
+        "matcha_ice_cream": {
+          "name": "Helado de matcha",
+          "note": null
+        },
+        "cream": {
+          "name": "Nata fría ligeramente azucarada",
+          "note": null
+        },
+        "cornflakes": {
+          "name": "Corn flakes o granola",
+          "note": null
+        },
+        "strawberries": {
+          "name": "Fresas",
+          "note": null
+        },
+        "banana": {
+          "name": "Plátano",
+          "note": null
+        },
+        "blueberries": {
+          "name": "Arándanos",
+          "note": null
+        },
+        "pocky": {
+          "name": "Palitos Pocky",
+          "note": null
+        },
+        "wafers": {
+          "name": "Barquillos",
+          "note": null
+        },
+        "syrup": {
+          "name": "Salsa de chocolate o fresa",
+          "note": null
+        },
+        "cherries": {
+          "name": "Cerezas confitadas",
+          "note": null
+        }
+      },
+      "stepTexts": {
+        "chill_glasses": "Enfría dos vasos altos al menos 5 minutos para retrasar el derretimiento.",
+        "whip_cream": "Monta la nata a picos firmes pero lisos y pásala a manga.",
+        "prep_fruit": "Lava y seca muy bien la fruta; corta fresa y plátano justo antes de montar.",
+        "build_base": "Pon una línea de salsa, corn flakes, algo de nata y fruta visible contra el vaso.",
+        "layer": "Alterna helado de vainilla y matcha con fruta y nata, trabajando rápido.",
+        "finish_serve": "Termina con un remolino alto de nata, Pocky, barquillo, fruta y cereza. Sirve inmediatamente."
       }
     }
   }

@@ -12,20 +12,47 @@
   "sourceNote": null,
   "imageAssetId": null,
   "ingredients": [
-    {"id": "ingredient_id", "quantity": 1, "unit": null}
+    {
+      "id": "ingredient_id",
+      "quantity": 1,
+      "unit": null
+    }
   ],
   "steps": [
-    {"id": "step_id", "timerSeconds": null}
+    {
+      "id": "step_id",
+      "timerSeconds": null
+    }
   ],
   "locales": {
     "en": {
       "title": "English title",
       "ingredients": {
-        "ingredient_id": {"name": "Ingredient", "note": null}
+        "ingredient_id": {
+          "name": "Ingredient",
+          "note": null
+        }
       },
       "steps": {
         "step_id": "Write fresh editorial instructions here."
-      }
+      },
+      "description": "Write a useful editorial description of the dish, flavour, texture and context.",
+      "animeContext": "Explain the connection to the work in fresh wording without copied dialogue."
     }
+  },
+  "animeReferences": [
+    {
+      "workTitle": "Anime or manga title",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "review_required",
+    "culinaryNote": "Explain the culinary verification state.",
+    "animeStatus": "unverified",
+    "animeNote": "Explain the anime-reference verification state."
   }
 }

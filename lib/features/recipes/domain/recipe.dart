@@ -10,6 +10,34 @@ enum RecipeContentOrigin {
   adapted,
 }
 
+enum RecipeAnimeRelation {
+  verifiedAppearance,
+  recurringAssociation,
+  inspired,
+  unverified,
+}
+
+class RecipeAnimeReference {
+  const RecipeAnimeReference({
+    required this.workTitle,
+    required this.relation,
+    this.season,
+    this.episode,
+    this.chapter,
+  });
+
+  final String workTitle;
+  final RecipeAnimeRelation relation;
+  final int? season;
+  final String? episode;
+  final String? chapter;
+
+  bool get hasLocation =>
+      season != null ||
+      (episode != null && episode!.trim().isNotEmpty) ||
+      (chapter != null && chapter!.trim().isNotEmpty);
+}
+
 class RecipeIngredient {
   const RecipeIngredient({
     required this.id,
@@ -71,6 +99,9 @@ class Recipe {
     required this.difficulty,
     required this.ingredients,
     required this.steps,
+    this.description,
+    this.animeContext,
+    this.animeReferences = const [],
     this.sourceNote,
     this.imageAsset,
   });
@@ -81,6 +112,9 @@ class Recipe {
   final String? sourceNote;
   final String title;
   final String animeSource;
+  final String? description;
+  final String? animeContext;
+  final List<RecipeAnimeReference> animeReferences;
   final int prepMinutes;
   final int cookMinutes;
   final int servings;

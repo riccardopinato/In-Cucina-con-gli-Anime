@@ -1,0 +1,255 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000046",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "K-On!",
+  "animeReferences": [
+    {
+      "workTitle": "K-On!",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Grilled mochi seasoned with soy sauce and wrapped in nori is a real preparation known as Isobeyaki and also Isobe-maki; the app uses both names rather than treating the source term as an error.",
+    "animeStatus": "unverified",
+    "animeNote": "K-On! relation retained as inspiration; no exact isobeyaki scene claimed."
+  },
+  "prepMinutes": 5,
+  "cookMinutes": 10,
+  "servings": 2,
+  "difficulty": "easy",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from Ricettario Vol. 5; naming re-audited against Japanese culinary sources: Isobeyaki and Isobe-maki are both attested.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "kirimochi",
+      "quantity": 4,
+      "unit": "piece"
+    },
+    {
+      "id": "soy_sauce",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "sugar",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "nori",
+      "quantity": 2,
+      "unit": "sheet"
+    }
+  ],
+  "steps": [
+    {
+      "id": "make_sauce",
+      "timerSeconds": 60
+    },
+    {
+      "id": "toast_first_side",
+      "timerSeconds": 300
+    },
+    {
+      "id": "toast_second_side",
+      "timerSeconds": 180
+    },
+    {
+      "id": "coat",
+      "timerSeconds": 60
+    },
+    {
+      "id": "wrap_serve",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Isobeyaki (Isobe-maki) Mochi",
+      "description": "Grilled kirimochi brushed with soy sauce and wrapped in crisp nori, a simple Japanese snack built entirely on texture and umami. It is commonly called Isobeyaki and is also described as Isobe-maki; the mochi should be blistered outside and molten-chewy inside.",
+      "animeContext": "Inspired by K-On!’s tea-time snack culture. The culinary preparation is real, but the app does not claim a specific Isobeyaki scene without direct evidence.",
+      "ingredients": {
+        "kirimochi": {
+          "name": "Kirimochi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar, optional",
+          "note": null
+        },
+        "nori": {
+          "name": "Nori sheets",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_sauce": "Stir soy sauce with the optional sugar until dissolved. A plain soy version is also traditional; use sweetness only if you like the glossy sweet-savoury style.",
+        "toast_first_side": "Place kirimochi in a dry non-stick pan over medium-low heat and cover. Toast about 5 minutes, checking occasionally, until the lower face is golden and the centre begins to puff.",
+        "toast_second_side": "Turn the mochi and cook uncovered for about 3 minutes more, until the second face is lightly blistered and the centre is fully soft and stretchy. Remove as soon as it puffs strongly so it does not burst and leak.",
+        "coat": "While the mochi is piping hot, brush or dip both faces in the soy mixture. Return to the pan for only 20–30 seconds per side if you want the sauce lightly caramelized; watch closely because soy and sugar burn quickly.",
+        "wrap_serve": "Wrap each mochi immediately with a strip of crisp nori and serve hot. The contrast is best at once: as cooked mochi cools it firms and loses the soft elastic texture."
+      }
+    },
+    "it": {
+      "title": "Isobeyaki (Isobe-maki) Mochi",
+      "description": "Kirimochi grigliato, condito con salsa di soia e avvolto in nori croccante: uno snack giapponese essenziale, tutto giocato su consistenza e umami. È comunemente chiamato Isobeyaki ed è attestato anche come Isobe-maki; fuori deve essere tostato, dentro morbido e filante.",
+      "animeContext": "Ispirato alla cultura degli snack da tè di K-On!. La preparazione culinaria è reale, ma non attribuiamo l’Isobeyaki a una scena precisa senza fonte diretta.",
+      "ingredients": {
+        "kirimochi": {
+          "name": "Kirimochi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa di soia",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucchero, facoltativo",
+          "note": null
+        },
+        "nori": {
+          "name": "Fogli di nori",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_sauce": "Mescola la salsa di soia con lo zucchero facoltativo finché è sciolto. Anche la versione con sola soia è tradizionale: usa il dolce solo se preferisci una glassa più rotonda.",
+        "toast_first_side": "Metti i kirimochi in una padella antiaderente asciutta a fuoco medio-basso e copri. Tosta circa 5 minuti, controllando ogni tanto, finché la base è dorata e il centro inizia a gonfiarsi.",
+        "toast_second_side": "Gira i mochi e cuoci senza coperchio per altri 3 minuti circa, finché anche l’altro lato è leggermente dorato e l’interno completamente morbido e filante. Toglili appena si gonfiano molto, prima che si aprano.",
+        "coat": "Quando sono ancora bollenti, spennella o intingi entrambi i lati nella soia. Se vuoi una lieve caramellizzazione, rimettili in padella solo 20–30 secondi per lato: soia e zucchero bruciano rapidamente.",
+        "wrap_serve": "Avvolgi subito ogni mochi con una striscia di nori croccante e servi caldo. Il contrasto è migliore immediatamente, perché raffreddandosi il mochi indurisce."
+      }
+    },
+    "es": {
+      "title": "Mochi Isobeyaki (Isobe-maki)",
+      "description": "Kirimochi tostado con soja y nori crujiente, un snack japonés de textura y umami. Se conoce como Isobeyaki y también Isobe-maki.",
+      "animeContext": "Inspirado en la cultura de meriendas de K-On!; la receta es real, pero no se afirma una escena concreta.",
+      "ingredients": {
+        "kirimochi": {
+          "name": "Kirimochi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar, opcional",
+          "note": null
+        },
+        "nori": {
+          "name": "Hojas de nori",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_sauce": "Mezcla soja con azúcar opcional hasta disolver; la versión sin azúcar también es tradicional.",
+        "toast_first_side": "Tuesta el kirimochi tapado a fuego medio-bajo unos 5 minutos hasta dorar y empezar a inflarse.",
+        "toast_second_side": "Gira y cocina unos 3 minutos más hasta que esté blando y elástico por dentro.",
+        "coat": "Pinta o sumerge en la salsa; carameliza solo 20–30 segundos por lado si deseas.",
+        "wrap_serve": "Envuelve inmediatamente en nori y sirve caliente antes de que el mochi se endurezca."
+      }
+    },
+    "fr": {
+      "title": "Mochi Isobeyaki (Isobe-maki)",
+      "description": "Kirimochi grillé, assaisonné de soja et enveloppé de nori croustillant, un snack japonais centré sur l’umami et la texture. On rencontre les noms Isobeyaki et Isobe-maki.",
+      "animeContext": "Inspiré de la culture du goûter dans K-On!; la préparation est réelle mais aucune scène précise n’est revendiquée.",
+      "ingredients": {
+        "kirimochi": {
+          "name": "Kirimochi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre, facultatif",
+          "note": null
+        },
+        "nori": {
+          "name": "Feuilles de nori",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_sauce": "Mélangez soja et sucre facultatif; la version sans sucre est également traditionnelle.",
+        "toast_first_side": "Grillez le kirimochi couvert à feu moyen-doux environ 5 minutes jusqu’à coloration et début de gonflement.",
+        "toast_second_side": "Retournez et cuisez environ 3 minutes jusqu’à cœur souple et élastique.",
+        "coat": "Badigeonnez ou trempez dans la sauce; caramélisez seulement 20–30 secondes par face si souhaité.",
+        "wrap_serve": "Enveloppez aussitôt de nori et servez chaud avant que le mochi ne durcisse."
+      }
+    },
+    "de": {
+      "title": "Isobeyaki (Isobe-maki) Mochi",
+      "description": "Gegrilltes Kirimochi mit Sojasauce und knusprigem Nori, ein einfacher japanischer Umami-Snack. Sowohl Isobeyaki als auch Isobe-maki sind gebräuchliche Bezeichnungen.",
+      "animeContext": "Von K-Ons Teepausen-Snackkultur inspiriert; die Zubereitung ist real, aber keine konkrete Szene wird behauptet.",
+      "ingredients": {
+        "kirimochi": {
+          "name": "Kirimochi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker, optional",
+          "note": null
+        },
+        "nori": {
+          "name": "Nori-Blätter",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_sauce": "Sojasauce mit optionalem Zucker verrühren; auch nur Soja ist traditionell.",
+        "toast_first_side": "Kirimochi abgedeckt bei mittlerer bis niedriger Hitze etwa 5 Minuten rösten, bis es bräunt und aufbläht.",
+        "toast_second_side": "Wenden und etwa 3 Minuten weitergaren, bis der Kern weich und elastisch ist.",
+        "coat": "Mit Sauce bestreichen oder eintauchen; optional nur 20–30 Sekunden je Seite karamellisieren.",
+        "wrap_serve": "Sofort in Nori wickeln und heiß servieren, bevor das Mochi fest wird."
+      }
+    },
+    "pt": {
+      "title": "Mochi Isobeyaki (Isobe-maki)",
+      "description": "Kirimochi grelhado com molho de soja e nori crocante, um lanche japonês de textura e umami. É chamado Isobeyaki e também Isobe-maki.",
+      "animeContext": "Inspirado na cultura de lanches de K-On!; a preparação é real, mas não afirmamos cena específica.",
+      "ingredients": {
+        "kirimochi": {
+          "name": "Kirimochi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Molho de soja",
+          "note": null
+        },
+        "sugar": {
+          "name": "Açúcar, opcional",
+          "note": null
+        },
+        "nori": {
+          "name": "Folhas de nori",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_sauce": "Misture soja com açúcar opcional; a versão sem açúcar também é tradicional.",
+        "toast_first_side": "Toste o kirimochi tampado em fogo médio-baixo por cerca de 5 minutos até dourar e começar a inflar.",
+        "toast_second_side": "Vire e cozinhe por mais cerca de 3 minutos até ficar macio e elástico por dentro.",
+        "coat": "Pincele ou mergulhe no molho; caramelize só 20–30 segundos de cada lado se desejar.",
+        "wrap_serve": "Envolva imediatamente em nori e sirva quente antes que o mochi endureça."
+      }
+    }
+  }
+}

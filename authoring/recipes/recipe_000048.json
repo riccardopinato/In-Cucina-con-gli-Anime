@@ -1,0 +1,439 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000048",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Today's Menu for the Emiya Family",
+  "animeReferences": [
+    {
+      "workTitle": "Today's Menu for the Emiya Family",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Chawanmushi verified; egg-to-dashi ratio normalized to about 1:2.5 by volume and low steam/straining cues preserved.",
+    "animeStatus": "unverified",
+    "animeNote": "Association kept as inspiration."
+  },
+  "prepMinutes": 20,
+  "cookMinutes": 15,
+  "servings": 2,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from Ricettario Vol. 5; ratio aligned to tested chawanmushi guidance and filling pre-cooking made explicit.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "eggs",
+      "quantity": 2,
+      "unit": null
+    },
+    {
+      "id": "dashi",
+      "quantity": 250,
+      "unit": "ml"
+    },
+    {
+      "id": "usukuchi",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "mirin",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "id": "shrimp",
+      "quantity": 4,
+      "unit": null
+    },
+    {
+      "id": "chicken",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "id": "shiitake",
+      "quantity": 2,
+      "unit": null
+    },
+    {
+      "id": "kamaboko",
+      "quantity": 4,
+      "unit": "slice"
+    },
+    {
+      "id": "mitsuba",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "prep_fillings",
+      "timerSeconds": 420
+    },
+    {
+      "id": "mix_seasoned_dashi",
+      "timerSeconds": 120
+    },
+    {
+      "id": "mix_eggs",
+      "timerSeconds": 120
+    },
+    {
+      "id": "strain_fill",
+      "timerSeconds": 300
+    },
+    {
+      "id": "steam",
+      "timerSeconds": 720
+    },
+    {
+      "id": "check_finish",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Chawanmushi — Savoury Steamed Egg Custard",
+      "description": "A delicate Japanese steamed egg custard suspended in dashi with small pieces of chicken, shrimp, mushroom and fish cake. The signature texture is almost silken: a balanced egg-to-dashi ratio, straining and very gentle steam prevent holes and curdling.",
+      "animeContext": "Inspired by the careful home-cooking focus of Today's Menu for the Emiya Family. No exact chawanmushi episode is claimed without direct scene evidence.",
+      "ingredients": {
+        "eggs": {
+          "name": "Large eggs",
+          "note": null
+        },
+        "dashi": {
+          "name": "Lukewarm dashi",
+          "note": null
+        },
+        "usukuchi": {
+          "name": "Light soy sauce (usukuchi)",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "salt": {
+          "name": "Salt",
+          "note": null
+        },
+        "shrimp": {
+          "name": "Small peeled shrimp",
+          "note": null
+        },
+        "chicken": {
+          "name": "Chicken thigh or breast",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Fresh shiitake",
+          "note": null
+        },
+        "kamaboko": {
+          "name": "Kamaboko slices",
+          "note": null
+        },
+        "mitsuba": {
+          "name": "Mitsuba or chives",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_fillings": "Cut chicken and shiitake into small pieces. Quickly blanch or sear the chicken until the exterior is no longer raw, and briefly blanch the shrimp if they are thick; the gentle custard steam should finish, not rescue, large cold raw fillings.",
+        "mix_seasoned_dashi": "Season lukewarm dashi with usukuchi, mirin and a small pinch of salt. Let it cool to lukewarm or room temperature; hot stock can begin setting the egg before the mixture is strained.",
+        "mix_eggs": "Break the eggs and stir gently with chopsticks or a whisk without beating air into them. Measure roughly 100 ml egg for two large eggs and use about 250 ml dashi for the classic soft set.",
+        "strain_fill": "Combine egg and seasoned dashi slowly, then pass through a fine sieve. Divide chicken, shrimp, shiitake and kamaboko between two heatproof cups and pour in the custard to about three-quarters full; pop or skim surface bubbles.",
+        "steam": "Cover the cups. Steam over high heat for about 2 minutes to heat them, then reduce to very gentle steam for 10–12 minutes. The water should not violently boil around the cups or the custard will turn porous.",
+        "check_finish": "The surface should be smooth and set while the centre gives a delicate wobble. Insert a thin skewer: clear broth should appear around it, not raw egg. Garnish with mitsuba and serve warm."
+      }
+    },
+    "it": {
+      "title": "Chawanmushi — Crema salata all’uovo al vapore",
+      "description": "Una delicata crema salata giapponese all’uovo e dashi, con piccoli pezzi di pollo, gamberi, funghi e kamaboko. La consistenza deve essere quasi setosa: rapporto corretto tra uovo e brodo, filtraggio e vapore molto dolce evitano buchi e coagulazione ruvida.",
+      "animeContext": "Ispirato all’attenzione per la cucina domestica di Today's Menu for the Emiya Family. Non attribuiamo il chawanmushi a un episodio preciso senza una verifica diretta della scena.",
+      "ingredients": {
+        "eggs": {
+          "name": "Uova grandi",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi tiepido",
+          "note": null
+        },
+        "usukuchi": {
+          "name": "Salsa di soia chiara (usukuchi)",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "salt": {
+          "name": "Sale",
+          "note": null
+        },
+        "shrimp": {
+          "name": "Gamberetti sgusciati",
+          "note": null
+        },
+        "chicken": {
+          "name": "Coscia o petto di pollo",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Shiitake freschi",
+          "note": null
+        },
+        "kamaboko": {
+          "name": "Fette di kamaboko",
+          "note": null
+        },
+        "mitsuba": {
+          "name": "Mitsuba o erba cipollina",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_fillings": "Taglia pollo e shiitake in piccoli pezzi. Sbollenta o scotta rapidamente il pollo finché l’esterno non è più crudo e, se i gamberi sono grandi, sbollentali brevemente: il vapore delicato della crema deve completare la cottura, non recuperare grossi ripieni freddi e crudi.",
+        "mix_seasoned_dashi": "Condisci il dashi tiepido con usukuchi, mirin e poco sale. Lascialo arrivare a temperatura tiepida o ambiente: un brodo troppo caldo inizierebbe a coagulare l’uovo prima del filtraggio.",
+        "mix_eggs": "Rompi le uova e mescolale delicatamente con bacchette o frusta senza incorporare aria. Due uova grandi danno circa 100 ml: usa circa 250 ml di dashi per una consistenza morbida classica.",
+        "strain_fill": "Unisci lentamente uova e dashi condito, poi filtra con colino fine. Distribuisci pollo, gamberi, shiitake e kamaboko in due tazze resistenti al calore e versa la crema fino a circa tre quarti; elimina le bolle in superficie.",
+        "steam": "Copri le tazze. Cuoci a vapore forte circa 2 minuti per scaldarle, poi riduci a vapore dolcissimo per 10–12 minuti. L’acqua non deve bollire violentemente attorno alle tazze, altrimenti la crema diventa porosa.",
+        "check_finish": "La superficie deve essere liscia e rappresa, mentre il centro oscilla delicatamente. Inserendo uno stecchino deve affiorare brodo limpido, non uovo crudo. Completa con mitsuba e servi caldo."
+      }
+    },
+    "es": {
+      "title": "Chawanmushi — Flan salado al vapor",
+      "description": "Flan salado japonés de huevo y dashi con pequeños trozos de pollo, gambas, setas y kamaboko. La proporción, el colado y el vapor suave crean textura sedosa.",
+      "animeContext": "Inspirado en la cocina doméstica de Today's Menu for the Emiya Family; no se afirma un episodio exacto.",
+      "ingredients": {
+        "eggs": {
+          "name": "Huevos grandes",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi tibio",
+          "note": null
+        },
+        "usukuchi": {
+          "name": "Salsa de soja clara",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        },
+        "shrimp": {
+          "name": "Gambas pequeñas peladas",
+          "note": null
+        },
+        "chicken": {
+          "name": "Pollo",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Shiitake fresco",
+          "note": null
+        },
+        "kamaboko": {
+          "name": "Kamaboko",
+          "note": null
+        },
+        "mitsuba": {
+          "name": "Mitsuba o cebollino",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_fillings": "Corta pollo y shiitake pequeños. Marca o blanquea el pollo y, si son grandes, las gambas; el vapor suave debe terminar la cocción.",
+        "mix_seasoned_dashi": "Sazona dashi tibio con usukuchi, mirin y sal; no debe estar caliente.",
+        "mix_eggs": "Mezcla huevos suavemente sin aire. Para unos 100 ml de huevo usa aproximadamente 250 ml de dashi.",
+        "strain_fill": "Combina y cuela. Reparte rellenos, vierte la crema y elimina burbujas.",
+        "steam": "Tapa, cocina 2 minutos con vapor fuerte y luego 10–12 minutos con vapor muy suave.",
+        "check_finish": "Debe cuajar liso y temblar en el centro; un pincho debe liberar caldo claro, no huevo crudo."
+      }
+    },
+    "fr": {
+      "title": "Chawanmushi — Flan salé vapeur",
+      "description": "Flan salé japonais à l’œuf et dashi, avec poulet, crevette, champignon et kamaboko. Ratio, filtrage et vapeur douce donnent la texture soyeuse.",
+      "animeContext": "Inspiré de la cuisine familiale de Today's Menu for the Emiya Family; aucun épisode précis n’est revendiqué.",
+      "ingredients": {
+        "eggs": {
+          "name": "Gros œufs",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi tiède",
+          "note": null
+        },
+        "usukuchi": {
+          "name": "Sauce soja claire",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "salt": {
+          "name": "Sel",
+          "note": null
+        },
+        "shrimp": {
+          "name": "Petites crevettes décortiquées",
+          "note": null
+        },
+        "chicken": {
+          "name": "Poulet",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Shiitake frais",
+          "note": null
+        },
+        "kamaboko": {
+          "name": "Kamaboko",
+          "note": null
+        },
+        "mitsuba": {
+          "name": "Mitsuba ou ciboulette",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_fillings": "Coupez poulet et shiitake petit. Saisissez ou blanchissez le poulet et, si grosses, les crevettes; la vapeur douce termine la cuisson.",
+        "mix_seasoned_dashi": "Assaisonnez le dashi tiède avec usukuchi, mirin et sel; il ne doit pas être chaud.",
+        "mix_eggs": "Mélangez doucement les œufs sans air. Environ 100 ml d’œuf pour 250 ml de dashi.",
+        "strain_fill": "Mélangez, filtrez, répartissez les garnitures et versez la crème en éliminant les bulles.",
+        "steam": "Couvrez, vapeur forte 2 minutes puis très douce 10–12 minutes.",
+        "check_finish": "La crème doit être lisse, prise et légèrement tremblante; un pic doit faire sortir du bouillon clair."
+      }
+    },
+    "de": {
+      "title": "Chawanmushi — Herzhafter Eierflan",
+      "description": "Zarter japanischer Eier-Dashi-Flan mit Huhn, Garnele, Pilz und Kamaboko. Verhältnis, Sieben und sehr sanfter Dampf erzeugen die seidige Textur.",
+      "animeContext": "Von der sorgfältigen Hausküche in Today's Menu for the Emiya Family inspiriert; keine konkrete Episode wird behauptet.",
+      "ingredients": {
+        "eggs": {
+          "name": "Große Eier",
+          "note": null
+        },
+        "dashi": {
+          "name": "Lauwarmes Dashi",
+          "note": null
+        },
+        "usukuchi": {
+          "name": "Helle Sojasauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "salt": {
+          "name": "Salz",
+          "note": null
+        },
+        "shrimp": {
+          "name": "Kleine geschälte Garnelen",
+          "note": null
+        },
+        "chicken": {
+          "name": "Huhn",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Frische Shiitake",
+          "note": null
+        },
+        "kamaboko": {
+          "name": "Kamaboko",
+          "note": null
+        },
+        "mitsuba": {
+          "name": "Mitsuba oder Schnittlauch",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_fillings": "Huhn und Shiitake klein schneiden. Huhn und bei großen Garnelen auch diese kurz blanchieren oder anbraten; sanfter Dampf soll nur fertig garen.",
+        "mix_seasoned_dashi": "Lauwarmes Dashi mit Usukuchi, Mirin und Salz würzen; nicht heiß verwenden.",
+        "mix_eggs": "Eier sanft ohne Luft verrühren. Etwa 100 ml Ei mit rund 250 ml Dashi verwenden.",
+        "strain_fill": "Mischen, fein passieren, Einlagen verteilen, Eierbrühe angießen und Blasen entfernen.",
+        "steam": "Abdecken, 2 Minuten kräftiger und dann 10–12 Minuten sehr sanfter Dampf.",
+        "check_finish": "Glatt gestockt mit sanftem Wackeln in der Mitte; am Stäbchen soll klare Brühe, kein rohes Ei erscheinen."
+      }
+    },
+    "pt": {
+      "title": "Chawanmushi — Creme salgado de ovo no vapor",
+      "description": "Creme salgado japonês de ovo e dashi com frango, camarão, cogumelo e kamaboko. Proporção, coagem e vapor suave dão textura sedosa.",
+      "animeContext": "Inspirado na cozinha caseira cuidadosa de Today's Menu for the Emiya Family; não afirmamos episódio específico.",
+      "ingredients": {
+        "eggs": {
+          "name": "Ovos grandes",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi morno",
+          "note": null
+        },
+        "usukuchi": {
+          "name": "Molho de soja claro",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        },
+        "shrimp": {
+          "name": "Camarões pequenos descascados",
+          "note": null
+        },
+        "chicken": {
+          "name": "Frango",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Shiitake fresco",
+          "note": null
+        },
+        "kamaboko": {
+          "name": "Kamaboko",
+          "note": null
+        },
+        "mitsuba": {
+          "name": "Mitsuba ou cebolinha",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_fillings": "Corte frango e shiitake pequenos. Sele ou branqueie o frango e, se grandes, os camarões; o vapor suave deve apenas terminar a cocção.",
+        "mix_seasoned_dashi": "Tempere dashi morno com usukuchi, mirin e sal; não use quente.",
+        "mix_eggs": "Misture os ovos suavemente sem incorporar ar. Para cerca de 100 ml de ovo use aproximadamente 250 ml de dashi.",
+        "strain_fill": "Misture, coe, distribua recheios, despeje o creme e elimine bolhas.",
+        "steam": "Tampe, cozinhe 2 minutos com vapor forte e depois 10–12 minutos com vapor bem suave.",
+        "check_finish": "Deve ficar liso, firme e tremer levemente no centro; um palito deve liberar caldo claro, não ovo cru."
+      }
+    }
+  }
+}

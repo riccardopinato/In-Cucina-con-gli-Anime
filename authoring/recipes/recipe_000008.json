@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000008",
-  "contentVersion": 1,
+  "contentVersion": 2,
   "status": "published",
   "inspirationTitle": "K-On! / Maid Sama!",
   "prepMinutes": 15,
@@ -9,7 +9,7 @@
   "servings": 2,
   "difficulty": "medium",
   "contentOrigin": "adapted",
-  "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; two servings are an editorial estimate from the listed quantities.",
+  "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source does not state yield; two servings are an editorial estimate from the listed quantities. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
   "imageAssetId": "recipe_000008_artwork",
   "ingredients": [
     {
@@ -113,12 +113,14 @@
         }
       },
       "steps": {
-        "cook_rice_filling": "Sauté the chicken and onion in a lightly oiled pan. Add the steamed rice and ketchup, then toss until the rice is evenly coated and hot.",
-        "shape_rice": "Shape the seasoned rice into a neat oval mound on a plate.",
-        "beat_eggs": "Beat the eggs with the milk and a little salt and pepper.",
-        "cook_omelette": "Melt the butter in a clean pan over medium-low heat and cook the eggs as a soft, flexible omelette.",
-        "wrap_and_decorate": "Lay the omelette over the rice so it covers the mound, then decorate the top with a heart or short message in ketchup."
-      }
+        "cook_rice_filling": "Sauté the chicken and onion in a lightly oiled pan. Add the steamed rice and ketchup, then toss until the rice is evenly coated and hot. Cook the chicken until no raw centre remains before adding the rice. Fry the ketchup briefly against the hot pan before mixing it through so it loses its raw acidity and coats the grains rather than pooling.",
+        "shape_rice": "Shape the seasoned rice into a neat oval mound on a plate. Shape with a spoon rather than compressing hard; leaving a little air between the grains keeps the centre tender.",
+        "beat_eggs": "Beat the eggs with the milk and a little salt and pepper. Strain the beaten eggs if you want an especially smooth omelette and let large bubbles settle for a minute.",
+        "cook_omelette": "Melt the butter in a clean pan over medium-low heat and cook the eggs as a soft, flexible omelette. Use medium-low heat and stop while the upper surface is still slightly glossy; the residual heat will finish it after it leaves the pan.",
+        "wrap_and_decorate": "Lay the omelette over the rice so it covers the mound, then decorate the top with a heart or short message in ketchup. Drape or wrap the omelette immediately while it is still flexible, then add ketchup decoration only after plating so the egg surface stays clean."
+      },
+      "description": "Japanese yoshoku comfort food made from ketchup-seasoned chicken rice wrapped in a soft omelette. A moist rice filling and an egg layer that stays flexible enough to drape are more important than trying to brown the omelette.",
+      "animeContext": "This version is inspired by the playful café-and-cute-food aesthetic associated with K-On!. Without a verified exact omurice scene, the anime connection remains inspiration rather than appearance."
     },
     "it": {
       "title": "Omurice con ketchup",
@@ -157,12 +159,14 @@
         }
       },
       "steps": {
-        "cook_rice_filling": "Rosola pollo e cipolla in una padella con poco olio. Aggiungi il riso al vapore e il ketchup, quindi salta tutto finché il riso è caldo e condito in modo uniforme.",
-        "shape_rice": "Compatta il riso condito su un piatto dandogli una forma ovale e ordinata.",
-        "beat_eggs": "Sbatti le uova con il latte e un pizzico di sale e pepe.",
-        "cook_omelette": "Sciogli il burro in una padella pulita a fuoco medio-basso e cuoci le uova formando un’omelette morbida e flessibile.",
-        "wrap_and_decorate": "Adagia l’omelette sul riso in modo da rivestirlo, poi disegna sopra un cuore o un breve messaggio con il ketchup."
-      }
+        "cook_rice_filling": "Rosola pollo e cipolla in una padella con poco olio. Aggiungi il riso al vapore e il ketchup, quindi salta tutto finché il riso è caldo e condito in modo uniforme. Cuoci il pollo finché non resta parte cruda prima di aggiungere il riso. Fai soffriggere il ketchup per qualche secondo sulla padella calda prima di mescolarlo, così perde l’acidità cruda e avvolge i chicchi senza ristagnare.",
+        "shape_rice": "Compatta il riso condito su un piatto dandogli una forma ovale e ordinata. Modella con il cucchiaio senza comprimere troppo: un po’ d’aria tra i chicchi mantiene il centro morbido.",
+        "beat_eggs": "Sbatti le uova con il latte e un pizzico di sale e pepe. Se vuoi un’omelette particolarmente liscia filtra l’uovo sbattuto e lascia riposare un minuto perché le bolle grandi scompaiano.",
+        "cook_omelette": "Sciogli il burro in una padella pulita a fuoco medio-basso e cuoci le uova formando un’omelette morbida e flessibile. Usa fuoco medio-basso e fermati quando la superficie è ancora appena lucida: il calore residuo completerà la cottura fuori dalla padella.",
+        "wrap_and_decorate": "Adagia l’omelette sul riso in modo da rivestirlo, poi disegna sopra un cuore o un breve messaggio con il ketchup. Adagia o avvolgi l’omelette subito, mentre è ancora flessibile, poi aggiungi la decorazione di ketchup solo sul piatto, così la superficie resta pulita."
+      },
+      "description": "Un classico comfort food yōshoku giapponese: riso al ketchup con pollo avvolto in un’omelette morbida. Conta più mantenere il ripieno umido e l’uovo flessibile da adagiare sul riso che cercare una forte doratura.",
+      "animeContext": "Questa versione si ispira all’estetica giocosa da caffetteria e cibo kawaii associata a K-On!. Senza una scena precisa verificata, il collegamento resta un’ispirazione e non una presenza dichiarata."
     },
     "es": {
       "title": "Omurice con ketchup",
@@ -201,12 +205,14 @@
         }
       },
       "steps": {
-        "cook_rice_filling": "Saltea el pollo y la cebolla con un poco de aceite. Añade el arroz y el ketchup y mezcla hasta que el arroz quede caliente y bien condimentado.",
-        "shape_rice": "Forma con el arroz un montículo ovalado y compacto sobre el plato.",
-        "beat_eggs": "Bate los huevos con la leche y un poco de sal y pimienta.",
-        "cook_omelette": "Derrite la mantequilla en una sartén limpia a fuego medio-bajo y prepara una tortilla blanda y flexible.",
-        "wrap_and_decorate": "Coloca la tortilla sobre el arroz cubriéndolo y dibuja encima un corazón o un mensaje corto con ketchup."
-      }
+        "cook_rice_filling": "Saltea el pollo y la cebolla con un poco de aceite. Añade el arroz y el ketchup y mezcla hasta que el arroz quede caliente y bien condimentado. Cocina el pollo por completo y sofríe brevemente el kétchup en la sartén antes de mezclarlo con el arroz.",
+        "shape_rice": "Forma con el arroz un montículo ovalado y compacto sobre el plato. Da forma con una cuchara sin comprimir demasiado para mantener el arroz tierno.",
+        "beat_eggs": "Bate los huevos con la leche y un poco de sal y pimienta. Para una tortilla más lisa, cuela el huevo batido y deja reposar un minuto para eliminar burbujas.",
+        "cook_omelette": "Derrite la mantequilla en una sartén limpia a fuego medio-bajo y prepara una tortilla blanda y flexible. Cocina a fuego medio-bajo y retira con la superficie aún ligeramente brillante; el calor residual termina la cocción.",
+        "wrap_and_decorate": "Coloca la tortilla sobre el arroz cubriéndolo y dibuja encima un corazón o un mensaje corto con ketchup. Coloca la tortilla mientras aún está flexible y decora con kétchup solo después de emplatar."
+      },
+      "description": "Comfort food yōshoku japonés con arroz de pollo al kétchup envuelto en una tortilla suave. Importa mantener el relleno húmedo y el huevo flexible.",
+      "animeContext": "Esta versión se inspira en la estética de cafetería y comida kawaii asociada a K-On!; sin escena exacta verificada, el vínculo sigue siendo inspiración."
     },
     "fr": {
       "title": "Omurice au ketchup",
@@ -245,12 +251,14 @@
         }
       },
       "steps": {
-        "cook_rice_filling": "Faites revenir le poulet et l’oignon avec un peu d’huile. Ajoutez le riz et le ketchup puis mélangez jusqu’à ce que le riz soit chaud et uniformément assaisonné.",
-        "shape_rice": "Formez un dôme ovale et compact de riz sur l’assiette.",
-        "beat_eggs": "Battez les œufs avec le lait, un peu de sel et de poivre.",
-        "cook_omelette": "Faites fondre le beurre dans une poêle propre à feu moyen-doux et cuisez une omelette souple.",
-        "wrap_and_decorate": "Déposez l’omelette sur le riz pour l’envelopper puis dessinez un cœur ou un petit message avec du ketchup."
-      }
+        "cook_rice_filling": "Faites revenir le poulet et l’oignon avec un peu d’huile. Ajoutez le riz et le ketchup puis mélangez jusqu’à ce que le riz soit chaud et uniformément assaisonné. Cuisez complètement le poulet et faites revenir brièvement le ketchup dans la poêle avant de l’incorporer au riz.",
+        "shape_rice": "Formez un dôme ovale et compact de riz sur l’assiette. Formez à la cuillère sans trop tasser pour garder le riz tendre.",
+        "beat_eggs": "Battez les œufs avec le lait, un peu de sel et de poivre. Pour une omelette plus lisse, filtrez les œufs battus et laissez les grosses bulles disparaître une minute.",
+        "cook_omelette": "Faites fondre le beurre dans une poêle propre à feu moyen-doux et cuisez une omelette souple. Cuisez à feu moyen-doux et arrêtez lorsque le dessus reste légèrement brillant; la chaleur résiduelle finira.",
+        "wrap_and_decorate": "Déposez l’omelette sur le riz pour l’envelopper puis dessinez un cœur ou un petit message avec du ketchup. Posez l’omelette encore souple puis décorez au ketchup seulement après dressage."
+      },
+      "description": "Comfort food yōshoku japonais: riz au poulet et ketchup enveloppé d’une omelette souple. Il faut garder la farce moelleuse et l’œuf flexible.",
+      "animeContext": "Cette version s’inspire de l’esthétique café et kawaii associée à K-On!; sans scène vérifiée, le lien reste une inspiration."
     },
     "de": {
       "title": "Omurice mit Ketchup",
@@ -289,12 +297,14 @@
         }
       },
       "steps": {
-        "cook_rice_filling": "Hähnchen und Zwiebel in wenig Öl anbraten. Reis und Ketchup hinzufügen und schwenken, bis alles heiß und gleichmäßig gewürzt ist.",
-        "shape_rice": "Den gewürzten Reis als kompakten ovalen Hügel auf einem Teller formen.",
-        "beat_eggs": "Eier mit Milch sowie etwas Salz und Pfeffer verquirlen.",
-        "cook_omelette": "Butter in einer sauberen Pfanne bei mittlerer bis niedriger Hitze schmelzen und ein weiches, biegsames Omelett garen.",
-        "wrap_and_decorate": "Das Omelett über den Reis legen und oben mit Ketchup ein Herz oder eine kurze Nachricht zeichnen."
-      }
+        "cook_rice_filling": "Hähnchen und Zwiebel in wenig Öl anbraten. Reis und Ketchup hinzufügen und schwenken, bis alles heiß und gleichmäßig gewürzt ist. Huhn vollständig garen und Ketchup kurz direkt in der heißen Pfanne anrösten, bevor der Reis gemischt wird.",
+        "shape_rice": "Den gewürzten Reis als kompakten ovalen Hügel auf einem Teller formen. Mit dem Löffel formen, nicht stark zusammendrücken, damit der Reis locker bleibt.",
+        "beat_eggs": "Eier mit Milch sowie etwas Salz und Pfeffer verquirlen. Für besonders glattes Omelett die Eier passieren und große Blasen eine Minute setzen lassen.",
+        "cook_omelette": "Butter in einer sauberen Pfanne bei mittlerer bis niedriger Hitze schmelzen und ein weiches, biegsames Omelett garen. Bei mittlerer bis niedriger Hitze garen und abnehmen, wenn die Oberfläche noch leicht glänzt.",
+        "wrap_and_decorate": "Das Omelett über den Reis legen und oben mit Ketchup ein Herz oder eine kurze Nachricht zeichnen. Omelett noch flexibel auflegen und erst nach dem Anrichten mit Ketchup dekorieren."
+      },
+      "description": "Japanisches Yōshoku-Comfort-Food aus Ketchup-Hühnerreis in weichem Omelett. Wichtig sind saftiger Reis und eine flexible Eihülle.",
+      "animeContext": "Diese Version ist von der Café- und Kawaii-Essensästhetik in K-On! inspiriert; ohne verifizierte Szene bleibt es Inspiration."
     },
     "pt": {
       "title": "Omurice com ketchup",
@@ -333,12 +343,29 @@
         }
       },
       "steps": {
-        "cook_rice_filling": "Refogue o frango e a cebola com um pouco de óleo. Junte o arroz e o ketchup e misture até aquecer e temperar por igual.",
-        "shape_rice": "Modele o arroz em um montinho oval e compacto no prato.",
-        "beat_eggs": "Bata os ovos com o leite, sal e pimenta.",
-        "cook_omelette": "Derreta a manteiga em uma frigideira limpa em fogo médio-baixo e faça uma omelete macia e flexível.",
-        "wrap_and_decorate": "Cubra o arroz com a omelete e desenhe por cima um coração ou uma mensagem curta usando ketchup."
-      }
+        "cook_rice_filling": "Refogue o frango e a cebola com um pouco de óleo. Junte o arroz e o ketchup e misture até aquecer e temperar por igual. Cozinhe o frango completamente e frite brevemente o ketchup na frigideira antes de misturar com o arroz.",
+        "shape_rice": "Modele o arroz em um montinho oval e compacto no prato. Modele com colher sem comprimir demais para manter o arroz macio.",
+        "beat_eggs": "Bata os ovos com o leite, sal e pimenta. Para uma omelete mais lisa, coe os ovos batidos e deixe bolhas grandes assentarem por um minuto.",
+        "cook_omelette": "Derreta a manteiga em uma frigideira limpa em fogo médio-baixo e faça uma omelete macia e flexível. Cozinhe em fogo médio-baixo e retire com a superfície ainda levemente brilhante; o calor residual termina.",
+        "wrap_and_decorate": "Cubra o arroz com a omelete e desenhe por cima um coração ou uma mensagem curta usando ketchup. Coloque a omelete ainda flexível e decore com ketchup somente depois de empratar."
+      },
+      "description": "Comfort food yōshoku japonês com arroz de frango e ketchup envolvido em omelete macia. O importante é manter o arroz úmido e o ovo flexível.",
+      "animeContext": "Esta versão se inspira na estética de café e comida kawaii associada a K-On!; sem cena verificada, o vínculo permanece inspiração."
     }
+  },
+  "animeReferences": [
+    {
+      "workTitle": "K-On!",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Omurice verified as Japanese yoshoku: ketchup-seasoned chicken rice wrapped or covered with a soft omelette.",
+    "animeStatus": "unverified",
+    "animeNote": "K-On! association retained as inspiration; no exact omurice scene asserted."
   }
 }

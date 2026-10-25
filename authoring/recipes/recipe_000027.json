@@ -1,0 +1,497 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000027",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Shakugan no Shana",
+  "animeReferences": [
+    {
+      "workTitle": "Shakugan no Shana",
+      "relation": "recurring_association",
+      "season": 1,
+      "episode": "2",
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Melonpan verified as a Japanese sweet bun with a cookie crust; proofing/rest times included.",
+    "animeStatus": "verified",
+    "animeNote": "Melonpan is a recurring association with Shana and appears early in the series, including episode 2."
+  },
+  "prepMinutes": 105,
+  "cookMinutes": 15,
+  "servings": 6,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3; proofing and cookie-crust technique expanded.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "bread_flour",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "id": "bread_sugar",
+      "quantity": 15,
+      "unit": "g"
+    },
+    {
+      "id": "yeast",
+      "quantity": 2,
+      "unit": "g"
+    },
+    {
+      "id": "milk",
+      "quantity": 90,
+      "unit": "ml"
+    },
+    {
+      "id": "bread_butter",
+      "quantity": 15,
+      "unit": "g"
+    },
+    {
+      "id": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "id": "cookie_flour",
+      "quantity": 80,
+      "unit": "g"
+    },
+    {
+      "id": "cookie_butter",
+      "quantity": 30,
+      "unit": "g"
+    },
+    {
+      "id": "cookie_sugar",
+      "quantity": 35,
+      "unit": "g"
+    },
+    {
+      "id": "egg",
+      "quantity": 25,
+      "unit": "g"
+    },
+    {
+      "id": "vanilla",
+      "quantity": 0.25,
+      "unit": "tsp"
+    },
+    {
+      "id": "coating_sugar",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "make_bread_dough",
+      "timerSeconds": 600
+    },
+    {
+      "id": "first_proof",
+      "timerSeconds": 3600
+    },
+    {
+      "id": "make_cookie_dough",
+      "timerSeconds": 1200
+    },
+    {
+      "id": "divide_shape",
+      "timerSeconds": 600
+    },
+    {
+      "id": "coat_score",
+      "timerSeconds": 300
+    },
+    {
+      "id": "final_rest_bake",
+      "timerSeconds": 2100
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Melonpan",
+      "description": "A soft Japanese sweet bun capped with a crisp cookie shell scored like a melon rind. The name describes the look rather than requiring melon flavour: the contrast between tender bread and sandy crust is the point.",
+      "animeContext": "Melonpan is a recurring food association for Shana in Shakugan no Shana and appears early in the series; episode 2 is used here as a verified reference point.",
+      "ingredients": {
+        "bread_flour": {
+          "name": "Bread flour",
+          "note": null
+        },
+        "bread_sugar": {
+          "name": "Sugar for bread dough",
+          "note": null
+        },
+        "yeast": {
+          "name": "Instant dry yeast",
+          "note": null
+        },
+        "milk": {
+          "name": "Lukewarm milk",
+          "note": null
+        },
+        "bread_butter": {
+          "name": "Butter for bread dough",
+          "note": null
+        },
+        "salt": {
+          "name": "Salt",
+          "note": null
+        },
+        "cookie_flour": {
+          "name": "All-purpose flour for cookie crust",
+          "note": null
+        },
+        "cookie_butter": {
+          "name": "Butter for cookie crust",
+          "note": null
+        },
+        "cookie_sugar": {
+          "name": "Sugar for cookie crust",
+          "note": null
+        },
+        "egg": {
+          "name": "Beaten egg",
+          "note": null
+        },
+        "vanilla": {
+          "name": "Vanilla extract",
+          "note": null
+        },
+        "coating_sugar": {
+          "name": "Granulated sugar for coating",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_bread_dough": "Combine flour, sugar and yeast, add lukewarm milk, then salt and softened butter. Knead about 10 minutes until smooth and elastic; the dough should feel supple rather than sticky.",
+        "first_proof": "Cover and proof in a warm place until roughly doubled, about 60 minutes. Press a floured fingertip gently into the dough; the indentation should return slowly.",
+        "make_cookie_dough": "Cream butter and sugar, mix in beaten egg and vanilla, then fold in flour only until combined. Flatten, wrap and chill about 20 minutes so it can be rolled without sticking.",
+        "divide_shape": "Degas the risen bread dough gently and divide into six equal balls. Divide the chilled cookie dough into six pieces and roll each between parchment into a disc large enough to cover about three-quarters of a bread ball.",
+        "coat_score": "Wrap each bread ball with a cookie disc, leaving the base exposed. Roll the cookie surface in granulated sugar, then score a shallow diamond grid with the blunt side of a knife without cutting into the bread dough.",
+        "final_rest_bake": "Rest the assembled buns about 20 minutes while the oven heats. Bake at 170°C for 12–15 minutes until the cookie shell is dry and lightly golden while the bread beneath feels light and springy."
+      }
+    },
+    "it": {
+      "title": "Melonpan",
+      "description": "Un panino dolce giapponese soffice coperto da una crosta-biscotto croccante incisa come la buccia di un melone. Il nome richiama l’aspetto, non obbliga all’aroma di melone: conta il contrasto tra pane tenero e guscio friabile.",
+      "animeContext": "Il melonpan è un’associazione ricorrente con Shana in Shakugan no Shana e compare già all’inizio della serie; l’episodio 2 è usato qui come riferimento verificato.",
+      "ingredients": {
+        "bread_flour": {
+          "name": "Farina forte per pane",
+          "note": null
+        },
+        "bread_sugar": {
+          "name": "Zucchero per l’impasto",
+          "note": null
+        },
+        "yeast": {
+          "name": "Lievito secco",
+          "note": null
+        },
+        "milk": {
+          "name": "Latte tiepido",
+          "note": null
+        },
+        "bread_butter": {
+          "name": "Burro per l’impasto",
+          "note": null
+        },
+        "salt": {
+          "name": "Sale",
+          "note": null
+        },
+        "cookie_flour": {
+          "name": "Farina 00 per la crosta",
+          "note": null
+        },
+        "cookie_butter": {
+          "name": "Burro per la crosta",
+          "note": null
+        },
+        "cookie_sugar": {
+          "name": "Zucchero per la crosta",
+          "note": null
+        },
+        "egg": {
+          "name": "Uovo sbattuto",
+          "note": null
+        },
+        "vanilla": {
+          "name": "Estratto di vaniglia",
+          "note": null
+        },
+        "coating_sugar": {
+          "name": "Zucchero semolato per la copertura",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_bread_dough": "Impasta farina, zucchero e lievito con il latte tiepido, poi aggiungi sale e burro morbido. Lavora circa 10 minuti, finché l’impasto è liscio, elastico e morbido ma non appiccicoso.",
+        "first_proof": "Copri e lascia lievitare al caldo fino a circa raddoppio, indicativamente 60 minuti. Un’impronta fatta con un dito infarinato deve risalire lentamente.",
+        "make_cookie_dough": "Lavora burro e zucchero, incorpora uovo sbattuto e vaniglia, poi la farina solo fino ad amalgamare. Appiattisci, avvolgi e raffredda circa 20 minuti, così la frolla si stende senza attaccarsi.",
+        "divide_shape": "Sgonfia delicatamente l’impasto lievitato e dividilo in sei palline. Dividi anche la frolla fredda in sei porzioni e stendile tra carta forno in dischi capaci di coprire circa tre quarti di ogni pallina.",
+        "coat_score": "Avvolgi ogni pallina con un disco di frolla lasciando libera la base. Passa la superficie nello zucchero e incidi una griglia a rombi poco profonda con il dorso di un coltello, senza tagliare l’impasto del pane.",
+        "final_rest_bake": "Lascia riposare i panini assemblati circa 20 minuti mentre il forno si scalda. Cuoci a 170°C per 12–15 minuti: la crosta deve risultare asciutta e appena dorata, il pane sotto leggero ed elastico."
+      }
+    },
+    "es": {
+      "title": "Melonpan",
+      "description": "Un pan dulce japonés suave cubierto por una costra de galleta crujiente marcada como la piel de un melón. El nombre alude al aspecto, no obliga a usar sabor de melón.",
+      "animeContext": "El melonpan es una asociación recurrente con Shana en Shakugan no Shana y aparece muy pronto; usamos el episodio 2 como referencia verificada.",
+      "ingredients": {
+        "bread_flour": {
+          "name": "Harina de fuerza",
+          "note": null
+        },
+        "bread_sugar": {
+          "name": "Azúcar para la masa",
+          "note": null
+        },
+        "yeast": {
+          "name": "Levadura seca",
+          "note": null
+        },
+        "milk": {
+          "name": "Leche tibia",
+          "note": null
+        },
+        "bread_butter": {
+          "name": "Mantequilla para la masa",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        },
+        "cookie_flour": {
+          "name": "Harina para la cobertura",
+          "note": null
+        },
+        "cookie_butter": {
+          "name": "Mantequilla para la cobertura",
+          "note": null
+        },
+        "cookie_sugar": {
+          "name": "Azúcar para la cobertura",
+          "note": null
+        },
+        "egg": {
+          "name": "Huevo batido",
+          "note": null
+        },
+        "vanilla": {
+          "name": "Vainilla",
+          "note": null
+        },
+        "coating_sugar": {
+          "name": "Azúcar para cubrir",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_bread_dough": "Amasa harina, azúcar y levadura con leche tibia; añade sal y mantequilla y trabaja unos 10 minutos hasta que quede liso y elástico.",
+        "first_proof": "Cubre y deja fermentar hasta casi duplicar, unos 60 minutos.",
+        "make_cookie_dough": "Bate mantequilla y azúcar, añade huevo y vainilla e incorpora harina solo hasta unir. Enfría 20 minutos.",
+        "divide_shape": "Divide la masa de pan y la cobertura en seis; estira la cobertura en discos y envuelve tres cuartos de cada bola.",
+        "coat_score": "Pasa la superficie por azúcar y marca una cuadrícula romboidal poco profunda sin cortar la masa de pan.",
+        "final_rest_bake": "Reposa 20 minutos y hornea a 170°C durante 12–15 minutos, hasta que la cobertura esté seca y ligeramente dorada."
+      }
+    },
+    "fr": {
+      "title": "Melonpan",
+      "description": "Un pain sucré japonais moelleux coiffé d’une croûte biscuit croustillante quadrillée comme un melon. Le nom décrit surtout l’apparence, pas l’obligation d’un arôme de melon.",
+      "animeContext": "Le melonpan est un aliment récurrent associé à Shana dans Shakugan no Shana et apparaît très tôt; l’épisode 2 sert ici de repère vérifié.",
+      "ingredients": {
+        "bread_flour": {
+          "name": "Farine de force",
+          "note": null
+        },
+        "bread_sugar": {
+          "name": "Sucre pour la pâte",
+          "note": null
+        },
+        "yeast": {
+          "name": "Levure sèche",
+          "note": null
+        },
+        "milk": {
+          "name": "Lait tiède",
+          "note": null
+        },
+        "bread_butter": {
+          "name": "Beurre pour la pâte",
+          "note": null
+        },
+        "salt": {
+          "name": "Sel",
+          "note": null
+        },
+        "cookie_flour": {
+          "name": "Farine pour la croûte biscuit",
+          "note": null
+        },
+        "cookie_butter": {
+          "name": "Beurre pour la croûte",
+          "note": null
+        },
+        "cookie_sugar": {
+          "name": "Sucre pour la croûte",
+          "note": null
+        },
+        "egg": {
+          "name": "Œuf battu",
+          "note": null
+        },
+        "vanilla": {
+          "name": "Vanille",
+          "note": null
+        },
+        "coating_sugar": {
+          "name": "Sucre semoule pour enrobage",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_bread_dough": "Pétrissez farine, sucre et levure avec lait tiède, puis sel et beurre, environ 10 minutes jusqu’à une pâte lisse et élastique.",
+        "first_proof": "Couvrez et laissez lever jusqu’à presque doubler, environ 60 minutes.",
+        "make_cookie_dough": "Crémez beurre et sucre, ajoutez œuf et vanille puis farine juste pour amalgamer. Réfrigérez 20 minutes.",
+        "divide_shape": "Divisez pâte à pain et pâte biscuit en six; étalez cette dernière en disques couvrant environ les trois quarts des boules.",
+        "coat_score": "Passez la surface dans le sucre puis tracez une grille en losanges peu profonde sans entailler le pain.",
+        "final_rest_bake": "Reposez 20 minutes puis cuisez à 170°C pendant 12–15 minutes, croûte sèche et légèrement dorée."
+      }
+    },
+    "de": {
+      "title": "Melonpan",
+      "description": "Ein weiches japanisches Süßbrötchen mit knuspriger Kekshaube im Melonenmuster. Der Name bezieht sich vor allem auf das Aussehen; Melonenaroma ist nicht zwingend.",
+      "animeContext": "Melonpan ist in Shakugan no Shana wiederkehrend mit Shana verbunden und erscheint früh in der Serie; Episode 2 dient hier als verifizierter Bezugspunkt.",
+      "ingredients": {
+        "bread_flour": {
+          "name": "Brotmehl",
+          "note": null
+        },
+        "bread_sugar": {
+          "name": "Zucker für den Hefeteig",
+          "note": null
+        },
+        "yeast": {
+          "name": "Trockenhefe",
+          "note": null
+        },
+        "milk": {
+          "name": "Lauwarme Milch",
+          "note": null
+        },
+        "bread_butter": {
+          "name": "Butter für den Hefeteig",
+          "note": null
+        },
+        "salt": {
+          "name": "Salz",
+          "note": null
+        },
+        "cookie_flour": {
+          "name": "Mehl für die Kekskruste",
+          "note": null
+        },
+        "cookie_butter": {
+          "name": "Butter für die Kekskruste",
+          "note": null
+        },
+        "cookie_sugar": {
+          "name": "Zucker für die Kekskruste",
+          "note": null
+        },
+        "egg": {
+          "name": "Verquirltes Ei",
+          "note": null
+        },
+        "vanilla": {
+          "name": "Vanilleextrakt",
+          "note": null
+        },
+        "coating_sugar": {
+          "name": "Kristallzucker zum Wälzen",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_bread_dough": "Mehl, Zucker und Hefe mit lauwarmer Milch kneten, Salz und Butter zugeben und etwa 10 Minuten glatt und elastisch kneten.",
+        "first_proof": "Abdecken und etwa 60 Minuten bis fast zur Verdopplung gehen lassen.",
+        "make_cookie_dough": "Butter und Zucker cremig rühren, Ei und Vanille zugeben, Mehl nur kurz einarbeiten und 20 Minuten kühlen.",
+        "divide_shape": "Brot- und Keksteig jeweils in sechs Teile teilen; Keksteig zu Scheiben rollen und die Brotkugeln zu etwa drei Vierteln umhüllen.",
+        "coat_score": "Oberfläche in Zucker wälzen und ein flaches Rautenmuster einritzen, ohne den Brotteig zu schneiden.",
+        "final_rest_bake": "20 Minuten ruhen lassen und bei 170°C 12–15 Minuten backen, bis die Kruste trocken und leicht goldbraun ist."
+      }
+    },
+    "pt": {
+      "title": "Melonpan",
+      "description": "Pão doce japonês macio coberto por uma crosta de biscoito crocante marcada como casca de melão. O nome descreve principalmente a aparência, não exige sabor de melão.",
+      "animeContext": "O melonpan é uma associação recorrente de Shana em Shakugan no Shana e aparece cedo na série; o episódio 2 é usado como referência verificada.",
+      "ingredients": {
+        "bread_flour": {
+          "name": "Farinha forte",
+          "note": null
+        },
+        "bread_sugar": {
+          "name": "Açúcar para a massa",
+          "note": null
+        },
+        "yeast": {
+          "name": "Fermento seco",
+          "note": null
+        },
+        "milk": {
+          "name": "Leite morno",
+          "note": null
+        },
+        "bread_butter": {
+          "name": "Manteiga para a massa",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        },
+        "cookie_flour": {
+          "name": "Farinha para a crosta",
+          "note": null
+        },
+        "cookie_butter": {
+          "name": "Manteiga para a crosta",
+          "note": null
+        },
+        "cookie_sugar": {
+          "name": "Açúcar para a crosta",
+          "note": null
+        },
+        "egg": {
+          "name": "Ovo batido",
+          "note": null
+        },
+        "vanilla": {
+          "name": "Baunilha",
+          "note": null
+        },
+        "coating_sugar": {
+          "name": "Açúcar para cobrir",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_bread_dough": "Sove farinha, açúcar e fermento com leite morno; acrescente sal e manteiga e trabalhe cerca de 10 minutos até ficar lisa e elástica.",
+        "first_proof": "Cubra e deixe crescer até quase dobrar, cerca de 60 minutos.",
+        "make_cookie_dough": "Bata manteiga e açúcar, junte ovo e baunilha e incorpore a farinha apenas até unir. Gele por 20 minutos.",
+        "divide_shape": "Divida a massa de pão e a crosta em seis; abra a crosta em discos e cubra cerca de três quartos de cada bola.",
+        "coat_score": "Passe a superfície no açúcar e faça uma grade rasa em losangos sem cortar a massa do pão.",
+        "final_rest_bake": "Descanse 20 minutos e asse a 170°C por 12–15 minutos, até a crosta ficar seca e levemente dourada."
+      }
+    }
+  }
+}
