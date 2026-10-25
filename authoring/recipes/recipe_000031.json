@@ -1,0 +1,371 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000031",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Demon Slayer",
+  "animeReferences": [
+    {
+      "workTitle": "Demon Slayer: Kimetsu no Yaiba",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Zaru soba verified as chilled buckwheat noodles served with concentrated mentsuyu; source typo corrected from 'soia' to soba.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime association retained as inspiration; no exact zaru-soba scene asserted."
+  },
+  "prepMinutes": 15,
+  "cookMinutes": 10,
+  "servings": 2,
+  "difficulty": "easy",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 4; mentsuyu balance and noodle washing clarified.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "soba",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "id": "nori",
+      "quantity": 1,
+      "unit": "sheet"
+    },
+    {
+      "id": "scallion",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "wasabi",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "dashi",
+      "quantity": 200,
+      "unit": "ml"
+    },
+    {
+      "id": "soy_sauce",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "id": "mirin",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "id": "sugar",
+      "quantity": 0.5,
+      "unit": "tsp"
+    }
+  ],
+  "steps": [
+    {
+      "id": "make_mentsuyu",
+      "timerSeconds": 300
+    },
+    {
+      "id": "cook_soba",
+      "timerSeconds": 300
+    },
+    {
+      "id": "wash_chill",
+      "timerSeconds": 180
+    },
+    {
+      "id": "drain_plate",
+      "timerSeconds": null
+    },
+    {
+      "id": "serve",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Zaru Soba",
+      "description": "Cold buckwheat noodles served separately from a savoury dipping sauce, with nori, scallion and wasabi. The crucial technique is washing the cooked soba thoroughly under cold water to remove surface starch and restore a clean, springy texture.",
+      "animeContext": "Inspired by the traditional-food atmosphere of Demon Slayer; no specific zaru-soba episode is claimed.",
+      "ingredients": {
+        "soba": {
+          "name": "Dried or fresh soba noodles",
+          "note": null
+        },
+        "nori": {
+          "name": "Nori sheet",
+          "note": null
+        },
+        "scallion": {
+          "name": "Scallion",
+          "note": null
+        },
+        "wasabi": {
+          "name": "Wasabi",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_mentsuyu": "Combine dashi, soy sauce, mirin and sugar. Bring to a gentle boil for 1–2 minutes so the mirin mellows and the sugar dissolves, then cool completely; this is a dipping sauce, so it should taste more concentrated than soup broth.",
+        "cook_soba": "Boil the soba in plenty of unsalted water according to the package, stirring once soon after adding so strands do not stick. Start checking a little early: the noodles should be tender but still resilient.",
+        "wash_chill": "Drain immediately and rinse under plenty of cold running water, gently rubbing and lifting the noodles with your hands to wash away surface starch. Finish in very cold water, then drain.",
+        "drain_plate": "Shake off as much water as possible; wet soba dilutes the dipping sauce. Arrange loosely on a bamboo zaru or plate and scatter fine nori strips over the top.",
+        "serve": "Pour cold mentsuyu into individual cups. Add scallion and a small amount of wasabi to taste, then pick up a small bundle of soba and dip only the lower portion before eating."
+      }
+    },
+    "it": {
+      "title": "Zaru Soba",
+      "description": "Soba di grano saraceno servita fredda e separata da una salsa da intingolo sapida, con nori, cipollotto e wasabi. Il passaggio decisivo è lavare bene i noodles cotti sotto acqua fredda per eliminare l’amido superficiale e ritrovare una consistenza pulita ed elastica.",
+      "animeContext": "Ispirato all’atmosfera della cucina tradizionale di Demon Slayer; non indichiamo un episodio preciso con zaru soba.",
+      "ingredients": {
+        "soba": {
+          "name": "Noodles soba",
+          "note": null
+        },
+        "nori": {
+          "name": "Foglio di nori",
+          "note": null
+        },
+        "scallion": {
+          "name": "Cipollotto",
+          "note": null
+        },
+        "wasabi": {
+          "name": "Wasabi",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa di soia",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucchero",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_mentsuyu": "Unisci dashi, salsa di soia, mirin e zucchero. Porta a leggero bollore per 1–2 minuti, così il mirin si addolcisce e lo zucchero si scioglie, poi raffredda completamente. È una salsa da intingolo: deve risultare più concentrata di un brodo.",
+        "cook_soba": "Cuoci la soba in abbondante acqua non salata secondo la confezione, mescolando una volta poco dopo l’immersione. Inizia ad assaggiare leggermente in anticipo: deve essere tenera ma ancora elastica.",
+        "wash_chill": "Scola subito e lava sotto molta acqua fredda, sollevando e strofinando delicatamente i noodles con le mani per rimuovere l’amido. Termina in acqua molto fredda e scola.",
+        "drain_plate": "Elimina quanta più acqua possibile: soba bagnata diluisce la salsa. Disponi senza comprimere su zaru o piatto e completa con striscioline fini di nori.",
+        "serve": "Versa il mentsuyu freddo in ciotoline individuali. Aggiungi cipollotto e poco wasabi a piacere, poi intingi solo la parte inferiore di una piccola porzione di noodles prima di mangiarla."
+      }
+    },
+    "es": {
+      "title": "Zaru Soba",
+      "description": "Fideos de trigo sarraceno fríos servidos aparte de una salsa para mojar, con nori, cebolleta y wasabi. Lavarlos muy bien tras la cocción elimina el almidón y recupera una textura firme.",
+      "animeContext": "Inspirado en la atmósfera de cocina tradicional de Demon Slayer; no se afirma un episodio concreto.",
+      "ingredients": {
+        "soba": {
+          "name": "Fideos soba",
+          "note": null
+        },
+        "nori": {
+          "name": "Hoja de nori",
+          "note": null
+        },
+        "scallion": {
+          "name": "Cebolleta",
+          "note": null
+        },
+        "wasabi": {
+          "name": "Wasabi",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_mentsuyu": "Hierve suavemente dashi, soja, mirin y azúcar 1–2 minutos y enfría por completo; debe quedar más concentrado que un caldo.",
+        "cook_soba": "Cuece la soba en abundante agua sin sal según el paquete, removiendo al principio y comprobando antes de pasarla.",
+        "wash_chill": "Escurre y lava bajo abundante agua fría, frotando suavemente para eliminar almidón; termina en agua muy fría.",
+        "drain_plate": "Escurre muy bien para no diluir la salsa y coloca en un plato o zaru con nori.",
+        "serve": "Sirve el mentsuyu frío aparte con cebolleta y un poco de wasabi; moja solo una parte de los fideos."
+      }
+    },
+    "fr": {
+      "title": "Zaru Soba",
+      "description": "Nouilles de sarrasin froides servies avec une sauce à tremper, nori, ciboule et wasabi. Un rinçage soigneux après cuisson élimine l’amidon et redonne une texture nette et souple.",
+      "animeContext": "Inspiré de l’atmosphère de cuisine traditionnelle de Demon Slayer; aucun épisode précis n’est affirmé.",
+      "ingredients": {
+        "soba": {
+          "name": "Nouilles soba",
+          "note": null
+        },
+        "nori": {
+          "name": "Feuille de nori",
+          "note": null
+        },
+        "scallion": {
+          "name": "Ciboule",
+          "note": null
+        },
+        "wasabi": {
+          "name": "Wasabi",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_mentsuyu": "Faites frémir dashi, soja, mirin et sucre 1–2 minutes puis refroidissez totalement; la sauce doit être plus concentrée qu’un bouillon.",
+        "cook_soba": "Cuisez la soba dans beaucoup d’eau non salée selon l’emballage en remuant au début.",
+        "wash_chill": "Égouttez et rincez abondamment à l’eau froide en frottant doucement pour retirer l’amidon, puis finissez dans de l’eau très froide.",
+        "drain_plate": "Égouttez parfaitement et disposez sur zaru ou assiette avec nori.",
+        "serve": "Servez le mentsuyu froid à part, avec ciboule et un peu de wasabi; ne trempez que l’extrémité des nouilles."
+      }
+    },
+    "de": {
+      "title": "Zaru Soba",
+      "description": "Kalte Buchweizennudeln mit separater Dip-Sauce, Nori, Frühlingszwiebel und Wasabi. Gründliches Waschen nach dem Garen entfernt Oberflächenstärke und macht die Soba sauber und elastisch.",
+      "animeContext": "Von der traditionellen Essensatmosphäre in Demon Slayer inspiriert; keine konkrete Episode wird behauptet.",
+      "ingredients": {
+        "soba": {
+          "name": "Soba-Nudeln",
+          "note": null
+        },
+        "nori": {
+          "name": "Nori-Blatt",
+          "note": null
+        },
+        "scallion": {
+          "name": "Frühlingszwiebel",
+          "note": null
+        },
+        "wasabi": {
+          "name": "Wasabi",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_mentsuyu": "Dashi, Sojasauce, Mirin und Zucker 1–2 Minuten sanft kochen und vollständig kühlen; die Dip-Sauce soll kräftiger als Brühe schmecken.",
+        "cook_soba": "Soba in reichlich ungesalzenem Wasser nach Packung garen und frühzeitig auf Biss prüfen.",
+        "wash_chill": "Sofort abgießen und unter viel kaltem Wasser sanft reiben, um Stärke zu entfernen; sehr kalt abschließen.",
+        "drain_plate": "Sehr gut abtropfen lassen, auf Zaru oder Teller anrichten und mit Nori bestreuen.",
+        "serve": "Kaltes Mentsuyu separat mit Frühlingszwiebel und etwas Wasabi servieren; nur den unteren Teil der Nudeln eintauchen."
+      }
+    },
+    "pt": {
+      "title": "Zaru Soba",
+      "description": "Macarrão de trigo-sarraceno frio servido com molho separado para mergulhar, nori, cebolinha e wasabi. Lavar bem após o cozimento remove o amido e devolve textura firme.",
+      "animeContext": "Inspirado na atmosfera de comida tradicional de Demon Slayer; não afirmamos episódio específico.",
+      "ingredients": {
+        "soba": {
+          "name": "Macarrão soba",
+          "note": null
+        },
+        "nori": {
+          "name": "Folha de nori",
+          "note": null
+        },
+        "scallion": {
+          "name": "Cebolinha",
+          "note": null
+        },
+        "wasabi": {
+          "name": "Wasabi",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Molho de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sugar": {
+          "name": "Açúcar",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_mentsuyu": "Ferva suavemente dashi, soja, mirin e açúcar por 1–2 minutos e esfrie completamente; o molho deve ser mais concentrado que um caldo.",
+        "cook_soba": "Cozinhe a soba em bastante água sem sal conforme a embalagem, mexendo no início e verificando o ponto cedo.",
+        "wash_chill": "Escorra e lave abundantemente em água fria, esfregando suavemente para remover amido; finalize em água bem fria.",
+        "drain_plate": "Escorra muito bem e disponha no zaru ou prato com nori.",
+        "serve": "Sirva o mentsuyu frio à parte com cebolinha e um pouco de wasabi; mergulhe apenas parte do macarrão."
+      }
+    }
+  }
+}
