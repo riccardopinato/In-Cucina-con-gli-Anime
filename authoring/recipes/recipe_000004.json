@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000004",
-  "contentVersion": 1,
+  "contentVersion": 2,
   "status": "published",
   "inspirationTitle": "Doraemon",
   "prepMinutes": 15,
@@ -9,7 +9,7 @@
   "servings": 4,
   "difficulty": "easy",
   "contentOrigin": "adapted",
-  "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source gives no yield; four servings are an editorial estimate from the batter and filling quantities.",
+  "sourceNote": "Editorial rebuild from user-provided recipe reference PDF received 2026-10-22. The source gives no yield; four servings are an editorial estimate from the batter and filling quantities. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
   "imageAssetId": "recipe_000004_artwork",
   "ingredients": [
     {
@@ -108,13 +108,15 @@
         }
       },
       "steps": {
-        "whisk_base": "Whisk the eggs with the sugar and honey until the mixture looks lighter and slightly foamy.",
-        "finish_batter": "Mix the baking powder into the water, add it to the bowl and fold in the sifted flour until the batter is smooth.",
-        "rest_batter": "Chill the batter for 15 minutes so it can settle before cooking.",
-        "cook_first_side": "Heat a non-stick pan over low heat, wipe it with a very thin film of oil and spoon in small rounds of batter. Cook until bubbles appear on top.",
-        "cook_second_side": "Turn each round and cook the second side briefly until evenly coloured.",
-        "fill_dorayaki": "Let the cakes cool, then sandwich them in pairs with anko in the centre and gently press the edges into the classic rounded shape."
-      }
+        "whisk_base": "Whisk the eggs with the sugar and honey until the mixture looks lighter and slightly foamy. Whisk for about 2 minutes, stopping when the sugar is mostly dissolved and the mixture falls in a smooth ribbon rather than trying to whip it to full foam.",
+        "finish_batter": "Mix the baking powder into the water, add it to the bowl and fold in the sifted flour until the batter is smooth. Stop mixing as soon as the flour disappears; overmixing develops gluten and gives tougher cakes.",
+        "rest_batter": "Chill the batter for 15 minutes so it can settle before cooking. After resting, check consistency: it should pour in a thick ribbon and spread slowly; add a teaspoon of water only if it has become too stiff.",
+        "cook_first_side": "Heat a non-stick pan over low heat, wipe it with a very thin film of oil and spoon in small rounds of batter. Cook until bubbles appear on top. Use the same spoon or small ladle for every disc. When many small bubbles appear and the outer 5 mm looks matte, the first side is ready to turn.",
+        "cook_second_side": "Turn each round and cook the second side briefly until evenly coloured. The second side needs much less time, usually 30–60 seconds; overcooking dries the cakes and makes them crack around the filling.",
+        "fill_dorayaki": "Let the cakes cool, then sandwich them in pairs with anko in the centre and gently press the edges into the classic rounded shape. Match two cakes of similar diameter, place anko slightly thicker in the centre and taper it toward the edge before pressing gently."
+      },
+      "description": "Two small, evenly browned honey cakes sandwiching a thick layer of anko. Dorayaki looks simple, but consistent low heat, a rested batter and pairing pancakes of equal size are what produce the smooth domed shape.",
+      "animeContext": "Dorayaki is Doraemon's famous favourite food and recurs throughout the franchise, making this one of the app's strongest character-food associations. The recipe itself follows the real Japanese sweet."
     },
     "it": {
       "title": "Dorayaki con anko",
@@ -149,13 +151,15 @@
         }
       },
       "steps": {
-        "whisk_base": "Lavora uova, zucchero e miele con una frusta finché il composto diventa più chiaro e leggermente spumoso.",
-        "finish_batter": "Sciogli il lievito nell’acqua, uniscilo al composto e incorpora la farina setacciata fino a ottenere una pastella liscia.",
-        "rest_batter": "Lascia riposare la pastella in frigorifero per 15 minuti prima della cottura.",
-        "cook_first_side": "Scalda una padella antiaderente a fuoco basso, ungila appena e versa piccole porzioni di pastella formando dischi regolari. Cuoci finché compaiono bollicine in superficie.",
-        "cook_second_side": "Gira i dischi e completa brevemente la cottura dell’altro lato fino a doratura uniforme.",
-        "fill_dorayaki": "Fai raffreddare i pancake, poi accoppiali con l’anko al centro e premi delicatamente i bordi per ottenere la forma bombata."
-      }
+        "whisk_base": "Lavora uova, zucchero e miele con una frusta finché il composto diventa più chiaro e leggermente spumoso. Lavora per circa 2 minuti, fermandoti quando lo zucchero è quasi sciolto e il composto cade a nastro liscio: non serve montarlo come un pan di Spagna.",
+        "finish_batter": "Sciogli il lievito nell’acqua, uniscilo al composto e incorpora la farina setacciata fino a ottenere una pastella liscia. Smetti di mescolare appena la farina scompare: lavorare troppo sviluppa glutine e rende i dischi più tenaci.",
+        "rest_batter": "Lascia riposare la pastella in frigorifero per 15 minuti prima della cottura. Dopo il riposo controlla la consistenza: deve cadere a nastro spesso e allargarsi lentamente; aggiungi un cucchiaino d’acqua solo se è diventata troppo densa.",
+        "cook_first_side": "Scalda una padella antiaderente a fuoco basso, ungila appena e versa piccole porzioni di pastella formando dischi regolari. Cuoci finché compaiono bollicine in superficie. Usa sempre lo stesso cucchiaio o mestolino per dosare. Quando compaiono molte bollicine e i 5 mm esterni diventano opachi, il primo lato è pronto da girare.",
+        "cook_second_side": "Gira i dischi e completa brevemente la cottura dell’altro lato fino a doratura uniforme. Il secondo lato richiede molto meno tempo, in genere 30–60 secondi: cuocerlo troppo asciuga i dischi e li fa crepare attorno al ripieno.",
+        "fill_dorayaki": "Fai raffreddare i pancake, poi accoppiali con l’anko al centro e premi delicatamente i bordi per ottenere la forma bombata. Abbina due dischi di diametro simile, distribuisci l’anko più spesso al centro e più sottile verso il bordo, poi premi con delicatezza."
+      },
+      "description": "Due piccoli dischi al miele, dorati in modo uniforme, racchiudono uno strato generoso di anko. Il dorayaki sembra semplice, ma fiamma bassa costante, pastella riposata e dischi della stessa misura sono ciò che crea la classica forma bombata e liscia.",
+      "animeContext": "Il dorayaki è il celebre cibo preferito di Doraemon e ricorre in tutto il franchise: è una delle associazioni personaggio-cibo più forti dell’app. La ricetta segue comunque il vero dolce giapponese."
     },
     "es": {
       "title": "Dorayaki con anko",
@@ -190,13 +194,15 @@
         }
       },
       "steps": {
-        "whisk_base": "Bate los huevos con el azúcar y la miel hasta obtener una mezcla más clara y ligeramente espumosa.",
-        "finish_batter": "Disuelve la levadura en el agua, añádela al bol e incorpora la harina tamizada hasta conseguir una masa lisa.",
-        "rest_batter": "Deja reposar la masa 15 minutos en el frigorífico.",
-        "cook_first_side": "Calienta una sartén antiadherente a fuego bajo, engrásala apenas y forma discos pequeños con la masa. Cocina hasta que aparezcan burbujas.",
-        "cook_second_side": "Da la vuelta a los discos y cocina brevemente la segunda cara hasta que se dore.",
-        "fill_dorayaki": "Deja enfriar, une los discos de dos en dos con anko en el centro y presiona suavemente los bordes."
-      }
+        "whisk_base": "Bate los huevos con el azúcar y la miel hasta obtener una mezcla más clara y ligeramente espumosa. Bate unos 2 minutos hasta que el azúcar casi se disuelva y la mezcla caiga en cinta, sin montarla en exceso.",
+        "finish_batter": "Disuelve la levadura en el agua, añádela al bol e incorpora la harina tamizada hasta conseguir una masa lisa. Deja de mezclar en cuanto desaparezca la harina; batir de más desarrolla gluten.",
+        "rest_batter": "Deja reposar la masa 15 minutos en el frigorífico. Tras el reposo debe caer en cinta espesa y extenderse lentamente; añade solo una cucharadita de agua si está demasiado densa.",
+        "cook_first_side": "Calienta una sartén antiadherente a fuego bajo, engrásala apenas y forma discos pequeños con la masa. Cocina hasta que aparezcan burbujas. Usa siempre la misma medida. Cuando aparezcan muchas burbujas y el borde se vea mate, gira.",
+        "cook_second_side": "Da la vuelta a los discos y cocina brevemente la segunda cara hasta que se dore. El segundo lado suele necesitar solo 30–60 segundos; demasiado tiempo seca los discos.",
+        "fill_dorayaki": "Deja enfriar, une los discos de dos en dos con anko en el centro y presiona suavemente los bordes. Empareja discos del mismo tamaño, deja el anko más grueso en el centro y más fino en el borde."
+      },
+      "description": "Dos pequeños discos con miel, dorados de forma uniforme, encierran anko. El calor bajo, el reposo de la masa y discos iguales crean la forma lisa característica.",
+      "animeContext": "El dorayaki es la famosa comida favorita de Doraemon y aparece de forma recurrente; la receta sigue el dulce japonés real."
     },
     "fr": {
       "title": "Dorayaki à l’anko",
@@ -231,13 +237,15 @@
         }
       },
       "steps": {
-        "whisk_base": "Fouettez les œufs avec le sucre et le miel jusqu’à obtenir un mélange plus clair et légèrement mousseux.",
-        "finish_batter": "Délayez la levure dans l’eau, ajoutez-la puis incorporez la farine tamisée jusqu’à obtenir une pâte lisse.",
-        "rest_batter": "Laissez reposer la pâte 15 minutes au réfrigérateur.",
-        "cook_first_side": "Chauffez une poêle antiadhésive à feu doux, huilez-la très légèrement puis formez de petits disques. Cuisez jusqu’à l’apparition de bulles.",
-        "cook_second_side": "Retournez les disques et terminez rapidement la cuisson de l’autre face.",
-        "fill_dorayaki": "Laissez refroidir puis assemblez les disques deux par deux avec l’anko au centre en pinçant doucement les bords."
-      }
+        "whisk_base": "Fouettez les œufs avec le sucre et le miel jusqu’à obtenir un mélange plus clair et légèrement mousseux. Fouettez environ 2 minutes, jusqu’à sucre presque dissous et ruban lisse, sans chercher une mousse complète.",
+        "finish_batter": "Délayez la levure dans l’eau, ajoutez-la puis incorporez la farine tamisée jusqu’à obtenir une pâte lisse. Arrêtez dès disparition de la farine; trop mélanger développe le gluten.",
+        "rest_batter": "Laissez reposer la pâte 15 minutes au réfrigérateur. Après repos, la pâte doit couler en ruban épais et s’étaler lentement; ajoutez un peu d’eau seulement si trop ferme.",
+        "cook_first_side": "Chauffez une poêle antiadhésive à feu doux, huilez-la très légèrement puis formez de petits disques. Cuisez jusqu’à l’apparition de bulles. Utilisez toujours la même mesure. Quand de nombreuses bulles apparaissent et que le bord devient mat, retournez.",
+        "cook_second_side": "Retournez les disques et terminez rapidement la cuisson de l’autre face. La seconde face demande souvent seulement 30–60 secondes; trop cuire dessèche les gâteaux.",
+        "fill_dorayaki": "Laissez refroidir puis assemblez les disques deux par deux avec l’anko au centre en pinçant doucement les bords. Associez deux disques de taille proche, mettez plus d’anko au centre et affinez vers les bords."
+      },
+      "description": "Deux petits gâteaux au miel uniformément dorés enferment une couche d’anko. Une chaleur douce, une pâte reposée et des disques réguliers donnent la forme bombée.",
+      "animeContext": "Le dorayaki est le célèbre aliment préféré de Doraemon et revient régulièrement; la recette suit le vrai gâteau japonais."
     },
     "de": {
       "title": "Dorayaki mit Anko",
@@ -272,13 +280,15 @@
         }
       },
       "steps": {
-        "whisk_base": "Eier, Zucker und Honig schlagen, bis die Mischung heller und leicht schaumig ist.",
-        "finish_batter": "Backpulver im Wasser auflösen, dazugeben und das gesiebte Mehl zu einem glatten Teig einarbeiten.",
-        "rest_batter": "Den Teig 15 Minuten im Kühlschrank ruhen lassen.",
-        "cook_first_side": "Eine beschichtete Pfanne bei niedriger Hitze erwärmen, hauchdünn einfetten und kleine Teigkreise ausbacken, bis oben Bläschen erscheinen.",
-        "cook_second_side": "Die Kreise wenden und die zweite Seite kurz goldbraun backen.",
-        "fill_dorayaki": "Abkühlen lassen, jeweils zwei Pancakes mit Anko füllen und die Ränder sanft zusammendrücken."
-      }
+        "whisk_base": "Eier, Zucker und Honig schlagen, bis die Mischung heller und leicht schaumig ist. Etwa 2 Minuten rühren, bis der Zucker fast gelöst ist und die Masse bandartig fällt; nicht stark aufschlagen.",
+        "finish_batter": "Backpulver im Wasser auflösen, dazugeben und das gesiebte Mehl zu einem glatten Teig einarbeiten. Sobald kein Mehl mehr sichtbar ist aufhören; zu langes Rühren entwickelt Gluten.",
+        "rest_batter": "Den Teig 15 Minuten im Kühlschrank ruhen lassen. Nach der Ruhe soll der Teig dick bandartig fließen und langsam verlaufen; nur bei Bedarf wenig Wasser zugeben.",
+        "cook_first_side": "Eine beschichtete Pfanne bei niedriger Hitze erwärmen, hauchdünn einfetten und kleine Teigkreise ausbacken, bis oben Bläschen erscheinen. Immer dieselbe Portionierung verwenden. Bei vielen Bläschen und mattem Rand wenden.",
+        "cook_second_side": "Die Kreise wenden und die zweite Seite kurz goldbraun backen. Die zweite Seite braucht meist nur 30–60 Sekunden; zu langes Garen trocknet die Küchlein aus.",
+        "fill_dorayaki": "Abkühlen lassen, jeweils zwei Pancakes mit Anko füllen und die Ränder sanft zusammendrücken. Gleich große Scheiben paaren, Anko in der Mitte dicker und zum Rand dünner verteilen."
+      },
+      "description": "Zwei gleichmäßig gebräunte Honigküchlein umschließen Anko. Niedrige Hitze, Ruhezeit und gleich große Scheiben ergeben die glatte gewölbte Form.",
+      "animeContext": "Dorayaki ist Doraemons berühmtes Lieblingsessen und kehrt im Franchise regelmäßig wieder; das Rezept folgt dem realen japanischen Gebäck."
     },
     "pt": {
       "title": "Dorayaki com anko",
@@ -313,13 +323,30 @@
         }
       },
       "steps": {
-        "whisk_base": "Bata os ovos com o açúcar e o mel até a mistura ficar mais clara e levemente espumosa.",
-        "finish_batter": "Dissolva o fermento na água, junte à tigela e incorpore a farinha peneirada até obter uma massa lisa.",
-        "rest_batter": "Deixe a massa descansar na geladeira por 15 minutos.",
-        "cook_first_side": "Aqueça uma frigideira antiaderente em fogo baixo, unte muito levemente e forme pequenos discos de massa. Cozinhe até surgirem bolhas.",
-        "cook_second_side": "Vire os discos e cozinhe rapidamente o segundo lado até dourar.",
-        "fill_dorayaki": "Espere esfriar, una os discos aos pares com anko no centro e pressione suavemente as bordas."
-      }
+        "whisk_base": "Bata os ovos com o açúcar e o mel até a mistura ficar mais clara e levemente espumosa. Bata por cerca de 2 minutos até o açúcar quase dissolver e a mistura cair em fita, sem montar demais.",
+        "finish_batter": "Dissolva o fermento na água, junte à tigela e incorpore a farinha peneirada até obter uma massa lisa. Pare de misturar assim que a farinha desaparecer; mexer demais desenvolve glúten.",
+        "rest_batter": "Deixe a massa descansar na geladeira por 15 minutos. Após o descanso, deve cair em fita grossa e espalhar lentamente; adicione só um pouco de água se estiver muito espessa.",
+        "cook_first_side": "Aqueça uma frigideira antiaderente em fogo baixo, unte muito levemente e forme pequenos discos de massa. Cozinhe até surgirem bolhas. Use sempre a mesma medida. Quando surgirem muitas bolhas e a borda ficar opaca, vire.",
+        "cook_second_side": "Vire os discos e cozinhe rapidamente o segundo lado até dourar. O segundo lado geralmente precisa só de 30–60 segundos; cozinhar demais resseca.",
+        "fill_dorayaki": "Espere esfriar, una os discos aos pares com anko no centro e pressione suavemente as bordas. Combine discos de tamanho parecido, deixe o anko mais espesso no centro e mais fino nas bordas."
+      },
+      "description": "Dois discos com mel, dourados por igual, envolvem anko. Fogo baixo, descanso da massa e discos iguais criam a forma abaulada típica.",
+      "animeContext": "Dorayaki é a famosa comida favorita de Doraemon e aparece repetidamente; a receita segue o doce japonês real."
     }
+  },
+  "animeReferences": [
+    {
+      "workTitle": "Doraemon",
+      "relation": "recurring_association",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Dorayaki verified as two small honeyed pancake-like cakes sandwiching anko; batter rest and low-heat browning retained.",
+    "animeStatus": "verified",
+    "animeNote": "Dorayaki is Doraemon's canonical favourite food and a recurring series association."
   }
 }
