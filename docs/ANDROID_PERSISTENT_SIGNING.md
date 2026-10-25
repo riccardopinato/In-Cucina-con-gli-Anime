@@ -1,6 +1,6 @@
 # Android persistent signing — update in place
 
-Status: infrastructure prepared; one-time GitHub Secrets setup required.
+Status: VERIFIED on 2026-10-25 — persistent Android signing active in CI.
 
 ## Goal
 
@@ -68,3 +68,16 @@ After that migration, future persistent-signed APKs can update in place as long 
 ## Play Store boundary
 
 If Google Play App Signing later uses a different app-signing certificate, a Play-installed build and a directly sideloaded GitHub APK may not be mutually updateable. Treat the persistent key generated here as the stable direct-distribution identity and, if desired, as a candidate Play upload key; verify the final Play signing architecture before production rollout.
+
+
+## Verification evidence
+
+Verified on GitHub Actions run `40148542064`:
+
+- workflow run number: `83`;
+- signing mode: `persistent`;
+- artifact: `in-cucina-con-gli-anime-arm64-persistent`;
+- certificate DN: `CN=RP Digital Studio, O=RP Digital Studio, C=IT`;
+- certificate SHA-256: `DE:E1:CC:45:2B:F6:08:9D:67:98:D9:23:1F:21:DD:A5:C8:88:81:16:8B:07:B3:58:9B:F6:4B:E1:99:A1:22:5A`.
+
+This matches the documented persistent certificate exactly.
