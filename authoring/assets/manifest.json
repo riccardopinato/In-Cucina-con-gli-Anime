@@ -247,6 +247,366 @@
         "reviewedAt": "2026-10-25",
         "note": "Golden fish-shaped taiyaki with molded scales and thick dark-red anko filling visible in a broken piece. F3G re-review confirms the approved artwork still matches the revised culinary identity."
       }
+    },
+    {
+      "id": "recipe_000021_artwork",
+      "path": "assets/recipe_artwork/recipe_000021.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000021",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against March Comes in Like a Lion recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000022_artwork",
+      "path": "assets/recipe_artwork/recipe_000022.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000022",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against A Whisker Away recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000023_artwork",
+      "path": "assets/recipe_artwork/recipe_000023.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000023",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against Food Wars! recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000024_artwork",
+      "path": "assets/recipe_artwork/recipe_000024.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000024",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against Clannad recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000025_artwork",
+      "path": "assets/recipe_artwork/recipe_000025.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000025",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against Food Wars! recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000026_artwork",
+      "path": "assets/recipe_artwork/recipe_000026.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000026",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against Jujutsu Kaisen recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000027_artwork",
+      "path": "assets/recipe_artwork/recipe_000027.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000027",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against Shakugan no Shana recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000028_artwork",
+      "path": "assets/recipe_artwork/recipe_000028.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000028",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against From Up on Poppy Hill recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000029_artwork",
+      "path": "assets/recipe_artwork/recipe_000029.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000029",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against Chainsaw Man recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000030_artwork",
+      "path": "assets/recipe_artwork/recipe_000030.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000030",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against K-On! recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000031_artwork",
+      "path": "assets/recipe_artwork/recipe_000031.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000031",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against Demon Slayer recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000032_artwork",
+      "path": "assets/recipe_artwork/recipe_000032.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000032",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against Dorohedoro recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000033_artwork",
+      "path": "assets/recipe_artwork/recipe_000033.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000033",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against A Whisker Away recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000034_artwork",
+      "path": "assets/recipe_artwork/recipe_000034.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000034",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against Komi Can't Communicate recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000035_artwork",
+      "path": "assets/recipe_artwork/recipe_000035.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000035",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against Spy x Family recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000036_artwork",
+      "path": "assets/recipe_artwork/recipe_000036.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000036",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against Gintama recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000037_artwork",
+      "path": "assets/recipe_artwork/recipe_000037.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000037",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against Fruits Basket recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000038_artwork",
+      "path": "assets/recipe_artwork/recipe_000038.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000038",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against My Neighbor Totoro recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000039_artwork",
+      "path": "assets/recipe_artwork/recipe_000039.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000039",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against Fruits Basket recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000040_artwork",
+      "path": "assets/recipe_artwork/recipe_000040.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000040",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against K-On! recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000041_artwork",
+      "path": "assets/recipe_artwork/recipe_000041.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000041",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against Food Wars! Shokugeki no Soma recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000042_artwork",
+      "path": "assets/recipe_artwork/recipe_000042.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000042",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against Today's Menu for the Emiya Family recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000043_artwork",
+      "path": "assets/recipe_artwork/recipe_000043.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000043",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against Demon Slayer recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000044_artwork",
+      "path": "assets/recipe_artwork/recipe_000044.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000044",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against Gintama recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000045_artwork",
+      "path": "assets/recipe_artwork/recipe_000045.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000045",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against My Hero Academia recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000046_artwork",
+      "path": "assets/recipe_artwork/recipe_000046.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000046",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against K-On! recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000047_artwork",
+      "path": "assets/recipe_artwork/recipe_000047.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000047",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against Food Wars! recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000048_artwork",
+      "path": "assets/recipe_artwork/recipe_000048.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000048",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against Today's Menu for the Emiya Family recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000049_artwork",
+      "path": "assets/recipe_artwork/recipe_000049.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000049",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against Ranma ½ recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
+    },
+    {
+      "id": "recipe_000050_artwork",
+      "path": "assets/recipe_artwork/recipe_000050.jpg",
+      "rights": "original",
+      "recipeId": "recipe_000050",
+      "semanticReview": {
+        "status": "approved",
+        "reviewedContentVersion": 1,
+        "reviewedAt": "2026-10-25",
+        "note": "F3G original food-only artwork reviewed against Gintama recipe identity; the finished dish remains the sole subject, with no characters, logos or franchise text."
+      }
     }
   ]
 }
