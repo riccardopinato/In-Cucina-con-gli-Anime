@@ -174,7 +174,7 @@
         "start_curry": "Heat oil in a saucepan, add sliced onion and cook until soft with light golden edges. Add carrot and potato cut into even bite-size pieces and sauté for 2–3 minutes so their surfaces pick up flavour.",
         "simmer_vegetables": "Add 500 ml water or light stock, bring to a boil, skim if needed, then cover partially and simmer about 15 minutes until the vegetables are tender but not collapsing.",
         "add_roux": "Turn the heat off before adding the curry roux. Break in about 45 g, stir until fully dissolved, then return to low heat and simmer 4–5 minutes, stirring from the bottom, until glossy and thick enough to coat a spoon. Follow the package ratio if your brand differs.",
-        "cook_tonkatsu": "Prepare the tonkatsu while the curry simmers: bread and fry the pork until the crust is crisp and the centre reaches safe doneness. Rest briefly on a rack, then slice into clean strips.",
+        "cook_tonkatsu": "Pat the pork dry. Make shallow cuts through the fat/connective strip every 2–3 cm so the cutlet stays flat, then gently pound only enough to even the thickness; reshape the meat with your hands. Season both sides with salt and pepper. Coat lightly in flour and shake off excess, cover completely in beaten egg, then press into panko without crushing the flakes. Rest 5 minutes so the crust adheres. Heat 4–5 cm of oil to about 170°C. Fry without crowding until the crust is pale golden, about 3 minutes per side for a 1.5–2 cm cutlet; keep oil near 165–175°C rather than letting it smoke. Lift onto a rack for 3 minutes so residual heat reaches the centre. The pork must reach a safe doneness according to local guidance; if using a thermometer, check the thickest point rather than judging only by crust colour.",
         "assemble": "Place hot rice on one side of each plate, arrange sliced tonkatsu alongside and ladle curry so it laps over part of the cutlet while leaving some crust exposed. Add fukujinzuke if desired and serve immediately."
       }
     },
@@ -237,7 +237,7 @@
         "start_curry": "Scalda l’olio in casseruola, aggiungi la cipolla affettata e cuoci finché è morbida con bordi appena dorati. Unisci carota e patata a pezzi regolari e rosola 2–3 minuti.",
         "simmer_vegetables": "Versa 500 ml d’acqua o brodo leggero, porta a bollore, schiuma se necessario, poi copri parzialmente e cuoci circa 15 minuti, finché le verdure sono tenere ma non disfatte.",
         "add_roux": "Spegni il fuoco prima di aggiungere il roux. Spezzetta circa 45 g, mescola finché è completamente sciolto, poi riaccendi al minimo e fai sobbollire 4–5 minuti mescolando sul fondo, fino a ottenere una salsa lucida che vela il cucchiaio. Se la marca indica un rapporto diverso, segui la confezione.",
-        "cook_tonkatsu": "Mentre il curry sobbolle prepara il tonkatsu: impana e friggi il maiale fino a crosta croccante e interno cotto in sicurezza. Fallo riposare brevemente su griglia, poi affettalo con tagli netti.",
+        "cook_tonkatsu": "Asciuga bene il maiale. Pratica piccoli tagli nel bordo di grasso e connettivo ogni 2–3 cm per evitare che si incurvi, poi batti solo quanto basta a uniformare lo spessore e ricompatta la fetta con le mani. Sala e pepa entrambi i lati. Passa in poca farina eliminando l’eccesso, ricopri completamente con uovo sbattuto e premi nel panko senza schiacciare i fiocchi. Lascia riposare 5 minuti perché la crosta aderisca. Porta 4–5 cm d’olio a circa 170°C. Friggi senza affollare finché il panko è dorato chiaro, circa 3 minuti per lato per una fetta da 1,5–2 cm; mantieni l’olio tra 165 e 175°C. Trasferisci su una griglia per 3 minuti: il calore residuo completa il centro. Verifica una cottura sicura secondo le indicazioni locali; con un termometro misura il punto più spesso, non affidarti solo al colore della crosta.",
         "assemble": "Disponi il riso caldo su un lato del piatto, appoggia accanto il tonkatsu affettato e versa il curry in modo che copra solo parte della cotoletta, lasciando visibile una zona croccante. Completa con fukujinzuke se vuoi."
       }
     },
@@ -300,7 +300,7 @@
         "start_curry": "Pocha cebolla en aceite hasta suave y ligeramente dorada, añade zanahoria y patata y saltea 2–3 minutos.",
         "simmer_vegetables": "Añade 500 ml de agua o caldo y cocina parcialmente tapado unos 15 minutos hasta que las verduras estén tiernas.",
         "add_roux": "Apaga el fuego, disuelve unos 45 g de roux, vuelve a fuego bajo y cocina 4–5 minutos hasta espesar; respeta la proporción del fabricante si cambia.",
-        "cook_tonkatsu": "Prepara el tonkatsu hasta que quede crujiente y cocido de forma segura; reposa sobre rejilla y corta.",
+        "cook_tonkatsu": "Seca el cerdo, corta superficialmente la banda de grasa cada 2–3 cm y golpea solo para igualar el grosor. Salpimenta, pasa por harina retirando el exceso, cubre con huevo y presiona en panko sin triturarlo. Reposa 5 minutos. Calienta 4–5 cm de aceite a unos 170°C y fríe sin amontonar, aproximadamente 3 minutos por lado para 1,5–2 cm, manteniendo 165–175°C. Pasa a una rejilla 3 minutos para que el calor residual llegue al centro. Comprueba una cocción segura en la parte más gruesa, no solo el color exterior.",
         "assemble": "Sirve arroz, tonkatsu y curry dejando parte de la corteza al descubierto; añade fukujinzuke si deseas."
       }
     },
@@ -363,7 +363,7 @@
         "start_curry": "Faites fondre l’oignon dans l’huile jusqu’à légère coloration, ajoutez carotte et pomme de terre et sautez 2–3 minutes.",
         "simmer_vegetables": "Ajoutez 500 ml d’eau ou bouillon et mijotez environ 15 minutes, partiellement couvert, jusqu’à tendreté.",
         "add_roux": "Coupez le feu, dissolvez environ 45 g de roux, puis mijotez 4–5 minutes à feu doux jusqu’à épaississement; adaptez selon la marque.",
-        "cook_tonkatsu": "Préparez le tonkatsu croustillant et cuit à cœur, reposez sur grille puis tranchez.",
+        "cook_tonkatsu": "Séchez le porc, incisez légèrement la bande de gras tous les 2–3 cm et aplatissez juste assez pour uniformiser l’épaisseur. Salez, poivrez, farinez légèrement, passez dans l’œuf puis pressez dans le panko sans écraser les flocons. Reposez 5 minutes. Chauffez 4–5 cm d’huile à environ 170°C et faites frire sans surcharger, environ 3 minutes par face pour 1,5–2 cm, en gardant 165–175°C. Posez sur une grille 3 minutes pour laisser la chaleur atteindre le centre. Vérifiez une cuisson sûre au point le plus épais, pas seulement la couleur de la panure.",
         "assemble": "Servez riz, tonkatsu et curry en laissant une partie de la panure hors sauce; ajoutez du fukujinzuke si souhaité."
       }
     },
@@ -426,7 +426,7 @@
         "start_curry": "Zwiebel in Öl weich und leicht goldbraun braten, Karotte und Kartoffel zugeben und 2–3 Minuten anschwitzen.",
         "simmer_vegetables": "500 ml Wasser oder Brühe zugeben und etwa 15 Minuten teilweise abgedeckt köcheln, bis das Gemüse weich ist.",
         "add_roux": "Hitze ausschalten, etwa 45 g Curry-Roux vollständig lösen, dann bei niedriger Hitze 4–5 Minuten eindicken; Packungsverhältnis bei abweichender Marke beachten.",
-        "cook_tonkatsu": "Tonkatsu knusprig und sicher durchgaren, kurz auf Gitter ruhen lassen und schneiden.",
+        "cook_tonkatsu": "Schweinefleisch trocken tupfen, Fettrand alle 2–3 cm leicht einschneiden und nur sanft auf gleichmäßige Dicke klopfen. Salzen, pfeffern, dünn mehlieren, vollständig durch Ei ziehen und in Panko drücken, ohne die Flocken zu zerquetschen. 5 Minuten ruhen lassen. 4–5 cm Öl auf etwa 170°C erhitzen und ohne Überfüllung etwa 3 Minuten je Seite frittieren; 165–175°C halten. 3 Minuten auf einem Gitter ruhen lassen, damit die Restwärme den Kern erreicht. Sichere Garung an der dicksten Stelle prüfen, nicht nur nach der Krustenfarbe urteilen.",
         "assemble": "Reis, Tonkatsu und Curry so anrichten, dass ein Teil der Kruste trocken bleibt; optional Fukujinzuke dazu."
       }
     },
@@ -489,7 +489,7 @@
         "start_curry": "Refogue a cebola no óleo até macia e levemente dourada, junte cenoura e batata e salteie 2–3 minutos.",
         "simmer_vegetables": "Adicione 500 ml de água ou caldo e cozinhe parcialmente tampado por cerca de 15 minutos até os legumes ficarem macios.",
         "add_roux": "Desligue o fogo, dissolva cerca de 45 g de roux, volte ao fogo baixo e cozinhe 4–5 minutos até engrossar; siga a proporção da embalagem se a marca for diferente.",
-        "cook_tonkatsu": "Prepare o tonkatsu crocante e com cocção segura, descanse em grade e fatie.",
+        "cook_tonkatsu": "Seque a carne, faça pequenos cortes na faixa de gordura a cada 2–3 cm e bata apenas o necessário para uniformizar a espessura. Tempere, passe levemente na farinha, cubra com ovo e pressione no panko sem esmagar os flocos. Descanse 5 minutos. Aqueça 4–5 cm de óleo a cerca de 170°C e frite sem lotar, aproximadamente 3 minutos de cada lado para 1,5–2 cm, mantendo 165–175°C. Coloque em grade por 3 minutos para o calor residual chegar ao centro. Confirme cocção segura na parte mais espessa, não apenas pela cor da crosta.",
         "assemble": "Sirva arroz, tonkatsu e curry deixando parte da crosta fora do molho; acrescente fukujinzuke se desejar."
       }
     }
