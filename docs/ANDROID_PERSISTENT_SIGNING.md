@@ -1,6 +1,6 @@
 # Android persistent signing — update in place
 
-Status: CI VERIFIED + FIRST PERSISTENT DEVICE INSTALL PASS on 2026-10-25 — update-in-place verification pending.
+Status: VERIFIED on 2026-10-25 — persistent Android signing and physical update-in-place continuity confirmed.
 
 ## Goal
 
@@ -100,3 +100,17 @@ The next acceptance check is:
 3. confirm launch succeeds and existing local user state remains available.
 
 Only after that physical check may update-in-place be marked VERIFIED.
+
+
+## Physical update-in-place verification — PASS
+
+Verified by the user on 2026-10-25 using a later persistent-signed APK built with a higher Android versionCode:
+
+- the newer APK installed over the existing app without uninstalling it;
+- the app launched normally after the update;
+- existing Favorites were preserved;
+- the package/signing continuity therefore supports in-place updates for the current direct-distribution lane.
+
+Result: **UPDATE-IN-PLACE VERIFIED**.
+
+This evidence closes the persistent-signing continuity gate for direct APK updates. It does not by itself establish Play Store readiness, production AAB certification or Google Play App Signing continuity.
