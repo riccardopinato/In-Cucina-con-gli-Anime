@@ -10,7 +10,7 @@ on:
       - '.github/workflows/f3g-materialize.yml'
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   materialize:
@@ -32,6 +32,23 @@ jobs:
             cp -R assets/catalog/. build/f3g-runtime/
           fi
           exit 0
+
+      - name: Commit materialized runtime and report
+        shell: bash
+        run: |
+          if [ -f build/authoring/recipe_authoring_report.json ]; then
+            cp build/authoring/recipe_authoring_report.json docs/_F3G_TMP_REPORT.json
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/_F3G_TMP_REPORT.json 2>/dev/null || true
+          if [ "$(cat build/f3g-status.txt)" = "0" ]; then
+            git add assets/catalog/
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "ci: materialize F3G catalog evidence"
+            git push origin HEAD:f3g-implementation
+          fi
 
       - name: Upload F3G materialization evidence
         if: always()
