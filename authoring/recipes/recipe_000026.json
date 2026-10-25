@@ -25,7 +25,7 @@
   "difficulty": "easy",
   "contentOrigin": "adapted",
   "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3; method expanded and terminology normalized.",
-  "imageAssetId": null,
+  "imageAssetId": "recipe_000026_artwork",
   "ingredients": [
     {
       "id": "koppepan",

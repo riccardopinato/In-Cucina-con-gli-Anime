@@ -25,7 +25,7 @@
   "difficulty": "medium",
   "contentOrigin": "adapted",
   "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3; double-fry wording normalized with safe doneness cues.",
-  "imageAssetId": null,
+  "imageAssetId": "recipe_000023_artwork",
   "ingredients": [
     {
       "id": "pork",

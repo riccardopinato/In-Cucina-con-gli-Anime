@@ -25,7 +25,7 @@
   "difficulty": "easy",
   "contentOrigin": "adapted",
   "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3 with timing and texture cues expanded.",
-  "imageAssetId": null,
+  "imageAssetId": "recipe_000025_artwork",
   "ingredients": [
     {
       "id": "ramen_noodles",
