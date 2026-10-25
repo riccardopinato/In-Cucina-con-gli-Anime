@@ -83,6 +83,7 @@ abstract final class DecorativeCharacterRegistry {
         DecorativeSlot.favoritesEmpty,
         DecorativeSlot.shoppingEmpty,
         DecorativeSlot.exploreHero,
+        DecorativeSlot.recipeCardCorner,
       },
       bodyColor: Color(0xFF9B7559),
       secondaryColor: Color(0xFFE7D3B8),
