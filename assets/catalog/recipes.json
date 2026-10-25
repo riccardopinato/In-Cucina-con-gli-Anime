@@ -165,9 +165,9 @@
     },
     {
       "id": "recipe_000003",
-      "contentVersion": 2,
+      "contentVersion": 3,
       "status": "published",
-      "inspirationTitle": "Yuri!!! on ICE / My Hero Academia",
+      "inspirationTitle": "Yuri!!! on ICE",
       "animeReferences": [
         {
           "workTitle": "Yuri!!! on ICE",
@@ -341,9 +341,9 @@
     },
     {
       "id": "recipe_000005",
-      "contentVersion": 2,
+      "contentVersion": 3,
       "status": "published",
-      "inspirationTitle": "La città incantata / Pokémon",
+      "inspirationTitle": "Spirited Away",
       "animeReferences": [
         {
           "workTitle": "Spirited Away",
@@ -422,9 +422,9 @@
     },
     {
       "id": "recipe_000006",
-      "contentVersion": 3,
+      "contentVersion": 4,
       "status": "published",
-      "inspirationTitle": "Ranma ½ / Kiss Me Licia",
+      "inspirationTitle": "Ranma ½",
       "animeReferences": [
         {
           "workTitle": "Ranma ½",
@@ -513,9 +513,9 @@
     },
     {
       "id": "recipe_000007",
-      "contentVersion": 2,
+      "contentVersion": 3,
       "status": "published",
-      "inspirationTitle": "One Piece / My Hero Academia",
+      "inspirationTitle": "One Piece",
       "animeReferences": [
         {
           "workTitle": "One Piece",
@@ -613,9 +613,9 @@
     },
     {
       "id": "recipe_000008",
-      "contentVersion": 2,
+      "contentVersion": 3,
       "status": "published",
-      "inspirationTitle": "K-On! / Maid Sama!",
+      "inspirationTitle": "K-On!",
       "animeReferences": [
         {
           "workTitle": "K-On!",
@@ -699,9 +699,9 @@
     },
     {
       "id": "recipe_000009",
-      "contentVersion": 2,
+      "contentVersion": 3,
       "status": "published",
-      "inspirationTitle": "Yuri!!! on ICE / Food Wars!",
+      "inspirationTitle": "Yuri!!! on ICE",
       "animeReferences": [
         {
           "workTitle": "Yuri!!! on ICE",
@@ -876,7 +876,7 @@
     },
     {
       "id": "recipe_000011",
-      "contentVersion": 2,
+      "contentVersion": 3,
       "status": "published",
       "inspirationTitle": "Food Wars! (Shokugeki no Souma)",
       "animeReferences": [
@@ -957,7 +957,7 @@
     },
     {
       "id": "recipe_000012",
-      "contentVersion": 2,
+      "contentVersion": 3,
       "status": "published",
       "inspirationTitle": "Food Wars! (Shokugeki no Souma)",
       "animeReferences": [
@@ -1043,9 +1043,9 @@
     },
     {
       "id": "recipe_000013",
-      "contentVersion": 2,
+      "contentVersion": 3,
       "status": "published",
-      "inspirationTitle": "Persona 5 / Assassination Classroom",
+      "inspirationTitle": "Persona 5",
       "animeReferences": [
         {
           "workTitle": "Persona 5",
@@ -1120,9 +1120,9 @@
     },
     {
       "id": "recipe_000014",
-      "contentVersion": 2,
+      "contentVersion": 3,
       "status": "published",
-      "inspirationTitle": "Angel Beats! / Food Wars!",
+      "inspirationTitle": "Angel Beats!",
       "animeReferences": [
         {
           "workTitle": "Angel Beats!",
@@ -1184,6 +1184,26 @@
           "id": "spring_onion",
           "quantity": 1,
           "unit": null
+        },
+        {
+          "id": "neutral_oil",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "soy_sauce",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "id": "sugar",
+          "quantity": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "sesame_oil",
+          "quantity": 1,
+          "unit": "tsp"
         }
       ],
       "steps": [
@@ -1207,9 +1227,9 @@
     },
     {
       "id": "recipe_000015",
-      "contentVersion": 2,
+      "contentVersion": 4,
       "status": "published",
-      "inspirationTitle": "Demon Slayer (Kimetsu no Yaiba) / Inuyasha",
+      "inspirationTitle": "Demon Slayer: Kimetsu no Yaiba",
       "animeReferences": [
         {
           "workTitle": "Demon Slayer: Kimetsu no Yaiba",
@@ -1225,7 +1245,7 @@
       "difficulty": "easy",
       "imageAsset": "assets/recipe_artwork/recipe_000015.jpg",
       "contentOrigin": "adapted",
-      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
+      "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded. F3H: green-bean finishing ingredient declared explicitly to match the preparation.",
       "ingredients": [
         {
           "id": "thin_beef",
@@ -1266,6 +1286,11 @@
           "id": "sugar",
           "quantity": 1,
           "unit": "tbsp"
+        },
+        {
+          "id": "green_beans",
+          "quantity": 50,
+          "unit": "g"
         }
       ],
       "steps": [
@@ -1289,9 +1314,9 @@
     },
     {
       "id": "recipe_000016",
-      "contentVersion": 2,
+      "contentVersion": 3,
       "status": "published",
-      "inspirationTitle": "Haikyuu!! / Food Wars!",
+      "inspirationTitle": "Haikyuu!!",
       "animeReferences": [
         {
           "workTitle": "Haikyuu!!",
@@ -1371,9 +1396,9 @@
     },
     {
       "id": "recipe_000017",
-      "contentVersion": 2,
+      "contentVersion": 3,
       "status": "published",
-      "inspirationTitle": "Demon Slayer / Pokémon",
+      "inspirationTitle": "Demon Slayer: Kimetsu no Yaiba",
       "animeReferences": [
         {
           "workTitle": "Demon Slayer: Kimetsu no Yaiba",
@@ -1443,9 +1468,9 @@
     },
     {
       "id": "recipe_000018",
-      "contentVersion": 2,
+      "contentVersion": 3,
       "status": "published",
-      "inspirationTitle": "Dragon Ball / La città incantata",
+      "inspirationTitle": "Dragon Ball",
       "animeReferences": [
         {
           "workTitle": "Dragon Ball",
@@ -1512,6 +1537,11 @@
           "id": "soy_sauce",
           "quantity": 1,
           "unit": "tbsp"
+        },
+        {
+          "id": "shiitake",
+          "quantity": 2,
+          "unit": "piece"
         }
       ],
       "steps": [
@@ -2449,7 +2479,7 @@
     },
     {
       "id": "recipe_000028",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "status": "published",
       "inspirationTitle": "From Up on Poppy Hill",
       "animeReferences": [
@@ -2559,7 +2589,7 @@
     },
     {
       "id": "recipe_000029",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "status": "published",
       "inspirationTitle": "Chainsaw Man",
       "animeReferences": [
@@ -2616,13 +2646,28 @@
         },
         {
           "id": "oil",
-          "quantity": 1,
-          "unit": "tbsp"
+          "quantity": null,
+          "unit": null
         },
         {
           "id": "fukujinzuke",
           "quantity": null,
           "unit": null
+        },
+        {
+          "id": "flour",
+          "quantity": 3,
+          "unit": "tbsp"
+        },
+        {
+          "id": "egg",
+          "quantity": 1,
+          "unit": null
+        },
+        {
+          "id": "panko",
+          "quantity": 100,
+          "unit": "g"
         }
       ],
       "steps": [
@@ -3317,13 +3362,13 @@
     },
     {
       "id": "recipe_000037",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "status": "published",
       "inspirationTitle": "Fruits Basket",
       "animeReferences": [
         {
           "workTitle": "Fruits Basket",
-          "relation": "recurring_association",
+          "relation": "inspired",
           "season": null,
           "episode": null,
           "chapter": null
@@ -3563,13 +3608,13 @@
     },
     {
       "id": "recipe_000040",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "status": "published",
       "inspirationTitle": "K-On!",
       "animeReferences": [
         {
           "workTitle": "K-On!",
-          "relation": "recurring_association",
+          "relation": "inspired",
           "season": null,
           "episode": null,
           "chapter": null

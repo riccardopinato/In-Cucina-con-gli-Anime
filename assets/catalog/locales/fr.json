@@ -323,7 +323,7 @@
         "fill_moulds": "Versez la pâte presque jusqu’au bord des cavités. Remplissez complètement et laissez déborder un peu de pâte; elle sera incorporée lors du retournement.",
         "add_fillings": "Ajoutez dans chaque cavité un morceau de poulpe avec un peu de beni shoga, de tenkasu et de ciboule. Utilisez de petits dés de poulpe; trop de garniture gêne la rotation et peut laisser le cœur froid.",
         "turn_balls": "Lorsque la base prend, faites tourner progressivement les pièces avec des piques en bois en rabattant la pâte débordante jusqu’à obtenir des boules dorées. Commencez par un quart de tour dès que le bord prend, rentrez la pâte libre dessous puis poursuivez les rotations.",
-        "finish": "Servez chaud avec sauce takoyaki, mayonnaise japonaise et katsuobushi. undefined Vérifiez poulpe chaud et surface dorée; n’ajoutez les sauces qu’au service."
+        "finish": "Servez chaud avec sauce takoyaki, mayonnaise japonaise et katsuobushi. Vérifiez poulpe chaud et surface dorée; n’ajoutez les sauces qu’au service."
       }
     },
     "recipe_000008": {
@@ -503,11 +503,11 @@
         }
       },
       "stepTexts": {
-        "step_1": "Quadrillez légèrement le steak, couvrez-le d’oignon finement haché et laissez reposer 30 minutes. undefined Répartissez l’oignon sur les deux faces et gardez la viande au froid. Retirez et réservez l’oignon avant de saisir pour permettre une bonne coloration. undefined Séchez parfaitement la viande et assaisonnez juste avant la poêle.",
-        "step_2": "Retirez l’oignon et faites-le revenir au beurre jusqu’à belle caramélisation. undefined Utilisez une poêle lourde très chaude et ne bougez pas le steak pendant 60–90 secondes. Retournez après formation de la croûte puis ajustez le feu.",
-        "step_3": "Saisissez le steak à feu vif environ 2 minutes de chaque côté puis déglacez avec sauce soja et vin rouge. undefined Faites fondre l’oignon jusqu’à légère coloration, réduisez le vin de moitié puis ajoutez soja et beurre à feu doux.",
-        "step_4": "Mélangez le riz chaud avec l’umeboshi hachée et mettez-le dans un bol. undefined Reposez 5–8 minutes puis tranchez contre les fibres; ajoutez le jus de repos à la sauce.",
-        "step_5": "Tranchez le steak, posez-le sur le riz et terminez avec l’oignon caramélisé et le jus de cuisson. undefined Étalez le riz, disposez les tranches en éventail et versez la sauce surtout autour et entre elles."
+        "step_1": "Quadrillez légèrement le steak, couvrez-le d’oignon finement haché et laissez reposer 30 minutes. Répartissez l’oignon sur les deux faces et gardez la viande au froid. Retirez et réservez l’oignon avant de saisir pour permettre une bonne coloration. Séchez parfaitement la viande et assaisonnez juste avant la poêle.",
+        "step_2": "Saisissez le steak à feu vif environ 2 minutes par face, en adaptant le temps à l’épaisseur et à la cuisson sûre souhaitée. Utilisez une poêle lourde très chaude et ne bougez pas le steak pendant 60–90 secondes. Retournez après formation de la croûte puis ajustez le feu.",
+        "step_3": "Retirez l’oignon et faites-le revenir au beurre jusqu’à belle caramélisation. Faites fondre l’oignon jusqu’à légère coloration, réduisez le vin de moitié puis ajoutez soja et beurre à feu doux.",
+        "step_4": "Mélangez le riz chaud avec l’umeboshi hachée et mettez-le dans un bol.",
+        "step_5": "Reposez 5–8 minutes puis tranchez contre les fibres; ajoutez le jus de repos à la sauce. Tranchez le steak, posez-le sur le riz et terminez avec l’oignon caramélisé et le jus de cuisson. Étalez le riz, disposez les tranches en éventail et versez la sauce surtout autour et entre elles."
       }
     },
     "recipe_000012": {
@@ -549,11 +549,11 @@
         }
       },
       "stepTexts": {
-        "step_1": "Faites cuire les pommes de terre puis écrasez-les. Faites revenir oignon et champignon au beurre et incorporez-les. undefined Égouttez très bien puis séchez les pommes de terre 1–2 minutes dans la casserole chaude avant de les écraser. undefined Cuisez les champignons jusqu’à évaporation de leur eau et légère coloration; trop humides, ils détendraient la farce. undefined Mélangez champignons et pomme de terre tiède et assaisonnez avant refroidissement; goûtez maintenant.",
-        "step_2": "Façonnez la purée en un rôti compact. undefined Si le rouleau est mou, refroidissez-le environ 10 minutes avant le bacon. undefined Chevauchez le bacon d’environ un tiers et placez la soudure dessous avant cuisson.",
-        "step_3": "Enveloppez le pain de bacon en les faisant se chevaucher puis ficelez avec le romarin. undefined Cuisez jusqu’à bacon bien doré; si le centre est chaud mais le bacon pâle, terminez brièvement sous le gril.",
-        "step_4": "Faites cuire à 200°C jusqu’à ce que le bacon soit doré et croustillant, environ 30–40 minutes. undefined Retirez l’excès de graisse avant de déglacer. Réduisez le vin puis ajoutez soja et beurre.",
-        "step_5": "Déglacez le plat avec vin rouge, sauce soja et beurre puis nappez le rôti tranché. undefined Reposez 5 minutes puis tranchez doucement au couteau-scie pour garder le bacon en place."
+        "step_1": "Faites cuire les pommes de terre puis écrasez-les. Faites revenir oignon et champignon au beurre et incorporez-les. Égouttez très bien puis séchez les pommes de terre 1–2 minutes dans la casserole chaude avant de les écraser. Cuisez les champignons jusqu’à évaporation de leur eau et légère coloration; trop humides, ils détendraient la farce. Mélangez champignons et pomme de terre tiède et assaisonnez avant refroidissement; goûtez maintenant.",
+        "step_2": "Façonnez la purée en un rôti compact. Si le rouleau est mou, refroidissez-le environ 10 minutes avant le bacon.",
+        "step_3": "Enveloppez le pain de bacon en les faisant se chevaucher puis ficelez avec le romarin. Chevauchez le bacon d’environ un tiers et placez la soudure dessous avant cuisson.",
+        "step_4": "Faites cuire à 200°C jusqu’à ce que le bacon soit doré et croustillant, environ 30–40 minutes. Cuisez jusqu’à bacon bien doré; si le centre est chaud mais le bacon pâle, terminez brièvement sous le gril.",
+        "step_5": "Reposez 5 minutes puis tranchez doucement au couteau-scie pour garder le bacon en place. Déglacez le plat avec vin rouge, sauce soja et beurre puis nappez le rôti tranché. Retirez l’excès de graisse avant de déglacer. Réduisez le vin puis ajoutez soja et beurre."
       }
     },
     "recipe_000013": {
@@ -591,10 +591,10 @@
         }
       },
       "stepTexts": {
-        "step_1": "Faites dorer la viande puis ajoutez oignon, carotte et pomme de terre. undefined Laissez l’oignon fondre et légèrement dorer pour construire la douceur avant le roux. undefined Dorez le poulet en plusieurs fois si nécessaire; un poulet pâle cuit à la vapeur donne moins de profondeur.",
-        "step_2": "Couvrez d’eau ou de bouillon et laissez mijoter environ 20 minutes. undefined Coupez carotte et pomme de terre de taille similaire; des morceaux trop petits de pomme de terre se défont. undefined Gardez un léger frémissement et écumez; arrêtez lorsque les légumes sont juste tendres car ils continueront après le roux.",
-        "step_3": "Ajoutez la pomme râpée, coupez brièvement le feu et faites fondre le roux de curry. undefined Ajoutez la pomme finement râpée pour qu’elle fonde; commencez modestement car le sucre varie. undefined Coupez le feu avant le roux et dissolvez-le morceau par morceau pour éviter qu’il n’attache.",
-        "step_4": "Remettez à feu doux jusqu’à épaississement puis servez avec le riz chaud. undefined Remettez à feu doux 5–10 minutes jusqu’à ce que la sauce nappe; ajoutez un peu d’eau chaude seulement si trop épaisse. undefined Laissez reposer le curry 5 minutes hors du feu avant de servir; la sauce se stabilise."
+        "step_1": "Faites dorer la viande puis ajoutez oignon, carotte et pomme de terre. Laissez l’oignon fondre et légèrement dorer pour construire la douceur avant le roux. Si la casserole est trop pleine, faites dorer la viande en plusieurs fois : une viande pâle cuite à la vapeur donnera moins de profondeur au curry.",
+        "step_2": "Couvrez d’eau ou de bouillon et laissez mijoter environ 20 minutes. Coupez carotte et pomme de terre de taille similaire; des morceaux trop petits de pomme de terre se défont. Gardez un léger frémissement et écumez; arrêtez lorsque les légumes sont juste tendres car ils continueront après le roux.",
+        "step_3": "Ajoutez la pomme râpée, coupez brièvement le feu et faites fondre le roux de curry. Ajoutez la pomme finement râpée pour qu’elle fonde; commencez modestement car le sucre varie. Coupez le feu avant le roux et dissolvez-le morceau par morceau pour éviter qu’il n’attache.",
+        "step_4": "Remettez à feu doux jusqu’à épaississement puis servez avec le riz chaud. Remettez à feu doux 5–10 minutes jusqu’à ce que la sauce nappe; ajoutez un peu d’eau chaude seulement si trop épaisse. Laissez reposer le curry 5 minutes hors du feu avant de servir; la sauce se stabilise."
       }
     },
     "recipe_000014": {
@@ -637,13 +637,29 @@
         "spring_onion": {
           "name": "Ciboule",
           "note": null
+        },
+        "neutral_oil": {
+          "name": "Huile neutre",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Huile de sésame grillé",
+          "note": null
         }
       },
       "stepTexts": {
-        "step_1": "Coupez le tofu en cubes de 2 cm et blanchissez-le 1 minute dans de l’eau salée. undefined Coupez le tofu en cubes de 2 cm et, s’il est fragile, réchauffez-le 1–2 minutes dans de l’eau légèrement salée. undefined Dorez jusqu’à cuisson du porc et légère croustillance de quelques bords; cette coloration apporte de la profondeur.",
-        "step_2": "Chauffez l’huile dans un wok et faites revenir ail, gingembre, poivre du Sichuan et doubanjiang. undefined Faites frire brièvement le doubanjiang jusqu’à huile rouge et parfumée puis ajoutez ail et gingembre seulement 20–30 secondes. undefined Ajoutez bouillon et soja, faites frémir et goûtez avant le sucre; les doubanjiang varient fortement.",
-        "step_3": "Ajoutez le porc haché, faites-le bien dorer puis versez le bouillon. undefined Ajoutez le tofu et bougez doucement la poêle plutôt que de remuer; mijotez 3–4 minutes sans casser.",
-        "step_4": "Ajoutez le tofu, mijotez 5 minutes et épaississez avec la fécule délayée. Terminez avec la ciboule. undefined Ajoutez la fécule en deux fois et arrêtez dès que la sauce devient brillante et nappe légèrement le tofu. undefined Finissez avec huile de sésame et ciboule hors feu pour préserver le parfum."
+        "step_1": "Coupez le tofu en cubes de 2 cm et blanchissez-le 1 minute dans de l’eau salée. Coupez le tofu en cubes de 2 cm et, s’il est fragile, réchauffez-le 1–2 minutes dans de l’eau légèrement salée.",
+        "step_2": "Chauffez l’huile neutre dans un wok à feu moyen-vif. Ajoutez le porc haché et faites-le dorer jusqu’à disparition de toute couleur crue et légère croustillance. Ajoutez doubanjiang et poivre du Sichuan, faites revenir brièvement jusqu’à ce que l’huile rougisse et parfume, puis ail et gingembre seulement 20–30 secondes.",
+        "step_3": "Ajoutez bouillon et soja, faites frémir et goûtez avant le sucre; les doubanjiang varient fortement. Ajoutez le tofu et bougez doucement la poêle plutôt que de remuer; mijotez 3–4 minutes sans casser.",
+        "step_4": "Ajoutez la fécule en deux fois et arrêtez dès que la sauce devient brillante et nappe légèrement le tofu. Finissez avec huile de sésame et ciboule hors feu pour préserver le parfum."
       }
     },
     "recipe_000015": {
@@ -682,13 +698,17 @@
         "sugar": {
           "name": "Sucre",
           "note": null
+        },
+        "green_beans": {
+          "name": "Haricots verts",
+          "note": null
         }
       },
       "stepTexts": {
-        "step_1": "Coupez pommes de terre et carotte en morceaux irréguliers et émincez l’oignon. undefined Avec la viande fine, colorez rapidement sans cuire complètement; elle finira dans le bouillon. Retirez l’excès de gras si nécessaire. undefined Coupez les pommes de terre en gros morceaux réguliers; de petits morceaux se défont trop tôt.",
-        "step_2": "Faites revenir le bœuf puis ajoutez oignon, pommes de terre et carotte. undefined Portez juste à ébullition, écumez puis baissez immédiatement; une forte ébullition casse les pommes de terre. undefined Utilisez un couvercle tombant ou du papier et arrêtez lorsque la pomme de terre est tendre mais encore entière.",
-        "step_3": "Ajoutez dashi, sauce soja, mirin et sucre puis portez à frémissement. undefined Reposez couvert hors feu 15–20 minutes puis réchauffez doucement; les pommes de terre absorbent mieux le goût.",
-        "step_4": "Couvrez d’un couvercle au contact et mijotez environ 20 minutes. undefined Ajoutez les haricots verts seulement au réchauffage final pour garder couleur et croquant."
+        "step_1": "Coupez pommes de terre et carotte en morceaux irréguliers et émincez l’oignon. Coupez les pommes de terre en gros morceaux réguliers; de petits morceaux se défont trop tôt.",
+        "step_2": "Faites revenir le bœuf puis ajoutez oignon, pommes de terre et carotte. Avec la viande fine, colorez rapidement sans cuire complètement; elle finira dans le bouillon. Retirez l’excès de gras si nécessaire.",
+        "step_3": "Ajoutez dashi, sauce soja, mirin et sucre puis portez à frémissement. Portez juste à ébullition, écumez puis baissez immédiatement; une forte ébullition casse les pommes de terre.",
+        "step_4": "Couvrez d’un couvercle au contact et mijotez environ 20 minutes. Reposez couvert hors feu 15–20 minutes puis réchauffez doucement; les pommes de terre absorbent mieux le goût. Ajoutez les haricots verts pendant les 2–3 dernières minutes afin qu’ils restent verts et juste tendres."
       }
     },
     "recipe_000016": {
@@ -730,10 +750,10 @@
         }
       },
       "stepTexts": {
-        "step_1": "Coupez le poulet en morceaux de 3–4 cm et marinez 20 minutes avec soja, saké, gingembre et ail. undefined Coupez des morceaux de 3–4 cm pour une cuisson régulière et gardez un peu de peau. undefined Marinez au réfrigérateur et sans excès de durée; égouttez le surplus avant l’enrobage.",
-        "step_2": "Enrobez chaque morceau généreusement de fécule de pomme de terre. undefined Enrobez juste avant friture et pressez un peu de fécule dans les plis pour obtenir la croûte irrégulière. undefined Faites frire par petites quantités pour maintenir la température; la première friture cuit sans trop colorer.",
-        "step_3": "Faites frire à 160°C environ 4 minutes, égouttez et laissez reposer 2 minutes. undefined Reposez sur grille, pas sur papier, pour éviter la vapeur sous la croûte et répartir la chaleur. undefined Montez la température et refaites frire moins de 1–2 minutes jusqu’à belle couleur; le poulet doit déjà être cuit.",
-        "step_4": "Faites une seconde friture à 180°C pendant 1 minute et servez avec du citron. undefined Goûtez avant de saler et servez aussitôt avec citron pendant que la croûte est sèche."
+        "step_1": "Coupez le poulet en morceaux de 3–4 cm et marinez 20 minutes avec soja, saké, gingembre et ail. Coupez des morceaux de 3–4 cm pour une cuisson régulière et gardez un peu de peau. Marinez au réfrigérateur et sans excès de durée; égouttez le surplus avant l’enrobage.",
+        "step_2": "Enrobez chaque morceau généreusement de fécule de pomme de terre. Enrobez juste avant friture et pressez un peu de fécule dans les plis pour obtenir la croûte irrégulière.",
+        "step_3": "Faites frire par petites quantités pour maintenir la température; la première friture cuit sans trop colorer. Faites frire à 160°C environ 4 minutes, égouttez et laissez reposer 2 minutes. Reposez sur grille, pas sur papier, pour éviter la vapeur sous la croûte et répartir la chaleur. Montez la température et refaites frire moins de 1–2 minutes jusqu’à belle couleur; le poulet doit déjà être cuit.",
+        "step_4": "Faites une seconde friture à 180°C pendant 1 minute et servez avec du citron. Goûtez avant de saler et servez aussitôt avec citron pendant que la croûte est sèche."
       }
     },
     "recipe_000017": {
@@ -767,10 +787,10 @@
         }
       },
       "stepTexts": {
-        "step_1": "Battez doucement les œufs avec dashi, sucre, soja et une pincée de sel. undefined Mélangez sans fouetter pour éviter la mousse; filtrez pour une texture très régulière. undefined Gardez feu moyen-doux et seulement un film très fin d’huile entre les couches.",
-        "step_2": "Huilez légèrement une poêle rectangulaire et versez une fine couche d’œuf. undefined Versez une couche fine, percez les grosses bulles et commencez à rouler quand le dessus est encore légèrement humide. undefined Roulez sans écraser, ramenez le rouleau au bord de départ et huilez la zone libre avant la couche suivante.",
-        "step_3": "Dès que l’œuf prend, roulez-le vers un côté. undefined Soulevez légèrement le rouleau quand vous versez l’œuf afin qu’un peu passe dessous et soude les couches.",
-        "step_4": "Ajoutez une autre couche, faites-la glisser sous le rouleau et roulez à nouveau. Répétez puis tranchez. undefined Enveloppez 2–3 minutes dans une natte ou du papier pour fixer la forme puis tranchez au couteau légèrement humide."
+        "step_1": "Battez doucement les œufs avec dashi, sucre, soja et une pincée de sel. Mélangez sans fouetter pour éviter la mousse; filtrez pour une texture très régulière.",
+        "step_2": "Gardez feu moyen-doux et seulement un film très fin d’huile entre les couches. Huilez légèrement une poêle rectangulaire et versez une fine couche d’œuf. Versez une couche fine, percez les grosses bulles et commencez à rouler quand le dessus est encore légèrement humide. Roulez sans écraser, ramenez le rouleau au bord de départ et huilez la zone libre avant la couche suivante.",
+        "step_3": "Dès que l’œuf prend, roulez-le vers un côté. Soulevez légèrement le rouleau quand vous versez l’œuf afin qu’un peu passe dessous et soude les couches.",
+        "step_4": "Ajoutez une autre couche, faites-la glisser sous le rouleau et roulez à nouveau. Répétez puis tranchez. Enveloppez 2–3 minutes dans une natte ou du papier pour fixer la forme puis tranchez au couteau légèrement humide."
       }
     },
     "recipe_000018": {
@@ -817,14 +837,18 @@
         "soy_sauce": {
           "name": "Sauce soja",
           "note": null
+        },
+        "shiitake": {
+          "name": "Shiitake frais",
+          "note": null
         }
       },
       "stepTexts": {
-        "step_1": "Pétrissez farine, levure, eau tiède et sucre puis laissez lever environ 1 heure. undefined Utilisez de l’eau tiède, non chaude, pour préserver la levure; mélangez jusqu’à disparition de la farine sèche. undefined Pétrissez jusqu’à pâte lisse et élastique; si elle se déchire immédiatement, reposez puis pétrissez encore. undefined Jugez la levée au volume: la pâte doit presque doubler et devenir aérienne; au frais, cela peut prendre plus longtemps.",
-        "step_2": "Mélangez le porc avec chou essoré, ciboule, gingembre, sauce soja et huile de sésame. undefined Mélangez jusqu’à ce que le porc devienne légèrement collant et gardez au froid; retirez l’excès d’eau du chou et des champignons.",
-        "step_3": "Divisez la pâte, formez des disques aux bords fins et déposez la farce au centre. undefined Gardez les portions non travaillées couvertes afin que le bord ne sèche pas. undefined Gardez le centre plus épais que le bord, garnissez puis plissez le bord fin vers le haut et fermez fermement.",
-        "step_4": "Pincez les plis vers le centre pour fermer chaque brioche. undefined Laissez gonfler visiblement sans doubler complètement; une surlevée peut les faire retomber.",
-        "step_5": "Faites cuire à la vapeur sur papier 15–18 minutes puis attendez un instant avant d’ouvrir. undefined Commencez avec vapeur active, gardez fermé et vérifiez la cuisson du porc. À la fin, coupez et attendez 3–5 minutes avant d’ouvrir progressivement."
+        "step_1": "Pétrissez farine, levure, eau tiède et sucre puis laissez lever environ 1 heure. Utilisez de l’eau tiède, non chaude, pour préserver la levure; mélangez jusqu’à disparition de la farine sèche. Pétrissez jusqu’à pâte lisse et élastique; si elle se déchire immédiatement, reposez puis pétrissez encore. Jugez la levée au volume: la pâte doit presque doubler et devenir aérienne; au frais, cela peut prendre plus longtemps.",
+        "step_2": "Mélangez le porc avec chou essoré, ciboule, gingembre, sauce soja et huile de sésame. Mélangez jusqu’à ce que le porc devienne légèrement collant et gardez au froid; retirez l’excès d’eau du chou et des champignons.",
+        "step_3": "Divisez la pâte, formez des disques aux bords fins et déposez la farce au centre. Gardez les portions non travaillées couvertes afin que le bord ne sèche pas. Gardez le centre plus épais que le bord, garnissez puis plissez le bord fin vers le haut et fermez fermement.",
+        "step_4": "Pincez les plis vers le centre pour fermer chaque brioche. Laissez gonfler visiblement sans doubler complètement; une surlevée peut les faire retomber.",
+        "step_5": "Faites cuire à la vapeur sur papier 15–18 minutes puis attendez un instant avant d’ouvrir. Commencez avec vapeur active, gardez fermé et vérifiez la cuisson du porc. À la fin, coupez et attendez 3–5 minutes avant d’ouvrir progressivement."
       }
     },
     "recipe_000019": {
@@ -1399,7 +1423,7 @@
       "animeContext": "Inspiré du registre de comfort food associé à Chainsaw Man. Le nom culinaire correct est Katsu Curry; aucun épisode précis n’est affirmé.",
       "ingredientTexts": {
         "pork_cutlets": {
-          "name": "Tonkatsu de porc",
+          "name": "Côtelettes crues de longe de porc de 1,5–2 cm",
           "note": null
         },
         "rice": {
@@ -1427,11 +1451,23 @@
           "note": null
         },
         "oil": {
-          "name": "Huile neutre",
+          "name": "Huile neutre, pour cuisson et friture",
           "note": null
         },
         "fukujinzuke": {
           "name": "Fukujinzuke, facultatif",
+          "note": null
+        },
+        "flour": {
+          "name": "Farine de blé",
+          "note": null
+        },
+        "egg": {
+          "name": "Gros œuf",
+          "note": null
+        },
+        "panko": {
+          "name": "Chapelure panko",
           "note": null
         }
       },
@@ -1440,7 +1476,7 @@
         "start_curry": "Faites fondre l’oignon dans l’huile jusqu’à légère coloration, ajoutez carotte et pomme de terre et sautez 2–3 minutes.",
         "simmer_vegetables": "Ajoutez 500 ml d’eau ou bouillon et mijotez environ 15 minutes, partiellement couvert, jusqu’à tendreté.",
         "add_roux": "Coupez le feu, dissolvez environ 45 g de roux, puis mijotez 4–5 minutes à feu doux jusqu’à épaississement; adaptez selon la marque.",
-        "cook_tonkatsu": "Préparez le tonkatsu croustillant et cuit à cœur, reposez sur grille puis tranchez.",
+        "cook_tonkatsu": "Séchez le porc, incisez légèrement la bande de gras tous les 2–3 cm et aplatissez juste assez pour uniformiser l’épaisseur. Salez, poivrez, farinez légèrement, passez dans l’œuf puis pressez dans le panko sans écraser les flocons. Reposez 5 minutes. Chauffez 4–5 cm d’huile à environ 170°C et faites frire sans surcharger, environ 3 minutes par face pour 1,5–2 cm, en gardant 165–175°C. Posez sur une grille 3 minutes pour laisser la chaleur atteindre le centre. Vérifiez une cuisson sûre au point le plus épais, pas seulement la couleur de la panure.",
         "assemble": "Servez riz, tonkatsu et curry en laissant une partie de la panure hors sauce; ajoutez du fukujinzuke si souhaité."
       }
     },
@@ -1809,7 +1845,7 @@
     "recipe_000037": {
       "title": "Ozoni style Kanto",
       "description": "Soupe du Nouvel An de style Kanto, au dashi clair, mochi grillé, poulet et légumes. L’ozoni varie fortement selon les régions et les familles.",
-      "animeContext": "Fruits Basket est fortement associé au Nouvel An et au mochi; ce bol est explicitement une reconstruction de style Kanto.",
+      "animeContext": "Fruits Basket possède un contexte marqué de Nouvel An, mais cet ozoni de style Kanto est présenté comme inspiration culinaire saisonnière et non comme plat récurrent vérifié de la série.",
       "ingredientTexts": {
         "kirimochi": {
           "name": "Kirimochi",
@@ -1933,7 +1969,7 @@
     "recipe_000040": {
       "title": "Roulé au matcha",
       "description": "Biscuit léger au thé vert roulé avec crème fouettée et anko facultatif. Le pré-roulage à chaud réduit les fissures.",
-      "animeContext": "K-On! est fortement lié au thé et aux gâteaux du club; ce roulé est une association récurrente, pas une recette exacte d’une scène.",
+      "animeContext": "Le thé et les douceurs sont récurrents dans K-On!, mais ce roulé au matcha est une inspiration culinaire de l’app et non un gâteau récurrent vérifié de la série.",
       "ingredientTexts": {
         "eggs": {
           "name": "Gros œufs séparés",

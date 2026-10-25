@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000028",
-  "contentVersion": 1,
+  "contentVersion": 2,
   "status": "published",
   "inspirationTitle": "From Up on Poppy Hill",
   "animeReferences": [
@@ -233,7 +233,7 @@
         }
       },
       "steps": {
-        "cook_potatoes": "Pela le patate e tagliale in pezzi regolari. Lessale in acqua salata finché un coltello entra senza resistenza, poi scolale molto bene e schiacciale ancora calde. Se sono umide, rimet tile brevemente nella pentola calda asciutta per far evaporare l’acqua.",
+        "cook_potatoes": "Pela le patate e tagliale in pezzi regolari. Lessale in acqua salata finché un coltello entra senza resistenza, poi scolale molto bene e schiacciale ancora calde. Se sono umide, rimettile brevemente nella pentola calda asciutta per far evaporare l’acqua.",
         "cook_filling": "Sciogli il burro, ammorbidisci la cipolla fino a trasparenza e aggiungi il macinato. Rosola sgranando bene; condisci con soia, pepe e poca noce moscata e prosegui finché non resta carne cruda.",
         "mix_cool": "Mescola patate asciutte, carne e cipolla. Stendi il composto in uno strato basso su una teglia per disperdere rapidamente il calore; quando non fuma più, trasferiscilo in frigorifero finché è abbastanza freddo da mantenere la forma, invece di lasciarlo a lungo a temperatura ambiente.",
         "shape": "Dividi in otto porzioni e forma ovali compatti spessi circa 2 cm. Liscia le crepe con mani umide: bordi sbriciolati possono aprirsi nell’olio.",

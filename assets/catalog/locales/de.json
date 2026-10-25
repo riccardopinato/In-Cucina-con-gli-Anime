@@ -323,7 +323,7 @@
         "fill_moulds": "Die Mulden fast bis zum Rand mit Teig füllen. Mulden vollständig füllen und etwas Teig bewusst überlaufen lassen; dieser wird beim Drehen eingearbeitet.",
         "add_fillings": "In jede Mulde Oktopus sowie etwas Beni Shoga, Tenkasu und Frühlingszwiebel geben. Kleine Oktopuswürfel verwenden; zu viel Füllung erschwert das Drehen und lässt den Kern kalt.",
         "turn_balls": "Sobald die Unterseite fest wird, die Stücke mit Holzstäbchen schrittweise drehen und überschüssigen Teig nach innen schieben, bis runde goldbraune Kugeln entstehen. Sobald der Rand fest ist, zunächst etwa 90° drehen, losen Teig unterschieben und schrittweise weiterdrehen.",
-        "finish": "Heiß mit Takoyaki-Sauce, japanischer Mayonnaise und Katsuobushi servieren. undefined Prüfen, dass Oktopus heiß und Oberfläche gleichmäßig gebräunt ist; Sauce erst beim Servieren zugeben."
+        "finish": "Heiß mit Takoyaki-Sauce, japanischer Mayonnaise und Katsuobushi servieren. Prüfen, dass Oktopus heiß und Oberfläche gleichmäßig gebräunt ist; Sauce erst beim Servieren zugeben."
       }
     },
     "recipe_000008": {
@@ -503,11 +503,11 @@
         }
       },
       "stepTexts": {
-        "step_1": "Das Steak kreuzweise leicht einschneiden, vollständig mit fein gehackter Zwiebel bedecken und 30 Minuten ruhen lassen. undefined Zwiebel auf beiden Seiten verteilen und das Steak während der Ruhe kalt halten. Vor dem Anbraten abstreifen und aufbewahren, damit die Oberfläche bräunt. undefined Steak nach dem Entfernen der Zwiebel sehr gut trocknen und erst direkt vor dem Braten würzen.",
-        "step_2": "Die Zwiebel abnehmen und in Butter goldbraun karamellisieren. undefined Schwere Pfanne stark erhitzen und das Steak 60–90 Sekunden nicht bewegen. Nach Krustenbildung wenden und Hitze zum Fertiggaren anpassen.",
-        "step_3": "Das Steak bei hoher Hitze etwa 2 Minuten je Seite anbraten und mit Sojasauce und Rotwein ablöschen. undefined Zwiebel weich und leicht goldbraun garen, Wein etwa halb reduzieren und Soja sowie Butter bei schwächerer Hitze einarbeiten.",
-        "step_4": "Den heißen Reis mit gehackter Umeboshi mischen und in eine Schüssel geben. undefined 5–8 Minuten ruhen lassen, quer zur Faser schneiden und Ruhesaft in die Sauce geben.",
-        "step_5": "Das Steak aufschneiden, auf den Reis legen und mit karamellisierter Zwiebel und Bratensaft vollenden. undefined Reis breit verteilen, Steak leicht auffächern und Sauce hauptsächlich dazwischen und darumgeben."
+        "step_1": "Das Steak kreuzweise leicht einschneiden, vollständig mit fein gehackter Zwiebel bedecken und 30 Minuten ruhen lassen. Zwiebel auf beiden Seiten verteilen und das Steak während der Ruhe kalt halten. Vor dem Anbraten abstreifen und aufbewahren, damit die Oberfläche bräunt. Steak nach dem Entfernen der Zwiebel sehr gut trocknen und erst direkt vor dem Braten würzen.",
+        "step_2": "Das Steak bei starker Hitze etwa 2 Minuten pro Seite anbraten; die Zeit an Dicke und gewünschten sicheren Gargrad anpassen. Schwere Pfanne stark erhitzen und das Steak 60–90 Sekunden nicht bewegen. Nach Krustenbildung wenden und Hitze zum Fertiggaren anpassen.",
+        "step_3": "Die Zwiebel abnehmen und in Butter goldbraun karamellisieren. Zwiebel weich und leicht goldbraun garen, Wein etwa halb reduzieren und Soja sowie Butter bei schwächerer Hitze einarbeiten.",
+        "step_4": "Den heißen Reis mit gehackter Umeboshi mischen und in eine Schüssel geben.",
+        "step_5": "5–8 Minuten ruhen lassen, quer zur Faser schneiden und Ruhesaft in die Sauce geben. Das Steak aufschneiden, auf den Reis legen und mit karamellisierter Zwiebel und Bratensaft vollenden. Reis breit verteilen, Steak leicht auffächern und Sauce hauptsächlich dazwischen und darumgeben."
       }
     },
     "recipe_000012": {
@@ -549,11 +549,11 @@
         }
       },
       "stepTexts": {
-        "step_1": "Kartoffeln weich kochen und stampfen. Zwiebel und Pilz in Butter anbraten und unter die Kartoffeln mischen. undefined Kartoffeln sehr gut abgießen und 1–2 Minuten im warmen Topf ausdampfen lassen; feuchter Stampf hält die Form nicht. undefined Pilze garen, bis ihre Flüssigkeit verdampft und die Ränder bräunen; feuchte Pilze lockern die Kartoffelmasse. undefined Pilze in warme Kartoffeln einarbeiten und vor dem Abkühlen abschmecken; der Kern braucht eigene Würze.",
-        "step_2": "Die Kartoffelmasse zu einem kompakten Braten formen. undefined Falls die Kartoffelrolle weich ist, etwa 10 Minuten kühlen, bevor sie mit Bacon umwickelt wird. undefined Baconscheiben etwa zu einem Drittel überlappen und die Naht zum Braten nach unten legen.",
-        "step_3": "Den Laib vollständig mit überlappendem Bacon umwickeln und mit Küchengarn und Rosmarin fixieren. undefined Braten, bis Bacon tief gebräunt ist; wenn der Kern heiß, Bacon aber blass ist, kurz grillen statt weiter auszutrocknen.",
-        "step_4": "Bei 200°C etwa 30–40 Minuten backen, bis der Bacon knusprig ist. undefined Überschüssiges Baconfett abgießen, dann mit Wein ablöschen und reduzieren; Soja und Butter zuletzt einarbeiten.",
-        "step_5": "Den Bräter mit Rotwein, Sojasauce und Butter ablöschen und die Sauce über den aufgeschnittenen Braten geben. undefined 5 Minuten ruhen lassen und mit Sägemesser sanft schneiden, damit der Bacon hält."
+        "step_1": "Kartoffeln weich kochen und stampfen. Zwiebel und Pilz in Butter anbraten und unter die Kartoffeln mischen. Kartoffeln sehr gut abgießen und 1–2 Minuten im warmen Topf ausdampfen lassen; feuchter Stampf hält die Form nicht. Pilze garen, bis ihre Flüssigkeit verdampft und die Ränder bräunen; feuchte Pilze lockern die Kartoffelmasse. Pilze in warme Kartoffeln einarbeiten und vor dem Abkühlen abschmecken; der Kern braucht eigene Würze.",
+        "step_2": "Die Kartoffelmasse zu einem kompakten Braten formen. Falls die Kartoffelrolle weich ist, etwa 10 Minuten kühlen, bevor sie mit Bacon umwickelt wird.",
+        "step_3": "Den Laib vollständig mit überlappendem Bacon umwickeln und mit Küchengarn und Rosmarin fixieren. Baconscheiben etwa zu einem Drittel überlappen und die Naht zum Braten nach unten legen.",
+        "step_4": "Bei 200°C etwa 30–40 Minuten backen, bis der Bacon knusprig ist. Braten, bis Bacon tief gebräunt ist; wenn der Kern heiß, Bacon aber blass ist, kurz grillen statt weiter auszutrocknen.",
+        "step_5": "5 Minuten ruhen lassen und mit Sägemesser sanft schneiden, damit der Bacon hält. Den Bräter mit Rotwein, Sojasauce und Butter ablöschen und die Sauce über den aufgeschnittenen Braten geben. Überschüssiges Baconfett abgießen, dann mit Wein ablöschen und reduzieren; Soja und Butter zuletzt einarbeiten."
       }
     },
     "recipe_000013": {
@@ -591,10 +591,10 @@
         }
       },
       "stepTexts": {
-        "step_1": "Das gewürfelte Fleisch anbraten, dann Zwiebel, Karotte und Kartoffel zugeben. undefined Zwiebel weich und leicht goldbraun werden lassen, damit vor dem Roux Süße entsteht. undefined Huhn bei Bedarf portionsweise bräunen; blasses Dämpfen gibt dem Curry weniger Tiefe.",
-        "step_2": "Mit Wasser oder Brühe bedecken und etwa 20 Minuten köcheln lassen. undefined Karotte und Kartoffel ähnlich groß schneiden; zu kleine Kartoffeln zerfallen zu früh. undefined Nur sanft köcheln und abschäumen; bei gerade weichem Gemüse stoppen, da es nach Roux weitergart.",
-        "step_3": "Geriebene Apfel zugeben, kurz vom Herd nehmen und die Curry-Roux einrühren. undefined Apfel fein reiben, damit er sich auflöst; zunächst sparsam dosieren, da Sorten unterschiedlich süß sind. undefined Hitze vor dem Roux ausschalten und stückweise vollständig lösen, damit nichts am Boden anbrennt.",
-        "step_4": "Bei niedriger Hitze eindicken lassen und mit heißem Reis servieren. undefined 5–10 Minuten bei niedriger Hitze rühren, bis die Sauce den Löffel überzieht; nur bei zu starker Dicke heißes Wasser zugeben. undefined Curry vor dem Servieren 5 Minuten vom Herd ruhen lassen; die Sauce setzt sich."
+        "step_1": "Das gewürfelte Fleisch anbraten, dann Zwiebel, Karotte und Kartoffel zugeben. Zwiebel weich und leicht goldbraun werden lassen, damit vor dem Roux Süße entsteht. Ist der Topf zu voll, das Fleisch portionsweise anbraten; blass gedämpftes Fleisch gibt dem fertigen Curry weniger Tiefe.",
+        "step_2": "Mit Wasser oder Brühe bedecken und etwa 20 Minuten köcheln lassen. Karotte und Kartoffel ähnlich groß schneiden; zu kleine Kartoffeln zerfallen zu früh. Nur sanft köcheln und abschäumen; bei gerade weichem Gemüse stoppen, da es nach Roux weitergart.",
+        "step_3": "Geriebene Apfel zugeben, kurz vom Herd nehmen und die Curry-Roux einrühren. Apfel fein reiben, damit er sich auflöst; zunächst sparsam dosieren, da Sorten unterschiedlich süß sind. Hitze vor dem Roux ausschalten und stückweise vollständig lösen, damit nichts am Boden anbrennt.",
+        "step_4": "Bei niedriger Hitze eindicken lassen und mit heißem Reis servieren. 5–10 Minuten bei niedriger Hitze rühren, bis die Sauce den Löffel überzieht; nur bei zu starker Dicke heißes Wasser zugeben. Curry vor dem Servieren 5 Minuten vom Herd ruhen lassen; die Sauce setzt sich."
       }
     },
     "recipe_000014": {
@@ -637,13 +637,29 @@
         "spring_onion": {
           "name": "Frühlingszwiebel",
           "note": null
+        },
+        "neutral_oil": {
+          "name": "Neutrales Öl",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Geröstetes Sesamöl",
+          "note": null
         }
       },
       "stepTexts": {
-        "step_1": "Tofu in 2-cm-Würfel schneiden und 1 Minute in Salzwasser blanchieren. undefined Tofu in 2-cm-Würfel schneiden und bei sehr weichem Tofu 1–2 Minuten in leicht gesalzenem heißem Wasser erwärmen. undefined Hack vollständig bräunen und einige kleine Ränder knusprig werden lassen; Röstaromen geben Tiefe.",
-        "step_2": "Öl im Wok erhitzen und Knoblauch, Ingwer, Sichuanpfeffer und Doubanjiang anrösten. undefined Doubanjiang kurz im Fett braten, bis das Öl rot und aromatisch wird; Knoblauch und Ingwer erst für 20–30 Sekunden zugeben. undefined Brühe und Soja zugeben, köcheln und vor Zucker abschmecken; Doubanjiang variiert stark in Salz und Schärfe.",
-        "step_3": "Hackfleisch kräftig anbraten und dann die Brühe zugießen. undefined Tofu hineingleiten lassen und Pfanne sanft bewegen statt kräftig zu rühren; 3–4 Minuten köcheln.",
-        "step_4": "Tofu 5 Minuten mitköcheln und mit angerührter Maisstärke binden. Mit Frühlingszwiebel abschließen. undefined Stärkemischung in zwei Portionen einrühren und stoppen, sobald die Sauce glänzt und den Tofu leicht überzieht. undefined Sesamöl und Frühlingszwiebel erst außerhalb der Hitze zugeben, damit das Aroma bleibt."
+        "step_1": "Tofu in 2-cm-Würfel schneiden und 1 Minute in Salzwasser blanchieren. Tofu in 2-cm-Würfel schneiden und bei sehr weichem Tofu 1–2 Minuten in leicht gesalzenem heißem Wasser erwärmen.",
+        "step_2": "Neutrales Öl im Wok bei mittlerer bis hoher Hitze erhitzen. Schweinehack zugeben und bräunen, bis keine rohen Stellen mehr sichtbar sind und einige Ränder knusprig werden. Doubanjiang und Sichuanpfeffer kurz anrösten, bis das Öl rot und aromatisch wird, dann Knoblauch und Ingwer nur 20–30 Sekunden zugeben.",
+        "step_3": "Brühe und Soja zugeben, köcheln und vor Zucker abschmecken; Doubanjiang variiert stark in Salz und Schärfe. Tofu hineingleiten lassen und Pfanne sanft bewegen statt kräftig zu rühren; 3–4 Minuten köcheln.",
+        "step_4": "Stärkemischung in zwei Portionen einrühren und stoppen, sobald die Sauce glänzt und den Tofu leicht überzieht. Sesamöl und Frühlingszwiebel erst außerhalb der Hitze zugeben, damit das Aroma bleibt."
       }
     },
     "recipe_000015": {
@@ -682,13 +698,17 @@
         "sugar": {
           "name": "Zucker",
           "note": null
+        },
+        "green_beans": {
+          "name": "Grüne Bohnen",
+          "note": null
         }
       },
       "stepTexts": {
-        "step_1": "Kartoffeln und Karotte unregelmäßig schneiden und die Zwiebel in Scheiben schneiden. undefined Dünne Fleischscheiben nur schnell anbräunen, nicht vollständig garen; sie garen später weiter. Überschüssiges Fett abgießen. undefined Kartoffeln groß und gleichmäßig schneiden; kleine Stücke zerfallen vor der Reduktion.",
-        "step_2": "Dünnes Rindfleisch anbraten, dann Zwiebel, Kartoffeln und Karotte zugeben. undefined Kurz aufkochen, abschäumen und sofort sanft köcheln; starkes Kochen zerbricht die Kartoffeln. undefined Wenn möglich Otoshibuta oder Pergament verwenden und stoppen, wenn Kartoffeln weich, aber noch formstabil sind.",
-        "step_3": "Dashi, Sojasauce, Mirin und Zucker zugeben und sanft köcheln lassen. undefined Abgedeckt 15–20 Minuten vom Herd ruhen lassen und sanft wieder erwärmen; so nehmen die Kartoffeln Würze auf.",
-        "step_4": "Mit einem Fall-Deckel abdecken und etwa 20 Minuten köcheln lassen. undefined Grüne Bohnen erst beim finalen Erwärmen zugeben, damit Farbe und Biss bleiben."
+        "step_1": "Kartoffeln und Karotte unregelmäßig schneiden und die Zwiebel in Scheiben schneiden. Kartoffeln groß und gleichmäßig schneiden; kleine Stücke zerfallen vor der Reduktion.",
+        "step_2": "Dünnes Rindfleisch anbraten, dann Zwiebel, Kartoffeln und Karotte zugeben. Dünne Fleischscheiben nur schnell anbräunen, nicht vollständig garen; sie garen später weiter. Überschüssiges Fett abgießen.",
+        "step_3": "Dashi, Sojasauce, Mirin und Zucker zugeben und sanft köcheln lassen. Kurz aufkochen, abschäumen und sofort sanft köcheln; starkes Kochen zerbricht die Kartoffeln.",
+        "step_4": "Mit einem Fall-Deckel abdecken und etwa 20 Minuten köcheln lassen. Abgedeckt 15–20 Minuten vom Herd ruhen lassen und sanft wieder erwärmen; so nehmen die Kartoffeln Würze auf. Die grünen Bohnen in den letzten 2–3 Minuten zugeben, damit sie grün und gerade eben gar bleiben."
       }
     },
     "recipe_000016": {
@@ -730,10 +750,10 @@
         }
       },
       "stepTexts": {
-        "step_1": "Hähnchen in 3–4-cm-Stücke schneiden und 20 Minuten mit Sojasauce, Sake, Ingwer und Knoblauch marinieren. undefined Stücke etwa 3–4 cm groß schneiden und etwas Haut dranlassen, damit alles gleichmäßig gart. undefined Im Kühlschrank marinieren und nicht zu lange; überschüssige Flüssigkeit vor dem Panieren abtropfen lassen.",
-        "step_2": "Jedes Stück großzügig in Kartoffelstärke wenden. undefined Direkt vor dem Frittieren Stärke auftragen und in Hautfalten drücken, damit die typische unregelmäßige Kruste entsteht. undefined In kleinen Portionen frittieren, damit die Temperatur stabil bleibt; die erste Runde soll garen, aber nur hell bräunen.",
-        "step_3": "Bei etwa 160°C 4 Minuten frittieren, abtropfen lassen und 2 Minuten ruhen lassen. undefined Auf einem Gitter statt Papier ruhen lassen, damit kein Dampf die Unterseite weich macht. undefined Öltemperatur erhöhen und nur 1–2 Minuten tief goldbraun nachfrittieren; das Huhn muss bereits sicher gar sein.",
-        "step_4": "Noch einmal bei etwa 180°C 1 Minute frittieren und mit Zitrone servieren. undefined Vor zusätzlichem Salzen probieren und sofort mit Zitrone servieren, solange die Kruste trocken ist."
+        "step_1": "Hähnchen in 3–4-cm-Stücke schneiden und 20 Minuten mit Sojasauce, Sake, Ingwer und Knoblauch marinieren. Stücke etwa 3–4 cm groß schneiden und etwas Haut dranlassen, damit alles gleichmäßig gart. Im Kühlschrank marinieren und nicht zu lange; überschüssige Flüssigkeit vor dem Panieren abtropfen lassen.",
+        "step_2": "Jedes Stück großzügig in Kartoffelstärke wenden. Direkt vor dem Frittieren Stärke auftragen und in Hautfalten drücken, damit die typische unregelmäßige Kruste entsteht.",
+        "step_3": "In kleinen Portionen frittieren, damit die Temperatur stabil bleibt; die erste Runde soll garen, aber nur hell bräunen. Bei etwa 160°C 4 Minuten frittieren, abtropfen lassen und 2 Minuten ruhen lassen. Auf einem Gitter statt Papier ruhen lassen, damit kein Dampf die Unterseite weich macht. Öltemperatur erhöhen und nur 1–2 Minuten tief goldbraun nachfrittieren; das Huhn muss bereits sicher gar sein.",
+        "step_4": "Noch einmal bei etwa 180°C 1 Minute frittieren und mit Zitrone servieren. Vor zusätzlichem Salzen probieren und sofort mit Zitrone servieren, solange die Kruste trocken ist."
       }
     },
     "recipe_000017": {
@@ -767,10 +787,10 @@
         }
       },
       "stepTexts": {
-        "step_1": "Eier mit Dashi, Zucker, Sojasauce und einer Prise Salz sanft verquirlen. undefined Nur verrühren, nicht aufschlagen, damit kein Schaum entsteht; für sehr feine Textur passieren. undefined Bei mittlerer bis niedriger Hitze nur einen hauchdünnen Ölfilm zwischen den Schichten auftragen.",
-        "step_2": "Eine rechteckige Pfanne leicht ölen und eine dünne Eierschicht hineingeben. undefined Nur eine dünne Schicht eingießen, große Blasen öffnen und rollen, solange die Oberfläche noch leicht feucht ist. undefined Rollen ohne flachzudrücken, an den Ausgangsrand zurückschieben und freie Pfanne vor der nächsten Schicht ölen.",
-        "step_3": "Sobald die Schicht gerade gestockt ist, zur Seite aufrollen. undefined Bestehende Rolle beim neuen Eingießen leicht anheben, damit etwas Ei darunterläuft und die Schichten verbindet.",
-        "step_4": "Eine weitere Schicht zugeben, unter die Rolle laufen lassen und erneut aufrollen. Wiederholen und schneiden. undefined Heiße Rolle 2–3 Minuten in Bambusmatte oder Pergament formen und anschließend mit leicht feuchtem scharfen Messer schneiden."
+        "step_1": "Eier mit Dashi, Zucker, Sojasauce und einer Prise Salz sanft verquirlen. Nur verrühren, nicht aufschlagen, damit kein Schaum entsteht; für sehr feine Textur passieren.",
+        "step_2": "Bei mittlerer bis niedriger Hitze nur einen hauchdünnen Ölfilm zwischen den Schichten auftragen. Eine rechteckige Pfanne leicht ölen und eine dünne Eierschicht hineingeben. Nur eine dünne Schicht eingießen, große Blasen öffnen und rollen, solange die Oberfläche noch leicht feucht ist. Rollen ohne flachzudrücken, an den Ausgangsrand zurückschieben und freie Pfanne vor der nächsten Schicht ölen.",
+        "step_3": "Sobald die Schicht gerade gestockt ist, zur Seite aufrollen. Bestehende Rolle beim neuen Eingießen leicht anheben, damit etwas Ei darunterläuft und die Schichten verbindet.",
+        "step_4": "Eine weitere Schicht zugeben, unter die Rolle laufen lassen und erneut aufrollen. Wiederholen und schneiden. Heiße Rolle 2–3 Minuten in Bambusmatte oder Pergament formen und anschließend mit leicht feuchtem scharfen Messer schneiden."
       }
     },
     "recipe_000018": {
@@ -817,14 +837,18 @@
         "soy_sauce": {
           "name": "Sojasauce",
           "note": null
+        },
+        "shiitake": {
+          "name": "Frische Shiitake-Pilze",
+          "note": null
         }
       },
       "stepTexts": {
-        "step_1": "Mehl, Hefe, lauwarmes Wasser und Zucker kneten und etwa 1 Stunde gehen lassen. undefined Lauwarmes, nicht heißes Wasser verwenden, damit die Hefe aktiv bleibt; vor dem Kneten kein trockenes Mehl mehr sichtbar. undefined Kneten, bis der Teig glatt und elastisch ist; bei sofortigem Reißen kurz ruhen lassen und weiterkneten. undefined Die Gare nach Volumen beurteilen: der Teig soll sich etwa verdoppeln und luftig wirken; in kühler Umgebung dauert es länger.",
-        "step_2": "Schweinehack mit ausgedrücktem Kohl, Frühlingszwiebel, Ingwer, Sojasauce und Sesamöl mischen. undefined Füllung mischen, bis das Fleisch leicht klebrig wird, und kalt halten; überschüssiges Wasser aus Kohl und Pilzen entfernen.",
-        "step_3": "Teig teilen, zu Scheiben mit dünneren Rändern ausrollen und füllen. undefined Nicht bearbeitete Portionen abdecken, damit die Oberfläche nicht austrocknet. undefined Mitte dicker als Rand lassen, füllen und den dünnen Rand nach oben falten; Öffnung fest schließen.",
-        "step_4": "Die Ränder in Falten zur Mitte ziehen und die Brötchen schließen. undefined Geformte Buns sichtbar aufgehen lassen, aber nicht vollständig verdoppeln; Übergare kann sie zusammenfallen lassen.",
-        "step_5": "Auf Backpapier 15–18 Minuten dämpfen und vor dem Öffnen kurz warten. undefined Mit aktivem Dampf starten, Deckel geschlossen halten und sichere Fleischgarung prüfen. Danach 3–5 Minuten warten und langsam öffnen."
+        "step_1": "Mehl, Hefe, lauwarmes Wasser und Zucker kneten und etwa 1 Stunde gehen lassen. Lauwarmes, nicht heißes Wasser verwenden, damit die Hefe aktiv bleibt; vor dem Kneten kein trockenes Mehl mehr sichtbar. Kneten, bis der Teig glatt und elastisch ist; bei sofortigem Reißen kurz ruhen lassen und weiterkneten. Die Gare nach Volumen beurteilen: der Teig soll sich etwa verdoppeln und luftig wirken; in kühler Umgebung dauert es länger.",
+        "step_2": "Schweinehack mit ausgedrücktem Kohl, Frühlingszwiebel, Ingwer, Sojasauce und Sesamöl mischen. Füllung mischen, bis das Fleisch leicht klebrig wird, und kalt halten; überschüssiges Wasser aus Kohl und Pilzen entfernen.",
+        "step_3": "Teig teilen, zu Scheiben mit dünneren Rändern ausrollen und füllen. Nicht bearbeitete Portionen abdecken, damit die Oberfläche nicht austrocknet. Mitte dicker als Rand lassen, füllen und den dünnen Rand nach oben falten; Öffnung fest schließen.",
+        "step_4": "Die Ränder in Falten zur Mitte ziehen und die Brötchen schließen. Geformte Buns sichtbar aufgehen lassen, aber nicht vollständig verdoppeln; Übergare kann sie zusammenfallen lassen.",
+        "step_5": "Auf Backpapier 15–18 Minuten dämpfen und vor dem Öffnen kurz warten. Mit aktivem Dampf starten, Deckel geschlossen halten und sichere Fleischgarung prüfen. Danach 3–5 Minuten warten und langsam öffnen."
       }
     },
     "recipe_000019": {
@@ -1399,7 +1423,7 @@
       "animeContext": "Von der Comfort-Food-Stimmung in Chainsaw Man inspiriert. Die korrekte kulinarische Bezeichnung ist Katsu Curry; keine konkrete Episode wird behauptet.",
       "ingredientTexts": {
         "pork_cutlets": {
-          "name": "Schweine-Tonkatsu",
+          "name": "Rohe Schweinerücken-Schnitzel, 1,5–2 cm dick",
           "note": null
         },
         "rice": {
@@ -1427,11 +1451,23 @@
           "note": null
         },
         "oil": {
-          "name": "Neutrales Öl",
+          "name": "Neutrales Öl zum Anbraten und Frittieren",
           "note": null
         },
         "fukujinzuke": {
           "name": "Fukujinzuke, optional",
+          "note": null
+        },
+        "flour": {
+          "name": "Weizenmehl",
+          "note": null
+        },
+        "egg": {
+          "name": "Großes Ei",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko-Paniermehl",
           "note": null
         }
       },
@@ -1440,7 +1476,7 @@
         "start_curry": "Zwiebel in Öl weich und leicht goldbraun braten, Karotte und Kartoffel zugeben und 2–3 Minuten anschwitzen.",
         "simmer_vegetables": "500 ml Wasser oder Brühe zugeben und etwa 15 Minuten teilweise abgedeckt köcheln, bis das Gemüse weich ist.",
         "add_roux": "Hitze ausschalten, etwa 45 g Curry-Roux vollständig lösen, dann bei niedriger Hitze 4–5 Minuten eindicken; Packungsverhältnis bei abweichender Marke beachten.",
-        "cook_tonkatsu": "Tonkatsu knusprig und sicher durchgaren, kurz auf Gitter ruhen lassen und schneiden.",
+        "cook_tonkatsu": "Schweinefleisch trocken tupfen, Fettrand alle 2–3 cm leicht einschneiden und nur sanft auf gleichmäßige Dicke klopfen. Salzen, pfeffern, dünn mehlieren, vollständig durch Ei ziehen und in Panko drücken, ohne die Flocken zu zerquetschen. 5 Minuten ruhen lassen. 4–5 cm Öl auf etwa 170°C erhitzen und ohne Überfüllung etwa 3 Minuten je Seite frittieren; 165–175°C halten. 3 Minuten auf einem Gitter ruhen lassen, damit die Restwärme den Kern erreicht. Sichere Garung an der dicksten Stelle prüfen, nicht nur nach der Krustenfarbe urteilen.",
         "assemble": "Reis, Tonkatsu und Curry so anrichten, dass ein Teil der Kruste trocken bleibt; optional Fukujinzuke dazu."
       }
     },
@@ -1809,7 +1845,7 @@
     "recipe_000037": {
       "title": "Ozoni nach Kanto-Art",
       "description": "Kanto-Neujahrssuppe mit klarer Dashi-Brühe, gegrilltem Mochi, Huhn und Gemüse. Ozoni variiert stark je nach Region und Familie.",
-      "animeContext": "Fruits Basket hat starke Neujahrs- und Mochi-Bezüge; diese Schale ist ausdrücklich die Kanto-Rekonstruktion der App.",
+      "animeContext": "Fruits Basket hat einen deutlichen Neujahrs-Kontext; dieses Kanto-Ozoni wird jedoch als saisonale kulinarische Inspiration und nicht als verifiziert wiederkehrendes Gericht der Serie dargestellt.",
       "ingredientTexts": {
         "kirimochi": {
           "name": "Kirimochi",
@@ -1933,7 +1969,7 @@
     "recipe_000040": {
       "title": "Matcha-Rolle",
       "description": "Leichter Grüntee-Biskuit mit Sahne und optional Anko. Warmes Vorrollen trainiert die Krume und verhindert Risse.",
-      "animeContext": "K-On! ist stark mit Tee und Kuchen im Clubraum verbunden; diese Matcha-Rolle ist eine wiederkehrende Dessert-Assoziation, keine exakte Szene.",
+      "animeContext": "Tee und Süßigkeiten sind in K-On! wiederkehrende Elemente; diese Matcha-Rolle ist jedoch eine kulinarische Inspiration der App und kein verifiziert wiederkehrender Kuchen der Serie.",
       "ingredientTexts": {
         "eggs": {
           "name": "Große Eier, getrennt",

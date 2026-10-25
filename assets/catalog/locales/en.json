@@ -323,7 +323,7 @@
         "fill_moulds": "Pour batter into the cavities almost to the top. Fill the wells completely and deliberately let a little batter spread across the top surface; the overflow becomes part of the ball during turning.",
         "add_fillings": "Add a piece of octopus to each cavity together with a little pickled ginger, tenkasu and spring onion. Use small octopus cubes so every ball can rotate freely; overfilling makes the sphere tear and leaves a cold centre.",
         "turn_balls": "As the bottoms set, use wooden picks to rotate the pieces gradually, tucking in loose batter until rounded and evenly browned. Start with a 90-degree turn once the outer edge is set, tuck loose batter underneath, then keep turning a little at a time until all sides are browned. Do not wait for one side to become hard before the first turn.",
-        "finish": "Serve hot with takoyaki sauce, Japanese mayonnaise and katsuobushi. undefined Check that the octopus is hot and the shell evenly browned, then sauce only at serving; saucing too early softens the crisp exterior."
+        "finish": "Serve hot with takoyaki sauce, Japanese mayonnaise and katsuobushi. Check that the octopus is hot and the shell evenly browned, then sauce only at serving; saucing too early softens the crisp exterior."
       }
     },
     "recipe_000008": {
@@ -503,11 +503,11 @@
         }
       },
       "stepTexts": {
-        "step_1": "Score the steak lightly in a crosshatch, cover it completely with the finely chopped onion and rest for 30 minutes. undefined Spread the chopped onion evenly over both faces and keep the steak chilled during the rest. Scrape the onion off and reserve it before searing; wet onion left on the surface prevents browning. undefined Pat the steak completely dry after removing the onion, then season just before it hits the pan; salting far in advance would draw more moisture to the surface.",
-        "step_2": "Remove the onion and sauté it in butter until golden and deeply caramelized. undefined Use a heavy pan over high heat and avoid moving the steak for the first 60–90 seconds. Turn once a brown crust forms, then reduce heat if needed so the centre reaches your preferred safe doneness without scorching the butter.",
-        "step_3": "Sear the steak over high heat for about 2 minutes per side, then deglaze with soy sauce and red wine. undefined Cook the reserved onion until soft and lightly golden before adding wine. Let the wine reduce by roughly half, then add soy sauce and butter off the strongest heat so the sauce becomes glossy rather than greasy.",
-        "step_4": "Mix the hot rice with chopped umeboshi and pack it into a bowl. undefined Rest the steak 5–8 minutes before slicing across the grain. Slice only when the juices have settled, then spoon any collected resting juices back into the sauce.",
-        "step_5": "Slice the steak, lay it over the rice and finish with the caramelized onion and pan juices. undefined Spread the rice in a wide bowl, fan the steak slices slightly so they stay visible and spoon sauce mostly around and between them rather than completely covering the seared surface."
+        "step_1": "Score the steak lightly in a crosshatch, cover it completely with the finely chopped onion and rest for 30 minutes. Spread the chopped onion evenly over both faces and keep the steak chilled during the rest. Scrape the onion off and reserve it before searing; wet onion left on the surface prevents browning. Pat the steak completely dry after removing the onion, then season just before it hits the pan; salting far in advance would draw more moisture to the surface.",
+        "step_2": "Sear the steak over high heat for about 2 minutes per side, adjusting for thickness and your preferred safe doneness. Use a heavy pan over high heat and avoid moving the steak for the first 60–90 seconds. Turn once a brown crust forms, then reduce heat if needed so the centre reaches your preferred safe doneness without scorching the butter.",
+        "step_3": "Remove the onion and sauté it in butter until golden and deeply caramelized. Cook the reserved onion until soft and lightly golden before adding wine. Let the wine reduce by roughly half, then add soy sauce and butter off the strongest heat so the sauce becomes glossy rather than greasy.",
+        "step_4": "Mix the hot rice with chopped umeboshi and pack it into a bowl.",
+        "step_5": "Rest the steak 5–8 minutes before slicing across the grain. Slice only when the juices have settled, then spoon any collected resting juices back into the sauce. Slice the steak, lay it over the rice and finish with the caramelized onion and pan juices. Spread the rice in a wide bowl, fan the steak slices slightly so they stay visible and spoon sauce mostly around and between them rather than completely covering the seared surface."
       }
     },
     "recipe_000012": {
@@ -549,11 +549,11 @@
         }
       },
       "stepTexts": {
-        "step_1": "Boil the potatoes until tender and mash them. Sauté the chopped onion and mushroom in butter, then fold them into the potato. undefined Drain the potatoes extremely well and return them to the warm pan for 1–2 minutes to steam-dry before mashing; a wet mash will not hold the loaf shape. undefined Cook the mushrooms until their released moisture has evaporated and the edges begin to brown; adding them while watery would loosen the potato centre. undefined Fold the mushrooms into warm potato and season before the mixture cools. Taste now because later the bacon adds salt but the centre itself still needs seasoning.",
-        "step_2": "Shape the potato mixture into a compact roast-shaped loaf. undefined Chill the shaped potato log for about 10 minutes if it feels soft; a firmer surface makes the bacon wrapping much easier and prevents flattening. undefined Overlap the bacon slices by roughly one third so the potato cannot escape as the fat renders, and place the seam underneath before roasting.",
-        "step_3": "Wrap the loaf completely with overlapping bacon and secure it with kitchen twine and rosemary. undefined Roast until the bacon is deeply browned and crisp at the edges; if the centre is already hot but the bacon remains pale, finish briefly under the grill rather than overbaking the potato.",
-        "step_4": "Bake at 200°C until the bacon is browned and crisp, about 30–40 minutes. undefined Deglaze only after pouring off excess bacon fat. Reduce wine until its raw alcohol smell fades, then add soy and butter for a glossy sauce rather than a greasy one.",
-        "step_5": "Deglaze the roasting pan with red wine, soy sauce and butter and spoon the sauce over the sliced roast. undefined Rest the roast 5 minutes before slicing so the potato centre firms slightly; use a serrated knife with gentle sawing to keep the bacon attached."
+        "step_1": "Boil the potatoes until tender and mash them. Sauté the chopped onion and mushroom in butter, then fold them into the potato. Drain the potatoes extremely well and return them to the warm pan for 1–2 minutes to steam-dry before mashing; a wet mash will not hold the loaf shape. Cook the mushrooms until their released moisture has evaporated and the edges begin to brown; adding them while watery would loosen the potato centre. Fold the mushrooms into warm potato and season before the mixture cools. Taste now because later the bacon adds salt but the centre itself still needs seasoning.",
+        "step_2": "Shape the potato mixture into a compact roast-shaped loaf. Chill the shaped potato log for about 10 minutes if it feels soft; a firmer surface makes the bacon wrapping much easier and prevents flattening.",
+        "step_3": "Wrap the loaf completely with overlapping bacon and secure it with kitchen twine and rosemary. Overlap the bacon slices by roughly one third so the potato cannot escape as the fat renders, and place the seam underneath before roasting.",
+        "step_4": "Bake at 200°C until the bacon is browned and crisp, about 30–40 minutes. Roast until the bacon is deeply browned and crisp at the edges; if the centre is already hot but the bacon remains pale, finish briefly under the grill rather than overbaking the potato.",
+        "step_5": "Rest the roast 5 minutes before slicing so the potato centre firms slightly; use a serrated knife with gentle sawing to keep the bacon attached. Deglaze the roasting pan with red wine, soy sauce and butter and spoon the sauce over the sliced roast. Deglaze only after pouring off excess bacon fat. Reduce wine until its raw alcohol smell fades, then add soy and butter for a glossy sauce rather than a greasy one."
       }
     },
     "recipe_000013": {
@@ -591,10 +591,10 @@
         }
       },
       "stepTexts": {
-        "step_1": "Brown the diced meat in a pot, then add sliced onion, carrot and potato. undefined Give the onion enough time to soften and pick up light golden colour; this builds sweetness before the roux is added and prevents a flat sauce. undefined Brown in batches if the pan is crowded; steaming pale chicken at this stage gives less depth to the finished curry.",
-        "step_2": "Cover with water or broth and simmer until the vegetables are tender, about 20 minutes. undefined Cut carrot and potato to similar bite-size dimensions so they finish together; very small potato pieces can dissolve and thicken the sauce too early. undefined Keep only a gentle simmer and skim foam or excess fat from the surface. Stop when the vegetables are just tender because they continue cooking after the roux goes in.",
-        "step_3": "Stir in the grated apple, turn off the heat briefly and dissolve the curry roux until smooth. undefined Add the apple finely grated so it dissolves into the sauce rather than leaving fruit pieces. Start with a modest amount; sweetness varies greatly by apple variety. undefined Turn off the heat before adding the roux and dissolve it completely, one piece at a time. Roux sitting on the bottom over direct heat can scorch before it disperses.",
-        "step_4": "Return to low heat until the sauce is rich and thick, then serve beside hot steamed rice. undefined Return to low heat and stir from the bottom for 5–10 minutes until the sauce coats a spoon. Add a splash of hot water only if it becomes thicker than a pourable gravy. undefined Let the curry stand off heat for 5 minutes before serving; the sauce settles and thickens slightly, while the rice should stay freshly steamed and separate."
+        "step_1": "Brown the diced meat in a pot, then add sliced onion, carrot and potato. Give the onion enough time to soften and pick up light golden colour; this builds sweetness before the roux is added and prevents a flat sauce. Brown in batches if the pan is crowded; steaming pale meat at this stage gives less depth to the finished curry.",
+        "step_2": "Cover with water or broth and simmer until the vegetables are tender, about 20 minutes. Cut carrot and potato to similar bite-size dimensions so they finish together; very small potato pieces can dissolve and thicken the sauce too early. Keep only a gentle simmer and skim foam or excess fat from the surface. Stop when the vegetables are just tender because they continue cooking after the roux goes in.",
+        "step_3": "Stir in the grated apple, turn off the heat briefly and dissolve the curry roux until smooth. Add the apple finely grated so it dissolves into the sauce rather than leaving fruit pieces. Start with a modest amount; sweetness varies greatly by apple variety. Turn off the heat before adding the roux and dissolve it completely, one piece at a time. Roux sitting on the bottom over direct heat can scorch before it disperses.",
+        "step_4": "Return to low heat until the sauce is rich and thick, then serve beside hot steamed rice. Return to low heat and stir from the bottom for 5–10 minutes until the sauce coats a spoon. Add a splash of hot water only if it becomes thicker than a pourable gravy. Let the curry stand off heat for 5 minutes before serving; the sauce settles and thickens slightly, while the rice should stay freshly steamed and separate."
       }
     },
     "recipe_000014": {
@@ -637,13 +637,29 @@
         "spring_onion": {
           "name": "Spring onion",
           "note": null
+        },
+        "neutral_oil": {
+          "name": "Neutral oil",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Toasted sesame oil",
+          "note": null
         }
       },
       "stepTexts": {
-        "step_1": "Cut the tofu into 2 cm cubes and blanch for 1 minute in lightly salted water. undefined Cut the tofu into even 2 cm cubes and, if very fragile, warm it for 1–2 minutes in lightly salted hot water before draining; this firms the surface and reduces breakage. undefined Brown until the pork has lost its raw colour and some small edges are crisp; the browned meat provides depth before the spicy paste goes in.",
-        "step_2": "Heat oil in a wok and fry garlic, ginger, Sichuan pepper and doubanjiang until fragrant. undefined Fry doubanjiang briefly in the rendered fat until the oil turns red and fragrant, then add garlic and ginger only for the final 20–30 seconds so they do not burn. undefined Add broth and soy sauce, bring to a steady simmer and taste before adding sugar; doubanjiang brands differ greatly in salt and heat.",
-        "step_3": "Add the ground pork and brown it well, then pour in the broth. undefined Slide the tofu in and move the pan with gentle shaking or a broad spatula instead of stirring with a spoon; simmer 3–4 minutes so the cubes absorb flavour without crumbling.",
-        "step_4": "Add the tofu, simmer for 5 minutes and thicken with cornstarch slurry. Finish with spring onion. undefined Add the starch slurry in two additions while the sauce simmers, pausing between them; stop as soon as the liquid becomes glossy and lightly coats the tofu. undefined Finish with sesame oil and scallion off the heat; prolonged boiling after sesame oil dulls its aroma."
+        "step_1": "Cut the tofu into 2 cm cubes and blanch for 1 minute in lightly salted water. Cut the tofu into even 2 cm cubes and, if very fragile, warm it for 1–2 minutes in lightly salted hot water before draining; this firms the surface and reduces breakage.",
+        "step_2": "Heat the neutral oil in a wok over medium-high heat. Add the ground pork and brown it until no raw colour remains and a few edges crisp. Add doubanjiang and Sichuan pepper, fry briefly until the oil turns red and fragrant, then add garlic and ginger for only 20–30 seconds so they do not burn.",
+        "step_3": "Add broth and soy sauce, bring to a steady simmer and taste before adding sugar; doubanjiang brands differ greatly in salt and heat. Slide the tofu in and move the pan with gentle shaking or a broad spatula instead of stirring with a spoon; simmer 3–4 minutes so the cubes absorb flavour without crumbling.",
+        "step_4": "Add the starch slurry in two additions while the sauce simmers, pausing between them; stop as soon as the liquid becomes glossy and lightly coats the tofu. Finish with sesame oil and scallion off the heat; prolonged boiling after sesame oil dulls its aroma."
       }
     },
     "recipe_000015": {
@@ -682,13 +698,17 @@
         "sugar": {
           "name": "Sugar",
           "note": null
+        },
+        "green_beans": {
+          "name": "Green beans",
+          "note": null
         }
       },
       "stepTexts": {
-        "step_1": "Cut the potatoes and carrot into irregular bite-size pieces and slice the onion. undefined Work quickly with thin slices: colour the surface without fully cooking the meat, because it will simmer later. Remove any excess rendered fat if it pools heavily. undefined Cut potatoes into large even chunks and round very sharp corners if you want them to stay intact; tiny pieces break down before the broth reduces.",
-        "step_2": "Brown the thin beef in a little oil, then add onion, potatoes and carrot. undefined Bring the liquid just to a boil, skim surface foam, then lower immediately to a gentle simmer. Violent boiling breaks the potatoes and makes the broth cloudy. undefined Use a drop lid or parchment circle if available so the surface stays moist while the liquid reduces. Stop when a skewer enters the potato with little resistance but the pieces still hold shape.",
-        "step_3": "Add dashi, soy sauce, mirin and sugar and bring to a gentle simmer. undefined Let the pot rest covered off heat 15–20 minutes, then rewarm gently. Cooling slightly in the broth helps the potatoes take in seasoning without further breaking down.",
-        "step_4": "Cover with a drop lid and simmer about 20 minutes, until the vegetables are tender and glossy. undefined Add the green beans only during the final reheat so they remain bright and slightly crisp instead of turning olive and soft."
+        "step_1": "Cut the potatoes and carrot into irregular bite-size pieces and slice the onion. Cut potatoes into large even chunks and round very sharp corners if you want them to stay intact; tiny pieces break down before the broth reduces.",
+        "step_2": "Brown the thin beef in a little oil, then add onion, potatoes and carrot. Work quickly with thin slices: colour the surface without fully cooking the meat, because it will simmer later. Remove any excess rendered fat if it pools heavily.",
+        "step_3": "Add dashi, soy sauce, mirin and sugar and bring to a gentle simmer. Bring the liquid just to a boil, skim surface foam, then lower immediately to a gentle simmer. Violent boiling breaks the potatoes and makes the broth cloudy.",
+        "step_4": "Cover with a drop lid and simmer about 20 minutes, until the vegetables are tender and glossy. Let the pot rest covered off heat 15–20 minutes, then rewarm gently. Cooling slightly in the broth helps the potatoes take in seasoning without further breaking down. Add the green beans for the last 2–3 minutes so they stay bright and just tender."
       }
     },
     "recipe_000016": {
@@ -730,10 +750,10 @@
         }
       },
       "stepTexts": {
-        "step_1": "Cut the chicken into 3–4 cm pieces and marinate for 20 minutes with soy sauce, sake, ginger and garlic. undefined Keep pieces close to 3–4 cm so they fry at the same rate; leave a little skin on each piece because it protects the meat and becomes especially crisp. undefined Marinate in the refrigerator, not at room temperature, and keep the time moderate so soy sauce seasons without making the exterior overly salty. Drain excess liquid before coating.",
-        "step_2": "Coat each piece generously in potato starch. undefined Coat immediately before frying and squeeze a little starch onto uneven folds of skin; loose dry patches create the characteristic craggy karaage crust. undefined Fry in small batches so the oil stays near the target temperature. The first fry should cook the chicken through gently without taking the crust past pale gold.",
-        "step_3": "Fry at about 160°C for 4 minutes, drain and rest for 2 minutes. undefined Rest on a wire rack, not paper, for several minutes; air circulation prevents the underside from steaming while carryover heat moves toward the centre. undefined Raise the oil temperature and fry only until the exterior turns deep golden and audibly crisp, usually under 1–2 minutes. The chicken must already be safely cooked before this fast finishing step.",
-        "step_4": "Fry again at about 180°C for 1 minute until deeply crisp and serve with lemon. undefined Season only after tasting because the marinade is salty, and serve with lemon immediately while the crust is dry and brittle."
+        "step_1": "Cut the chicken into 3–4 cm pieces and marinate for 20 minutes with soy sauce, sake, ginger and garlic. Keep pieces close to 3–4 cm so they fry at the same rate; leave a little skin on each piece because it protects the meat and becomes especially crisp. Marinate in the refrigerator, not at room temperature, and keep the time moderate so soy sauce seasons without making the exterior overly salty. Drain excess liquid before coating.",
+        "step_2": "Coat each piece generously in potato starch. Coat immediately before frying and squeeze a little starch onto uneven folds of skin; loose dry patches create the characteristic craggy karaage crust.",
+        "step_3": "Fry in small batches so the oil stays near the target temperature. The first fry should cook the chicken through gently without taking the crust past pale gold. Fry at about 160°C for 4 minutes, drain and rest for 2 minutes. Rest on a wire rack, not paper, for several minutes; air circulation prevents the underside from steaming while carryover heat moves toward the centre. Raise the oil temperature and fry only until the exterior turns deep golden and audibly crisp, usually under 1–2 minutes. The chicken must already be safely cooked before this fast finishing step.",
+        "step_4": "Fry again at about 180°C for 1 minute until deeply crisp and serve with lemon. Season only after tasting because the marinade is salty, and serve with lemon immediately while the crust is dry and brittle."
       }
     },
     "recipe_000017": {
@@ -767,10 +787,10 @@
         }
       },
       "stepTexts": {
-        "step_1": "Beat the eggs gently with dashi, sugar, soy sauce and a pinch of salt without creating much foam. undefined Stir rather than whip so you do not create a foam cap. If you want an especially even texture, pass the mixture through a sieve before cooking. undefined Keep the pan at medium-low heat and wipe on only a very thin film of oil between layers. Too much oil leaves greasy gaps in the spiral.",
-        "step_2": "Lightly oil a rectangular tamagoyaki pan and pour in a thin layer of egg. undefined Pour just enough egg to cover the base in a thin sheet. Pop large bubbles quickly and start rolling while the surface is still slightly wet so the layers bond. undefined Roll with chopsticks or a spatula without pressing the coil flat. Move the roll back to the starting edge and oil the newly exposed pan before the next pour.",
-        "step_3": "When just set, roll the egg toward one side of the pan. undefined Lift the existing roll slightly when adding new egg so a little runs underneath and glues the layers together. Continue until all mixture is used.",
-        "step_4": "Add another thin layer, let it flow under the roll and roll again. Repeat until the mixture is finished, then shape and slice. undefined Wrap the hot roll in a bamboo mat or clean parchment for 2–3 minutes to set a neat shape, then slice with a damp sharp knife once it has stopped steaming heavily."
+        "step_1": "Beat the eggs gently with dashi, sugar, soy sauce and a pinch of salt without creating much foam. Stir rather than whip so you do not create a foam cap. If you want an especially even texture, pass the mixture through a sieve before cooking.",
+        "step_2": "Keep the pan at medium-low heat and wipe on only a very thin film of oil between layers. Too much oil leaves greasy gaps in the spiral. Lightly oil a rectangular tamagoyaki pan and pour in a thin layer of egg. Pour just enough egg to cover the base in a thin sheet. Pop large bubbles quickly and start rolling while the surface is still slightly wet so the layers bond. Roll with chopsticks or a spatula without pressing the coil flat. Move the roll back to the starting edge and oil the newly exposed pan before the next pour.",
+        "step_3": "When just set, roll the egg toward one side of the pan. Lift the existing roll slightly when adding new egg so a little runs underneath and glues the layers together. Continue until all mixture is used.",
+        "step_4": "Add another thin layer, let it flow under the roll and roll again. Repeat until the mixture is finished, then shape and slice. Wrap the hot roll in a bamboo mat or clean parchment for 2–3 minutes to set a neat shape, then slice with a damp sharp knife once it has stopped steaming heavily."
       }
     },
     "recipe_000018": {
@@ -817,14 +837,18 @@
         "soy_sauce": {
           "name": "Soy sauce",
           "note": null
+        },
+        "shiitake": {
+          "name": "Fresh shiitake mushrooms",
+          "note": null
         }
       },
       "stepTexts": {
-        "step_1": "Knead flour, yeast, lukewarm water and sugar until smooth, then proof for about 1 hour until doubled. undefined Use water that is warm rather than hot so the yeast is not damaged; the mixture should form a shaggy dough with no dry flour before kneading. undefined Knead until the surface becomes smooth and elastic rather than simply timing the process. If the dough tears immediately when stretched, give it a short rest and knead a little longer. undefined Judge the first proof by volume: the dough should roughly double and feel airy. In a cool room it may need longer than the stated hour.",
-        "step_2": "Mix the pork with squeezed chopped cabbage, spring onion, ginger, soy sauce and sesame oil. undefined Mix the filling until the pork becomes slightly tacky so it holds together, but keep it refrigerated until assembly. Squeeze excess water from cabbage and mushrooms if they are wet.",
-        "step_3": "Divide the dough, roll into discs with thinner edges and place a spoonful of filling in the centre. undefined Keep unused portions covered while shaping so the surface does not skin over; a dry edge is difficult to pleat and seal. undefined Keep the centre of each wrapper thicker than the rim, place filling in the middle and pleat the thin edge upward. Pinch the final opening firmly closed so meat juices stay inside during steaming.",
-        "step_4": "Pleat the edges together to close each bun into a small pouch. undefined Let shaped buns become visibly puffy before steaming, but not fully doubled; overproofed buns can wrinkle or collapse after cooking.",
-        "step_5": "Steam on parchment squares for 15–18 minutes and let stand briefly before opening the steamer. undefined Start with active steam, keep the lid closed during cooking and verify the pork filling is safely cooked. When time is up, turn off the heat and wait 3–5 minutes before opening the lid gradually to reduce collapse."
+        "step_1": "Knead flour, yeast, lukewarm water and sugar until smooth, then proof for about 1 hour until doubled. Use water that is warm rather than hot so the yeast is not damaged; the mixture should form a shaggy dough with no dry flour before kneading. Knead until the surface becomes smooth and elastic rather than simply timing the process. If the dough tears immediately when stretched, give it a short rest and knead a little longer. Judge the first proof by volume: the dough should roughly double and feel airy. In a cool room it may need longer than the stated hour.",
+        "step_2": "Mix the pork with squeezed chopped cabbage, spring onion, ginger, soy sauce and sesame oil. Mix the filling until the pork becomes slightly tacky so it holds together, but keep it refrigerated until assembly. Squeeze excess water from cabbage and mushrooms if they are wet.",
+        "step_3": "Divide the dough, roll into discs with thinner edges and place a spoonful of filling in the centre. Keep unused portions covered while shaping so the surface does not skin over; a dry edge is difficult to pleat and seal. Keep the centre of each wrapper thicker than the rim, place filling in the middle and pleat the thin edge upward. Pinch the final opening firmly closed so meat juices stay inside during steaming.",
+        "step_4": "Pleat the edges together to close each bun into a small pouch. Let shaped buns become visibly puffy before steaming, but not fully doubled; overproofed buns can wrinkle or collapse after cooking.",
+        "step_5": "Steam on parchment squares for 15–18 minutes and let stand briefly before opening the steamer. Start with active steam, keep the lid closed during cooking and verify the pork filling is safely cooked. When time is up, turn off the heat and wait 3–5 minutes before opening the lid gradually to reduce collapse."
       }
     },
     "recipe_000019": {
@@ -1399,7 +1423,7 @@
       "animeContext": "Inspired by the everyday comfort-food tone associated with Chainsaw Man. The culinary identity is Katsu Curry; no specific episode is claimed.",
       "ingredientTexts": {
         "pork_cutlets": {
-          "name": "Tonkatsu pork cutlets",
+          "name": "Pork loin cutlets, 1.5–2 cm thick",
           "note": null
         },
         "rice": {
@@ -1427,11 +1451,23 @@
           "note": null
         },
         "oil": {
-          "name": "Neutral oil",
+          "name": "Neutral oil, for sautéing and deep-frying",
           "note": null
         },
         "fukujinzuke": {
           "name": "Fukujinzuke pickles, optional",
+          "note": null
+        },
+        "flour": {
+          "name": "All-purpose flour",
+          "note": null
+        },
+        "egg": {
+          "name": "Large egg",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko breadcrumbs",
           "note": null
         }
       },
@@ -1440,7 +1476,7 @@
         "start_curry": "Heat oil in a saucepan, add sliced onion and cook until soft with light golden edges. Add carrot and potato cut into even bite-size pieces and sauté for 2–3 minutes so their surfaces pick up flavour.",
         "simmer_vegetables": "Add 500 ml water or light stock, bring to a boil, skim if needed, then cover partially and simmer about 15 minutes until the vegetables are tender but not collapsing.",
         "add_roux": "Turn the heat off before adding the curry roux. Break in about 45 g, stir until fully dissolved, then return to low heat and simmer 4–5 minutes, stirring from the bottom, until glossy and thick enough to coat a spoon. Follow the package ratio if your brand differs.",
-        "cook_tonkatsu": "Prepare the tonkatsu while the curry simmers: bread and fry the pork until the crust is crisp and the centre reaches safe doneness. Rest briefly on a rack, then slice into clean strips.",
+        "cook_tonkatsu": "Pat the pork dry. Make shallow cuts through the fat/connective strip every 2–3 cm so the cutlet stays flat, then gently pound only enough to even the thickness; reshape the meat with your hands. Season both sides with salt and pepper. Coat lightly in flour and shake off excess, cover completely in beaten egg, then press into panko without crushing the flakes. Rest 5 minutes so the crust adheres. Heat 4–5 cm of oil to about 170°C. Fry without crowding until the crust is pale golden, about 3 minutes per side for a 1.5–2 cm cutlet; keep oil near 165–175°C rather than letting it smoke. Lift onto a rack for 3 minutes so residual heat reaches the centre. The pork must reach a safe doneness according to local guidance; if using a thermometer, check the thickest point rather than judging only by crust colour.",
         "assemble": "Place hot rice on one side of each plate, arrange sliced tonkatsu alongside and ladle curry so it laps over part of the cutlet while leaving some crust exposed. Add fukujinzuke if desired and serve immediately."
       }
     },
@@ -1809,7 +1845,7 @@
     "recipe_000037": {
       "title": "Kanto-style Ozoni",
       "description": "A clear Kanto-style New Year soup with grilled mochi, chicken, vegetables and dashi. Ozoni changes dramatically by region and family, so this recipe states its style explicitly instead of presenting one bowl as the single national standard.",
-      "animeContext": "Fruits Basket has strong New Year and mochi associations, making ozoni a fitting recurring cultural reference. The exact bowl here is explicitly the app’s Kanto-style reconstruction.",
+      "animeContext": "Fruits Basket has a strong New Year setting, but this Kanto-style ozoni is presented as seasonal culinary inspiration rather than a verified recurring dish from the series.",
       "ingredientTexts": {
         "kirimochi": {
           "name": "Kirimochi",
@@ -1933,7 +1969,7 @@
     "recipe_000040": {
       "title": "Matcha Roll Cake",
       "description": "A light green-tea sponge rolled around softly whipped cream, with optional anko for an earthy-sweet accent. Pre-rolling the sponge while warm trains the crumb so the final cold roll bends instead of splitting.",
-      "animeContext": "K-On! is strongly associated with tea and cake in the Light Music Club room. This matcha roll is presented as a recurring dessert-culture association rather than an exact on-screen recipe.",
+      "animeContext": "Tea and sweets are recurring elements in K-On!, but this matcha roll cake is the app’s culinary inspiration rather than a verified recurring cake from the series.",
       "ingredientTexts": {
         "eggs": {
           "name": "Large eggs, separated",

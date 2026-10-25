@@ -323,7 +323,7 @@
         "fill_moulds": "Llena las cavidades casi hasta el borde con la masa. Llena por completo y deja algo de masa sobre la superficie; ese exceso se incorpora al girar.",
         "add_fillings": "Añade a cada cavidad un trozo de pulpo junto con un poco de beni shoga, tenkasu y cebolleta. Usa cubos pequeños de pulpo; demasiado relleno dificulta el giro y puede dejar el centro frío.",
         "turn_balls": "Cuando la base se firme, gira poco a poco las piezas con palillos, metiendo la masa sobrante hacia dentro hasta formar bolas doradas. Empieza con un giro de 90° cuando el borde esté firme, mete la masa suelta debajo y sigue girando poco a poco.",
-        "finish": "Sirve calientes con salsa takoyaki, mayonesa japonesa y katsuobushi. undefined Comprueba que el pulpo esté caliente y la superficie dorada; añade las salsas solo al servir."
+        "finish": "Sirve calientes con salsa takoyaki, mayonesa japonesa y katsuobushi. Comprueba que el pulpo esté caliente y la superficie dorada; añade las salsas solo al servir."
       }
     },
     "recipe_000008": {
@@ -503,11 +503,11 @@
         }
       },
       "stepTexts": {
-        "step_1": "Marca ligeramente el bistec en rejilla, cúbrelo con la cebolla muy picada y déjalo reposar 30 minutos. undefined Reparte la cebolla por ambos lados y mantén la carne fría durante el reposo. Retírala y resérvala antes de dorar para no impedir la reacción de la superficie. undefined Seca muy bien la carne y sazona justo antes de llevarla a la sartén.",
-        "step_2": "Retira la cebolla y sofríela con mantequilla hasta que quede dorada y caramelizada. undefined Usa una sartén pesada muy caliente y no muevas el bistec 60–90 segundos. Gira al formar costra y ajusta el fuego para terminar sin quemar.",
-        "step_3": "Dora el bistec a fuego fuerte unos 2 minutos por lado y desglasa con soja y vino tinto. undefined Cocina la cebolla hasta suave y dorada, reduce el vino aproximadamente a la mitad y añade soja y mantequilla con fuego suave.",
-        "step_4": "Mezcla el arroz caliente con umeboshi picada y colócalo en un bol. undefined Reposa 5–8 minutos y corta contra la fibra; incorpora los jugos del reposo a la salsa.",
-        "step_5": "Corta el bistec, colócalo sobre el arroz y termina con la cebolla caramelizada y los jugos de la sartén. undefined Extiende el arroz, abre las lonchas en abanico y reparte la salsa alrededor y entre ellas sin cubrir totalmente la costra."
+        "step_1": "Marca ligeramente el bistec en rejilla, cúbrelo con la cebolla muy picada y déjalo reposar 30 minutos. Reparte la cebolla por ambos lados y mantén la carne fría durante el reposo. Retírala y resérvala antes de dorar para no impedir la reacción de la superficie. Seca muy bien la carne y sazona justo antes de llevarla a la sartén.",
+        "step_2": "Dora el bistec a fuego fuerte unos 2 minutos por lado, ajustando el tiempo al grosor y al punto de cocción seguro deseado. Usa una sartén pesada muy caliente y no muevas el bistec 60–90 segundos. Gira al formar costra y ajusta el fuego para terminar sin quemar.",
+        "step_3": "Retira la cebolla y sofríela con mantequilla hasta que quede dorada y caramelizada. Cocina la cebolla hasta suave y dorada, reduce el vino aproximadamente a la mitad y añade soja y mantequilla con fuego suave.",
+        "step_4": "Mezcla el arroz caliente con umeboshi picada y colócalo en un bol.",
+        "step_5": "Reposa 5–8 minutos y corta contra la fibra; incorpora los jugos del reposo a la salsa. Corta el bistec, colócalo sobre el arroz y termina con la cebolla caramelizada y los jugos de la sartén. Extiende el arroz, abre las lonchas en abanico y reparte la salsa alrededor y entre ellas sin cubrir totalmente la costra."
       }
     },
     "recipe_000012": {
@@ -549,11 +549,11 @@
         }
       },
       "stepTexts": {
-        "step_1": "Cuece las patatas y aplástalas. Saltea cebolla y seta picadas con mantequilla e incorpóralas a la patata. undefined Escurre muy bien y seca las patatas 1–2 minutos en la olla caliente antes de aplastar; un puré húmedo no mantendrá la forma. undefined Cocina las setas hasta evaporar el agua y dorar los bordes; húmedas aflojarían el relleno. undefined Mezcla las setas con la patata tibia y sazona antes de enfriar; prueba ahora porque el interior necesita sabor propio.",
-        "step_2": "Moldea la mezcla de patata con forma compacta de asado. undefined Si el cilindro está blando, enfríalo unos 10 minutos antes de envolver con bacon. undefined Superpone el bacon aproximadamente un tercio y coloca la unión abajo antes de hornear.",
-        "step_3": "Envuelve el bloque con bacon solapado y átalo con hilo de cocina y romero. undefined Hornea hasta bacon bien dorado; si el centro está caliente y el bacon pálido, termina brevemente bajo el grill.",
-        "step_4": "Hornea a 200°C hasta que el bacon esté dorado y crujiente, unos 30–40 minutos. undefined Retira exceso de grasa antes de desglasar. Reduce el vino hasta perder olor alcohólico y añade soja y mantequilla.",
-        "step_5": "Desglasa la bandeja con vino tinto, soja y mantequilla y sirve la salsa sobre el asado cortado. undefined Reposa 5 minutos antes de cortar y usa cuchillo de sierra suavemente para mantener el bacon adherido."
+        "step_1": "Cuece las patatas y aplástalas. Saltea cebolla y seta picadas con mantequilla e incorpóralas a la patata. Escurre muy bien y seca las patatas 1–2 minutos en la olla caliente antes de aplastar; un puré húmedo no mantendrá la forma. Cocina las setas hasta evaporar el agua y dorar los bordes; húmedas aflojarían el relleno. Mezcla las setas con la patata tibia y sazona antes de enfriar; prueba ahora porque el interior necesita sabor propio.",
+        "step_2": "Moldea la mezcla de patata con forma compacta de asado. Si el cilindro está blando, enfríalo unos 10 minutos antes de envolver con bacon.",
+        "step_3": "Envuelve el bloque con bacon solapado y átalo con hilo de cocina y romero. Superpone el bacon aproximadamente un tercio y coloca la unión abajo antes de hornear.",
+        "step_4": "Hornea a 200°C hasta que el bacon esté dorado y crujiente, unos 30–40 minutos. Hornea hasta bacon bien dorado; si el centro está caliente y el bacon pálido, termina brevemente bajo el grill.",
+        "step_5": "Reposa 5 minutos antes de cortar y usa cuchillo de sierra suavemente para mantener el bacon adherido. Desglasa la bandeja con vino tinto, soja y mantequilla y sirve la salsa sobre el asado cortado. Retira exceso de grasa antes de desglasar. Reduce el vino hasta perder olor alcohólico y añade soja y mantequilla."
       }
     },
     "recipe_000013": {
@@ -591,10 +591,10 @@
         }
       },
       "stepTexts": {
-        "step_1": "Dora la carne en una olla y añade cebolla, zanahoria y patata. undefined Deja que la cebolla se ablande y dore ligeramente para crear dulzor antes del roux. undefined Dora el pollo por tandas si la olla está llena; cocerlo al vapor sin color da menos profundidad.",
-        "step_2": "Cubre con agua o caldo y cuece unos 20 minutos hasta que las verduras estén tiernas. undefined Corta zanahoria y patata de tamaño similar para que se cocinen juntas; patata demasiado pequeña se deshace. undefined Mantén hervor suave y retira espuma; detente cuando las verduras estén apenas tiernas porque seguirán cocinando con el roux.",
-        "step_3": "Añade la manzana rallada, apaga un momento el fuego y disuelve el roux de curry. undefined Añade la manzana muy rallada para que se funda; usa poca al principio porque el dulzor varía. undefined Apaga el fuego antes de añadir el roux y disuélvelo pieza a pieza para evitar que se queme en el fondo.",
-        "step_4": "Vuelve a fuego bajo hasta que la salsa espese y sirve junto al arroz. undefined Vuelve a fuego bajo 5–10 minutos hasta que cubra la cuchara; añade agua caliente solo si espesa demasiado. undefined Deja reposar el curry 5 minutos fuera del fuego antes de servir; la salsa se asienta."
+        "step_1": "Dora la carne en una olla y añade cebolla, zanahoria y patata. Deja que la cebolla se ablande y dore ligeramente para crear dulzor antes del roux. Si la olla está llena, dora la carne en dos tandas: cocerla pálida al vapor en esta fase da menos profundidad al curry.",
+        "step_2": "Cubre con agua o caldo y cuece unos 20 minutos hasta que las verduras estén tiernas. Corta zanahoria y patata de tamaño similar para que se cocinen juntas; patata demasiado pequeña se deshace. Mantén hervor suave y retira espuma; detente cuando las verduras estén apenas tiernas porque seguirán cocinando con el roux.",
+        "step_3": "Añade la manzana rallada, apaga un momento el fuego y disuelve el roux de curry. Añade la manzana muy rallada para que se funda; usa poca al principio porque el dulzor varía. Apaga el fuego antes de añadir el roux y disuélvelo pieza a pieza para evitar que se queme en el fondo.",
+        "step_4": "Vuelve a fuego bajo hasta que la salsa espese y sirve junto al arroz. Vuelve a fuego bajo 5–10 minutos hasta que cubra la cuchara; añade agua caliente solo si espesa demasiado. Deja reposar el curry 5 minutos fuera del fuego antes de servir; la salsa se asienta."
       }
     },
     "recipe_000014": {
@@ -637,13 +637,29 @@
         "spring_onion": {
           "name": "Cebolleta",
           "note": null
+        },
+        "neutral_oil": {
+          "name": "Aceite neutro",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Aceite de sésamo tostado",
+          "note": null
         }
       },
       "stepTexts": {
-        "step_1": "Corta el tofu en cubos de 2 cm y escáldalo 1 minuto en agua salada. undefined Corta el tofu en cubos de 2 cm y, si es muy frágil, caliéntalo 1–2 minutos en agua ligeramente salada para que se rompa menos. undefined Dora hasta que el cerdo esté cocido y algunos bordes crujientes; ese tostado aporta profundidad.",
-        "step_2": "Calienta aceite en un wok y sofríe ajo, jengibre, pimienta de Sichuan y doubanjiang. undefined Fríe brevemente el doubanjiang hasta teñir el aceite de rojo y añade ajo y jengibre solo 20–30 segundos. undefined Añade caldo y soja, lleva a hervor suave y prueba antes de poner azúcar; el doubanjiang varía mucho.",
-        "step_3": "Añade el cerdo picado, dóralo y vierte el caldo. undefined Añade el tofu y mueve la sartén con suavidad en vez de remover; cocina 3–4 minutos sin romper.",
-        "step_4": "Añade el tofu, cuece 5 minutos y espesa con maicena disuelta. Termina con cebolleta. undefined Añade la mezcla de almidón en dos veces y detente en cuanto la salsa quede brillante y cubra ligeramente el tofu. undefined Termina con aceite de sésamo y cebolleta fuera del fuego para conservar aroma."
+        "step_1": "Corta el tofu en cubos de 2 cm y escáldalo 1 minuto en agua salada. Corta el tofu en cubos de 2 cm y, si es muy frágil, caliéntalo 1–2 minutos en agua ligeramente salada para que se rompa menos.",
+        "step_2": "Calienta el aceite neutro en un wok a fuego medio-alto. Añade el cerdo picado y dóralo hasta que no quede carne cruda y algunos bordes estén crujientes. Incorpora doubanjiang y pimienta de Sichuan, sofríe brevemente hasta que el aceite se vuelva rojo y aromático y añade ajo y jengibre solo 20–30 segundos.",
+        "step_3": "Añade caldo y soja, lleva a hervor suave y prueba antes de poner azúcar; el doubanjiang varía mucho. Añade el tofu y mueve la sartén con suavidad en vez de remover; cocina 3–4 minutos sin romper.",
+        "step_4": "Añade la mezcla de almidón en dos veces y detente en cuanto la salsa quede brillante y cubra ligeramente el tofu. Termina con aceite de sésamo y cebolleta fuera del fuego para conservar aroma."
       }
     },
     "recipe_000015": {
@@ -682,13 +698,17 @@
         "sugar": {
           "name": "Azúcar",
           "note": null
+        },
+        "green_beans": {
+          "name": "Judías verdes",
+          "note": null
         }
       },
       "stepTexts": {
-        "step_1": "Corta patatas y zanahoria en trozos irregulares y lamina la cebolla. undefined Con carne fina, dora rápido sin cocinar por completo; terminará en el caldo. Retira exceso de grasa si se acumula. undefined Corta las patatas en piezas grandes y uniformes; piezas pequeñas se deshacen antes de que reduzca el caldo.",
-        "step_2": "Dora la ternera con un poco de aceite y añade cebolla, patata y zanahoria. undefined Lleva justo a hervor, retira espuma y baja a fuego suave; hervir fuerte rompe las patatas. undefined Usa tapa caída o papel si puedes y detente cuando la patata esté tierna pero aún mantenga forma.",
-        "step_3": "Añade dashi, soja, mirin y azúcar y lleva a hervor suave. undefined Reposa tapado fuera del fuego 15–20 minutos y recalienta suavemente; así las patatas absorben sabor.",
-        "step_4": "Cubre con una tapa de contacto y cocina unos 20 minutos. undefined Añade las judías verdes solo al recalentar para mantener color y algo de textura."
+        "step_1": "Corta patatas y zanahoria en trozos irregulares y lamina la cebolla. Corta las patatas en piezas grandes y uniformes; piezas pequeñas se deshacen antes de que reduzca el caldo.",
+        "step_2": "Dora la ternera con un poco de aceite y añade cebolla, patata y zanahoria. Con carne fina, dora rápido sin cocinar por completo; terminará en el caldo. Retira exceso de grasa si se acumula.",
+        "step_3": "Añade dashi, soja, mirin y azúcar y lleva a hervor suave. Lleva justo a hervor, retira espuma y baja a fuego suave; hervir fuerte rompe las patatas.",
+        "step_4": "Cubre con una tapa de contacto y cocina unos 20 minutos. Reposa tapado fuera del fuego 15–20 minutos y recalienta suavemente; así las patatas absorben sabor. Añade las judías verdes durante los últimos 2–3 minutos para que queden verdes y apenas tiernas."
       }
     },
     "recipe_000016": {
@@ -730,10 +750,10 @@
         }
       },
       "stepTexts": {
-        "step_1": "Corta el pollo en trozos de 3–4 cm y marina 20 minutos con soja, sake, jengibre y ajo. undefined Corta piezas de 3–4 cm para cocción uniforme y deja algo de piel para proteger la carne. undefined Marina en refrigeración y no demasiado tiempo; escurre el exceso antes de cubrir.",
-        "step_2": "Reboza cada trozo abundantemente con fécula de patata. undefined Cubre justo antes de freír y presiona algo de fécula en los pliegues para crear la corteza irregular típica. undefined Fríe en tandas pequeñas para mantener temperatura; la primera fritura cocina sin dorar demasiado.",
-        "step_3": "Fríe a 160°C unos 4 minutos, escurre y deja reposar 2 minutos. undefined Reposa en rejilla, no sobre papel, para evitar vapor y permitir que el calor llegue al centro. undefined Sube la temperatura y fríe solo 1–2 minutos hasta dorado intenso; el pollo ya debe estar cocido de forma segura.",
-        "step_4": "Fríe de nuevo a 180°C durante 1 minuto y sirve con limón. undefined Prueba antes de añadir sal y sirve enseguida con limón mientras la corteza está seca y crujiente."
+        "step_1": "Corta el pollo en trozos de 3–4 cm y marina 20 minutos con soja, sake, jengibre y ajo. Corta piezas de 3–4 cm para cocción uniforme y deja algo de piel para proteger la carne. Marina en refrigeración y no demasiado tiempo; escurre el exceso antes de cubrir.",
+        "step_2": "Reboza cada trozo abundantemente con fécula de patata. Cubre justo antes de freír y presiona algo de fécula en los pliegues para crear la corteza irregular típica.",
+        "step_3": "Fríe en tandas pequeñas para mantener temperatura; la primera fritura cocina sin dorar demasiado. Fríe a 160°C unos 4 minutos, escurre y deja reposar 2 minutos. Reposa en rejilla, no sobre papel, para evitar vapor y permitir que el calor llegue al centro. Sube la temperatura y fríe solo 1–2 minutos hasta dorado intenso; el pollo ya debe estar cocido de forma segura.",
+        "step_4": "Fríe de nuevo a 180°C durante 1 minuto y sirve con limón. Prueba antes de añadir sal y sirve enseguida con limón mientras la corteza está seca y crujiente."
       }
     },
     "recipe_000017": {
@@ -767,10 +787,10 @@
         }
       },
       "stepTexts": {
-        "step_1": "Bate suavemente los huevos con dashi, azúcar, soja y una pizca de sal. undefined Mezcla sin montar para evitar espuma; para textura muy uniforme, cuela la mezcla. undefined Mantén fuego medio-bajo y solo una película fina de aceite entre capas.",
-        "step_2": "Engrasa ligeramente una sartén rectangular y vierte una capa fina de huevo. undefined Vierte solo una capa fina, rompe burbujas grandes y empieza a enrollar cuando la superficie aún esté algo húmeda. undefined Enrolla sin aplastar, devuelve el rollo al borde inicial y engrasa la zona libre antes de añadir más huevo.",
-        "step_3": "Cuando apenas cuaje, enrolla el huevo hacia un lado. undefined Levanta ligeramente el rollo al añadir huevo para que pase por debajo y una las capas.",
-        "step_4": "Añade otra capa, deja que pase bajo el rollo y vuelve a enrollar. Repite y corta. undefined Envuelve 2–3 minutos en esterilla o papel para fijar la forma y corta con cuchillo afilado ligeramente húmedo."
+        "step_1": "Bate suavemente los huevos con dashi, azúcar, soja y una pizca de sal. Mezcla sin montar para evitar espuma; para textura muy uniforme, cuela la mezcla.",
+        "step_2": "Mantén fuego medio-bajo y solo una película fina de aceite entre capas. Engrasa ligeramente una sartén rectangular y vierte una capa fina de huevo. Vierte solo una capa fina, rompe burbujas grandes y empieza a enrollar cuando la superficie aún esté algo húmeda. Enrolla sin aplastar, devuelve el rollo al borde inicial y engrasa la zona libre antes de añadir más huevo.",
+        "step_3": "Cuando apenas cuaje, enrolla el huevo hacia un lado. Levanta ligeramente el rollo al añadir huevo para que pase por debajo y una las capas.",
+        "step_4": "Añade otra capa, deja que pase bajo el rollo y vuelve a enrollar. Repite y corta. Envuelve 2–3 minutos en esterilla o papel para fijar la forma y corta con cuchillo afilado ligeramente húmedo."
       }
     },
     "recipe_000018": {
@@ -817,14 +837,18 @@
         "soy_sauce": {
           "name": "Salsa de soja",
           "note": null
+        },
+        "shiitake": {
+          "name": "Setas shiitake frescas",
+          "note": null
         }
       },
       "stepTexts": {
-        "step_1": "Amasa harina, levadura, agua templada y azúcar y deja levar 1 hora. undefined Usa agua tibia, no caliente, para proteger la levadura; mezcla hasta que no quede harina seca. undefined Amasa hasta que quede liso y elástico; si se rompe al estirar, reposa unos minutos y amasa de nuevo. undefined Juzga la fermentación por volumen: debe casi duplicar y sentirse aireada; en frío puede necesitar más tiempo.",
-        "step_2": "Mezcla el cerdo con col escurrida, cebolleta, jengibre, soja y aceite de sésamo. undefined Mezcla hasta que el cerdo quede ligeramente pegajoso y mantén frío; elimina exceso de agua de col y setas.",
-        "step_3": "Divide la masa, forma discos con bordes finos y pon relleno en el centro. undefined Mantén cubiertas las porciones sin usar para que no se seque el borde. undefined Deja el centro más grueso que el borde, rellena y pliega el borde fino hacia arriba, cerrando con firmeza.",
-        "step_4": "Pliega y pellizca los bordes para cerrar cada bollo. undefined Deja que se hinchen visiblemente sin duplicar por completo; sobrefermentar puede hacerlos colapsar.",
-        "step_5": "Cuece al vapor sobre papel 15–18 minutos y espera un momento antes de abrir. undefined Empieza con vapor activo, no abras durante la cocción y verifica el cerdo. Al terminar, apaga y espera 3–5 minutos antes de abrir gradualmente."
+        "step_1": "Amasa harina, levadura, agua templada y azúcar y deja levar 1 hora. Usa agua tibia, no caliente, para proteger la levadura; mezcla hasta que no quede harina seca. Amasa hasta que quede liso y elástico; si se rompe al estirar, reposa unos minutos y amasa de nuevo. Juzga la fermentación por volumen: debe casi duplicar y sentirse aireada; en frío puede necesitar más tiempo.",
+        "step_2": "Mezcla el cerdo con col escurrida, cebolleta, jengibre, soja y aceite de sésamo. Mezcla hasta que el cerdo quede ligeramente pegajoso y mantén frío; elimina exceso de agua de col y setas.",
+        "step_3": "Divide la masa, forma discos con bordes finos y pon relleno en el centro. Mantén cubiertas las porciones sin usar para que no se seque el borde. Deja el centro más grueso que el borde, rellena y pliega el borde fino hacia arriba, cerrando con firmeza.",
+        "step_4": "Pliega y pellizca los bordes para cerrar cada bollo. Deja que se hinchen visiblemente sin duplicar por completo; sobrefermentar puede hacerlos colapsar.",
+        "step_5": "Cuece al vapor sobre papel 15–18 minutos y espera un momento antes de abrir. Empieza con vapor activo, no abras durante la cocción y verifica el cerdo. Al terminar, apaga y espera 3–5 minutos antes de abrir gradualmente."
       }
     },
     "recipe_000019": {
@@ -1399,7 +1423,7 @@
       "animeContext": "Inspirado en el tono de comfort food asociado a Chainsaw Man. El nombre culinario correcto es Katsu Curry; no se afirma un episodio concreto.",
       "ingredientTexts": {
         "pork_cutlets": {
-          "name": "Tonkatsu de cerdo",
+          "name": "Chuletas crudas de lomo de cerdo de 1,5–2 cm",
           "note": null
         },
         "rice": {
@@ -1427,11 +1451,23 @@
           "note": null
         },
         "oil": {
-          "name": "Aceite neutro",
+          "name": "Aceite neutro, para saltear y freír",
           "note": null
         },
         "fukujinzuke": {
           "name": "Fukujinzuke, opcional",
+          "note": null
+        },
+        "flour": {
+          "name": "Harina de trigo",
+          "note": null
+        },
+        "egg": {
+          "name": "Huevo grande",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
           "note": null
         }
       },
@@ -1440,7 +1476,7 @@
         "start_curry": "Pocha cebolla en aceite hasta suave y ligeramente dorada, añade zanahoria y patata y saltea 2–3 minutos.",
         "simmer_vegetables": "Añade 500 ml de agua o caldo y cocina parcialmente tapado unos 15 minutos hasta que las verduras estén tiernas.",
         "add_roux": "Apaga el fuego, disuelve unos 45 g de roux, vuelve a fuego bajo y cocina 4–5 minutos hasta espesar; respeta la proporción del fabricante si cambia.",
-        "cook_tonkatsu": "Prepara el tonkatsu hasta que quede crujiente y cocido de forma segura; reposa sobre rejilla y corta.",
+        "cook_tonkatsu": "Seca el cerdo, corta superficialmente la banda de grasa cada 2–3 cm y golpea solo para igualar el grosor. Salpimenta, pasa por harina retirando el exceso, cubre con huevo y presiona en panko sin triturarlo. Reposa 5 minutos. Calienta 4–5 cm de aceite a unos 170°C y fríe sin amontonar, aproximadamente 3 minutos por lado para 1,5–2 cm, manteniendo 165–175°C. Pasa a una rejilla 3 minutos para que el calor residual llegue al centro. Comprueba una cocción segura en la parte más gruesa, no solo el color exterior.",
         "assemble": "Sirve arroz, tonkatsu y curry dejando parte de la corteza al descubierto; añade fukujinzuke si deseas."
       }
     },
@@ -1809,7 +1845,7 @@
     "recipe_000037": {
       "title": "Ozoni estilo Kanto",
       "description": "Sopa de Año Nuevo estilo Kanto con dashi claro, mochi tostado, pollo y verduras. El ozoni varía mucho según región y familia.",
-      "animeContext": "Fruits Basket tiene fuertes asociaciones con Año Nuevo y mochi; esta receta es explícitamente una reconstrucción estilo Kanto.",
+      "animeContext": "Fruits Basket tiene un fuerte contexto de Año Nuevo, pero este ozoni estilo Kanto se presenta como inspiración culinaria estacional y no como plato recurrente verificado de la serie.",
       "ingredientTexts": {
         "kirimochi": {
           "name": "Kirimochi",
@@ -1933,7 +1969,7 @@
     "recipe_000040": {
       "title": "Rollo de matcha",
       "description": "Bizcocho ligero de té verde enrollado con nata y anko opcional. Pre-enrollarlo caliente ayuda a evitar grietas.",
-      "animeContext": "K-On! está muy ligado al té y los pasteles del club; este rollo se presenta como asociación recurrente, no receta exacta de una escena.",
+      "animeContext": "El té y los dulces son elementos recurrentes en K-On!, pero este roll cake de matcha es una inspiración culinaria de la app y no un pastel recurrente verificado de la serie.",
       "ingredientTexts": {
         "eggs": {
           "name": "Huevos grandes separados",

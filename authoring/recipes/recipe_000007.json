@@ -1,9 +1,9 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000007",
-  "contentVersion": 2,
+  "contentVersion": 3,
   "status": "published",
-  "inspirationTitle": "One Piece / My Hero Academia",
+  "inspirationTitle": "One Piece",
   "prepMinutes": 20,
   "cookMinutes": 15,
   "servings": 3,
@@ -140,7 +140,7 @@
         "fill_moulds": "Pour batter into the cavities almost to the top. Fill the wells completely and deliberately let a little batter spread across the top surface; the overflow becomes part of the ball during turning.",
         "add_fillings": "Add a piece of octopus to each cavity together with a little pickled ginger, tenkasu and spring onion. Use small octopus cubes so every ball can rotate freely; overfilling makes the sphere tear and leaves a cold centre.",
         "turn_balls": "As the bottoms set, use wooden picks to rotate the pieces gradually, tucking in loose batter until rounded and evenly browned. Start with a 90-degree turn once the outer edge is set, tuck loose batter underneath, then keep turning a little at a time until all sides are browned. Do not wait for one side to become hard before the first turn.",
-        "finish": "Serve hot with takoyaki sauce, Japanese mayonnaise and katsuobushi. undefined Check that the octopus is hot and the shell evenly browned, then sauce only at serving; saucing too early softens the crisp exterior."
+        "finish": "Serve hot with takoyaki sauce, Japanese mayonnaise and katsuobushi. Check that the octopus is hot and the shell evenly browned, then sauce only at serving; saucing too early softens the crisp exterior."
       },
       "description": "Osaka-style takoyaki: crisp, browned spheres around a very soft dashi batter with octopus, pickled ginger and tenkasu inside. The signature texture depends on a hot, well-oiled pan and repeated quarter-turns that pull excess batter into the sphere.",
       "animeContext": "Takoyaki is a recurring One Piece association through Hatchan (Hachi), who dreams of and later runs a takoyaki business. The app recipe follows the real Osaka snack rather than copying a fictional serving."
@@ -195,7 +195,7 @@
         "fill_moulds": "Versa la pastella nelle cavità arrivando quasi al bordo. Riempi completamente le cavità e lascia volutamente un po’ di pastella anche sulla superficie superiore: l’eccesso verrà inglobato nelle sfere durante la rotazione.",
         "add_fillings": "Inserisci in ogni cavità un cubetto di polpo con un po’ di beni shoga, tenkasu e cipollotto. Usa cubetti di polpo piccoli, così ogni sfera può ruotare liberamente: troppo ripieno strappa la crosta e lascia il centro freddo.",
         "turn_balls": "Quando il fondo inizia a rassodarsi, gira gradualmente i takoyaki con stecchini di legno, raccogliendo la pastella in eccesso finché diventano rotondi e dorati. Inizia con una rotazione di circa 90° appena il bordo esterno è stabile, infila sotto la pastella libera e continua a ruotare poco alla volta finché tutte le facce sono dorate. Non aspettare che un lato diventi duro prima del primo giro.",
-        "finish": "Servi caldi con salsa takoyaki, maionese giapponese e katsuobushi. undefined Controlla che il polpo sia caldo e la superficie uniformemente dorata, poi aggiungi le salse solo al servizio: condire troppo presto ammorbidisce la crosta."
+        "finish": "Servi caldi con salsa takoyaki, maionese giapponese e katsuobushi. Controlla che il polpo sia caldo e la superficie uniformemente dorata, poi aggiungi le salse solo al servizio: condire troppo presto ammorbidisce la crosta."
       },
       "description": "Takoyaki in stile Osaka: sfere dorate e croccanti all’esterno, con cuore molto morbido di pastella al dashi, polpo, beni shoga e tenkasu. La consistenza tipica nasce da una piastra ben calda e unta e da rotazioni progressive che raccolgono la pastella in eccesso.",
       "animeContext": "Il takoyaki è un’associazione ricorrente in One Piece grazie a Hatchan (Hachi), legato a un’attività di takoyaki. La ricetta dell’app segue il vero snack di Osaka invece di copiare una porzione fittizia."
@@ -250,7 +250,7 @@
         "fill_moulds": "Llena las cavidades casi hasta el borde con la masa. Llena por completo y deja algo de masa sobre la superficie; ese exceso se incorpora al girar.",
         "add_fillings": "Añade a cada cavidad un trozo de pulpo junto con un poco de beni shoga, tenkasu y cebolleta. Usa cubos pequeños de pulpo; demasiado relleno dificulta el giro y puede dejar el centro frío.",
         "turn_balls": "Cuando la base se firme, gira poco a poco las piezas con palillos, metiendo la masa sobrante hacia dentro hasta formar bolas doradas. Empieza con un giro de 90° cuando el borde esté firme, mete la masa suelta debajo y sigue girando poco a poco.",
-        "finish": "Sirve calientes con salsa takoyaki, mayonesa japonesa y katsuobushi. undefined Comprueba que el pulpo esté caliente y la superficie dorada; añade las salsas solo al servir."
+        "finish": "Sirve calientes con salsa takoyaki, mayonesa japonesa y katsuobushi. Comprueba que el pulpo esté caliente y la superficie dorada; añade las salsas solo al servir."
       },
       "description": "Takoyaki estilo Osaka, dorado por fuera y muy suave dentro, con pulpo, jengibre encurtido y tenkasu. La piastra caliente y los giros progresivos crean la forma.",
       "animeContext": "El takoyaki es una asociación recurrente en One Piece a través de Hatchan (Hachi), ligado a un negocio de takoyaki. La receta sigue el snack real de Osaka."
@@ -305,7 +305,7 @@
         "fill_moulds": "Versez la pâte presque jusqu’au bord des cavités. Remplissez complètement et laissez déborder un peu de pâte; elle sera incorporée lors du retournement.",
         "add_fillings": "Ajoutez dans chaque cavité un morceau de poulpe avec un peu de beni shoga, de tenkasu et de ciboule. Utilisez de petits dés de poulpe; trop de garniture gêne la rotation et peut laisser le cœur froid.",
         "turn_balls": "Lorsque la base prend, faites tourner progressivement les pièces avec des piques en bois en rabattant la pâte débordante jusqu’à obtenir des boules dorées. Commencez par un quart de tour dès que le bord prend, rentrez la pâte libre dessous puis poursuivez les rotations.",
-        "finish": "Servez chaud avec sauce takoyaki, mayonnaise japonaise et katsuobushi. undefined Vérifiez poulpe chaud et surface dorée; n’ajoutez les sauces qu’au service."
+        "finish": "Servez chaud avec sauce takoyaki, mayonnaise japonaise et katsuobushi. Vérifiez poulpe chaud et surface dorée; n’ajoutez les sauces qu’au service."
       },
       "description": "Takoyaki de style Osaka, dorés dehors et très fondants dedans, avec poulpe, gingembre mariné et tenkasu. Une plaque très chaude et des rotations progressives forment les sphères.",
       "animeContext": "Le takoyaki revient dans One Piece via Hatchan (Hachi), lié à un commerce de takoyaki. La recette suit le vrai snack d’Osaka."
@@ -360,7 +360,7 @@
         "fill_moulds": "Die Mulden fast bis zum Rand mit Teig füllen. Mulden vollständig füllen und etwas Teig bewusst überlaufen lassen; dieser wird beim Drehen eingearbeitet.",
         "add_fillings": "In jede Mulde Oktopus sowie etwas Beni Shoga, Tenkasu und Frühlingszwiebel geben. Kleine Oktopuswürfel verwenden; zu viel Füllung erschwert das Drehen und lässt den Kern kalt.",
         "turn_balls": "Sobald die Unterseite fest wird, die Stücke mit Holzstäbchen schrittweise drehen und überschüssigen Teig nach innen schieben, bis runde goldbraune Kugeln entstehen. Sobald der Rand fest ist, zunächst etwa 90° drehen, losen Teig unterschieben und schrittweise weiterdrehen.",
-        "finish": "Heiß mit Takoyaki-Sauce, japanischer Mayonnaise und Katsuobushi servieren. undefined Prüfen, dass Oktopus heiß und Oberfläche gleichmäßig gebräunt ist; Sauce erst beim Servieren zugeben."
+        "finish": "Heiß mit Takoyaki-Sauce, japanischer Mayonnaise und Katsuobushi servieren. Prüfen, dass Oktopus heiß und Oberfläche gleichmäßig gebräunt ist; Sauce erst beim Servieren zugeben."
       },
       "description": "Osaka-Takoyaki: außen gebräunt, innen sehr weich mit Dashi-Teig, Oktopus, Ingwer und Tenkasu. Eine heiße gut geölte Platte und schrittweises Drehen formen die Kugeln.",
       "animeContext": "Takoyaki ist in One Piece wiederkehrend mit Hatchan (Hachi) und seinem Takoyaki-Geschäft verbunden. Das Rezept folgt dem echten Osaka-Snack."
@@ -415,7 +415,7 @@
         "fill_moulds": "Encha as cavidades quase até a borda com a massa. Encha completamente e deixe um pouco de massa transbordar; ela será incorporada ao girar.",
         "add_fillings": "Coloque em cada cavidade um pedaço de polvo com um pouco de beni shoga, tenkasu e cebolinha. Use cubos pequenos de polvo; recheio demais dificulta girar e pode deixar o centro frio.",
         "turn_balls": "Quando a base começar a firmar, gire aos poucos com palitos de madeira, recolhendo a massa excedente até formar bolas douradas. Comece com giro de 90° assim que a borda firmar, coloque massa solta para baixo e continue girando aos poucos.",
-        "finish": "Sirva quente com molho takoyaki, maionese japonesa e katsuobushi. undefined Verifique se o polvo está quente e a superfície dourada; coloque os molhos apenas ao servir."
+        "finish": "Sirva quente com molho takoyaki, maionese japonesa e katsuobushi. Verifique se o polvo está quente e a superfície dourada; coloque os molhos apenas ao servir."
       },
       "description": "Takoyaki estilo Osaka, dourado por fora e muito macio por dentro, com polvo, gengibre e tenkasu. Chapa bem quente e giros progressivos formam as esferas.",
       "animeContext": "Takoyaki é uma associação recorrente em One Piece por meio de Hatchan (Hachi), ligado a um negócio de takoyaki. A receita segue o snack real de Osaka."

@@ -1,9 +1,9 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000017",
-  "contentVersion": 2,
+  "contentVersion": 3,
   "status": "published",
-  "inspirationTitle": "Demon Slayer / Pokémon",
+  "inspirationTitle": "Demon Slayer: Kimetsu no Yaiba",
   "prepMinutes": 5,
   "cookMinutes": 10,
   "servings": 2,
@@ -91,10 +91,10 @@
         }
       },
       "steps": {
-        "step_1": "Beat the eggs gently with dashi, sugar, soy sauce and a pinch of salt without creating much foam. undefined Stir rather than whip so you do not create a foam cap. If you want an especially even texture, pass the mixture through a sieve before cooking. undefined Keep the pan at medium-low heat and wipe on only a very thin film of oil between layers. Too much oil leaves greasy gaps in the spiral.",
-        "step_2": "Lightly oil a rectangular tamagoyaki pan and pour in a thin layer of egg. undefined Pour just enough egg to cover the base in a thin sheet. Pop large bubbles quickly and start rolling while the surface is still slightly wet so the layers bond. undefined Roll with chopsticks or a spatula without pressing the coil flat. Move the roll back to the starting edge and oil the newly exposed pan before the next pour.",
-        "step_3": "When just set, roll the egg toward one side of the pan. undefined Lift the existing roll slightly when adding new egg so a little runs underneath and glues the layers together. Continue until all mixture is used.",
-        "step_4": "Add another thin layer, let it flow under the roll and roll again. Repeat until the mixture is finished, then shape and slice. undefined Wrap the hot roll in a bamboo mat or clean parchment for 2–3 minutes to set a neat shape, then slice with a damp sharp knife once it has stopped steaming heavily."
+        "step_1": "Beat the eggs gently with dashi, sugar, soy sauce and a pinch of salt without creating much foam. Stir rather than whip so you do not create a foam cap. If you want an especially even texture, pass the mixture through a sieve before cooking.",
+        "step_2": "Keep the pan at medium-low heat and wipe on only a very thin film of oil between layers. Too much oil leaves greasy gaps in the spiral. Lightly oil a rectangular tamagoyaki pan and pour in a thin layer of egg. Pour just enough egg to cover the base in a thin sheet. Pop large bubbles quickly and start rolling while the surface is still slightly wet so the layers bond. Roll with chopsticks or a spatula without pressing the coil flat. Move the roll back to the starting edge and oil the newly exposed pan before the next pour.",
+        "step_3": "When just set, roll the egg toward one side of the pan. Lift the existing roll slightly when adding new egg so a little runs underneath and glues the layers together. Continue until all mixture is used.",
+        "step_4": "Add another thin layer, let it flow under the roll and roll again. Repeat until the mixture is finished, then shape and slice. Wrap the hot roll in a bamboo mat or clean parchment for 2–3 minutes to set a neat shape, then slice with a damp sharp knife once it has stopped steaming heavily."
       },
       "description": "A Japanese rolled omelette built from several thin layers of seasoned egg. Each layer is barely set, rolled, then joined by the next, producing a tender spiral rather than a dry solid block.",
       "animeContext": "Inspired by the traditional Japanese breakfast and bento atmosphere that fits Demon Slayer’s setting. No exact tamagoyaki appearance is asserted without direct scene evidence."
@@ -128,10 +128,10 @@
         }
       },
       "steps": {
-        "step_1": "Sbatti delicatamente le uova con dashi, zucchero, salsa di soia e un pizzico di sale senza creare troppa schiuma. undefined Mescola invece di montare, così non crei uno strato di schiuma. Se vuoi una consistenza particolarmente uniforme, filtra il composto prima della cottura. undefined Mantieni la padella a fuoco medio-basso e passa solo un velo sottilissimo d’olio tra uno strato e l’altro. Troppo olio crea spazi unti nella spirale.",
-        "step_2": "Ungi leggermente una padella rettangolare e versa un velo sottile di uovo. undefined Versa solo l’uovo necessario a coprire il fondo con uno strato sottile. Rompi rapidamente le bolle grandi e inizia ad arrotolare quando la superficie è ancora appena umida, così gli strati si saldano. undefined Arrotola con bacchette o spatola senza schiacciare il cilindro. Riporta il rotolo al bordo di partenza e ungi la parte libera della padella prima del nuovo strato.",
-        "step_3": "Quando è appena rappreso, arrotola l’uovo verso un lato della padella. undefined Solleva leggermente il rotolo quando versi nuovo uovo, così una piccola quantità scorre sotto e incolla gli strati. Continua fino a terminare il composto.",
-        "step_4": "Versa un altro strato, fallo scorrere sotto il rotolo e arrotola di nuovo. Ripeti fino a esaurire il composto, poi modella e affetta. undefined Avvolgi il rotolo caldo in un makisu o carta forno pulita per 2–3 minuti, così prende una forma ordinata, poi affetta con coltello affilato e appena umido quando il vapore più intenso è passato."
+        "step_1": "Sbatti delicatamente le uova con dashi, zucchero, salsa di soia e un pizzico di sale senza creare troppa schiuma. Mescola invece di montare, così non crei uno strato di schiuma. Se vuoi una consistenza particolarmente uniforme, filtra il composto prima della cottura.",
+        "step_2": "Mantieni la padella a fuoco medio-basso e passa solo un velo sottilissimo d’olio tra uno strato e l’altro. Troppo olio crea spazi unti nella spirale. Ungi leggermente una padella rettangolare e versa un velo sottile di uovo. Versa solo l’uovo necessario a coprire il fondo con uno strato sottile. Rompi rapidamente le bolle grandi e inizia ad arrotolare quando la superficie è ancora appena umida, così gli strati si saldano. Arrotola con bacchette o spatola senza schiacciare il cilindro. Riporta il rotolo al bordo di partenza e ungi la parte libera della padella prima del nuovo strato.",
+        "step_3": "Quando è appena rappreso, arrotola l’uovo verso un lato della padella. Solleva leggermente il rotolo quando versi nuovo uovo, così una piccola quantità scorre sotto e incolla gli strati. Continua fino a terminare il composto.",
+        "step_4": "Versa un altro strato, fallo scorrere sotto il rotolo e arrotola di nuovo. Ripeti fino a esaurire il composto, poi modella e affetta. Avvolgi il rotolo caldo in un makisu o carta forno pulita per 2–3 minuti, così prende una forma ordinata, poi affetta con coltello affilato e appena umido quando il vapore più intenso è passato."
       },
       "description": "Un’omelette arrotolata giapponese costruita con diversi strati sottili di uovo condito. Ogni strato viene appena rappreso, arrotolato e saldato dal successivo, creando una spirale tenera invece di un blocco asciutto.",
       "animeContext": "Ispirato all’atmosfera della colazione e del bento tradizionale giapponese coerente con l’ambientazione di Demon Slayer. Senza una scena verificata non viene dichiarata una presenza precisa del tamagoyaki."
@@ -165,10 +165,10 @@
         }
       },
       "steps": {
-        "step_1": "Bate suavemente los huevos con dashi, azúcar, soja y una pizca de sal. undefined Mezcla sin montar para evitar espuma; para textura muy uniforme, cuela la mezcla. undefined Mantén fuego medio-bajo y solo una película fina de aceite entre capas.",
-        "step_2": "Engrasa ligeramente una sartén rectangular y vierte una capa fina de huevo. undefined Vierte solo una capa fina, rompe burbujas grandes y empieza a enrollar cuando la superficie aún esté algo húmeda. undefined Enrolla sin aplastar, devuelve el rollo al borde inicial y engrasa la zona libre antes de añadir más huevo.",
-        "step_3": "Cuando apenas cuaje, enrolla el huevo hacia un lado. undefined Levanta ligeramente el rollo al añadir huevo para que pase por debajo y una las capas.",
-        "step_4": "Añade otra capa, deja que pase bajo el rollo y vuelve a enrollar. Repite y corta. undefined Envuelve 2–3 minutos en esterilla o papel para fijar la forma y corta con cuchillo afilado ligeramente húmedo."
+        "step_1": "Bate suavemente los huevos con dashi, azúcar, soja y una pizca de sal. Mezcla sin montar para evitar espuma; para textura muy uniforme, cuela la mezcla.",
+        "step_2": "Mantén fuego medio-bajo y solo una película fina de aceite entre capas. Engrasa ligeramente una sartén rectangular y vierte una capa fina de huevo. Vierte solo una capa fina, rompe burbujas grandes y empieza a enrollar cuando la superficie aún esté algo húmeda. Enrolla sin aplastar, devuelve el rollo al borde inicial y engrasa la zona libre antes de añadir más huevo.",
+        "step_3": "Cuando apenas cuaje, enrolla el huevo hacia un lado. Levanta ligeramente el rollo al añadir huevo para que pase por debajo y una las capas.",
+        "step_4": "Añade otra capa, deja que pase bajo el rollo y vuelve a enrollar. Repite y corta. Envuelve 2–3 minutos en esterilla o papel para fijar la forma y corta con cuchillo afilado ligeramente húmedo."
       },
       "description": "Tortilla japonesa enrollada hecha con varias capas finas de huevo sazonado. Cada capa se cuaja apenas y se une con la siguiente para crear una espiral tierna.",
       "animeContext": "Inspirado en el ambiente de desayuno y bento tradicional compatible con Demon Slayer; no se afirma una aparición exacta."
@@ -202,10 +202,10 @@
         }
       },
       "steps": {
-        "step_1": "Battez doucement les œufs avec dashi, sucre, soja et une pincée de sel. undefined Mélangez sans fouetter pour éviter la mousse; filtrez pour une texture très régulière. undefined Gardez feu moyen-doux et seulement un film très fin d’huile entre les couches.",
-        "step_2": "Huilez légèrement une poêle rectangulaire et versez une fine couche d’œuf. undefined Versez une couche fine, percez les grosses bulles et commencez à rouler quand le dessus est encore légèrement humide. undefined Roulez sans écraser, ramenez le rouleau au bord de départ et huilez la zone libre avant la couche suivante.",
-        "step_3": "Dès que l’œuf prend, roulez-le vers un côté. undefined Soulevez légèrement le rouleau quand vous versez l’œuf afin qu’un peu passe dessous et soude les couches.",
-        "step_4": "Ajoutez une autre couche, faites-la glisser sous le rouleau et roulez à nouveau. Répétez puis tranchez. undefined Enveloppez 2–3 minutes dans une natte ou du papier pour fixer la forme puis tranchez au couteau légèrement humide."
+        "step_1": "Battez doucement les œufs avec dashi, sucre, soja et une pincée de sel. Mélangez sans fouetter pour éviter la mousse; filtrez pour une texture très régulière.",
+        "step_2": "Gardez feu moyen-doux et seulement un film très fin d’huile entre les couches. Huilez légèrement une poêle rectangulaire et versez une fine couche d’œuf. Versez une couche fine, percez les grosses bulles et commencez à rouler quand le dessus est encore légèrement humide. Roulez sans écraser, ramenez le rouleau au bord de départ et huilez la zone libre avant la couche suivante.",
+        "step_3": "Dès que l’œuf prend, roulez-le vers un côté. Soulevez légèrement le rouleau quand vous versez l’œuf afin qu’un peu passe dessous et soude les couches.",
+        "step_4": "Ajoutez une autre couche, faites-la glisser sous le rouleau et roulez à nouveau. Répétez puis tranchez. Enveloppez 2–3 minutes dans une natte ou du papier pour fixer la forme puis tranchez au couteau légèrement humide."
       },
       "description": "Omelette japonaise roulée formée de fines couches d’œuf assaisonné. Chaque couche est juste prise puis liée par la suivante pour créer une spirale tendre.",
       "animeContext": "Inspiré de l’univers du petit-déjeuner et bento traditionnel correspondant à Demon Slayer; aucune apparition précise n’est affirmée."
@@ -239,10 +239,10 @@
         }
       },
       "steps": {
-        "step_1": "Eier mit Dashi, Zucker, Sojasauce und einer Prise Salz sanft verquirlen. undefined Nur verrühren, nicht aufschlagen, damit kein Schaum entsteht; für sehr feine Textur passieren. undefined Bei mittlerer bis niedriger Hitze nur einen hauchdünnen Ölfilm zwischen den Schichten auftragen.",
-        "step_2": "Eine rechteckige Pfanne leicht ölen und eine dünne Eierschicht hineingeben. undefined Nur eine dünne Schicht eingießen, große Blasen öffnen und rollen, solange die Oberfläche noch leicht feucht ist. undefined Rollen ohne flachzudrücken, an den Ausgangsrand zurückschieben und freie Pfanne vor der nächsten Schicht ölen.",
-        "step_3": "Sobald die Schicht gerade gestockt ist, zur Seite aufrollen. undefined Bestehende Rolle beim neuen Eingießen leicht anheben, damit etwas Ei darunterläuft und die Schichten verbindet.",
-        "step_4": "Eine weitere Schicht zugeben, unter die Rolle laufen lassen und erneut aufrollen. Wiederholen und schneiden. undefined Heiße Rolle 2–3 Minuten in Bambusmatte oder Pergament formen und anschließend mit leicht feuchtem scharfen Messer schneiden."
+        "step_1": "Eier mit Dashi, Zucker, Sojasauce und einer Prise Salz sanft verquirlen. Nur verrühren, nicht aufschlagen, damit kein Schaum entsteht; für sehr feine Textur passieren.",
+        "step_2": "Bei mittlerer bis niedriger Hitze nur einen hauchdünnen Ölfilm zwischen den Schichten auftragen. Eine rechteckige Pfanne leicht ölen und eine dünne Eierschicht hineingeben. Nur eine dünne Schicht eingießen, große Blasen öffnen und rollen, solange die Oberfläche noch leicht feucht ist. Rollen ohne flachzudrücken, an den Ausgangsrand zurückschieben und freie Pfanne vor der nächsten Schicht ölen.",
+        "step_3": "Sobald die Schicht gerade gestockt ist, zur Seite aufrollen. Bestehende Rolle beim neuen Eingießen leicht anheben, damit etwas Ei darunterläuft und die Schichten verbindet.",
+        "step_4": "Eine weitere Schicht zugeben, unter die Rolle laufen lassen und erneut aufrollen. Wiederholen und schneiden. Heiße Rolle 2–3 Minuten in Bambusmatte oder Pergament formen und anschließend mit leicht feuchtem scharfen Messer schneiden."
       },
       "description": "Japanisches gerolltes Omelett aus mehreren dünnen gewürzten Eierschichten. Jede Schicht wird nur knapp gestockt und mit der nächsten verbunden.",
       "animeContext": "Von traditionellem japanischem Frühstück und Bento passend zur Demon-Slayer-Atmosphäre inspiriert; keine konkrete Szene wird behauptet."
@@ -276,10 +276,10 @@
         }
       },
       "steps": {
-        "step_1": "Bata os ovos delicadamente com dashi, açúcar, soja e uma pitada de sal. undefined Misture sem bater para não criar espuma; para textura uniforme, coe a mistura. undefined Mantenha fogo médio-baixo e apenas uma película fina de óleo entre as camadas.",
-        "step_2": "Unte levemente uma frigideira retangular e coloque uma camada fina de ovo. undefined Despeje apenas uma camada fina, estoure bolhas grandes e comece a enrolar com a superfície ainda levemente úmida. undefined Enrole sem achatar, leve o rolo ao início e unte a parte livre antes da próxima camada.",
-        "step_3": "Quando firmar levemente, enrole o ovo para um lado. undefined Levante levemente o rolo ao adicionar ovo para que um pouco passe por baixo e una as camadas.",
-        "step_4": "Adicione outra camada, deixe escorrer sob o rolo e enrole novamente. Repita e fatie. undefined Envolva por 2–3 minutos em esteira ou papel para firmar o formato e corte com faca afiada levemente úmida."
+        "step_1": "Bata os ovos delicadamente com dashi, açúcar, soja e uma pitada de sal. Misture sem bater para não criar espuma; para textura uniforme, coe a mistura.",
+        "step_2": "Mantenha fogo médio-baixo e apenas uma película fina de óleo entre as camadas. Unte levemente uma frigideira retangular e coloque uma camada fina de ovo. Despeje apenas uma camada fina, estoure bolhas grandes e comece a enrolar com a superfície ainda levemente úmida. Enrole sem achatar, leve o rolo ao início e unte a parte livre antes da próxima camada.",
+        "step_3": "Quando firmar levemente, enrole o ovo para um lado. Levante levemente o rolo ao adicionar ovo para que um pouco passe por baixo e una as camadas.",
+        "step_4": "Adicione outra camada, deixe escorrer sob o rolo e enrole novamente. Repita e fatie. Envolva por 2–3 minutos em esteira ou papel para firmar o formato e corte com faca afiada levemente úmida."
       },
       "description": "Omelete japonesa enrolada feita de várias camadas finas de ovo temperado. Cada camada firma apenas o necessário e se une à seguinte.",
       "animeContext": "Inspirado no ambiente de café da manhã e bento tradicional compatível com Demon Slayer; não afirmamos aparição específica."
