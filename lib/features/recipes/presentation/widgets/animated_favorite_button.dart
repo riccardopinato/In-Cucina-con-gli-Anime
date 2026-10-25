@@ -11,13 +11,22 @@ class AnimatedFavoriteButton extends StatefulWidget {
   final VoidCallback onPressed;
 
   @override
-  State<AnimatedFavoriteButton> createState() => _AnimatedFavoriteButtonState();
+  State<AnimatedFavoriteButton> createState() =>
+      _AnimatedFavoriteButtonState();
 }
 
 class _AnimatedFavoriteButtonState extends State<AnimatedFavoriteButton> {
   double _scale = 1;
 
   void _handlePressed() {
+    final reduceMotion =
+        MediaQuery.maybeOf(context)?.disableAnimations ?? false;
+
+    if (reduceMotion) {
+      widget.onPressed();
+      return;
+    }
+
     setState(() => _scale = 1.22);
     widget.onPressed();
 
@@ -30,14 +39,20 @@ class _AnimatedFavoriteButtonState extends State<AnimatedFavoriteButton> {
 
   @override
   Widget build(BuildContext context) {
+    final reduceMotion =
+        MediaQuery.maybeOf(context)?.disableAnimations ?? false;
+    final duration =
+        reduceMotion ? Duration.zero : const Duration(milliseconds: 140);
+
     return AnimatedScale(
-      scale: _scale,
-      duration: const Duration(milliseconds: 140),
+      scale: reduceMotion ? 1 : _scale,
+      duration: duration,
       curve: Curves.easeOutBack,
       child: IconButton(
         onPressed: _handlePressed,
         icon: AnimatedSwitcher(
-          duration: const Duration(milliseconds: 180),
+          duration:
+              reduceMotion ? Duration.zero : const Duration(milliseconds: 180),
           child: Icon(
             widget.isFavorite ? Icons.favorite : Icons.favorite_border,
             key: ValueKey(widget.isFavorite),

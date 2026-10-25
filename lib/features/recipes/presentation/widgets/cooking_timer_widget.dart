@@ -17,16 +17,32 @@ class CookingTimerWidget extends StatefulWidget {
   State<CookingTimerWidget> createState() => _CookingTimerWidgetState();
 }
 
-class _CookingTimerWidgetState extends State<CookingTimerWidget> {
+class _CookingTimerWidgetState extends State<CookingTimerWidget>
+    with SingleTickerProviderStateMixin {
   Timer? _timer;
   late int _totalSeconds;
   late int _remainingSeconds;
+  late final AnimationController _pulseController;
   bool _running = false;
+  bool _finishing = false;
+
+  bool get _reduceMotion =>
+      MediaQuery.maybeOf(context)?.disableAnimations ?? false;
 
   @override
   void initState() {
     super.initState();
     _resetValues();
+    _pulseController = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 950),
+    );
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    _syncPulse();
   }
 
   @override
@@ -35,6 +51,7 @@ class _CookingTimerWidgetState extends State<CookingTimerWidget> {
     if (oldWidget.minutes != widget.minutes) {
       _timer?.cancel();
       _resetValues();
+      _syncPulse();
     }
   }
 
@@ -42,12 +59,28 @@ class _CookingTimerWidgetState extends State<CookingTimerWidget> {
     _totalSeconds = widget.minutes * 60;
     _remainingSeconds = _totalSeconds;
     _running = false;
+    _finishing = false;
+  }
+
+  void _syncPulse() {
+    if (_reduceMotion || !_running) {
+      _pulseController
+        ..stop()
+        ..value = 0;
+      return;
+    }
+
+    if (!_pulseController.isAnimating) {
+      _pulseController.repeat(reverse: true);
+    }
   }
 
   void _start() {
     if (_remainingSeconds <= 0 || _running) return;
 
     setState(() => _running = true);
+    _syncPulse();
+
     _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
       if (!mounted) {
         timer.cancel();
@@ -60,7 +93,7 @@ class _CookingTimerWidgetState extends State<CookingTimerWidget> {
           _remainingSeconds = 0;
           _running = false;
         });
-        _showFinishedDialog();
+        unawaited(_finishTimer());
         return;
       }
 
@@ -71,11 +104,41 @@ class _CookingTimerWidgetState extends State<CookingTimerWidget> {
   void _pause() {
     _timer?.cancel();
     setState(() => _running = false);
+    _syncPulse();
   }
 
   void _reset() {
     _timer?.cancel();
     setState(_resetValues);
+    _syncPulse();
+  }
+
+  Future<void> _finishTimer() async {
+    _pulseController.stop();
+
+    if (!_reduceMotion && mounted) {
+      setState(() => _finishing = true);
+      _pulseController.value = 0;
+      await _pulseController.animateTo(
+        1,
+        duration: const Duration(milliseconds: 160),
+        curve: Curves.easeOutBack,
+      );
+      await _pulseController.animateBack(
+        0,
+        duration: const Duration(milliseconds: 180),
+        curve: Curves.easeInOutCubic,
+      );
+      if (mounted) {
+        setState(() => _finishing = false);
+      }
+    } else {
+      _pulseController.value = 0;
+    }
+
+    if (mounted) {
+      await _showFinishedDialog();
+    }
   }
 
   Future<void> _showFinishedDialog() async {
@@ -105,6 +168,7 @@ class _CookingTimerWidgetState extends State<CookingTimerWidget> {
   @override
   void dispose() {
     _timer?.cancel();
+    _pulseController.dispose();
     super.dispose();
   }
 
@@ -116,6 +180,7 @@ class _CookingTimerWidgetState extends State<CookingTimerWidget> {
     final progress = _totalSeconds == 0
         ? 0.0
         : _remainingSeconds / _totalSeconds;
+    final reduceMotion = _reduceMotion;
 
     return Container(
       padding: const EdgeInsets.all(AppSpacing.large),
@@ -138,9 +203,22 @@ class _CookingTimerWidgetState extends State<CookingTimerWidget> {
                   color: colors.primary.withValues(alpha: 0.13),
                   borderRadius: BorderRadius.circular(13),
                 ),
-                child: Icon(
-                  Icons.timer_outlined,
-                  color: colors.primary,
+                child: AnimatedBuilder(
+                  animation: _pulseController,
+                  child: Icon(
+                    Icons.timer_outlined,
+                    color: colors.primary,
+                  ),
+                  builder: (context, child) {
+                    if (reduceMotion) {
+                      return child!;
+                    }
+                    final amplitude = _finishing ? 0.14 : 0.045;
+                    return Transform.scale(
+                      scale: 1 + (_pulseController.value * amplitude),
+                      child: child,
+                    );
+                  },
                 ),
               ),
               const SizedBox(width: AppSpacing.small),
@@ -164,12 +242,21 @@ class _CookingTimerWidgetState extends State<CookingTimerWidget> {
           const SizedBox(height: AppSpacing.medium),
           ClipRRect(
             borderRadius: BorderRadius.circular(AppRadii.pill),
-            child: LinearProgressIndicator(
-              value: progress,
-              minHeight: 9,
-              backgroundColor:
-                  colors.surface.withValues(alpha: 0.72),
-              color: colors.primary,
+            child: TweenAnimationBuilder<double>(
+              tween: Tween<double>(begin: 0, end: progress),
+              duration: reduceMotion
+                  ? Duration.zero
+                  : const Duration(milliseconds: 360),
+              curve: Curves.easeOutCubic,
+              builder: (context, value, _) {
+                return LinearProgressIndicator(
+                  value: value,
+                  minHeight: 9,
+                  backgroundColor:
+                      colors.surface.withValues(alpha: 0.72),
+                  color: colors.primary,
+                );
+              },
             ),
           ),
           const SizedBox(height: AppSpacing.large),
