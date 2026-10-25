@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000013",
-  "contentVersion": 1,
+  "contentVersion": 2,
   "status": "published",
   "inspirationTitle": "Persona 5 / Assassination Classroom",
   "prepMinutes": 15,
@@ -9,7 +9,7 @@
   "servings": 4,
   "difficulty": "easy",
   "contentOrigin": "adapted",
-  "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23.",
+  "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
   "imageAssetId": "recipe_000013_artwork",
   "ingredients": [
     {
@@ -103,8 +103,18 @@
         "step_1": "Brown the diced meat in a pot, then add sliced onion, carrot and potato.",
         "step_2": "Cover with water or broth and simmer until the vegetables are tender, about 20 minutes.",
         "step_3": "Stir in the grated apple, turn off the heat briefly and dissolve the curry roux until smooth.",
-        "step_4": "Return to low heat until the sauce is rich and thick, then serve beside hot steamed rice."
-      }
+        "step_4": "Return to low heat until the sauce is rich and thick, then serve beside hot steamed rice.",
+        "saute_onion": "undefined Give the onion enough time to soften and pick up light golden colour; this builds sweetness before the roux is added and prevents a flat sauce.",
+        "brown_chicken": "undefined Brown in batches if the pan is crowded; steaming pale chicken at this stage gives less depth to the finished curry.",
+        "add_vegetables": "undefined Cut carrot and potato to similar bite-size dimensions so they finish together; very small potato pieces can dissolve and thicken the sauce too early.",
+        "simmer": "undefined Keep only a gentle simmer and skim foam or excess fat from the surface. Stop when the vegetables are just tender because they continue cooking after the roux goes in.",
+        "add_apple": "undefined Add the apple finely grated so it dissolves into the sauce rather than leaving fruit pieces. Start with a modest amount; sweetness varies greatly by apple variety.",
+        "dissolve_roux": "undefined Turn off the heat before adding the roux and dissolve it completely, one piece at a time. Roux sitting on the bottom over direct heat can scorch before it disperses.",
+        "thicken": "undefined Return to low heat and stir from the bottom for 5–10 minutes until the sauce coats a spoon. Add a splash of hot water only if it becomes thicker than a pourable gravy.",
+        "serve": "undefined Let the curry stand off heat for 5 minutes before serving; the sauce settles and thickens slightly, while the rice should stay freshly steamed and separate."
+      },
+      "description": "A thick Japanese curry rice with chicken, onion, carrot and potato, finished with commercial curry roux and a small amount of grated apple for rounded sweetness. The sauce should be glossy and spoon-coating rather than soupy.",
+      "animeContext": "Curry is a recurring Persona 5 food through Café Leblanc and Sojiro’s signature curry. This app bowl follows real Japanese curry-rice technique rather than attempting to duplicate a fictional secret recipe."
     },
     "it": {
       "title": "Riso al curry giapponese",
@@ -142,8 +152,18 @@
         "step_1": "Rosola la carne a dadini in pentola, poi aggiungi cipolla affettata, carote e patate.",
         "step_2": "Copri con acqua o brodo e fai sobbollire per circa 20 minuti, finché le verdure sono tenere.",
         "step_3": "Aggiungi la mela grattugiata, spegni brevemente il fuoco e sciogli il roux di curry mescolando bene.",
-        "step_4": "Riporta a fuoco basso finché la salsa è ricca e densa, poi servi accanto al riso caldo."
-      }
+        "step_4": "Riporta a fuoco basso finché la salsa è ricca e densa, poi servi accanto al riso caldo.",
+        "saute_onion": "undefined Lascia alla cipolla il tempo di ammorbidirsi e prendere una leggera doratura: costruisce dolcezza prima del roux ed evita una salsa piatta.",
+        "brown_chicken": "undefined Se la pentola è affollata rosola il pollo in due riprese: cuocerlo pallido nel vapore in questa fase toglie profondità al curry.",
+        "add_vegetables": "undefined Taglia carota e patata in pezzi di dimensioni simili, così arrivano insieme a cottura; cubi di patata troppo piccoli si disfano e addensano la salsa prima del tempo.",
+        "simmer": "undefined Mantieni solo un sobbollore dolce e rimuovi schiuma o grasso in eccesso. Fermati quando le verdure sono appena tenere, perché continueranno a cuocere dopo l’aggiunta del roux.",
+        "add_apple": "undefined Aggiungi la mela grattugiata finemente, così si scioglie nella salsa senza lasciare pezzi. Parti con una quantità moderata: la dolcezza cambia molto tra varietà.",
+        "dissolve_roux": "undefined Spegni il fuoco prima di aggiungere il roux e scioglilo completamente, un pezzo alla volta. Sul fondo a calore diretto può bruciare prima di disperdersi.",
+        "thicken": "undefined Riporta a fuoco basso e mescola dal fondo per 5–10 minuti, finché la salsa vela il cucchiaio. Aggiungi poca acqua calda solo se diventa più densa di una salsa colabile.",
+        "serve": "undefined Lascia riposare il curry 5 minuti fuori dal fuoco prima di servire: la salsa si assesta e addensa leggermente, mentre il riso deve restare appena cotto e ben distinto."
+      },
+      "description": "Un curry rice giapponese denso con pollo, cipolla, carota e patata, completato con roux da curry e una piccola quantità di mela grattugiata per una dolcezza più rotonda. La salsa deve essere lucida e abbastanza densa da velare il cucchiaio, non brodosa.",
+      "animeContext": "Il curry è un cibo ricorrente in Persona 5 attraverso il Café Leblanc e il curry caratteristico di Sojiro. La versione dell’app segue la tecnica reale del curry rice giapponese, senza fingere di riprodurre una ricetta segreta fittizia."
     },
     "es": {
       "title": "Arroz con curry japonés",
@@ -181,8 +201,18 @@
         "step_1": "Dora la carne en una olla y añade cebolla, zanahoria y patata.",
         "step_2": "Cubre con agua o caldo y cuece unos 20 minutos hasta que las verduras estén tiernas.",
         "step_3": "Añade la manzana rallada, apaga un momento el fuego y disuelve el roux de curry.",
-        "step_4": "Vuelve a fuego bajo hasta que la salsa espese y sirve junto al arroz."
-      }
+        "step_4": "Vuelve a fuego bajo hasta que la salsa espese y sirve junto al arroz.",
+        "saute_onion": "undefined Deja que la cebolla se ablande y dore ligeramente para crear dulzor antes del roux.",
+        "brown_chicken": "undefined Dora el pollo por tandas si la olla está llena; cocerlo al vapor sin color da menos profundidad.",
+        "add_vegetables": "undefined Corta zanahoria y patata de tamaño similar para que se cocinen juntas; patata demasiado pequeña se deshace.",
+        "simmer": "undefined Mantén hervor suave y retira espuma; detente cuando las verduras estén apenas tiernas porque seguirán cocinando con el roux.",
+        "add_apple": "undefined Añade la manzana muy rallada para que se funda; usa poca al principio porque el dulzor varía.",
+        "dissolve_roux": "undefined Apaga el fuego antes de añadir el roux y disuélvelo pieza a pieza para evitar que se queme en el fondo.",
+        "thicken": "undefined Vuelve a fuego bajo 5–10 minutos hasta que cubra la cuchara; añade agua caliente solo si espesa demasiado.",
+        "serve": "undefined Deja reposar el curry 5 minutos fuera del fuego antes de servir; la salsa se asienta."
+      },
+      "description": "Curry japonés espeso con pollo, cebolla, zanahoria y patata, terminado con roux y un poco de manzana para redondear el dulzor. La salsa debe quedar brillante y densa.",
+      "animeContext": "El curry es una comida recurrente en Persona 5 a través de Café Leblanc y el curry de Sojiro. La app sigue la técnica real del curry japonés."
     },
     "fr": {
       "title": "Riz au curry japonais",
@@ -220,8 +250,18 @@
         "step_1": "Faites dorer la viande puis ajoutez oignon, carotte et pomme de terre.",
         "step_2": "Couvrez d’eau ou de bouillon et laissez mijoter environ 20 minutes.",
         "step_3": "Ajoutez la pomme râpée, coupez brièvement le feu et faites fondre le roux de curry.",
-        "step_4": "Remettez à feu doux jusqu’à épaississement puis servez avec le riz chaud."
-      }
+        "step_4": "Remettez à feu doux jusqu’à épaississement puis servez avec le riz chaud.",
+        "saute_onion": "undefined Laissez l’oignon fondre et légèrement dorer pour construire la douceur avant le roux.",
+        "brown_chicken": "undefined Dorez le poulet en plusieurs fois si nécessaire; un poulet pâle cuit à la vapeur donne moins de profondeur.",
+        "add_vegetables": "undefined Coupez carotte et pomme de terre de taille similaire; des morceaux trop petits de pomme de terre se défont.",
+        "simmer": "undefined Gardez un léger frémissement et écumez; arrêtez lorsque les légumes sont juste tendres car ils continueront après le roux.",
+        "add_apple": "undefined Ajoutez la pomme finement râpée pour qu’elle fonde; commencez modestement car le sucre varie.",
+        "dissolve_roux": "undefined Coupez le feu avant le roux et dissolvez-le morceau par morceau pour éviter qu’il n’attache.",
+        "thicken": "undefined Remettez à feu doux 5–10 minutes jusqu’à ce que la sauce nappe; ajoutez un peu d’eau chaude seulement si trop épaisse.",
+        "serve": "undefined Laissez reposer le curry 5 minutes hors du feu avant de servir; la sauce se stabilise."
+      },
+      "description": "Curry japonais épais au poulet, oignon, carotte et pomme de terre, terminé au roux et avec un peu de pomme pour arrondir la douceur. La sauce doit être brillante et nappante.",
+      "animeContext": "Le curry revient dans Persona 5 via le Café Leblanc et le curry de Sojiro. L’application suit la vraie technique du curry japonais."
     },
     "de": {
       "title": "Japanisches Curry mit Reis",
@@ -259,8 +299,18 @@
         "step_1": "Das gewürfelte Fleisch anbraten, dann Zwiebel, Karotte und Kartoffel zugeben.",
         "step_2": "Mit Wasser oder Brühe bedecken und etwa 20 Minuten köcheln lassen.",
         "step_3": "Geriebene Apfel zugeben, kurz vom Herd nehmen und die Curry-Roux einrühren.",
-        "step_4": "Bei niedriger Hitze eindicken lassen und mit heißem Reis servieren."
-      }
+        "step_4": "Bei niedriger Hitze eindicken lassen und mit heißem Reis servieren.",
+        "saute_onion": "undefined Zwiebel weich und leicht goldbraun werden lassen, damit vor dem Roux Süße entsteht.",
+        "brown_chicken": "undefined Huhn bei Bedarf portionsweise bräunen; blasses Dämpfen gibt dem Curry weniger Tiefe.",
+        "add_vegetables": "undefined Karotte und Kartoffel ähnlich groß schneiden; zu kleine Kartoffeln zerfallen zu früh.",
+        "simmer": "undefined Nur sanft köcheln und abschäumen; bei gerade weichem Gemüse stoppen, da es nach Roux weitergart.",
+        "add_apple": "undefined Apfel fein reiben, damit er sich auflöst; zunächst sparsam dosieren, da Sorten unterschiedlich süß sind.",
+        "dissolve_roux": "undefined Hitze vor dem Roux ausschalten und stückweise vollständig lösen, damit nichts am Boden anbrennt.",
+        "thicken": "undefined 5–10 Minuten bei niedriger Hitze rühren, bis die Sauce den Löffel überzieht; nur bei zu starker Dicke heißes Wasser zugeben.",
+        "serve": "undefined Curry vor dem Servieren 5 Minuten vom Herd ruhen lassen; die Sauce setzt sich."
+      },
+      "description": "Dickes japanisches Curry mit Huhn, Zwiebel, Karotte und Kartoffel, Curry-Roux und etwas geriebenem Apfel für runde Süße. Die Sauce soll glänzend und löffelbeschichtend sein.",
+      "animeContext": "Curry ist in Persona 5 über Café Leblanc und Sojiros Curry wiederkehrend. Die App folgt realer japanischer Curry-Technik."
     },
     "pt": {
       "title": "Arroz com curry japonês",
@@ -298,8 +348,33 @@
         "step_1": "Doure a carne em cubos e junte cebola, cenoura e batata.",
         "step_2": "Cubra com água ou caldo e cozinhe por cerca de 20 minutos.",
         "step_3": "Junte a maçã ralada, desligue o fogo por um instante e dissolva o roux de curry.",
-        "step_4": "Volte ao fogo baixo até engrossar e sirva ao lado do arroz quente."
-      }
+        "step_4": "Volte ao fogo baixo até engrossar e sirva ao lado do arroz quente.",
+        "saute_onion": "undefined Deixe a cebola amolecer e dourar levemente para construir doçura antes do roux.",
+        "brown_chicken": "undefined Doure o frango em etapas se a panela estiver cheia; cozinhar pálido no vapor reduz profundidade.",
+        "add_vegetables": "undefined Corte cenoura e batata em tamanhos semelhantes; batata pequena demais se desfaz cedo.",
+        "simmer": "undefined Mantenha fervura suave e retire espuma; pare quando os legumes estiverem apenas macios, pois continuarão cozinhando após o roux.",
+        "add_apple": "undefined Adicione a maçã bem ralada para dissolver; comece com pouco, pois a doçura varia.",
+        "dissolve_roux": "undefined Desligue o fogo antes do roux e dissolva peça por peça para evitar que queime no fundo.",
+        "thicken": "undefined Volte ao fogo baixo por 5–10 minutos até cobrir a colher; adicione água quente apenas se engrossar demais.",
+        "serve": "undefined Deixe o curry descansar 5 minutos fora do fogo antes de servir; o molho se estabiliza."
+      },
+      "description": "Curry japonês espesso com frango, cebola, cenoura e batata, finalizado com roux e um pouco de maçã para doçura arredondada. O molho deve ficar brilhante e encorpado.",
+      "animeContext": "Curry é uma comida recorrente em Persona 5 por meio do Café Leblanc e do curry de Sojiro. O app segue técnica real de curry japonês."
     }
+  },
+  "animeReferences": [
+    {
+      "workTitle": "Persona 5",
+      "relation": "recurring_association",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Japanese curry rice verified as a real yoshoku staple using browned aromatics, meat, root vegetables and curry roux; apple is treated as an optional sweetening element within the app version.",
+    "animeStatus": "verified",
+    "animeNote": "Curry is a recurring food association in Persona 5 through Café Leblanc and Sojiro's curry."
   }
 }
