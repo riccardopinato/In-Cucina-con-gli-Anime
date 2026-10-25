@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000015",
-  "contentVersion": 3,
+  "contentVersion": 4,
   "status": "published",
   "inspirationTitle": "Demon Slayer: Kimetsu no Yaiba",
   "prepMinutes": 15,
@@ -9,7 +9,7 @@
   "servings": 4,
   "difficulty": "easy",
   "contentOrigin": "adapted",
-  "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded.",
+  "sourceNote": "Editorial rebuild from user-provided NotebookLM recipe research PDF exported 2026-10-22; culinary composition audited 2026-10-23. F3G editorial re-audit 2026-10-25: culinary method, description and anime-reference semantics upgraded. F3H: green-bean finishing ingredient declared explicitly to match the preparation.",
   "imageAssetId": "recipe_000015_artwork",
   "ingredients": [
     {
@@ -51,6 +51,11 @@
       "id": "sugar",
       "quantity": 1,
       "unit": "tbsp"
+    },
+    {
+      "id": "green_beans",
+      "quantity": 50,
+      "unit": "g"
     }
   ],
   "steps": [
@@ -106,6 +111,10 @@
         "sugar": {
           "name": "Sugar",
           "note": null
+        },
+        "green_beans": {
+          "name": "Green beans",
+          "note": null
         }
       },
       "steps": {
@@ -150,6 +159,10 @@
         },
         "sugar": {
           "name": "Zucchero",
+          "note": null
+        },
+        "green_beans": {
+          "name": "Fagiolini",
           "note": null
         }
       },
@@ -196,6 +209,10 @@
         "sugar": {
           "name": "Azúcar",
           "note": null
+        },
+        "green_beans": {
+          "name": "Judías verdes",
+          "note": null
         }
       },
       "steps": {
@@ -240,6 +257,10 @@
         },
         "sugar": {
           "name": "Sucre",
+          "note": null
+        },
+        "green_beans": {
+          "name": "Haricots verts",
           "note": null
         }
       },
@@ -286,6 +307,10 @@
         "sugar": {
           "name": "Zucker",
           "note": null
+        },
+        "green_beans": {
+          "name": "Grüne Bohnen",
+          "note": null
         }
       },
       "steps": {
@@ -330,6 +355,10 @@
         },
         "sugar": {
           "name": "Açúcar",
+          "note": null
+        },
+        "green_beans": {
+          "name": "Vagem",
           "note": null
         }
       },
