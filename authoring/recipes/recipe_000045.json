@@ -1,0 +1,439 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000045",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "My Hero Academia",
+  "animeReferences": [
+    {
+      "workTitle": "My Hero Academia",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Ebi fry verified: straightened shrimp, flour-egg-panko coating, deep fry at controlled temperature; tail-water safety step retained.",
+    "animeStatus": "unverified",
+    "animeNote": "Association kept as inspiration."
+  },
+  "prepMinutes": 20,
+  "cookMinutes": 10,
+  "servings": 2,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from Ricettario Vol. 5; straightening, tail preparation and oil-temperature recovery expanded.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "shrimp",
+      "quantity": 8,
+      "unit": null
+    },
+    {
+      "id": "flour",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "id": "egg",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "panko",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "id": "salt",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "pepper",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "oil",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "cabbage",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "id": "lemon",
+      "quantity": 2,
+      "unit": "wedge"
+    },
+    {
+      "id": "tartar",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "clean_shrimp",
+      "timerSeconds": 420
+    },
+    {
+      "id": "straighten",
+      "timerSeconds": 300
+    },
+    {
+      "id": "dry_season",
+      "timerSeconds": 120
+    },
+    {
+      "id": "bread",
+      "timerSeconds": 360
+    },
+    {
+      "id": "fry",
+      "timerSeconds": 240
+    },
+    {
+      "id": "drain_serve",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Ebi Fry — Panko-Fried Shrimp",
+      "description": "Straight, crisp Japanese fried shrimp with a coarse panko shell and juicy interior. Small cuts release the abdominal tendons so the shrimp fries almost straight, while careful tail drying reduces oil splatter.",
+      "animeContext": "Inspired by the school-and-family food atmosphere of My Hero Academia. No exact ebi-fry scene is claimed without direct evidence.",
+      "ingredients": {
+        "shrimp": {
+          "name": "Large raw shrimp, shell-on",
+          "note": null
+        },
+        "flour": {
+          "name": "All-purpose flour",
+          "note": null
+        },
+        "egg": {
+          "name": "Egg",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
+          "note": null
+        },
+        "salt": {
+          "name": "Salt",
+          "note": null
+        },
+        "pepper": {
+          "name": "Black pepper",
+          "note": null
+        },
+        "oil": {
+          "name": "Neutral frying oil",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Finely shredded cabbage",
+          "note": null
+        },
+        "lemon": {
+          "name": "Lemon wedges",
+          "note": null
+        },
+        "tartar": {
+          "name": "Tartar sauce or Japanese mayonnaise",
+          "note": null
+        }
+      },
+      "steps": {
+        "clean_shrimp": "Remove the heads and peel the shrimp, leaving the last shell segment and tail attached. Make a shallow cut along the back and remove the dark intestinal vein, then rinse quickly and pat dry.",
+        "straighten": "Make 3–4 shallow diagonal cuts across the belly without slicing through. Turn the shrimp over and gently press along the back until the muscle fibres relax and the shrimp lies almost straight; do not crush the flesh.",
+        "dry_season": "Trim the sharp tail tip and scrape or squeeze out trapped water from the tail fins to reduce dangerous splattering. Pat every shrimp very dry, then season lightly with salt and pepper.",
+        "bread": "Set up flour, beaten egg and panko in separate trays. Coat each shrimp in a thin layer of flour, then egg, then panko, pressing crumbs onto the body while keeping the tail free.",
+        "fry": "Heat oil to 175–180°C. Fry only 3–4 shrimp at a time so the oil quickly recovers its temperature; cook about 2–3 minutes, turning once, until the panko is deep golden and the shrimp opaque and firm.",
+        "drain_serve": "Drain upright or on a wire rack so steam escapes from the crust. Serve immediately with shredded cabbage, lemon and tartar sauce or Japanese mayonnaise."
+      }
+    },
+    "it": {
+      "title": "Ebi Fry — Gamberoni al panko",
+      "description": "Gamberoni fritti giapponesi dritti e croccanti, con guscio di panko grossolano e interno succoso. Piccoli tagli rilassano i tendini addominali e l’asciugatura della coda riduce gli schizzi d’olio.",
+      "animeContext": "Ispirato all’atmosfera di pasti scolastici e familiari di My Hero Academia. Non indichiamo una scena precisa di ebi fry senza una fonte diretta.",
+      "ingredients": {
+        "shrimp": {
+          "name": "Gamberoni crudi grandi con guscio",
+          "note": null
+        },
+        "flour": {
+          "name": "Farina 00",
+          "note": null
+        },
+        "egg": {
+          "name": "Uovo",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
+          "note": null
+        },
+        "salt": {
+          "name": "Sale",
+          "note": null
+        },
+        "pepper": {
+          "name": "Pepe nero",
+          "note": null
+        },
+        "oil": {
+          "name": "Olio neutro per friggere",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Cavolo cappuccio finissimo",
+          "note": null
+        },
+        "lemon": {
+          "name": "Spicchi di limone",
+          "note": null
+        },
+        "tartar": {
+          "name": "Salsa tartara o maionese giapponese",
+          "note": null
+        }
+      },
+      "steps": {
+        "clean_shrimp": "Elimina testa e guscio lasciando attaccati ultimo segmento e coda. Incidi superficialmente il dorso, rimuovi il filo intestinale, sciacqua rapidamente e asciuga.",
+        "straighten": "Pratica 3–4 piccoli tagli diagonali sulla pancia senza attraversare il gambero. Giralo e premi delicatamente lungo il dorso finché le fibre cedono e il gambero resta quasi diritto, senza schiacciare la polpa.",
+        "dry_season": "Taglia la punta affilata della coda e raschia o strizza l’acqua intrappolata nelle pinne per ridurre gli schizzi pericolosi. Asciuga molto bene e condisci leggermente con sale e pepe.",
+        "bread": "Prepara tre vaschette con farina, uovo sbattuto e panko. Passa ogni gambero in un velo di farina, poi uovo e panko, premendo le briciole sul corpo ma lasciando libera la coda.",
+        "fry": "Porta l’olio a 175–180°C. Friggi solo 3–4 gamberi per volta, così la temperatura recupera rapidamente; cuoci circa 2–3 minuti, girando una volta, finché il panko è ben dorato e il gambero opaco e sodo.",
+        "drain_serve": "Scola in verticale o su griglia perché il vapore esca dalla crosta. Servi subito con cavolo finissimo, limone e salsa tartara o maionese giapponese."
+      }
+    },
+    "es": {
+      "title": "Ebi Fry — Gambas con panko",
+      "description": "Gambas fritas japonesas rectas y crujientes con panko grueso e interior jugoso. Los cortes liberan los tendones y secar la cola reduce salpicaduras.",
+      "animeContext": "Inspirado en la comida escolar y familiar de My Hero Academia; no se afirma una escena exacta.",
+      "ingredients": {
+        "shrimp": {
+          "name": "Gambas grandes crudas con cáscara",
+          "note": null
+        },
+        "flour": {
+          "name": "Harina",
+          "note": null
+        },
+        "egg": {
+          "name": "Huevo",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        },
+        "pepper": {
+          "name": "Pimienta negra",
+          "note": null
+        },
+        "oil": {
+          "name": "Aceite para freír",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Repollo muy fino",
+          "note": null
+        },
+        "lemon": {
+          "name": "Gajos de limón",
+          "note": null
+        },
+        "tartar": {
+          "name": "Salsa tártara o mayonesa japonesa",
+          "note": null
+        }
+      },
+      "steps": {
+        "clean_shrimp": "Pela dejando cola y último segmento, abre el dorso y retira la vena; seca bien.",
+        "straighten": "Haz 3–4 cortes poco profundos en el vientre y presiona suavemente el dorso hasta dejar el camarón casi recto.",
+        "dry_season": "Corta la punta de la cola y elimina el agua atrapada para reducir salpicaduras. Seca y salpimenta.",
+        "bread": "Pasa por harina, huevo y panko dejando la cola libre.",
+        "fry": "Fríe 3–4 a la vez a 175–180°C durante 2–3 minutos, girando una vez, hasta dorado y carne opaca.",
+        "drain_serve": "Escurre en rejilla y sirve enseguida con repollo, limón y salsa."
+      }
+    },
+    "fr": {
+      "title": "Ebi Fry — Crevettes au panko",
+      "description": "Crevettes japonaises frites, droites et croustillantes, enrobées de panko. Les incisions détendent les fibres et le séchage de la queue limite les projections.",
+      "animeContext": "Inspiré des repas scolaires et familiaux de My Hero Academia; aucune scène précise n’est revendiquée.",
+      "ingredients": {
+        "shrimp": {
+          "name": "Grosses crevettes crues avec carapace",
+          "note": null
+        },
+        "flour": {
+          "name": "Farine",
+          "note": null
+        },
+        "egg": {
+          "name": "Œuf",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
+          "note": null
+        },
+        "salt": {
+          "name": "Sel",
+          "note": null
+        },
+        "pepper": {
+          "name": "Poivre noir",
+          "note": null
+        },
+        "oil": {
+          "name": "Huile de friture",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Chou finement émincé",
+          "note": null
+        },
+        "lemon": {
+          "name": "Quartiers de citron",
+          "note": null
+        },
+        "tartar": {
+          "name": "Sauce tartare ou mayonnaise japonaise",
+          "note": null
+        }
+      },
+      "steps": {
+        "clean_shrimp": "Décortiquez en gardant queue et dernier segment, incisez le dos, retirez le boyau et séchez.",
+        "straighten": "Faites 3–4 petites incisions ventrales puis pressez doucement le dos pour presque redresser la crevette.",
+        "dry_season": "Coupez la pointe de la queue et chassez l’eau emprisonnée pour limiter les projections. Séchez et assaisonnez.",
+        "bread": "Passez dans farine, œuf et panko en laissant la queue libre.",
+        "fry": "Faites frire 3–4 à la fois à 175–180°C pendant 2–3 minutes jusqu’à panure dorée et chair opaque.",
+        "drain_serve": "Égouttez sur grille et servez aussitôt avec chou, citron et sauce."
+      }
+    },
+    "de": {
+      "title": "Ebi Fry — Panko-Garnelen",
+      "description": "Gerade, knusprige japanische frittierte Garnelen mit grober Panko-Hülle. Kleine Schnitte entspannen die Fasern, trockene Schwanzflossen reduzieren Spritzer.",
+      "animeContext": "Von Schul- und Familienessen in My Hero Academia inspiriert; keine konkrete Szene wird behauptet.",
+      "ingredients": {
+        "shrimp": {
+          "name": "Große rohe Garnelen mit Schale",
+          "note": null
+        },
+        "flour": {
+          "name": "Mehl",
+          "note": null
+        },
+        "egg": {
+          "name": "Ei",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
+          "note": null
+        },
+        "salt": {
+          "name": "Salz",
+          "note": null
+        },
+        "pepper": {
+          "name": "Schwarzer Pfeffer",
+          "note": null
+        },
+        "oil": {
+          "name": "Frittieröl",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Fein geschnittener Kohl",
+          "note": null
+        },
+        "lemon": {
+          "name": "Zitronenspalten",
+          "note": null
+        },
+        "tartar": {
+          "name": "Remoulade oder japanische Mayonnaise",
+          "note": null
+        }
+      },
+      "steps": {
+        "clean_shrimp": "Schälen, letztes Segment und Schwanz lassen, Rücken einschneiden, Darm entfernen und trocknen.",
+        "straighten": "3–4 flache Schnitte an der Bauchseite machen und den Rücken sanft drücken, bis die Garnele fast gerade liegt.",
+        "dry_season": "Schwanzspitze kürzen und eingeschlossenes Wasser entfernen, damit weniger Öl spritzt. Trocknen und würzen.",
+        "bread": "In Mehl, Ei und Panko wenden, Schwanz frei lassen.",
+        "fry": "Je 3–4 Stück bei 175–180°C 2–3 Minuten frittieren, einmal wenden, bis goldbraun und innen opak.",
+        "drain_serve": "Auf Gitter abtropfen und sofort mit Kohl, Zitrone und Sauce servieren."
+      }
+    },
+    "pt": {
+      "title": "Ebi Fry — Camarões com panko",
+      "description": "Camarões japoneses fritos, retos e crocantes, com panko grosso e interior suculento. Pequenos cortes relaxam os tendões e secar a cauda reduz respingos.",
+      "animeContext": "Inspirado nas refeições escolares e familiares de My Hero Academia; não afirmamos cena específica.",
+      "ingredients": {
+        "shrimp": {
+          "name": "Camarões grandes crus com casca",
+          "note": null
+        },
+        "flour": {
+          "name": "Farinha",
+          "note": null
+        },
+        "egg": {
+          "name": "Ovo",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        },
+        "pepper": {
+          "name": "Pimenta-do-reino",
+          "note": null
+        },
+        "oil": {
+          "name": "Óleo para fritar",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Repolho bem fino",
+          "note": null
+        },
+        "lemon": {
+          "name": "Gomos de limão",
+          "note": null
+        },
+        "tartar": {
+          "name": "Molho tártaro ou maionese japonesa",
+          "note": null
+        }
+      },
+      "steps": {
+        "clean_shrimp": "Descasque mantendo cauda e último segmento, abra o dorso, retire o intestino e seque.",
+        "straighten": "Faça 3–4 cortes rasos no ventre e pressione o dorso delicadamente até o camarão ficar quase reto.",
+        "dry_season": "Corte a ponta da cauda e retire água presa para reduzir respingos. Seque e tempere.",
+        "bread": "Passe em farinha, ovo e panko deixando a cauda livre.",
+        "fry": "Frite 3–4 por vez a 175–180°C por 2–3 minutos, virando uma vez, até dourar e ficar opaco.",
+        "drain_serve": "Escorra em grade e sirva imediatamente com repolho, limão e molho."
+      }
+    }
+  }
+}
