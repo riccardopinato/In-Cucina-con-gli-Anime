@@ -380,7 +380,7 @@ Delivered:
 - runtime remains 50 recipes / 50 artwork bindings;
 - exact-head Development checks green and PR #21 merged to `main`.
 
-### F3I — Motion polish — IMPLEMENTED / CI PENDING
+### F3I — Motion polish — PASS
 
 Goal: add lightweight, tactile motion before expanding the recipe catalog further, without adding runtime dependencies or weakening reduced-motion accessibility.
 
@@ -396,4 +396,6 @@ Delivered in the implementation branch:
 - all new motion paths fail closed to static UI when `MediaQuery.disableAnimations` is enabled;
 - app version `0.10.0+10`.
 
-Final PASS requires exact-head Development checks green and merge to `main`.
+Evidence:
+- implementation head `1eb523bd3f829ba4410c87f6729a10f3ff736ea5` passed Development checks run `40219047598`: authoring/catalog gates, Flutter analyze/test, synthetic Web preview, production Web release and persistent-signed Android ARM64 artifact all PASS;
+- merge policy remains: the final branch head must be green before merge.
