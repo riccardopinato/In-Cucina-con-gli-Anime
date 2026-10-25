@@ -1,13 +1,13 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000037",
-  "contentVersion": 1,
+  "contentVersion": 2,
   "status": "published",
   "inspirationTitle": "Fruits Basket",
   "animeReferences": [
     {
       "workTitle": "Fruits Basket",
-      "relation": "recurring_association",
+      "relation": "inspired",
       "season": null,
       "episode": null,
       "chapter": null
@@ -16,8 +16,8 @@
   "editorialVerification": {
     "culinaryStatus": "verified",
     "culinaryNote": "Recipe normalized explicitly as Kanto-style ozoni with clear dashi broth and grilled kirimochi; regional variation disclosed.",
-    "animeStatus": "partial",
-    "animeNote": "Fruits Basket has strong New Year/mochi context; exact bowl composition is not claimed."
+    "animeStatus": "unverified",
+    "animeNote": "Fruits Basket has a verified New Year context, but this audit did not establish Kanto-style ozoni as a recurring or exact on-screen dish; association retained as cultural inspiration only."
   },
   "prepMinutes": 15,
   "cookMinutes": 20,
@@ -103,7 +103,7 @@
     "en": {
       "title": "Kanto-style Ozoni",
       "description": "A clear Kanto-style New Year soup with grilled mochi, chicken, vegetables and dashi. Ozoni changes dramatically by region and family, so this recipe states its style explicitly instead of presenting one bowl as the single national standard.",
-      "animeContext": "Fruits Basket has strong New Year and mochi associations, making ozoni a fitting recurring cultural reference. The exact bowl here is explicitly the app’s Kanto-style reconstruction.",
+      "animeContext": "Fruits Basket has a strong New Year setting, but this Kanto-style ozoni is presented as seasonal culinary inspiration rather than a verified recurring dish from the series.",
       "ingredients": {
         "kirimochi": {
           "name": "Kirimochi",
@@ -154,7 +154,7 @@
     "it": {
       "title": "Ozoni in stile Kanto",
       "description": "Una zuppa di Capodanno in stile Kanto, con brodo limpido di dashi, mochi grigliato, pollo e verdure. L’ozoni cambia molto tra regioni e famiglie: per questo la ricetta dichiara esplicitamente lo stile invece di presentarlo come unica versione nazionale.",
-      "animeContext": "Fruits Basket ha forti riferimenti al Capodanno e al mochi, quindi l’ozoni è un’associazione culturale coerente. La ciotola qui proposta è esplicitamente la ricostruzione in stile Kanto dell’app.",
+      "animeContext": "Fruits Basket ha un forte contesto legato al Capodanno, ma questo ozoni in stile Kanto è presentato come ispirazione culinaria stagionale e non come piatto ricorrente verificato nella serie.",
       "ingredients": {
         "kirimochi": {
           "name": "Kirimochi",
@@ -205,7 +205,7 @@
     "es": {
       "title": "Ozoni estilo Kanto",
       "description": "Sopa de Año Nuevo estilo Kanto con dashi claro, mochi tostado, pollo y verduras. El ozoni varía mucho según región y familia.",
-      "animeContext": "Fruits Basket tiene fuertes asociaciones con Año Nuevo y mochi; esta receta es explícitamente una reconstrucción estilo Kanto.",
+      "animeContext": "Fruits Basket tiene un fuerte contexto de Año Nuevo, pero este ozoni estilo Kanto se presenta como inspiración culinaria estacional y no como plato recurrente verificado de la serie.",
       "ingredients": {
         "kirimochi": {
           "name": "Kirimochi",
@@ -256,7 +256,7 @@
     "fr": {
       "title": "Ozoni style Kanto",
       "description": "Soupe du Nouvel An de style Kanto, au dashi clair, mochi grillé, poulet et légumes. L’ozoni varie fortement selon les régions et les familles.",
-      "animeContext": "Fruits Basket est fortement associé au Nouvel An et au mochi; ce bol est explicitement une reconstruction de style Kanto.",
+      "animeContext": "Fruits Basket possède un contexte marqué de Nouvel An, mais cet ozoni de style Kanto est présenté comme inspiration culinaire saisonnière et non comme plat récurrent vérifié de la série.",
       "ingredients": {
         "kirimochi": {
           "name": "Kirimochi",
@@ -307,7 +307,7 @@
     "de": {
       "title": "Ozoni nach Kanto-Art",
       "description": "Kanto-Neujahrssuppe mit klarer Dashi-Brühe, gegrilltem Mochi, Huhn und Gemüse. Ozoni variiert stark je nach Region und Familie.",
-      "animeContext": "Fruits Basket hat starke Neujahrs- und Mochi-Bezüge; diese Schale ist ausdrücklich die Kanto-Rekonstruktion der App.",
+      "animeContext": "Fruits Basket hat einen deutlichen Neujahrs-Kontext; dieses Kanto-Ozoni wird jedoch als saisonale kulinarische Inspiration und nicht als verifiziert wiederkehrendes Gericht der Serie dargestellt.",
       "ingredients": {
         "kirimochi": {
           "name": "Kirimochi",
@@ -358,7 +358,7 @@
     "pt": {
       "title": "Ozoni estilo Kanto",
       "description": "Sopa de Ano-Novo estilo Kanto com dashi claro, mochi grelhado, frango e legumes. O ozoni varia muito conforme região e família.",
-      "animeContext": "Fruits Basket tem forte associação com Ano-Novo e mochi; esta tigela é explicitamente uma reconstrução estilo Kanto do app.",
+      "animeContext": "Fruits Basket tem um forte contexto de Ano-Novo, mas este ozoni ao estilo Kanto é apresentado como inspiração culinária sazonal e não como prato recorrente verificado da série.",
       "ingredients": {
         "kirimochi": {
           "name": "Kirimochi",
