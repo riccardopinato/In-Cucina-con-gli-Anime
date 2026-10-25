@@ -365,3 +365,19 @@ Visual-system candidates:
 - seasonal character sets;
 - contextual character behaviour by section, season or recipe theme;
 - thematic decorative collections while keeping runtime and asset weight under control.
+
+
+### F3H — Recipe editorial hardening
+
+Status: IMPLEMENTED — exact-head PR CI pending.
+
+- P0/P1/P2 recipe audit findings closed.
+- Legacy preparation order and ingredient coherence hardened.
+- Anime-reference semantics normalized.
+- 13 weak/mismatched recipe artworks regenerated.
+- Placeholder regression gate added.
+- Canonical authoring validation PASS.
+- Similarity unresolved blocking: 0.
+- Runtime: 50 recipes / 50 artwork bindings.
+
+Final PASS requires exact-head PR CI green and merge to `main`.
