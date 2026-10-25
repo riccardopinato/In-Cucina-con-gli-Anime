@@ -25,7 +25,7 @@
   "difficulty": "medium",
   "contentOrigin": "adapted",
   "sourceNote": "Editorial rebuild from Ricettario Vol. 5; ratio aligned to tested chawanmushi guidance and filling pre-cooking made explicit.",
-  "imageAssetId": null,
+  "imageAssetId": "recipe_000048_artwork",
   "ingredients": [
     {
       "id": "eggs",
