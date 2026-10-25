@@ -38,6 +38,16 @@ class _RecipeCardState extends State<RecipeCard> {
     };
   }
 
+  @override
+  void didUpdateWidget(covariant RecipeCard oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (oldWidget.recipe.id != widget.recipe.id) {
+      _pressed = false;
+      _hovered = false;
+      _mascotCelebrationToken = 0;
+    }
+  }
+
   void _handleFavoritePressed() {
     final reduceMotion =
         MediaQuery.maybeOf(context)?.disableAnimations ?? false;
