@@ -1,0 +1,342 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000036",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Gintama",
+  "animeReferences": [
+    {
+      "workTitle": "Gintama",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Negima-style yakitori verified: chicken thigh and scallion skewers glazed with tare; raw-poultry cross-contamination risk addressed.",
+    "animeStatus": "unverified",
+    "animeNote": "Gintama association retained as inspiration until a direct yakitori scene is verified."
+  },
+  "prepMinutes": 20,
+  "cookMinutes": 15,
+  "servings": 2,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from Ricettario Vol. 4; tare handling and safe glazing sequence expanded.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "chicken_thigh",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "id": "scallions",
+      "quantity": 2,
+      "unit": null
+    },
+    {
+      "id": "soy_sauce",
+      "quantity": 80,
+      "unit": "ml"
+    },
+    {
+      "id": "mirin",
+      "quantity": 60,
+      "unit": "ml"
+    },
+    {
+      "id": "sake",
+      "quantity": 30,
+      "unit": "ml"
+    },
+    {
+      "id": "brown_sugar",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "garlic",
+      "quantity": 1,
+      "unit": "clove"
+    }
+  ],
+  "steps": [
+    {
+      "id": "make_tare",
+      "timerSeconds": 720
+    },
+    {
+      "id": "prep_skewers",
+      "timerSeconds": 600
+    },
+    {
+      "id": "assemble",
+      "timerSeconds": 300
+    },
+    {
+      "id": "grill_first",
+      "timerSeconds": 600
+    },
+    {
+      "id": "glaze_finish",
+      "timerSeconds": 180
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Yakitori Negima with Tare",
+      "description": "Chicken-and-scallion yakitori glazed with a concentrated soy-mirin tare. Using thigh meat with skin gives the skewers enough fat to stay juicy while the late glaze caramelizes without burning.",
+      "animeContext": "Inspired by Gintama’s frequent izakaya and street-food atmosphere. Until a direct yakitori scene is documented, the relation remains inspiration rather than a specific appearance.",
+      "ingredients": {
+        "chicken_thigh": {
+          "name": "Boneless chicken thighs with skin",
+          "note": null
+        },
+        "scallions": {
+          "name": "Large scallions or negi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "brown_sugar": {
+          "name": "Brown sugar",
+          "note": null
+        },
+        "garlic": {
+          "name": "Garlic clove",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_tare": "Combine soy sauce, mirin, sake, sugar and lightly crushed garlic in a small saucepan. Simmer gently 10–12 minutes until reduced and glossy. Divide the finished tare into a clean serving/glazing portion before it ever touches raw chicken.",
+        "prep_skewers": "If using wooden skewers, soak them at least 20 minutes. Cut chicken into even 2.5 cm pieces and scallions into matching lengths; keep the skin attached because it bastes the meat and crisps on the grill.",
+        "assemble": "Thread chicken and scallion alternately, packing pieces close but not compressed. Keep the exposed skewer ends clean so they are easy to turn.",
+        "grill_first": "Heat a grill or ridged pan to medium-high and oil lightly. Cook the skewers 4–5 minutes per side, turning as needed, until the chicken is browned and safely cooked through at the thickest piece.",
+        "glaze_finish": "Only after the chicken is essentially cooked, brush with the clean tare. Grill about 30–60 seconds per side until the glaze bubbles and caramelizes, then brush once more off the heat and serve immediately."
+      }
+    },
+    "it": {
+      "title": "Yakitori Negima alla tare",
+      "description": "Yakitori di pollo e cipollotto glassati con una tare concentrata di soia e mirin. La coscia con pelle mantiene gli spiedini succosi, mentre la glassa aggiunta alla fine caramella senza bruciare.",
+      "animeContext": "Ispirato alla frequente atmosfera da izakaya e street food di Gintama. Finché non documentiamo una scena precisa, il rapporto resta di ispirazione.",
+      "ingredients": {
+        "chicken_thigh": {
+          "name": "Cosce di pollo disossate con pelle",
+          "note": null
+        },
+        "scallions": {
+          "name": "Cipollotti grandi o negi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa di soia",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "brown_sugar": {
+          "name": "Zucchero di canna",
+          "note": null
+        },
+        "garlic": {
+          "name": "Spicchio d’aglio",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_tare": "Riunisci salsa di soia, mirin, sake, zucchero e aglio leggermente schiacciato in un pentolino. Fai sobbollire 10–12 minuti finché la salsa si riduce e diventa lucida. Dividi subito una parte pulita per la glassatura finale, prima che qualunque utensile tocchi il pollo crudo.",
+        "prep_skewers": "Se usi spiedini di legno, lasciali in ammollo almeno 20 minuti. Taglia il pollo in bocconi regolari da circa 2,5 cm e i cipollotti in pezzi della stessa lunghezza; lascia la pelle attaccata, perché protegge la carne e diventa croccante.",
+        "assemble": "Infilza alternando pollo e cipollotto, con i pezzi vicini ma non compressi. Mantieni pulita l’estremità libera degli spiedini per poterli girare facilmente.",
+        "grill_first": "Scalda griglia o piastra rigata a fuoco medio-alto e ungila appena. Cuoci 4–5 minuti per lato, girando quando serve, finché il pollo è ben dorato e cotto in sicurezza nel punto più spesso.",
+        "glaze_finish": "Solo quando il pollo è quasi completamente cotto spennella con la tare pulita. Griglia 30–60 secondi per lato finché la glassa fa bolle e caramella, poi spennella ancora una volta fuori dal fuoco e servi subito."
+      }
+    },
+    "es": {
+      "title": "Yakitori Negima con tare",
+      "description": "Yakitori de pollo y cebolleta glaseado con tare de soja y mirin. El muslo con piel mantiene jugosidad y la salsa se carameliza al final.",
+      "animeContext": "Inspirado en la atmósfera de izakaya y comida callejera de Gintama; el vínculo sigue siendo inspiración sin una escena verificada.",
+      "ingredients": {
+        "chicken_thigh": {
+          "name": "Muslos de pollo deshuesados con piel",
+          "note": null
+        },
+        "scallions": {
+          "name": "Cebolletas grandes o negi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "brown_sugar": {
+          "name": "Azúcar moreno",
+          "note": null
+        },
+        "garlic": {
+          "name": "Diente de ajo",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_tare": "Cuece soja, mirin, sake, azúcar y ajo 10–12 minutos hasta reducir y brillar. Separa una porción limpia antes de tocar pollo crudo.",
+        "prep_skewers": "Remoja brochetas de madera 20 minutos. Corta pollo y cebolleta en piezas de unos 2,5 cm.",
+        "assemble": "Ensarta alternando pollo y cebolleta sin comprimir demasiado.",
+        "grill_first": "Asa a fuego medio-alto 4–5 minutos por lado hasta dorar y lograr cocción segura.",
+        "glaze_finish": "Cuando el pollo esté casi hecho, pinta con tare limpia y carameliza 30–60 segundos por lado; vuelve a pintar fuera del fuego."
+      }
+    },
+    "fr": {
+      "title": "Yakitori Negima sauce tare",
+      "description": "Yakitori de poulet et ciboule glacé d’une tare soja-mirin concentrée. La cuisse avec peau reste juteuse et la sauce caramélise en fin de cuisson.",
+      "animeContext": "Inspiré de l’ambiance izakaya et street food de Gintama; le lien reste une inspiration sans scène précise vérifiée.",
+      "ingredients": {
+        "chicken_thigh": {
+          "name": "Cuisses de poulet désossées avec peau",
+          "note": null
+        },
+        "scallions": {
+          "name": "Grosses ciboules ou negi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Saké",
+          "note": null
+        },
+        "brown_sugar": {
+          "name": "Sucre brun",
+          "note": null
+        },
+        "garlic": {
+          "name": "Gousse d’ail",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_tare": "Faites réduire soja, mirin, saké, sucre et ail 10–12 minutes jusqu’à texture brillante. Réservez une portion propre avant tout contact avec le poulet cru.",
+        "prep_skewers": "Trempez les brochettes en bois 20 minutes. Coupez poulet et ciboule en morceaux réguliers d’environ 2,5 cm.",
+        "assemble": "Alternez poulet et ciboule sans trop serrer.",
+        "grill_first": "Grillez à feu moyen-vif 4–5 minutes par face jusqu’à coloration et cuisson sûre.",
+        "glaze_finish": "Quand le poulet est presque cuit, badigeonnez de tare propre et caramélisez 30–60 secondes par face; badigeonnez encore hors feu."
+      }
+    },
+    "de": {
+      "title": "Yakitori Negima mit Tare",
+      "description": "Yakitori aus Huhn und Frühlingszwiebel mit konzentrierter Soja-Mirin-Tare. Schenkelfleisch mit Haut bleibt saftig, die späte Glasur karamellisiert ohne zu verbrennen.",
+      "animeContext": "Von Gintamas Izakaya- und Street-Food-Atmosphäre inspiriert; ohne verifizierte Szene bleibt es eine Inspiration.",
+      "ingredients": {
+        "chicken_thigh": {
+          "name": "Ausgelöste Hähnchenschenkel mit Haut",
+          "note": null
+        },
+        "scallions": {
+          "name": "Große Frühlingszwiebeln oder Negi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "brown_sugar": {
+          "name": "Brauner Zucker",
+          "note": null
+        },
+        "garlic": {
+          "name": "Knoblauchzehe",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_tare": "Sojasauce, Mirin, Sake, Zucker und Knoblauch 10–12 Minuten glänzend einkochen. Eine saubere Portion abteilen, bevor etwas rohes Huhn berührt.",
+        "prep_skewers": "Holzspieße 20 Minuten wässern. Huhn und Frühlingszwiebel in etwa 2,5-cm-Stücke schneiden.",
+        "assemble": "Huhn und Zwiebel abwechselnd aufspießen, ohne zu stark zu pressen.",
+        "grill_first": "Bei mittelhoher Hitze 4–5 Minuten je Seite grillen, bis das Huhn gebräunt und sicher durchgegart ist.",
+        "glaze_finish": "Erst kurz vor Ende mit sauberer Tare bestreichen und 30–60 Sekunden je Seite karamellisieren; außerhalb der Hitze nochmals glasieren."
+      }
+    },
+    "pt": {
+      "title": "Yakitori Negima com tare",
+      "description": "Yakitori de frango e cebolinha com tare concentrada de soja e mirin. A coxa com pele mantém suculência e a cobertura carameliza no final.",
+      "animeContext": "Inspirado na atmosfera de izakaya e comida de rua de Gintama; sem cena verificada, o vínculo permanece como inspiração.",
+      "ingredients": {
+        "chicken_thigh": {
+          "name": "Coxas de frango desossadas com pele",
+          "note": null
+        },
+        "scallions": {
+          "name": "Cebolinhas grandes ou negi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Molho de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Saquê",
+          "note": null
+        },
+        "brown_sugar": {
+          "name": "Açúcar mascavo",
+          "note": null
+        },
+        "garlic": {
+          "name": "Dente de alho",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_tare": "Reduza soja, mirin, saquê, açúcar e alho por 10–12 minutos até ficar brilhante. Separe uma porção limpa antes de qualquer contato com frango cru.",
+        "prep_skewers": "Deixe espetos de madeira de molho 20 minutos. Corte frango e cebolinha em pedaços de cerca de 2,5 cm.",
+        "assemble": "Alterne frango e cebolinha sem comprimir demais.",
+        "grill_first": "Grelhe em fogo médio-alto por 4–5 minutos de cada lado até dourar e atingir cocção segura.",
+        "glaze_finish": "Quando o frango estiver quase pronto, pincele com tare limpa e caramelize 30–60 segundos de cada lado; pincele novamente fora do fogo."
+      }
+    }
+  }
+}
