@@ -1,0 +1,50 @@
+name: F3G final materialization
+
+on:
+  push:
+    branches:
+      - f3g-implementation
+    paths:
+      - '.github/workflows/f3g-finalize.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Compile canonical catalog
+        shell: bash
+        run: |
+          mkdir -p build/authoring
+          set +e
+          python3 tool/compile_recipe_catalog.py
+          status=$?
+          set -e
+          echo "$status" > build/f3g-finalize-status.txt
+
+      - name: Persist compiler evidence
+        if: always()
+        shell: bash
+        run: |
+          if [ -f build/authoring/recipe_authoring_report.json ]; then
+            cp build/authoring/recipe_authoring_report.json docs/_F3G_FINAL_REPORT.json
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/_F3G_FINAL_REPORT.json 2>/dev/null || true
+          if [ "$(cat build/f3g-finalize-status.txt)" = "0" ]; then
+            git add assets/catalog/
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "ci: materialize final F3G catalog"
+            git push origin HEAD:f3g-implementation
+          fi
+
+      - name: Enforce compiler
+        shell: bash
+        run: test "$(cat build/f3g-finalize-status.txt)" = "0"
