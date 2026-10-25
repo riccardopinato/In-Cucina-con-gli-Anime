@@ -25,7 +25,7 @@
   "difficulty": "medium",
   "contentOrigin": "adapted",
   "sourceNote": "Editorial rebuild from Ricettario Vol. 3; title and ambiguous curry-roux quantity corrected.",
-  "imageAssetId": null,
+  "imageAssetId": "recipe_000029_artwork",
   "ingredients": [
     {
       "id": "pork_cutlets",

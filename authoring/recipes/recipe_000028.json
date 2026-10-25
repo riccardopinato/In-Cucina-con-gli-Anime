@@ -25,7 +25,7 @@
   "difficulty": "medium",
   "contentOrigin": "adapted",
   "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3; rapid-cooling and frying cues improved.",
-  "imageAssetId": null,
+  "imageAssetId": "recipe_000028_artwork",
   "ingredients": [
     {
       "id": "potatoes",

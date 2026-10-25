@@ -25,7 +25,7 @@
   "difficulty": "medium",
   "contentOrigin": "adapted",
   "sourceNote": "Editorial rebuild from Ricettario Vol. 3; total elapsed time corrected to include cooling and refrigeration.",
-  "imageAssetId": null,
+  "imageAssetId": "recipe_000030_artwork",
   "ingredients": [
     {
       "id": "eggs",

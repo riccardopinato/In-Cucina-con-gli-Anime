@@ -25,7 +25,7 @@
   "difficulty": "easy",
   "contentOrigin": "adapted",
   "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 4; mentsuyu balance and noodle washing clarified.",
-  "imageAssetId": null,
+  "imageAssetId": "recipe_000031_artwork",
   "ingredients": [
     {
       "id": "soba",

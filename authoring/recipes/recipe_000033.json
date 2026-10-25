@@ -25,7 +25,7 @@
   "difficulty": "easy",
   "contentOrigin": "adapted",
   "sourceNote": "Editorial rebuild from Ricettario Vol. 4; fresh-aburaage path clarified and prepared inari-age kept as simple default.",
-  "imageAssetId": null,
+  "imageAssetId": "recipe_000033_artwork",
   "ingredients": [
     {
       "id": "inari_age",
