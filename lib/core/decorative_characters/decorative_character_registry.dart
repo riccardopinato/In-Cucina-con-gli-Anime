@@ -17,6 +17,7 @@ enum DecorativeSlot {
   shoppingEmpty,
   searchEmpty,
   wideEditorialGap,
+  recipeCardCorner,
 }
 
 class DecorativeCharacterDefinition {
@@ -52,6 +53,7 @@ abstract final class DecorativeCharacterRegistry {
         DecorativeSlot.exploreHero,
         DecorativeSlot.searchEmpty,
         DecorativeSlot.wideEditorialGap,
+        DecorativeSlot.recipeCardCorner,
       },
       bodyColor: Color(0xFFE68A45),
       secondaryColor: Color(0xFFFFF4DE),
@@ -66,6 +68,7 @@ abstract final class DecorativeCharacterRegistry {
         DecorativeSlot.shoppingEmpty,
         DecorativeSlot.searchEmpty,
         DecorativeSlot.wideEditorialGap,
+        DecorativeSlot.recipeCardCorner,
       },
       bodyColor: Color(0xFF79A85A),
       secondaryColor: Color(0xFFDCE7A7),
@@ -93,6 +96,7 @@ abstract final class DecorativeCharacterRegistry {
       slots: {
         DecorativeSlot.exploreHero,
         DecorativeSlot.wideEditorialGap,
+        DecorativeSlot.recipeCardCorner,
       },
       bodyColor: Color(0xFFD96657),
       secondaryColor: Color(0xFFF4D48A),
@@ -107,6 +111,7 @@ abstract final class DecorativeCharacterRegistry {
         DecorativeSlot.exploreHero,
         DecorativeSlot.favoritesEmpty,
         DecorativeSlot.wideEditorialGap,
+        DecorativeSlot.recipeCardCorner,
       },
       bodyColor: Color(0xFFA96A3F),
       secondaryColor: Color(0xFFE7BC68),
@@ -121,6 +126,7 @@ abstract final class DecorativeCharacterRegistry {
         DecorativeSlot.exploreHero,
         DecorativeSlot.shoppingEmpty,
         DecorativeSlot.wideEditorialGap,
+        DecorativeSlot.recipeCardCorner,
       },
       bodyColor: Color(0xFF4C8E76),
       secondaryColor: Color(0xFFF1D389),
