@@ -1,6 +1,6 @@
 # Android persistent signing — update in place
 
-Status: infrastructure prepared; one-time GitHub Secrets setup required.
+Status: infrastructure prepared; repository owner reports the four GitHub Actions Secrets configured on 2026-10-25; CI verification pending.
 
 ## Goal
 
