@@ -367,17 +367,33 @@ Visual-system candidates:
 - thematic decorative collections while keeping runtime and asset weight under control.
 
 
-### F3H — Recipe editorial hardening
+### F3H — Recipe editorial hardening — PASS
 
-Status: IMPLEMENTED — exact-head PR CI pending.
+Delivered:
+- P0/P1/P2 recipe audit findings closed;
+- legacy preparation order and ingredient coherence hardened;
+- anime-reference semantics normalized;
+- 13 weak/mismatched recipe artworks regenerated and committed;
+- placeholder regression gate added;
+- canonical authoring validation PASS;
+- similarity unresolved blocking: 0;
+- runtime remains 50 recipes / 50 artwork bindings;
+- exact-head Development checks green and PR #21 merged to `main`.
 
-- P0/P1/P2 recipe audit findings closed.
-- Legacy preparation order and ingredient coherence hardened.
-- Anime-reference semantics normalized.
-- 13 weak/mismatched recipe artworks regenerated.
-- Placeholder regression gate added.
-- Canonical authoring validation PASS.
-- Similarity unresolved blocking: 0.
-- Runtime: 50 recipes / 50 artwork bindings.
+### F3I — Motion polish — IMPLEMENTED / CI PENDING
 
-Final PASS requires exact-head PR CI green and merge to `main`.
+Goal: add lightweight, tactile motion before expanding the recipe catalog further, without adding runtime dependencies or weakening reduced-motion accessibility.
+
+Delivered in the implementation branch:
+- recipe cards compress slightly on touch and use a subtle artwork zoom on pointer hover;
+- favorite feedback keeps its existing heart pop and now respects reduced-motion;
+- checked ingredients gain a soft surface transition and one-shot check pop;
+- cooking timer progress animates smoothly, the timer icon breathes while active, and completion gets a short pulse before the dialog;
+- recipe detail content enters with a small fade + vertical slide while preserving the existing image Hero transition;
+- F3C procedural mascots gain a dedicated `recipeCardCorner` slot;
+- about one recipe card in six gets a brief deterministic corner peek, with additional short mascot feedback when a recipe is added to Favorites;
+- passive mascot motion is sparse, transient and never requires a new bitmap/GIF/Lottie/Rive dependency;
+- all new motion paths fail closed to static UI when `MediaQuery.disableAnimations` is enabled;
+- app version `0.10.0+10`.
+
+Final PASS requires exact-head Development checks green and merge to `main`.
