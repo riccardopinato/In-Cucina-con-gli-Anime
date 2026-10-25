@@ -1,0 +1,284 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000038",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "My Neighbor Totoro",
+  "animeReferences": [
+    {
+      "workTitle": "My Neighbor Totoro",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Kakigori verified as Japanese finely shaved ice; blender method explicitly downgraded to home approximation.",
+    "animeStatus": "unverified",
+    "animeNote": "Totoro association treated as summer-food inspiration."
+  },
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "servings": 2,
+  "difficulty": "easy",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from Ricettario Vol. 4; authentic shaved-ice texture distinguished from crushed blender ice.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "ice",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "id": "syrup",
+      "quantity": 4,
+      "unit": "tbsp"
+    },
+    {
+      "id": "condensed_milk",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "id": "anko",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "shiratama",
+      "quantity": 6,
+      "unit": "piece"
+    }
+  ],
+  "steps": [
+    {
+      "id": "prep_ice",
+      "timerSeconds": 180
+    },
+    {
+      "id": "shave",
+      "timerSeconds": 180
+    },
+    {
+      "id": "shape",
+      "timerSeconds": 120
+    },
+    {
+      "id": "syrup",
+      "timerSeconds": null
+    },
+    {
+      "id": "finish",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Kakigori with Condensed Milk",
+      "description": "Japanese shaved ice built from feather-light snow, flavoured with syrup and condensed milk. True kakigori is shaved rather than simply crushed: the fine structure is what makes it melt almost instantly on the tongue.",
+      "animeContext": "Inspired by the nostalgic Japanese summer atmosphere of My Neighbor Totoro. This is a seasonal cultural reference rather than a claim about an exact kakigori scene.",
+      "ingredients": {
+        "ice": {
+          "name": "Ice suitable for shaving",
+          "note": null
+        },
+        "syrup": {
+          "name": "Kakigori syrup, matcha, strawberry or melon",
+          "note": null
+        },
+        "condensed_milk": {
+          "name": "Sweetened condensed milk",
+          "note": null
+        },
+        "anko": {
+          "name": "Anko, optional",
+          "note": null
+        },
+        "shiratama": {
+          "name": "Shiratama dango, optional",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_ice": "For the softest texture, freeze clear water in the block size recommended for your kakigori machine and temper the block for a few minutes so the surface is not rock-hard. A powerful blender can make crushed ice, but it will be coarser and is a home approximation.",
+        "shave": "Shave the ice directly into chilled serving bowls using light pressure. Rotate the bowl as the snow falls so it builds evenly instead of compacting into hard layers.",
+        "shape": "Build a high loose mound with a spoon, touching it as little as possible. Do not press the shaved ice: trapped air is what gives kakigori its soft, quick-melting texture.",
+        "syrup": "Drizzle syrup gradually over the mound in two or three passes so the flavour reaches inside without collapsing the structure. Use about half first, then add more where the ice still looks white.",
+        "finish": "Finish with condensed milk. For an Uji-kintoki-style bowl, add anko and a few prepared shiratama around the base. Serve immediately; kakigori loses its intended texture within minutes."
+      }
+    },
+    "it": {
+      "title": "Kakigori al latte condensato",
+      "description": "Ghiaccio rasato giapponese in una neve leggerissima, condito con sciroppo e latte condensato. Il vero kakigori viene rasato, non semplicemente tritato: è la struttura finissima a farlo sciogliere quasi subito in bocca.",
+      "animeContext": "Ispirato all’atmosfera nostalgica dell’estate giapponese di My Neighbor Totoro. È un riferimento culturale stagionale, non la dichiarazione di una scena precisa di kakigori.",
+      "ingredients": {
+        "ice": {
+          "name": "Ghiaccio adatto alla rasatura",
+          "note": null
+        },
+        "syrup": {
+          "name": "Sciroppo per kakigori, matcha, fragola o melone",
+          "note": null
+        },
+        "condensed_milk": {
+          "name": "Latte condensato zuccherato",
+          "note": null
+        },
+        "anko": {
+          "name": "Anko, facoltativo",
+          "note": null
+        },
+        "shiratama": {
+          "name": "Shiratama dango, facoltativi",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_ice": "Per la consistenza più soffice, congela acqua limpida nel formato richiesto dalla macchina per kakigori e lascia temperare il blocco qualche minuto, così la superficie non è durissima. Un frullatore potente produce ghiaccio tritato più grossolano: è una scorciatoia domestica, non lo stesso risultato.",
+        "shave": "Rasa il ghiaccio direttamente in ciotole fredde usando poca pressione. Ruota la coppa mentre cade la neve, così si distribuisce senza compattarsi in strati duri.",
+        "shape": "Costruisci una montagnola alta e leggera toccandola il meno possibile. Non pressare: l’aria intrappolata è ciò che rende il kakigori soffice e rapidamente fondente.",
+        "syrup": "Versa lo sciroppo gradualmente in due o tre passaggi, in modo che penetri all’interno senza far crollare la struttura. Usa prima circa metà dose, poi completa dove il ghiaccio resta bianco.",
+        "finish": "Completa con latte condensato. Per una versione Uji-kintoki aggiungi anko e qualche shiratama già cotto alla base. Servi immediatamente: in pochi minuti la consistenza cambia."
+      }
+    },
+    "es": {
+      "title": "Kakigori con leche condensada",
+      "description": "Hielo raspado japonés en forma de nieve muy ligera con sirope y leche condensada. El verdadero kakigori se raspa, no se tritura simplemente.",
+      "animeContext": "Inspirado en el verano japonés nostálgico de My Neighbor Totoro; es una referencia cultural, no una escena exacta.",
+      "ingredients": {
+        "ice": {
+          "name": "Hielo para raspar",
+          "note": null
+        },
+        "syrup": {
+          "name": "Sirope de kakigori",
+          "note": null
+        },
+        "condensed_milk": {
+          "name": "Leche condensada",
+          "note": null
+        },
+        "anko": {
+          "name": "Anko, opcional",
+          "note": null
+        },
+        "shiratama": {
+          "name": "Shiratama dango, opcional",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_ice": "Para textura suave usa hielo preparado para máquina de kakigori y déjalo templar unos minutos. La batidora solo da una aproximación más gruesa.",
+        "shave": "Raspa directamente en cuencos fríos con poca presión, girando el recipiente para repartir la nieve.",
+        "shape": "Forma una montaña alta sin compactar; el aire aporta ligereza.",
+        "syrup": "Añade el sirope en varias pasadas para que penetre sin derrumbar el hielo.",
+        "finish": "Termina con leche condensada y, si deseas, anko y shiratama. Sirve inmediatamente."
+      }
+    },
+    "fr": {
+      "title": "Kakigori au lait concentré",
+      "description": "Glace japonaise rasée en neige très légère, parfumée de sirop et lait concentré. Le vrai kakigori est rasé, pas simplement pilé.",
+      "animeContext": "Inspiré de l’été japonais nostalgique de My Neighbor Totoro; il s’agit d’une référence culturelle, pas d’une scène précise.",
+      "ingredients": {
+        "ice": {
+          "name": "Glace adaptée au rasage",
+          "note": null
+        },
+        "syrup": {
+          "name": "Sirop pour kakigori",
+          "note": null
+        },
+        "condensed_milk": {
+          "name": "Lait concentré sucré",
+          "note": null
+        },
+        "anko": {
+          "name": "Anko, facultatif",
+          "note": null
+        },
+        "shiratama": {
+          "name": "Shiratama dango, facultatif",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_ice": "Utilisez de la glace adaptée à la machine à kakigori et tempérez-la quelques minutes. Le blender donne seulement une approximation plus grossière.",
+        "shave": "Râpez directement dans des bols froids avec peu de pression en tournant le récipient.",
+        "shape": "Montez une haute neige sans tasser; l’air donne la légèreté.",
+        "syrup": "Versez le sirop en plusieurs passages pour qu’il pénètre sans effondrer la glace.",
+        "finish": "Ajoutez lait concentré, et éventuellement anko et shiratama. Servez immédiatement."
+      }
+    },
+    "de": {
+      "title": "Kakigori mit Kondensmilch",
+      "description": "Japanisches Schabeis als federleichter Schnee mit Sirup und Kondensmilch. Echtes Kakigori wird gehobelt, nicht nur zerkleinert.",
+      "animeContext": "Von der nostalgischen japanischen Sommeratmosphäre in My Neighbor Totoro inspiriert; ein kultureller Bezug, keine konkrete Szene.",
+      "ingredients": {
+        "ice": {
+          "name": "Eis zum feinen Schaben",
+          "note": null
+        },
+        "syrup": {
+          "name": "Kakigori-Sirup",
+          "note": null
+        },
+        "condensed_milk": {
+          "name": "Gezuckerte Kondensmilch",
+          "note": null
+        },
+        "anko": {
+          "name": "Anko, optional",
+          "note": null
+        },
+        "shiratama": {
+          "name": "Shiratama-Dango, optional",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_ice": "Für weiche Textur Eis passend für eine Kakigori-Maschine verwenden und kurz temperieren. Ein Mixer erzeugt nur eine gröbere Hausvariante.",
+        "shave": "Eis mit wenig Druck direkt in kalte Schalen hobeln und die Schale drehen.",
+        "shape": "Locker zu einem hohen Hügel aufbauen und nicht pressen; Luft sorgt für die weiche Textur.",
+        "syrup": "Sirup in mehreren Durchgängen verteilen, damit er eindringt, ohne das Eis zusammenfallen zu lassen.",
+        "finish": "Mit Kondensmilch und optional Anko sowie Shiratama abschließen und sofort servieren."
+      }
+    },
+    "pt": {
+      "title": "Kakigori com leite condensado",
+      "description": "Gelo raspado japonês em neve leve, com xarope e leite condensado. Kakigori verdadeiro é raspado, não apenas triturado.",
+      "animeContext": "Inspirado no verão japonês nostálgico de My Neighbor Totoro; é uma referência cultural, não uma cena exata.",
+      "ingredients": {
+        "ice": {
+          "name": "Gelo adequado para raspar",
+          "note": null
+        },
+        "syrup": {
+          "name": "Xarope para kakigori",
+          "note": null
+        },
+        "condensed_milk": {
+          "name": "Leite condensado",
+          "note": null
+        },
+        "anko": {
+          "name": "Anko, opcional",
+          "note": null
+        },
+        "shiratama": {
+          "name": "Shiratama dango, opcional",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_ice": "Para textura macia use gelo preparado para máquina de kakigori e deixe temperar alguns minutos. Liquidificador produz apenas uma aproximação mais grossa.",
+        "shave": "Raspe diretamente em tigelas frias com pouca pressão, girando a tigela.",
+        "shape": "Monte uma pilha alta e leve sem comprimir; o ar dá a textura macia.",
+        "syrup": "Adicione o xarope em várias passadas para penetrar sem derrubar o gelo.",
+        "finish": "Finalize com leite condensado e, se quiser, anko e shiratama. Sirva imediatamente."
+      }
+    }
+  }
+}
