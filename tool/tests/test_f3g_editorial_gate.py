@@ -93,6 +93,18 @@ class F3GEditorialGateTest(unittest.TestCase):
         errors = validate_f3g_recipe(recipe, CONFIG)
         self.assertTrue(any("ingredient synthetic" in error for error in errors))
 
+    def test_spanish_todo_word_is_not_a_placeholder(self) -> None:
+        recipe = copy.deepcopy(BASE)
+        recipe["locales"]["it"]["steps"]["step_2"] += " Cocinar todo con cuidado."
+        errors = validate_f3g_recipe(recipe, CONFIG)
+        self.assertFalse(any("forbidden editorial token" in error for error in errors))
+
+    def test_uppercase_todo_marker_is_rejected(self) -> None:
+        recipe = copy.deepcopy(BASE)
+        recipe["locales"]["it"]["steps"]["step_2"] += " TODO"
+        errors = validate_f3g_recipe(recipe, CONFIG)
+        self.assertTrue(any("forbidden editorial token" in error for error in errors))
+
     def test_verified_appearance_requires_verified_anime_status(self) -> None:
         recipe = copy.deepcopy(BASE)
         recipe["animeReferences"][0]["relation"] = "verified_appearance"
