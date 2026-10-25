@@ -95,6 +95,7 @@ class _RecipeCardMascotPeekState extends State<RecipeCardMascotPeek> {
     if (oldWidget.recipeId != widget.recipeId) {
       _showTimer?.cancel();
       _hideTimer?.cancel();
+      _releaseOwner();
       _visible = false;
       _schedulePassive(initial: true);
     }
