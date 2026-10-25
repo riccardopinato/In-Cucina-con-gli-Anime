@@ -1,0 +1,526 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000025",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Food Wars!",
+  "animeReferences": [
+    {
+      "workTitle": "Food Wars! Shokugeki no Soma",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Cold ramen with colourful toppings and shoyu-vinegar dressing verified; noodle rinsing and drying made explicit.",
+    "animeStatus": "unverified",
+    "animeNote": "Association kept as inspiration rather than a claimed episode appearance."
+  },
+  "prepMinutes": 25,
+  "cookMinutes": 10,
+  "servings": 2,
+  "difficulty": "easy",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3 with timing and texture cues expanded.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "ramen_noodles",
+      "quantity": 2,
+      "unit": "portion"
+    },
+    {
+      "id": "ham",
+      "quantity": 4,
+      "unit": "slice"
+    },
+    {
+      "id": "cucumber",
+      "quantity": 0.5,
+      "unit": null
+    },
+    {
+      "id": "egg",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "tomatoes",
+      "quantity": 5,
+      "unit": null
+    },
+    {
+      "id": "surimi",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "id": "bean_sprouts",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "id": "soy_sauce",
+      "quantity": 4,
+      "unit": "tbsp"
+    },
+    {
+      "id": "rice_vinegar",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "id": "water",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "sugar",
+      "quantity": 1.5,
+      "unit": "tbsp"
+    },
+    {
+      "id": "sesame_oil",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "karashi",
+      "quantity": 0.5,
+      "unit": "tsp"
+    }
+  ],
+  "steps": [
+    {
+      "id": "make_dressing",
+      "timerSeconds": 300
+    },
+    {
+      "id": "make_kinshi",
+      "timerSeconds": 300
+    },
+    {
+      "id": "prep_toppings",
+      "timerSeconds": 420
+    },
+    {
+      "id": "cook_chill_noodles",
+      "timerSeconds": 300
+    },
+    {
+      "id": "plate",
+      "timerSeconds": null
+    },
+    {
+      "id": "dress_serve",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Hiyashi Chuka — Cold Summer Ramen",
+      "description": "A Japanese summer noodle dish served cold, with springy ramen, crisp vegetables, egg strips and savoury toppings arranged over a tangy soy-rice-vinegar dressing. Rinsing and drying the noodles well is what keeps the final plate refreshing rather than watery.",
+      "animeContext": "Inspired by the visual, seasonal cooking language of Food Wars!; no specific Hiyashi Chuka episode is asserted.",
+      "ingredients": {
+        "ramen_noodles": {
+          "name": "Fresh ramen noodles",
+          "note": null
+        },
+        "ham": {
+          "name": "Cooked ham or chashu",
+          "note": null
+        },
+        "cucumber": {
+          "name": "Cucumber",
+          "note": null
+        },
+        "egg": {
+          "name": "Egg",
+          "note": null
+        },
+        "tomatoes": {
+          "name": "Cherry tomatoes",
+          "note": null
+        },
+        "surimi": {
+          "name": "Surimi or crab meat",
+          "note": null
+        },
+        "bean_sprouts": {
+          "name": "Bean sprouts, optional",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "rice_vinegar": {
+          "name": "Rice vinegar",
+          "note": null
+        },
+        "water": {
+          "name": "Water",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Toasted sesame oil",
+          "note": null
+        },
+        "karashi": {
+          "name": "Japanese karashi mustard",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_dressing": "Stir sugar into rice vinegar until mostly dissolved, then add soy sauce, water and sesame oil. Taste: it should be bright and slightly sweet, not aggressively salty. Chill at least 5 minutes while preparing the toppings.",
+        "make_kinshi": "Beat the egg with a pinch of salt. Lightly oil a non-stick pan and cook it as a very thin sheet over medium-low heat, just until set. Cool completely, roll loosely and slice into fine kinshi-tamago strips.",
+        "prep_toppings": "Julienne the cucumber and ham or chashu, quarter the tomatoes, shred the surimi and blanch bean sprouts briefly if using. Keep every topping cold and well drained so it does not water down the noodles.",
+        "cook_chill_noodles": "Cook ramen in unsalted boiling water according to the package, usually 2–3 minutes. Drain immediately, rinse vigorously under cold water to remove surface starch, then chill in ice water. Drain again and shake or pat off as much water as possible.",
+        "plate": "Twirl the cold noodles onto two shallow bowls or plates. Arrange cucumber, ham, egg, surimi, tomatoes and sprouts in separate colourful sections so every bite can pick up a different topping.",
+        "dress_serve": "Pour the cold dressing over the noodles immediately before eating and add a small dab of karashi at the edge. Toss only at the table and serve at once while the noodles are firm and cold."
+      }
+    },
+    "it": {
+      "title": "Hiyashi Chuka — Ramen freddo estivo",
+      "description": "Un piatto estivo giapponese servito freddo, con ramen elastici, verdure croccanti, striscioline d’uovo e guarnizioni sapide su un condimento acidulo di soia e aceto di riso. Sciacquare e asciugare bene i noodles evita un risultato acquoso.",
+      "animeContext": "Ispirato al linguaggio visivo e stagionale della cucina di Food Wars!; non attribuiamo il piatto a un episodio preciso.",
+      "ingredients": {
+        "ramen_noodles": {
+          "name": "Noodles ramen freschi",
+          "note": null
+        },
+        "ham": {
+          "name": "Prosciutto cotto o chashu",
+          "note": null
+        },
+        "cucumber": {
+          "name": "Cetriolo",
+          "note": null
+        },
+        "egg": {
+          "name": "Uovo",
+          "note": null
+        },
+        "tomatoes": {
+          "name": "Pomodorini",
+          "note": null
+        },
+        "surimi": {
+          "name": "Surimi o polpa di granchio",
+          "note": null
+        },
+        "bean_sprouts": {
+          "name": "Germogli di soia, facoltativi",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa di soia",
+          "note": null
+        },
+        "rice_vinegar": {
+          "name": "Aceto di riso",
+          "note": null
+        },
+        "water": {
+          "name": "Acqua",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucchero",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Olio di sesamo tostato",
+          "note": null
+        },
+        "karashi": {
+          "name": "Senape giapponese karashi",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_dressing": "Sciogli lo zucchero nell’aceto di riso, poi unisci salsa di soia, acqua e olio di sesamo. Assaggia: deve essere fresco, acidulo e appena dolce, non eccessivamente salato. Raffredda almeno 5 minuti.",
+        "make_kinshi": "Sbatti l’uovo con un pizzico di sale. Ungi appena una padella antiaderente e cuoci una sfoglia sottilissima a fuoco medio-basso, solo finché è rappresa. Falla raffreddare del tutto, arrotolala e tagliala a fili sottili.",
+        "prep_toppings": "Taglia a julienne cetriolo e prosciutto o chashu, dividi i pomodorini, sfilaccia il surimi e sbollenta brevemente i germogli se li usi. Mantieni tutto freddo e ben scolato, così non annacqua i noodles.",
+        "cook_chill_noodles": "Cuoci il ramen in acqua bollente non salata secondo la confezione, in genere 2–3 minuti. Scola subito, sciacqua energicamente sotto acqua fredda per eliminare l’amido, poi passa in acqua e ghiaccio. Scola di nuovo e rimuovi quanta più acqua possibile.",
+        "plate": "Avvolgi i noodles freddi al centro di due piatti fondi o ciotole basse. Disponi cetriolo, prosciutto, uovo, surimi, pomodorini e germogli in sezioni separate e colorate.",
+        "dress_serve": "Versa il condimento freddo solo al momento di mangiare e aggiungi una piccola punta di karashi sul bordo. Mescola a tavola e servi subito, finché i noodles sono ben freddi ed elastici."
+      }
+    },
+    "es": {
+      "title": "Hiyashi Chuka — Ramen frío de verano",
+      "description": "Un plato japonés de verano servido frío con ramen elástico, verduras crujientes, tiras de huevo y aderezos sabrosos sobre una salsa ácida de soja y vinagre de arroz. Enjuagar y secar bien los fideos evita un plato aguado.",
+      "animeContext": "Inspirado en el lenguaje culinario visual y estacional de Food Wars!; no se afirma un episodio concreto.",
+      "ingredients": {
+        "ramen_noodles": {
+          "name": "Fideos ramen frescos",
+          "note": null
+        },
+        "ham": {
+          "name": "Jamón cocido o chashu",
+          "note": null
+        },
+        "cucumber": {
+          "name": "Pepino",
+          "note": null
+        },
+        "egg": {
+          "name": "Huevo",
+          "note": null
+        },
+        "tomatoes": {
+          "name": "Tomates cherry",
+          "note": null
+        },
+        "surimi": {
+          "name": "Surimi o carne de cangrejo",
+          "note": null
+        },
+        "bean_sprouts": {
+          "name": "Brotes de soja, opcionales",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "rice_vinegar": {
+          "name": "Vinagre de arroz",
+          "note": null
+        },
+        "water": {
+          "name": "Agua",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Aceite de sésamo tostado",
+          "note": null
+        },
+        "karashi": {
+          "name": "Mostaza japonesa karashi",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_dressing": "Disuelve el azúcar en el vinagre, añade soja, agua y aceite de sésamo y enfría al menos 5 minutos.",
+        "make_kinshi": "Bate el huevo con sal, cocina una lámina muy fina a fuego medio-bajo, enfría, enrolla y corta en tiras finas.",
+        "prep_toppings": "Corta pepino y jamón en juliana, divide tomates, desmenuza surimi y blanquea brevemente los brotes. Mantén todo frío y bien escurrido.",
+        "cook_chill_noodles": "Cuece el ramen 2–3 minutos o según el paquete. Escurre, enjuaga con agua fría para retirar almidón, enfría en hielo y vuelve a escurrir muy bien.",
+        "plate": "Coloca los fideos fríos y distribuye las coberturas en secciones de colores separadas.",
+        "dress_serve": "Añade la salsa fría justo antes de comer y una pequeña cantidad de karashi. Mezcla en la mesa y sirve de inmediato."
+      }
+    },
+    "fr": {
+      "title": "Hiyashi Chuka — Ramen froid d’été",
+      "description": "Un plat japonais d’été servi froid, avec ramen souples, légumes croquants, fines lanières d’œuf et garnitures salées sur une sauce soja-vinaigre de riz. Bien rincer et sécher les nouilles évite de diluer l’assaisonnement.",
+      "animeContext": "Inspiré du langage culinaire visuel et saisonnier de Food Wars!; aucun épisode précis n’est affirmé.",
+      "ingredients": {
+        "ramen_noodles": {
+          "name": "Nouilles ramen fraîches",
+          "note": null
+        },
+        "ham": {
+          "name": "Jambon cuit ou chashu",
+          "note": null
+        },
+        "cucumber": {
+          "name": "Concombre",
+          "note": null
+        },
+        "egg": {
+          "name": "Œuf",
+          "note": null
+        },
+        "tomatoes": {
+          "name": "Tomates cerises",
+          "note": null
+        },
+        "surimi": {
+          "name": "Surimi ou chair de crabe",
+          "note": null
+        },
+        "bean_sprouts": {
+          "name": "Germes de soja, facultatifs",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "rice_vinegar": {
+          "name": "Vinaigre de riz",
+          "note": null
+        },
+        "water": {
+          "name": "Eau",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Huile de sésame grillé",
+          "note": null
+        },
+        "karashi": {
+          "name": "Moutarde japonaise karashi",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_dressing": "Dissolvez le sucre dans le vinaigre, ajoutez soja, eau et huile de sésame puis refroidissez au moins 5 minutes.",
+        "make_kinshi": "Battez l’œuf avec du sel, cuisez une crêpe très fine à feu moyen-doux, laissez refroidir, roulez et taillez en fines lanières.",
+        "prep_toppings": "Taillez concombre et jambon en julienne, coupez les tomates, effilochez le surimi et blanchissez brièvement les germes. Gardez tout froid et bien égoutté.",
+        "cook_chill_noodles": "Cuisez les ramen 2–3 minutes ou selon le paquet. Égouttez, rincez à l’eau froide pour retirer l’amidon, refroidissez dans la glace puis égouttez parfaitement.",
+        "plate": "Disposez les nouilles froides et répartissez les garnitures en secteurs colorés distincts.",
+        "dress_serve": "Versez la sauce froide juste avant de manger, ajoutez un peu de karashi, mélangez à table et servez immédiatement."
+      }
+    },
+    "de": {
+      "title": "Hiyashi Chuka — Kalte Sommer-Ramen",
+      "description": "Ein japanisches Sommergericht aus kalten, elastischen Ramen, knackigem Gemüse, Eierstreifen und herzhaften Belägen mit säuerlichem Soja-Reisessig-Dressing. Gründliches Spülen und Trocknen verhindert ein wässriges Ergebnis.",
+      "animeContext": "Von der visuellen und saisonalen Kochsprache in Food Wars! inspiriert; keine konkrete Episode wird behauptet.",
+      "ingredients": {
+        "ramen_noodles": {
+          "name": "Frische Ramen-Nudeln",
+          "note": null
+        },
+        "ham": {
+          "name": "Kochschinken oder Chashu",
+          "note": null
+        },
+        "cucumber": {
+          "name": "Gurke",
+          "note": null
+        },
+        "egg": {
+          "name": "Ei",
+          "note": null
+        },
+        "tomatoes": {
+          "name": "Kirschtomaten",
+          "note": null
+        },
+        "surimi": {
+          "name": "Surimi oder Krabbenfleisch",
+          "note": null
+        },
+        "bean_sprouts": {
+          "name": "Sojasprossen, optional",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "rice_vinegar": {
+          "name": "Reisessig",
+          "note": null
+        },
+        "water": {
+          "name": "Wasser",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Geröstetes Sesamöl",
+          "note": null
+        },
+        "karashi": {
+          "name": "Japanischer Karashi-Senf",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_dressing": "Zucker im Reisessig lösen, Sojasauce, Wasser und Sesamöl zugeben und mindestens 5 Minuten kalt stellen.",
+        "make_kinshi": "Ei mit Salz verquirlen, als sehr dünne Schicht bei mittlerer bis niedriger Hitze stocken lassen, abkühlen, aufrollen und fein schneiden.",
+        "prep_toppings": "Gurke und Schinken in Julienne schneiden, Tomaten teilen, Surimi zupfen und Sprossen kurz blanchieren. Alles kalt und gut abgetropft halten.",
+        "cook_chill_noodles": "Ramen 2–3 Minuten oder nach Packung garen. Sofort abgießen, unter kaltem Wasser Stärke abspülen, in Eiswasser kühlen und sehr gut abtropfen.",
+        "plate": "Kalte Nudeln anrichten und die Beläge in getrennten farbigen Bereichen verteilen.",
+        "dress_serve": "Kaltes Dressing erst direkt vor dem Essen angießen, etwas Karashi dazugeben, am Tisch mischen und sofort servieren."
+      }
+    },
+    "pt": {
+      "title": "Hiyashi Chuka — Ramen frio de verão",
+      "description": "Prato japonês de verão servido frio, com ramen elástico, vegetais crocantes, tiras de ovo e coberturas saborosas sobre molho ácido de soja e vinagre de arroz. Lavar e secar bem o macarrão evita um resultado aguado.",
+      "animeContext": "Inspirado na linguagem culinária visual e sazonal de Food Wars!; não afirmamos um episódio específico.",
+      "ingredients": {
+        "ramen_noodles": {
+          "name": "Macarrão ramen fresco",
+          "note": null
+        },
+        "ham": {
+          "name": "Presunto cozido ou chashu",
+          "note": null
+        },
+        "cucumber": {
+          "name": "Pepino",
+          "note": null
+        },
+        "egg": {
+          "name": "Ovo",
+          "note": null
+        },
+        "tomatoes": {
+          "name": "Tomates-cereja",
+          "note": null
+        },
+        "surimi": {
+          "name": "Surimi ou carne de caranguejo",
+          "note": null
+        },
+        "bean_sprouts": {
+          "name": "Broto de feijão, opcional",
+          "note": null
+        },
+        "soy_sauce": {
+          "name": "Molho de soja",
+          "note": null
+        },
+        "rice_vinegar": {
+          "name": "Vinagre de arroz",
+          "note": null
+        },
+        "water": {
+          "name": "Água",
+          "note": null
+        },
+        "sugar": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "sesame_oil": {
+          "name": "Óleo de gergelim torrado",
+          "note": null
+        },
+        "karashi": {
+          "name": "Mostarda japonesa karashi",
+          "note": null
+        }
+      },
+      "steps": {
+        "make_dressing": "Dissolva o açúcar no vinagre, junte soja, água e óleo de gergelim e resfrie por pelo menos 5 minutos.",
+        "make_kinshi": "Bata o ovo com sal, cozinhe uma camada bem fina em fogo médio-baixo, deixe esfriar, enrole e corte em tiras finas.",
+        "prep_toppings": "Corte pepino e presunto em juliana, divida tomates, desfie surimi e branqueie rapidamente os brotos. Mantenha tudo frio e bem escorrido.",
+        "cook_chill_noodles": "Cozinhe o ramen por 2–3 minutos ou conforme a embalagem. Escorra, lave em água fria para remover amido, resfrie em gelo e escorra novamente muito bem.",
+        "plate": "Disponha o macarrão frio e organize as coberturas em setores coloridos separados.",
+        "dress_serve": "Adicione o molho frio somente antes de comer, coloque um pouco de karashi, misture à mesa e sirva imediatamente."
+      }
+    }
+  }
+}
