@@ -195,7 +195,38 @@ Exit:
 - Flutter analyze/test + Web release + Android ARM64 gates green on exact PR head;
 - PR merged without unresolved blocking review.
 
-## F4 — Monetization v1 — CURRENT
+## F3G — 50-recipe editorial quality upgrade — CURRENT
+
+Blocked by: F3F — unblocked.
+
+Goal: expand the catalog from 20 to 50 recipes while upgrading all existing and incoming recipes to a verified, cookable editorial standard rather than optimizing for recipe count.
+
+Scope:
+- F3G-0: culinary + anime-reference audit for all 30 incoming recipes;
+- F3G-A: recipe_000021..recipe_000030;
+- F3G-B: recipe_000031..recipe_000040;
+- F3G-C: recipe_000041..recipe_000050;
+- F3G-D: re-audit and editorial expansion of recipe_000001..recipe_000020;
+- F3G-E: final 50/50 consistency, duplicate/similarity, artwork, localization and physical-device QA.
+
+Required quality:
+- culinary existence and technique verified before publication;
+- source errors corrected rather than copied;
+- richer recipe descriptions and materially more detailed preparation steps;
+- real elapsed time includes proofing/resting/chilling/marinating/cooling;
+- structured anime-reference semantics: verified appearance / recurring association / inspired / unverified;
+- episode/chapter shown only when verified;
+- no copied anime dialogue;
+- EN/IT/ES/FR/DE/PT parity;
+- one canonical semantically reviewed original artwork per published recipe;
+- existing 20 recipes upgraded to the same standard as the new 30.
+
+Evidence:
+- initial incoming audit: `docs/F3G_CULINARY_ANIME_REFERENCE_AUDIT.md`.
+
+Exit: 50 published recipes pass authoring/catalog validation, culinary/editorial review, duplicate/similarity review, localization, artwork gates, Flutter tests, Web build, Android build and physical-device smoke QA.
+
+## F4 — Monetization v1 — DEFERRED UNTIL F3G PASS
 
 Blocked by: F3 — unblocked.
 
