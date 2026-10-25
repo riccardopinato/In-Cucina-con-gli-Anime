@@ -1,0 +1,449 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000030",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "K-On!",
+  "animeReferences": [
+    {
+      "workTitle": "K-On!",
+      "relation": "recurring_association",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Japanese strawberry shortcake verified as sponge/genoise, whipped cream and fresh strawberry layer cake; cooling and chilling included in prep time.",
+    "animeStatus": "partial",
+    "animeNote": "K-On! has a strong recurring tea-and-cake association; exact strawberry-shortcake appearance is not asserted."
+  },
+  "prepMinutes": 160,
+  "cookMinutes": 25,
+  "servings": 8,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from Ricettario Vol. 3; total elapsed time corrected to include cooling and refrigeration.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "eggs",
+      "quantity": 3,
+      "unit": null
+    },
+    {
+      "id": "sugar",
+      "quantity": 90,
+      "unit": "g"
+    },
+    {
+      "id": "flour",
+      "quantity": 90,
+      "unit": "g"
+    },
+    {
+      "id": "butter",
+      "quantity": 20,
+      "unit": "g"
+    },
+    {
+      "id": "milk",
+      "quantity": 15,
+      "unit": "ml"
+    },
+    {
+      "id": "cream",
+      "quantity": 300,
+      "unit": "ml"
+    },
+    {
+      "id": "icing_sugar",
+      "quantity": 35,
+      "unit": "g"
+    },
+    {
+      "id": "strawberries",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "id": "syrup_water",
+      "quantity": 30,
+      "unit": "ml"
+    },
+    {
+      "id": "syrup_sugar",
+      "quantity": 15,
+      "unit": "g"
+    }
+  ],
+  "steps": [
+    {
+      "id": "prep_pan_eggs",
+      "timerSeconds": 600
+    },
+    {
+      "id": "fold_batter",
+      "timerSeconds": 300
+    },
+    {
+      "id": "bake_cool",
+      "timerSeconds": 2700
+    },
+    {
+      "id": "prep_filling",
+      "timerSeconds": 600
+    },
+    {
+      "id": "split_syrup_fill",
+      "timerSeconds": 900
+    },
+    {
+      "id": "frost_decorate",
+      "timerSeconds": 900
+    },
+    {
+      "id": "chill",
+      "timerSeconds": 7200
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Japanese Strawberry Shortcake",
+      "description": "A light Japanese celebration cake made from airy sponge, lightly sweetened whipped cream and fresh strawberries. Unlike biscuit-style shortcake, this version depends on a fine, moist sponge and cold, stable cream for clean delicate layers.",
+      "animeContext": "K-On! is strongly associated with the Light Music Club’s tea-and-cake breaks. This card treats strawberry shortcake as a recurring cake-culture association, not as a claim about one exact on-screen recipe.",
+      "ingredients": {
+        "eggs": {
+          "name": "Large eggs, room temperature",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "flour": {
+          "name": "Cake flour or low-protein flour",
+          "note": null
+        },
+        "butter": {
+          "name": "Unsalted butter",
+          "note": null
+        },
+        "milk": {
+          "name": "Whole milk",
+          "note": null
+        },
+        "cream": {
+          "name": "Cold whipping cream",
+          "note": null
+        },
+        "icing_sugar": {
+          "name": "Icing sugar",
+          "note": null
+        },
+        "strawberries": {
+          "name": "Fresh strawberries",
+          "note": null
+        },
+        "syrup_water": {
+          "name": "Water for syrup",
+          "note": null
+        },
+        "syrup_sugar": {
+          "name": "Sugar for syrup",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_pan_eggs": "Line the base of an 18 cm cake tin and preheat the oven to 170°C. Warm the eggs and sugar gently over a bain-marie until just lukewarm, then whip 8–10 minutes until very pale, tripled in volume and thick enough for the ribbon to sit briefly on the surface.",
+        "fold_batter": "Sift in the flour in two additions and fold from the bottom with a wide spatula, rotating the bowl. Mix melted butter with warm milk, lighten it with a spoonful of batter, then fold it back in quickly so the foam is not deflated.",
+        "bake_cool": "Pour into the tin, tap once to release large bubbles and bake at 170°C for 23–25 minutes. The top should spring back lightly and a skewer come out clean. Unmould, invert onto a rack and cool completely before cutting; warm sponge tears easily.",
+        "prep_filling": "Chill the bowl and beaters. Whip cream with icing sugar to medium-stiff peaks that hold their shape but remain smooth. Slice part of the strawberries 4–5 mm thick and reserve the best berries for the top. Dissolve syrup sugar in the warm water and cool.",
+        "split_syrup_fill": "Slice the cold sponge horizontally into two even layers. Brush the cut surfaces lightly with syrup, spread a level layer of cream, arrange strawberries without large gaps and cover with just enough cream to fill the spaces. Add the second sponge layer and align the sides.",
+        "frost_decorate": "Apply a thin crumb coat, chill briefly if the cream softens, then cover top and sides with the remaining whipped cream. Smooth with a cold spatula and decorate with piped cream and dry strawberries; excess moisture makes the finish slide.",
+        "chill": "Refrigerate at least 2 hours before slicing so the layers settle and the cream firms. Use a hot, wiped knife for clean cuts and keep the cake refrigerated because of the fresh cream."
+      }
+    },
+    "it": {
+      "title": "Japanese Strawberry Shortcake",
+      "description": "Una torta da festa giapponese leggera, con pan di Spagna arioso, panna poco zuccherata e fragole fresche. A differenza dello shortcake a biscotto, qui contano una mollica fine e umida e una panna fredda e stabile.",
+      "animeContext": "K-On! è fortemente associato alle pause tè e dolci del club di musica leggera. Qui lo strawberry shortcake è presentato come associazione ricorrente con quella cultura dei dolci, non come ricetta mostrata in una scena precisa.",
+      "ingredients": {
+        "eggs": {
+          "name": "Uova grandi a temperatura ambiente",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucchero",
+          "note": null
+        },
+        "flour": {
+          "name": "Farina debole per dolci",
+          "note": null
+        },
+        "butter": {
+          "name": "Burro",
+          "note": null
+        },
+        "milk": {
+          "name": "Latte intero",
+          "note": null
+        },
+        "cream": {
+          "name": "Panna fresca fredda",
+          "note": null
+        },
+        "icing_sugar": {
+          "name": "Zucchero a velo",
+          "note": null
+        },
+        "strawberries": {
+          "name": "Fragole fresche",
+          "note": null
+        },
+        "syrup_water": {
+          "name": "Acqua per la bagna",
+          "note": null
+        },
+        "syrup_sugar": {
+          "name": "Zucchero per la bagna",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_pan_eggs": "Fodera il fondo di uno stampo da 18 cm e porta il forno a 170°C. Scalda dolcemente uova e zucchero a bagnomaria finché sono appena tiepidi, poi monta 8–10 minuti: il composto deve schiarire, triplicare di volume e cadere a nastro lasciando un segno per qualche secondo.",
+        "fold_batter": "Setaccia la farina in due riprese e incorporala dal basso con una spatola larga, ruotando la ciotola. Mescola burro fuso e latte tiepido, alleggeriscili con un cucchiaio di impasto e reincorpora rapidamente per non smontare la massa.",
+        "bake_cool": "Versa nello stampo, dai un solo colpetto per eliminare le bolle grandi e cuoci a 170°C per 23–25 minuti. La superficie deve tornare su al tocco e uno stecchino uscire pulito. Sforma, capovolgi su griglia e raffredda completamente prima di tagliare.",
+        "prep_filling": "Raffredda ciotola e fruste. Monta la panna con lo zucchero a velo fino a picchi medio-sodi, stabili ma ancora lisci. Taglia parte delle fragole a fette da 4–5 mm e conserva le più belle per la superficie. Sciogli lo zucchero della bagna nell’acqua calda e fai raffreddare.",
+        "split_syrup_fill": "Taglia il pan di Spagna freddo in due dischi uniformi. Spennella leggermente i lati tagliati con la bagna, stendi uno strato regolare di panna, distribuisci le fragole senza grandi vuoti e copri con poca altra panna. Chiudi con il secondo disco e allinea i bordi.",
+        "frost_decorate": "Stendi una prima copertura sottile per bloccare le briciole; se la panna si ammorbidisce raffredda brevemente. Rivesti poi superficie e lati, liscia con spatola fredda e decora con ciuffi e fragole ben asciutte.",
+        "chill": "Metti in frigorifero almeno 2 ore prima di tagliare, così gli strati si assestano e la panna torna stabile. Usa un coltello caldo e pulito a ogni fetta e conserva sempre la torta refrigerata."
+      }
+    },
+    "es": {
+      "title": "Tarta japonesa de fresas",
+      "description": "Tarta japonesa ligera de celebración con bizcocho aireado, nata poco dulce y fresas frescas. El resultado depende de una miga fina y una crema fría y estable.",
+      "animeContext": "K-On! está muy ligado a las pausas de té y pastel del club. La receta se presenta como asociación recurrente, no como una preparación exacta de una escena concreta.",
+      "ingredients": {
+        "eggs": {
+          "name": "Huevos grandes a temperatura ambiente",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "flour": {
+          "name": "Harina floja para repostería",
+          "note": null
+        },
+        "butter": {
+          "name": "Mantequilla",
+          "note": null
+        },
+        "milk": {
+          "name": "Leche entera",
+          "note": null
+        },
+        "cream": {
+          "name": "Nata para montar fría",
+          "note": null
+        },
+        "icing_sugar": {
+          "name": "Azúcar glas",
+          "note": null
+        },
+        "strawberries": {
+          "name": "Fresas frescas",
+          "note": null
+        },
+        "syrup_water": {
+          "name": "Agua para almíbar",
+          "note": null
+        },
+        "syrup_sugar": {
+          "name": "Azúcar para almíbar",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_pan_eggs": "Forra un molde de 18 cm y precalienta a 170°C. Entibia huevos y azúcar al baño maría y bate 8–10 minutos hasta triplicar volumen y formar cinta.",
+        "fold_batter": "Incorpora harina tamizada en dos veces con movimientos envolventes. Mezcla mantequilla con leche, aligera con un poco de masa y reincorpora sin perder aire.",
+        "bake_cool": "Hornea a 170°C 23–25 minutos hasta que rebote al tacto y el palillo salga limpio. Desmolda y enfría por completo antes de cortar.",
+        "prep_filling": "Monta nata fría con azúcar glas a picos medios-firmes. Corta parte de las fresas en láminas y enfría el almíbar.",
+        "split_syrup_fill": "Corta el bizcocho frío en dos, humedece ligeramente, rellena con nata y fresas sin grandes huecos y cierra con la segunda capa.",
+        "frost_decorate": "Aplica una capa fina, enfría si hace falta y cubre con el resto de nata. Decora con fresas bien secas.",
+        "chill": "Refrigera al menos 2 horas antes de cortar y conserva siempre en frío."
+      }
+    },
+    "fr": {
+      "title": "Shortcake japonais aux fraises",
+      "description": "Gâteau japonais léger de fête, composé de génoise aérienne, crème fouettée peu sucrée et fraises fraîches. La finesse de la mie et la stabilité de la crème sont essentielles.",
+      "animeContext": "K-On! est fortement associé aux pauses thé et gâteaux du club. Cette recette relève d’une association récurrente, pas d’une scène précise revendiquée.",
+      "ingredients": {
+        "eggs": {
+          "name": "Gros œufs à température ambiante",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre",
+          "note": null
+        },
+        "flour": {
+          "name": "Farine à gâteau",
+          "note": null
+        },
+        "butter": {
+          "name": "Beurre",
+          "note": null
+        },
+        "milk": {
+          "name": "Lait entier",
+          "note": null
+        },
+        "cream": {
+          "name": "Crème liquide froide",
+          "note": null
+        },
+        "icing_sugar": {
+          "name": "Sucre glace",
+          "note": null
+        },
+        "strawberries": {
+          "name": "Fraises fraîches",
+          "note": null
+        },
+        "syrup_water": {
+          "name": "Eau pour sirop",
+          "note": null
+        },
+        "syrup_sugar": {
+          "name": "Sucre pour sirop",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_pan_eggs": "Chemisez un moule de 18 cm et préchauffez à 170°C. Tiédissez œufs et sucre au bain-marie puis fouettez 8–10 minutes jusqu’au ruban.",
+        "fold_batter": "Incorporez la farine tamisée en deux fois délicatement. Mélangez beurre et lait, allégez avec un peu de pâte puis réincorporez sans faire retomber.",
+        "bake_cool": "Cuisez 23–25 minutes à 170°C, jusqu’à reprise au toucher et pique propre. Démoulez et refroidissez complètement.",
+        "prep_filling": "Montez la crème froide avec sucre glace à pics moyens-fermes. Tranchez une partie des fraises et refroidissez le sirop.",
+        "split_syrup_fill": "Coupez le biscuit froid en deux, imbibez légèrement, garnissez de crème et fraises puis refermez avec le second disque.",
+        "frost_decorate": "Faites une fine sous-couche, refroidissez si nécessaire puis couvrez et décorez avec crème et fraises bien sèches.",
+        "chill": "Réfrigérez au moins 2 heures avant de trancher et conservez au froid."
+      }
+    },
+    "de": {
+      "title": "Japanische Erdbeer-Shortcake",
+      "description": "Leichter japanischer Festkuchen aus luftigem Biskuit, dezent gesüßter Sahne und frischen Erdbeeren. Entscheidend sind feine, saftige Krume und stabile kalte Sahne.",
+      "animeContext": "K-On! ist stark mit Tee- und Kuchenpausen des Clubs verbunden. Das Rezept wird als wiederkehrende Kuchen-Assoziation geführt, nicht als exakte Szene.",
+      "ingredients": {
+        "eggs": {
+          "name": "Große Eier, zimmerwarm",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker",
+          "note": null
+        },
+        "flour": {
+          "name": "Kuchenmehl",
+          "note": null
+        },
+        "butter": {
+          "name": "Butter",
+          "note": null
+        },
+        "milk": {
+          "name": "Vollmilch",
+          "note": null
+        },
+        "cream": {
+          "name": "Kalte Schlagsahne",
+          "note": null
+        },
+        "icing_sugar": {
+          "name": "Puderzucker",
+          "note": null
+        },
+        "strawberries": {
+          "name": "Frische Erdbeeren",
+          "note": null
+        },
+        "syrup_water": {
+          "name": "Wasser für Sirup",
+          "note": null
+        },
+        "syrup_sugar": {
+          "name": "Zucker für Sirup",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_pan_eggs": "18-cm-Form vorbereiten und Ofen auf 170°C heizen. Eier und Zucker im Wasserbad lauwarm werden lassen und 8–10 Minuten bis zum Bandstadium aufschlagen.",
+        "fold_batter": "Gesiebtes Mehl in zwei Portionen vorsichtig unterheben. Butter und Milch mischen, mit etwas Teig angleichen und rasch unterheben.",
+        "bake_cool": "Bei 170°C 23–25 Minuten backen, bis die Oberfläche zurückfedert und ein Stäbchen sauber bleibt. Vollständig auskühlen lassen.",
+        "prep_filling": "Kalte Sahne mit Puderzucker zu mittelfesten Spitzen schlagen. Einen Teil der Erdbeeren schneiden und Sirup abkühlen.",
+        "split_syrup_fill": "Kalten Boden halbieren, leicht tränken, mit Sahne und Erdbeeren füllen und zweite Lage aufsetzen.",
+        "frost_decorate": "Dünn vorstreichen, bei Bedarf kühlen, dann vollständig mit Sahne überziehen und mit trockenen Erdbeeren dekorieren.",
+        "chill": "Mindestens 2 Stunden kühlen und bis zum Servieren kalt halten."
+      }
+    },
+    "pt": {
+      "title": "Shortcake japonês de morango",
+      "description": "Bolo japonês leve de celebração com pão de ló aerado, chantilly pouco doce e morangos frescos. Miolo fino e creme frio e estável são essenciais.",
+      "animeContext": "K-On! é fortemente associado às pausas de chá e bolo do clube. A receita é tratada como associação recorrente, não como uma preparação exata mostrada em cena.",
+      "ingredients": {
+        "eggs": {
+          "name": "Ovos grandes em temperatura ambiente",
+          "note": null
+        },
+        "sugar": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "flour": {
+          "name": "Farinha para bolos",
+          "note": null
+        },
+        "butter": {
+          "name": "Manteiga",
+          "note": null
+        },
+        "milk": {
+          "name": "Leite integral",
+          "note": null
+        },
+        "cream": {
+          "name": "Creme de leite fresco gelado",
+          "note": null
+        },
+        "icing_sugar": {
+          "name": "Açúcar de confeiteiro",
+          "note": null
+        },
+        "strawberries": {
+          "name": "Morangos frescos",
+          "note": null
+        },
+        "syrup_water": {
+          "name": "Água para calda",
+          "note": null
+        },
+        "syrup_sugar": {
+          "name": "Açúcar para calda",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_pan_eggs": "Forre uma forma de 18 cm e aqueça o forno a 170°C. Aqueça levemente ovos e açúcar em banho-maria e bata 8–10 minutos até triplicar e formar fita.",
+        "fold_batter": "Incorpore a farinha peneirada em duas etapas. Misture manteiga e leite, alivie com um pouco da massa e reincorpore sem perder ar.",
+        "bake_cool": "Asse a 170°C por 23–25 minutos até voltar ao toque e o palito sair limpo. Desenforme e esfrie completamente.",
+        "prep_filling": "Bata o creme gelado com açúcar até picos médios-firmes. Fatie parte dos morangos e esfrie a calda.",
+        "split_syrup_fill": "Corte o bolo frio em duas camadas, umedeça levemente, recheie com creme e morangos e cubra com a segunda camada.",
+        "frost_decorate": "Faça uma camada fina, resfrie se necessário, cubra com o restante do creme e decore com morangos bem secos.",
+        "chill": "Leve à geladeira por pelo menos 2 horas antes de cortar e mantenha refrigerado."
+      }
+    }
+  }
+}
