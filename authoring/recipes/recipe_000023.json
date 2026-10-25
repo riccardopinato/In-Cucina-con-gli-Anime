@@ -1,0 +1,439 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000023",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Food Wars!",
+  "animeReferences": [
+    {
+      "workTitle": "Food Wars! Shokugeki no Soma",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Classic panko-breaded pork cutlet verified; cooking instructions emphasize doneness instead of relying only on time.",
+    "animeStatus": "unverified",
+    "animeNote": "Food Wars association retained as inspiration until exact scene evidence is attached."
+  },
+  "prepMinutes": 20,
+  "cookMinutes": 15,
+  "servings": 2,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3; double-fry wording normalized with safe doneness cues.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "pork",
+      "quantity": 350,
+      "unit": "g"
+    },
+    {
+      "id": "salt",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "pepper",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "flour",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "id": "egg",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "panko",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "id": "oil",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "cabbage",
+      "quantity": 0.25,
+      "unit": "head"
+    },
+    {
+      "id": "tonkatsu_sauce",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "lemon",
+      "quantity": 2,
+      "unit": "wedge"
+    }
+  ],
+  "steps": [
+    {
+      "id": "prep_pork",
+      "timerSeconds": 300
+    },
+    {
+      "id": "season_bread",
+      "timerSeconds": 420
+    },
+    {
+      "id": "first_fry",
+      "timerSeconds": 360
+    },
+    {
+      "id": "rest_check",
+      "timerSeconds": 180
+    },
+    {
+      "id": "crisp_finish",
+      "timerSeconds": 60
+    },
+    {
+      "id": "slice_serve",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Tonkatsu",
+      "description": "Japanese pork cutlet with a dry, airy panko crust and juicy centre, served with finely shredded cabbage and tonkatsu sauce. Careful trimming, even breading and controlled oil temperature are more important than an aggressive frying time.",
+      "animeContext": "Inspired by the competitive cooking world of Food Wars!; this card does not claim a specific tonkatsu episode.",
+      "ingredients": {
+        "pork": {
+          "name": "Pork loin or shoulder steaks, 1.5–2 cm thick",
+          "note": null
+        },
+        "salt": {
+          "name": "Fine salt",
+          "note": null
+        },
+        "pepper": {
+          "name": "Black pepper",
+          "note": null
+        },
+        "flour": {
+          "name": "All-purpose flour",
+          "note": null
+        },
+        "egg": {
+          "name": "Large egg",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko breadcrumbs",
+          "note": null
+        },
+        "oil": {
+          "name": "Neutral frying oil",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Green cabbage",
+          "note": null
+        },
+        "tonkatsu_sauce": {
+          "name": "Tonkatsu sauce",
+          "note": null
+        },
+        "lemon": {
+          "name": "Lemon wedges",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_pork": "Pat the pork dry. Make shallow cuts through the fat/connective strip every 2–3 cm so the cutlet stays flat, then gently pound only enough to even the thickness; reshape the meat with your hands.",
+        "season_bread": "Season both sides with salt and pepper. Coat lightly in flour and shake off excess, cover completely in beaten egg, then press into panko without crushing the flakes. Rest 5 minutes so the crust adheres.",
+        "first_fry": "Heat 4–5 cm of oil to about 170°C. Fry without crowding until the crust is pale golden, about 3 minutes per side for a 1.5–2 cm cutlet; keep oil near 165–175°C rather than letting it smoke.",
+        "rest_check": "Lift onto a rack for 3 minutes so residual heat reaches the centre. The pork must reach a safe doneness according to local guidance; if using a thermometer, check the thickest point rather than judging only by crust colour.",
+        "crisp_finish": "For an extra crisp crust, return the cooked cutlet to oil at about 180°C for 30–60 seconds, watching closely until deep golden. Drain on a rack, not flat on paper, to preserve the crust.",
+        "slice_serve": "Rest another minute, slice across the cutlet into 2 cm strips with a sharp knife and serve immediately with shredded cabbage, tonkatsu sauce and lemon."
+      }
+    },
+    "it": {
+      "title": "Tonkatsu",
+      "description": "Cotoletta di maiale giapponese con crosta di panko asciutta e ariosa e interno succoso, servita con cavolo finissimo e salsa tonkatsu. Taglio uniforme, panatura aderente e temperatura dell’olio contano più di una frittura troppo aggressiva.",
+      "animeContext": "Ispirato al mondo della cucina competitiva di Food Wars!; la scheda non attribuisce il tonkatsu a un episodio preciso.",
+      "ingredients": {
+        "pork": {
+          "name": "Fette di lonza o coppa di maiale spesse 1,5–2 cm",
+          "note": null
+        },
+        "salt": {
+          "name": "Sale fino",
+          "note": null
+        },
+        "pepper": {
+          "name": "Pepe nero",
+          "note": null
+        },
+        "flour": {
+          "name": "Farina 00",
+          "note": null
+        },
+        "egg": {
+          "name": "Uovo grande",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
+          "note": null
+        },
+        "oil": {
+          "name": "Olio neutro per friggere",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Cavolo cappuccio",
+          "note": null
+        },
+        "tonkatsu_sauce": {
+          "name": "Salsa tonkatsu",
+          "note": null
+        },
+        "lemon": {
+          "name": "Spicchi di limone",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_pork": "Asciuga bene il maiale. Pratica piccoli tagli nel bordo di grasso e connettivo ogni 2–3 cm per evitare che si incurvi, poi batti solo quanto basta a uniformare lo spessore e ricompatta la fetta con le mani.",
+        "season_bread": "Sala e pepa entrambi i lati. Passa in poca farina eliminando l’eccesso, ricopri completamente con uovo sbattuto e premi nel panko senza schiacciare i fiocchi. Lascia riposare 5 minuti perché la crosta aderisca.",
+        "first_fry": "Porta 4–5 cm d’olio a circa 170°C. Friggi senza affollare finché il panko è dorato chiaro, circa 3 minuti per lato per una fetta da 1,5–2 cm; mantieni l’olio tra 165 e 175°C.",
+        "rest_check": "Trasferisci su una griglia per 3 minuti: il calore residuo completa il centro. Verifica una cottura sicura secondo le indicazioni locali; con un termometro misura il punto più spesso, non affidarti solo al colore della crosta.",
+        "crisp_finish": "Per una crosta ancora più asciutta, rimetti la cotoletta già cotta in olio a circa 180°C per 30–60 secondi, finché è ben dorata. Scola su griglia e non appoggiarla piatta sulla carta.",
+        "slice_serve": "Lascia riposare ancora un minuto, taglia trasversalmente in strisce da circa 2 cm e servi subito con cavolo a julienne, salsa tonkatsu e limone."
+      }
+    },
+    "es": {
+      "title": "Tonkatsu",
+      "description": "Chuleta de cerdo japonesa con corteza de panko ligera y centro jugoso, acompañada de repollo fino y salsa tonkatsu. El grosor uniforme, el empanado y la temperatura del aceite importan más que freír con exceso de calor.",
+      "animeContext": "Inspirado en el mundo culinario competitivo de Food Wars!; no se atribuye a un episodio concreto.",
+      "ingredients": {
+        "pork": {
+          "name": "Lomo o aguja de cerdo de 1,5–2 cm",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal fina",
+          "note": null
+        },
+        "pepper": {
+          "name": "Pimienta negra",
+          "note": null
+        },
+        "flour": {
+          "name": "Harina de trigo",
+          "note": null
+        },
+        "egg": {
+          "name": "Huevo grande",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
+          "note": null
+        },
+        "oil": {
+          "name": "Aceite neutro para freír",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Repollo",
+          "note": null
+        },
+        "tonkatsu_sauce": {
+          "name": "Salsa tonkatsu",
+          "note": null
+        },
+        "lemon": {
+          "name": "Gajos de limón",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_pork": "Seca el cerdo, corta superficialmente la banda de grasa cada 2–3 cm y golpea solo para igualar el grosor.",
+        "season_bread": "Salpimenta, pasa por harina retirando el exceso, cubre con huevo y presiona en panko sin triturarlo. Reposa 5 minutos.",
+        "first_fry": "Calienta 4–5 cm de aceite a unos 170°C y fríe sin amontonar, aproximadamente 3 minutos por lado para 1,5–2 cm, manteniendo 165–175°C.",
+        "rest_check": "Pasa a una rejilla 3 minutos para que el calor residual llegue al centro. Comprueba una cocción segura en la parte más gruesa, no solo el color exterior.",
+        "crisp_finish": "Para más crocante, vuelve a freír 30–60 segundos a unos 180°C hasta dorado intenso y escurre sobre rejilla.",
+        "slice_serve": "Reposa un minuto, corta en tiras de 2 cm y sirve enseguida con repollo, salsa tonkatsu y limón."
+      }
+    },
+    "fr": {
+      "title": "Tonkatsu",
+      "description": "Escalope de porc japonaise à la croûte de panko légère et au cœur juteux, servie avec chou finement émincé et sauce tonkatsu. Une épaisseur régulière et une huile bien contrôlée sont essentielles.",
+      "animeContext": "Inspiré de l’univers culinaire compétitif de Food Wars!; aucun épisode précis n’est revendiqué.",
+      "ingredients": {
+        "pork": {
+          "name": "Côtelettes de longe ou échine de porc de 1,5–2 cm",
+          "note": null
+        },
+        "salt": {
+          "name": "Sel fin",
+          "note": null
+        },
+        "pepper": {
+          "name": "Poivre noir",
+          "note": null
+        },
+        "flour": {
+          "name": "Farine",
+          "note": null
+        },
+        "egg": {
+          "name": "Gros œuf",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
+          "note": null
+        },
+        "oil": {
+          "name": "Huile neutre de friture",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Chou blanc",
+          "note": null
+        },
+        "tonkatsu_sauce": {
+          "name": "Sauce tonkatsu",
+          "note": null
+        },
+        "lemon": {
+          "name": "Quartiers de citron",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_pork": "Séchez le porc, incisez légèrement la bande de gras tous les 2–3 cm et aplatissez juste assez pour uniformiser l’épaisseur.",
+        "season_bread": "Salez, poivrez, farinez légèrement, passez dans l’œuf puis pressez dans le panko sans écraser les flocons. Reposez 5 minutes.",
+        "first_fry": "Chauffez 4–5 cm d’huile à environ 170°C et faites frire sans surcharger, environ 3 minutes par face pour 1,5–2 cm, en gardant 165–175°C.",
+        "rest_check": "Posez sur une grille 3 minutes pour laisser la chaleur atteindre le centre. Vérifiez une cuisson sûre au point le plus épais, pas seulement la couleur de la panure.",
+        "crisp_finish": "Pour plus de croustillant, replongez 30–60 secondes à environ 180°C jusqu’à belle coloration puis égouttez sur grille.",
+        "slice_serve": "Reposez une minute, tranchez en bandes de 2 cm et servez aussitôt avec chou, sauce tonkatsu et citron."
+      }
+    },
+    "de": {
+      "title": "Tonkatsu",
+      "description": "Japanisches Schweineschnitzel mit luftiger Panko-Kruste und saftigem Kern, dazu fein geschnittener Kohl und Tonkatsu-Sauce. Gleichmäßige Dicke, saubere Panierung und kontrollierte Öltemperatur sind entscheidend.",
+      "animeContext": "Von der wettbewerbsorientierten Kochwelt von Food Wars! inspiriert; keine konkrete Episode wird behauptet.",
+      "ingredients": {
+        "pork": {
+          "name": "Schweinelende oder -nacken, 1,5–2 cm dick",
+          "note": null
+        },
+        "salt": {
+          "name": "Feines Salz",
+          "note": null
+        },
+        "pepper": {
+          "name": "Schwarzer Pfeffer",
+          "note": null
+        },
+        "flour": {
+          "name": "Weizenmehl",
+          "note": null
+        },
+        "egg": {
+          "name": "Großes Ei",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
+          "note": null
+        },
+        "oil": {
+          "name": "Neutrales Frittieröl",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Weißkohl",
+          "note": null
+        },
+        "tonkatsu_sauce": {
+          "name": "Tonkatsu-Sauce",
+          "note": null
+        },
+        "lemon": {
+          "name": "Zitronenspalten",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_pork": "Schweinefleisch trocken tupfen, Fettrand alle 2–3 cm leicht einschneiden und nur sanft auf gleichmäßige Dicke klopfen.",
+        "season_bread": "Salzen, pfeffern, dünn mehlieren, vollständig durch Ei ziehen und in Panko drücken, ohne die Flocken zu zerquetschen. 5 Minuten ruhen lassen.",
+        "first_fry": "4–5 cm Öl auf etwa 170°C erhitzen und ohne Überfüllung etwa 3 Minuten je Seite frittieren; 165–175°C halten.",
+        "rest_check": "3 Minuten auf einem Gitter ruhen lassen, damit die Restwärme den Kern erreicht. Sichere Garung an der dicksten Stelle prüfen, nicht nur nach der Krustenfarbe urteilen.",
+        "crisp_finish": "Für extra Knusprigkeit 30–60 Sekunden bei etwa 180°C nachfrittieren und auf einem Gitter abtropfen lassen.",
+        "slice_serve": "Eine Minute ruhen lassen, in etwa 2 cm breite Streifen schneiden und sofort mit Kohl, Tonkatsu-Sauce und Zitrone servieren."
+      }
+    },
+    "pt": {
+      "title": "Tonkatsu",
+      "description": "Costeleta suína japonesa com crosta leve de panko e interior suculento, servida com repolho finíssimo e molho tonkatsu. Espessura uniforme, empanamento firme e temperatura controlada do óleo são essenciais.",
+      "animeContext": "Inspirado no universo culinário competitivo de Food Wars!; não atribuímos a receita a um episódio específico.",
+      "ingredients": {
+        "pork": {
+          "name": "Lombo ou copa suína com 1,5–2 cm",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal fino",
+          "note": null
+        },
+        "pepper": {
+          "name": "Pimenta-do-reino",
+          "note": null
+        },
+        "flour": {
+          "name": "Farinha de trigo",
+          "note": null
+        },
+        "egg": {
+          "name": "Ovo grande",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko",
+          "note": null
+        },
+        "oil": {
+          "name": "Óleo neutro para fritura",
+          "note": null
+        },
+        "cabbage": {
+          "name": "Repolho",
+          "note": null
+        },
+        "tonkatsu_sauce": {
+          "name": "Molho tonkatsu",
+          "note": null
+        },
+        "lemon": {
+          "name": "Gomos de limão",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_pork": "Seque a carne, faça pequenos cortes na faixa de gordura a cada 2–3 cm e bata apenas o necessário para uniformizar a espessura.",
+        "season_bread": "Tempere, passe levemente na farinha, cubra com ovo e pressione no panko sem esmagar os flocos. Descanse 5 minutos.",
+        "first_fry": "Aqueça 4–5 cm de óleo a cerca de 170°C e frite sem lotar, aproximadamente 3 minutos de cada lado para 1,5–2 cm, mantendo 165–175°C.",
+        "rest_check": "Coloque em grade por 3 minutos para o calor residual chegar ao centro. Confirme cocção segura na parte mais espessa, não apenas pela cor da crosta.",
+        "crisp_finish": "Para mais crocância, frite novamente por 30–60 segundos a cerca de 180°C e escorra em grade.",
+        "slice_serve": "Descanse mais um minuto, corte em tiras de 2 cm e sirva imediatamente com repolho, molho tonkatsu e limão."
+      }
+    }
+  }
+}
