@@ -1,0 +1,410 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000024",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Clannad",
+  "animeReferences": [
+    {
+      "workTitle": "Clannad",
+      "relation": "verified_appearance",
+      "season": 1,
+      "episode": "1",
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Enriched Japanese bread filled with anko; both fermentation stages included in elapsed preparation time.",
+    "animeStatus": "verified",
+    "animeNote": "Anpan is directly invoked/eaten in Clannad episode 1, making this a defensible on-screen reference."
+  },
+  "prepMinutes": 120,
+  "cookMinutes": 15,
+  "servings": 8,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 3; timing corrected to include proofing and bench rest.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "bread_flour",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "id": "sugar",
+      "quantity": 30,
+      "unit": "g"
+    },
+    {
+      "id": "yeast",
+      "quantity": 3,
+      "unit": "g"
+    },
+    {
+      "id": "milk",
+      "quantity": 130,
+      "unit": "ml"
+    },
+    {
+      "id": "egg",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "butter",
+      "quantity": 30,
+      "unit": "g"
+    },
+    {
+      "id": "salt",
+      "quantity": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "anko",
+      "quantity": 240,
+      "unit": "g"
+    },
+    {
+      "id": "black_sesame",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "mix_knead",
+      "timerSeconds": 720
+    },
+    {
+      "id": "first_proof",
+      "timerSeconds": 3600
+    },
+    {
+      "id": "divide_rest",
+      "timerSeconds": 600
+    },
+    {
+      "id": "fill_shape",
+      "timerSeconds": 600
+    },
+    {
+      "id": "second_proof",
+      "timerSeconds": 1800
+    },
+    {
+      "id": "bake",
+      "timerSeconds": 900
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Anpan with Azuki Filling",
+      "description": "Soft enriched Japanese buns wrapped around a generous centre of smooth sweet azuki paste. Two proofing stages give a light crumb while careful sealing keeps the filling centred and clean.",
+      "animeContext": "Anpan is a direct early reference in Clannad: Nagisa introduces herself through the bread in episode 1. The recipe here is an original cookable reconstruction, not copied dialogue.",
+      "ingredients": {
+        "bread_flour": {
+          "name": "Strong bread flour",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sugar",
+          "note": null
+        },
+        "yeast": {
+          "name": "Instant dry yeast",
+          "note": null
+        },
+        "milk": {
+          "name": "Lukewarm milk",
+          "note": null
+        },
+        "egg": {
+          "name": "Egg",
+          "note": null
+        },
+        "butter": {
+          "name": "Unsalted butter, softened",
+          "note": null
+        },
+        "salt": {
+          "name": "Salt",
+          "note": null
+        },
+        "anko": {
+          "name": "Sweet azuki bean paste (anko)",
+          "note": null
+        },
+        "black_sesame": {
+          "name": "Black sesame seeds",
+          "note": null
+        }
+      },
+      "steps": {
+        "mix_knead": "Mix flour, sugar and yeast, then add lukewarm milk and about half the beaten egg. Knead until no dry flour remains, add salt, then work in softened butter gradually. Knead 10–12 minutes until smooth, elastic and able to stretch into a thin window without tearing quickly.",
+        "first_proof": "Round the dough, place it in a lightly greased bowl, cover and proof in a warm spot until roughly doubled, about 60 minutes. Use volume rather than the clock: a lightly floured fingertip should leave an indentation that returns slowly.",
+        "divide_rest": "Divide anko into eight 30 g balls. Degas the dough gently, divide into eight equal pieces, round them tightly and cover for a 10-minute bench rest so the gluten relaxes before shaping.",
+        "fill_shape": "Flatten each dough ball into a disc with a slightly thicker centre. Place one anko ball in the middle, bring the edges up around it and pinch firmly closed; turn seam-side down and gently round without squeezing filling out.",
+        "second_proof": "Arrange on a lined tray, cover loosely and proof about 30 minutes until visibly puffy and lighter. Do not wait for a full doubling or the buns may spread and lose tension.",
+        "bake": "Brush with the remaining beaten egg diluted with a teaspoon of water, add black sesame to the centre and bake in a preheated static oven at 180°C for 13–15 minutes until evenly golden. Cool on a rack so the bases stay dry."
+      }
+    },
+    "it": {
+      "title": "Anpan con anko",
+      "description": "Panini giapponesi soffici e arricchiti che racchiudono un cuore generoso di anko liscio. Due lievitazioni rendono la mollica leggera, mentre una chiusura accurata mantiene il ripieno al centro.",
+      "animeContext": "L’anpan è un riferimento diretto fin dall’inizio di Clannad: Nagisa lo richiama nell’episodio 1. La ricetta è una ricostruzione culinaria originale, senza copiare dialoghi.",
+      "ingredients": {
+        "bread_flour": {
+          "name": "Farina forte per pane",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucchero",
+          "note": null
+        },
+        "yeast": {
+          "name": "Lievito di birra secco",
+          "note": null
+        },
+        "milk": {
+          "name": "Latte tiepido",
+          "note": null
+        },
+        "egg": {
+          "name": "Uovo",
+          "note": null
+        },
+        "butter": {
+          "name": "Burro morbido",
+          "note": null
+        },
+        "salt": {
+          "name": "Sale",
+          "note": null
+        },
+        "anko": {
+          "name": "Pasta dolce di azuki (anko)",
+          "note": null
+        },
+        "black_sesame": {
+          "name": "Semi di sesamo nero",
+          "note": null
+        }
+      },
+      "steps": {
+        "mix_knead": "Mescola farina, zucchero e lievito, poi unisci latte tiepido e circa metà uovo sbattuto. Impasta finché non resta farina asciutta, aggiungi il sale e incorpora poco alla volta il burro morbido. Lavora 10–12 minuti, fino a ottenere un impasto liscio, elastico e capace di formare un velo sottile senza strapparsi subito.",
+        "first_proof": "Arrotonda l’impasto, mettilo in una ciotola leggermente unta, copri e lascia lievitare al caldo fino a circa raddoppio, indicativamente 60 minuti. Conta il volume più del tempo: un dito infarinato deve lasciare un’impronta che risale lentamente.",
+        "divide_rest": "Forma otto palline di anko da 30 g. Sgonfia delicatamente l’impasto, dividilo in otto pezzi uguali, pirlali e coprili per 10 minuti, così il glutine si rilassa prima della formatura.",
+        "fill_shape": "Appiattisci ogni porzione in un disco con il centro leggermente più spesso. Metti l’anko al centro, porta i bordi verso l’alto e pizzica con decisione; gira la chiusura sotto e arrotonda senza spingere fuori il ripieno.",
+        "second_proof": "Disponi su teglia rivestita, copri senza stringere e lascia lievitare circa 30 minuti, finché i panini appaiono gonfi e leggeri. Non aspettare necessariamente il raddoppio completo, altrimenti possono allargarsi troppo.",
+        "bake": "Spennella con l’uovo rimasto allungato con un cucchiaino d’acqua, aggiungi sesamo nero al centro e cuoci in forno statico preriscaldato a 180°C per 13–15 minuti, fino a doratura uniforme. Raffredda su griglia."
+      }
+    },
+    "es": {
+      "title": "Anpan relleno de anko",
+      "description": "Panecillos japoneses suaves y enriquecidos con un corazón generoso de pasta dulce de azuki. Dos fermentaciones crean una miga ligera y un buen sellado mantiene el relleno centrado.",
+      "animeContext": "El anpan aparece como referencia directa al inicio de Clannad: Nagisa lo menciona en el episodio 1. La receta es una reconstrucción culinaria original, sin copiar diálogos.",
+      "ingredients": {
+        "bread_flour": {
+          "name": "Harina de fuerza",
+          "note": null
+        },
+        "sugar": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "yeast": {
+          "name": "Levadura seca",
+          "note": null
+        },
+        "milk": {
+          "name": "Leche tibia",
+          "note": null
+        },
+        "egg": {
+          "name": "Huevo",
+          "note": null
+        },
+        "butter": {
+          "name": "Mantequilla blanda",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        },
+        "anko": {
+          "name": "Pasta dulce de azuki (anko)",
+          "note": null
+        },
+        "black_sesame": {
+          "name": "Sésamo negro",
+          "note": null
+        }
+      },
+      "steps": {
+        "mix_knead": "Mezcla harina, azúcar y levadura; añade leche tibia y media cantidad de huevo. Incorpora sal y luego la mantequilla poco a poco. Amasa 10–12 minutos hasta que esté liso y elástico.",
+        "first_proof": "Forma una bola, cubre y deja fermentar en ambiente templado hasta casi duplicar, unos 60 minutos; juzga por el volumen más que por el reloj.",
+        "divide_rest": "Forma ocho bolas de anko de 30 g. Desgasifica, divide la masa en ocho piezas, bolea y deja reposar cubiertas 10 minutos.",
+        "fill_shape": "Aplana cada pieza dejando el centro algo más grueso, coloca el anko, sube los bordes y sella firmemente; gira la unión hacia abajo.",
+        "second_proof": "Deja fermentar en bandeja unos 30 minutos hasta que los panes estén visiblemente hinchados y ligeros.",
+        "bake": "Pinta con el huevo restante diluido, añade sésamo negro y hornea a 180°C durante 13–15 minutos hasta dorado uniforme. Enfría sobre rejilla."
+      }
+    },
+    "fr": {
+      "title": "Anpan à l’anko",
+      "description": "Petits pains japonais moelleux et enrichis, garnis d’un cœur généreux de pâte d’azuki. Deux levées donnent une mie légère et un façonnage soigneux garde la garniture au centre.",
+      "animeContext": "L’anpan est une référence directe dès le début de Clannad: Nagisa l’évoque dans l’épisode 1. Cette recette est une reconstruction culinaire originale, sans reprendre de dialogue.",
+      "ingredients": {
+        "bread_flour": {
+          "name": "Farine de force",
+          "note": null
+        },
+        "sugar": {
+          "name": "Sucre",
+          "note": null
+        },
+        "yeast": {
+          "name": "Levure boulangère sèche",
+          "note": null
+        },
+        "milk": {
+          "name": "Lait tiède",
+          "note": null
+        },
+        "egg": {
+          "name": "Œuf",
+          "note": null
+        },
+        "butter": {
+          "name": "Beurre mou",
+          "note": null
+        },
+        "salt": {
+          "name": "Sel",
+          "note": null
+        },
+        "anko": {
+          "name": "Pâte sucrée d’azuki (anko)",
+          "note": null
+        },
+        "black_sesame": {
+          "name": "Sésame noir",
+          "note": null
+        }
+      },
+      "steps": {
+        "mix_knead": "Mélangez farine, sucre et levure, ajoutez lait tiède et moitié de l’œuf. Incorporez le sel puis le beurre progressivement. Pétrissez 10–12 minutes jusqu’à une pâte lisse et élastique.",
+        "first_proof": "Boule, couvrez et laissez lever au chaud jusqu’à presque doubler, environ 60 minutes; fiez-vous surtout au volume.",
+        "divide_rest": "Formez huit boules d’anko de 30 g. Dégazez, divisez la pâte en huit, boulez et reposez 10 minutes sous couverture.",
+        "fill_shape": "Aplatissez chaque boule en disque plus épais au centre, placez l’anko, remontez les bords et pincez fermement; posez soudure dessous.",
+        "second_proof": "Laissez lever environ 30 minutes sur plaque jusqu’à ce que les pains soient bien gonflés et légers.",
+        "bake": "Dorez avec l’œuf restant dilué, ajoutez du sésame noir et cuisez à 180°C pendant 13–15 minutes jusqu’à coloration régulière. Refroidissez sur grille."
+      }
+    },
+    "de": {
+      "title": "Anpan mit Anko",
+      "description": "Weiche, angereicherte japanische Brötchen mit einer großzügigen Füllung aus süßer Azukipaste. Zwei Gehphasen sorgen für lockere Krume, sorgfältiges Verschließen hält die Füllung mittig.",
+      "animeContext": "Anpan ist schon zu Beginn von Clannad eine direkte Referenz: Nagisa greift das Brot in Episode 1 auf. Das Rezept ist eine eigenständige kulinarische Rekonstruktion ohne Dialogzitate.",
+      "ingredients": {
+        "bread_flour": {
+          "name": "Starkes Brotmehl",
+          "note": null
+        },
+        "sugar": {
+          "name": "Zucker",
+          "note": null
+        },
+        "yeast": {
+          "name": "Trockenhefe",
+          "note": null
+        },
+        "milk": {
+          "name": "Lauwarme Milch",
+          "note": null
+        },
+        "egg": {
+          "name": "Ei",
+          "note": null
+        },
+        "butter": {
+          "name": "Weiche Butter",
+          "note": null
+        },
+        "salt": {
+          "name": "Salz",
+          "note": null
+        },
+        "anko": {
+          "name": "Süße Azukibohnenpaste (Anko)",
+          "note": null
+        },
+        "black_sesame": {
+          "name": "Schwarzer Sesam",
+          "note": null
+        }
+      },
+      "steps": {
+        "mix_knead": "Mehl, Zucker und Hefe mischen, lauwarme Milch und etwa die Hälfte des Eis zugeben. Salz und dann weiche Butter portionsweise einkneten. 10–12 Minuten glatt und elastisch kneten.",
+        "first_proof": "Zu einer Kugel formen, abdecken und warm etwa 60 Minuten bis fast zur Verdopplung gehen lassen; das Volumen ist wichtiger als die Uhr.",
+        "divide_rest": "Anko in acht 30-g-Kugeln teilen. Teig sanft entgasen, in acht Stücke teilen, rund wirken und 10 Minuten abgedeckt entspannen lassen.",
+        "fill_shape": "Jedes Stück zu einer Scheibe mit etwas dickerer Mitte drücken, Anko einsetzen, Ränder hochziehen und fest verschließen; Naht nach unten.",
+        "second_proof": "Auf dem Blech etwa 30 Minuten locker abgedeckt gehen lassen, bis die Brötchen deutlich aufgegangen und leicht wirken.",
+        "bake": "Mit restlichem verdünntem Ei bestreichen, schwarzen Sesam auflegen und bei 180°C 13–15 Minuten gleichmäßig goldbraun backen. Auf Gitter auskühlen."
+      }
+    },
+    "pt": {
+      "title": "Anpan com anko",
+      "description": "Pãezinhos japoneses macios e enriquecidos com um centro generoso de pasta doce de azuki. Duas fermentações deixam o miolo leve e uma boa selagem mantém o recheio centralizado.",
+      "animeContext": "O anpan é uma referência direta logo no início de Clannad: Nagisa o menciona no episódio 1. A receita é uma reconstrução culinária original, sem copiar diálogos.",
+      "ingredients": {
+        "bread_flour": {
+          "name": "Farinha forte para pão",
+          "note": null
+        },
+        "sugar": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "yeast": {
+          "name": "Fermento biológico seco",
+          "note": null
+        },
+        "milk": {
+          "name": "Leite morno",
+          "note": null
+        },
+        "egg": {
+          "name": "Ovo",
+          "note": null
+        },
+        "butter": {
+          "name": "Manteiga macia",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        },
+        "anko": {
+          "name": "Pasta doce de azuki (anko)",
+          "note": null
+        },
+        "black_sesame": {
+          "name": "Gergelim preto",
+          "note": null
+        }
+      },
+      "steps": {
+        "mix_knead": "Misture farinha, açúcar e fermento, adicione leite morno e cerca de metade do ovo. Junte o sal e incorpore a manteiga aos poucos. Sove 10–12 minutos até ficar lisa e elástica.",
+        "first_proof": "Modele uma bola, cubra e deixe fermentar em local morno até quase dobrar, cerca de 60 minutos; observe o volume mais que o relógio.",
+        "divide_rest": "Faça oito bolas de anko de 30 g. Retire o excesso de gás, divida a massa em oito partes, boleie e descanse coberta por 10 minutos.",
+        "fill_shape": "Abra cada porção em disco com centro um pouco mais espesso, coloque o anko, suba as bordas e feche bem; vire a emenda para baixo.",
+        "second_proof": "Deixe crescer na assadeira por cerca de 30 minutos, até os pães ficarem visivelmente fofos e leves.",
+        "bake": "Pincele com o ovo restante diluído, coloque gergelim preto e asse a 180°C por 13–15 minutos até dourar por igual. Esfrie em grade."
+      }
+    }
+  }
+}
