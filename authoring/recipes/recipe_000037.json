@@ -1,0 +1,410 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000037",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Fruits Basket",
+  "animeReferences": [
+    {
+      "workTitle": "Fruits Basket",
+      "relation": "recurring_association",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Recipe normalized explicitly as Kanto-style ozoni with clear dashi broth and grilled kirimochi; regional variation disclosed.",
+    "animeStatus": "partial",
+    "animeNote": "Fruits Basket has strong New Year/mochi context; exact bowl composition is not claimed."
+  },
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "servings": 2,
+  "difficulty": "easy",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from Ricettario Vol. 4; regional identity clarified and mochi safety cues added.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "kirimochi",
+      "quantity": 2,
+      "unit": "piece"
+    },
+    {
+      "id": "chicken",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "id": "carrot",
+      "quantity": 0.5,
+      "unit": null
+    },
+    {
+      "id": "shiitake",
+      "quantity": 2,
+      "unit": null
+    },
+    {
+      "id": "komatsuna",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "id": "dashi",
+      "quantity": 500,
+      "unit": "ml"
+    },
+    {
+      "id": "usukuchi",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "mirin",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "salt",
+      "quantity": 0.5,
+      "unit": "tsp"
+    }
+  ],
+  "steps": [
+    {
+      "id": "prep_garnishes",
+      "timerSeconds": 420
+    },
+    {
+      "id": "grill_mochi",
+      "timerSeconds": 360
+    },
+    {
+      "id": "season_broth",
+      "timerSeconds": 180
+    },
+    {
+      "id": "cook_chicken_veg",
+      "timerSeconds": 480
+    },
+    {
+      "id": "assemble",
+      "timerSeconds": null
+    },
+    {
+      "id": "serve_safely",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Kanto-style Ozoni",
+      "description": "A clear Kanto-style New Year soup with grilled mochi, chicken, vegetables and dashi. Ozoni changes dramatically by region and family, so this recipe states its style explicitly instead of presenting one bowl as the single national standard.",
+      "animeContext": "Fruits Basket has strong New Year and mochi associations, making ozoni a fitting recurring cultural reference. The exact bowl here is explicitly the app’s Kanto-style reconstruction.",
+      "ingredients": {
+        "kirimochi": {
+          "name": "Kirimochi",
+          "note": null
+        },
+        "chicken": {
+          "name": "Chicken thigh or breast",
+          "note": null
+        },
+        "carrot": {
+          "name": "Carrot",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Fresh shiitake",
+          "note": null
+        },
+        "komatsuna": {
+          "name": "Komatsuna or spinach",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        },
+        "usukuchi": {
+          "name": "Light soy sauce (usukuchi)",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "salt": {
+          "name": "Salt",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_garnishes": "Cut chicken into small bite-size pieces. Slice carrot evenly, trim shiitake and blanch komatsuna or spinach briefly in salted water; cool, squeeze dry and cut into neat lengths.",
+        "grill_mochi": "Toast kirimochi in a dry pan, toaster oven or grill for about 5–6 minutes, turning as needed, until puffed and lightly browned. It should be soft and stretchy inside but not burned.",
+        "season_broth": "Bring dashi to a gentle simmer and season with usukuchi, mirin and salt. Taste before adding more salt: the broth should be clear and delicate, not as strong as noodle soup.",
+        "cook_chicken_veg": "Add chicken, carrot and shiitake and simmer 6–8 minutes, skimming if necessary, until chicken is safely cooked and carrot is tender while the broth remains clear.",
+        "assemble": "Place one grilled mochi in each bowl. Arrange chicken, carrot, shiitake and greens around it, then ladle over the piping-hot clear broth just before serving.",
+        "serve_safely": "Serve immediately while the mochi is soft. Mochi is very sticky and chewy, so cut it into smaller pieces for anyone who may have difficulty chewing or swallowing and eat slowly."
+      }
+    },
+    "it": {
+      "title": "Ozoni in stile Kanto",
+      "description": "Una zuppa di Capodanno in stile Kanto, con brodo limpido di dashi, mochi grigliato, pollo e verdure. L’ozoni cambia molto tra regioni e famiglie: per questo la ricetta dichiara esplicitamente lo stile invece di presentarlo come unica versione nazionale.",
+      "animeContext": "Fruits Basket ha forti riferimenti al Capodanno e al mochi, quindi l’ozoni è un’associazione culturale coerente. La ciotola qui proposta è esplicitamente la ricostruzione in stile Kanto dell’app.",
+      "ingredients": {
+        "kirimochi": {
+          "name": "Kirimochi",
+          "note": null
+        },
+        "chicken": {
+          "name": "Coscia o petto di pollo",
+          "note": null
+        },
+        "carrot": {
+          "name": "Carota",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Shiitake freschi",
+          "note": null
+        },
+        "komatsuna": {
+          "name": "Komatsuna o spinaci",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        },
+        "usukuchi": {
+          "name": "Salsa di soia chiara (usukuchi)",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "salt": {
+          "name": "Sale",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_garnishes": "Taglia il pollo in piccoli bocconi regolari. Affetta la carota, pulisci gli shiitake e sbollenta brevemente komatsuna o spinaci in acqua salata; raffredda, strizza e taglia in lunghezze ordinate.",
+        "grill_mochi": "Tosta i kirimochi in padella asciutta, tostapane o grill per circa 5–6 minuti, girandoli quando serve, finché si gonfiano e dorano leggermente. L’interno deve diventare morbido e filante senza bruciare.",
+        "season_broth": "Porta il dashi a leggero fremito e condisci con usukuchi, mirin e sale. Assaggia prima di aggiungere altro sale: il brodo deve restare limpido e delicato, non intenso come quello per noodles.",
+        "cook_chicken_veg": "Aggiungi pollo, carota e shiitake e lascia sobbollire 6–8 minuti, schiumando se necessario, finché il pollo è cotto in sicurezza e la carota tenera mantenendo il brodo limpido.",
+        "assemble": "Metti un mochi grigliato in ogni ciotola. Disponi attorno pollo, carota, shiitake e verdure, poi versa il brodo limpido bollente appena prima di servire.",
+        "serve_safely": "Servi subito, quando il mochi è morbido. Il mochi è molto appiccicoso e gommoso: taglialo in pezzi più piccoli per chi può avere difficoltà a masticare o deglutire e mangialo lentamente."
+      }
+    },
+    "es": {
+      "title": "Ozoni estilo Kanto",
+      "description": "Sopa de Año Nuevo estilo Kanto con dashi claro, mochi tostado, pollo y verduras. El ozoni varía mucho según región y familia.",
+      "animeContext": "Fruits Basket tiene fuertes asociaciones con Año Nuevo y mochi; esta receta es explícitamente una reconstrucción estilo Kanto.",
+      "ingredients": {
+        "kirimochi": {
+          "name": "Kirimochi",
+          "note": null
+        },
+        "chicken": {
+          "name": "Muslo o pechuga de pollo",
+          "note": null
+        },
+        "carrot": {
+          "name": "Zanahoria",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Shiitake fresco",
+          "note": null
+        },
+        "komatsuna": {
+          "name": "Komatsuna o espinaca",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        },
+        "usukuchi": {
+          "name": "Salsa de soja clara",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_garnishes": "Corta pollo, zanahoria y shiitake; blanquea komatsuna o espinaca, enfría, escurre y corta.",
+        "grill_mochi": "Tuesta el kirimochi 5–6 minutos hasta que se hinche y dore ligeramente, quedando elástico dentro.",
+        "season_broth": "Calienta el dashi suavemente y sazona con usukuchi, mirin y sal manteniendo un sabor delicado.",
+        "cook_chicken_veg": "Cuece pollo, zanahoria y shiitake 6–8 minutos hasta cocción segura y verdura tierna.",
+        "assemble": "Pon un mochi en cada cuenco, distribuye los ingredientes y vierte caldo muy caliente.",
+        "serve_safely": "Sirve enseguida y come el mochi despacio; córtalo más pequeño para quien tenga dificultad al masticar o tragar."
+      }
+    },
+    "fr": {
+      "title": "Ozoni style Kanto",
+      "description": "Soupe du Nouvel An de style Kanto, au dashi clair, mochi grillé, poulet et légumes. L’ozoni varie fortement selon les régions et les familles.",
+      "animeContext": "Fruits Basket est fortement associé au Nouvel An et au mochi; ce bol est explicitement une reconstruction de style Kanto.",
+      "ingredients": {
+        "kirimochi": {
+          "name": "Kirimochi",
+          "note": null
+        },
+        "chicken": {
+          "name": "Cuisse ou blanc de poulet",
+          "note": null
+        },
+        "carrot": {
+          "name": "Carotte",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Shiitake frais",
+          "note": null
+        },
+        "komatsuna": {
+          "name": "Komatsuna ou épinards",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        },
+        "usukuchi": {
+          "name": "Sauce soja claire",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "salt": {
+          "name": "Sel",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_garnishes": "Coupez poulet, carotte et shiitake; blanchissez komatsuna ou épinards, refroidissez, essorez et taillez.",
+        "grill_mochi": "Grillez le kirimochi 5–6 minutes jusqu’à gonflement et légère coloration, intérieur souple.",
+        "season_broth": "Faites frémir le dashi et assaisonnez usukuchi, mirin et sel en gardant un bouillon délicat.",
+        "cook_chicken_veg": "Cuisez poulet, carotte et shiitake 6–8 minutes jusqu’à cuisson sûre et légumes tendres.",
+        "assemble": "Placez un mochi dans chaque bol, répartissez les garnitures et versez le bouillon brûlant.",
+        "serve_safely": "Servez aussitôt et mangez le mochi lentement; coupez-le plus petit pour toute personne ayant des difficultés à mâcher ou avaler."
+      }
+    },
+    "de": {
+      "title": "Ozoni nach Kanto-Art",
+      "description": "Kanto-Neujahrssuppe mit klarer Dashi-Brühe, gegrilltem Mochi, Huhn und Gemüse. Ozoni variiert stark je nach Region und Familie.",
+      "animeContext": "Fruits Basket hat starke Neujahrs- und Mochi-Bezüge; diese Schale ist ausdrücklich die Kanto-Rekonstruktion der App.",
+      "ingredients": {
+        "kirimochi": {
+          "name": "Kirimochi",
+          "note": null
+        },
+        "chicken": {
+          "name": "Hähnchenschenkel oder Brust",
+          "note": null
+        },
+        "carrot": {
+          "name": "Karotte",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Frische Shiitake",
+          "note": null
+        },
+        "komatsuna": {
+          "name": "Komatsuna oder Spinat",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        },
+        "usukuchi": {
+          "name": "Helle Sojasauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "salt": {
+          "name": "Salz",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_garnishes": "Huhn, Karotte und Shiitake vorbereiten; Komatsuna oder Spinat kurz blanchieren, kühlen, ausdrücken und schneiden.",
+        "grill_mochi": "Kirimochi 5–6 Minuten rösten, bis es aufbläht und leicht bräunt, innen weich und elastisch.",
+        "season_broth": "Dashi sanft erhitzen und mit Usukuchi, Mirin und Salz fein abschmecken.",
+        "cook_chicken_veg": "Huhn, Karotte und Shiitake 6–8 Minuten garen, bis das Huhn sicher durch ist und das Gemüse weich.",
+        "assemble": "Je ein Mochi in die Schale legen, Zutaten anordnen und sehr heiße Brühe angießen.",
+        "serve_safely": "Sofort servieren und Mochi langsam essen; bei Kau- oder Schluckproblemen kleiner schneiden."
+      }
+    },
+    "pt": {
+      "title": "Ozoni estilo Kanto",
+      "description": "Sopa de Ano-Novo estilo Kanto com dashi claro, mochi grelhado, frango e legumes. O ozoni varia muito conforme região e família.",
+      "animeContext": "Fruits Basket tem forte associação com Ano-Novo e mochi; esta tigela é explicitamente uma reconstrução estilo Kanto do app.",
+      "ingredients": {
+        "kirimochi": {
+          "name": "Kirimochi",
+          "note": null
+        },
+        "chicken": {
+          "name": "Coxa ou peito de frango",
+          "note": null
+        },
+        "carrot": {
+          "name": "Cenoura",
+          "note": null
+        },
+        "shiitake": {
+          "name": "Shiitake fresco",
+          "note": null
+        },
+        "komatsuna": {
+          "name": "Komatsuna ou espinafre",
+          "note": null
+        },
+        "dashi": {
+          "name": "Dashi",
+          "note": null
+        },
+        "usukuchi": {
+          "name": "Molho de soja claro",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "salt": {
+          "name": "Sal",
+          "note": null
+        }
+      },
+      "steps": {
+        "prep_garnishes": "Corte frango, cenoura e shiitake; branqueie komatsuna ou espinafre, resfrie, esprema e corte.",
+        "grill_mochi": "Toste o kirimochi por 5–6 minutos até inflar e dourar levemente, ficando macio por dentro.",
+        "season_broth": "Aqueça o dashi suavemente e tempere com usukuchi, mirin e sal mantendo sabor delicado.",
+        "cook_chicken_veg": "Cozinhe frango, cenoura e shiitake por 6–8 minutos até cocção segura e legumes macios.",
+        "assemble": "Coloque um mochi em cada tigela, distribua os ingredientes e despeje caldo bem quente.",
+        "serve_safely": "Sirva imediatamente e coma o mochi devagar; corte em pedaços menores para quem tiver dificuldade para mastigar ou engolir."
+      }
+    }
+  }
+}
