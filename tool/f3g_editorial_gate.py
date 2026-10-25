@@ -11,7 +11,8 @@ _ALLOWED_RELATIONS = {
 }
 _ALLOWED_CULINARY = {"verified", "corrected", "review_required"}
 _ALLOWED_ANIME = {"verified", "partial", "unverified"}
-_FORBIDDEN_EDITORIAL_TOKENS = ("undefined", "todo", "tbd", "placeholder")
+_FORBIDDEN_CASEFOLD_TOKENS = ("undefined", "placeholder")
+_FORBIDDEN_EXACT_MARKERS = ("TODO", "TBD")
 
 
 def _non_empty(value: Any, minimum: int = 1) -> bool:
@@ -22,9 +23,12 @@ def _contains_forbidden_editorial_token(value: Any) -> str | None:
     if not isinstance(value, str):
         return None
     normalized = value.casefold()
-    for token in _FORBIDDEN_EDITORIAL_TOKENS:
+    for token in _FORBIDDEN_CASEFOLD_TOKENS:
         if token in normalized:
             return token
+    for marker in _FORBIDDEN_EXACT_MARKERS:
+        if marker in value:
+            return marker
     return None
 
 
