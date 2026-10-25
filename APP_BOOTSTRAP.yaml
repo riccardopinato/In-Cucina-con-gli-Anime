@@ -2,7 +2,7 @@ app_name: "In Cucina con gli Anime"
 project_name: "animekitchen"
 package_name: "com.riccardopinato.animekitchen"
 bundle_id: "com.riccardopinato.animekitchen"
-version: "0.9.0+9"
+version: "0.10.0+10"
 platforms: [android, ios, web]
 flutter_version: "3.47.3"
 default_locale: en
