@@ -1,13 +1,13 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000040",
-  "contentVersion": 1,
+  "contentVersion": 2,
   "status": "published",
   "inspirationTitle": "K-On!",
   "animeReferences": [
     {
       "workTitle": "K-On!",
-      "relation": "recurring_association",
+      "relation": "inspired",
       "season": null,
       "episode": null,
       "chapter": null
@@ -16,8 +16,8 @@
   "editorialVerification": {
     "culinaryStatus": "verified",
     "culinaryNote": "Matcha roll cake verified as a Japanese-style sponge roll with matcha and whipped cream; hot pre-roll and chill included.",
-    "animeStatus": "partial",
-    "animeNote": "K-On! has a recurring tea-and-cake association; exact matcha-roll appearance not asserted."
+    "animeStatus": "unverified",
+    "animeNote": "Tea and sweets are recurring in K-On!, but this audit did not establish matcha roll cake itself as a recurring on-screen dish; relation retained as inspiration only."
   },
   "prepMinutes": 90,
   "cookMinutes": 12,
@@ -103,7 +103,7 @@
     "en": {
       "title": "Matcha Roll Cake",
       "description": "A light green-tea sponge rolled around softly whipped cream, with optional anko for an earthy-sweet accent. Pre-rolling the sponge while warm trains the crumb so the final cold roll bends instead of splitting.",
-      "animeContext": "K-On! is strongly associated with tea and cake in the Light Music Club room. This matcha roll is presented as a recurring dessert-culture association rather than an exact on-screen recipe.",
+      "animeContext": "Tea and sweets are recurring elements in K-On!, but this matcha roll cake is the app’s culinary inspiration rather than a verified recurring cake from the series.",
       "ingredients": {
         "eggs": {
           "name": "Large eggs, separated",
@@ -154,7 +154,7 @@
     "it": {
       "title": "Matcha Roll Cake",
       "description": "Un biscuit leggero al tè verde arrotolato attorno a panna montata morbida, con anko facoltativo per una nota dolce e terrosa. Pre-arrotolare il biscuit da caldo abitua la mollica alla curva e riduce le crepe nel rotolo finale.",
-      "animeContext": "K-On! è fortemente associato a tè e torte nella stanza del club di musica leggera. Il rotolo al matcha è presentato come associazione ricorrente con quella cultura del dolce, non come ricetta mostrata in una scena precisa.",
+      "animeContext": "Tè e dolci sono elementi ricorrenti in K-On!, ma questo matcha roll cake è un’ispirazione culinaria dell’app e non una torta ricorrente verificata nella serie.",
       "ingredients": {
         "eggs": {
           "name": "Uova grandi separate",
@@ -205,7 +205,7 @@
     "es": {
       "title": "Rollo de matcha",
       "description": "Bizcocho ligero de té verde enrollado con nata y anko opcional. Pre-enrollarlo caliente ayuda a evitar grietas.",
-      "animeContext": "K-On! está muy ligado al té y los pasteles del club; este rollo se presenta como asociación recurrente, no receta exacta de una escena.",
+      "animeContext": "El té y los dulces son elementos recurrentes en K-On!, pero este roll cake de matcha es una inspiración culinaria de la app y no un pastel recurrente verificado de la serie.",
       "ingredients": {
         "eggs": {
           "name": "Huevos grandes separados",
@@ -256,7 +256,7 @@
     "fr": {
       "title": "Roulé au matcha",
       "description": "Biscuit léger au thé vert roulé avec crème fouettée et anko facultatif. Le pré-roulage à chaud réduit les fissures.",
-      "animeContext": "K-On! est fortement lié au thé et aux gâteaux du club; ce roulé est une association récurrente, pas une recette exacte d’une scène.",
+      "animeContext": "Le thé et les douceurs sont récurrents dans K-On!, mais ce roulé au matcha est une inspiration culinaire de l’app et non un gâteau récurrent vérifié de la série.",
       "ingredients": {
         "eggs": {
           "name": "Gros œufs séparés",
@@ -307,7 +307,7 @@
     "de": {
       "title": "Matcha-Rolle",
       "description": "Leichter Grüntee-Biskuit mit Sahne und optional Anko. Warmes Vorrollen trainiert die Krume und verhindert Risse.",
-      "animeContext": "K-On! ist stark mit Tee und Kuchen im Clubraum verbunden; diese Matcha-Rolle ist eine wiederkehrende Dessert-Assoziation, keine exakte Szene.",
+      "animeContext": "Tee und Süßigkeiten sind in K-On! wiederkehrende Elemente; diese Matcha-Rolle ist jedoch eine kulinarische Inspiration der App und kein verifiziert wiederkehrender Kuchen der Serie.",
       "ingredients": {
         "eggs": {
           "name": "Große Eier, getrennt",
@@ -358,7 +358,7 @@
     "pt": {
       "title": "Rocambole de matcha",
       "description": "Bolo leve de chá verde enrolado com chantilly e anko opcional. Pré-enrolar ainda quente reduz rachaduras.",
-      "animeContext": "K-On! é fortemente ligado a chá e bolos no clube; este rocambole é uma associação recorrente, não uma receita exata de cena.",
+      "animeContext": "Chá e doces são elementos recorrentes em K-On!, mas este rocambole de matcha é uma inspiração culinária do app e não um bolo recorrente verificado da série.",
       "ingredients": {
         "eggs": {
           "name": "Ovos grandes separados",
