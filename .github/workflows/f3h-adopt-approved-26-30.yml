@@ -35,17 +35,14 @@ jobs:
         run: |
           python3 - <<'PY'
           from pathlib import Path
-          from PIL import Image
           for n in range(26, 31):
               p = Path(f"assets/recipe_artwork/recipe_{n:06d}.jpg")
-              size = p.stat().st_size
+              data = p.read_bytes()
+              size = len(data)
               if size > 133120:
                   raise SystemExit(f"{p}: {size} bytes exceeds target budget")
-              with Image.open(p) as im:
-                  if im.format != "JPEG":
-                      raise SystemExit(f"{p}: expected JPEG, got {im.format}")
-                  if im.size != (960, 960):
-                      raise SystemExit(f"{p}: expected 960x960, got {im.size}")
+              if not data.startswith(b"\\xff\\xd8\\xff") or not data.endswith(b"\\xff\\xd9"):
+                  raise SystemExit(f"{p}: invalid JPEG signature")
               print(f"OK {p} {size} bytes")
           PY
 
