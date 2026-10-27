@@ -12,6 +12,7 @@ from pathlib import Path
 from typing import Iterable
 
 from f3l_translation_gate import digest, inspect, source_recipes
+from f3l_french_recipe_159 import apply_french_recipe_159
 
 MODEL_MAP = {
     "en": ("Helsinki-NLP/opus-mt-it-en",),
@@ -141,6 +142,8 @@ def main():
             } for i in r["ingredients"]],
             "steps":[{"id":s["id"],"instruction":t(s["instruction"]),"timerSeconds":s.get("timerSeconds")} for s in r["steps"]]
         }
+        if ns.locale == "fr" and r["id"] == "recipe_000159":
+            out = apply_french_recipe_159(r, out)
         output.append(out)
     pack={"schemaVersion":1,"phase":"F3L_TRANSLATIONS","locale":ns.locale,"sourceLocale":"it",
           "sourceBaselineSha256":digest(source),"modelChain":list(MODEL_MAP[ns.locale]),
