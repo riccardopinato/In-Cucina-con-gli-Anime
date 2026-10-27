@@ -466,3 +466,19 @@ Exit for Phase A:
 Phase B — EN/ES/FR/DE/PT:
 - BLOCKED until the stricter anti-template Italian freeze also passes exact-head CI;
 - translations must reproduce the full frozen Italian recipe structure and may not collapse procedures back to generic four-step templates.
+
+## F3L — Translation rebuild for recipes 51–162 — CURRENT
+
+Blocked by: F3K Italian editorial freeze — PASS (main `bda4ef4e603741336882cd91cd10b8eff0ab3695`).
+
+Goal: publish all five additional locale packs without losing a single canonical ingredient, quantity, timer, or cooking step.
+
+Phase B1: generate isolated review-required EN/ES/FR/DE/PT candidate packs from the frozen Italian source; mark candidates non-publishable. A dedicated CI workflow produces one artifact per language. The MT authoring tool and model weights are never app/runtime dependencies.
+
+Phase B2: have each candidate reviewed against the Italian source for culinary terminology, full imperative procedures, kitchen-safety wording, accurate temperatures/timing/quantities, and natural native phrasing. Portuguese requires particular care because its candidate passes through English.
+
+Phase B3: promote only audited packs with 112/112 human reviews per language, full 1:1 structural equivalence, zero untranslated or generic boilerplate, and a runtime integration CI green on exact PR head. Keep current runtime translations untouched before this gate.
+
+Evidence: `tool/f3l_translate_drafts.py`, `tool/f3l_translation_gate.py`, `tool/tests/test_f3l_translation_gate.py`, `docs/F3L_TRANSLATION_QA.md`, `.github/workflows/f3l-translation-drafts.yml`.
+
+Do **not** mark F3L PASS because automated machine drafts exist. Gate `--release-ready` explicitly rejects drafts lacking human editorial sign-off.
