@@ -119,6 +119,9 @@ jobs:
       - name: Validate repository structure
         run: python3 tool/validate_structure.py
 
+      - name: Validate F3K Italian baseline
+        run: python3 tool/f3k_it_quality_gate.py
+
       - name: Check generated recipe catalog
         run: python3 tool/compile_recipe_catalog.py --check --report build/authoring/production_report.json
 
