@@ -3,8 +3,8 @@
     "locale": "en",
     "recipeCount": 112,
     "structuralErrorCount": 0,
-    "warningCount": 30,
-    "highSeverityCount": 3,
+    "warningCount": 15,
+    "highSeverityCount": 0,
     "humanReviewedCount": 0,
     "releaseApproved": false
   },
@@ -12,8 +12,8 @@
     "locale": "es",
     "recipeCount": 112,
     "structuralErrorCount": 0,
-    "warningCount": 40,
-    "highSeverityCount": 4,
+    "warningCount": 25,
+    "highSeverityCount": 0,
     "humanReviewedCount": 0,
     "releaseApproved": false
   },
@@ -21,8 +21,8 @@
     "locale": "fr",
     "recipeCount": 112,
     "structuralErrorCount": 0,
-    "warningCount": 113,
-    "highSeverityCount": 14,
+    "warningCount": 81,
+    "highSeverityCount": 0,
     "humanReviewedCount": 0,
     "releaseApproved": false
   },
@@ -30,8 +30,8 @@
     "locale": "de",
     "recipeCount": 112,
     "structuralErrorCount": 0,
-    "warningCount": 82,
-    "highSeverityCount": 19,
+    "warningCount": 41,
+    "highSeverityCount": 0,
     "humanReviewedCount": 0,
     "releaseApproved": false
   },
@@ -39,8 +39,8 @@
     "locale": "pt",
     "recipeCount": 112,
     "structuralErrorCount": 0,
-    "warningCount": 45,
-    "highSeverityCount": 10,
+    "warningCount": 23,
+    "highSeverityCount": 0,
     "humanReviewedCount": 0,
     "releaseApproved": false
   }
