@@ -401,7 +401,7 @@ Evidence:
 - merge policy remains: the final branch head must be green before merge.
 
 
-## F3J — Catalog expansion to 162 recipes — CURRENT
+## F3J — Catalog expansion to 162 recipes — PASS
 
 Blocked by: F3H/F3I — unblocked.
 
@@ -421,3 +421,46 @@ Exit:
 - authoring/runtime validation green;
 - Flutter analyze/test + Web/Android CI green on exact PR head;
 - PR merged to `main`.
+
+
+## F3K — Italian editorial hardening 51–162 — CURRENT
+
+Blocked by: F3J — unblocked.
+
+Goal: make the 112 recipes added in F3J genuinely complete and cookable in Italian before any translation refresh is allowed.
+
+Non-negotiable sequencing:
+1. freeze a 100% Italian source baseline for `recipe_000051` through `recipe_000162`;
+2. exact-head CI must pass the dedicated F3K Italian quality gate;
+3. only after that PASS may EN/ES/FR/DE/PT translation work begin;
+4. any later material Italian edit invalidates the translation baseline and re-locks translation work.
+
+Implemented Italian staging baseline:
+- 112/112 recipes covered;
+- no fixed four-step quota: procedures use the number of meaningful steps required by the dish;
+- minimum 6 meaningful steps, median 8, maximum 13;
+- minimum 100 procedure words, median 124, maximum 204;
+- dish-specific descriptions, minimum 40 words, with near-duplicate copy blocked;
+- ingredient quantities are measured or explicitly `q.b.`;
+- reusable subcomponents resolve explicitly instead of relying on unexplained ready-made chashu/kakuni/curry/yakisoba/karaage/etc.;
+- real elapsed time includes rests, proofing, chilling, freezing, marinades and long simmering where relevant;
+- all 224 anime associations reviewed individually;
+- factual anime appearance/recurrence claims require evidence; otherwise the final reviewed relation remains conservatively `inspired`;
+- EN/ES/FR/DE/PT are explicitly `BLOCKED_UNTIL_IT_100_PERCENT`.
+
+Evidence:
+- `authoring/f3k_it_hardening_51_162.json`;
+- `tool/f3k_it_quality_gate.py`;
+- `docs/F3K_IT_HARDENING_AUDIT.md`.
+
+Exit for Phase A:
+- dedicated F3K Italian gate PASS on the exact PR head;
+- 112/112 IDs present and frozen;
+- zero filler/generic-step violations;
+- zero unresolved ingredient component references;
+- zero incomplete anime review states;
+- translation policy remains BLOCKED until that exact-head PASS.
+
+Phase B — EN/ES/FR/DE/PT:
+- BLOCKED until Phase A exact-head PASS;
+- translations must reproduce the full frozen Italian recipe structure and may not collapse procedures back to generic four-step templates.

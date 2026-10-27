@@ -25,7 +25,7 @@ The product should feel warm, illustrated and playful without presenting itself 
 
 F0 foundation, F1 runtime catalog contract, F2 authoring/import pipeline and F3A content ingestion are complete.
 
-The production catalog contains 162 published recipes localized in EN/IT/ES/FR/DE/PT. Recipes 1–50 retain their approved artwork; recipes 51–162 intentionally use the deterministic procedural fallback until their original food artwork is reviewed and approved in batches. F4A consent/privacy foundation is complete; F4B entitlement + one-time purchase remains the next monetization step.
+The production catalog contains 162 published recipes. Recipes 1–50 retain their approved artwork; recipes 51–162 intentionally use the deterministic procedural fallback until their original food artwork is reviewed and approved in batches. F3K is hardening recipes 51–162 with an Italian-first source-of-truth rule: the complete Italian editorial baseline must reach 112/112 PASS before EN/ES/FR/DE/PT are regenerated. Existing translated runtime content remains installed until that refresh is completed; it is not treated as the new editorial source.
 
 ## UX direction
 
@@ -75,6 +75,8 @@ User/reference material is first interpreted as culinary input. Raw copied prose
 The committed authoring record contains normalized facts and fresh app editorial wording. Recipes may be `original`, `inspired` or `adapted`.
 
 Before publication:
+- for recipes 51–162, the frozen Italian source baseline must pass F3K before translation regeneration starts;
+- translations must preserve the full recipe-specific procedure rather than collapsing to fixed generic step counts;
 - identity/structure validate;
 - all six locales complete;
 - assets resolve through the authoring asset manifest;
@@ -113,7 +115,7 @@ Exact pricing/provider/store integration is out of scope until F4.
 - versioned local JSON runtime catalog;
 - deterministic authoring -> runtime compiler;
 - duplicate/similarity review with stale-decision protection;
-- production catalog contains 162 published recipes with stable IDs and complete EN/IT/ES/FR/DE/PT localization;
+- production catalog contains 162 published recipes with stable IDs; F3K Italian hardening is the canonical source for recipes 51–162 and translation refresh is gated until the Italian baseline passes 112/112;
 - Explore/Favorites/Shopping navigation works;
 - Explore/cards/detail share the F3B editorial visual system across the full 162-recipe catalog, with approved JPEG artwork where available and deterministic fallback visuals elsewhere;
 - F3C decorative mascots are recipe-independent, contextual, lightweight and reduced-motion aware;
