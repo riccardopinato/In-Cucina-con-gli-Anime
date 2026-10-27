@@ -9,6 +9,7 @@ from f3l_curated_recipe_051 import apply as curate_051
 from f3l_culinary_safety_fixes import apply as culinary_fixes
 from f3l_curated_titles import apply_titles
 from f3l_witnessed_wording_repairs import apply as fix_witnessed
+from f3l_curated_components import apply as curate_components
 
 LOCALES=('en','es','fr','de','pt')
 def generate(source,pack):
@@ -26,11 +27,15 @@ def generate(source,pack):
         if translated['reviewStatus']!='machine_draft':raise ValueError('must never mark edits human_reviewed')
     apply_titles(source,pack)
     witnessed_count=fix_witnessed(source,pack)
+    curate_components(source,pack)
     # Explicit provenance distinguishes this AI-guided copy edit from locale sign-off.
     pack['editorialStaging']={
         'status':'PARTIAL_COPYEDIT_UNAPPROVED',
         'comprehensivelyEditedRecipeIds':['recipe_000051'],
         'titleCopyeditCount':112,
+        'curatedReusableComponentCount':10,
+        'fullReusableComponentCopyedits':6,
+        'referenceOnlyComponentTitleCopyedits':4,
         'witnessedWordingFieldsRepaired':witnessed_count,
         'titleCopyeditScope':'All titles reviewed as AI-assisted terminology candidates, not certified by human linguists.',
         'partiallyEditedRecipeIds':['recipe_000053','recipe_000059','recipe_000107','recipe_000150'],
