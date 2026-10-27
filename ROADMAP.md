@@ -261,25 +261,36 @@ Exit:
 - PASS: tests prove local allow alone cannot reach the ad-request path;
 - PASS: no ad/billing SDK or production identifier added in F4A.
 
-### F4B — Entitlement + one-time purchase seam — NEXT
+### F4B — Entitlement + one-time purchase seam — IMPLEMENTED / SANDBOX PROOF PENDING
 
-Delivers:
-- keep the existing provider-agnostic entitlement contract as the UI source of truth;
-- introduce one-time Remove Ads / Lifetime capability before considering subscription plans;
-- purchase/restore adapter behind the entitlement boundary;
-- entitled users trigger zero ad requests, not merely hidden ad widgets;
-- purchase state survives app restarts and supports restore flow;
-- sandbox/test provider configuration only; no production secrets in the repository.
+Delivered in code:
+- provider-agnostic entitlement contract remains the UI source of truth;
+- one-time Remove Ads / Lifetime capability precedes any subscription plan;
+- official Flutter `in_app_purchase` adapter is isolated behind PurchaseGateway;
+- Web Preview uses a no-op billing adapter and remains buildable;
+- billing is disabled by default and enabled only through explicit build configuration;
+- store price/title/description come from ProductDetails rather than hardcoded production values;
+- purchase/restore events require a separate verifier before Lifetime can be granted;
+- F4B sandbox verifier is opt-in only and must never be enabled for a production build;
+- verified Lifetime state is cached locally as `offlineCache`, never reconstructed as `providerVerified`;
+- entitled users continue to produce zero ad requests through ProductLimits;
+- tests cover verified purchase, verified restore, restart persistence and verification failure;
+- no RevenueCat dependency; the official store plugin is currently the smallest sufficient adapter;
+- implementation from PR #11 was rebased onto the 162-recipe main without replacing catalog/editorial work.
 
 Provider decision:
-- select the smallest reliable store/billing integration that preserves the current entitlement seam;
-- RevenueCat remains optional, not mandatory, unless its operational value justifies the dependency.
+- use `in_app_purchase ^3.3.1` for Android/iOS store transport;
+- retain the existing provider-agnostic entitlement seam so RevenueCat or a server verifier can replace verification later without UI changes;
+- product ID: `remove_ads_lifetime`;
+- default billing flag: OFF.
 
 Exit:
-- sandbox purchase + restore evidence exists;
-- free and entitled states are covered by tests;
-- UI does not directly depend on a billing SDK.
+- PENDING: real Google Play/App Store sandbox purchase + restore evidence;
+- PASS in automated code coverage: free/entitled states, persisted offline Lifetime, verification failure and zero-ad-request entitlement behaviour;
+- PASS: UI has no direct billing SDK dependency;
+- PASS: no production billing secret or optimistic entitlement path exists.
 
+See `docs/BILLING_SANDBOX_CHECKLIST.md`.
 ### F4C — Safe adaptive browsing ads
 
 Delivers:
@@ -401,7 +412,7 @@ Evidence:
 - merge policy remains: the final branch head must be green before merge.
 
 
-## F3J — Catalog expansion to 162 recipes — CURRENT
+## F3J — Catalog expansion to 162 recipes — PASS
 
 Blocked by: F3H/F3I — unblocked.
 
