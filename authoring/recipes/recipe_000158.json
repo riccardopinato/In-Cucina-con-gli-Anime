@@ -1,0 +1,339 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000158",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "K-On!",
+  "animeReferences": [
+    {
+      "workTitle": "K-On!",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    },
+    {
+      "workTitle": "Cardcaptor Sakura",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Reviewed for culinary consistency during the bulk editorial import and normalized into the app authoring contract.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime associations are retained as thematic inspiration from the supplied collection; no episode-level appearance is claimed without direct evidence."
+  },
+  "prepMinutes": 25,
+  "cookMinutes": 30,
+  "servings": 6,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 12; raw source prose remains transient and is not committed.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "uovo",
+      "quantity": 4,
+      "unit": "piece"
+    },
+    {
+      "id": "farina_per_dolci",
+      "quantity": 70,
+      "unit": "g"
+    },
+    {
+      "id": "polvere_di_te_verde_matcha_di_qualita",
+      "quantity": 10,
+      "unit": "g"
+    },
+    {
+      "id": "zucchero_semolato",
+      "quantity": 70,
+      "unit": "g"
+    },
+    {
+      "id": "olio_di_semi_di_arachidi",
+      "quantity": 40,
+      "unit": "ml"
+    },
+    {
+      "id": "acqua_tiepida",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "id": "cremor_tartaro",
+      "quantity": 0.5,
+      "unit": "tsp"
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Matcha Chiffon Cake",
+      "description": "A Japanese-style Matcha Chiffon Cake designed for a light, clean finish, with careful mixing, temperature control and enough resting time for the intended texture.",
+      "animeContext": "This recipe is thematically inspired by K-On!, Cardcaptor Sakura. The association is kept as inspiration only; no specific episode or on-screen appearance is claimed without direct evidence.",
+      "ingredients": {
+        "uovo": {
+          "name": "Egg (egg whites e tuorli separati)",
+          "note": null
+        },
+        "farina_per_dolci": {
+          "name": "Cake flour",
+          "note": null
+        },
+        "polvere_di_te_verde_matcha_di_qualita": {
+          "name": "Polvere di tè verde matcha di qualità",
+          "note": null
+        },
+        "zucchero_semolato": {
+          "name": "Granulated sugar",
+          "note": null
+        },
+        "olio_di_semi_di_arachidi": {
+          "name": "Neutral oil di arachidi",
+          "note": null
+        },
+        "acqua_tiepida": {
+          "name": "Lukewarm water",
+          "note": null
+        },
+        "cremor_tartaro": {
+          "name": "Cremor tartaro",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare the pan, mold or serving glasses and measure all ingredients before mixing; keep dairy or whipped components cold when the recipe requires it.",
+        "step_2": "Mix or whip the base only as much as needed to obtain a smooth, airy or creamy texture without unnecessarily knocking out incorporated air.",
+        "step_3": "Bake, chill, freeze or set the dessert with controlled temperature and timing, checking the center or surface for the intended doneness rather than relying only on the clock.",
+        "step_4": "Cool or rest fully when required, then add the final cream, fruit, syrup or garnish immediately before serving."
+      }
+    },
+    "it": {
+      "title": "Matcha Chiffon Cake (Torta Soffice e Alta al Tè Verde Matcha)",
+      "description": "Un Matcha Chiffon Cake (Torta Soffice e Alta al Tè Verde Matcha) in stile giapponese dal risultato leggero e pulito, dove montatura, temperatura e riposo vengono gestiti con attenzione per ottenere la consistenza corretta.",
+      "animeContext": "Questa ricetta è ispirata tematicamente a K-On!, Cardcaptor Sakura. Il collegamento resta dichiarato come ispirazione: non viene attribuita una comparsa precisa senza una verifica diretta.",
+      "ingredients": {
+        "uovo": {
+          "name": "uovo (albumi e tuorli separati)",
+          "note": null
+        },
+        "farina_per_dolci": {
+          "name": "farina per dolci",
+          "note": null
+        },
+        "polvere_di_te_verde_matcha_di_qualita": {
+          "name": "polvere di tè verde Matcha di qualità",
+          "note": null
+        },
+        "zucchero_semolato": {
+          "name": "zucchero semolato",
+          "note": null
+        },
+        "olio_di_semi_di_arachidi": {
+          "name": "olio di semi di arachidi",
+          "note": null
+        },
+        "acqua_tiepida": {
+          "name": "acqua tiepida",
+          "note": null
+        },
+        "cremor_tartaro": {
+          "name": "cremor tartaro",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Per iniziare, riunisci in una ciotola montare i tuorli con 20g di zucchero. Unire l'olio di semi e l'acqua tiepida continuando a amalgamare.",
+        "step_2": "Prosegui così: setacciare la farina insieme al tè Matcha ed incorporare al composto di tuorli con una frusta.",
+        "step_3": "Nella fase successiva, in un'altra ciotola ben pulita, montare gli albumi con il cremor tartaro ed il restante zucchero aggiunto in 3 riprese, fino ad ottenere una meringa ben ferma e lucida. Incorporare 1/3 della meringa nel composto al Matcha amalgamando per stemperare, poi unire la restante meringa delicatamente dal basso verso l'alto.",
+        "step_4": "Per completare, aggiungire nello stampo da Chiffon cake non imburrato. Cuocere in forno statico a 160°C per 30 minuti. Sfornare e capovolgere immediatamente lo stampo su una bottiglia lasciando raffreddare completamente prima di sformare."
+      }
+    },
+    "es": {
+      "title": "Matcha Chiffon Cake",
+      "description": "Una versión práctica de Matcha Chiffon Cake para cocinar en casa, manteniendo los ingredientes característicos, la textura y la técnica del plato con una secuencia clara y repetible.",
+      "animeContext": "Esta receta está inspirada temáticamente en K-On!, Cardcaptor Sakura. La relación se presenta solo como inspiración y no afirma una aparición concreta sin una verificación directa.",
+      "ingredients": {
+        "uovo": {
+          "name": "Huevo (huevo whites e tuorli separati)",
+          "note": null
+        },
+        "farina_per_dolci": {
+          "name": "Cake harina",
+          "note": null
+        },
+        "polvere_di_te_verde_matcha_di_qualita": {
+          "name": "Polvere di tè verde matcha di qualità",
+          "note": null
+        },
+        "zucchero_semolato": {
+          "name": "Granulated azúcar",
+          "note": null
+        },
+        "olio_di_semi_di_arachidi": {
+          "name": "Neutral aceite di arachidi",
+          "note": null
+        },
+        "acqua_tiepida": {
+          "name": "Lukewarm agua",
+          "note": null
+        },
+        "cremor_tartaro": {
+          "name": "Cremor tartaro",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepara todos los componentes de la receta antes de aplicar calor, manteniendo salsas y guarniciones separadas para poder trabajar con orden.",
+        "step_2": "Cocina el elemento principal con calor controlado hasta alcanzar la textura indicada, evitando prolongar la cocción más de lo necesario.",
+        "step_3": "Incorpora el caldo, la salsa o los componentes restantes por etapas y continúa solo hasta que los sabores queden bien integrados y la textura sea correcta.",
+        "step_4": "Monta el plato con las guarniciones preparadas y sirve inmediatamente, conservando hasta el último momento los elementos que deben quedar crujientes o frescos."
+      }
+    },
+    "fr": {
+      "title": "Matcha Chiffon Cake",
+      "description": "Une version pratique de Matcha Chiffon Cake à préparer à la maison, en conservant les ingrédients caractéristiques, la texture et la technique du plat dans une séquence claire.",
+      "animeContext": "Cette recette est inspirée thématiquement par K-On!, Cardcaptor Sakura. Le lien reste une inspiration et ne revendique aucun épisode précis sans vérification directe.",
+      "ingredients": {
+        "uovo": {
+          "name": "Œuf (œuf whites e tuorli separati)",
+          "note": null
+        },
+        "farina_per_dolci": {
+          "name": "Cake farine",
+          "note": null
+        },
+        "polvere_di_te_verde_matcha_di_qualita": {
+          "name": "Polvere di tè verde matcha di qualità",
+          "note": null
+        },
+        "zucchero_semolato": {
+          "name": "Granulated sucre",
+          "note": null
+        },
+        "olio_di_semi_di_arachidi": {
+          "name": "Neutral huile di arachidi",
+          "note": null
+        },
+        "acqua_tiepida": {
+          "name": "Lukewarm eau",
+          "note": null
+        },
+        "cremor_tartaro": {
+          "name": "Cremor tartaro",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Préparez tous les éléments de la recette avant la cuisson et gardez sauces et garnitures séparées afin de travailler de façon ordonnée et précise.",
+        "step_2": "Cuisez l’élément principal à chaleur maîtrisée jusqu’à la texture recherchée, sans prolonger inutilement la cuisson au-delà du point souhaité.",
+        "step_3": "Ajoutez progressivement le bouillon, la sauce ou les autres composants et poursuivez seulement jusqu’à ce que les saveurs soient liées et la texture correcte.",
+        "step_4": "Dressez avec les garnitures préparées et servez sans attendre, en préservant jusqu’au dernier moment les éléments qui doivent rester croquants ou frais."
+      }
+    },
+    "de": {
+      "title": "Matcha Chiffon Cake",
+      "description": "Eine alltagstaugliche Version von Matcha Chiffon Cake für zu Hause, bei der typische Zutaten, Textur und Garmethode in einer klaren, wiederholbaren Reihenfolge erhalten bleiben.",
+      "animeContext": "Dieses Rezept ist thematisch von K-On!, Cardcaptor Sakura inspiriert. Die Verbindung wird nur als Inspiration geführt; ohne direkten Beleg wird keine konkrete Episode behauptet.",
+      "ingredients": {
+        "uovo": {
+          "name": "Ei (Ei whites e tuorli separati)",
+          "note": null
+        },
+        "farina_per_dolci": {
+          "name": "Cake Mehl",
+          "note": null
+        },
+        "polvere_di_te_verde_matcha_di_qualita": {
+          "name": "Polvere di tè verde matcha di qualità",
+          "note": null
+        },
+        "zucchero_semolato": {
+          "name": "Granulated Zucker",
+          "note": null
+        },
+        "olio_di_semi_di_arachidi": {
+          "name": "Neutral Öl di arachidi",
+          "note": null
+        },
+        "acqua_tiepida": {
+          "name": "Lukewarm Wasser",
+          "note": null
+        },
+        "cremor_tartaro": {
+          "name": "Cremor tartaro",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bereite alle Bestandteile vor dem Erhitzen vollständig vor und halte Saucen sowie Garnituren getrennt, damit die eigentliche Garphase zügig ablaufen kann.",
+        "step_2": "Gare die Hauptkomponente bei kontrollierter Hitze bis zur gewünschten Textur und vermeide unnötig langes Weitergaren über den richtigen Punkt hinaus.",
+        "step_3": "Gib Brühe, Sauce oder die restlichen Bestandteile schrittweise dazu und gare nur so lange weiter, bis Geschmack und Konsistenz ausgewogen sind.",
+        "step_4": "Richte das Gericht mit den vorbereiteten Garnituren an und serviere es sofort, damit knusprige oder frische Elemente ihre gewünschte Textur behalten."
+      }
+    },
+    "pt": {
+      "title": "Matcha Chiffon Cake",
+      "description": "Uma versão prática de Matcha Chiffon Cake para preparar em casa, preservando ingredientes característicos, textura e técnica do prato numa sequência clara e repetível.",
+      "animeContext": "Esta receita é tematicamente inspirada por K-On!, Cardcaptor Sakura. A ligação é tratada apenas como inspiração, sem afirmar uma aparição específica sem verificação direta.",
+      "ingredients": {
+        "uovo": {
+          "name": "Ovo (ovo whites e tuorli separati)",
+          "note": null
+        },
+        "farina_per_dolci": {
+          "name": "Cake farinha",
+          "note": null
+        },
+        "polvere_di_te_verde_matcha_di_qualita": {
+          "name": "Polvere di tè verde matcha di qualità",
+          "note": null
+        },
+        "zucchero_semolato": {
+          "name": "Granulated açúcar",
+          "note": null
+        },
+        "olio_di_semi_di_arachidi": {
+          "name": "Neutral óleo di arachidi",
+          "note": null
+        },
+        "acqua_tiepida": {
+          "name": "Lukewarm água",
+          "note": null
+        },
+        "cremor_tartaro": {
+          "name": "Cremor tartaro",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare todos os componentes antes de aplicar calor e mantenha molhos e guarnições separados, para que a fase de confeção decorra de forma rápida e organizada.",
+        "step_2": "Cozinhe o componente principal com calor controlado até atingir a textura pretendida, evitando prolongar a confeção para além do ponto correto.",
+        "step_3": "Junte o caldo, o molho ou os restantes componentes por etapas e prossiga apenas até os sabores ficarem integrados e a textura estar equilibrada.",
+        "step_4": "Monte o prato com as guarnições preparadas e sirva de imediato, preservando até ao fim os elementos que devem permanecer crocantes ou frescos."
+      }
+    }
+  }
+}

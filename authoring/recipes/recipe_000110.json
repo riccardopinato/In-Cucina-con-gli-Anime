@@ -1,0 +1,310 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000110",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Food Wars!",
+  "animeReferences": [
+    {
+      "workTitle": "Food Wars!",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    },
+    {
+      "workTitle": "Golden Kamuy",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Reviewed for culinary consistency during the bulk editorial import and normalized into the app authoring contract.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime associations are retained as thematic inspiration from the supplied collection; no episode-level appearance is claimed without direct evidence."
+  },
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "servings": 2,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 10; raw source prose remains transient and is not committed.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "trippa_o_frattaglie_di_manzo_maiale_pulite",
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "id": "cespo_di_cavolo_cappuccio_sfogliato",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "erba_cipollina_porri_cinesi",
+      "quantity": 2,
+      "unit": "piece"
+    },
+    {
+      "id": "brodo_dashi_con_aglio_e_peperoncino",
+      "quantity": 800,
+      "unit": "ml"
+    },
+    {
+      "id": "miso_chiaro_o_salsa_di_soia",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "id": "tofu_tagliato_a_cubetti",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Motsunabe",
+      "description": "A comforting Motsunabe prepared with gentle simmering so the main ingredients become tender while the broth stays flavorful and balanced.",
+      "animeContext": "This recipe is thematically inspired by Food Wars!, Golden Kamuy. The association is kept as inspiration only; no specific episode or on-screen appearance is claimed without direct evidence.",
+      "ingredients": {
+        "trippa_o_frattaglie_di_manzo_maiale_pulite": {
+          "name": "Trippa o frattaglie di beef/pork pulite",
+          "note": null
+        },
+        "cespo_di_cavolo_cappuccio_sfogliato": {
+          "name": "Cespo di cabbage sfogliato",
+          "note": null
+        },
+        "erba_cipollina_porri_cinesi": {
+          "name": "Erba cipollina / porri cinesi (nira)",
+          "note": null
+        },
+        "brodo_dashi_con_aglio_e_peperoncino": {
+          "name": "Dashi broth con garlic e peperoncino",
+          "note": null
+        },
+        "miso_chiaro_o_salsa_di_soia": {
+          "name": "Miso chiaro o soy sauce",
+          "note": null
+        },
+        "tofu_tagliato_a_cubetti": {
+          "name": "Tofu cut into cubetti",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Cut and organize the main ingredients so pieces of similar density are comparable in size; prepare the seasoned broth separately before simmering.",
+        "step_2": "Build the broth over moderate heat and add the ingredients in order of cooking time, keeping the liquid at a gentle simmer rather than a hard boil.",
+        "step_3": "Continue cooking until proteins are safely cooked and vegetables are tender but intact, adjusting the seasoning only after the broth has reduced slightly.",
+        "step_4": "Finish with the final aromatics or garnish and serve hot, allowing a brief rest when useful so the ingredients absorb the seasoned broth."
+      }
+    },
+    "it": {
+      "title": "Motsunabe (Stufato di Frattaglie e Porri di Fukuoka)",
+      "description": "Un Motsunabe (Stufato di Frattaglie e Porri di Fukuoka) confortante cotto a sobbollore dolce, così gli ingredienti diventano teneri senza disfarsi e il fondo resta concentrato ma equilibrato.",
+      "animeContext": "Questa ricetta è ispirata tematicamente a Food Wars!, Golden Kamuy. Il collegamento resta dichiarato come ispirazione: non viene attribuita una comparsa precisa senza una verifica diretta.",
+      "ingredients": {
+        "trippa_o_frattaglie_di_manzo_maiale_pulite": {
+          "name": "trippa o frattaglie di manzo/maiale pulite",
+          "note": null
+        },
+        "cespo_di_cavolo_cappuccio_sfogliato": {
+          "name": "cespo di cavolo cappuccio sfogliato",
+          "note": null
+        },
+        "erba_cipollina_porri_cinesi": {
+          "name": "erba cipollina / porri cinesi (Nira)",
+          "note": null
+        },
+        "brodo_dashi_con_aglio_e_peperoncino": {
+          "name": "brodo dashi con aglio e peperoncino",
+          "note": null
+        },
+        "miso_chiaro_o_salsa_di_soia": {
+          "name": "miso chiaro o salsa di soia",
+          "note": null
+        },
+        "tofu_tagliato_a_cubetti": {
+          "name": "Tofu tagliato a cubetti",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Per iniziare, sbollenta brevemente le frattaglie per eliminare le impurità.",
+        "step_2": "Prosegui così: metti in un pentolino per nabe, sistema il cavolo sul fondo, unisci le frattaglie e il tofu.",
+        "step_3": "Nella fase successiva, copri con una montagna di erba cipollina Nira tagliata a bastoncino.",
+        "step_4": "Per completare, aggiungi il brodo dashi insaporito al miso e aglio e lascia cuocere a fuoco medio finché le verdure si ammorbidiscono."
+      }
+    },
+    "es": {
+      "title": "Motsunabe",
+      "description": "Una versión práctica de Motsunabe para cocinar en casa, manteniendo los ingredientes característicos, la textura y la técnica del plato con una secuencia clara y repetible.",
+      "animeContext": "Esta receta está inspirada temáticamente en Food Wars!, Golden Kamuy. La relación se presenta solo como inspiración y no afirma una aparición concreta sin una verificación directa.",
+      "ingredients": {
+        "trippa_o_frattaglie_di_manzo_maiale_pulite": {
+          "name": "Trippa o frattaglie di ternera/cerdo pulite",
+          "note": null
+        },
+        "cespo_di_cavolo_cappuccio_sfogliato": {
+          "name": "Cespo di col sfogliato",
+          "note": null
+        },
+        "erba_cipollina_porri_cinesi": {
+          "name": "Erba cipollina / porri cinesi (nira)",
+          "note": null
+        },
+        "brodo_dashi_con_aglio_e_peperoncino": {
+          "name": "Dashi caldo con ajo e peperoncino",
+          "note": null
+        },
+        "miso_chiaro_o_salsa_di_soia": {
+          "name": "Miso chiaro o salsa de soja",
+          "note": null
+        },
+        "tofu_tagliato_a_cubetti": {
+          "name": "Tofu cut into cubetti",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepara todos los componentes de la receta antes de aplicar calor, manteniendo salsas y guarniciones separadas para poder trabajar con orden.",
+        "step_2": "Cocina el elemento principal con calor controlado hasta alcanzar la textura indicada, evitando prolongar la cocción más de lo necesario.",
+        "step_3": "Incorpora el caldo, la salsa o los componentes restantes por etapas y continúa solo hasta que los sabores queden bien integrados y la textura sea correcta.",
+        "step_4": "Monta el plato con las guarniciones preparadas y sirve inmediatamente, conservando hasta el último momento los elementos que deben quedar crujientes o frescos."
+      }
+    },
+    "fr": {
+      "title": "Motsunabe",
+      "description": "Une version pratique de Motsunabe à préparer à la maison, en conservant les ingrédients caractéristiques, la texture et la technique du plat dans une séquence claire.",
+      "animeContext": "Cette recette est inspirée thématiquement par Food Wars!, Golden Kamuy. Le lien reste une inspiration et ne revendique aucun épisode précis sans vérification directe.",
+      "ingredients": {
+        "trippa_o_frattaglie_di_manzo_maiale_pulite": {
+          "name": "Trippa o frattaglie di bœuf/porc pulite",
+          "note": null
+        },
+        "cespo_di_cavolo_cappuccio_sfogliato": {
+          "name": "Cespo di chou sfogliato",
+          "note": null
+        },
+        "erba_cipollina_porri_cinesi": {
+          "name": "Erba cipollina / porri cinesi (nira)",
+          "note": null
+        },
+        "brodo_dashi_con_aglio_e_peperoncino": {
+          "name": "Dashi bouillon con ail e peperoncino",
+          "note": null
+        },
+        "miso_chiaro_o_salsa_di_soia": {
+          "name": "Miso chiaro o sauce soja",
+          "note": null
+        },
+        "tofu_tagliato_a_cubetti": {
+          "name": "Tofu cut into cubetti",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Préparez tous les éléments de la recette avant la cuisson et gardez sauces et garnitures séparées afin de travailler de façon ordonnée et précise.",
+        "step_2": "Cuisez l’élément principal à chaleur maîtrisée jusqu’à la texture recherchée, sans prolonger inutilement la cuisson au-delà du point souhaité.",
+        "step_3": "Ajoutez progressivement le bouillon, la sauce ou les autres composants et poursuivez seulement jusqu’à ce que les saveurs soient liées et la texture correcte.",
+        "step_4": "Dressez avec les garnitures préparées et servez sans attendre, en préservant jusqu’au dernier moment les éléments qui doivent rester croquants ou frais."
+      }
+    },
+    "de": {
+      "title": "Motsunabe",
+      "description": "Eine alltagstaugliche Version von Motsunabe für zu Hause, bei der typische Zutaten, Textur und Garmethode in einer klaren, wiederholbaren Reihenfolge erhalten bleiben.",
+      "animeContext": "Dieses Rezept ist thematisch von Food Wars!, Golden Kamuy inspiriert. Die Verbindung wird nur als Inspiration geführt; ohne direkten Beleg wird keine konkrete Episode behauptet.",
+      "ingredients": {
+        "trippa_o_frattaglie_di_manzo_maiale_pulite": {
+          "name": "Trippa o frattaglie di Rindfleisch/Schweinefleisch pulite",
+          "note": null
+        },
+        "cespo_di_cavolo_cappuccio_sfogliato": {
+          "name": "Cespo di Kohl sfogliato",
+          "note": null
+        },
+        "erba_cipollina_porri_cinesi": {
+          "name": "Erba cipollina / porri cinesi (nira)",
+          "note": null
+        },
+        "brodo_dashi_con_aglio_e_peperoncino": {
+          "name": "Dashi Brühe con Knoblauch e peperoncino",
+          "note": null
+        },
+        "miso_chiaro_o_salsa_di_soia": {
+          "name": "Miso chiaro o Sojasauce",
+          "note": null
+        },
+        "tofu_tagliato_a_cubetti": {
+          "name": "Tofu cut into cubetti",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bereite alle Bestandteile vor dem Erhitzen vollständig vor und halte Saucen sowie Garnituren getrennt, damit die eigentliche Garphase zügig ablaufen kann.",
+        "step_2": "Gare die Hauptkomponente bei kontrollierter Hitze bis zur gewünschten Textur und vermeide unnötig langes Weitergaren über den richtigen Punkt hinaus.",
+        "step_3": "Gib Brühe, Sauce oder die restlichen Bestandteile schrittweise dazu und gare nur so lange weiter, bis Geschmack und Konsistenz ausgewogen sind.",
+        "step_4": "Richte das Gericht mit den vorbereiteten Garnituren an und serviere es sofort, damit knusprige oder frische Elemente ihre gewünschte Textur behalten."
+      }
+    },
+    "pt": {
+      "title": "Motsunabe",
+      "description": "Uma versão prática de Motsunabe para preparar em casa, preservando ingredientes característicos, textura e técnica do prato numa sequência clara e repetível.",
+      "animeContext": "Esta receita é tematicamente inspirada por Food Wars!, Golden Kamuy. A ligação é tratada apenas como inspiração, sem afirmar uma aparição específica sem verificação direta.",
+      "ingredients": {
+        "trippa_o_frattaglie_di_manzo_maiale_pulite": {
+          "name": "Trippa o frattaglie di carne bovina/porco pulite",
+          "note": null
+        },
+        "cespo_di_cavolo_cappuccio_sfogliato": {
+          "name": "Cespo di couve sfogliato",
+          "note": null
+        },
+        "erba_cipollina_porri_cinesi": {
+          "name": "Erba cipollina / porri cinesi (nira)",
+          "note": null
+        },
+        "brodo_dashi_con_aglio_e_peperoncino": {
+          "name": "Dashi caldo con alho e peperoncino",
+          "note": null
+        },
+        "miso_chiaro_o_salsa_di_soia": {
+          "name": "Miso chiaro o molho de soja",
+          "note": null
+        },
+        "tofu_tagliato_a_cubetti": {
+          "name": "Tofu cut into cubetti",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare todos os componentes antes de aplicar calor e mantenha molhos e guarnições separados, para que a fase de confeção decorra de forma rápida e organizada.",
+        "step_2": "Cozinhe o componente principal com calor controlado até atingir a textura pretendida, evitando prolongar a confeção para além do ponto correto.",
+        "step_3": "Junte o caldo, o molho ou os restantes componentes por etapas e prossiga apenas até os sabores ficarem integrados e a textura estar equilibrada.",
+        "step_4": "Monte o prato com as guarnições preparadas e sirva de imediato, preservando até ao fim os elementos que devem permanecer crocantes ou frescos."
+      }
+    }
+  }
+}

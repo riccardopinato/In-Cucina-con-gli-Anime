@@ -25,7 +25,7 @@ The product should feel warm, illustrated and playful without presenting itself 
 
 F0 foundation, F1 runtime catalog contract, F2 authoring/import pipeline and F3A content ingestion are complete.
 
-The production catalog contains all 10 recipes from the supplied reference document, rebuilt editorially and localized in EN/IT/ES/FR/DE/PT. F3 is complete: F3B provides the editorial visual identity and F3C adds the optional recipe-independent decorative-character layer. F4A consent/privacy foundation is complete; F4B entitlement + one-time purchase is next.
+The production catalog contains 162 published recipes localized in EN/IT/ES/FR/DE/PT. Recipes 1–50 retain their approved artwork; recipes 51–162 intentionally use the deterministic procedural fallback until their original food artwork is reviewed and approved in batches. F4A consent/privacy foundation is complete; F4B entitlement + one-time purchase remains the next monetization step.
 
 ## UX direction
 
@@ -113,9 +113,9 @@ Exact pricing/provider/store integration is out of scope until F4.
 - versioned local JSON runtime catalog;
 - deterministic authoring -> runtime compiler;
 - duplicate/similarity review with stale-decision protection;
-- production catalog contains all 10 recipes from the supplied F3A document;
+- production catalog contains 162 published recipes with stable IDs and complete EN/IT/ES/FR/DE/PT localization;
 - Explore/Favorites/Shopping navigation works;
-- Explore/cards/detail share the F3B editorial visual system across the full 10-recipe catalog;
+- Explore/cards/detail share the F3B editorial visual system across the full 162-recipe catalog, with approved JPEG artwork where available and deterministic fallback visuals elsewhere;
 - F3C decorative mascots are recipe-independent, contextual, lightweight and reduced-motion aware;
 - localization/theme/settings infrastructure exists;
 - stable user-state persistence seams exist;

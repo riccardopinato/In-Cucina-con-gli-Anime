@@ -1,0 +1,397 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000150",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Demon Slayer",
+  "animeReferences": [
+    {
+      "workTitle": "Demon Slayer",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    },
+    {
+      "workTitle": "Emiya-san Chi no Kyou no Gohan",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Reviewed for culinary consistency during the bulk editorial import and normalized into the app authoring contract.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime associations are retained as thematic inspiration from the supplied collection; no episode-level appearance is claimed without direct evidence."
+  },
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "servings": 2,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 12; raw source prose remains transient and is not committed.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "tagliolini_soba_di_grano_saraceno",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "id": "petto_d_anatra_con_pelle",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "id": "porri_lunghi_giapponesi",
+      "quantity": 2,
+      "unit": null
+    },
+    {
+      "id": "brodo_dashi_concentrato",
+      "quantity": 600,
+      "unit": "ml"
+    },
+    {
+      "id": "salsa_di_soia_scura",
+      "quantity": 40,
+      "unit": "ml"
+    },
+    {
+      "id": "mirin",
+      "quantity": 30,
+      "unit": "ml"
+    },
+    {
+      "id": "zucchero",
+      "quantity": 10,
+      "unit": "g"
+    },
+    {
+      "id": "scorza_di_yuzu_o_limone_grattugiata",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "shichimi_togarashi",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Kamo Namban Soba",
+      "description": "A practical bowl of Kamo Namban Soba, built around well-cooked noodles, a balanced broth or sauce and toppings added at the right moment so texture stays distinct.",
+      "animeContext": "This recipe is thematically inspired by Demon Slayer, Emiya-san Chi no Kyou no Gohan. The association is kept as inspiration only; no specific episode or on-screen appearance is claimed without direct evidence.",
+      "ingredients": {
+        "tagliolini_soba_di_grano_saraceno": {
+          "name": "Tagliolini soba di grano saraceno",
+          "note": null
+        },
+        "petto_d_anatra_con_pelle": {
+          "name": "Petto d'anatra con pelle",
+          "note": null
+        },
+        "porri_lunghi_giapponesi": {
+          "name": "Porri lunghi giapponesi (naganegi) cut into tocchetti di 4 cm",
+          "note": null
+        },
+        "brodo_dashi_concentrato": {
+          "name": "Dashi broth concentrato",
+          "note": null
+        },
+        "salsa_di_soia_scura": {
+          "name": "Soy sauce scura",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Sugar",
+          "note": null
+        },
+        "scorza_di_yuzu_o_limone_grattugiata": {
+          "name": "Scorza di yuzu o lemon grated",
+          "note": null
+        },
+        "shichimi_togarashi": {
+          "name": "Shichimi togarashi",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare the broth or seasoning base first and keep the toppings organized, so every component is ready before the noodles are cooked.",
+        "step_2": "Cook the noodles separately until just tender, then drain very thoroughly; avoid leaving them in hot water because they will continue to soften.",
+        "step_3": "Finish the broth or sauce at a gentle simmer and combine the hot components only when their seasoning and texture are balanced.",
+        "step_4": "Assemble the noodles immediately, add the prepared toppings in distinct sections and serve while the broth, noodles and garnishes still contrast clearly."
+      }
+    },
+    "it": {
+      "title": "Kamo Namban Soba (Soba Calda in Brodo con Anatra e Porri Tostati)",
+      "description": "Una versione pratica di Kamo Namban Soba (Soba Calda in Brodo con Anatra e Porri Tostati), costruita su noodles cotti al punto giusto, brodo o salsa equilibrati e guarnizioni aggiunte all’ultimo per mantenere consistenze distinte.",
+      "animeContext": "Questa ricetta è ispirata tematicamente a Demon Slayer, Emiya-san Chi no Kyou no Gohan. Il collegamento resta dichiarato come ispirazione: non viene attribuita una comparsa precisa senza una verifica diretta.",
+      "ingredients": {
+        "tagliolini_soba_di_grano_saraceno": {
+          "name": "tagliolini Soba di grano saraceno",
+          "note": null
+        },
+        "petto_d_anatra_con_pelle": {
+          "name": "petto d'anatra con pelle",
+          "note": null
+        },
+        "porri_lunghi_giapponesi": {
+          "name": "porri lunghi giapponesi (Naganegi) tagliati a tocchetti di 4 cm",
+          "note": null
+        },
+        "brodo_dashi_concentrato": {
+          "name": "brodo Dashi concentrato",
+          "note": null
+        },
+        "salsa_di_soia_scura": {
+          "name": "salsa di soia scura",
+          "note": null
+        },
+        "mirin": {
+          "name": "mirin",
+          "note": null
+        },
+        "zucchero": {
+          "name": "zucchero",
+          "note": null
+        },
+        "scorza_di_yuzu_o_limone_grattugiata": {
+          "name": "Scorza di Yuzu o limone grattugiata",
+          "note": null
+        },
+        "shichimi_togarashi": {
+          "name": "Shichimi Togarashi",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Per iniziare, incidere la pelle del petto d'anatra a scacchiera. Cuocere in padella antiaderente fredda dal lato della pelle a fuoco medio-basso per 8-10 minuti raccogliendo il grasso fuso. Girare e cuocere altri 2 minuti. Far riposare la carne e tagliarla a fette sottili.",
+        "step_2": "Prosegui così: nella stessa padella con il grasso dell'anatra, tostare i tocchetti di porro finché la superficie risulta ben dorata e caramellata.",
+        "step_3": "Nella fase successiva, usa una pentola unire Dashi, salsa di soia, mirin e zucchero. Portare ad ebollizione, unire i porri tostati e le fette d'anatra lasciando sobbollire per 2 minuti. Cuoci in acqua bollentere i noodles Soba in acqua bollente per 4 minuti, sciacquare sotto acqua fredda per rimuovere l'amido e riporta a temperaturare brevemente in acqua calda.",
+        "step_4": "Per completare, disporre la soba nelle ciotole, coprire con il brodo caldo, le fette d'anatra ed i porri. Rifinire con scorza di Yuzu grattugiata."
+      }
+    },
+    "es": {
+      "title": "Kamo Namban Soba",
+      "description": "Una versión práctica de Kamo Namban Soba para cocinar en casa, manteniendo los ingredientes característicos, la textura y la técnica del plato con una secuencia clara y repetible.",
+      "animeContext": "Esta receta está inspirada temáticamente en Demon Slayer, Emiya-san Chi no Kyou no Gohan. La relación se presenta solo como inspiración y no afirma una aparición concreta sin una verificación directa.",
+      "ingredients": {
+        "tagliolini_soba_di_grano_saraceno": {
+          "name": "Tagliolini soba di grano saraceno",
+          "note": null
+        },
+        "petto_d_anatra_con_pelle": {
+          "name": "Petto d'anatra con pelle",
+          "note": null
+        },
+        "porri_lunghi_giapponesi": {
+          "name": "Porri lunghi giapponesi (naganegi) cut into tocchetti di 4 cm",
+          "note": null
+        },
+        "brodo_dashi_concentrato": {
+          "name": "Dashi caldo concentrato",
+          "note": null
+        },
+        "salsa_di_soia_scura": {
+          "name": "Salsa de soja scura",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "scorza_di_yuzu_o_limone_grattugiata": {
+          "name": "Scorza di yuzu o limón rallado",
+          "note": null
+        },
+        "shichimi_togarashi": {
+          "name": "Shichimi togarashi",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepara todos los componentes de la receta antes de aplicar calor, manteniendo salsas y guarniciones separadas para poder trabajar con orden.",
+        "step_2": "Cocina el elemento principal con calor controlado hasta alcanzar la textura indicada, evitando prolongar la cocción más de lo necesario.",
+        "step_3": "Incorpora el caldo, la salsa o los componentes restantes por etapas y continúa solo hasta que los sabores queden bien integrados y la textura sea correcta.",
+        "step_4": "Monta el plato con las guarniciones preparadas y sirve inmediatamente, conservando hasta el último momento los elementos que deben quedar crujientes o frescos."
+      }
+    },
+    "fr": {
+      "title": "Kamo Namban Soba",
+      "description": "Une version pratique de Kamo Namban Soba à préparer à la maison, en conservant les ingrédients caractéristiques, la texture et la technique du plat dans une séquence claire.",
+      "animeContext": "Cette recette est inspirée thématiquement par Demon Slayer, Emiya-san Chi no Kyou no Gohan. Le lien reste une inspiration et ne revendique aucun épisode précis sans vérification directe.",
+      "ingredients": {
+        "tagliolini_soba_di_grano_saraceno": {
+          "name": "Tagliolini soba di grano saraceno",
+          "note": null
+        },
+        "petto_d_anatra_con_pelle": {
+          "name": "Petto d'anatra con pelle",
+          "note": null
+        },
+        "porri_lunghi_giapponesi": {
+          "name": "Porri lunghi giapponesi (naganegi) cut into tocchetti di 4 cm",
+          "note": null
+        },
+        "brodo_dashi_concentrato": {
+          "name": "Dashi bouillon concentrato",
+          "note": null
+        },
+        "salsa_di_soia_scura": {
+          "name": "Sauce soja scura",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Sucre",
+          "note": null
+        },
+        "scorza_di_yuzu_o_limone_grattugiata": {
+          "name": "Scorza di yuzu o citron râpé",
+          "note": null
+        },
+        "shichimi_togarashi": {
+          "name": "Shichimi togarashi",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Préparez tous les éléments de la recette avant la cuisson et gardez sauces et garnitures séparées afin de travailler de façon ordonnée et précise.",
+        "step_2": "Cuisez l’élément principal à chaleur maîtrisée jusqu’à la texture recherchée, sans prolonger inutilement la cuisson au-delà du point souhaité.",
+        "step_3": "Ajoutez progressivement le bouillon, la sauce ou les autres composants et poursuivez seulement jusqu’à ce que les saveurs soient liées et la texture correcte.",
+        "step_4": "Dressez avec les garnitures préparées et servez sans attendre, en préservant jusqu’au dernier moment les éléments qui doivent rester croquants ou frais."
+      }
+    },
+    "de": {
+      "title": "Kamo Namban Soba",
+      "description": "Eine alltagstaugliche Version von Kamo Namban Soba für zu Hause, bei der typische Zutaten, Textur und Garmethode in einer klaren, wiederholbaren Reihenfolge erhalten bleiben.",
+      "animeContext": "Dieses Rezept ist thematisch von Demon Slayer, Emiya-san Chi no Kyou no Gohan inspiriert. Die Verbindung wird nur als Inspiration geführt; ohne direkten Beleg wird keine konkrete Episode behauptet.",
+      "ingredients": {
+        "tagliolini_soba_di_grano_saraceno": {
+          "name": "Tagliolini soba di grano saraceno",
+          "note": null
+        },
+        "petto_d_anatra_con_pelle": {
+          "name": "Petto d'anatra con pelle",
+          "note": null
+        },
+        "porri_lunghi_giapponesi": {
+          "name": "Porri lunghi giapponesi (naganegi) cut into tocchetti di 4 cm",
+          "note": null
+        },
+        "brodo_dashi_concentrato": {
+          "name": "Dashi Brühe concentrato",
+          "note": null
+        },
+        "salsa_di_soia_scura": {
+          "name": "Sojasauce scura",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Zucker",
+          "note": null
+        },
+        "scorza_di_yuzu_o_limone_grattugiata": {
+          "name": "Scorza di yuzu o Zitrone gerieben",
+          "note": null
+        },
+        "shichimi_togarashi": {
+          "name": "Shichimi togarashi",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bereite alle Bestandteile vor dem Erhitzen vollständig vor und halte Saucen sowie Garnituren getrennt, damit die eigentliche Garphase zügig ablaufen kann.",
+        "step_2": "Gare die Hauptkomponente bei kontrollierter Hitze bis zur gewünschten Textur und vermeide unnötig langes Weitergaren über den richtigen Punkt hinaus.",
+        "step_3": "Gib Brühe, Sauce oder die restlichen Bestandteile schrittweise dazu und gare nur so lange weiter, bis Geschmack und Konsistenz ausgewogen sind.",
+        "step_4": "Richte das Gericht mit den vorbereiteten Garnituren an und serviere es sofort, damit knusprige oder frische Elemente ihre gewünschte Textur behalten."
+      }
+    },
+    "pt": {
+      "title": "Kamo Namban Soba",
+      "description": "Uma versão prática de Kamo Namban Soba para preparar em casa, preservando ingredientes característicos, textura e técnica do prato numa sequência clara e repetível.",
+      "animeContext": "Esta receita é tematicamente inspirada por Demon Slayer, Emiya-san Chi no Kyou no Gohan. A ligação é tratada apenas como inspiração, sem afirmar uma aparição específica sem verificação direta.",
+      "ingredients": {
+        "tagliolini_soba_di_grano_saraceno": {
+          "name": "Tagliolini soba di grano saraceno",
+          "note": null
+        },
+        "petto_d_anatra_con_pelle": {
+          "name": "Petto d'anatra con pelle",
+          "note": null
+        },
+        "porri_lunghi_giapponesi": {
+          "name": "Porri lunghi giapponesi (naganegi) cut into tocchetti di 4 cm",
+          "note": null
+        },
+        "brodo_dashi_concentrato": {
+          "name": "Dashi caldo concentrato",
+          "note": null
+        },
+        "salsa_di_soia_scura": {
+          "name": "Molho de soja scura",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "scorza_di_yuzu_o_limone_grattugiata": {
+          "name": "Scorza di yuzu o limão ralado",
+          "note": null
+        },
+        "shichimi_togarashi": {
+          "name": "Shichimi togarashi",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare todos os componentes antes de aplicar calor e mantenha molhos e guarnições separados, para que a fase de confeção decorra de forma rápida e organizada.",
+        "step_2": "Cozinhe o componente principal com calor controlado até atingir a textura pretendida, evitando prolongar a confeção para além do ponto correto.",
+        "step_3": "Junte o caldo, o molho ou os restantes componentes por etapas e prossiga apenas até os sabores ficarem integrados e a textura estar equilibrada.",
+        "step_4": "Monte o prato com as guarnições preparadas e sirva de imediato, preservando até ao fim os elementos que devem permanecer crocantes ou frescos."
+      }
+    }
+  }
+}

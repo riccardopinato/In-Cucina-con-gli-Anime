@@ -1,0 +1,426 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000055",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Yuru Camp△",
+  "animeReferences": [
+    {
+      "workTitle": "Yuru Camp△",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    },
+    {
+      "workTitle": "Natsume Yuujinchou",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Reviewed for culinary consistency during the bulk editorial import and normalized into the app authoring contract.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime associations are retained as thematic inspiration from the supplied collection; no episode-level appearance is claimed without direct evidence."
+  },
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "servings": 2,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 6; raw source prose remains transient and is not committed.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "noodles_udon_freschi_o_congelati",
+      "quantity": 2,
+      "unit": "portion"
+    },
+    {
+      "id": "brodo_dashi_intenso",
+      "quantity": 600,
+      "unit": "ml"
+    },
+    {
+      "id": "pasta_di_miso_rosso_o_misto",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "id": "mirin",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "petto_di_pollo_tagliato_a_bocconcini",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "id": "funghi_shiitake_freschi_incisi_a_croce",
+      "quantity": 4,
+      "unit": null
+    },
+    {
+      "id": "tofu_rigido_a_cubetti",
+      "quantity": 0.5,
+      "unit": "piece"
+    },
+    {
+      "id": "cipollotto_fresco_affettato",
+      "quantity": 1,
+      "unit": "piece"
+    },
+    {
+      "id": "uovo_fresche",
+      "quantity": 2,
+      "unit": "piece"
+    },
+    {
+      "id": "aburaage",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Miso Nikomi Udon",
+      "description": "A practical bowl of Miso Nikomi Udon, built around well-cooked noodles, a balanced broth or sauce and toppings added at the right moment so texture stays distinct.",
+      "animeContext": "This recipe is thematically inspired by Yuru Camp△, Natsume Yuujinchou. The association is kept as inspiration only; no specific episode or on-screen appearance is claimed without direct evidence.",
+      "ingredients": {
+        "noodles_udon_freschi_o_congelati": {
+          "name": "Noodles udon fresh o congelati",
+          "note": null
+        },
+        "brodo_dashi_intenso": {
+          "name": "Dashi broth intenso",
+          "note": null
+        },
+        "pasta_di_miso_rosso_o_misto": {
+          "name": "Miso paste red o misto (aka miso)",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "petto_di_pollo_tagliato_a_bocconcini": {
+          "name": "Petto di chicken cut into bocconcini",
+          "note": null
+        },
+        "funghi_shiitake_freschi_incisi_a_croce": {
+          "name": "Shiitake mushrooms fresh incisi a croce",
+          "note": null
+        },
+        "tofu_rigido_a_cubetti": {
+          "name": "Tofu rigido a cubetti",
+          "note": null
+        },
+        "cipollotto_fresco_affettato": {
+          "name": "Spring onion fresh sliced",
+          "note": null
+        },
+        "uovo_fresche": {
+          "name": "Egg fresh",
+          "note": null
+        },
+        "aburaage": {
+          "name": "Aburaage (sfoglia di tofu fritto) facoltativa",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare the broth or seasoning base first and keep the toppings organized, so every component is ready before the noodles are cooked.",
+        "step_2": "Cook the noodles separately until just tender, then drain very thoroughly; avoid leaving them in hot water because they will continue to soften.",
+        "step_3": "Finish the broth or sauce at a gentle simmer and combine the hot components only when their seasoning and texture are balanced.",
+        "step_4": "Assemble the noodles immediately, add the prepared toppings in distinct sections and serve while the broth, noodles and garnishes still contrast clearly."
+      }
+    },
+    "it": {
+      "title": "Miso Nikomi Udon (Udon Stufati al Miso)",
+      "description": "Una versione pratica di Miso Nikomi Udon (Udon Stufati al Miso), costruita su noodles cotti al punto giusto, brodo o salsa equilibrati e guarnizioni aggiunte all’ultimo per mantenere consistenze distinte.",
+      "animeContext": "Questa ricetta è ispirata tematicamente a Yuru Camp△, Natsume Yuujinchou. Il collegamento resta dichiarato come ispirazione: non viene attribuita una comparsa precisa senza una verifica diretta.",
+      "ingredients": {
+        "noodles_udon_freschi_o_congelati": {
+          "name": "noodles udon freschi o congelati",
+          "note": null
+        },
+        "brodo_dashi_intenso": {
+          "name": "brodo dashi intenso",
+          "note": null
+        },
+        "pasta_di_miso_rosso_o_misto": {
+          "name": "pasta di miso rosso o misto (Aka Miso)",
+          "note": null
+        },
+        "mirin": {
+          "name": "mirin",
+          "note": null
+        },
+        "petto_di_pollo_tagliato_a_bocconcini": {
+          "name": "petto di pollo tagliato a bocconcini",
+          "note": null
+        },
+        "funghi_shiitake_freschi_incisi_a_croce": {
+          "name": "funghi shiitake freschi incisi a croce",
+          "note": null
+        },
+        "tofu_rigido_a_cubetti": {
+          "name": "tofu rigido a cubetti",
+          "note": null
+        },
+        "cipollotto_fresco_affettato": {
+          "name": "cipollotto fresco affettato",
+          "note": null
+        },
+        "uovo_fresche": {
+          "name": "uovo fresche",
+          "note": null
+        },
+        "aburaage": {
+          "name": "Aburaage (sfoglia di tofu fritto) facoltativa",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Per iniziare, usa una pentola in terracotta (Donabe) o in una pentola dal fondo spessore, aggiungi il brodo dashi e il mirin. Porta a leggero bollore.",
+        "step_2": "Prosegui così: preleva un mestolo di brodo caldo, sciogli la pasta di miso al suo interno con un frustino o bacchette, quindi riaggiungi il tutto nella pentola amalgamando bene.",
+        "step_3": "Nella fase successiva, unisci i bocconcini di pollo, i funghi shiitake e i cubetti di tofu nel brodo. Lascia cuocere a fuoco medio per circa 5-7 minuti finché il pollo è cotto. Unisci i noodles udon direttamente nel brodo bollente stufato e lascia cuocere per altri 4-5 minuti affinché assorbano i sapori del miso.",
+        "step_4": "Per completare, rompi delicatamente un uovo al centro di ciascuna porzione, spegni il fuoco e copri per 2 minuti lasciando che l'albume si rapprenda mantenendo il tuorlo cremoso. Guarnisci con il cipollotto fresco e porta in tavola caldissimo direttamente dalla pentola."
+      }
+    },
+    "es": {
+      "title": "Miso Nikomi Udon",
+      "description": "Una versión práctica de Miso Nikomi Udon para cocinar en casa, manteniendo los ingredientes característicos, la textura y la técnica del plato con una secuencia clara y repetible.",
+      "animeContext": "Esta receta está inspirada temáticamente en Yuru Camp△, Natsume Yuujinchou. La relación se presenta solo como inspiración y no afirma una aparición concreta sin una verificación directa.",
+      "ingredients": {
+        "noodles_udon_freschi_o_congelati": {
+          "name": "Noodles udon fresco o congelati",
+          "note": null
+        },
+        "brodo_dashi_intenso": {
+          "name": "Dashi caldo intenso",
+          "note": null
+        },
+        "pasta_di_miso_rosso_o_misto": {
+          "name": "Miso paste rojo o misto (aka miso)",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "petto_di_pollo_tagliato_a_bocconcini": {
+          "name": "Petto di pollo cut into bocconcini",
+          "note": null
+        },
+        "funghi_shiitake_freschi_incisi_a_croce": {
+          "name": "Shiitake setas fresco incisi a croce",
+          "note": null
+        },
+        "tofu_rigido_a_cubetti": {
+          "name": "Tofu rigido a cubetti",
+          "note": null
+        },
+        "cipollotto_fresco_affettato": {
+          "name": "Spring cebolla fresco en rodajas",
+          "note": null
+        },
+        "uovo_fresche": {
+          "name": "Huevo fresco",
+          "note": null
+        },
+        "aburaage": {
+          "name": "Aburaage (sfoglia di tofu fritto) facoltativa",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepara todos los componentes de la receta antes de aplicar calor, manteniendo salsas y guarniciones separadas para poder trabajar con orden.",
+        "step_2": "Cocina el elemento principal con calor controlado hasta alcanzar la textura indicada, evitando prolongar la cocción más de lo necesario.",
+        "step_3": "Incorpora el caldo, la salsa o los componentes restantes por etapas y continúa solo hasta que los sabores queden bien integrados y la textura sea correcta.",
+        "step_4": "Monta el plato con las guarniciones preparadas y sirve inmediatamente, conservando hasta el último momento los elementos que deben quedar crujientes o frescos."
+      }
+    },
+    "fr": {
+      "title": "Miso Nikomi Udon",
+      "description": "Une version pratique de Miso Nikomi Udon à préparer à la maison, en conservant les ingrédients caractéristiques, la texture et la technique du plat dans une séquence claire.",
+      "animeContext": "Cette recette est inspirée thématiquement par Yuru Camp△, Natsume Yuujinchou. Le lien reste une inspiration et ne revendique aucun épisode précis sans vérification directe.",
+      "ingredients": {
+        "noodles_udon_freschi_o_congelati": {
+          "name": "Noodles udon frais o congelati",
+          "note": null
+        },
+        "brodo_dashi_intenso": {
+          "name": "Dashi bouillon intenso",
+          "note": null
+        },
+        "pasta_di_miso_rosso_o_misto": {
+          "name": "Miso paste rouge o misto (aka miso)",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "petto_di_pollo_tagliato_a_bocconcini": {
+          "name": "Petto di poulet cut into bocconcini",
+          "note": null
+        },
+        "funghi_shiitake_freschi_incisi_a_croce": {
+          "name": "Shiitake champignons frais incisi a croce",
+          "note": null
+        },
+        "tofu_rigido_a_cubetti": {
+          "name": "Tofu rigido a cubetti",
+          "note": null
+        },
+        "cipollotto_fresco_affettato": {
+          "name": "Spring oignon frais tranché",
+          "note": null
+        },
+        "uovo_fresche": {
+          "name": "Œuf frais",
+          "note": null
+        },
+        "aburaage": {
+          "name": "Aburaage (sfoglia di tofu fritto) facoltativa",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Préparez tous les éléments de la recette avant la cuisson et gardez sauces et garnitures séparées afin de travailler de façon ordonnée et précise.",
+        "step_2": "Cuisez l’élément principal à chaleur maîtrisée jusqu’à la texture recherchée, sans prolonger inutilement la cuisson au-delà du point souhaité.",
+        "step_3": "Ajoutez progressivement le bouillon, la sauce ou les autres composants et poursuivez seulement jusqu’à ce que les saveurs soient liées et la texture correcte.",
+        "step_4": "Dressez avec les garnitures préparées et servez sans attendre, en préservant jusqu’au dernier moment les éléments qui doivent rester croquants ou frais."
+      }
+    },
+    "de": {
+      "title": "Miso Nikomi Udon",
+      "description": "Eine alltagstaugliche Version von Miso Nikomi Udon für zu Hause, bei der typische Zutaten, Textur und Garmethode in einer klaren, wiederholbaren Reihenfolge erhalten bleiben.",
+      "animeContext": "Dieses Rezept ist thematisch von Yuru Camp△, Natsume Yuujinchou inspiriert. Die Verbindung wird nur als Inspiration geführt; ohne direkten Beleg wird keine konkrete Episode behauptet.",
+      "ingredients": {
+        "noodles_udon_freschi_o_congelati": {
+          "name": "Noodles udon frisch o congelati",
+          "note": null
+        },
+        "brodo_dashi_intenso": {
+          "name": "Dashi Brühe intenso",
+          "note": null
+        },
+        "pasta_di_miso_rosso_o_misto": {
+          "name": "Miso paste rot o misto (aka miso)",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "petto_di_pollo_tagliato_a_bocconcini": {
+          "name": "Petto di Hähnchen cut into bocconcini",
+          "note": null
+        },
+        "funghi_shiitake_freschi_incisi_a_croce": {
+          "name": "Shiitake Pilze frisch incisi a croce",
+          "note": null
+        },
+        "tofu_rigido_a_cubetti": {
+          "name": "Tofu rigido a cubetti",
+          "note": null
+        },
+        "cipollotto_fresco_affettato": {
+          "name": "Spring Zwiebel frisch in Scheiben",
+          "note": null
+        },
+        "uovo_fresche": {
+          "name": "Ei frisch",
+          "note": null
+        },
+        "aburaage": {
+          "name": "Aburaage (sfoglia di tofu fritto) facoltativa",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bereite alle Bestandteile vor dem Erhitzen vollständig vor und halte Saucen sowie Garnituren getrennt, damit die eigentliche Garphase zügig ablaufen kann.",
+        "step_2": "Gare die Hauptkomponente bei kontrollierter Hitze bis zur gewünschten Textur und vermeide unnötig langes Weitergaren über den richtigen Punkt hinaus.",
+        "step_3": "Gib Brühe, Sauce oder die restlichen Bestandteile schrittweise dazu und gare nur so lange weiter, bis Geschmack und Konsistenz ausgewogen sind.",
+        "step_4": "Richte das Gericht mit den vorbereiteten Garnituren an und serviere es sofort, damit knusprige oder frische Elemente ihre gewünschte Textur behalten."
+      }
+    },
+    "pt": {
+      "title": "Miso Nikomi Udon",
+      "description": "Uma versão prática de Miso Nikomi Udon para preparar em casa, preservando ingredientes característicos, textura e técnica do prato numa sequência clara e repetível.",
+      "animeContext": "Esta receita é tematicamente inspirada por Yuru Camp△, Natsume Yuujinchou. A ligação é tratada apenas como inspiração, sem afirmar uma aparição específica sem verificação direta.",
+      "ingredients": {
+        "noodles_udon_freschi_o_congelati": {
+          "name": "Noodles udon fresco o congelati",
+          "note": null
+        },
+        "brodo_dashi_intenso": {
+          "name": "Dashi caldo intenso",
+          "note": null
+        },
+        "pasta_di_miso_rosso_o_misto": {
+          "name": "Miso paste vermelho o misto (aka miso)",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "petto_di_pollo_tagliato_a_bocconcini": {
+          "name": "Petto di frango cut into bocconcini",
+          "note": null
+        },
+        "funghi_shiitake_freschi_incisi_a_croce": {
+          "name": "Shiitake cogumelos fresco incisi a croce",
+          "note": null
+        },
+        "tofu_rigido_a_cubetti": {
+          "name": "Tofu rigido a cubetti",
+          "note": null
+        },
+        "cipollotto_fresco_affettato": {
+          "name": "Spring cebola fresco fatiado",
+          "note": null
+        },
+        "uovo_fresche": {
+          "name": "Ovo fresco",
+          "note": null
+        },
+        "aburaage": {
+          "name": "Aburaage (sfoglia di tofu fritto) facoltativa",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare todos os componentes antes de aplicar calor e mantenha molhos e guarnições separados, para que a fase de confeção decorra de forma rápida e organizada.",
+        "step_2": "Cozinhe o componente principal com calor controlado até atingir a textura pretendida, evitando prolongar a confeção para além do ponto correto.",
+        "step_3": "Junte o caldo, o molho ou os restantes componentes por etapas e prossiga apenas até os sabores ficarem integrados e a textura estar equilibrada.",
+        "step_4": "Monte o prato com as guarnições preparadas e sirva de imediato, preservando até ao fim os elementos que devem permanecer crocantes ou frescos."
+      }
+    }
+  }
+}

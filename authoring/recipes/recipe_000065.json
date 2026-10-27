@@ -1,0 +1,397 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000065",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Cooking Papa",
+  "animeReferences": [
+    {
+      "workTitle": "Cooking Papa",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    },
+    {
+      "workTitle": "Food Wars! - Shokugeki no Soma",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Reviewed for culinary consistency during the bulk editorial import and normalized into the app authoring contract.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime associations are retained as thematic inspiration from the supplied collection; no episode-level appearance is claimed without direct evidence."
+  },
+  "prepMinutes": 5,
+  "cookMinutes": 15,
+  "servings": 2,
+  "difficulty": "easy",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 7; raw source prose remains transient and is not committed.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "fettine_sottili_di_lombata_o_pancia_di_maiale",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "id": "farina",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "zenzero_fresco_grattugiato_finemente",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "salsa_di_soia",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "id": "mirin",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "sake",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "zucchero",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "riso_bianco_cotto_a_vapore",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "cavolo_cappuccio_grattugiato_e_maionese_giapponese",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Shogayaki",
+      "description": "A savory Shogayaki cooked with controlled direct heat, aiming for good browning outside while keeping the center tender and the finishing sauce glossy.",
+      "animeContext": "This recipe is thematically inspired by Cooking Papa, Food Wars! - Shokugeki no Soma. The association is kept as inspiration only; no specific episode or on-screen appearance is claimed without direct evidence.",
+      "ingredients": {
+        "fettine_sottili_di_lombata_o_pancia_di_maiale": {
+          "name": "Fettine sottili di lombata o pancia di pork",
+          "note": null
+        },
+        "farina": {
+          "name": "Flour (per spolverare leggermente)",
+          "note": null
+        },
+        "zenzero_fresco_grattugiato_finemente": {
+          "name": "Ginger fresh grated finemente",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Sugar",
+          "note": null
+        },
+        "riso_bianco_cotto_a_vapore": {
+          "name": "White rice cotto a vapore",
+          "note": null
+        },
+        "cavolo_cappuccio_grattugiato_e_maionese_giapponese": {
+          "name": "Cabbage grated e maionese giapponese (kewpie) for serving",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare the meat, fish or other main ingredient and mix any glaze or seasoning before heating the pan or grill.",
+        "step_2": "Cook over controlled direct heat until the first side browns well, then turn only as needed so the center stays juicy and the surface develops color.",
+        "step_3": "Add the sauce or glaze near the end and reduce it briefly, coating the food without letting sugar or miso scorch on the hot surface.",
+        "step_4": "Rest briefly when appropriate, slice cleanly and serve with the prepared rice, vegetables or garnish while still hot."
+      }
+    },
+    "it": {
+      "title": "Shogayaki (Lombata di Maiale allo Zenzero)",
+      "description": "Un Shogayaki (Lombata di Maiale allo Zenzero) saporito cotto con calore diretto controllato, cercando una buona doratura esterna senza asciugare il centro e completando con una salsa lucida.",
+      "animeContext": "Questa ricetta è ispirata tematicamente a Cooking Papa, Food Wars! - Shokugeki no Soma. Il collegamento resta dichiarato come ispirazione: non viene attribuita una comparsa precisa senza una verifica diretta.",
+      "ingredients": {
+        "fettine_sottili_di_lombata_o_pancia_di_maiale": {
+          "name": "fettine sottili di lombata o pancia di maiale",
+          "note": null
+        },
+        "farina": {
+          "name": "farina (per spolverare leggermente)",
+          "note": null
+        },
+        "zenzero_fresco_grattugiato_finemente": {
+          "name": "zenzero fresco grattugiato finemente",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "salsa di soia",
+          "note": null
+        },
+        "mirin": {
+          "name": "mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "sake",
+          "note": null
+        },
+        "zucchero": {
+          "name": "zucchero",
+          "note": null
+        },
+        "riso_bianco_cotto_a_vapore": {
+          "name": "Riso bianco cotto a vapore",
+          "note": null
+        },
+        "cavolo_cappuccio_grattugiato_e_maionese_giapponese": {
+          "name": "cavolo cappuccio grattugiato e maionese giapponese (Kewpie) per servire",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Per iniziare, in una ciotolina amalgama lo zenzero grattugiato con il suo succo, la salsa di soia, il mirin, il sake e lo zucchero finché quest'ultimo non si scioglie completamente.",
+        "step_2": "Prosegui così: stendi le fettine di maiale su un tagliere e spolverale leggermente con un velo di farina da entrambi i lati (questo permetterà alla salsa di addensarsi ed aderire perfettamente alla carne).",
+        "step_3": "Nella fase successiva, porta a temperatura un cucchiaio d'olio di semi in una padella grande a fuoco medio-alto. Lascia cuocere le fettine di maiale per circa 1.5 - 2 minuti per lato finché non sono ben dorate. Aggiungi la salsa allo zenzero direttamente sopra la carne nella padella bollente. Fai sobbollire per 1 minuto agitando la padella finché la salsa non si riduce diventando una glassa lucida e profumata.",
+        "step_4": "Per completare, sistema il maiale affiancato da un'abbondante montagna di cavolo cappuccio fresco sminuzzato e maionese Kewpie, servendolo con ciotole di riso bianco ben caldo."
+      }
+    },
+    "es": {
+      "title": "Shogayaki",
+      "description": "Una versión práctica de Shogayaki para cocinar en casa, manteniendo los ingredientes característicos, la textura y la técnica del plato con una secuencia clara y repetible.",
+      "animeContext": "Esta receta está inspirada temáticamente en Cooking Papa, Food Wars! - Shokugeki no Soma. La relación se presenta solo como inspiración y no afirma una aparición concreta sin una verificación directa.",
+      "ingredients": {
+        "fettine_sottili_di_lombata_o_pancia_di_maiale": {
+          "name": "Fettine sottili di lombata o pancia di cerdo",
+          "note": null
+        },
+        "farina": {
+          "name": "Harina (per spolverare leggermente)",
+          "note": null
+        },
+        "zenzero_fresco_grattugiato_finemente": {
+          "name": "Jengibre fresco rallado finemente",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "riso_bianco_cotto_a_vapore": {
+          "name": "Blanco arroz cotto a vapore",
+          "note": null
+        },
+        "cavolo_cappuccio_grattugiato_e_maionese_giapponese": {
+          "name": "Col rallado e maionese giapponese (kewpie) para servir",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepara todos los componentes de la receta antes de aplicar calor, manteniendo salsas y guarniciones separadas para poder trabajar con orden.",
+        "step_2": "Cocina el elemento principal con calor controlado hasta alcanzar la textura indicada, evitando prolongar la cocción más de lo necesario.",
+        "step_3": "Incorpora el caldo, la salsa o los componentes restantes por etapas y continúa solo hasta que los sabores queden bien integrados y la textura sea correcta.",
+        "step_4": "Monta el plato con las guarniciones preparadas y sirve inmediatamente, conservando hasta el último momento los elementos que deben quedar crujientes o frescos."
+      }
+    },
+    "fr": {
+      "title": "Shogayaki",
+      "description": "Une version pratique de Shogayaki à préparer à la maison, en conservant les ingrédients caractéristiques, la texture et la technique du plat dans une séquence claire.",
+      "animeContext": "Cette recette est inspirée thématiquement par Cooking Papa, Food Wars! - Shokugeki no Soma. Le lien reste une inspiration et ne revendique aucun épisode précis sans vérification directe.",
+      "ingredients": {
+        "fettine_sottili_di_lombata_o_pancia_di_maiale": {
+          "name": "Fettine sottili di lombata o pancia di porc",
+          "note": null
+        },
+        "farina": {
+          "name": "Farine (per spolverare leggermente)",
+          "note": null
+        },
+        "zenzero_fresco_grattugiato_finemente": {
+          "name": "Gingembre frais râpé finemente",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Sucre",
+          "note": null
+        },
+        "riso_bianco_cotto_a_vapore": {
+          "name": "Blanc riz cotto a vapore",
+          "note": null
+        },
+        "cavolo_cappuccio_grattugiato_e_maionese_giapponese": {
+          "name": "Chou râpé e maionese giapponese (kewpie) pour servir",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Préparez tous les éléments de la recette avant la cuisson et gardez sauces et garnitures séparées afin de travailler de façon ordonnée et précise.",
+        "step_2": "Cuisez l’élément principal à chaleur maîtrisée jusqu’à la texture recherchée, sans prolonger inutilement la cuisson au-delà du point souhaité.",
+        "step_3": "Ajoutez progressivement le bouillon, la sauce ou les autres composants et poursuivez seulement jusqu’à ce que les saveurs soient liées et la texture correcte.",
+        "step_4": "Dressez avec les garnitures préparées et servez sans attendre, en préservant jusqu’au dernier moment les éléments qui doivent rester croquants ou frais."
+      }
+    },
+    "de": {
+      "title": "Shogayaki",
+      "description": "Eine alltagstaugliche Version von Shogayaki für zu Hause, bei der typische Zutaten, Textur und Garmethode in einer klaren, wiederholbaren Reihenfolge erhalten bleiben.",
+      "animeContext": "Dieses Rezept ist thematisch von Cooking Papa, Food Wars! - Shokugeki no Soma inspiriert. Die Verbindung wird nur als Inspiration geführt; ohne direkten Beleg wird keine konkrete Episode behauptet.",
+      "ingredients": {
+        "fettine_sottili_di_lombata_o_pancia_di_maiale": {
+          "name": "Fettine sottili di lombata o pancia di Schweinefleisch",
+          "note": null
+        },
+        "farina": {
+          "name": "Mehl (per spolverare leggermente)",
+          "note": null
+        },
+        "zenzero_fresco_grattugiato_finemente": {
+          "name": "Ingwer frisch gerieben finemente",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Zucker",
+          "note": null
+        },
+        "riso_bianco_cotto_a_vapore": {
+          "name": "Weiß Reis cotto a vapore",
+          "note": null
+        },
+        "cavolo_cappuccio_grattugiato_e_maionese_giapponese": {
+          "name": "Kohl gerieben e maionese giapponese (kewpie) zum Servieren",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bereite alle Bestandteile vor dem Erhitzen vollständig vor und halte Saucen sowie Garnituren getrennt, damit die eigentliche Garphase zügig ablaufen kann.",
+        "step_2": "Gare die Hauptkomponente bei kontrollierter Hitze bis zur gewünschten Textur und vermeide unnötig langes Weitergaren über den richtigen Punkt hinaus.",
+        "step_3": "Gib Brühe, Sauce oder die restlichen Bestandteile schrittweise dazu und gare nur so lange weiter, bis Geschmack und Konsistenz ausgewogen sind.",
+        "step_4": "Richte das Gericht mit den vorbereiteten Garnituren an und serviere es sofort, damit knusprige oder frische Elemente ihre gewünschte Textur behalten."
+      }
+    },
+    "pt": {
+      "title": "Shogayaki",
+      "description": "Uma versão prática de Shogayaki para preparar em casa, preservando ingredientes característicos, textura e técnica do prato numa sequência clara e repetível.",
+      "animeContext": "Esta receita é tematicamente inspirada por Cooking Papa, Food Wars! - Shokugeki no Soma. A ligação é tratada apenas como inspiração, sem afirmar uma aparição específica sem verificação direta.",
+      "ingredients": {
+        "fettine_sottili_di_lombata_o_pancia_di_maiale": {
+          "name": "Fettine sottili di lombata o pancia di porco",
+          "note": null
+        },
+        "farina": {
+          "name": "Farinha (per spolverare leggermente)",
+          "note": null
+        },
+        "zenzero_fresco_grattugiato_finemente": {
+          "name": "Gengibre fresco ralado finemente",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Molho de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "riso_bianco_cotto_a_vapore": {
+          "name": "Branco arroz cotto a vapore",
+          "note": null
+        },
+        "cavolo_cappuccio_grattugiato_e_maionese_giapponese": {
+          "name": "Couve ralado e maionese giapponese (kewpie) para servir",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare todos os componentes antes de aplicar calor e mantenha molhos e guarnições separados, para que a fase de confeção decorra de forma rápida e organizada.",
+        "step_2": "Cozinhe o componente principal com calor controlado até atingir a textura pretendida, evitando prolongar a confeção para além do ponto correto.",
+        "step_3": "Junte o caldo, o molho ou os restantes componentes por etapas e prossiga apenas até os sabores ficarem integrados e a textura estar equilibrada.",
+        "step_4": "Monte o prato com as guarnições preparadas e sirva de imediato, preservando até ao fim os elementos que devem permanecer crocantes ou frescos."
+      }
+    }
+  }
+}

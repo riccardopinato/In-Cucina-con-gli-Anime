@@ -1,0 +1,455 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000051",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Emiya-san Chi no Kyou no Gohan",
+  "animeReferences": [
+    {
+      "workTitle": "Emiya-san Chi no Kyou no Gohan",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    },
+    {
+      "workTitle": "Naruto",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Reviewed for culinary consistency during the bulk editorial import and normalized into the app authoring contract.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime associations are retained as thematic inspiration from the supplied collection; no episode-level appearance is claimed without direct evidence."
+  },
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "servings": 2,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 6; raw source prose remains transient and is not committed.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "tagliolini_per_ramen_freschi",
+      "quantity": 2,
+      "unit": "portion"
+    },
+    {
+      "id": "brodo_di_pollo_leggero",
+      "quantity": 500,
+      "unit": "ml"
+    },
+    {
+      "id": "dashi_in_polvere",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "sale_marino_fine",
+      "quantity": 1.5,
+      "unit": "tbsp"
+    },
+    {
+      "id": "sake_da_cucina",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "olio_di_sesamo",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "maiale_chashu",
+      "quantity": 4,
+      "unit": "slice"
+    },
+    {
+      "id": "uovo_marinate",
+      "quantity": 2,
+      "unit": "piece"
+    },
+    {
+      "id": "germogli_di_bambu",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "erba_cipollina_fresca_tritata",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "alga_nori",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Shio Ramen",
+      "description": "A practical bowl of Shio Ramen, built around well-cooked noodles, a balanced broth or sauce and toppings added at the right moment so texture stays distinct.",
+      "animeContext": "This recipe is thematically inspired by Emiya-san Chi no Kyou no Gohan, Naruto. The association is kept as inspiration only; no specific episode or on-screen appearance is claimed without direct evidence.",
+      "ingredients": {
+        "tagliolini_per_ramen_freschi": {
+          "name": "Tagliolini per ramen fresh",
+          "note": null
+        },
+        "brodo_di_pollo_leggero": {
+          "name": "Chicken broth leggero",
+          "note": null
+        },
+        "dashi_in_polvere": {
+          "name": "Dashi in polvere",
+          "note": null
+        },
+        "sale_marino_fine": {
+          "name": "Sea salt fine (o alga kelp salata)",
+          "note": null
+        },
+        "sake_da_cucina": {
+          "name": "Sake da cucina",
+          "note": null
+        },
+        "olio_di_sesamo": {
+          "name": "Sesame oil",
+          "note": null
+        },
+        "maiale_chashu": {
+          "name": "Pork chashu",
+          "note": null
+        },
+        "uovo_marinate": {
+          "name": "Egg marinate (ajitsuke tamago)",
+          "note": null
+        },
+        "germogli_di_bambu": {
+          "name": "Bamboo shoots (menma)",
+          "note": null
+        },
+        "erba_cipollina_fresca_tritata": {
+          "name": "Erba cipollina fresh tritata",
+          "note": null
+        },
+        "alga_nori": {
+          "name": "Nori",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare the broth or seasoning base first and keep the toppings organized, so every component is ready before the noodles are cooked.",
+        "step_2": "Cook the noodles separately until just tender, then drain very thoroughly; avoid leaving them in hot water because they will continue to soften.",
+        "step_3": "Finish the broth or sauce at a gentle simmer and combine the hot components only when their seasoning and texture are balanced.",
+        "step_4": "Assemble the noodles immediately, add the prepared toppings in distinct sections and serve while the broth, noodles and garnishes still contrast clearly."
+      }
+    },
+    "it": {
+      "title": "Shio Ramen (Ramen al Sale con Chashu e Menma)",
+      "description": "Una versione pratica di Shio Ramen (Ramen al Sale con Chashu e Menma), costruita su noodles cotti al punto giusto, brodo o salsa equilibrati e guarnizioni aggiunte all’ultimo per mantenere consistenze distinte.",
+      "animeContext": "Questa ricetta è ispirata tematicamente a Emiya-san Chi no Kyou no Gohan, Naruto. Il collegamento resta dichiarato come ispirazione: non viene attribuita una comparsa precisa senza una verifica diretta.",
+      "ingredients": {
+        "tagliolini_per_ramen_freschi": {
+          "name": "tagliolini per ramen freschi",
+          "note": null
+        },
+        "brodo_di_pollo_leggero": {
+          "name": "brodo di pollo leggero",
+          "note": null
+        },
+        "dashi_in_polvere": {
+          "name": "dashi in polvere",
+          "note": null
+        },
+        "sale_marino_fine": {
+          "name": "sale marino fine (o alga kelp salata)",
+          "note": null
+        },
+        "sake_da_cucina": {
+          "name": "sake da cucina",
+          "note": null
+        },
+        "olio_di_sesamo": {
+          "name": "olio di sesamo",
+          "note": null
+        },
+        "maiale_chashu": {
+          "name": "maiale Chashu",
+          "note": null
+        },
+        "uovo_marinate": {
+          "name": "uovo marinate (Ajitsuke Tamago)",
+          "note": null
+        },
+        "germogli_di_bambu": {
+          "name": "germogli di bambù (menma)",
+          "note": null
+        },
+        "erba_cipollina_fresca_tritata": {
+          "name": "erba cipollina fresca tritata",
+          "note": null
+        },
+        "alga_nori": {
+          "name": "alga nori",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Per iniziare, metti in un pentolino porta a temperatura il brodo di pollo insieme al dashi in polvere, al sake e al sale fino a completo scioglimento. Unisci l'olio di sesamo e mantieni il brodo ben caldo a fuoco minimo senza farlo bollire.",
+        "step_2": "Prosegui così: usa una pentola capiente porta ad ebollizione abbondante acqua non salata. Lascia cuocere i tagliolini per ramen per circa 2 minuti (devono rimanere al dente). Scolali accuratamente scuotendo il cestello per eliminare l'acqua in eccesso.",
+        "step_3": "Nella fase successiva, aggiungi il brodo bollente nelle ciotole da ramen. Adagia delicatamente i noodles al centro facendoli piegare ordinatamente.",
+        "step_4": "Per completare, sistema su un lato le fette di maiale Chashu, l'uovo marinato tagliato a metà, i germogli di bambù menma e una spolverata abbondante di erba cipollina. Inserisci un foglio di alga nori sul bordo della ciotola e porta in tavola immediatamente caldo."
+      }
+    },
+    "es": {
+      "title": "Shio Ramen",
+      "description": "Una versión práctica de Shio Ramen para cocinar en casa, manteniendo los ingredientes característicos, la textura y la técnica del plato con una secuencia clara y repetible.",
+      "animeContext": "Esta receta está inspirada temáticamente en Emiya-san Chi no Kyou no Gohan, Naruto. La relación se presenta solo como inspiración y no afirma una aparición concreta sin una verificación directa.",
+      "ingredients": {
+        "tagliolini_per_ramen_freschi": {
+          "name": "Tagliolini per ramen fresco",
+          "note": null
+        },
+        "brodo_di_pollo_leggero": {
+          "name": "Pollo caldo leggero",
+          "note": null
+        },
+        "dashi_in_polvere": {
+          "name": "Dashi in polvere",
+          "note": null
+        },
+        "sale_marino_fine": {
+          "name": "Sea sal fine (o alga kelp salata)",
+          "note": null
+        },
+        "sake_da_cucina": {
+          "name": "Sake da cucina",
+          "note": null
+        },
+        "olio_di_sesamo": {
+          "name": "Sesame aceite",
+          "note": null
+        },
+        "maiale_chashu": {
+          "name": "Cerdo chashu",
+          "note": null
+        },
+        "uovo_marinate": {
+          "name": "Huevo marinate (ajitsuke tamago)",
+          "note": null
+        },
+        "germogli_di_bambu": {
+          "name": "Brotes de bambú (menma)",
+          "note": null
+        },
+        "erba_cipollina_fresca_tritata": {
+          "name": "Erba cipollina fresco tritata",
+          "note": null
+        },
+        "alga_nori": {
+          "name": "Nori",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepara todos los componentes de la receta antes de aplicar calor, manteniendo salsas y guarniciones separadas para poder trabajar con orden.",
+        "step_2": "Cocina el elemento principal con calor controlado hasta alcanzar la textura indicada, evitando prolongar la cocción más de lo necesario.",
+        "step_3": "Incorpora el caldo, la salsa o los componentes restantes por etapas y continúa solo hasta que los sabores queden bien integrados y la textura sea correcta.",
+        "step_4": "Monta el plato con las guarniciones preparadas y sirve inmediatamente, conservando hasta el último momento los elementos que deben quedar crujientes o frescos."
+      }
+    },
+    "fr": {
+      "title": "Shio Ramen",
+      "description": "Une version pratique de Shio Ramen à préparer à la maison, en conservant les ingrédients caractéristiques, la texture et la technique du plat dans une séquence claire.",
+      "animeContext": "Cette recette est inspirée thématiquement par Emiya-san Chi no Kyou no Gohan, Naruto. Le lien reste une inspiration et ne revendique aucun épisode précis sans vérification directe.",
+      "ingredients": {
+        "tagliolini_per_ramen_freschi": {
+          "name": "Tagliolini per ramen frais",
+          "note": null
+        },
+        "brodo_di_pollo_leggero": {
+          "name": "Poulet bouillon leggero",
+          "note": null
+        },
+        "dashi_in_polvere": {
+          "name": "Dashi in polvere",
+          "note": null
+        },
+        "sale_marino_fine": {
+          "name": "Sea sel fine (o alga kelp salata)",
+          "note": null
+        },
+        "sake_da_cucina": {
+          "name": "Sake da cucina",
+          "note": null
+        },
+        "olio_di_sesamo": {
+          "name": "Sesame huile",
+          "note": null
+        },
+        "maiale_chashu": {
+          "name": "Porc chashu",
+          "note": null
+        },
+        "uovo_marinate": {
+          "name": "Œuf marinate (ajitsuke tamago)",
+          "note": null
+        },
+        "germogli_di_bambu": {
+          "name": "Pousses de bambou (menma)",
+          "note": null
+        },
+        "erba_cipollina_fresca_tritata": {
+          "name": "Erba cipollina frais tritata",
+          "note": null
+        },
+        "alga_nori": {
+          "name": "Nori",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Préparez tous les éléments de la recette avant la cuisson et gardez sauces et garnitures séparées afin de travailler de façon ordonnée et précise.",
+        "step_2": "Cuisez l’élément principal à chaleur maîtrisée jusqu’à la texture recherchée, sans prolonger inutilement la cuisson au-delà du point souhaité.",
+        "step_3": "Ajoutez progressivement le bouillon, la sauce ou les autres composants et poursuivez seulement jusqu’à ce que les saveurs soient liées et la texture correcte.",
+        "step_4": "Dressez avec les garnitures préparées et servez sans attendre, en préservant jusqu’au dernier moment les éléments qui doivent rester croquants ou frais."
+      }
+    },
+    "de": {
+      "title": "Shio Ramen",
+      "description": "Eine alltagstaugliche Version von Shio Ramen für zu Hause, bei der typische Zutaten, Textur und Garmethode in einer klaren, wiederholbaren Reihenfolge erhalten bleiben.",
+      "animeContext": "Dieses Rezept ist thematisch von Emiya-san Chi no Kyou no Gohan, Naruto inspiriert. Die Verbindung wird nur als Inspiration geführt; ohne direkten Beleg wird keine konkrete Episode behauptet.",
+      "ingredients": {
+        "tagliolini_per_ramen_freschi": {
+          "name": "Tagliolini per ramen frisch",
+          "note": null
+        },
+        "brodo_di_pollo_leggero": {
+          "name": "Hähnchen Brühe leggero",
+          "note": null
+        },
+        "dashi_in_polvere": {
+          "name": "Dashi in polvere",
+          "note": null
+        },
+        "sale_marino_fine": {
+          "name": "Sea Salz fine (o alga kelp salata)",
+          "note": null
+        },
+        "sake_da_cucina": {
+          "name": "Sake da cucina",
+          "note": null
+        },
+        "olio_di_sesamo": {
+          "name": "Sesame Öl",
+          "note": null
+        },
+        "maiale_chashu": {
+          "name": "Schweinefleisch chashu",
+          "note": null
+        },
+        "uovo_marinate": {
+          "name": "Ei marinate (ajitsuke tamago)",
+          "note": null
+        },
+        "germogli_di_bambu": {
+          "name": "Bambussprossen (menma)",
+          "note": null
+        },
+        "erba_cipollina_fresca_tritata": {
+          "name": "Erba cipollina frisch tritata",
+          "note": null
+        },
+        "alga_nori": {
+          "name": "Nori",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bereite alle Bestandteile vor dem Erhitzen vollständig vor und halte Saucen sowie Garnituren getrennt, damit die eigentliche Garphase zügig ablaufen kann.",
+        "step_2": "Gare die Hauptkomponente bei kontrollierter Hitze bis zur gewünschten Textur und vermeide unnötig langes Weitergaren über den richtigen Punkt hinaus.",
+        "step_3": "Gib Brühe, Sauce oder die restlichen Bestandteile schrittweise dazu und gare nur so lange weiter, bis Geschmack und Konsistenz ausgewogen sind.",
+        "step_4": "Richte das Gericht mit den vorbereiteten Garnituren an und serviere es sofort, damit knusprige oder frische Elemente ihre gewünschte Textur behalten."
+      }
+    },
+    "pt": {
+      "title": "Shio Ramen",
+      "description": "Uma versão prática de Shio Ramen para preparar em casa, preservando ingredientes característicos, textura e técnica do prato numa sequência clara e repetível.",
+      "animeContext": "Esta receita é tematicamente inspirada por Emiya-san Chi no Kyou no Gohan, Naruto. A ligação é tratada apenas como inspiração, sem afirmar uma aparição específica sem verificação direta.",
+      "ingredients": {
+        "tagliolini_per_ramen_freschi": {
+          "name": "Tagliolini per ramen fresco",
+          "note": null
+        },
+        "brodo_di_pollo_leggero": {
+          "name": "Frango caldo leggero",
+          "note": null
+        },
+        "dashi_in_polvere": {
+          "name": "Dashi in polvere",
+          "note": null
+        },
+        "sale_marino_fine": {
+          "name": "Sea sal fine (o alga kelp salata)",
+          "note": null
+        },
+        "sake_da_cucina": {
+          "name": "Sake da cucina",
+          "note": null
+        },
+        "olio_di_sesamo": {
+          "name": "Sesame óleo",
+          "note": null
+        },
+        "maiale_chashu": {
+          "name": "Porco chashu",
+          "note": null
+        },
+        "uovo_marinate": {
+          "name": "Ovo marinate (ajitsuke tamago)",
+          "note": null
+        },
+        "germogli_di_bambu": {
+          "name": "Rebentos de bambu (menma)",
+          "note": null
+        },
+        "erba_cipollina_fresca_tritata": {
+          "name": "Erba cipollina fresco tritata",
+          "note": null
+        },
+        "alga_nori": {
+          "name": "Nori",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare todos os componentes antes de aplicar calor e mantenha molhos e guarnições separados, para que a fase de confeção decorra de forma rápida e organizada.",
+        "step_2": "Cozinhe o componente principal com calor controlado até atingir a textura pretendida, evitando prolongar a confeção para além do ponto correto.",
+        "step_3": "Junte o caldo, o molho ou os restantes componentes por etapas e prossiga apenas até os sabores ficarem integrados e a textura estar equilibrada.",
+        "step_4": "Monte o prato com as guarnições preparadas e sirva de imediato, preservando até ao fim os elementos que devem permanecer crocantes ou frescos."
+      }
+    }
+  }
+}

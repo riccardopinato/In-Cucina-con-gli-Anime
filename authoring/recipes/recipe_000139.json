@@ -1,0 +1,281 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000139",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Fruits Basket",
+  "animeReferences": [
+    {
+      "workTitle": "Fruits Basket",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    },
+    {
+      "workTitle": "Il mio vicino Totoro",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Reviewed for culinary consistency during the bulk editorial import and normalized into the app authoring contract.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime associations are retained as thematic inspiration from the supplied collection; no episode-level appearance is claimed without direct evidence."
+  },
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "servings": 2,
+  "difficulty": "easy",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 11; raw source prose remains transient and is not committed.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "zucca_kabocha",
+      "quantity": 350,
+      "unit": "g"
+    },
+    {
+      "id": "brodo_dashi",
+      "quantity": 200,
+      "unit": "ml"
+    },
+    {
+      "id": "zucchero",
+      "quantity": 1.5,
+      "unit": "tbsp"
+    },
+    {
+      "id": "mirin",
+      "quantity": 1.5,
+      "unit": "tbsp"
+    },
+    {
+      "id": "salsa_di_soia",
+      "quantity": 1.5,
+      "unit": "tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Kabocha no Nimono",
+      "description": "A comforting Kabocha no Nimono prepared with gentle simmering so the main ingredients become tender while the broth stays flavorful and balanced.",
+      "animeContext": "This recipe is thematically inspired by Fruits Basket, Il mio vicino Totoro. The association is kept as inspiration only; no specific episode or on-screen appearance is claimed without direct evidence.",
+      "ingredients": {
+        "zucca_kabocha": {
+          "name": "Pumpkin kabocha (o pumpkin delica con la buccia)",
+          "note": null
+        },
+        "brodo_dashi": {
+          "name": "Dashi broth",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Sugar",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Soy sauce",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Cut and organize the main ingredients so pieces of similar density are comparable in size; prepare the seasoned broth separately before simmering.",
+        "step_2": "Build the broth over moderate heat and add the ingredients in order of cooking time, keeping the liquid at a gentle simmer rather than a hard boil.",
+        "step_3": "Continue cooking until proteins are safely cooked and vegetables are tender but intact, adjusting the seasoning only after the broth has reduced slightly.",
+        "step_4": "Finish with the final aromatics or garnish and serve hot, allowing a brief rest when useful so the ingredients absorb the seasoned broth."
+      }
+    },
+    "it": {
+      "title": "Kabocha no Nimono (Zucca Giapponese Stufata)",
+      "description": "Un Kabocha no Nimono (Zucca Giapponese Stufata) confortante cotto a sobbollore dolce, così gli ingredienti diventano teneri senza disfarsi e il fondo resta concentrato ma equilibrato.",
+      "animeContext": "Questa ricetta è ispirata tematicamente a Fruits Basket, Il mio vicino Totoro. Il collegamento resta dichiarato come ispirazione: non viene attribuita una comparsa precisa senza una verifica diretta.",
+      "ingredients": {
+        "zucca_kabocha": {
+          "name": "zucca Kabocha (o zucca Delica con la buccia)",
+          "note": null
+        },
+        "brodo_dashi": {
+          "name": "brodo Dashi",
+          "note": null
+        },
+        "zucchero": {
+          "name": "zucchero",
+          "note": null
+        },
+        "mirin": {
+          "name": "mirin",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "salsa di soia",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Per iniziare, taglia la zucca a tocchetti regolari da 3-4 cm lasciando la buccia (pela solo leggermente gli spigoli per non farla disfare).",
+        "step_2": "Prosegui così: sistema i tocchetti di zucca in un solo strato in un pentolino con la buccia rivolta verso il basso.",
+        "step_3": "Nella fase successiva, unisci il Dashi, lo zucchero e il mirin. Porta a bollore, copri con un coperchio interno (Otoshibuta o carta forno bucata) e lascia cuocere per 5 minuti. Unisci la salsa di soia, copri di nuovo e lascia cuocere a fuoco dolce per altri 8-10 minuti finché la zucca diventa morbida e la salsa si riduce.",
+        "step_4": "Per completare, lascia intiepidire prima di porta in tavolare affinché assorba tutti i sapori."
+      }
+    },
+    "es": {
+      "title": "Kabocha no Nimono",
+      "description": "Una versión práctica de Kabocha no Nimono para cocinar en casa, manteniendo los ingredientes característicos, la textura y la técnica del plato con una secuencia clara y repetible.",
+      "animeContext": "Esta receta está inspirada temáticamente en Fruits Basket, Il mio vicino Totoro. La relación se presenta solo como inspiración y no afirma una aparición concreta sin una verificación directa.",
+      "ingredients": {
+        "zucca_kabocha": {
+          "name": "Calabaza kabocha (o calabaza delica con la buccia)",
+          "note": null
+        },
+        "brodo_dashi": {
+          "name": "Dashi caldo",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Salsa de soja",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepara todos los componentes de la receta antes de aplicar calor, manteniendo salsas y guarniciones separadas para poder trabajar con orden.",
+        "step_2": "Cocina el elemento principal con calor controlado hasta alcanzar la textura indicada, evitando prolongar la cocción más de lo necesario.",
+        "step_3": "Incorpora el caldo, la salsa o los componentes restantes por etapas y continúa solo hasta que los sabores queden bien integrados y la textura sea correcta.",
+        "step_4": "Monta el plato con las guarniciones preparadas y sirve inmediatamente, conservando hasta el último momento los elementos que deben quedar crujientes o frescos."
+      }
+    },
+    "fr": {
+      "title": "Kabocha no Nimono",
+      "description": "Une version pratique de Kabocha no Nimono à préparer à la maison, en conservant les ingrédients caractéristiques, la texture et la technique du plat dans une séquence claire.",
+      "animeContext": "Cette recette est inspirée thématiquement par Fruits Basket, Il mio vicino Totoro. Le lien reste une inspiration et ne revendique aucun épisode précis sans vérification directe.",
+      "ingredients": {
+        "zucca_kabocha": {
+          "name": "Courge kabocha (o courge delica con la buccia)",
+          "note": null
+        },
+        "brodo_dashi": {
+          "name": "Dashi bouillon",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Sucre",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Sauce soja",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Préparez tous les éléments de la recette avant la cuisson et gardez sauces et garnitures séparées afin de travailler de façon ordonnée et précise.",
+        "step_2": "Cuisez l’élément principal à chaleur maîtrisée jusqu’à la texture recherchée, sans prolonger inutilement la cuisson au-delà du point souhaité.",
+        "step_3": "Ajoutez progressivement le bouillon, la sauce ou les autres composants et poursuivez seulement jusqu’à ce que les saveurs soient liées et la texture correcte.",
+        "step_4": "Dressez avec les garnitures préparées et servez sans attendre, en préservant jusqu’au dernier moment les éléments qui doivent rester croquants ou frais."
+      }
+    },
+    "de": {
+      "title": "Kabocha no Nimono",
+      "description": "Eine alltagstaugliche Version von Kabocha no Nimono für zu Hause, bei der typische Zutaten, Textur und Garmethode in einer klaren, wiederholbaren Reihenfolge erhalten bleiben.",
+      "animeContext": "Dieses Rezept ist thematisch von Fruits Basket, Il mio vicino Totoro inspiriert. Die Verbindung wird nur als Inspiration geführt; ohne direkten Beleg wird keine konkrete Episode behauptet.",
+      "ingredients": {
+        "zucca_kabocha": {
+          "name": "Kürbis kabocha (o Kürbis delica con la buccia)",
+          "note": null
+        },
+        "brodo_dashi": {
+          "name": "Dashi Brühe",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Zucker",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Sojasauce",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bereite alle Bestandteile vor dem Erhitzen vollständig vor und halte Saucen sowie Garnituren getrennt, damit die eigentliche Garphase zügig ablaufen kann.",
+        "step_2": "Gare die Hauptkomponente bei kontrollierter Hitze bis zur gewünschten Textur und vermeide unnötig langes Weitergaren über den richtigen Punkt hinaus.",
+        "step_3": "Gib Brühe, Sauce oder die restlichen Bestandteile schrittweise dazu und gare nur so lange weiter, bis Geschmack und Konsistenz ausgewogen sind.",
+        "step_4": "Richte das Gericht mit den vorbereiteten Garnituren an und serviere es sofort, damit knusprige oder frische Elemente ihre gewünschte Textur behalten."
+      }
+    },
+    "pt": {
+      "title": "Kabocha no Nimono",
+      "description": "Uma versão prática de Kabocha no Nimono para preparar em casa, preservando ingredientes característicos, textura e técnica do prato numa sequência clara e repetível.",
+      "animeContext": "Esta receita é tematicamente inspirada por Fruits Basket, Il mio vicino Totoro. A ligação é tratada apenas como inspiração, sem afirmar uma aparição específica sem verificação direta.",
+      "ingredients": {
+        "zucca_kabocha": {
+          "name": "Abóbora kabocha (o abóbora delica con la buccia)",
+          "note": null
+        },
+        "brodo_dashi": {
+          "name": "Dashi caldo",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Molho de soja",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare todos os componentes antes de aplicar calor e mantenha molhos e guarnições separados, para que a fase de confeção decorra de forma rápida e organizada.",
+        "step_2": "Cozinhe o componente principal com calor controlado até atingir a textura pretendida, evitando prolongar a confeção para além do ponto correto.",
+        "step_3": "Junte o caldo, o molho ou os restantes componentes por etapas e prossiga apenas até os sabores ficarem integrados e a textura estar equilibrada.",
+        "step_4": "Monte o prato com as guarnições preparadas e sirva de imediato, preservando até ao fim os elementos que devem permanecer crocantes ou frescos."
+      }
+    }
+  }
+}

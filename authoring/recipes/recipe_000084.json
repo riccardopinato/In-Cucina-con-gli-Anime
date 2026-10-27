@@ -1,0 +1,455 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000084",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Food Wars!",
+  "animeReferences": [
+    {
+      "workTitle": "Food Wars!",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    },
+    {
+      "workTitle": "Isekai Izakaya Nobu",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Reviewed for culinary consistency during the bulk editorial import and normalized into the app authoring contract.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime associations are retained as thematic inspiration from the supplied collection; no episode-level appearance is claimed without direct evidence."
+  },
+  "prepMinutes": 20,
+  "cookMinutes": 15,
+  "servings": 2,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 8; raw source prose remains transient and is not committed.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "petto_o_sovracoscia_di_pollo_senza_pelle",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "id": "farina_00_e_1_uovo_sbattuto_per_impanare",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "salsa_di_soia",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "id": "aceto_di_riso",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "id": "zucchero",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "olio_di_sesamo",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "uovo_sodo_sminuzzato",
+      "quantity": 1,
+      "unit": "piece"
+    },
+    {
+      "id": "maionese_kewpie",
+      "quantity": 4,
+      "unit": "tbsp"
+    },
+    {
+      "id": "cipolla_tritata_finemente",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "succo_di_limone",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "sale_e_pepe",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Chicken Namban",
+      "description": "A Japanese-style Chicken Namban designed for a light, clean finish, with careful mixing, temperature control and enough resting time for the intended texture.",
+      "animeContext": "This recipe is thematically inspired by Food Wars!, Isekai Izakaya Nobu. The association is kept as inspiration only; no specific episode or on-screen appearance is claimed without direct evidence.",
+      "ingredients": {
+        "petto_o_sovracoscia_di_pollo_senza_pelle": {
+          "name": "Petto o sovracoscia di chicken senza pelle",
+          "note": null
+        },
+        "farina_00_e_1_uovo_sbattuto_per_impanare": {
+          "name": "All-purpose flour e 1 egg sbattuto per impanare",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "aceto_di_riso": {
+          "name": "Rice vinegar",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Sugar",
+          "note": null
+        },
+        "olio_di_sesamo": {
+          "name": "Sesame oil",
+          "note": null
+        },
+        "uovo_sodo_sminuzzato": {
+          "name": "Egg sodo sminuzzato",
+          "note": null
+        },
+        "maionese_kewpie": {
+          "name": "Maionese kewpie",
+          "note": null
+        },
+        "cipolla_tritata_finemente": {
+          "name": "Onion finely chopped",
+          "note": null
+        },
+        "succo_di_limone": {
+          "name": "Succo di lemon",
+          "note": null
+        },
+        "sale_e_pepe": {
+          "name": "Salt e pepper",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare the pan, mold or serving glasses and measure all ingredients before mixing; keep dairy or whipped components cold when the recipe requires it.",
+        "step_2": "Mix or whip the base only as much as needed to obtain a smooth, airy or creamy texture without unnecessarily knocking out incorporated air.",
+        "step_3": "Bake, chill, freeze or set the dessert with controlled temperature and timing, checking the center or surface for the intended doneness rather than relying only on the clock.",
+        "step_4": "Cool or rest fully when required, then add the final cream, fruit, syrup or garnish immediately before serving."
+      }
+    },
+    "it": {
+      "title": "Chicken Namban (Pollo Fritto con Salsa Tartara Giapponese)",
+      "description": "Un Chicken Namban (Pollo Fritto con Salsa Tartara Giapponese) in stile giapponese dal risultato leggero e pulito, dove montatura, temperatura e riposo vengono gestiti con attenzione per ottenere la consistenza corretta.",
+      "animeContext": "Questa ricetta è ispirata tematicamente a Food Wars!, Isekai Izakaya Nobu. Il collegamento resta dichiarato come ispirazione: non viene attribuita una comparsa precisa senza una verifica diretta.",
+      "ingredients": {
+        "petto_o_sovracoscia_di_pollo_senza_pelle": {
+          "name": "petto o sovracoscia di pollo senza pelle",
+          "note": null
+        },
+        "farina_00_e_1_uovo_sbattuto_per_impanare": {
+          "name": "Farina 00 e 1 uovo sbattuto per impanare",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "salsa di soia",
+          "note": null
+        },
+        "aceto_di_riso": {
+          "name": "aceto di riso",
+          "note": null
+        },
+        "zucchero": {
+          "name": "zucchero",
+          "note": null
+        },
+        "olio_di_sesamo": {
+          "name": "olio di sesamo",
+          "note": null
+        },
+        "uovo_sodo_sminuzzato": {
+          "name": "uovo sodo sminuzzato",
+          "note": null
+        },
+        "maionese_kewpie": {
+          "name": "maionese Kewpie",
+          "note": null
+        },
+        "cipolla_tritata_finemente": {
+          "name": "cipolla tritata finemente",
+          "note": null
+        },
+        "succo_di_limone": {
+          "name": "succo di limone",
+          "note": null
+        },
+        "sale_e_pepe": {
+          "name": "sale e pepe",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Per iniziare, riunisci in una ciotola schiaccia l'uovo sodo con la forchetta, unisci la maionese Kewpie, la cipolla tritata, il succo di limone, sale e pepe. Amalgama e tieni in fresco.",
+        "step_2": "Prosegui così: metti in un pentolino porta a temperatura la salsa di soia, l'aceto di riso e lo zucchero finché lo zucchero si scioglie. Aggiungi la salsa in una pirofila capiente.",
+        "step_3": "Nella fase successiva, taglia il pollo a bocconcini grandi. Infarinalo leggermente, poi passalo nell'uovo sbattuto. Friggi in olio di semi a 170°C per 5-6 minuti fino a doratura. Preleva il pollo bollente appena fritto e immersalo immediatamente nella salsa dolce Namban-zu per 1 minuto, girandolo su entrambi i lati per far assorbire il condimento acido-dolce.",
+        "step_4": "Per completare, sistema il pollo nei piatti e copri la superficie con un generoso cucchiaio di salsa tartara cremosa."
+      }
+    },
+    "es": {
+      "title": "Chicken Namban",
+      "description": "Una versión práctica de Chicken Namban para cocinar en casa, manteniendo los ingredientes característicos, la textura y la técnica del plato con una secuencia clara y repetible.",
+      "animeContext": "Esta receta está inspirada temáticamente en Food Wars!, Isekai Izakaya Nobu. La relación se presenta solo como inspiración y no afirma una aparición concreta sin una verificación directa.",
+      "ingredients": {
+        "petto_o_sovracoscia_di_pollo_senza_pelle": {
+          "name": "Petto o sovracoscia di pollo senza pelle",
+          "note": null
+        },
+        "farina_00_e_1_uovo_sbattuto_per_impanare": {
+          "name": "All-purpose harina e 1 huevo sbattuto per impanare",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "aceto_di_riso": {
+          "name": "Vinagre de arroz",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "olio_di_sesamo": {
+          "name": "Sesame aceite",
+          "note": null
+        },
+        "uovo_sodo_sminuzzato": {
+          "name": "Huevo sodo sminuzzato",
+          "note": null
+        },
+        "maionese_kewpie": {
+          "name": "Maionese kewpie",
+          "note": null
+        },
+        "cipolla_tritata_finemente": {
+          "name": "Cebolla picado fino",
+          "note": null
+        },
+        "succo_di_limone": {
+          "name": "Succo di limón",
+          "note": null
+        },
+        "sale_e_pepe": {
+          "name": "Sal e pepper",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepara todos los componentes de la receta antes de aplicar calor, manteniendo salsas y guarniciones separadas para poder trabajar con orden.",
+        "step_2": "Cocina el elemento principal con calor controlado hasta alcanzar la textura indicada, evitando prolongar la cocción más de lo necesario.",
+        "step_3": "Incorpora el caldo, la salsa o los componentes restantes por etapas y continúa solo hasta que los sabores queden bien integrados y la textura sea correcta.",
+        "step_4": "Monta el plato con las guarniciones preparadas y sirve inmediatamente, conservando hasta el último momento los elementos que deben quedar crujientes o frescos."
+      }
+    },
+    "fr": {
+      "title": "Chicken Namban",
+      "description": "Une version pratique de Chicken Namban à préparer à la maison, en conservant les ingrédients caractéristiques, la texture et la technique du plat dans une séquence claire.",
+      "animeContext": "Cette recette est inspirée thématiquement par Food Wars!, Isekai Izakaya Nobu. Le lien reste une inspiration et ne revendique aucun épisode précis sans vérification directe.",
+      "ingredients": {
+        "petto_o_sovracoscia_di_pollo_senza_pelle": {
+          "name": "Petto o sovracoscia di poulet senza pelle",
+          "note": null
+        },
+        "farina_00_e_1_uovo_sbattuto_per_impanare": {
+          "name": "All-purpose farine e 1 œuf sbattuto per impanare",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "aceto_di_riso": {
+          "name": "Vinaigre de riz",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Sucre",
+          "note": null
+        },
+        "olio_di_sesamo": {
+          "name": "Sesame huile",
+          "note": null
+        },
+        "uovo_sodo_sminuzzato": {
+          "name": "Œuf sodo sminuzzato",
+          "note": null
+        },
+        "maionese_kewpie": {
+          "name": "Maionese kewpie",
+          "note": null
+        },
+        "cipolla_tritata_finemente": {
+          "name": "Oignon finement haché",
+          "note": null
+        },
+        "succo_di_limone": {
+          "name": "Succo di citron",
+          "note": null
+        },
+        "sale_e_pepe": {
+          "name": "Sel e pepper",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Préparez tous les éléments de la recette avant la cuisson et gardez sauces et garnitures séparées afin de travailler de façon ordonnée et précise.",
+        "step_2": "Cuisez l’élément principal à chaleur maîtrisée jusqu’à la texture recherchée, sans prolonger inutilement la cuisson au-delà du point souhaité.",
+        "step_3": "Ajoutez progressivement le bouillon, la sauce ou les autres composants et poursuivez seulement jusqu’à ce que les saveurs soient liées et la texture correcte.",
+        "step_4": "Dressez avec les garnitures préparées et servez sans attendre, en préservant jusqu’au dernier moment les éléments qui doivent rester croquants ou frais."
+      }
+    },
+    "de": {
+      "title": "Chicken Namban",
+      "description": "Eine alltagstaugliche Version von Chicken Namban für zu Hause, bei der typische Zutaten, Textur und Garmethode in einer klaren, wiederholbaren Reihenfolge erhalten bleiben.",
+      "animeContext": "Dieses Rezept ist thematisch von Food Wars!, Isekai Izakaya Nobu inspiriert. Die Verbindung wird nur als Inspiration geführt; ohne direkten Beleg wird keine konkrete Episode behauptet.",
+      "ingredients": {
+        "petto_o_sovracoscia_di_pollo_senza_pelle": {
+          "name": "Petto o sovracoscia di Hähnchen senza pelle",
+          "note": null
+        },
+        "farina_00_e_1_uovo_sbattuto_per_impanare": {
+          "name": "All-purpose Mehl e 1 Ei sbattuto per impanare",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "aceto_di_riso": {
+          "name": "Reisessig",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Zucker",
+          "note": null
+        },
+        "olio_di_sesamo": {
+          "name": "Sesame Öl",
+          "note": null
+        },
+        "uovo_sodo_sminuzzato": {
+          "name": "Ei sodo sminuzzato",
+          "note": null
+        },
+        "maionese_kewpie": {
+          "name": "Maionese kewpie",
+          "note": null
+        },
+        "cipolla_tritata_finemente": {
+          "name": "Zwiebel fein gehackt",
+          "note": null
+        },
+        "succo_di_limone": {
+          "name": "Succo di Zitrone",
+          "note": null
+        },
+        "sale_e_pepe": {
+          "name": "Salz e pepper",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bereite alle Bestandteile vor dem Erhitzen vollständig vor und halte Saucen sowie Garnituren getrennt, damit die eigentliche Garphase zügig ablaufen kann.",
+        "step_2": "Gare die Hauptkomponente bei kontrollierter Hitze bis zur gewünschten Textur und vermeide unnötig langes Weitergaren über den richtigen Punkt hinaus.",
+        "step_3": "Gib Brühe, Sauce oder die restlichen Bestandteile schrittweise dazu und gare nur so lange weiter, bis Geschmack und Konsistenz ausgewogen sind.",
+        "step_4": "Richte das Gericht mit den vorbereiteten Garnituren an und serviere es sofort, damit knusprige oder frische Elemente ihre gewünschte Textur behalten."
+      }
+    },
+    "pt": {
+      "title": "Chicken Namban",
+      "description": "Uma versão prática de Chicken Namban para preparar em casa, preservando ingredientes característicos, textura e técnica do prato numa sequência clara e repetível.",
+      "animeContext": "Esta receita é tematicamente inspirada por Food Wars!, Isekai Izakaya Nobu. A ligação é tratada apenas como inspiração, sem afirmar uma aparição específica sem verificação direta.",
+      "ingredients": {
+        "petto_o_sovracoscia_di_pollo_senza_pelle": {
+          "name": "Petto o sovracoscia di frango senza pelle",
+          "note": null
+        },
+        "farina_00_e_1_uovo_sbattuto_per_impanare": {
+          "name": "All-purpose farinha e 1 ovo sbattuto per impanare",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Molho de soja",
+          "note": null
+        },
+        "aceto_di_riso": {
+          "name": "Vinagre de arroz",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "olio_di_sesamo": {
+          "name": "Sesame óleo",
+          "note": null
+        },
+        "uovo_sodo_sminuzzato": {
+          "name": "Ovo sodo sminuzzato",
+          "note": null
+        },
+        "maionese_kewpie": {
+          "name": "Maionese kewpie",
+          "note": null
+        },
+        "cipolla_tritata_finemente": {
+          "name": "Cebola picado fino",
+          "note": null
+        },
+        "succo_di_limone": {
+          "name": "Succo di limão",
+          "note": null
+        },
+        "sale_e_pepe": {
+          "name": "Sal e pepper",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare todos os componentes antes de aplicar calor e mantenha molhos e guarnições separados, para que a fase de confeção decorra de forma rápida e organizada.",
+        "step_2": "Cozinhe o componente principal com calor controlado até atingir a textura pretendida, evitando prolongar a confeção para além do ponto correto.",
+        "step_3": "Junte o caldo, o molho ou os restantes componentes por etapas e prossiga apenas até os sabores ficarem integrados e a textura estar equilibrada.",
+        "step_4": "Monte o prato com as guarnições preparadas e sirva de imediato, preservando até ao fim os elementos que devem permanecer crocantes ou frescos."
+      }
+    }
+  }
+}

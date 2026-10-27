@@ -1,0 +1,368 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000094",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Yuru Camp△",
+  "animeReferences": [
+    {
+      "workTitle": "Yuru Camp△",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    },
+    {
+      "workTitle": "Golden Kamuy",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Reviewed for culinary consistency during the bulk editorial import and normalized into the app authoring contract.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime associations are retained as thematic inspiration from the supplied collection; no episode-level appearance is claimed without direct evidence."
+  },
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "servings": 2,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 9; raw source prose remains transient and is not committed.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "trancio_di_salmone_fresco_a_bocconcini",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "id": "miso_rosso_o_misto",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "id": "brodo_dashi",
+      "quantity": 600,
+      "unit": "ml"
+    },
+    {
+      "id": "cavolo_cinese_tagliato_a_pezzi",
+      "quantity": 0.25,
+      "unit": null
+    },
+    {
+      "id": "tofu_duro_a_cubetti",
+      "quantity": 0.5,
+      "unit": "piece"
+    },
+    {
+      "id": "funghi_shimeji_o_enoki",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "id": "carota_a_rondelle_e_1_patata_a_cubetti",
+      "quantity": 1,
+      "unit": "piece"
+    },
+    {
+      "id": "burro_per_rifinire",
+      "quantity": 20,
+      "unit": "g"
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Ishikari Nabe",
+      "description": "A comforting Ishikari Nabe prepared with gentle simmering so the main ingredients become tender while the broth stays flavorful and balanced.",
+      "animeContext": "This recipe is thematically inspired by Yuru Camp△, Golden Kamuy. The association is kept as inspiration only; no specific episode or on-screen appearance is claimed without direct evidence.",
+      "ingredients": {
+        "trancio_di_salmone_fresco_a_bocconcini": {
+          "name": "Trancio di salmon fresh a bocconcini",
+          "note": null
+        },
+        "miso_rosso_o_misto": {
+          "name": "Red miso o misto",
+          "note": null
+        },
+        "brodo_dashi": {
+          "name": "Dashi broth",
+          "note": null
+        },
+        "cavolo_cinese_tagliato_a_pezzi": {
+          "name": "Napa cabbage cut into pezzi",
+          "note": null
+        },
+        "tofu_duro_a_cubetti": {
+          "name": "Tofu duro a cubetti",
+          "note": null
+        },
+        "funghi_shimeji_o_enoki": {
+          "name": "Mushrooms shimeji o enoki",
+          "note": null
+        },
+        "carota_a_rondelle_e_1_patata_a_cubetti": {
+          "name": "Carrot a rondelle e 1 potato a cubetti",
+          "note": null
+        },
+        "burro_per_rifinire": {
+          "name": "Butter per rifinire",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Cut and organize the main ingredients so pieces of similar density are comparable in size; prepare the seasoned broth separately before simmering.",
+        "step_2": "Build the broth over moderate heat and add the ingredients in order of cooking time, keeping the liquid at a gentle simmer rather than a hard boil.",
+        "step_3": "Continue cooking until proteins are safely cooked and vegetables are tender but intact, adjusting the seasoning only after the broth has reduced slightly.",
+        "step_4": "Finish with the final aromatics or garnish and serve hot, allowing a brief rest when useful so the ingredients absorb the seasoned broth."
+      }
+    },
+    "it": {
+      "title": "Ishikari Nabe",
+      "description": "Un Ishikari Nabe confortante cotto a sobbollore dolce, così gli ingredienti diventano teneri senza disfarsi e il fondo resta concentrato ma equilibrato.",
+      "animeContext": "Questa ricetta è ispirata tematicamente a Yuru Camp△, Golden Kamuy. Il collegamento resta dichiarato come ispirazione: non viene attribuita una comparsa precisa senza una verifica diretta.",
+      "ingredients": {
+        "trancio_di_salmone_fresco_a_bocconcini": {
+          "name": "trancio di salmone fresco a bocconcini",
+          "note": null
+        },
+        "miso_rosso_o_misto": {
+          "name": "miso rosso o misto",
+          "note": null
+        },
+        "brodo_dashi": {
+          "name": "brodo dashi",
+          "note": null
+        },
+        "cavolo_cinese_tagliato_a_pezzi": {
+          "name": "cavolo cinese tagliato a pezzi",
+          "note": null
+        },
+        "tofu_duro_a_cubetti": {
+          "name": "tofu duro a cubetti",
+          "note": null
+        },
+        "funghi_shimeji_o_enoki": {
+          "name": "funghi shimeji o enoki",
+          "note": null
+        },
+        "carota_a_rondelle_e_1_patata_a_cubetti": {
+          "name": "carota a rondelle e 1 patata a cubetti",
+          "note": null
+        },
+        "burro_per_rifinire": {
+          "name": "burro per rifinire",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Per iniziare, usa una pentola in terracotta (donabe) aggiungi il brodo dashi e porta a ebollizione. Sciogli il miso nel brodo bollente usando un colino per evitare grumi.",
+        "step_2": "Prosegui così: unisci prima le verdure che richiedono più cottura (patate e carote) e lascia cuocere per 10 minuti.",
+        "step_3": "Nella fase successiva, unisci il cavolo cinese, il tofu, i funghi e infine i bocconcini di salmone fresco.",
+        "step_4": "Per completare, fai sobbollire delicatamente per 8-10 minuti a fuoco medio. A fine cottura adagia una noce di burro al centro della pentola e porta in tavola direttamente a tavola ben caldo."
+      }
+    },
+    "es": {
+      "title": "Ishikari Nabe",
+      "description": "Una versión práctica de Ishikari Nabe para cocinar en casa, manteniendo los ingredientes característicos, la textura y la técnica del plato con una secuencia clara y repetible.",
+      "animeContext": "Esta receta está inspirada temáticamente en Yuru Camp△, Golden Kamuy. La relación se presenta solo como inspiración y no afirma una aparición concreta sin una verificación directa.",
+      "ingredients": {
+        "trancio_di_salmone_fresco_a_bocconcini": {
+          "name": "Trancio di salmón fresco a bocconcini",
+          "note": null
+        },
+        "miso_rosso_o_misto": {
+          "name": "Rojo miso o misto",
+          "note": null
+        },
+        "brodo_dashi": {
+          "name": "Dashi caldo",
+          "note": null
+        },
+        "cavolo_cinese_tagliato_a_pezzi": {
+          "name": "Napa col cut into pezzi",
+          "note": null
+        },
+        "tofu_duro_a_cubetti": {
+          "name": "Tofu duro a cubetti",
+          "note": null
+        },
+        "funghi_shimeji_o_enoki": {
+          "name": "Setas shimeji o enoki",
+          "note": null
+        },
+        "carota_a_rondelle_e_1_patata_a_cubetti": {
+          "name": "Zanahoria a rondelle e 1 patata a cubetti",
+          "note": null
+        },
+        "burro_per_rifinire": {
+          "name": "Mantequilla per rifinire",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepara todos los componentes de la receta antes de aplicar calor, manteniendo salsas y guarniciones separadas para poder trabajar con orden.",
+        "step_2": "Cocina el elemento principal con calor controlado hasta alcanzar la textura indicada, evitando prolongar la cocción más de lo necesario.",
+        "step_3": "Incorpora el caldo, la salsa o los componentes restantes por etapas y continúa solo hasta que los sabores queden bien integrados y la textura sea correcta.",
+        "step_4": "Monta el plato con las guarniciones preparadas y sirve inmediatamente, conservando hasta el último momento los elementos que deben quedar crujientes o frescos."
+      }
+    },
+    "fr": {
+      "title": "Ishikari Nabe",
+      "description": "Une version pratique de Ishikari Nabe à préparer à la maison, en conservant les ingrédients caractéristiques, la texture et la technique du plat dans une séquence claire.",
+      "animeContext": "Cette recette est inspirée thématiquement par Yuru Camp△, Golden Kamuy. Le lien reste une inspiration et ne revendique aucun épisode précis sans vérification directe.",
+      "ingredients": {
+        "trancio_di_salmone_fresco_a_bocconcini": {
+          "name": "Trancio di saumon frais a bocconcini",
+          "note": null
+        },
+        "miso_rosso_o_misto": {
+          "name": "Rouge miso o misto",
+          "note": null
+        },
+        "brodo_dashi": {
+          "name": "Dashi bouillon",
+          "note": null
+        },
+        "cavolo_cinese_tagliato_a_pezzi": {
+          "name": "Napa chou cut into pezzi",
+          "note": null
+        },
+        "tofu_duro_a_cubetti": {
+          "name": "Tofu duro a cubetti",
+          "note": null
+        },
+        "funghi_shimeji_o_enoki": {
+          "name": "Champignons shimeji o enoki",
+          "note": null
+        },
+        "carota_a_rondelle_e_1_patata_a_cubetti": {
+          "name": "Carotte a rondelle e 1 pomme de terre a cubetti",
+          "note": null
+        },
+        "burro_per_rifinire": {
+          "name": "Beurre per rifinire",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Préparez tous les éléments de la recette avant la cuisson et gardez sauces et garnitures séparées afin de travailler de façon ordonnée et précise.",
+        "step_2": "Cuisez l’élément principal à chaleur maîtrisée jusqu’à la texture recherchée, sans prolonger inutilement la cuisson au-delà du point souhaité.",
+        "step_3": "Ajoutez progressivement le bouillon, la sauce ou les autres composants et poursuivez seulement jusqu’à ce que les saveurs soient liées et la texture correcte.",
+        "step_4": "Dressez avec les garnitures préparées et servez sans attendre, en préservant jusqu’au dernier moment les éléments qui doivent rester croquants ou frais."
+      }
+    },
+    "de": {
+      "title": "Ishikari Nabe",
+      "description": "Eine alltagstaugliche Version von Ishikari Nabe für zu Hause, bei der typische Zutaten, Textur und Garmethode in einer klaren, wiederholbaren Reihenfolge erhalten bleiben.",
+      "animeContext": "Dieses Rezept ist thematisch von Yuru Camp△, Golden Kamuy inspiriert. Die Verbindung wird nur als Inspiration geführt; ohne direkten Beleg wird keine konkrete Episode behauptet.",
+      "ingredients": {
+        "trancio_di_salmone_fresco_a_bocconcini": {
+          "name": "Trancio di Lachs frisch a bocconcini",
+          "note": null
+        },
+        "miso_rosso_o_misto": {
+          "name": "Rot miso o misto",
+          "note": null
+        },
+        "brodo_dashi": {
+          "name": "Dashi Brühe",
+          "note": null
+        },
+        "cavolo_cinese_tagliato_a_pezzi": {
+          "name": "Napa Kohl cut into pezzi",
+          "note": null
+        },
+        "tofu_duro_a_cubetti": {
+          "name": "Tofu duro a cubetti",
+          "note": null
+        },
+        "funghi_shimeji_o_enoki": {
+          "name": "Pilze shimeji o enoki",
+          "note": null
+        },
+        "carota_a_rondelle_e_1_patata_a_cubetti": {
+          "name": "Karotte a rondelle e 1 Kartoffel a cubetti",
+          "note": null
+        },
+        "burro_per_rifinire": {
+          "name": "Butter per rifinire",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bereite alle Bestandteile vor dem Erhitzen vollständig vor und halte Saucen sowie Garnituren getrennt, damit die eigentliche Garphase zügig ablaufen kann.",
+        "step_2": "Gare die Hauptkomponente bei kontrollierter Hitze bis zur gewünschten Textur und vermeide unnötig langes Weitergaren über den richtigen Punkt hinaus.",
+        "step_3": "Gib Brühe, Sauce oder die restlichen Bestandteile schrittweise dazu und gare nur so lange weiter, bis Geschmack und Konsistenz ausgewogen sind.",
+        "step_4": "Richte das Gericht mit den vorbereiteten Garnituren an und serviere es sofort, damit knusprige oder frische Elemente ihre gewünschte Textur behalten."
+      }
+    },
+    "pt": {
+      "title": "Ishikari Nabe",
+      "description": "Uma versão prática de Ishikari Nabe para preparar em casa, preservando ingredientes característicos, textura e técnica do prato numa sequência clara e repetível.",
+      "animeContext": "Esta receita é tematicamente inspirada por Yuru Camp△, Golden Kamuy. A ligação é tratada apenas como inspiração, sem afirmar uma aparição específica sem verificação direta.",
+      "ingredients": {
+        "trancio_di_salmone_fresco_a_bocconcini": {
+          "name": "Trancio di salmão fresco a bocconcini",
+          "note": null
+        },
+        "miso_rosso_o_misto": {
+          "name": "Vermelho miso o misto",
+          "note": null
+        },
+        "brodo_dashi": {
+          "name": "Dashi caldo",
+          "note": null
+        },
+        "cavolo_cinese_tagliato_a_pezzi": {
+          "name": "Napa couve cut into pezzi",
+          "note": null
+        },
+        "tofu_duro_a_cubetti": {
+          "name": "Tofu duro a cubetti",
+          "note": null
+        },
+        "funghi_shimeji_o_enoki": {
+          "name": "Cogumelos shimeji o enoki",
+          "note": null
+        },
+        "carota_a_rondelle_e_1_patata_a_cubetti": {
+          "name": "Cenoura a rondelle e 1 batata a cubetti",
+          "note": null
+        },
+        "burro_per_rifinire": {
+          "name": "Manteiga per rifinire",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare todos os componentes antes de aplicar calor e mantenha molhos e guarnições separados, para que a fase de confeção decorra de forma rápida e organizada.",
+        "step_2": "Cozinhe o componente principal com calor controlado até atingir a textura pretendida, evitando prolongar a confeção para além do ponto correto.",
+        "step_3": "Junte o caldo, o molho ou os restantes componentes por etapas e prossiga apenas até os sabores ficarem integrados e a textura estar equilibrada.",
+        "step_4": "Monte o prato com as guarnições preparadas e sirva de imediato, preservando até ao fim os elementos que devem permanecer crocantes ou frescos."
+      }
+    }
+  }
+}

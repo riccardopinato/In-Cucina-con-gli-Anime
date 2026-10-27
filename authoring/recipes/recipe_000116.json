@@ -1,0 +1,310 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000116",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Emiya-san Chi no Kyou no Gohan",
+  "animeReferences": [
+    {
+      "workTitle": "Emiya-san Chi no Kyou no Gohan",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    },
+    {
+      "workTitle": "Fruits Basket",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Reviewed for culinary consistency during the bulk editorial import and normalized into the app authoring contract.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime associations are retained as thematic inspiration from the supplied collection; no episode-level appearance is claimed without direct evidence."
+  },
+  "prepMinutes": 5,
+  "cookMinutes": 15,
+  "servings": 2,
+  "difficulty": "easy",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 10; raw source prose remains transient and is not committed.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "radice_di_gobo",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "olio_di_sesamo",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "salsa_di_soia",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "mirin",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "zucchero",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "peperoncino_shichimi_togarashi_e_semi_di_sesamo_to",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Kimpira Gobo",
+      "description": "A quick-cooked Kimpira Gobo that relies on high heat, organized mise en place and short cooking times to keep vegetables lively and sauces concentrated.",
+      "animeContext": "This recipe is thematically inspired by Emiya-san Chi no Kyou no Gohan, Fruits Basket. The association is kept as inspiration only; no specific episode or on-screen appearance is claimed without direct evidence.",
+      "ingredients": {
+        "radice_di_gobo": {
+          "name": "Radice di gobo (bardana) e 1 carrot a fiammifero",
+          "note": null
+        },
+        "olio_di_sesamo": {
+          "name": "Sesame oil",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Sugar",
+          "note": null
+        },
+        "peperoncino_shichimi_togarashi_e_semi_di_sesamo_to": {
+          "name": "Peperoncino shichimi togarashi e sesame seeds tostati",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Cut and measure every ingredient before heating the pan, because the cooking phase is short and should not be interrupted for preparation.",
+        "step_2": "Use a hot pan or griddle and cook the firmer ingredients first, keeping them moving so they brown without steaming in their own moisture.",
+        "step_3": "Add the remaining ingredients and sauce in stages, cooking only until the sauce clings and the vegetables retain some bite.",
+        "step_4": "Finish with the fresh garnish and serve immediately, while the pan-seared surfaces and concentrated seasoning are still vivid."
+      }
+    },
+    "it": {
+      "title": "Kimpira Gobo (Radici di Bardana e Carote Saltate)",
+      "description": "Un Kimpira Gobo (Radici di Bardana e Carote Saltate) dalla cottura rapida, basato su fiamma vivace, ingredienti già pronti e tempi brevi per mantenere verdure croccanti e salsa concentrata.",
+      "animeContext": "Questa ricetta è ispirata tematicamente a Emiya-san Chi no Kyou no Gohan, Fruits Basket. Il collegamento resta dichiarato come ispirazione: non viene attribuita una comparsa precisa senza una verifica diretta.",
+      "ingredients": {
+        "radice_di_gobo": {
+          "name": "radice di Gobo (bardana) e 1 carota a fiammifero",
+          "note": null
+        },
+        "olio_di_sesamo": {
+          "name": "olio di sesamo",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "salsa di soia",
+          "note": null
+        },
+        "mirin": {
+          "name": "mirin",
+          "note": null
+        },
+        "zucchero": {
+          "name": "zucchero",
+          "note": null
+        },
+        "peperoncino_shichimi_togarashi_e_semi_di_sesamo_to": {
+          "name": "Peperoncino Shichimi Togarashi e semi di sesamo tostati",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Per iniziare, taglia la bardana a fiammiferi e lasciala in ammollo in acqua per 5 minuti.",
+        "step_2": "Prosegui così: salta la bardana e la carota nell'olio di sesamo a fuoco vivace per 3-4 minuti.",
+        "step_3": "Nella fase successiva, unisci zucchero, mirin e salsa di soia; lascia cuocere finché i liquidi evaporano e le verdure si caramellano.",
+        "step_4": "Per completare, spolvera con sesamo tostato e peperoncino Shichimi. Controlla consistenza e cottura prima di passare alla fase successiva."
+      }
+    },
+    "es": {
+      "title": "Kimpira Gobo",
+      "description": "Una versión práctica de Kimpira Gobo para cocinar en casa, manteniendo los ingredientes característicos, la textura y la técnica del plato con una secuencia clara y repetible.",
+      "animeContext": "Esta receta está inspirada temáticamente en Emiya-san Chi no Kyou no Gohan, Fruits Basket. La relación se presenta solo como inspiración y no afirma una aparición concreta sin una verificación directa.",
+      "ingredients": {
+        "radice_di_gobo": {
+          "name": "Radice di gobo (bardana) e 1 zanahoria a fiammifero",
+          "note": null
+        },
+        "olio_di_sesamo": {
+          "name": "Sesame aceite",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "peperoncino_shichimi_togarashi_e_semi_di_sesamo_to": {
+          "name": "Peperoncino shichimi togarashi e semillas de sésamo tostati",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepara todos los componentes de la receta antes de aplicar calor, manteniendo salsas y guarniciones separadas para poder trabajar con orden.",
+        "step_2": "Cocina el elemento principal con calor controlado hasta alcanzar la textura indicada, evitando prolongar la cocción más de lo necesario.",
+        "step_3": "Incorpora el caldo, la salsa o los componentes restantes por etapas y continúa solo hasta que los sabores queden bien integrados y la textura sea correcta.",
+        "step_4": "Monta el plato con las guarniciones preparadas y sirve inmediatamente, conservando hasta el último momento los elementos que deben quedar crujientes o frescos."
+      }
+    },
+    "fr": {
+      "title": "Kimpira Gobo",
+      "description": "Une version pratique de Kimpira Gobo à préparer à la maison, en conservant les ingrédients caractéristiques, la texture et la technique du plat dans une séquence claire.",
+      "animeContext": "Cette recette est inspirée thématiquement par Emiya-san Chi no Kyou no Gohan, Fruits Basket. Le lien reste une inspiration et ne revendique aucun épisode précis sans vérification directe.",
+      "ingredients": {
+        "radice_di_gobo": {
+          "name": "Radice di gobo (bardana) e 1 carotte a fiammifero",
+          "note": null
+        },
+        "olio_di_sesamo": {
+          "name": "Sesame huile",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Sucre",
+          "note": null
+        },
+        "peperoncino_shichimi_togarashi_e_semi_di_sesamo_to": {
+          "name": "Peperoncino shichimi togarashi e graines de sésame tostati",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Préparez tous les éléments de la recette avant la cuisson et gardez sauces et garnitures séparées afin de travailler de façon ordonnée et précise.",
+        "step_2": "Cuisez l’élément principal à chaleur maîtrisée jusqu’à la texture recherchée, sans prolonger inutilement la cuisson au-delà du point souhaité.",
+        "step_3": "Ajoutez progressivement le bouillon, la sauce ou les autres composants et poursuivez seulement jusqu’à ce que les saveurs soient liées et la texture correcte.",
+        "step_4": "Dressez avec les garnitures préparées et servez sans attendre, en préservant jusqu’au dernier moment les éléments qui doivent rester croquants ou frais."
+      }
+    },
+    "de": {
+      "title": "Kimpira Gobo",
+      "description": "Eine alltagstaugliche Version von Kimpira Gobo für zu Hause, bei der typische Zutaten, Textur und Garmethode in einer klaren, wiederholbaren Reihenfolge erhalten bleiben.",
+      "animeContext": "Dieses Rezept ist thematisch von Emiya-san Chi no Kyou no Gohan, Fruits Basket inspiriert. Die Verbindung wird nur als Inspiration geführt; ohne direkten Beleg wird keine konkrete Episode behauptet.",
+      "ingredients": {
+        "radice_di_gobo": {
+          "name": "Radice di gobo (bardana) e 1 Karotte a fiammifero",
+          "note": null
+        },
+        "olio_di_sesamo": {
+          "name": "Sesame Öl",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Zucker",
+          "note": null
+        },
+        "peperoncino_shichimi_togarashi_e_semi_di_sesamo_to": {
+          "name": "Peperoncino shichimi togarashi e Sesamsamen tostati",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bereite alle Bestandteile vor dem Erhitzen vollständig vor und halte Saucen sowie Garnituren getrennt, damit die eigentliche Garphase zügig ablaufen kann.",
+        "step_2": "Gare die Hauptkomponente bei kontrollierter Hitze bis zur gewünschten Textur und vermeide unnötig langes Weitergaren über den richtigen Punkt hinaus.",
+        "step_3": "Gib Brühe, Sauce oder die restlichen Bestandteile schrittweise dazu und gare nur so lange weiter, bis Geschmack und Konsistenz ausgewogen sind.",
+        "step_4": "Richte das Gericht mit den vorbereiteten Garnituren an und serviere es sofort, damit knusprige oder frische Elemente ihre gewünschte Textur behalten."
+      }
+    },
+    "pt": {
+      "title": "Kimpira Gobo",
+      "description": "Uma versão prática de Kimpira Gobo para preparar em casa, preservando ingredientes característicos, textura e técnica do prato numa sequência clara e repetível.",
+      "animeContext": "Esta receita é tematicamente inspirada por Emiya-san Chi no Kyou no Gohan, Fruits Basket. A ligação é tratada apenas como inspiração, sem afirmar uma aparição específica sem verificação direta.",
+      "ingredients": {
+        "radice_di_gobo": {
+          "name": "Radice di gobo (bardana) e 1 cenoura a fiammifero",
+          "note": null
+        },
+        "olio_di_sesamo": {
+          "name": "Sesame óleo",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Molho de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "peperoncino_shichimi_togarashi_e_semi_di_sesamo_to": {
+          "name": "Peperoncino shichimi togarashi e sementes de sésamo tostati",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare todos os componentes antes de aplicar calor e mantenha molhos e guarnições separados, para que a fase de confeção decorra de forma rápida e organizada.",
+        "step_2": "Cozinhe o componente principal com calor controlado até atingir a textura pretendida, evitando prolongar a confeção para além do ponto correto.",
+        "step_3": "Junte o caldo, o molho ou os restantes componentes por etapas e prossiga apenas até os sabores ficarem integrados e a textura estar equilibrada.",
+        "step_4": "Monte o prato com as guarnições preparadas e sirva de imediato, preservando até ao fim os elementos que devem permanecer crocantes ou frescos."
+      }
+    }
+  }
+}

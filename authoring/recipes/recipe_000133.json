@@ -1,0 +1,397 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000133",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Food Wars!",
+  "animeReferences": [
+    {
+      "workTitle": "Food Wars!",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    },
+    {
+      "workTitle": "Ramen Daisuki Koizumi-san",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Reviewed for culinary consistency during the bulk editorial import and normalized into the app authoring contract.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime associations are retained as thematic inspiration from the supplied collection; no episode-level appearance is claimed without direct evidence."
+  },
+  "prepMinutes": 20,
+  "cookMinutes": 25,
+  "servings": 2,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 11; raw source prose remains transient and is not committed.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "noodles_per_ramen",
+      "quantity": 2,
+      "unit": "portion"
+    },
+    {
+      "id": "sovracosce_di_pollo_disossate_con_pelle",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "id": "salsa_di_soia",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "id": "sake",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "id": "mirin",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "id": "zucchero",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "zenzero_schiacciato_e_1_spicchio_d_aglio",
+      "quantity": 1,
+      "unit": "piece"
+    },
+    {
+      "id": "brodo_di_pollo_leggero",
+      "quantity": 700,
+      "unit": "ml"
+    },
+    {
+      "id": "uovo_marinato",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Tori Chashu Ramen",
+      "description": "A practical bowl of Tori Chashu Ramen, built around well-cooked noodles, a balanced broth or sauce and toppings added at the right moment so texture stays distinct.",
+      "animeContext": "This recipe is thematically inspired by Food Wars!, Ramen Daisuki Koizumi-san. The association is kept as inspiration only; no specific episode or on-screen appearance is claimed without direct evidence.",
+      "ingredients": {
+        "noodles_per_ramen": {
+          "name": "Noodles per ramen",
+          "note": null
+        },
+        "sovracosce_di_pollo_disossate_con_pelle": {
+          "name": "Sovracosce di chicken disossate con pelle",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Sugar",
+          "note": null
+        },
+        "zenzero_schiacciato_e_1_spicchio_d_aglio": {
+          "name": "Ginger schiacciato e 1 spicchio d'garlic",
+          "note": null
+        },
+        "brodo_di_pollo_leggero": {
+          "name": "Chicken broth leggero",
+          "note": null
+        },
+        "uovo_marinato": {
+          "name": "Egg marinato (ajitsuke tamago) e spring onion for serving",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare the broth or seasoning base first and keep the toppings organized, so every component is ready before the noodles are cooked.",
+        "step_2": "Cook the noodles separately until just tender, then drain very thoroughly; avoid leaving them in hot water because they will continue to soften.",
+        "step_3": "Finish the broth or sauce at a gentle simmer and combine the hot components only when their seasoning and texture are balanced.",
+        "step_4": "Assemble the noodles immediately, add the prepared toppings in distinct sections and serve while the broth, noodles and garnishes still contrast clearly."
+      }
+    },
+    "it": {
+      "title": "Tori Chashu Ramen (Ramen con Pollo Marinato)",
+      "description": "Una versione pratica di Tori Chashu Ramen (Ramen con Pollo Marinato), costruita su noodles cotti al punto giusto, brodo o salsa equilibrati e guarnizioni aggiunte all’ultimo per mantenere consistenze distinte.",
+      "animeContext": "Questa ricetta è ispirata tematicamente a Food Wars!, Ramen Daisuki Koizumi-san. Il collegamento resta dichiarato come ispirazione: non viene attribuita una comparsa precisa senza una verifica diretta.",
+      "ingredients": {
+        "noodles_per_ramen": {
+          "name": "noodles per Ramen",
+          "note": null
+        },
+        "sovracosce_di_pollo_disossate_con_pelle": {
+          "name": "sovracosce di pollo disossate con pelle",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "salsa di soia",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "zucchero": {
+          "name": "zucchero",
+          "note": null
+        },
+        "zenzero_schiacciato_e_1_spicchio_d_aglio": {
+          "name": "zenzero schiacciato e 1 spicchio d'aglio",
+          "note": null
+        },
+        "brodo_di_pollo_leggero": {
+          "name": "brodo di pollo leggero",
+          "note": null
+        },
+        "uovo_marinato": {
+          "name": "Uovo marinato (Ajitsuke Tamago) e cipollotto per servire",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Per iniziare, arrotola la sovracoscia di pollo con la pelle all'esterno e legala strettamente con spaghetto da cucina. Metti in un pentolino, rosola il rotolo di pollo su tutti i lati. Unisci salsa di soia, sake, mirin, zucchero, zenzero e aglio.",
+        "step_2": "Prosegui così: copri e lascia cuocere a fuoco basso per 15-20 minuti girando il pollo di tanto in tanto finché la salsa si addensa e glassa la carne.",
+        "step_3": "Nella fase successiva, lascia raffreddare il pollo e affettalo a dischi d'oro.",
+        "step_4": "Per completare, porta a temperatura il brodo di pollo e regolalo di sapore con 2 cucchiai della glassa di cottura del pollo. Lascia cuocere i noodles per ramen, scolali nella ciotola, aggiungi il brodo e guarnisci con le fette di Tori Chashu, uovo marinato a metà e cipollotto."
+      }
+    },
+    "es": {
+      "title": "Tori Chashu Ramen",
+      "description": "Una versión práctica de Tori Chashu Ramen para cocinar en casa, manteniendo los ingredientes característicos, la textura y la técnica del plato con una secuencia clara y repetible.",
+      "animeContext": "Esta receta está inspirada temáticamente en Food Wars!, Ramen Daisuki Koizumi-san. La relación se presenta solo como inspiración y no afirma una aparición concreta sin una verificación directa.",
+      "ingredients": {
+        "noodles_per_ramen": {
+          "name": "Noodles per ramen",
+          "note": null
+        },
+        "sovracosce_di_pollo_disossate_con_pelle": {
+          "name": "Sovracosce di pollo disossate con pelle",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "zenzero_schiacciato_e_1_spicchio_d_aglio": {
+          "name": "Jengibre schiacciato e 1 spicchio d'ajo",
+          "note": null
+        },
+        "brodo_di_pollo_leggero": {
+          "name": "Pollo caldo leggero",
+          "note": null
+        },
+        "uovo_marinato": {
+          "name": "Huevo marinato (ajitsuke tamago) e spring cebolla para servir",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepara todos los componentes de la receta antes de aplicar calor, manteniendo salsas y guarniciones separadas para poder trabajar con orden.",
+        "step_2": "Cocina el elemento principal con calor controlado hasta alcanzar la textura indicada, evitando prolongar la cocción más de lo necesario.",
+        "step_3": "Incorpora el caldo, la salsa o los componentes restantes por etapas y continúa solo hasta que los sabores queden bien integrados y la textura sea correcta.",
+        "step_4": "Monta el plato con las guarniciones preparadas y sirve inmediatamente, conservando hasta el último momento los elementos que deben quedar crujientes o frescos."
+      }
+    },
+    "fr": {
+      "title": "Tori Chashu Ramen",
+      "description": "Une version pratique de Tori Chashu Ramen à préparer à la maison, en conservant les ingrédients caractéristiques, la texture et la technique du plat dans une séquence claire.",
+      "animeContext": "Cette recette est inspirée thématiquement par Food Wars!, Ramen Daisuki Koizumi-san. Le lien reste une inspiration et ne revendique aucun épisode précis sans vérification directe.",
+      "ingredients": {
+        "noodles_per_ramen": {
+          "name": "Noodles per ramen",
+          "note": null
+        },
+        "sovracosce_di_pollo_disossate_con_pelle": {
+          "name": "Sovracosce di poulet disossate con pelle",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Sucre",
+          "note": null
+        },
+        "zenzero_schiacciato_e_1_spicchio_d_aglio": {
+          "name": "Gingembre schiacciato e 1 spicchio d'ail",
+          "note": null
+        },
+        "brodo_di_pollo_leggero": {
+          "name": "Poulet bouillon leggero",
+          "note": null
+        },
+        "uovo_marinato": {
+          "name": "Œuf marinato (ajitsuke tamago) e spring oignon pour servir",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Préparez tous les éléments de la recette avant la cuisson et gardez sauces et garnitures séparées afin de travailler de façon ordonnée et précise.",
+        "step_2": "Cuisez l’élément principal à chaleur maîtrisée jusqu’à la texture recherchée, sans prolonger inutilement la cuisson au-delà du point souhaité.",
+        "step_3": "Ajoutez progressivement le bouillon, la sauce ou les autres composants et poursuivez seulement jusqu’à ce que les saveurs soient liées et la texture correcte.",
+        "step_4": "Dressez avec les garnitures préparées et servez sans attendre, en préservant jusqu’au dernier moment les éléments qui doivent rester croquants ou frais."
+      }
+    },
+    "de": {
+      "title": "Tori Chashu Ramen",
+      "description": "Eine alltagstaugliche Version von Tori Chashu Ramen für zu Hause, bei der typische Zutaten, Textur und Garmethode in einer klaren, wiederholbaren Reihenfolge erhalten bleiben.",
+      "animeContext": "Dieses Rezept ist thematisch von Food Wars!, Ramen Daisuki Koizumi-san inspiriert. Die Verbindung wird nur als Inspiration geführt; ohne direkten Beleg wird keine konkrete Episode behauptet.",
+      "ingredients": {
+        "noodles_per_ramen": {
+          "name": "Noodles per ramen",
+          "note": null
+        },
+        "sovracosce_di_pollo_disossate_con_pelle": {
+          "name": "Sovracosce di Hähnchen disossate con pelle",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Zucker",
+          "note": null
+        },
+        "zenzero_schiacciato_e_1_spicchio_d_aglio": {
+          "name": "Ingwer schiacciato e 1 spicchio d'Knoblauch",
+          "note": null
+        },
+        "brodo_di_pollo_leggero": {
+          "name": "Hähnchen Brühe leggero",
+          "note": null
+        },
+        "uovo_marinato": {
+          "name": "Ei marinato (ajitsuke tamago) e spring Zwiebel zum Servieren",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bereite alle Bestandteile vor dem Erhitzen vollständig vor und halte Saucen sowie Garnituren getrennt, damit die eigentliche Garphase zügig ablaufen kann.",
+        "step_2": "Gare die Hauptkomponente bei kontrollierter Hitze bis zur gewünschten Textur und vermeide unnötig langes Weitergaren über den richtigen Punkt hinaus.",
+        "step_3": "Gib Brühe, Sauce oder die restlichen Bestandteile schrittweise dazu und gare nur so lange weiter, bis Geschmack und Konsistenz ausgewogen sind.",
+        "step_4": "Richte das Gericht mit den vorbereiteten Garnituren an und serviere es sofort, damit knusprige oder frische Elemente ihre gewünschte Textur behalten."
+      }
+    },
+    "pt": {
+      "title": "Tori Chashu Ramen",
+      "description": "Uma versão prática de Tori Chashu Ramen para preparar em casa, preservando ingredientes característicos, textura e técnica do prato numa sequência clara e repetível.",
+      "animeContext": "Esta receita é tematicamente inspirada por Food Wars!, Ramen Daisuki Koizumi-san. A ligação é tratada apenas como inspiração, sem afirmar uma aparição específica sem verificação direta.",
+      "ingredients": {
+        "noodles_per_ramen": {
+          "name": "Noodles per ramen",
+          "note": null
+        },
+        "sovracosce_di_pollo_disossate_con_pelle": {
+          "name": "Sovracosce di frango disossate con pelle",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Molho de soja",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "zenzero_schiacciato_e_1_spicchio_d_aglio": {
+          "name": "Gengibre schiacciato e 1 spicchio d'alho",
+          "note": null
+        },
+        "brodo_di_pollo_leggero": {
+          "name": "Frango caldo leggero",
+          "note": null
+        },
+        "uovo_marinato": {
+          "name": "Ovo marinato (ajitsuke tamago) e spring cebola para servir",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare todos os componentes antes de aplicar calor e mantenha molhos e guarnições separados, para que a fase de confeção decorra de forma rápida e organizada.",
+        "step_2": "Cozinhe o componente principal com calor controlado até atingir a textura pretendida, evitando prolongar a confeção para além do ponto correto.",
+        "step_3": "Junte o caldo, o molho ou os restantes componentes por etapas e prossiga apenas até os sabores ficarem integrados e a textura estar equilibrada.",
+        "step_4": "Monte o prato com as guarnições preparadas e sirva de imediato, preservando até ao fim os elementos que devem permanecer crocantes ou frescos."
+      }
+    }
+  }
+}

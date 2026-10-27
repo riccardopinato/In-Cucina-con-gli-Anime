@@ -399,3 +399,25 @@ Delivered in the implementation branch:
 Evidence:
 - implementation head `1eb523bd3f829ba4410c87f6729a10f3ff736ea5` passed Development checks run `40219047598`: authoring/catalog gates, Flutter analyze/test, synthetic Web preview, production Web release and persistent-signed Android ARM64 artifact all PASS;
 - merge policy remains: the final branch head must be green before merge.
+
+
+## F3J — Catalog expansion to 162 recipes — CURRENT
+
+Blocked by: F3H/F3I — unblocked.
+
+Goal: expand the reviewed production catalog from 50 to 162 recipes before the next artwork campaign.
+
+Scope:
+- import 112 user-supplied reviewed recipes as stable IDs `recipe_000051` through `recipe_000162`;
+- exclude the eight candidates previously classified as duplicates or too similar;
+- correct the two editorial issues before import: `Tofu Dengaku` and `Matcha Daifuku con Anko`;
+- keep `imageAssetId: null` for recipes 51–162 so the existing deterministic procedural artwork remains the temporary visual fallback;
+- preserve complete EN/IT/ES/FR/DE/PT localization and F3G editorial gates;
+- materialize runtime catalog version 0.8.0 and keep similarity/validation gates green.
+
+Exit:
+- 162 published recipes materialized deterministically;
+- zero unresolved blocking similarity comparisons;
+- authoring/runtime validation green;
+- Flutter analyze/test + Web/Android CI green on exact PR head;
+- PR merged to `main`.

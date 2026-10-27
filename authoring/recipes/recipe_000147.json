@@ -1,0 +1,484 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000147",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Ramen Daisuki Koizumi-san",
+  "animeReferences": [
+    {
+      "workTitle": "Ramen Daisuki Koizumi-san",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    },
+    {
+      "workTitle": "Food Wars!",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Reviewed for culinary consistency during the bulk editorial import and normalized into the app authoring contract.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime associations are retained as thematic inspiration from the supplied collection; no episode-level appearance is claimed without direct evidence."
+  },
+  "prepMinutes": 20,
+  "cookMinutes": 30,
+  "servings": 2,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 12; raw source prose remains transient and is not committed.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "tagliolini_freschi_per_ramen",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "id": "pasta_di_sesamo_nero",
+      "quantity": 4,
+      "unit": "tbsp"
+    },
+    {
+      "id": "sesamo_nero_tostato_pestato_al_mortaio",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "brodo_di_pollo_ricco_o_dashi",
+      "quantity": 600,
+      "unit": "ml"
+    },
+    {
+      "id": "carne_macinata_di_maiale",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "id": "d_aglio_tritati",
+      "quantity": 2,
+      "unit": "piece"
+    },
+    {
+      "id": "zenzero_fresco_grattugiato",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "salsa_di_soia",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "olio_di_sesamo_scuro",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "pasta_di_peperoncino_tobandjan",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "uovo_ajitsuke_tamago",
+      "quantity": 2,
+      "unit": "piece"
+    },
+    {
+      "id": "germogli_di_soia_e_cipollotto_fresco",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Kurogoma Ramen",
+      "description": "A practical bowl of Kurogoma Ramen, built around well-cooked noodles, a balanced broth or sauce and toppings added at the right moment so texture stays distinct.",
+      "animeContext": "This recipe is thematically inspired by Ramen Daisuki Koizumi-san, Food Wars!. The association is kept as inspiration only; no specific episode or on-screen appearance is claimed without direct evidence.",
+      "ingredients": {
+        "tagliolini_freschi_per_ramen": {
+          "name": "Tagliolini fresh per ramen",
+          "note": null
+        },
+        "pasta_di_sesamo_nero": {
+          "name": "Black sesame paste (kurogoma paste)",
+          "note": null
+        },
+        "sesamo_nero_tostato_pestato_al_mortaio": {
+          "name": "Black sesame tostato pestato al mortaio",
+          "note": null
+        },
+        "brodo_di_pollo_ricco_o_dashi": {
+          "name": "Chicken broth ricco o dashi",
+          "note": null
+        },
+        "carne_macinata_di_maiale": {
+          "name": "Ground meat di pork",
+          "note": null
+        },
+        "d_aglio_tritati": {
+          "name": "D'garlic tritati",
+          "note": null
+        },
+        "zenzero_fresco_grattugiato": {
+          "name": "Ginger fresh grated",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "olio_di_sesamo_scuro": {
+          "name": "Sesame oil scuro",
+          "note": null
+        },
+        "pasta_di_peperoncino_tobandjan": {
+          "name": "Pasta di peperoncino tobandjan (opzionale)",
+          "note": null
+        },
+        "uovo_ajitsuke_tamago": {
+          "name": "Egg ajitsuke tamago (eggs marinate)",
+          "note": null
+        },
+        "germogli_di_soia_e_cipollotto_fresco": {
+          "name": "Bean sprouts e spring onion fresh",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare the broth or seasoning base first and keep the toppings organized, so every component is ready before the noodles are cooked.",
+        "step_2": "Cook the noodles separately until just tender, then drain very thoroughly; avoid leaving them in hot water because they will continue to soften.",
+        "step_3": "Finish the broth or sauce at a gentle simmer and combine the hot components only when their seasoning and texture are balanced.",
+        "step_4": "Assemble the noodles immediately, add the prepared toppings in distinct sections and serve while the broth, noodles and garnishes still contrast clearly."
+      }
+    },
+    "it": {
+      "title": "Kurogoma Ramen (Ramen al Brodo Denso di Sesamo Nero)",
+      "description": "Una versione pratica di Kurogoma Ramen (Ramen al Brodo Denso di Sesamo Nero), costruita su noodles cotti al punto giusto, brodo o salsa equilibrati e guarnizioni aggiunte all’ultimo per mantenere consistenze distinte.",
+      "animeContext": "Questa ricetta è ispirata tematicamente a Ramen Daisuki Koizumi-san, Food Wars!. Il collegamento resta dichiarato come ispirazione: non viene attribuita una comparsa precisa senza una verifica diretta.",
+      "ingredients": {
+        "tagliolini_freschi_per_ramen": {
+          "name": "tagliolini freschi per Ramen",
+          "note": null
+        },
+        "pasta_di_sesamo_nero": {
+          "name": "pasta di sesamo nero (Kurogoma Paste)",
+          "note": null
+        },
+        "sesamo_nero_tostato_pestato_al_mortaio": {
+          "name": "sesamo nero tostato pestato al mortaio",
+          "note": null
+        },
+        "brodo_di_pollo_ricco_o_dashi": {
+          "name": "brodo di pollo ricco o Dashi",
+          "note": null
+        },
+        "carne_macinata_di_maiale": {
+          "name": "carne macinata di maiale",
+          "note": null
+        },
+        "d_aglio_tritati": {
+          "name": "d'aglio tritati",
+          "note": null
+        },
+        "zenzero_fresco_grattugiato": {
+          "name": "zenzero fresco grattugiato",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "salsa di soia",
+          "note": null
+        },
+        "olio_di_sesamo_scuro": {
+          "name": "olio di sesamo scuro",
+          "note": null
+        },
+        "pasta_di_peperoncino_tobandjan": {
+          "name": "pasta di peperoncino TobanDjan (opzionale)",
+          "note": null
+        },
+        "uovo_ajitsuke_tamago": {
+          "name": "uovo Ajitsuke Tamago (uova marinate)",
+          "note": null
+        },
+        "germogli_di_soia_e_cipollotto_fresco": {
+          "name": "Germogli di soia e cipollotto fresco",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Per iniziare, in una padella porta a temperaturare l'olio di sesamo, soffriggere aglio e zenzero. Aggiungere la carne macinata di maiale e rosolare finché croccante. Insaporire con 1 cucchiaio di salsa di soia e TobanDjan.",
+        "step_2": "Prosegui così: in un mortaio o ciotola, emulsionare la pasta di sesamo nero con il sesamo tostato pestato, 1 cucchiaio di salsa di soia e un mestolo di brodo caldo fino ad ottenere una crema liscia.",
+        "step_3": "Nella fase successiva, porta a temperaturare il restate brodo di pollo e unire la base al sesamo nero amalgamando energicamente con una frusta per distribuire uniformemente il sesamo. Cuoci in acqua bollentere i noodles per ramen in abbondante acqua bollente non salata per 2 minuti, poi scolare accuratamente.",
+        "step_4": "Per completare, aggiungire il brodo nero e profumato nelle ciotole, adagiare i noodles al centro. Disporre sopra la carne di maiale rosolata, le uova marinate divise a metà, germogli di soia e abbondante cipollotto."
+      }
+    },
+    "es": {
+      "title": "Kurogoma Ramen",
+      "description": "Una versión práctica de Kurogoma Ramen para cocinar en casa, manteniendo los ingredientes característicos, la textura y la técnica del plato con una secuencia clara y repetible.",
+      "animeContext": "Esta receta está inspirada temáticamente en Ramen Daisuki Koizumi-san, Food Wars!. La relación se presenta solo como inspiración y no afirma una aparición concreta sin una verificación directa.",
+      "ingredients": {
+        "tagliolini_freschi_per_ramen": {
+          "name": "Tagliolini fresco per ramen",
+          "note": null
+        },
+        "pasta_di_sesamo_nero": {
+          "name": "Negro sesame paste (kurogoma paste)",
+          "note": null
+        },
+        "sesamo_nero_tostato_pestato_al_mortaio": {
+          "name": "Negro sesame tostato pestato al mortaio",
+          "note": null
+        },
+        "brodo_di_pollo_ricco_o_dashi": {
+          "name": "Pollo caldo ricco o dashi",
+          "note": null
+        },
+        "carne_macinata_di_maiale": {
+          "name": "Ground meat di cerdo",
+          "note": null
+        },
+        "d_aglio_tritati": {
+          "name": "D'ajo tritati",
+          "note": null
+        },
+        "zenzero_fresco_grattugiato": {
+          "name": "Jengibre fresco rallado",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "olio_di_sesamo_scuro": {
+          "name": "Sesame aceite scuro",
+          "note": null
+        },
+        "pasta_di_peperoncino_tobandjan": {
+          "name": "Pasta di peperoncino tobandjan (opzionale)",
+          "note": null
+        },
+        "uovo_ajitsuke_tamago": {
+          "name": "Huevo ajitsuke tamago (huevos marinate)",
+          "note": null
+        },
+        "germogli_di_soia_e_cipollotto_fresco": {
+          "name": "Brotes de soja e spring cebolla fresco",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepara todos los componentes de la receta antes de aplicar calor, manteniendo salsas y guarniciones separadas para poder trabajar con orden.",
+        "step_2": "Cocina el elemento principal con calor controlado hasta alcanzar la textura indicada, evitando prolongar la cocción más de lo necesario.",
+        "step_3": "Incorpora el caldo, la salsa o los componentes restantes por etapas y continúa solo hasta que los sabores queden bien integrados y la textura sea correcta.",
+        "step_4": "Monta el plato con las guarniciones preparadas y sirve inmediatamente, conservando hasta el último momento los elementos que deben quedar crujientes o frescos."
+      }
+    },
+    "fr": {
+      "title": "Kurogoma Ramen",
+      "description": "Une version pratique de Kurogoma Ramen à préparer à la maison, en conservant les ingrédients caractéristiques, la texture et la technique du plat dans une séquence claire.",
+      "animeContext": "Cette recette est inspirée thématiquement par Ramen Daisuki Koizumi-san, Food Wars!. Le lien reste une inspiration et ne revendique aucun épisode précis sans vérification directe.",
+      "ingredients": {
+        "tagliolini_freschi_per_ramen": {
+          "name": "Tagliolini frais per ramen",
+          "note": null
+        },
+        "pasta_di_sesamo_nero": {
+          "name": "Noir sesame paste (kurogoma paste)",
+          "note": null
+        },
+        "sesamo_nero_tostato_pestato_al_mortaio": {
+          "name": "Noir sesame tostato pestato al mortaio",
+          "note": null
+        },
+        "brodo_di_pollo_ricco_o_dashi": {
+          "name": "Poulet bouillon ricco o dashi",
+          "note": null
+        },
+        "carne_macinata_di_maiale": {
+          "name": "Ground meat di porc",
+          "note": null
+        },
+        "d_aglio_tritati": {
+          "name": "D'ail tritati",
+          "note": null
+        },
+        "zenzero_fresco_grattugiato": {
+          "name": "Gingembre frais râpé",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "olio_di_sesamo_scuro": {
+          "name": "Sesame huile scuro",
+          "note": null
+        },
+        "pasta_di_peperoncino_tobandjan": {
+          "name": "Pasta di peperoncino tobandjan (opzionale)",
+          "note": null
+        },
+        "uovo_ajitsuke_tamago": {
+          "name": "Œuf ajitsuke tamago (œufs marinate)",
+          "note": null
+        },
+        "germogli_di_soia_e_cipollotto_fresco": {
+          "name": "Germes de soja e spring oignon frais",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Préparez tous les éléments de la recette avant la cuisson et gardez sauces et garnitures séparées afin de travailler de façon ordonnée et précise.",
+        "step_2": "Cuisez l’élément principal à chaleur maîtrisée jusqu’à la texture recherchée, sans prolonger inutilement la cuisson au-delà du point souhaité.",
+        "step_3": "Ajoutez progressivement le bouillon, la sauce ou les autres composants et poursuivez seulement jusqu’à ce que les saveurs soient liées et la texture correcte.",
+        "step_4": "Dressez avec les garnitures préparées et servez sans attendre, en préservant jusqu’au dernier moment les éléments qui doivent rester croquants ou frais."
+      }
+    },
+    "de": {
+      "title": "Kurogoma Ramen",
+      "description": "Eine alltagstaugliche Version von Kurogoma Ramen für zu Hause, bei der typische Zutaten, Textur und Garmethode in einer klaren, wiederholbaren Reihenfolge erhalten bleiben.",
+      "animeContext": "Dieses Rezept ist thematisch von Ramen Daisuki Koizumi-san, Food Wars! inspiriert. Die Verbindung wird nur als Inspiration geführt; ohne direkten Beleg wird keine konkrete Episode behauptet.",
+      "ingredients": {
+        "tagliolini_freschi_per_ramen": {
+          "name": "Tagliolini frisch per ramen",
+          "note": null
+        },
+        "pasta_di_sesamo_nero": {
+          "name": "Schwarz sesame paste (kurogoma paste)",
+          "note": null
+        },
+        "sesamo_nero_tostato_pestato_al_mortaio": {
+          "name": "Schwarz sesame tostato pestato al mortaio",
+          "note": null
+        },
+        "brodo_di_pollo_ricco_o_dashi": {
+          "name": "Hähnchen Brühe ricco o dashi",
+          "note": null
+        },
+        "carne_macinata_di_maiale": {
+          "name": "Ground meat di Schweinefleisch",
+          "note": null
+        },
+        "d_aglio_tritati": {
+          "name": "D'Knoblauch tritati",
+          "note": null
+        },
+        "zenzero_fresco_grattugiato": {
+          "name": "Ingwer frisch gerieben",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "olio_di_sesamo_scuro": {
+          "name": "Sesame Öl scuro",
+          "note": null
+        },
+        "pasta_di_peperoncino_tobandjan": {
+          "name": "Pasta di peperoncino tobandjan (opzionale)",
+          "note": null
+        },
+        "uovo_ajitsuke_tamago": {
+          "name": "Ei ajitsuke tamago (Eier marinate)",
+          "note": null
+        },
+        "germogli_di_soia_e_cipollotto_fresco": {
+          "name": "Sojasprossen e spring Zwiebel frisch",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bereite alle Bestandteile vor dem Erhitzen vollständig vor und halte Saucen sowie Garnituren getrennt, damit die eigentliche Garphase zügig ablaufen kann.",
+        "step_2": "Gare die Hauptkomponente bei kontrollierter Hitze bis zur gewünschten Textur und vermeide unnötig langes Weitergaren über den richtigen Punkt hinaus.",
+        "step_3": "Gib Brühe, Sauce oder die restlichen Bestandteile schrittweise dazu und gare nur so lange weiter, bis Geschmack und Konsistenz ausgewogen sind.",
+        "step_4": "Richte das Gericht mit den vorbereiteten Garnituren an und serviere es sofort, damit knusprige oder frische Elemente ihre gewünschte Textur behalten."
+      }
+    },
+    "pt": {
+      "title": "Kurogoma Ramen",
+      "description": "Uma versão prática de Kurogoma Ramen para preparar em casa, preservando ingredientes característicos, textura e técnica do prato numa sequência clara e repetível.",
+      "animeContext": "Esta receita é tematicamente inspirada por Ramen Daisuki Koizumi-san, Food Wars!. A ligação é tratada apenas como inspiração, sem afirmar uma aparição específica sem verificação direta.",
+      "ingredients": {
+        "tagliolini_freschi_per_ramen": {
+          "name": "Tagliolini fresco per ramen",
+          "note": null
+        },
+        "pasta_di_sesamo_nero": {
+          "name": "Preto sesame paste (kurogoma paste)",
+          "note": null
+        },
+        "sesamo_nero_tostato_pestato_al_mortaio": {
+          "name": "Preto sesame tostato pestato al mortaio",
+          "note": null
+        },
+        "brodo_di_pollo_ricco_o_dashi": {
+          "name": "Frango caldo ricco o dashi",
+          "note": null
+        },
+        "carne_macinata_di_maiale": {
+          "name": "Ground meat di porco",
+          "note": null
+        },
+        "d_aglio_tritati": {
+          "name": "D'alho tritati",
+          "note": null
+        },
+        "zenzero_fresco_grattugiato": {
+          "name": "Gengibre fresco ralado",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Molho de soja",
+          "note": null
+        },
+        "olio_di_sesamo_scuro": {
+          "name": "Sesame óleo scuro",
+          "note": null
+        },
+        "pasta_di_peperoncino_tobandjan": {
+          "name": "Pasta di peperoncino tobandjan (opzionale)",
+          "note": null
+        },
+        "uovo_ajitsuke_tamago": {
+          "name": "Ovo ajitsuke tamago (ovos marinate)",
+          "note": null
+        },
+        "germogli_di_soia_e_cipollotto_fresco": {
+          "name": "Rebentos de soja e spring cebola fresco",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare todos os componentes antes de aplicar calor e mantenha molhos e guarnições separados, para que a fase de confeção decorra de forma rápida e organizada.",
+        "step_2": "Cozinhe o componente principal com calor controlado até atingir a textura pretendida, evitando prolongar a confeção para além do ponto correto.",
+        "step_3": "Junte o caldo, o molho ou os restantes componentes por etapas e prossiga apenas até os sabores ficarem integrados e a textura estar equilibrada.",
+        "step_4": "Monte o prato com as guarnições preparadas e sirva de imediato, preservando até ao fim os elementos que devem permanecer crocantes ou frescos."
+      }
+    }
+  }
+}

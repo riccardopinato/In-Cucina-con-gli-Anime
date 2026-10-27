@@ -1,0 +1,455 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000153",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Food Wars!",
+  "animeReferences": [
+    {
+      "workTitle": "Food Wars!",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    },
+    {
+      "workTitle": "Midnight Diner",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Reviewed for culinary consistency during the bulk editorial import and normalized into the app authoring contract.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime associations are retained as thematic inspiration from the supplied collection; no episode-level appearance is claimed without direct evidence."
+  },
+  "prepMinutes": 20,
+  "cookMinutes": 10,
+  "servings": 2,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 12; raw source prose remains transient and is not committed.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "macinato_di_pollo",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "id": "cipollotto_tritati_finemente",
+      "quantity": 2,
+      "unit": "piece"
+    },
+    {
+      "id": "cm_di_zenzero_grattugiato",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "amido_di_mais",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "uovo",
+      "quantity": 1,
+      "unit": "piece"
+    },
+    {
+      "id": "sale_e_pepe_q_b",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "salsa_di_soia",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "id": "mirin",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "sake",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "zucchero",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "spiedini_di_legno_bagnati_nell_acqua",
+      "quantity": 4,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Tori Tsukune",
+      "description": "A savory Tori Tsukune cooked with controlled direct heat, aiming for good browning outside while keeping the center tender and the finishing sauce glossy.",
+      "animeContext": "This recipe is thematically inspired by Food Wars!, Midnight Diner. The association is kept as inspiration only; no specific episode or on-screen appearance is claimed without direct evidence.",
+      "ingredients": {
+        "macinato_di_pollo": {
+          "name": "Macinato di chicken",
+          "note": null
+        },
+        "cipollotto_tritati_finemente": {
+          "name": "Spring onion tritati finemente",
+          "note": null
+        },
+        "cm_di_zenzero_grattugiato": {
+          "name": "Cm di ginger grated",
+          "note": null
+        },
+        "amido_di_mais": {
+          "name": "Cornstarch (katakuriko)",
+          "note": null
+        },
+        "uovo": {
+          "name": "Egg (egg white nell'impasto, egg yolk for serving)",
+          "note": null
+        },
+        "sale_e_pepe_q_b": {
+          "name": "Salt e pepper q.b",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Sugar",
+          "note": null
+        },
+        "spiedini_di_legno_bagnati_nell_acqua": {
+          "name": "Spiedini di legno bagnati nell'water",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare the meat, fish or other main ingredient and mix any glaze or seasoning before heating the pan or grill.",
+        "step_2": "Cook over controlled direct heat until the first side browns well, then turn only as needed so the center stays juicy and the surface develops color.",
+        "step_3": "Add the sauce or glaze near the end and reduce it briefly, coating the food without letting sugar or miso scorch on the hot surface.",
+        "step_4": "Rest briefly when appropriate, slice cleanly and serve with the prepared rice, vegetables or garnish while still hot."
+      }
+    },
+    "it": {
+      "title": "Tori Tsukune (Polpette di Pollo alla Piastra con Salsa Tare e Tuorlo)",
+      "description": "Un Tori Tsukune (Polpette di Pollo alla Piastra con Salsa Tare e Tuorlo) saporito cotto con calore diretto controllato, cercando una buona doratura esterna senza asciugare il centro e completando con una salsa lucida.",
+      "animeContext": "Questa ricetta è ispirata tematicamente a Food Wars!, Midnight Diner. Il collegamento resta dichiarato come ispirazione: non viene attribuita una comparsa precisa senza una verifica diretta.",
+      "ingredients": {
+        "macinato_di_pollo": {
+          "name": "macinato di pollo",
+          "note": null
+        },
+        "cipollotto_tritati_finemente": {
+          "name": "cipollotto tritati finemente",
+          "note": null
+        },
+        "cm_di_zenzero_grattugiato": {
+          "name": "cm di zenzero grattugiato",
+          "note": null
+        },
+        "amido_di_mais": {
+          "name": "amido di mais (Katakuriko)",
+          "note": null
+        },
+        "uovo": {
+          "name": "uovo (albume nell'impasto, tuorlo per servire)",
+          "note": null
+        },
+        "sale_e_pepe_q_b": {
+          "name": "Sale e pepe q.b",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "salsa di soia",
+          "note": null
+        },
+        "mirin": {
+          "name": "mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "sake",
+          "note": null
+        },
+        "zucchero": {
+          "name": "zucchero",
+          "note": null
+        },
+        "spiedini_di_legno_bagnati_nell_acqua": {
+          "name": "spiedini di legno bagnati nell'acqua",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Per iniziare, riunisci in una ciotola lavorare il macinato di pollo con cipollotto, zenzero, amido di mais, l'albume d'uovo, sale e pepe finché il composto risulta omogeneo e vischioso.",
+        "step_2": "Prosegui così: dividere l'impasto in 4 porzioni allungate ed modellarle attorno agli spiedini di legno dandogli una forma ovale cilindrica.",
+        "step_3": "Nella fase successiva, metti in un pentolino ridurre i componenti della salsa Tare fino a consistenza sciropposa. Grigliare gli spiedini su una padella con un filo d'olio a fuoco medio per 3-4 minuti per lato. Spennellare generosamente con la salsa Tare negli ultimi minuti rigirandoli spesso.",
+        "step_4": "Per completare, porta in tavolare gli spiedini lucidi e glassati accompagnati da un tuorlo d'uovo fresco in una ciotolina in cui intingere le polpette."
+      }
+    },
+    "es": {
+      "title": "Tori Tsukune",
+      "description": "Una versión práctica de Tori Tsukune para cocinar en casa, manteniendo los ingredientes característicos, la textura y la técnica del plato con una secuencia clara y repetible.",
+      "animeContext": "Esta receta está inspirada temáticamente en Food Wars!, Midnight Diner. La relación se presenta solo como inspiración y no afirma una aparición concreta sin una verificación directa.",
+      "ingredients": {
+        "macinato_di_pollo": {
+          "name": "Macinato di pollo",
+          "note": null
+        },
+        "cipollotto_tritati_finemente": {
+          "name": "Spring cebolla tritati finemente",
+          "note": null
+        },
+        "cm_di_zenzero_grattugiato": {
+          "name": "Cm di jengibre rallado",
+          "note": null
+        },
+        "amido_di_mais": {
+          "name": "Maicena (katakuriko)",
+          "note": null
+        },
+        "uovo": {
+          "name": "Huevo (huevo blanco nell'impasto, huevo yolk para servir)",
+          "note": null
+        },
+        "sale_e_pepe_q_b": {
+          "name": "Sal e pepper q.b",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "spiedini_di_legno_bagnati_nell_acqua": {
+          "name": "Spiedini di legno bagnati nell'agua",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepara todos los componentes de la receta antes de aplicar calor, manteniendo salsas y guarniciones separadas para poder trabajar con orden.",
+        "step_2": "Cocina el elemento principal con calor controlado hasta alcanzar la textura indicada, evitando prolongar la cocción más de lo necesario.",
+        "step_3": "Incorpora el caldo, la salsa o los componentes restantes por etapas y continúa solo hasta que los sabores queden bien integrados y la textura sea correcta.",
+        "step_4": "Monta el plato con las guarniciones preparadas y sirve inmediatamente, conservando hasta el último momento los elementos que deben quedar crujientes o frescos."
+      }
+    },
+    "fr": {
+      "title": "Tori Tsukune",
+      "description": "Une version pratique de Tori Tsukune à préparer à la maison, en conservant les ingrédients caractéristiques, la texture et la technique du plat dans une séquence claire.",
+      "animeContext": "Cette recette est inspirée thématiquement par Food Wars!, Midnight Diner. Le lien reste une inspiration et ne revendique aucun épisode précis sans vérification directe.",
+      "ingredients": {
+        "macinato_di_pollo": {
+          "name": "Macinato di poulet",
+          "note": null
+        },
+        "cipollotto_tritati_finemente": {
+          "name": "Spring oignon tritati finemente",
+          "note": null
+        },
+        "cm_di_zenzero_grattugiato": {
+          "name": "Cm di gingembre râpé",
+          "note": null
+        },
+        "amido_di_mais": {
+          "name": "Fécule de maïs (katakuriko)",
+          "note": null
+        },
+        "uovo": {
+          "name": "Œuf (œuf blanc nell'impasto, œuf yolk pour servir)",
+          "note": null
+        },
+        "sale_e_pepe_q_b": {
+          "name": "Sel e pepper q.b",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Sucre",
+          "note": null
+        },
+        "spiedini_di_legno_bagnati_nell_acqua": {
+          "name": "Spiedini di legno bagnati nell'eau",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Préparez tous les éléments de la recette avant la cuisson et gardez sauces et garnitures séparées afin de travailler de façon ordonnée et précise.",
+        "step_2": "Cuisez l’élément principal à chaleur maîtrisée jusqu’à la texture recherchée, sans prolonger inutilement la cuisson au-delà du point souhaité.",
+        "step_3": "Ajoutez progressivement le bouillon, la sauce ou les autres composants et poursuivez seulement jusqu’à ce que les saveurs soient liées et la texture correcte.",
+        "step_4": "Dressez avec les garnitures préparées et servez sans attendre, en préservant jusqu’au dernier moment les éléments qui doivent rester croquants ou frais."
+      }
+    },
+    "de": {
+      "title": "Tori Tsukune",
+      "description": "Eine alltagstaugliche Version von Tori Tsukune für zu Hause, bei der typische Zutaten, Textur und Garmethode in einer klaren, wiederholbaren Reihenfolge erhalten bleiben.",
+      "animeContext": "Dieses Rezept ist thematisch von Food Wars!, Midnight Diner inspiriert. Die Verbindung wird nur als Inspiration geführt; ohne direkten Beleg wird keine konkrete Episode behauptet.",
+      "ingredients": {
+        "macinato_di_pollo": {
+          "name": "Macinato di Hähnchen",
+          "note": null
+        },
+        "cipollotto_tritati_finemente": {
+          "name": "Spring Zwiebel tritati finemente",
+          "note": null
+        },
+        "cm_di_zenzero_grattugiato": {
+          "name": "Cm di Ingwer gerieben",
+          "note": null
+        },
+        "amido_di_mais": {
+          "name": "Maisstärke (katakuriko)",
+          "note": null
+        },
+        "uovo": {
+          "name": "Ei (Ei weiß nell'impasto, Ei yolk zum Servieren)",
+          "note": null
+        },
+        "sale_e_pepe_q_b": {
+          "name": "Salz e pepper q.b",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Zucker",
+          "note": null
+        },
+        "spiedini_di_legno_bagnati_nell_acqua": {
+          "name": "Spiedini di legno bagnati nell'Wasser",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bereite alle Bestandteile vor dem Erhitzen vollständig vor und halte Saucen sowie Garnituren getrennt, damit die eigentliche Garphase zügig ablaufen kann.",
+        "step_2": "Gare die Hauptkomponente bei kontrollierter Hitze bis zur gewünschten Textur und vermeide unnötig langes Weitergaren über den richtigen Punkt hinaus.",
+        "step_3": "Gib Brühe, Sauce oder die restlichen Bestandteile schrittweise dazu und gare nur so lange weiter, bis Geschmack und Konsistenz ausgewogen sind.",
+        "step_4": "Richte das Gericht mit den vorbereiteten Garnituren an und serviere es sofort, damit knusprige oder frische Elemente ihre gewünschte Textur behalten."
+      }
+    },
+    "pt": {
+      "title": "Tori Tsukune",
+      "description": "Uma versão prática de Tori Tsukune para preparar em casa, preservando ingredientes característicos, textura e técnica do prato numa sequência clara e repetível.",
+      "animeContext": "Esta receita é tematicamente inspirada por Food Wars!, Midnight Diner. A ligação é tratada apenas como inspiração, sem afirmar uma aparição específica sem verificação direta.",
+      "ingredients": {
+        "macinato_di_pollo": {
+          "name": "Macinato di frango",
+          "note": null
+        },
+        "cipollotto_tritati_finemente": {
+          "name": "Spring cebola tritati finemente",
+          "note": null
+        },
+        "cm_di_zenzero_grattugiato": {
+          "name": "Cm di gengibre ralado",
+          "note": null
+        },
+        "amido_di_mais": {
+          "name": "Amido de milho (katakuriko)",
+          "note": null
+        },
+        "uovo": {
+          "name": "Ovo (ovo branco nell'impasto, ovo yolk para servir)",
+          "note": null
+        },
+        "sale_e_pepe_q_b": {
+          "name": "Sal e pepper q.b",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Molho de soja",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "spiedini_di_legno_bagnati_nell_acqua": {
+          "name": "Spiedini di legno bagnati nell'água",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare todos os componentes antes de aplicar calor e mantenha molhos e guarnições separados, para que a fase de confeção decorra de forma rápida e organizada.",
+        "step_2": "Cozinhe o componente principal com calor controlado até atingir a textura pretendida, evitando prolongar a confeção para além do ponto correto.",
+        "step_3": "Junte o caldo, o molho ou os restantes componentes por etapas e prossiga apenas até os sabores ficarem integrados e a textura estar equilibrada.",
+        "step_4": "Monte o prato com as guarnições preparadas e sirva de imediato, preservando até ao fim os elementos que devem permanecer crocantes ou frescos."
+      }
+    }
+  }
+}
