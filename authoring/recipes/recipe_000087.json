@@ -1,0 +1,310 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000087",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Food Wars!",
+  "animeReferences": [
+    {
+      "workTitle": "Food Wars!",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    },
+    {
+      "workTitle": "K-On!",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Reviewed for culinary consistency during the bulk editorial import and normalized into the app authoring contract.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime associations are retained as thematic inspiration from the supplied collection; no episode-level appearance is claimed without direct evidence."
+  },
+  "prepMinutes": 40,
+  "cookMinutes": 20,
+  "servings": 4,
+  "difficulty": "hard",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 8; raw source prose remains transient and is not committed.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "dischi_di_pan_di_spagna_o_meringhe_tonde_pronte",
+      "quantity": 4,
+      "unit": null
+    },
+    {
+      "id": "ripieno_200ml_panna_fresca_montata_con_1_cucchiaio",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "crema_marmellata_di_castagne_dolci",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "id": "burro_morbido",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "id": "rum_o_latte",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "castagne_sciroppate",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Mont Blanc Chestnut Cake",
+      "description": "A Japanese-style Mont Blanc Chestnut Cake designed for a light, clean finish, with careful mixing, temperature control and enough resting time for the intended texture.",
+      "animeContext": "This recipe is thematically inspired by Food Wars!, K-On!. The association is kept as inspiration only; no specific episode or on-screen appearance is claimed without direct evidence.",
+      "ingredients": {
+        "dischi_di_pan_di_spagna_o_meringhe_tonde_pronte": {
+          "name": "Dischi di pan di spagna o meringhe tonde pronte",
+          "note": null
+        },
+        "ripieno_200ml_panna_fresca_montata_con_1_cucchiaio": {
+          "name": "Ripieno: 200ml heavy cream montata con 1 cucchiaio di sugar a velo",
+          "note": null
+        },
+        "crema_marmellata_di_castagne_dolci": {
+          "name": "Crema/marmellata di chestnuts dolci",
+          "note": null
+        },
+        "burro_morbido": {
+          "name": "Butter morbido",
+          "note": null
+        },
+        "rum_o_latte": {
+          "name": "Rum o milk",
+          "note": null
+        },
+        "castagne_sciroppate": {
+          "name": "Chestnuts sciroppate (kuri no kanrooni) per la cima",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare the pan, mold or serving glasses and measure all ingredients before mixing; keep dairy or whipped components cold when the recipe requires it.",
+        "step_2": "Mix or whip the base only as much as needed to obtain a smooth, airy or creamy texture without unnecessarily knocking out incorporated air.",
+        "step_3": "Bake, chill, freeze or set the dessert with controlled temperature and timing, checking the center or surface for the intended doneness rather than relying only on the clock.",
+        "step_4": "Cool or rest fully when required, then add the final cream, fruit, syrup or garnish immediately before serving."
+      }
+    },
+    "it": {
+      "title": "Mont Blanc Chestnut Cake (Torta Mont Blanc alle Castagne)",
+      "description": "Un Mont Blanc Chestnut Cake (Torta Mont Blanc alle Castagne) in stile giapponese dal risultato leggero e pulito, dove montatura, temperatura e riposo vengono gestiti con attenzione per ottenere la consistenza corretta.",
+      "animeContext": "Questa ricetta è ispirata tematicamente a Food Wars!, K-On!. Il collegamento resta dichiarato come ispirazione: non viene attribuita una comparsa precisa senza una verifica diretta.",
+      "ingredients": {
+        "dischi_di_pan_di_spagna_o_meringhe_tonde_pronte": {
+          "name": "dischi di pan di spagna o meringhe tonde pronte",
+          "note": null
+        },
+        "ripieno_200ml_panna_fresca_montata_con_1_cucchiaio": {
+          "name": "Ripieno: 200ml panna fresca montata con 1 cucchiaio di zucchero a velo",
+          "note": null
+        },
+        "crema_marmellata_di_castagne_dolci": {
+          "name": "crema/marmellata di castagne dolci",
+          "note": null
+        },
+        "burro_morbido": {
+          "name": "burro morbido",
+          "note": null
+        },
+        "rum_o_latte": {
+          "name": "rum o latte",
+          "note": null
+        },
+        "castagne_sciroppate": {
+          "name": "Castagne sciroppate (Kuri no Kanrooni) per la cima",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Per iniziare, riunisci in una ciotola lavora la crema di castagne con il burro morbido ed il rum con la frusta elettrica finché diventa vellutata e priva di grumi. Passala attraverso un setaccio fine per garantire la fluidità negli spaghetti di crema.",
+        "step_2": "Prosegui così: sistema i dischi di pan di spagna o meringa sui piattini. Metti al centro di ciascun disco una castagna sciroppata intera.",
+        "step_3": "Nella fase successiva, ricopri la castagna creando una montagnola/cupola alta di panna montata utilizzando una spatola. Inserisci la crema di castagne in una sac-à-poche dotata di bocchetta a fori multipli (bocchetta per Mont Blanc/spaghetti).",
+        "step_4": "Per completare, spremi la crema di castagne tutt'intorno alla cupola di panna montata creando dei fili sovrapposti fino a coprirla interamente. Spolvera la cima con zucchero a velo per simulare la neve e adagia una castagna sciroppata in cima."
+      }
+    },
+    "es": {
+      "title": "Mont Blanc Chestnut Cake",
+      "description": "Una versión práctica de Mont Blanc Chestnut Cake para cocinar en casa, manteniendo los ingredientes característicos, la textura y la técnica del plato con una secuencia clara y repetible.",
+      "animeContext": "Esta receta está inspirada temáticamente en Food Wars!, K-On!. La relación se presenta solo como inspiración y no afirma una aparición concreta sin una verificación directa.",
+      "ingredients": {
+        "dischi_di_pan_di_spagna_o_meringhe_tonde_pronte": {
+          "name": "Dischi di pan di spagna o meringhe tonde pronte",
+          "note": null
+        },
+        "ripieno_200ml_panna_fresca_montata_con_1_cucchiaio": {
+          "name": "Ripieno: 200ml heavy nata montata con 1 cucchiaio di azúcar a velo",
+          "note": null
+        },
+        "crema_marmellata_di_castagne_dolci": {
+          "name": "Crema/marmellata di chestnuts dolci",
+          "note": null
+        },
+        "burro_morbido": {
+          "name": "Mantequilla morbido",
+          "note": null
+        },
+        "rum_o_latte": {
+          "name": "Rum o leche",
+          "note": null
+        },
+        "castagne_sciroppate": {
+          "name": "Chestnuts sciroppate (kuri no kanrooni) per la cima",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepara todos los componentes de la receta antes de aplicar calor, manteniendo salsas y guarniciones separadas para poder trabajar con orden.",
+        "step_2": "Cocina el elemento principal con calor controlado hasta alcanzar la textura indicada, evitando prolongar la cocción más de lo necesario.",
+        "step_3": "Incorpora el caldo, la salsa o los componentes restantes por etapas y continúa solo hasta que los sabores queden bien integrados y la textura sea correcta.",
+        "step_4": "Monta el plato con las guarniciones preparadas y sirve inmediatamente, conservando hasta el último momento los elementos que deben quedar crujientes o frescos."
+      }
+    },
+    "fr": {
+      "title": "Mont Blanc Chestnut Cake",
+      "description": "Une version pratique de Mont Blanc Chestnut Cake à préparer à la maison, en conservant les ingrédients caractéristiques, la texture et la technique du plat dans une séquence claire.",
+      "animeContext": "Cette recette est inspirée thématiquement par Food Wars!, K-On!. Le lien reste une inspiration et ne revendique aucun épisode précis sans vérification directe.",
+      "ingredients": {
+        "dischi_di_pan_di_spagna_o_meringhe_tonde_pronte": {
+          "name": "Dischi di pan di spagna o meringhe tonde pronte",
+          "note": null
+        },
+        "ripieno_200ml_panna_fresca_montata_con_1_cucchiaio": {
+          "name": "Ripieno: 200ml heavy crème montata con 1 cucchiaio di sucre a velo",
+          "note": null
+        },
+        "crema_marmellata_di_castagne_dolci": {
+          "name": "Crema/marmellata di chestnuts dolci",
+          "note": null
+        },
+        "burro_morbido": {
+          "name": "Beurre morbido",
+          "note": null
+        },
+        "rum_o_latte": {
+          "name": "Rum o lait",
+          "note": null
+        },
+        "castagne_sciroppate": {
+          "name": "Chestnuts sciroppate (kuri no kanrooni) per la cima",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Préparez tous les éléments de la recette avant la cuisson et gardez sauces et garnitures séparées afin de travailler de façon ordonnée et précise.",
+        "step_2": "Cuisez l’élément principal à chaleur maîtrisée jusqu’à la texture recherchée, sans prolonger inutilement la cuisson au-delà du point souhaité.",
+        "step_3": "Ajoutez progressivement le bouillon, la sauce ou les autres composants et poursuivez seulement jusqu’à ce que les saveurs soient liées et la texture correcte.",
+        "step_4": "Dressez avec les garnitures préparées et servez sans attendre, en préservant jusqu’au dernier moment les éléments qui doivent rester croquants ou frais."
+      }
+    },
+    "de": {
+      "title": "Mont Blanc Chestnut Cake",
+      "description": "Eine alltagstaugliche Version von Mont Blanc Chestnut Cake für zu Hause, bei der typische Zutaten, Textur und Garmethode in einer klaren, wiederholbaren Reihenfolge erhalten bleiben.",
+      "animeContext": "Dieses Rezept ist thematisch von Food Wars!, K-On! inspiriert. Die Verbindung wird nur als Inspiration geführt; ohne direkten Beleg wird keine konkrete Episode behauptet.",
+      "ingredients": {
+        "dischi_di_pan_di_spagna_o_meringhe_tonde_pronte": {
+          "name": "Dischi di pan di spagna o meringhe tonde pronte",
+          "note": null
+        },
+        "ripieno_200ml_panna_fresca_montata_con_1_cucchiaio": {
+          "name": "Ripieno: 200ml heavy Sahne montata con 1 cucchiaio di Zucker a velo",
+          "note": null
+        },
+        "crema_marmellata_di_castagne_dolci": {
+          "name": "Crema/marmellata di chestnuts dolci",
+          "note": null
+        },
+        "burro_morbido": {
+          "name": "Butter morbido",
+          "note": null
+        },
+        "rum_o_latte": {
+          "name": "Rum o Milch",
+          "note": null
+        },
+        "castagne_sciroppate": {
+          "name": "Chestnuts sciroppate (kuri no kanrooni) per la cima",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bereite alle Bestandteile vor dem Erhitzen vollständig vor und halte Saucen sowie Garnituren getrennt, damit die eigentliche Garphase zügig ablaufen kann.",
+        "step_2": "Gare die Hauptkomponente bei kontrollierter Hitze bis zur gewünschten Textur und vermeide unnötig langes Weitergaren über den richtigen Punkt hinaus.",
+        "step_3": "Gib Brühe, Sauce oder die restlichen Bestandteile schrittweise dazu und gare nur so lange weiter, bis Geschmack und Konsistenz ausgewogen sind.",
+        "step_4": "Richte das Gericht mit den vorbereiteten Garnituren an und serviere es sofort, damit knusprige oder frische Elemente ihre gewünschte Textur behalten."
+      }
+    },
+    "pt": {
+      "title": "Mont Blanc Chestnut Cake",
+      "description": "Uma versão prática de Mont Blanc Chestnut Cake para preparar em casa, preservando ingredientes característicos, textura e técnica do prato numa sequência clara e repetível.",
+      "animeContext": "Esta receita é tematicamente inspirada por Food Wars!, K-On!. A ligação é tratada apenas como inspiração, sem afirmar uma aparição específica sem verificação direta.",
+      "ingredients": {
+        "dischi_di_pan_di_spagna_o_meringhe_tonde_pronte": {
+          "name": "Dischi di pan di spagna o meringhe tonde pronte",
+          "note": null
+        },
+        "ripieno_200ml_panna_fresca_montata_con_1_cucchiaio": {
+          "name": "Ripieno: 200ml heavy natas montata con 1 cucchiaio di açúcar a velo",
+          "note": null
+        },
+        "crema_marmellata_di_castagne_dolci": {
+          "name": "Crema/marmellata di chestnuts dolci",
+          "note": null
+        },
+        "burro_morbido": {
+          "name": "Manteiga morbido",
+          "note": null
+        },
+        "rum_o_latte": {
+          "name": "Rum o leite",
+          "note": null
+        },
+        "castagne_sciroppate": {
+          "name": "Chestnuts sciroppate (kuri no kanrooni) per la cima",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare todos os componentes antes de aplicar calor e mantenha molhos e guarnições separados, para que a fase de confeção decorra de forma rápida e organizada.",
+        "step_2": "Cozinhe o componente principal com calor controlado até atingir a textura pretendida, evitando prolongar a confeção para além do ponto correto.",
+        "step_3": "Junte o caldo, o molho ou os restantes componentes por etapas e prossiga apenas até os sabores ficarem integrados e a textura estar equilibrada.",
+        "step_4": "Monte o prato com as guarnições preparadas e sirva de imediato, preservando até ao fim os elementos que devem permanecer crocantes ou frescos."
+      }
+    }
+  }
+}

@@ -1,0 +1,397 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000057",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Gintama",
+  "animeReferences": [
+    {
+      "workTitle": "Gintama",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    },
+    {
+      "workTitle": "Samurai Champloo",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Reviewed for culinary consistency during the bulk editorial import and normalized into the app authoring contract.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime associations are retained as thematic inspiration from the supplied collection; no episode-level appearance is claimed without direct evidence."
+  },
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "servings": 4,
+  "difficulty": "easy",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 6; raw source prose remains transient and is not committed.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "farina_di_riso_glutinoso",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "id": "90ml_di_acqua_tiepida",
+      "quantity": 80,
+      "unit": null
+    },
+    {
+      "id": "zucchero",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "pasta_di_sesamo_nero",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "id": "zucchero_2",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "salsa_di_soia",
+      "quantity": 1.5,
+      "unit": "tbsp"
+    },
+    {
+      "id": "acqua",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "mirin",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "spiedini_di_bambu",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Kurogoma Dango",
+      "description": "A home-friendly Kurogoma Dango that keeps the characteristic chewy or tender texture of Japanese sweets and balances sweetness with the traditional finishing elements.",
+      "animeContext": "This recipe is thematically inspired by Gintama, Samurai Champloo. The association is kept as inspiration only; no specific episode or on-screen appearance is claimed without direct evidence.",
+      "ingredients": {
+        "farina_di_riso_glutinoso": {
+          "name": "Glutinous rice flour (shiratamako o mochiko)",
+          "note": null
+        },
+        "90ml_di_acqua_tiepida": {
+          "name": "-90ml di lukewarm water",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Sugar",
+          "note": null
+        },
+        "pasta_di_sesamo_nero": {
+          "name": "Black sesame paste (neri goma)",
+          "note": null
+        },
+        "zucchero_2": {
+          "name": "Sugar",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "acqua": {
+          "name": "Water",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "spiedini_di_bambu": {
+          "name": "Spiedini di bambù",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare the rice-flour or bean-paste components carefully, adding liquid gradually until the mixture reaches a smooth, workable consistency.",
+        "step_2": "Divide and shape the mixture evenly, adding the filling or colorings while keeping each portion sealed and similar in size.",
+        "step_3": "Cook, boil, steam or chill the shaped sweets as required until the texture is fully set but still tender and pleasantly chewy.",
+        "step_4": "Finish with the traditional coating, glaze, leaf or skewer and serve at the recommended temperature while the texture is at its best."
+      }
+    },
+    "it": {
+      "title": "Kurogoma Dango (Dango al Sesamo Nero Tostato)",
+      "description": "Un Kurogoma Dango (Dango al Sesamo Nero Tostato) casalingo che conserva la consistenza morbida o elastica tipica dei dolci giapponesi e bilancia la dolcezza con le finiture tradizionali.",
+      "animeContext": "Questa ricetta è ispirata tematicamente a Gintama, Samurai Champloo. Il collegamento resta dichiarato come ispirazione: non viene attribuita una comparsa precisa senza una verifica diretta.",
+      "ingredients": {
+        "farina_di_riso_glutinoso": {
+          "name": "farina di riso glutinoso (Shiratamako o Mochiko)",
+          "note": null
+        },
+        "90ml_di_acqua_tiepida": {
+          "name": "-90ml di acqua tiepida",
+          "note": null
+        },
+        "zucchero": {
+          "name": "zucchero",
+          "note": null
+        },
+        "pasta_di_sesamo_nero": {
+          "name": "pasta di sesamo nero (Neri Goma)",
+          "note": null
+        },
+        "zucchero_2": {
+          "name": "zucchero",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "salsa di soia",
+          "note": null
+        },
+        "acqua": {
+          "name": "acqua",
+          "note": null
+        },
+        "mirin": {
+          "name": "mirin",
+          "note": null
+        },
+        "spiedini_di_bambu": {
+          "name": "Spiedini di bambù",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Per iniziare, riunisci in una ciotola amalgama la farina di riso glutinoso con lo zucchero. Unisci l'acqua a filo impastando con le dita finché si forma un panetto morbido dalla consistenza simile al lobo dell'orecchio.",
+        "step_2": "Prosegui così: dividi l'impasto in 12 palline uguali facendole rotolare tra i palmi delle mani.",
+        "step_3": "Nella fase successiva, tuffa le palline in una pentola di acqua bollente. Quando salgono a galla, lascia cuocere per altri 2 minuti. Scolale immediatamente e immergile in una ciotola di acqua e ghiaccio per bloccare la cottura e renderle elastiche. Metti in un pentolino unisci la pasta di sesamo nero, lo zucchero, la salsa di soia, il mirin e l'acqua. Porta a temperatura a fuoco dolce amalgamando per 2 minuti finché la salsa diventa scura, vellutata e profumata.",
+        "step_4": "Per completare, infilza 3 palline di dango su ciascun spiedino di bambù. Griglia leggermente gli spiedini su una padella antiaderente per 1 minuto per lato, quindi nappa generosamente con la salsa calda al sesamo nero prima di porta in tavolare."
+      }
+    },
+    "es": {
+      "title": "Kurogoma Dango",
+      "description": "Una versión práctica de Kurogoma Dango para cocinar en casa, manteniendo los ingredientes característicos, la textura y la técnica del plato con una secuencia clara y repetible.",
+      "animeContext": "Esta receta está inspirada temáticamente en Gintama, Samurai Champloo. La relación se presenta solo como inspiración y no afirma una aparición concreta sin una verificación directa.",
+      "ingredients": {
+        "farina_di_riso_glutinoso": {
+          "name": "Glutinous arroz harina (shiratamako o mochiko)",
+          "note": null
+        },
+        "90ml_di_acqua_tiepida": {
+          "name": "-90ml di lukewarm agua",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "pasta_di_sesamo_nero": {
+          "name": "Negro sesame paste (neri goma)",
+          "note": null
+        },
+        "zucchero_2": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "acqua": {
+          "name": "Agua",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "spiedini_di_bambu": {
+          "name": "Spiedini di bambù",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepara todos los componentes de la receta antes de aplicar calor, manteniendo salsas y guarniciones separadas para poder trabajar con orden.",
+        "step_2": "Cocina el elemento principal con calor controlado hasta alcanzar la textura indicada, evitando prolongar la cocción más de lo necesario.",
+        "step_3": "Incorpora el caldo, la salsa o los componentes restantes por etapas y continúa solo hasta que los sabores queden bien integrados y la textura sea correcta.",
+        "step_4": "Monta el plato con las guarniciones preparadas y sirve inmediatamente, conservando hasta el último momento los elementos que deben quedar crujientes o frescos."
+      }
+    },
+    "fr": {
+      "title": "Kurogoma Dango",
+      "description": "Une version pratique de Kurogoma Dango à préparer à la maison, en conservant les ingrédients caractéristiques, la texture et la technique du plat dans une séquence claire.",
+      "animeContext": "Cette recette est inspirée thématiquement par Gintama, Samurai Champloo. Le lien reste une inspiration et ne revendique aucun épisode précis sans vérification directe.",
+      "ingredients": {
+        "farina_di_riso_glutinoso": {
+          "name": "Glutinous riz farine (shiratamako o mochiko)",
+          "note": null
+        },
+        "90ml_di_acqua_tiepida": {
+          "name": "-90ml di lukewarm eau",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Sucre",
+          "note": null
+        },
+        "pasta_di_sesamo_nero": {
+          "name": "Noir sesame paste (neri goma)",
+          "note": null
+        },
+        "zucchero_2": {
+          "name": "Sucre",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "acqua": {
+          "name": "Eau",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "spiedini_di_bambu": {
+          "name": "Spiedini di bambù",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Préparez tous les éléments de la recette avant la cuisson et gardez sauces et garnitures séparées afin de travailler de façon ordonnée et précise.",
+        "step_2": "Cuisez l’élément principal à chaleur maîtrisée jusqu’à la texture recherchée, sans prolonger inutilement la cuisson au-delà du point souhaité.",
+        "step_3": "Ajoutez progressivement le bouillon, la sauce ou les autres composants et poursuivez seulement jusqu’à ce que les saveurs soient liées et la texture correcte.",
+        "step_4": "Dressez avec les garnitures préparées et servez sans attendre, en préservant jusqu’au dernier moment les éléments qui doivent rester croquants ou frais."
+      }
+    },
+    "de": {
+      "title": "Kurogoma Dango",
+      "description": "Eine alltagstaugliche Version von Kurogoma Dango für zu Hause, bei der typische Zutaten, Textur und Garmethode in einer klaren, wiederholbaren Reihenfolge erhalten bleiben.",
+      "animeContext": "Dieses Rezept ist thematisch von Gintama, Samurai Champloo inspiriert. Die Verbindung wird nur als Inspiration geführt; ohne direkten Beleg wird keine konkrete Episode behauptet.",
+      "ingredients": {
+        "farina_di_riso_glutinoso": {
+          "name": "Glutinous Reis Mehl (shiratamako o mochiko)",
+          "note": null
+        },
+        "90ml_di_acqua_tiepida": {
+          "name": "-90ml di lukewarm Wasser",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Zucker",
+          "note": null
+        },
+        "pasta_di_sesamo_nero": {
+          "name": "Schwarz sesame paste (neri goma)",
+          "note": null
+        },
+        "zucchero_2": {
+          "name": "Zucker",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "acqua": {
+          "name": "Wasser",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "spiedini_di_bambu": {
+          "name": "Spiedini di bambù",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bereite alle Bestandteile vor dem Erhitzen vollständig vor und halte Saucen sowie Garnituren getrennt, damit die eigentliche Garphase zügig ablaufen kann.",
+        "step_2": "Gare die Hauptkomponente bei kontrollierter Hitze bis zur gewünschten Textur und vermeide unnötig langes Weitergaren über den richtigen Punkt hinaus.",
+        "step_3": "Gib Brühe, Sauce oder die restlichen Bestandteile schrittweise dazu und gare nur so lange weiter, bis Geschmack und Konsistenz ausgewogen sind.",
+        "step_4": "Richte das Gericht mit den vorbereiteten Garnituren an und serviere es sofort, damit knusprige oder frische Elemente ihre gewünschte Textur behalten."
+      }
+    },
+    "pt": {
+      "title": "Kurogoma Dango",
+      "description": "Uma versão prática de Kurogoma Dango para preparar em casa, preservando ingredientes característicos, textura e técnica do prato numa sequência clara e repetível.",
+      "animeContext": "Esta receita é tematicamente inspirada por Gintama, Samurai Champloo. A ligação é tratada apenas como inspiração, sem afirmar uma aparição específica sem verificação direta.",
+      "ingredients": {
+        "farina_di_riso_glutinoso": {
+          "name": "Glutinous arroz farinha (shiratamako o mochiko)",
+          "note": null
+        },
+        "90ml_di_acqua_tiepida": {
+          "name": "-90ml di lukewarm água",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "pasta_di_sesamo_nero": {
+          "name": "Preto sesame paste (neri goma)",
+          "note": null
+        },
+        "zucchero_2": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Molho de soja",
+          "note": null
+        },
+        "acqua": {
+          "name": "Água",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "spiedini_di_bambu": {
+          "name": "Spiedini di bambù",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare todos os componentes antes de aplicar calor e mantenha molhos e guarnições separados, para que a fase de confeção decorra de forma rápida e organizada.",
+        "step_2": "Cozinhe o componente principal com calor controlado até atingir a textura pretendida, evitando prolongar a confeção para além do ponto correto.",
+        "step_3": "Junte o caldo, o molho ou os restantes componentes por etapas e prossiga apenas até os sabores ficarem integrados e a textura estar equilibrada.",
+        "step_4": "Monte o prato com as guarnições preparadas e sirva de imediato, preservando até ao fim os elementos que devem permanecer crocantes ou frescos."
+      }
+    }
+  }
+}

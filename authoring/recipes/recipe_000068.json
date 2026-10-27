@@ -1,0 +1,455 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000068",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Doraemon",
+  "animeReferences": [
+    {
+      "workTitle": "Doraemon",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    },
+    {
+      "workTitle": "Kimi no Na wa (Your Name)",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Reviewed for culinary consistency during the bulk editorial import and normalized into the app authoring contract.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime associations are retained as thematic inspiration from the supplied collection; no episode-level appearance is claimed without direct evidence."
+  },
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "servings": 6,
+  "difficulty": "easy",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 7; raw source prose remains transient and is not committed.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "uovo_grandi",
+      "quantity": 2,
+      "unit": "piece"
+    },
+    {
+      "id": "zucchero",
+      "quantity": 80,
+      "unit": "g"
+    },
+    {
+      "id": "miele",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "farina_00",
+      "quantity": 120,
+      "unit": "g"
+    },
+    {
+      "id": "lievito_per_dolci",
+      "quantity": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "3_cucchiai_d_acqua",
+      "quantity": 2,
+      "unit": null
+    },
+    {
+      "id": "tuorli",
+      "quantity": 2,
+      "unit": null
+    },
+    {
+      "id": "zucchero_2",
+      "quantity": 40,
+      "unit": "g"
+    },
+    {
+      "id": "amido_di_mais",
+      "quantity": 15,
+      "unit": "g"
+    },
+    {
+      "id": "latte_intero",
+      "quantity": 200,
+      "unit": "ml"
+    },
+    {
+      "id": "estratto_di_vaniglia",
+      "quantity": 1,
+      "unit": "tsp"
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Dorayaki alla Crema Custard",
+      "description": "A home-friendly Dorayaki alla Crema Custard that keeps the characteristic chewy or tender texture of Japanese sweets and balances sweetness with the traditional finishing elements.",
+      "animeContext": "This recipe is thematically inspired by Doraemon, Kimi no Na wa (Your Name). The association is kept as inspiration only; no specific episode or on-screen appearance is claimed without direct evidence.",
+      "ingredients": {
+        "uovo_grandi": {
+          "name": "Egg grandi",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Sugar",
+          "note": null
+        },
+        "miele": {
+          "name": "Honey",
+          "note": null
+        },
+        "farina_00": {
+          "name": "All-purpose flour",
+          "note": null
+        },
+        "lievito_per_dolci": {
+          "name": "Baking powder",
+          "note": null
+        },
+        "3_cucchiai_d_acqua": {
+          "name": "-3 cucchiai d'water",
+          "note": null
+        },
+        "tuorli": {
+          "name": "Tuorli",
+          "note": null
+        },
+        "zucchero_2": {
+          "name": "Sugar",
+          "note": null
+        },
+        "amido_di_mais": {
+          "name": "Cornstarch",
+          "note": null
+        },
+        "latte_intero": {
+          "name": "Milk intero",
+          "note": null
+        },
+        "estratto_di_vaniglia": {
+          "name": "Estratto di vaniglia",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare the rice-flour or bean-paste components carefully, adding liquid gradually until the mixture reaches a smooth, workable consistency.",
+        "step_2": "Divide and shape the mixture evenly, adding the filling or colorings while keeping each portion sealed and similar in size.",
+        "step_3": "Cook, boil, steam or chill the shaped sweets as required until the texture is fully set but still tender and pleasantly chewy.",
+        "step_4": "Finish with the traditional coating, glaze, leaf or skewer and serve at the recommended temperature while the texture is at its best."
+      }
+    },
+    "it": {
+      "title": "Dorayaki alla Crema Custard (Variante alla Crema)",
+      "description": "Un Dorayaki alla Crema Custard (Variante alla Crema) casalingo che conserva la consistenza morbida o elastica tipica dei dolci giapponesi e bilancia la dolcezza con le finiture tradizionali.",
+      "animeContext": "Questa ricetta è ispirata tematicamente a Doraemon, Kimi no Na wa (Your Name). Il collegamento resta dichiarato come ispirazione: non viene attribuita una comparsa precisa senza una verifica diretta.",
+      "ingredients": {
+        "uovo_grandi": {
+          "name": "uovo grandi",
+          "note": null
+        },
+        "zucchero": {
+          "name": "zucchero",
+          "note": null
+        },
+        "miele": {
+          "name": "miele",
+          "note": null
+        },
+        "farina_00": {
+          "name": "farina 00",
+          "note": null
+        },
+        "lievito_per_dolci": {
+          "name": "lievito per dolci",
+          "note": null
+        },
+        "3_cucchiai_d_acqua": {
+          "name": "-3 cucchiai d'acqua",
+          "note": null
+        },
+        "tuorli": {
+          "name": "tuorli",
+          "note": null
+        },
+        "zucchero_2": {
+          "name": "zucchero",
+          "note": null
+        },
+        "amido_di_mais": {
+          "name": "amido di mais",
+          "note": null
+        },
+        "latte_intero": {
+          "name": "latte intero",
+          "note": null
+        },
+        "estratto_di_vaniglia": {
+          "name": "estratto di vaniglia",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Per iniziare, lavora i tuorli con lo zucchero e l'amido di mais. Porta a temperatura il latte con la vaniglia senza far bollire, poi aggiungilo a filo sui tuorli amalgamando. Rimetti sul fuoco e fai addensare a fuoco basso amalgamando sempre. Fai raffreddare coperto con pellicola a contatto.",
+        "step_2": "Prosegui così: lavora le uova con lo zucchero e il miele finché non diventano chiare. Sciogli il lievito nell'acqua ed uniscilo alle uova. Setaccia la farina ed incorporala delicatamente. Fai riposare l'impasto in frigo per 15 minuti.",
+        "step_3": "Nella fase successiva, porta a temperatura una padella antiaderente leggermente unta d'olio e pulita con carta assorbente. Aggiungi un mestolino d'impasto forma un disco da 8 cm. Quando compaiono le bolle in superficie, gira e lascia cuocere per altri 30 secondi.",
+        "step_4": "Per completare, fai raffreddare i dischi, metti una generosa cucchiaiata di crema custard al centro di un disco e chiudi a sandwich premendo delicatamente i bordi per sigillarlo."
+      }
+    },
+    "es": {
+      "title": "Dorayaki alla Crema Custard",
+      "description": "Una versión práctica de Dorayaki alla Crema Custard para cocinar en casa, manteniendo los ingredientes característicos, la textura y la técnica del plato con una secuencia clara y repetible.",
+      "animeContext": "Esta receta está inspirada temáticamente en Doraemon, Kimi no Na wa (Your Name). La relación se presenta solo como inspiración y no afirma una aparición concreta sin una verificación directa.",
+      "ingredients": {
+        "uovo_grandi": {
+          "name": "Huevo grandi",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "miele": {
+          "name": "Honey",
+          "note": null
+        },
+        "farina_00": {
+          "name": "All-purpose harina",
+          "note": null
+        },
+        "lievito_per_dolci": {
+          "name": "Baking powder",
+          "note": null
+        },
+        "3_cucchiai_d_acqua": {
+          "name": "-3 cucchiai d'agua",
+          "note": null
+        },
+        "tuorli": {
+          "name": "Tuorli",
+          "note": null
+        },
+        "zucchero_2": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "amido_di_mais": {
+          "name": "Maicena",
+          "note": null
+        },
+        "latte_intero": {
+          "name": "Leche intero",
+          "note": null
+        },
+        "estratto_di_vaniglia": {
+          "name": "Estratto di vaniglia",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepara todos los componentes de la receta antes de aplicar calor, manteniendo salsas y guarniciones separadas para poder trabajar con orden.",
+        "step_2": "Cocina el elemento principal con calor controlado hasta alcanzar la textura indicada, evitando prolongar la cocción más de lo necesario.",
+        "step_3": "Incorpora el caldo, la salsa o los componentes restantes por etapas y continúa solo hasta que los sabores queden bien integrados y la textura sea correcta.",
+        "step_4": "Monta el plato con las guarniciones preparadas y sirve inmediatamente, conservando hasta el último momento los elementos que deben quedar crujientes o frescos."
+      }
+    },
+    "fr": {
+      "title": "Dorayaki alla Crema Custard",
+      "description": "Une version pratique de Dorayaki alla Crema Custard à préparer à la maison, en conservant les ingrédients caractéristiques, la texture et la technique du plat dans une séquence claire.",
+      "animeContext": "Cette recette est inspirée thématiquement par Doraemon, Kimi no Na wa (Your Name). Le lien reste une inspiration et ne revendique aucun épisode précis sans vérification directe.",
+      "ingredients": {
+        "uovo_grandi": {
+          "name": "Œuf grandi",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Sucre",
+          "note": null
+        },
+        "miele": {
+          "name": "Honey",
+          "note": null
+        },
+        "farina_00": {
+          "name": "All-purpose farine",
+          "note": null
+        },
+        "lievito_per_dolci": {
+          "name": "Baking powder",
+          "note": null
+        },
+        "3_cucchiai_d_acqua": {
+          "name": "-3 cucchiai d'eau",
+          "note": null
+        },
+        "tuorli": {
+          "name": "Tuorli",
+          "note": null
+        },
+        "zucchero_2": {
+          "name": "Sucre",
+          "note": null
+        },
+        "amido_di_mais": {
+          "name": "Fécule de maïs",
+          "note": null
+        },
+        "latte_intero": {
+          "name": "Lait intero",
+          "note": null
+        },
+        "estratto_di_vaniglia": {
+          "name": "Estratto di vaniglia",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Préparez tous les éléments de la recette avant la cuisson et gardez sauces et garnitures séparées afin de travailler de façon ordonnée et précise.",
+        "step_2": "Cuisez l’élément principal à chaleur maîtrisée jusqu’à la texture recherchée, sans prolonger inutilement la cuisson au-delà du point souhaité.",
+        "step_3": "Ajoutez progressivement le bouillon, la sauce ou les autres composants et poursuivez seulement jusqu’à ce que les saveurs soient liées et la texture correcte.",
+        "step_4": "Dressez avec les garnitures préparées et servez sans attendre, en préservant jusqu’au dernier moment les éléments qui doivent rester croquants ou frais."
+      }
+    },
+    "de": {
+      "title": "Dorayaki alla Crema Custard",
+      "description": "Eine alltagstaugliche Version von Dorayaki alla Crema Custard für zu Hause, bei der typische Zutaten, Textur und Garmethode in einer klaren, wiederholbaren Reihenfolge erhalten bleiben.",
+      "animeContext": "Dieses Rezept ist thematisch von Doraemon, Kimi no Na wa (Your Name) inspiriert. Die Verbindung wird nur als Inspiration geführt; ohne direkten Beleg wird keine konkrete Episode behauptet.",
+      "ingredients": {
+        "uovo_grandi": {
+          "name": "Ei grandi",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Zucker",
+          "note": null
+        },
+        "miele": {
+          "name": "Honey",
+          "note": null
+        },
+        "farina_00": {
+          "name": "All-purpose Mehl",
+          "note": null
+        },
+        "lievito_per_dolci": {
+          "name": "Baking powder",
+          "note": null
+        },
+        "3_cucchiai_d_acqua": {
+          "name": "-3 cucchiai d'Wasser",
+          "note": null
+        },
+        "tuorli": {
+          "name": "Tuorli",
+          "note": null
+        },
+        "zucchero_2": {
+          "name": "Zucker",
+          "note": null
+        },
+        "amido_di_mais": {
+          "name": "Maisstärke",
+          "note": null
+        },
+        "latte_intero": {
+          "name": "Milch intero",
+          "note": null
+        },
+        "estratto_di_vaniglia": {
+          "name": "Estratto di vaniglia",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bereite alle Bestandteile vor dem Erhitzen vollständig vor und halte Saucen sowie Garnituren getrennt, damit die eigentliche Garphase zügig ablaufen kann.",
+        "step_2": "Gare die Hauptkomponente bei kontrollierter Hitze bis zur gewünschten Textur und vermeide unnötig langes Weitergaren über den richtigen Punkt hinaus.",
+        "step_3": "Gib Brühe, Sauce oder die restlichen Bestandteile schrittweise dazu und gare nur so lange weiter, bis Geschmack und Konsistenz ausgewogen sind.",
+        "step_4": "Richte das Gericht mit den vorbereiteten Garnituren an und serviere es sofort, damit knusprige oder frische Elemente ihre gewünschte Textur behalten."
+      }
+    },
+    "pt": {
+      "title": "Dorayaki alla Crema Custard",
+      "description": "Uma versão prática de Dorayaki alla Crema Custard para preparar em casa, preservando ingredientes característicos, textura e técnica do prato numa sequência clara e repetível.",
+      "animeContext": "Esta receita é tematicamente inspirada por Doraemon, Kimi no Na wa (Your Name). A ligação é tratada apenas como inspiração, sem afirmar uma aparição específica sem verificação direta.",
+      "ingredients": {
+        "uovo_grandi": {
+          "name": "Ovo grandi",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "miele": {
+          "name": "Honey",
+          "note": null
+        },
+        "farina_00": {
+          "name": "All-purpose farinha",
+          "note": null
+        },
+        "lievito_per_dolci": {
+          "name": "Baking powder",
+          "note": null
+        },
+        "3_cucchiai_d_acqua": {
+          "name": "-3 cucchiai d'água",
+          "note": null
+        },
+        "tuorli": {
+          "name": "Tuorli",
+          "note": null
+        },
+        "zucchero_2": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "amido_di_mais": {
+          "name": "Amido de milho",
+          "note": null
+        },
+        "latte_intero": {
+          "name": "Leite intero",
+          "note": null
+        },
+        "estratto_di_vaniglia": {
+          "name": "Estratto di vaniglia",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare todos os componentes antes de aplicar calor e mantenha molhos e guarnições separados, para que a fase de confeção decorra de forma rápida e organizada.",
+        "step_2": "Cozinhe o componente principal com calor controlado até atingir a textura pretendida, evitando prolongar a confeção para além do ponto correto.",
+        "step_3": "Junte o caldo, o molho ou os restantes componentes por etapas e prossiga apenas até os sabores ficarem integrados e a textura estar equilibrada.",
+        "step_4": "Monte o prato com as guarnições preparadas e sirva de imediato, preservando até ao fim os elementos que devem permanecer crocantes ou frescos."
+      }
+    }
+  }
+}

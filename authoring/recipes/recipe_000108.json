@@ -1,0 +1,368 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000108",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Food Wars! (Shokugeki no Soma)",
+  "animeReferences": [
+    {
+      "workTitle": "Food Wars! (Shokugeki no Soma)",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    },
+    {
+      "workTitle": "Ramen Daisuki Koizumi-san",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Reviewed for culinary consistency during the bulk editorial import and normalized into the app authoring contract.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime associations are retained as thematic inspiration from the supplied collection; no episode-level appearance is claimed without direct evidence."
+  },
+  "prepMinutes": 40,
+  "cookMinutes": 80,
+  "servings": 2,
+  "difficulty": "hard",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 10; raw source prose remains transient and is not committed.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "tagliolini_fresh_ramen",
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "id": "ossa_di_maiale",
+      "quantity": 1,
+      "unit": "kg"
+    },
+    {
+      "id": "chashu",
+      "quantity": 4,
+      "unit": "slice"
+    },
+    {
+      "id": "uovo_ajitsuke_tamago",
+      "quantity": 2,
+      "unit": "piece"
+    },
+    {
+      "id": "tara_al_miso_soia",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "olio_mayu",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "germogli_di_soia",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "cipollotto_e_alga_nori",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Tonkotsu Ramen",
+      "description": "A practical bowl of Tonkotsu Ramen, built around well-cooked noodles, a balanced broth or sauce and toppings added at the right moment so texture stays distinct.",
+      "animeContext": "This recipe is thematically inspired by Food Wars! (Shokugeki no Soma), Ramen Daisuki Koizumi-san. The association is kept as inspiration only; no specific episode or on-screen appearance is claimed without direct evidence.",
+      "ingredients": {
+        "tagliolini_fresh_ramen": {
+          "name": "Tagliolini fresh ramen",
+          "note": null
+        },
+        "ossa_di_maiale": {
+          "name": "Ossa di pork (o broth concentrato di pork)",
+          "note": null
+        },
+        "chashu": {
+          "name": "Chashu (pancia di pork brasata)",
+          "note": null
+        },
+        "uovo_ajitsuke_tamago": {
+          "name": "Egg ajitsuke tamago (eggs marinate)",
+          "note": null
+        },
+        "tara_al_miso_soia": {
+          "name": "Tara al miso/soia",
+          "note": null
+        },
+        "olio_mayu": {
+          "name": "Oil mayu (oil all'garlic black tostati)",
+          "note": null
+        },
+        "germogli_di_soia": {
+          "name": "Bean sprouts",
+          "note": null
+        },
+        "cipollotto_e_alga_nori": {
+          "name": "Spring onion e nori",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare the broth or seasoning base first and keep the toppings organized, so every component is ready before the noodles are cooked.",
+        "step_2": "Cook the noodles separately until just tender, then drain very thoroughly; avoid leaving them in hot water because they will continue to soften.",
+        "step_3": "Finish the broth or sauce at a gentle simmer and combine the hot components only when their seasoning and texture are balanced.",
+        "step_4": "Assemble the noodles immediately, add the prepared toppings in distinct sections and serve while the broth, noodles and garnishes still contrast clearly."
+      }
+    },
+    "it": {
+      "title": "Tonkotsu Ramen (Ramen in Brodo Denso di Maiale)",
+      "description": "Una versione pratica di Tonkotsu Ramen (Ramen in Brodo Denso di Maiale), costruita su noodles cotti al punto giusto, brodo o salsa equilibrati e guarnizioni aggiunte all’ultimo per mantenere consistenze distinte.",
+      "animeContext": "Questa ricetta è ispirata tematicamente a Food Wars! (Shokugeki no Soma), Ramen Daisuki Koizumi-san. Il collegamento resta dichiarato come ispirazione: non viene attribuita una comparsa precisa senza una verifica diretta.",
+      "ingredients": {
+        "tagliolini_fresh_ramen": {
+          "name": "tagliolini fresh ramen",
+          "note": null
+        },
+        "ossa_di_maiale": {
+          "name": "ossa di maiale (o brodo concentrato di maiale)",
+          "note": null
+        },
+        "chashu": {
+          "name": "Chashu (pancia di maiale brasata)",
+          "note": null
+        },
+        "uovo_ajitsuke_tamago": {
+          "name": "uovo Ajitsuke Tamago (uova marinate)",
+          "note": null
+        },
+        "tara_al_miso_soia": {
+          "name": "tara al miso/soia",
+          "note": null
+        },
+        "olio_mayu": {
+          "name": "Olio Mayu (olio all'aglio nero tostati)",
+          "note": null
+        },
+        "germogli_di_soia": {
+          "name": "Germogli di soia",
+          "note": null
+        },
+        "cipollotto_e_alga_nori": {
+          "name": "cipollotto e alga nori",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Per iniziare, fa bollire a lungo le ossa di maiale per estrarre il collagene fino ad ottenere un brodo denso e lattiginoso.",
+        "step_2": "Prosegui così: aggiungi il tara sul fondo di ogni ciotola, unisci il brodo Tonkotsu bollente e amalgama.",
+        "step_3": "Nella fase successiva, lascia cuocere i noodles per 1-2 minuti, scolali bene e adagiali nel brodo.",
+        "step_4": "Per completare, guarnisci con fette di Chashu, uovo tagliato a metà, cipollotto fresco, germogli di soia e un filo di olio Mayu."
+      }
+    },
+    "es": {
+      "title": "Tonkotsu Ramen",
+      "description": "Una versión práctica de Tonkotsu Ramen para cocinar en casa, manteniendo los ingredientes característicos, la textura y la técnica del plato con una secuencia clara y repetible.",
+      "animeContext": "Esta receta está inspirada temáticamente en Food Wars! (Shokugeki no Soma), Ramen Daisuki Koizumi-san. La relación se presenta solo como inspiración y no afirma una aparición concreta sin una verificación directa.",
+      "ingredients": {
+        "tagliolini_fresh_ramen": {
+          "name": "Tagliolini fresco ramen",
+          "note": null
+        },
+        "ossa_di_maiale": {
+          "name": "Ossa di cerdo (o caldo concentrato di cerdo)",
+          "note": null
+        },
+        "chashu": {
+          "name": "Chashu (pancia di cerdo brasata)",
+          "note": null
+        },
+        "uovo_ajitsuke_tamago": {
+          "name": "Huevo ajitsuke tamago (huevos marinate)",
+          "note": null
+        },
+        "tara_al_miso_soia": {
+          "name": "Tara al miso/soia",
+          "note": null
+        },
+        "olio_mayu": {
+          "name": "Aceite mayu (aceite all'ajo negro tostati)",
+          "note": null
+        },
+        "germogli_di_soia": {
+          "name": "Brotes de soja",
+          "note": null
+        },
+        "cipollotto_e_alga_nori": {
+          "name": "Spring cebolla e nori",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepara todos los componentes de la receta antes de aplicar calor, manteniendo salsas y guarniciones separadas para poder trabajar con orden.",
+        "step_2": "Cocina el elemento principal con calor controlado hasta alcanzar la textura indicada, evitando prolongar la cocción más de lo necesario.",
+        "step_3": "Incorpora el caldo, la salsa o los componentes restantes por etapas y continúa solo hasta que los sabores queden bien integrados y la textura sea correcta.",
+        "step_4": "Monta el plato con las guarniciones preparadas y sirve inmediatamente, conservando hasta el último momento los elementos que deben quedar crujientes o frescos."
+      }
+    },
+    "fr": {
+      "title": "Tonkotsu Ramen",
+      "description": "Une version pratique de Tonkotsu Ramen à préparer à la maison, en conservant les ingrédients caractéristiques, la texture et la technique du plat dans une séquence claire.",
+      "animeContext": "Cette recette est inspirée thématiquement par Food Wars! (Shokugeki no Soma), Ramen Daisuki Koizumi-san. Le lien reste une inspiration et ne revendique aucun épisode précis sans vérification directe.",
+      "ingredients": {
+        "tagliolini_fresh_ramen": {
+          "name": "Tagliolini frais ramen",
+          "note": null
+        },
+        "ossa_di_maiale": {
+          "name": "Ossa di porc (o bouillon concentrato di porc)",
+          "note": null
+        },
+        "chashu": {
+          "name": "Chashu (pancia di porc brasata)",
+          "note": null
+        },
+        "uovo_ajitsuke_tamago": {
+          "name": "Œuf ajitsuke tamago (œufs marinate)",
+          "note": null
+        },
+        "tara_al_miso_soia": {
+          "name": "Tara al miso/soia",
+          "note": null
+        },
+        "olio_mayu": {
+          "name": "Huile mayu (huile all'ail noir tostati)",
+          "note": null
+        },
+        "germogli_di_soia": {
+          "name": "Germes de soja",
+          "note": null
+        },
+        "cipollotto_e_alga_nori": {
+          "name": "Spring oignon e nori",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Préparez tous les éléments de la recette avant la cuisson et gardez sauces et garnitures séparées afin de travailler de façon ordonnée et précise.",
+        "step_2": "Cuisez l’élément principal à chaleur maîtrisée jusqu’à la texture recherchée, sans prolonger inutilement la cuisson au-delà du point souhaité.",
+        "step_3": "Ajoutez progressivement le bouillon, la sauce ou les autres composants et poursuivez seulement jusqu’à ce que les saveurs soient liées et la texture correcte.",
+        "step_4": "Dressez avec les garnitures préparées et servez sans attendre, en préservant jusqu’au dernier moment les éléments qui doivent rester croquants ou frais."
+      }
+    },
+    "de": {
+      "title": "Tonkotsu Ramen",
+      "description": "Eine alltagstaugliche Version von Tonkotsu Ramen für zu Hause, bei der typische Zutaten, Textur und Garmethode in einer klaren, wiederholbaren Reihenfolge erhalten bleiben.",
+      "animeContext": "Dieses Rezept ist thematisch von Food Wars! (Shokugeki no Soma), Ramen Daisuki Koizumi-san inspiriert. Die Verbindung wird nur als Inspiration geführt; ohne direkten Beleg wird keine konkrete Episode behauptet.",
+      "ingredients": {
+        "tagliolini_fresh_ramen": {
+          "name": "Tagliolini frisch ramen",
+          "note": null
+        },
+        "ossa_di_maiale": {
+          "name": "Ossa di Schweinefleisch (o Brühe concentrato di Schweinefleisch)",
+          "note": null
+        },
+        "chashu": {
+          "name": "Chashu (pancia di Schweinefleisch brasata)",
+          "note": null
+        },
+        "uovo_ajitsuke_tamago": {
+          "name": "Ei ajitsuke tamago (Eier marinate)",
+          "note": null
+        },
+        "tara_al_miso_soia": {
+          "name": "Tara al miso/soia",
+          "note": null
+        },
+        "olio_mayu": {
+          "name": "Öl mayu (Öl all'Knoblauch schwarz tostati)",
+          "note": null
+        },
+        "germogli_di_soia": {
+          "name": "Sojasprossen",
+          "note": null
+        },
+        "cipollotto_e_alga_nori": {
+          "name": "Spring Zwiebel e nori",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bereite alle Bestandteile vor dem Erhitzen vollständig vor und halte Saucen sowie Garnituren getrennt, damit die eigentliche Garphase zügig ablaufen kann.",
+        "step_2": "Gare die Hauptkomponente bei kontrollierter Hitze bis zur gewünschten Textur und vermeide unnötig langes Weitergaren über den richtigen Punkt hinaus.",
+        "step_3": "Gib Brühe, Sauce oder die restlichen Bestandteile schrittweise dazu und gare nur so lange weiter, bis Geschmack und Konsistenz ausgewogen sind.",
+        "step_4": "Richte das Gericht mit den vorbereiteten Garnituren an und serviere es sofort, damit knusprige oder frische Elemente ihre gewünschte Textur behalten."
+      }
+    },
+    "pt": {
+      "title": "Tonkotsu Ramen",
+      "description": "Uma versão prática de Tonkotsu Ramen para preparar em casa, preservando ingredientes característicos, textura e técnica do prato numa sequência clara e repetível.",
+      "animeContext": "Esta receita é tematicamente inspirada por Food Wars! (Shokugeki no Soma), Ramen Daisuki Koizumi-san. A ligação é tratada apenas como inspiração, sem afirmar uma aparição específica sem verificação direta.",
+      "ingredients": {
+        "tagliolini_fresh_ramen": {
+          "name": "Tagliolini fresco ramen",
+          "note": null
+        },
+        "ossa_di_maiale": {
+          "name": "Ossa di porco (o caldo concentrato di porco)",
+          "note": null
+        },
+        "chashu": {
+          "name": "Chashu (pancia di porco brasata)",
+          "note": null
+        },
+        "uovo_ajitsuke_tamago": {
+          "name": "Ovo ajitsuke tamago (ovos marinate)",
+          "note": null
+        },
+        "tara_al_miso_soia": {
+          "name": "Tara al miso/soia",
+          "note": null
+        },
+        "olio_mayu": {
+          "name": "Óleo mayu (óleo all'alho preto tostati)",
+          "note": null
+        },
+        "germogli_di_soia": {
+          "name": "Rebentos de soja",
+          "note": null
+        },
+        "cipollotto_e_alga_nori": {
+          "name": "Spring cebola e nori",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare todos os componentes antes de aplicar calor e mantenha molhos e guarnições separados, para que a fase de confeção decorra de forma rápida e organizada.",
+        "step_2": "Cozinhe o componente principal com calor controlado até atingir a textura pretendida, evitando prolongar a confeção para além do ponto correto.",
+        "step_3": "Junte o caldo, o molho ou os restantes componentes por etapas e prossiga apenas até os sabores ficarem integrados e a textura estar equilibrada.",
+        "step_4": "Monte o prato com as guarnições preparadas e sirva de imediato, preservando até ao fim os elementos que devem permanecer crocantes ou frescos."
+      }
+    }
+  }
+}

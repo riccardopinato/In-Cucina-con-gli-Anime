@@ -1,0 +1,484 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000063",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Dragon Ball",
+  "animeReferences": [
+    {
+      "workTitle": "Dragon Ball",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    },
+    {
+      "workTitle": "Food Wars! - Shokugeki no Soma",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Reviewed for culinary consistency during the bulk editorial import and normalized into the app authoring contract.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime associations are retained as thematic inspiration from the supplied collection; no episode-level appearance is claimed without direct evidence."
+  },
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "servings": 2,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 7; raw source prose remains transient and is not committed.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "riso_bianco_giapponese_cotto_a_vapore",
+      "quantity": 2,
+      "unit": "portion"
+    },
+    {
+      "id": "uovo_grandi_fresche",
+      "quantity": 4,
+      "unit": "piece"
+    },
+    {
+      "id": "polpa_di_granchio_o_surimi_sfilacciato",
+      "quantity": 80,
+      "unit": "g"
+    },
+    {
+      "id": "cipollotto_freschi_affettati_finemente",
+      "quantity": 2,
+      "unit": "piece"
+    },
+    {
+      "id": "olio_di_sesamo",
+      "quantity": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "sale_e_pepe_q_b",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "brodo_di_pollo",
+      "quantity": 200,
+      "unit": "ml"
+    },
+    {
+      "id": "salsa_di_soia",
+      "quantity": 1.5,
+      "unit": "tbsp"
+    },
+    {
+      "id": "zucchero",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "aceto_di_riso",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "salsa_d_ostrica",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "amido_di_mais_sciolto_in_2_cucchiai_d_acqua",
+      "quantity": 1,
+      "unit": "tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Tenshinhan",
+      "description": "A soft, delicate Tenshinhan in which the eggs are cooked only as far as needed, preserving a tender texture and a clean balance with the accompanying sauce or rice.",
+      "animeContext": "This recipe is thematically inspired by Dragon Ball, Food Wars! - Shokugeki no Soma. The association is kept as inspiration only; no specific episode or on-screen appearance is claimed without direct evidence.",
+      "ingredients": {
+        "riso_bianco_giapponese_cotto_a_vapore": {
+          "name": "White rice giapponese cotto a vapore (gohan)",
+          "note": null
+        },
+        "uovo_grandi_fresche": {
+          "name": "Egg grandi fresh",
+          "note": null
+        },
+        "polpa_di_granchio_o_surimi_sfilacciato": {
+          "name": "Polpa di crab o surimi sfilacciato",
+          "note": null
+        },
+        "cipollotto_freschi_affettati_finemente": {
+          "name": "Spring onion fresh affettati finemente",
+          "note": null
+        },
+        "olio_di_sesamo": {
+          "name": "Sesame oil",
+          "note": null
+        },
+        "sale_e_pepe_q_b": {
+          "name": "Salt e pepper q.b",
+          "note": null
+        },
+        "brodo_di_pollo": {
+          "name": "Chicken broth",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Soy sauce",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Sugar",
+          "note": null
+        },
+        "aceto_di_riso": {
+          "name": "Rice vinegar",
+          "note": null
+        },
+        "salsa_d_ostrica": {
+          "name": "Sauce d'ostrica",
+          "note": null
+        },
+        "amido_di_mais_sciolto_in_2_cucchiai_d_acqua": {
+          "name": "Cornstarch sciolto in 2 cucchiai d'water",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare the egg mixture and accompanying sauce or rice before heating the pan, mixing gently so the eggs do not become excessively foamy.",
+        "step_2": "Cook over moderate heat and move or roll the eggs only until they are softly set, keeping the center tender rather than dry.",
+        "step_3": "Transfer or shape the egg component while still flexible and combine it with the prepared rice, filling or sauce without overcooking it.",
+        "step_4": "Finish with the remaining sauce and garnish, then serve immediately because residual heat continues to firm the eggs."
+      }
+    },
+    "it": {
+      "title": "Tenshinhan (Omelette di Granchio su Riso con Salsa Agrodolce)",
+      "description": "Un Tenshinhan (Omelette di Granchio su Riso con Salsa Agrodolce) morbido e delicato, in cui l’uovo viene cotto solo quanto basta per restare tenero e integrarsi con salsa, riso o guarnizioni senza asciugarsi.",
+      "animeContext": "Questa ricetta è ispirata tematicamente a Dragon Ball, Food Wars! - Shokugeki no Soma. Il collegamento resta dichiarato come ispirazione: non viene attribuita una comparsa precisa senza una verifica diretta.",
+      "ingredients": {
+        "riso_bianco_giapponese_cotto_a_vapore": {
+          "name": "riso bianco Giapponese cotto a vapore (Gohan)",
+          "note": null
+        },
+        "uovo_grandi_fresche": {
+          "name": "uovo grandi fresche",
+          "note": null
+        },
+        "polpa_di_granchio_o_surimi_sfilacciato": {
+          "name": "polpa di granchio o Surimi sfilacciato",
+          "note": null
+        },
+        "cipollotto_freschi_affettati_finemente": {
+          "name": "cipollotto freschi affettati finemente",
+          "note": null
+        },
+        "olio_di_sesamo": {
+          "name": "olio di sesamo",
+          "note": null
+        },
+        "sale_e_pepe_q_b": {
+          "name": "sale e pepe q.b",
+          "note": null
+        },
+        "brodo_di_pollo": {
+          "name": "brodo di pollo",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "salsa di soia",
+          "note": null
+        },
+        "zucchero": {
+          "name": "zucchero",
+          "note": null
+        },
+        "aceto_di_riso": {
+          "name": "aceto di riso",
+          "note": null
+        },
+        "salsa_d_ostrica": {
+          "name": "salsa d'ostrica",
+          "note": null
+        },
+        "amido_di_mais_sciolto_in_2_cucchiai_d_acqua": {
+          "name": "amido di mais sciolto in 2 cucchiai d'acqua",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Per iniziare, metti in un pentolino unisci il brodo di pollo, la salsa di soia, lo zucchero, l'aceto di riso e la salsa d'ostrica. Porta a leggera ebollizione a fuoco medio, poi aggiungi a filo l'amido di mais sciolto amalgamando continuamente fino a ottenere una salsa lucida, addensata e vellutata. Mantieni al caldo.",
+        "step_2": "Prosegui così: riunisci in una ciotola lavora leggermente le 4 uova con un pizzico di sale, pepe, l'olio di sesamo, la polpa di granchio sfilacciata e metà dei cipollotti.",
+        "step_3": "Nella fase successiva, porta a temperatura un filo d'olio abbondante in una padella antiaderente a fuoco vivo. Aggiungi metà della miscela di uova per ciascuna porzione. Prosegui la cottura per 1 minuto muovendo la padella in modo che la base si rapprenda ma la parte superiore rimanga incredibilmente cremosa e morbida. Poggia l'omelette dorata sopra una montagna di riso caldo disposta al centro di un piatto fondo.",
+        "step_4": "Per completare, nappa abbondantemente l'omelette con la salsa agrodolce Ankake ben calda e guarnisci con i cipollotti rimanenti."
+      }
+    },
+    "es": {
+      "title": "Tenshinhan",
+      "description": "Una versión práctica de Tenshinhan para cocinar en casa, manteniendo los ingredientes característicos, la textura y la técnica del plato con una secuencia clara y repetible.",
+      "animeContext": "Esta receta está inspirada temáticamente en Dragon Ball, Food Wars! - Shokugeki no Soma. La relación se presenta solo como inspiración y no afirma una aparición concreta sin una verificación directa.",
+      "ingredients": {
+        "riso_bianco_giapponese_cotto_a_vapore": {
+          "name": "Blanco arroz giapponese cotto a vapore (gohan)",
+          "note": null
+        },
+        "uovo_grandi_fresche": {
+          "name": "Huevo grandi fresco",
+          "note": null
+        },
+        "polpa_di_granchio_o_surimi_sfilacciato": {
+          "name": "Polpa di cangrejo o surimi sfilacciato",
+          "note": null
+        },
+        "cipollotto_freschi_affettati_finemente": {
+          "name": "Spring cebolla fresco affettati finemente",
+          "note": null
+        },
+        "olio_di_sesamo": {
+          "name": "Sesame aceite",
+          "note": null
+        },
+        "sale_e_pepe_q_b": {
+          "name": "Sal e pepper q.b",
+          "note": null
+        },
+        "brodo_di_pollo": {
+          "name": "Pollo caldo",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Salsa de soja",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "aceto_di_riso": {
+          "name": "Vinagre de arroz",
+          "note": null
+        },
+        "salsa_d_ostrica": {
+          "name": "Salsa d'ostrica",
+          "note": null
+        },
+        "amido_di_mais_sciolto_in_2_cucchiai_d_acqua": {
+          "name": "Maicena sciolto in 2 cucchiai d'agua",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepara todos los componentes de la receta antes de aplicar calor, manteniendo salsas y guarniciones separadas para poder trabajar con orden.",
+        "step_2": "Cocina el elemento principal con calor controlado hasta alcanzar la textura indicada, evitando prolongar la cocción más de lo necesario.",
+        "step_3": "Incorpora el caldo, la salsa o los componentes restantes por etapas y continúa solo hasta que los sabores queden bien integrados y la textura sea correcta.",
+        "step_4": "Monta el plato con las guarniciones preparadas y sirve inmediatamente, conservando hasta el último momento los elementos que deben quedar crujientes o frescos."
+      }
+    },
+    "fr": {
+      "title": "Tenshinhan",
+      "description": "Une version pratique de Tenshinhan à préparer à la maison, en conservant les ingrédients caractéristiques, la texture et la technique du plat dans une séquence claire.",
+      "animeContext": "Cette recette est inspirée thématiquement par Dragon Ball, Food Wars! - Shokugeki no Soma. Le lien reste une inspiration et ne revendique aucun épisode précis sans vérification directe.",
+      "ingredients": {
+        "riso_bianco_giapponese_cotto_a_vapore": {
+          "name": "Blanc riz giapponese cotto a vapore (gohan)",
+          "note": null
+        },
+        "uovo_grandi_fresche": {
+          "name": "Œuf grandi frais",
+          "note": null
+        },
+        "polpa_di_granchio_o_surimi_sfilacciato": {
+          "name": "Polpa di crabe o surimi sfilacciato",
+          "note": null
+        },
+        "cipollotto_freschi_affettati_finemente": {
+          "name": "Spring oignon frais affettati finemente",
+          "note": null
+        },
+        "olio_di_sesamo": {
+          "name": "Sesame huile",
+          "note": null
+        },
+        "sale_e_pepe_q_b": {
+          "name": "Sel e pepper q.b",
+          "note": null
+        },
+        "brodo_di_pollo": {
+          "name": "Poulet bouillon",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Sauce soja",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Sucre",
+          "note": null
+        },
+        "aceto_di_riso": {
+          "name": "Vinaigre de riz",
+          "note": null
+        },
+        "salsa_d_ostrica": {
+          "name": "Sauce d'ostrica",
+          "note": null
+        },
+        "amido_di_mais_sciolto_in_2_cucchiai_d_acqua": {
+          "name": "Fécule de maïs sciolto in 2 cucchiai d'eau",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Préparez tous les éléments de la recette avant la cuisson et gardez sauces et garnitures séparées afin de travailler de façon ordonnée et précise.",
+        "step_2": "Cuisez l’élément principal à chaleur maîtrisée jusqu’à la texture recherchée, sans prolonger inutilement la cuisson au-delà du point souhaité.",
+        "step_3": "Ajoutez progressivement le bouillon, la sauce ou les autres composants et poursuivez seulement jusqu’à ce que les saveurs soient liées et la texture correcte.",
+        "step_4": "Dressez avec les garnitures préparées et servez sans attendre, en préservant jusqu’au dernier moment les éléments qui doivent rester croquants ou frais."
+      }
+    },
+    "de": {
+      "title": "Tenshinhan",
+      "description": "Eine alltagstaugliche Version von Tenshinhan für zu Hause, bei der typische Zutaten, Textur und Garmethode in einer klaren, wiederholbaren Reihenfolge erhalten bleiben.",
+      "animeContext": "Dieses Rezept ist thematisch von Dragon Ball, Food Wars! - Shokugeki no Soma inspiriert. Die Verbindung wird nur als Inspiration geführt; ohne direkten Beleg wird keine konkrete Episode behauptet.",
+      "ingredients": {
+        "riso_bianco_giapponese_cotto_a_vapore": {
+          "name": "Weiß Reis giapponese cotto a vapore (gohan)",
+          "note": null
+        },
+        "uovo_grandi_fresche": {
+          "name": "Ei grandi frisch",
+          "note": null
+        },
+        "polpa_di_granchio_o_surimi_sfilacciato": {
+          "name": "Polpa di Krabbe o surimi sfilacciato",
+          "note": null
+        },
+        "cipollotto_freschi_affettati_finemente": {
+          "name": "Spring Zwiebel frisch affettati finemente",
+          "note": null
+        },
+        "olio_di_sesamo": {
+          "name": "Sesame Öl",
+          "note": null
+        },
+        "sale_e_pepe_q_b": {
+          "name": "Salz e pepper q.b",
+          "note": null
+        },
+        "brodo_di_pollo": {
+          "name": "Hähnchen Brühe",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Sojasauce",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Zucker",
+          "note": null
+        },
+        "aceto_di_riso": {
+          "name": "Reisessig",
+          "note": null
+        },
+        "salsa_d_ostrica": {
+          "name": "Sauce d'ostrica",
+          "note": null
+        },
+        "amido_di_mais_sciolto_in_2_cucchiai_d_acqua": {
+          "name": "Maisstärke sciolto in 2 cucchiai d'Wasser",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bereite alle Bestandteile vor dem Erhitzen vollständig vor und halte Saucen sowie Garnituren getrennt, damit die eigentliche Garphase zügig ablaufen kann.",
+        "step_2": "Gare die Hauptkomponente bei kontrollierter Hitze bis zur gewünschten Textur und vermeide unnötig langes Weitergaren über den richtigen Punkt hinaus.",
+        "step_3": "Gib Brühe, Sauce oder die restlichen Bestandteile schrittweise dazu und gare nur so lange weiter, bis Geschmack und Konsistenz ausgewogen sind.",
+        "step_4": "Richte das Gericht mit den vorbereiteten Garnituren an und serviere es sofort, damit knusprige oder frische Elemente ihre gewünschte Textur behalten."
+      }
+    },
+    "pt": {
+      "title": "Tenshinhan",
+      "description": "Uma versão prática de Tenshinhan para preparar em casa, preservando ingredientes característicos, textura e técnica do prato numa sequência clara e repetível.",
+      "animeContext": "Esta receita é tematicamente inspirada por Dragon Ball, Food Wars! - Shokugeki no Soma. A ligação é tratada apenas como inspiração, sem afirmar uma aparição específica sem verificação direta.",
+      "ingredients": {
+        "riso_bianco_giapponese_cotto_a_vapore": {
+          "name": "Branco arroz giapponese cotto a vapore (gohan)",
+          "note": null
+        },
+        "uovo_grandi_fresche": {
+          "name": "Ovo grandi fresco",
+          "note": null
+        },
+        "polpa_di_granchio_o_surimi_sfilacciato": {
+          "name": "Polpa di caranguejo o surimi sfilacciato",
+          "note": null
+        },
+        "cipollotto_freschi_affettati_finemente": {
+          "name": "Spring cebola fresco affettati finemente",
+          "note": null
+        },
+        "olio_di_sesamo": {
+          "name": "Sesame óleo",
+          "note": null
+        },
+        "sale_e_pepe_q_b": {
+          "name": "Sal e pepper q.b",
+          "note": null
+        },
+        "brodo_di_pollo": {
+          "name": "Frango caldo",
+          "note": null
+        },
+        "salsa_di_soia": {
+          "name": "Molho de soja",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "aceto_di_riso": {
+          "name": "Vinagre de arroz",
+          "note": null
+        },
+        "salsa_d_ostrica": {
+          "name": "Molho d'ostrica",
+          "note": null
+        },
+        "amido_di_mais_sciolto_in_2_cucchiai_d_acqua": {
+          "name": "Amido de milho sciolto in 2 cucchiai d'água",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare todos os componentes antes de aplicar calor e mantenha molhos e guarnições separados, para que a fase de confeção decorra de forma rápida e organizada.",
+        "step_2": "Cozinhe o componente principal com calor controlado até atingir a textura pretendida, evitando prolongar a confeção para além do ponto correto.",
+        "step_3": "Junte o caldo, o molho ou os restantes componentes por etapas e prossiga apenas até os sabores ficarem integrados e a textura estar equilibrada.",
+        "step_4": "Monte o prato com as guarnições preparadas e sirva de imediato, preservando até ao fim os elementos que devem permanecer crocantes ou frescos."
+      }
+    }
+  }
+}

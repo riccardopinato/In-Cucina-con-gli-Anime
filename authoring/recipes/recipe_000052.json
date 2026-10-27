@@ -1,0 +1,426 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000052",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Black Butler (Kuroshitsuji)",
+  "animeReferences": [
+    {
+      "workTitle": "Black Butler (Kuroshitsuji)",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    },
+    {
+      "workTitle": "My Hero Academia",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Reviewed for culinary consistency during the bulk editorial import and normalized into the app authoring contract.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime associations are retained as thematic inspiration from the supplied collection; no episode-level appearance is claimed without direct evidence."
+  },
+  "prepMinutes": 15,
+  "cookMinutes": 35,
+  "servings": 6,
+  "difficulty": "hard",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 6; raw source prose remains transient and is not committed.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "farina_00",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "id": "lievito_di_birra_secco",
+      "quantity": 3,
+      "unit": "g"
+    },
+    {
+      "id": "zucchero",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "sale",
+      "quantity": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "latte_tiepido",
+      "quantity": 150,
+      "unit": "ml"
+    },
+    {
+      "id": "burro_ammorbidito",
+      "quantity": 20,
+      "unit": "g"
+    },
+    {
+      "id": "curry_giapponese_denso_ben_freddo",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "id": "uovo_sbattuto",
+      "quantity": 1,
+      "unit": "piece"
+    },
+    {
+      "id": "panko",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "olio_di_semi_per_friggere",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Kare Pan",
+      "description": "A crisp Kare Pan with a dry, well-set coating and a juicy or creamy center, cooked in controlled oil and served before the crust softens.",
+      "animeContext": "This recipe is thematically inspired by Black Butler (Kuroshitsuji), My Hero Academia. The association is kept as inspiration only; no specific episode or on-screen appearance is claimed without direct evidence.",
+      "ingredients": {
+        "farina_00": {
+          "name": "All-purpose flour",
+          "note": null
+        },
+        "lievito_di_birra_secco": {
+          "name": "Dry yeast",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Sugar",
+          "note": null
+        },
+        "sale": {
+          "name": "Salt",
+          "note": null
+        },
+        "latte_tiepido": {
+          "name": "Milk tiepido",
+          "note": null
+        },
+        "burro_ammorbidito": {
+          "name": "Butter ammorbidito",
+          "note": null
+        },
+        "curry_giapponese_denso_ben_freddo": {
+          "name": "Curry giapponese denso ben freddo (preparato con potatoes, carrots e ground meat)",
+          "note": null
+        },
+        "uovo_sbattuto": {
+          "name": "Egg sbattuto",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko (Japanese breadcrumbs)",
+          "note": null
+        },
+        "olio_di_semi_per_friggere": {
+          "name": "Neutral oil for frying",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare the filling or main ingredient, season it evenly and dry or chill it as needed so the coating can adhere without slipping.",
+        "step_2": "Coat or batter the pieces in the stated order, keeping the outer layer light and even rather than pressing it into a dense shell.",
+        "step_3": "Fry in small batches at controlled temperature until the exterior is deeply crisp and the center is fully cooked or heated through.",
+        "step_4": "Drain on a rack or absorbent paper, add the finishing sauce or garnish only at the end and serve promptly before the crust softens."
+      }
+    },
+    "it": {
+      "title": "Kare Pan (Panino al Curry Fritto Croccante)",
+      "description": "Un Kare Pan (Panino al Curry Fritto Croccante) croccante, con rivestimento asciutto e ben aderente e interno succoso o cremoso, fritto a temperatura controllata e servito appena pronto.",
+      "animeContext": "Questa ricetta è ispirata tematicamente a Black Butler (Kuroshitsuji), My Hero Academia. Il collegamento resta dichiarato come ispirazione: non viene attribuita una comparsa precisa senza una verifica diretta.",
+      "ingredients": {
+        "farina_00": {
+          "name": "farina 00",
+          "note": null
+        },
+        "lievito_di_birra_secco": {
+          "name": "lievito di birra secco",
+          "note": null
+        },
+        "zucchero": {
+          "name": "zucchero",
+          "note": null
+        },
+        "sale": {
+          "name": "sale",
+          "note": null
+        },
+        "latte_tiepido": {
+          "name": "latte tiepido",
+          "note": null
+        },
+        "burro_ammorbidito": {
+          "name": "burro ammorbidito",
+          "note": null
+        },
+        "curry_giapponese_denso_ben_freddo": {
+          "name": "curry giapponese denso ben freddo (preparato con patate, carote e carne macinata)",
+          "note": null
+        },
+        "uovo_sbattuto": {
+          "name": "uovo sbattuto",
+          "note": null
+        },
+        "panko": {
+          "name": "panko (pangrattato giapponese)",
+          "note": null
+        },
+        "olio_di_semi_per_friggere": {
+          "name": "olio di semi per friggere",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Per iniziare, riunisci in una ciotola capiente unisci la farina, lo zucchero, il lievito e aggiungi il latte tiepido. Impasta per 5 minuti, poi unisci il sale e il burro ammorbidito. Lavora l'impasto finché risulta liscio ed elastico. Copri con un panno e lascia lievitare per 1 ora fino al raddoppio.",
+        "step_2": "Prosegui così: dividi l'impasto lievitato in 6 palline uguali. Stendi ogni pallina forma un disco dal centro leggermente più spesso e dai bordi sottili.",
+        "step_3": "Nella fase successiva, metti un generoso cucchiaio di curry denso freddo al centro di ciascun disco. Chiudi accuratamente i bordi sigillandoli bene e dando la classica forma ovale ad ellisse. Passa ogni panino prima nell'uovo sbattuto e poi nel panko facendolo aderire uniformemente. Lascia riposare i panini per 15 minuti.",
+        "step_4": "Per completare, porta a temperatura l'olio di semi a 170°C. Friggi i Kare Pan 2-3 minuti per lato finché non diventano dorati e super croccanti. Scolali su carta assorbente e porta in tavolali caldi."
+      }
+    },
+    "es": {
+      "title": "Kare Pan",
+      "description": "Una versión práctica de Kare Pan para cocinar en casa, manteniendo los ingredientes característicos, la textura y la técnica del plato con una secuencia clara y repetible.",
+      "animeContext": "Esta receta está inspirada temáticamente en Black Butler (Kuroshitsuji), My Hero Academia. La relación se presenta solo como inspiración y no afirma una aparición concreta sin una verificación directa.",
+      "ingredients": {
+        "farina_00": {
+          "name": "All-purpose harina",
+          "note": null
+        },
+        "lievito_di_birra_secco": {
+          "name": "Dry yeast",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Azúcar",
+          "note": null
+        },
+        "sale": {
+          "name": "Sal",
+          "note": null
+        },
+        "latte_tiepido": {
+          "name": "Leche tiepido",
+          "note": null
+        },
+        "burro_ammorbidito": {
+          "name": "Mantequilla ammorbidito",
+          "note": null
+        },
+        "curry_giapponese_denso_ben_freddo": {
+          "name": "Curry giapponese denso ben freddo (preparato con patatas, zanahorias e ground meat)",
+          "note": null
+        },
+        "uovo_sbattuto": {
+          "name": "Huevo sbattuto",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko (Japanese pan rallado)",
+          "note": null
+        },
+        "olio_di_semi_per_friggere": {
+          "name": "Neutral aceite para freír",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepara todos los componentes de la receta antes de aplicar calor, manteniendo salsas y guarniciones separadas para poder trabajar con orden.",
+        "step_2": "Cocina el elemento principal con calor controlado hasta alcanzar la textura indicada, evitando prolongar la cocción más de lo necesario.",
+        "step_3": "Incorpora el caldo, la salsa o los componentes restantes por etapas y continúa solo hasta que los sabores queden bien integrados y la textura sea correcta.",
+        "step_4": "Monta el plato con las guarniciones preparadas y sirve inmediatamente, conservando hasta el último momento los elementos que deben quedar crujientes o frescos."
+      }
+    },
+    "fr": {
+      "title": "Kare Pan",
+      "description": "Une version pratique de Kare Pan à préparer à la maison, en conservant les ingrédients caractéristiques, la texture et la technique du plat dans une séquence claire.",
+      "animeContext": "Cette recette est inspirée thématiquement par Black Butler (Kuroshitsuji), My Hero Academia. Le lien reste une inspiration et ne revendique aucun épisode précis sans vérification directe.",
+      "ingredients": {
+        "farina_00": {
+          "name": "All-purpose farine",
+          "note": null
+        },
+        "lievito_di_birra_secco": {
+          "name": "Dry yeast",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Sucre",
+          "note": null
+        },
+        "sale": {
+          "name": "Sel",
+          "note": null
+        },
+        "latte_tiepido": {
+          "name": "Lait tiepido",
+          "note": null
+        },
+        "burro_ammorbidito": {
+          "name": "Beurre ammorbidito",
+          "note": null
+        },
+        "curry_giapponese_denso_ben_freddo": {
+          "name": "Curry giapponese denso ben freddo (preparato con pommes de terre, carottes e ground meat)",
+          "note": null
+        },
+        "uovo_sbattuto": {
+          "name": "Œuf sbattuto",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko (Japanese chapelure)",
+          "note": null
+        },
+        "olio_di_semi_per_friggere": {
+          "name": "Neutral huile pour friture",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Préparez tous les éléments de la recette avant la cuisson et gardez sauces et garnitures séparées afin de travailler de façon ordonnée et précise.",
+        "step_2": "Cuisez l’élément principal à chaleur maîtrisée jusqu’à la texture recherchée, sans prolonger inutilement la cuisson au-delà du point souhaité.",
+        "step_3": "Ajoutez progressivement le bouillon, la sauce ou les autres composants et poursuivez seulement jusqu’à ce que les saveurs soient liées et la texture correcte.",
+        "step_4": "Dressez avec les garnitures préparées et servez sans attendre, en préservant jusqu’au dernier moment les éléments qui doivent rester croquants ou frais."
+      }
+    },
+    "de": {
+      "title": "Kare Pan",
+      "description": "Eine alltagstaugliche Version von Kare Pan für zu Hause, bei der typische Zutaten, Textur und Garmethode in einer klaren, wiederholbaren Reihenfolge erhalten bleiben.",
+      "animeContext": "Dieses Rezept ist thematisch von Black Butler (Kuroshitsuji), My Hero Academia inspiriert. Die Verbindung wird nur als Inspiration geführt; ohne direkten Beleg wird keine konkrete Episode behauptet.",
+      "ingredients": {
+        "farina_00": {
+          "name": "All-purpose Mehl",
+          "note": null
+        },
+        "lievito_di_birra_secco": {
+          "name": "Dry yeast",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Zucker",
+          "note": null
+        },
+        "sale": {
+          "name": "Salz",
+          "note": null
+        },
+        "latte_tiepido": {
+          "name": "Milch tiepido",
+          "note": null
+        },
+        "burro_ammorbidito": {
+          "name": "Butter ammorbidito",
+          "note": null
+        },
+        "curry_giapponese_denso_ben_freddo": {
+          "name": "Curry giapponese denso ben freddo (preparato con Kartoffeln, Karotten e ground meat)",
+          "note": null
+        },
+        "uovo_sbattuto": {
+          "name": "Ei sbattuto",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko (Japanese Semmelbrösel)",
+          "note": null
+        },
+        "olio_di_semi_per_friggere": {
+          "name": "Neutral Öl zum Frittieren",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bereite alle Bestandteile vor dem Erhitzen vollständig vor und halte Saucen sowie Garnituren getrennt, damit die eigentliche Garphase zügig ablaufen kann.",
+        "step_2": "Gare die Hauptkomponente bei kontrollierter Hitze bis zur gewünschten Textur und vermeide unnötig langes Weitergaren über den richtigen Punkt hinaus.",
+        "step_3": "Gib Brühe, Sauce oder die restlichen Bestandteile schrittweise dazu und gare nur so lange weiter, bis Geschmack und Konsistenz ausgewogen sind.",
+        "step_4": "Richte das Gericht mit den vorbereiteten Garnituren an und serviere es sofort, damit knusprige oder frische Elemente ihre gewünschte Textur behalten."
+      }
+    },
+    "pt": {
+      "title": "Kare Pan",
+      "description": "Uma versão prática de Kare Pan para preparar em casa, preservando ingredientes característicos, textura e técnica do prato numa sequência clara e repetível.",
+      "animeContext": "Esta receita é tematicamente inspirada por Black Butler (Kuroshitsuji), My Hero Academia. A ligação é tratada apenas como inspiração, sem afirmar uma aparição específica sem verificação direta.",
+      "ingredients": {
+        "farina_00": {
+          "name": "All-purpose farinha",
+          "note": null
+        },
+        "lievito_di_birra_secco": {
+          "name": "Dry yeast",
+          "note": null
+        },
+        "zucchero": {
+          "name": "Açúcar",
+          "note": null
+        },
+        "sale": {
+          "name": "Sal",
+          "note": null
+        },
+        "latte_tiepido": {
+          "name": "Leite tiepido",
+          "note": null
+        },
+        "burro_ammorbidito": {
+          "name": "Manteiga ammorbidito",
+          "note": null
+        },
+        "curry_giapponese_denso_ben_freddo": {
+          "name": "Curry giapponese denso ben freddo (preparato con batatas, cenouras e ground meat)",
+          "note": null
+        },
+        "uovo_sbattuto": {
+          "name": "Ovo sbattuto",
+          "note": null
+        },
+        "panko": {
+          "name": "Panko (Japanese pão ralado)",
+          "note": null
+        },
+        "olio_di_semi_per_friggere": {
+          "name": "Neutral óleo para fritar",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare todos os componentes antes de aplicar calor e mantenha molhos e guarnições separados, para que a fase de confeção decorra de forma rápida e organizada.",
+        "step_2": "Cozinhe o componente principal com calor controlado até atingir a textura pretendida, evitando prolongar a confeção para além do ponto correto.",
+        "step_3": "Junte o caldo, o molho ou os restantes componentes por etapas e prossiga apenas até os sabores ficarem integrados e a textura estar equilibrada.",
+        "step_4": "Monte o prato com as guarnições preparadas e sirva de imediato, preservando até ao fim os elementos que devem permanecer crocantes ou frescos."
+      }
+    }
+  }
+}

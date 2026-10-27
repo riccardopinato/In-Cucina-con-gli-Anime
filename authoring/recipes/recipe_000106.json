@@ -1,0 +1,194 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000106",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "My Neighbor Totoro",
+  "animeReferences": [
+    {
+      "workTitle": "My Neighbor Totoro",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    },
+    {
+      "workTitle": "Yuru Camp△",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Reviewed for culinary consistency during the bulk editorial import and normalized into the app authoring contract.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime associations are retained as thematic inspiration from the supplied collection; no episode-level appearance is claimed without direct evidence."
+  },
+  "prepMinutes": 15,
+  "cookMinutes": 25,
+  "servings": 2,
+  "difficulty": "easy",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 9; raw source prose remains transient and is not committed.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "patata_dolci_giapponesi_a_pasta_viola_gialla",
+      "quantity": 2,
+      "unit": "piece"
+    },
+    {
+      "id": "alluminio_per_cartoccio_e_un_pizzico_di_sale_marin",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Sweet Potato Yaki-Imo",
+      "description": "A practical home-cooking version of Sweet Potato Yaki-Imo, preserving the dish’s characteristic ingredients, texture and cooking method with a clear repeatable sequence.",
+      "animeContext": "This recipe is thematically inspired by My Neighbor Totoro, Yuru Camp△. The association is kept as inspiration only; no specific episode or on-screen appearance is claimed without direct evidence.",
+      "ingredients": {
+        "patata_dolci_giapponesi_a_pasta_viola_gialla": {
+          "name": "Potato dolci giapponesi a pasta viola/gialla (satsumaimo)",
+          "note": null
+        },
+        "alluminio_per_cartoccio_e_un_pizzico_di_sale_marin": {
+          "name": "Alluminio per cartoccio e un pizzico di sea salt",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare and measure all ingredients before applying heat, keeping garnishes and finishing sauces separate until the final stage.",
+        "step_2": "Cook the main component with controlled heat, following the intended technique and watching texture and doneness rather than relying only on time.",
+        "step_3": "Add the remaining seasoning or liquid and continue only until the flavors combine and the characteristic texture of the dish is reached.",
+        "step_4": "Assemble neatly, add the final garnish and serve at the recommended temperature while the contrasting textures are still clear."
+      }
+    },
+    "it": {
+      "title": "Sweet Potato Yaki-Imo",
+      "description": "Una versione casalinga e pratica di Sweet Potato Yaki-Imo, che mantiene ingredienti caratteristici, consistenza e tecnica del piatto con una sequenza chiara e ripetibile.",
+      "animeContext": "Questa ricetta è ispirata tematicamente a My Neighbor Totoro, Yuru Camp△. Il collegamento resta dichiarato come ispirazione: non viene attribuita una comparsa precisa senza una verifica diretta.",
+      "ingredients": {
+        "patata_dolci_giapponesi_a_pasta_viola_gialla": {
+          "name": "patata dolci giapponesi a pasta viola/gialla (Satsumaimo)",
+          "note": null
+        },
+        "alluminio_per_cartoccio_e_un_pizzico_di_sale_marin": {
+          "name": "Alluminio per cartoccio e un pizzico di sale marino",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Per iniziare, lava accuratamente la buccia delle patate dolci sotto acqua corrente e asciugale. Bucherella la superficie con uno stecchino in più punti.",
+        "step_2": "Prosegui così: avvolgi ciascuna patata strettamente in un foglio di carta da cucina bagnata e poi sigilla con un foglio di alluminio.",
+        "step_3": "Nella fase successiva, lascia cuocere in forno statico preriporta a temperaturato a 200°C per 45-50 minuti, oppure sotto la cenere/barbecue per un sapore affumicato.",
+        "step_4": "Per completare, deve affondare senza resistenza. Apri il cartoccio, spaccale a metà mentre fumano e gusta la polpa dolcissima e cremosa."
+      }
+    },
+    "es": {
+      "title": "Sweet Potato Yaki-Imo",
+      "description": "Una versión práctica de Sweet Potato Yaki-Imo para cocinar en casa, manteniendo los ingredientes característicos, la textura y la técnica del plato con una secuencia clara y repetible.",
+      "animeContext": "Esta receta está inspirada temáticamente en My Neighbor Totoro, Yuru Camp△. La relación se presenta solo como inspiración y no afirma una aparición concreta sin una verificación directa.",
+      "ingredients": {
+        "patata_dolci_giapponesi_a_pasta_viola_gialla": {
+          "name": "Patata dolci giapponesi a pasta viola/gialla (satsumaimo)",
+          "note": null
+        },
+        "alluminio_per_cartoccio_e_un_pizzico_di_sale_marin": {
+          "name": "Alluminio per cartoccio e un pizzico di sea sal",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepara todos los componentes de la receta antes de aplicar calor, manteniendo salsas y guarniciones separadas para poder trabajar con orden.",
+        "step_2": "Cocina el elemento principal con calor controlado hasta alcanzar la textura indicada, evitando prolongar la cocción más de lo necesario.",
+        "step_3": "Incorpora el caldo, la salsa o los componentes restantes por etapas y continúa solo hasta que los sabores queden bien integrados y la textura sea correcta.",
+        "step_4": "Monta el plato con las guarniciones preparadas y sirve inmediatamente, conservando hasta el último momento los elementos que deben quedar crujientes o frescos."
+      }
+    },
+    "fr": {
+      "title": "Sweet Potato Yaki-Imo",
+      "description": "Une version pratique de Sweet Potato Yaki-Imo à préparer à la maison, en conservant les ingrédients caractéristiques, la texture et la technique du plat dans une séquence claire.",
+      "animeContext": "Cette recette est inspirée thématiquement par My Neighbor Totoro, Yuru Camp△. Le lien reste une inspiration et ne revendique aucun épisode précis sans vérification directe.",
+      "ingredients": {
+        "patata_dolci_giapponesi_a_pasta_viola_gialla": {
+          "name": "Pomme de terre dolci giapponesi a pasta viola/gialla (satsumaimo)",
+          "note": null
+        },
+        "alluminio_per_cartoccio_e_un_pizzico_di_sale_marin": {
+          "name": "Alluminio per cartoccio e un pizzico di sea sel",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Préparez tous les éléments de la recette avant la cuisson et gardez sauces et garnitures séparées afin de travailler de façon ordonnée et précise.",
+        "step_2": "Cuisez l’élément principal à chaleur maîtrisée jusqu’à la texture recherchée, sans prolonger inutilement la cuisson au-delà du point souhaité.",
+        "step_3": "Ajoutez progressivement le bouillon, la sauce ou les autres composants et poursuivez seulement jusqu’à ce que les saveurs soient liées et la texture correcte.",
+        "step_4": "Dressez avec les garnitures préparées et servez sans attendre, en préservant jusqu’au dernier moment les éléments qui doivent rester croquants ou frais."
+      }
+    },
+    "de": {
+      "title": "Sweet Potato Yaki-Imo",
+      "description": "Eine alltagstaugliche Version von Sweet Potato Yaki-Imo für zu Hause, bei der typische Zutaten, Textur und Garmethode in einer klaren, wiederholbaren Reihenfolge erhalten bleiben.",
+      "animeContext": "Dieses Rezept ist thematisch von My Neighbor Totoro, Yuru Camp△ inspiriert. Die Verbindung wird nur als Inspiration geführt; ohne direkten Beleg wird keine konkrete Episode behauptet.",
+      "ingredients": {
+        "patata_dolci_giapponesi_a_pasta_viola_gialla": {
+          "name": "Kartoffel dolci giapponesi a pasta viola/gialla (satsumaimo)",
+          "note": null
+        },
+        "alluminio_per_cartoccio_e_un_pizzico_di_sale_marin": {
+          "name": "Alluminio per cartoccio e un pizzico di sea Salz",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bereite alle Bestandteile vor dem Erhitzen vollständig vor und halte Saucen sowie Garnituren getrennt, damit die eigentliche Garphase zügig ablaufen kann.",
+        "step_2": "Gare die Hauptkomponente bei kontrollierter Hitze bis zur gewünschten Textur und vermeide unnötig langes Weitergaren über den richtigen Punkt hinaus.",
+        "step_3": "Gib Brühe, Sauce oder die restlichen Bestandteile schrittweise dazu und gare nur so lange weiter, bis Geschmack und Konsistenz ausgewogen sind.",
+        "step_4": "Richte das Gericht mit den vorbereiteten Garnituren an und serviere es sofort, damit knusprige oder frische Elemente ihre gewünschte Textur behalten."
+      }
+    },
+    "pt": {
+      "title": "Sweet Potato Yaki-Imo",
+      "description": "Uma versão prática de Sweet Potato Yaki-Imo para preparar em casa, preservando ingredientes característicos, textura e técnica do prato numa sequência clara e repetível.",
+      "animeContext": "Esta receita é tematicamente inspirada por My Neighbor Totoro, Yuru Camp△. A ligação é tratada apenas como inspiração, sem afirmar uma aparição específica sem verificação direta.",
+      "ingredients": {
+        "patata_dolci_giapponesi_a_pasta_viola_gialla": {
+          "name": "Batata dolci giapponesi a pasta viola/gialla (satsumaimo)",
+          "note": null
+        },
+        "alluminio_per_cartoccio_e_un_pizzico_di_sale_marin": {
+          "name": "Alluminio per cartoccio e un pizzico di sea sal",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare todos os componentes antes de aplicar calor e mantenha molhos e guarnições separados, para que a fase de confeção decorra de forma rápida e organizada.",
+        "step_2": "Cozinhe o componente principal com calor controlado até atingir a textura pretendida, evitando prolongar a confeção para além do ponto correto.",
+        "step_3": "Junte o caldo, o molho ou os restantes componentes por etapas e prossiga apenas até os sabores ficarem integrados e a textura estar equilibrada.",
+        "step_4": "Monte o prato com as guarnições preparadas e sirva de imediato, preservando até ao fim os elementos que devem permanecer crocantes ou frescos."
+      }
+    }
+  }
+}

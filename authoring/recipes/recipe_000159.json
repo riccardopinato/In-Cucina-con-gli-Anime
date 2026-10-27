@@ -1,0 +1,368 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000159",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Fruits Basket",
+  "animeReferences": [
+    {
+      "workTitle": "Fruits Basket",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    },
+    {
+      "workTitle": "Demon Slayer",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Reviewed for culinary consistency during the bulk editorial import and normalized into the app authoring contract.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime associations are retained as thematic inspiration from the supplied collection; no episode-level appearance is claimed without direct evidence."
+  },
+  "prepMinutes": 25,
+  "cookMinutes": 15,
+  "servings": 8,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 12; raw source prose remains transient and is not committed.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "farina_per_dolci",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "id": "latte_condensato",
+      "quantity": 80,
+      "unit": "g"
+    },
+    {
+      "id": "lievito_per_dolci",
+      "quantity": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "tuorlo_d_uovo",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "pasta_di_fagioli_bianchi",
+      "quantity": 160,
+      "unit": "g"
+    },
+    {
+      "id": "castagne_sciroppate_o_lesse_intatte",
+      "quantity": 8,
+      "unit": null
+    },
+    {
+      "id": "tuorlo_1_cucchiaino_di_salsa_di_soia",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "semi_di_sesamo_nero",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Kuri Manju",
+      "description": "A home-friendly Kuri Manju that keeps the characteristic chewy or tender texture of Japanese sweets and balances sweetness with the traditional finishing elements.",
+      "animeContext": "This recipe is thematically inspired by Fruits Basket, Demon Slayer. The association is kept as inspiration only; no specific episode or on-screen appearance is claimed without direct evidence.",
+      "ingredients": {
+        "farina_per_dolci": {
+          "name": "Cake flour",
+          "note": null
+        },
+        "latte_condensato": {
+          "name": "Milk condensato",
+          "note": null
+        },
+        "lievito_per_dolci": {
+          "name": "Baking powder",
+          "note": null
+        },
+        "tuorlo_d_uovo": {
+          "name": "Egg yolk d'egg",
+          "note": null
+        },
+        "pasta_di_fagioli_bianchi": {
+          "name": "Pasta di fagioli bianchi (shiro-an)",
+          "note": null
+        },
+        "castagne_sciroppate_o_lesse_intatte": {
+          "name": "Chestnuts sciroppate o lesse intatte",
+          "note": null
+        },
+        "tuorlo_1_cucchiaino_di_salsa_di_soia": {
+          "name": "Egg yolk + 1 cucchiaino di soy sauce (per la spennellatura)",
+          "note": null
+        },
+        "semi_di_sesamo_nero": {
+          "name": "Sesame seeds black",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare the rice-flour or bean-paste components carefully, adding liquid gradually until the mixture reaches a smooth, workable consistency.",
+        "step_2": "Divide and shape the mixture evenly, adding the filling or colorings while keeping each portion sealed and similar in size.",
+        "step_3": "Cook, boil, steam or chill the shaped sweets as required until the texture is fully set but still tender and pleasantly chewy.",
+        "step_4": "Finish with the traditional coating, glaze, leaf or skewer and serve at the recommended temperature while the texture is at its best."
+      }
+    },
+    "it": {
+      "title": "Kuri Manju (Dolcetto Cotto al Forno Ripieno di Castagne)",
+      "description": "Un Kuri Manju (Dolcetto Cotto al Forno Ripieno di Castagne) casalingo che conserva la consistenza morbida o elastica tipica dei dolci giapponesi e bilancia la dolcezza con le finiture tradizionali.",
+      "animeContext": "Questa ricetta è ispirata tematicamente a Fruits Basket, Demon Slayer. Il collegamento resta dichiarato come ispirazione: non viene attribuita una comparsa precisa senza una verifica diretta.",
+      "ingredients": {
+        "farina_per_dolci": {
+          "name": "farina per dolci",
+          "note": null
+        },
+        "latte_condensato": {
+          "name": "latte condensato",
+          "note": null
+        },
+        "lievito_per_dolci": {
+          "name": "lievito per dolci",
+          "note": null
+        },
+        "tuorlo_d_uovo": {
+          "name": "tuorlo d'uovo",
+          "note": null
+        },
+        "pasta_di_fagioli_bianchi": {
+          "name": "pasta di fagioli bianchi (Shiro-an)",
+          "note": null
+        },
+        "castagne_sciroppate_o_lesse_intatte": {
+          "name": "castagne sciroppate o lesse intatte",
+          "note": null
+        },
+        "tuorlo_1_cucchiaino_di_salsa_di_soia": {
+          "name": "tuorlo + 1 cucchiaino di salsa di soia (per la spennellatura)",
+          "note": null
+        },
+        "semi_di_sesamo_nero": {
+          "name": "Semi di sesamo nero",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Per iniziare, riunisci in una ciotola amalgamare il latte condensato con il tuorlo d'uovo. Setacciare la farina con il lievito ed unire al composto impastando fino ad ottenere un panetto morbido. Far riposare in frigo per 20 minuti.",
+        "step_2": "Prosegui così: avvolgere ciascuna castagna intera con 20g di pasta Shiro-an creando una pallina regolare.",
+        "step_3": "Nella fase successiva, dividere l'impasto in 8 porzioni, stenderle a disco ed avvolgere le palline di castagna e Shiro-an sigillando bene i bordi e dando una forma a castagna. Disporre su una teglia con carta forno. Amalgamare il tuorlo con la salsa di soia e spennellare solo la parte superiore dei manju. Intingere la punta nei semi di sesamo nero.",
+        "step_4": "Per completare, cuocere in forno ventilato a 170°C per 12-15 minuti finché la cupola risulta ben dorata e lucida."
+      }
+    },
+    "es": {
+      "title": "Kuri Manju",
+      "description": "Una versión práctica de Kuri Manju para cocinar en casa, manteniendo los ingredientes característicos, la textura y la técnica del plato con una secuencia clara y repetible.",
+      "animeContext": "Esta receta está inspirada temáticamente en Fruits Basket, Demon Slayer. La relación se presenta solo como inspiración y no afirma una aparición concreta sin una verificación directa.",
+      "ingredients": {
+        "farina_per_dolci": {
+          "name": "Cake harina",
+          "note": null
+        },
+        "latte_condensato": {
+          "name": "Leche condensato",
+          "note": null
+        },
+        "lievito_per_dolci": {
+          "name": "Baking powder",
+          "note": null
+        },
+        "tuorlo_d_uovo": {
+          "name": "Huevo yolk d'huevo",
+          "note": null
+        },
+        "pasta_di_fagioli_bianchi": {
+          "name": "Pasta di fagioli bianchi (shiro-an)",
+          "note": null
+        },
+        "castagne_sciroppate_o_lesse_intatte": {
+          "name": "Chestnuts sciroppate o lesse intatte",
+          "note": null
+        },
+        "tuorlo_1_cucchiaino_di_salsa_di_soia": {
+          "name": "Huevo yolk + 1 cucchiaino di salsa de soja (per la spennellatura)",
+          "note": null
+        },
+        "semi_di_sesamo_nero": {
+          "name": "Semillas de sésamo negro",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepara todos los componentes de la receta antes de aplicar calor, manteniendo salsas y guarniciones separadas para poder trabajar con orden.",
+        "step_2": "Cocina el elemento principal con calor controlado hasta alcanzar la textura indicada, evitando prolongar la cocción más de lo necesario.",
+        "step_3": "Incorpora el caldo, la salsa o los componentes restantes por etapas y continúa solo hasta que los sabores queden bien integrados y la textura sea correcta.",
+        "step_4": "Monta el plato con las guarniciones preparadas y sirve inmediatamente, conservando hasta el último momento los elementos que deben quedar crujientes o frescos."
+      }
+    },
+    "fr": {
+      "title": "Kuri Manju",
+      "description": "Une version pratique de Kuri Manju à préparer à la maison, en conservant les ingrédients caractéristiques, la texture et la technique du plat dans une séquence claire.",
+      "animeContext": "Cette recette est inspirée thématiquement par Fruits Basket, Demon Slayer. Le lien reste une inspiration et ne revendique aucun épisode précis sans vérification directe.",
+      "ingredients": {
+        "farina_per_dolci": {
+          "name": "Cake farine",
+          "note": null
+        },
+        "latte_condensato": {
+          "name": "Lait condensato",
+          "note": null
+        },
+        "lievito_per_dolci": {
+          "name": "Baking powder",
+          "note": null
+        },
+        "tuorlo_d_uovo": {
+          "name": "Œuf yolk d'œuf",
+          "note": null
+        },
+        "pasta_di_fagioli_bianchi": {
+          "name": "Pasta di fagioli bianchi (shiro-an)",
+          "note": null
+        },
+        "castagne_sciroppate_o_lesse_intatte": {
+          "name": "Chestnuts sciroppate o lesse intatte",
+          "note": null
+        },
+        "tuorlo_1_cucchiaino_di_salsa_di_soia": {
+          "name": "Œuf yolk + 1 cucchiaino di sauce soja (per la spennellatura)",
+          "note": null
+        },
+        "semi_di_sesamo_nero": {
+          "name": "Graines de sésame noir",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Préparez tous les éléments de la recette avant la cuisson et gardez sauces et garnitures séparées afin de travailler de façon ordonnée et précise.",
+        "step_2": "Cuisez l’élément principal à chaleur maîtrisée jusqu’à la texture recherchée, sans prolonger inutilement la cuisson au-delà du point souhaité.",
+        "step_3": "Ajoutez progressivement le bouillon, la sauce ou les autres composants et poursuivez seulement jusqu’à ce que les saveurs soient liées et la texture correcte.",
+        "step_4": "Dressez avec les garnitures préparées et servez sans attendre, en préservant jusqu’au dernier moment les éléments qui doivent rester croquants ou frais."
+      }
+    },
+    "de": {
+      "title": "Kuri Manju",
+      "description": "Eine alltagstaugliche Version von Kuri Manju für zu Hause, bei der typische Zutaten, Textur und Garmethode in einer klaren, wiederholbaren Reihenfolge erhalten bleiben.",
+      "animeContext": "Dieses Rezept ist thematisch von Fruits Basket, Demon Slayer inspiriert. Die Verbindung wird nur als Inspiration geführt; ohne direkten Beleg wird keine konkrete Episode behauptet.",
+      "ingredients": {
+        "farina_per_dolci": {
+          "name": "Cake Mehl",
+          "note": null
+        },
+        "latte_condensato": {
+          "name": "Milch condensato",
+          "note": null
+        },
+        "lievito_per_dolci": {
+          "name": "Baking powder",
+          "note": null
+        },
+        "tuorlo_d_uovo": {
+          "name": "Ei yolk d'Ei",
+          "note": null
+        },
+        "pasta_di_fagioli_bianchi": {
+          "name": "Pasta di fagioli bianchi (shiro-an)",
+          "note": null
+        },
+        "castagne_sciroppate_o_lesse_intatte": {
+          "name": "Chestnuts sciroppate o lesse intatte",
+          "note": null
+        },
+        "tuorlo_1_cucchiaino_di_salsa_di_soia": {
+          "name": "Ei yolk + 1 cucchiaino di Sojasauce (per la spennellatura)",
+          "note": null
+        },
+        "semi_di_sesamo_nero": {
+          "name": "Sesamsamen schwarz",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bereite alle Bestandteile vor dem Erhitzen vollständig vor und halte Saucen sowie Garnituren getrennt, damit die eigentliche Garphase zügig ablaufen kann.",
+        "step_2": "Gare die Hauptkomponente bei kontrollierter Hitze bis zur gewünschten Textur und vermeide unnötig langes Weitergaren über den richtigen Punkt hinaus.",
+        "step_3": "Gib Brühe, Sauce oder die restlichen Bestandteile schrittweise dazu und gare nur so lange weiter, bis Geschmack und Konsistenz ausgewogen sind.",
+        "step_4": "Richte das Gericht mit den vorbereiteten Garnituren an und serviere es sofort, damit knusprige oder frische Elemente ihre gewünschte Textur behalten."
+      }
+    },
+    "pt": {
+      "title": "Kuri Manju",
+      "description": "Uma versão prática de Kuri Manju para preparar em casa, preservando ingredientes característicos, textura e técnica do prato numa sequência clara e repetível.",
+      "animeContext": "Esta receita é tematicamente inspirada por Fruits Basket, Demon Slayer. A ligação é tratada apenas como inspiração, sem afirmar uma aparição específica sem verificação direta.",
+      "ingredients": {
+        "farina_per_dolci": {
+          "name": "Cake farinha",
+          "note": null
+        },
+        "latte_condensato": {
+          "name": "Leite condensato",
+          "note": null
+        },
+        "lievito_per_dolci": {
+          "name": "Baking powder",
+          "note": null
+        },
+        "tuorlo_d_uovo": {
+          "name": "Ovo yolk d'ovo",
+          "note": null
+        },
+        "pasta_di_fagioli_bianchi": {
+          "name": "Pasta di fagioli bianchi (shiro-an)",
+          "note": null
+        },
+        "castagne_sciroppate_o_lesse_intatte": {
+          "name": "Chestnuts sciroppate o lesse intatte",
+          "note": null
+        },
+        "tuorlo_1_cucchiaino_di_salsa_di_soia": {
+          "name": "Ovo yolk + 1 cucchiaino di molho de soja (per la spennellatura)",
+          "note": null
+        },
+        "semi_di_sesamo_nero": {
+          "name": "Sementes de sésamo preto",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare todos os componentes antes de aplicar calor e mantenha molhos e guarnições separados, para que a fase de confeção decorra de forma rápida e organizada.",
+        "step_2": "Cozinhe o componente principal com calor controlado até atingir a textura pretendida, evitando prolongar a confeção para além do ponto correto.",
+        "step_3": "Junte o caldo, o molho ou os restantes componentes por etapas e prossiga apenas até os sabores ficarem integrados e a textura estar equilibrada.",
+        "step_4": "Monte o prato com as guarnições preparadas e sirva de imediato, preservando até ao fim os elementos que devem permanecer crocantes ou frescos."
+      }
+    }
+  }
+}

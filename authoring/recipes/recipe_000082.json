@@ -1,0 +1,455 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000082",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Yuru Camp△",
+  "animeReferences": [
+    {
+      "workTitle": "Yuru Camp△",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    },
+    {
+      "workTitle": "Golden Kamuy",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Reviewed for culinary consistency during the bulk editorial import and normalized into the app authoring contract.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime associations are retained as thematic inspiration from the supplied collection; no episode-level appearance is claimed without direct evidence."
+  },
+  "prepMinutes": 20,
+  "cookMinutes": 40,
+  "servings": 4,
+  "difficulty": "easy",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 8; raw source prose remains transient and is not committed.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "sovracosce_e_ali_di_pollo_con_osso_e_pelle",
+      "quantity": 600,
+      "unit": "g"
+    },
+    {
+      "id": "1",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "litri_d_acqua",
+      "quantity": 2,
+      "unit": null
+    },
+    {
+      "id": "alga_kombu",
+      "quantity": 1,
+      "unit": "piece"
+    },
+    {
+      "id": "sake",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "id": "cavolo_cinese",
+      "quantity": 0.5,
+      "unit": null
+    },
+    {
+      "id": "cipollotti",
+      "quantity": 1,
+      "unit": "piece"
+    },
+    {
+      "id": "funghi_shiitake",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "id": "tofu_tagliato_a_cubi",
+      "quantity": 1,
+      "unit": "piece"
+    },
+    {
+      "id": "salsa_ponzu",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "momiji_oroshi",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Mizutaki Nabe",
+      "description": "A comforting Mizutaki Nabe prepared with gentle simmering so the main ingredients become tender while the broth stays flavorful and balanced.",
+      "animeContext": "This recipe is thematically inspired by Yuru Camp△, Golden Kamuy. The association is kept as inspiration only; no specific episode or on-screen appearance is claimed without direct evidence.",
+      "ingredients": {
+        "1": {
+          "name": "1",
+          "note": null
+        },
+        "sovracosce_e_ali_di_pollo_con_osso_e_pelle": {
+          "name": "Sovracosce e ali di chicken con osso e pelle",
+          "note": null
+        },
+        "litri_d_acqua": {
+          "name": "Litri d'water",
+          "note": null
+        },
+        "alga_kombu": {
+          "name": "Alga kombu (5cm)",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "cavolo_cinese": {
+          "name": "Napa cabbage",
+          "note": null
+        },
+        "cipollotti": {
+          "name": "Spring onions",
+          "note": null
+        },
+        "funghi_shiitake": {
+          "name": "Shiitake mushrooms",
+          "note": null
+        },
+        "tofu_tagliato_a_cubi": {
+          "name": "Tofu cut into cubi",
+          "note": null
+        },
+        "salsa_ponzu": {
+          "name": "Sauce ponzu (soy sauce e agrumi)",
+          "note": null
+        },
+        "momiji_oroshi": {
+          "name": "Momiji oroshi (daikon grated con peperoncino)",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Cut and organize the main ingredients so pieces of similar density are comparable in size; prepare the seasoned broth separately before simmering.",
+        "step_2": "Build the broth over moderate heat and add the ingredients in order of cooking time, keeping the liquid at a gentle simmer rather than a hard boil.",
+        "step_3": "Continue cooking until proteins are safely cooked and vegetables are tender but intact, adjusting the seasoning only after the broth has reduced slightly.",
+        "step_4": "Finish with the final aromatics or garnish and serve hot, allowing a brief rest when useful so the ingredients absorb the seasoned broth."
+      }
+    },
+    "it": {
+      "title": "Mizutaki Nabe (Stufato di Pollo e Verdure di Hakata)",
+      "description": "Un Mizutaki Nabe (Stufato di Pollo e Verdure di Hakata) confortante cotto a sobbollore dolce, così gli ingredienti diventano teneri senza disfarsi e il fondo resta concentrato ma equilibrato.",
+      "animeContext": "Questa ricetta è ispirata tematicamente a Yuru Camp△, Golden Kamuy. Il collegamento resta dichiarato come ispirazione: non viene attribuita una comparsa precisa senza una verifica diretta.",
+      "ingredients": {
+        "1": {
+          "name": "1",
+          "note": null
+        },
+        "sovracosce_e_ali_di_pollo_con_osso_e_pelle": {
+          "name": "sovracosce e ali di pollo con osso e pelle",
+          "note": null
+        },
+        "litri_d_acqua": {
+          "name": "litri d'acqua",
+          "note": null
+        },
+        "alga_kombu": {
+          "name": "alga Kombu (5cm)",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "cavolo_cinese": {
+          "name": "cavolo cinese",
+          "note": null
+        },
+        "cipollotti": {
+          "name": "cipollotti",
+          "note": null
+        },
+        "funghi_shiitake": {
+          "name": "funghi Shiitake",
+          "note": null
+        },
+        "tofu_tagliato_a_cubi": {
+          "name": "tofu tagliato a cubi",
+          "note": null
+        },
+        "salsa_ponzu": {
+          "name": "Salsa Ponzu (salsa di soia e agrumi)",
+          "note": null
+        },
+        "momiji_oroshi": {
+          "name": "Momiji Oroshi (daikon grattugiato con peperoncino)",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Per iniziare, usa una pentola Nabe (o pentola capiente) metti l'acqua, l'alga Kombu e i pezzi di pollo con l'osso. Porta a ebollizione lenta a fuoco medio eliminando costantemente la schiuma in superficie con una schiumarola per ottenere un brodo limpido e ricco.",
+        "step_2": "Prosegui così: dopo 20 minuti rimuovi l'alga Kombu, aggiungi il Sake e lascia cuocere il pollo per altri 15 minuti finché la carne diventa tenera e il brodo bianco opalescente.",
+        "step_3": "Nella fase successiva, unisci il cavolo cinese tagliato a pezzi, i funghi Shiitake incisi a stella, i cipollotti e il tofu a cubi. Lascia cuocere per 8-10 minuti finché le verdure sono tenere.",
+        "step_4": "Per completare, metti la pentola al centro del tavolo. Ciascun commensale preleva pezzi di pollo e verdure intingendoli nella salsa Ponzu fresca."
+      }
+    },
+    "es": {
+      "title": "Mizutaki Nabe",
+      "description": "Una versión práctica de Mizutaki Nabe para cocinar en casa, manteniendo los ingredientes característicos, la textura y la técnica del plato con una secuencia clara y repetible.",
+      "animeContext": "Esta receta está inspirada temáticamente en Yuru Camp△, Golden Kamuy. La relación se presenta solo como inspiración y no afirma una aparición concreta sin una verificación directa.",
+      "ingredients": {
+        "1": {
+          "name": "1",
+          "note": null
+        },
+        "sovracosce_e_ali_di_pollo_con_osso_e_pelle": {
+          "name": "Sovracosce e ali di pollo con osso e pelle",
+          "note": null
+        },
+        "litri_d_acqua": {
+          "name": "Litri d'agua",
+          "note": null
+        },
+        "alga_kombu": {
+          "name": "Alga kombu (5cm)",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "cavolo_cinese": {
+          "name": "Napa col",
+          "note": null
+        },
+        "cipollotti": {
+          "name": "Spring cebollas",
+          "note": null
+        },
+        "funghi_shiitake": {
+          "name": "Shiitake setas",
+          "note": null
+        },
+        "tofu_tagliato_a_cubi": {
+          "name": "Tofu cut into cubi",
+          "note": null
+        },
+        "salsa_ponzu": {
+          "name": "Salsa ponzu (salsa de soja e agrumi)",
+          "note": null
+        },
+        "momiji_oroshi": {
+          "name": "Momiji oroshi (daikon rallado con peperoncino)",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepara todos los componentes de la receta antes de aplicar calor, manteniendo salsas y guarniciones separadas para poder trabajar con orden.",
+        "step_2": "Cocina el elemento principal con calor controlado hasta alcanzar la textura indicada, evitando prolongar la cocción más de lo necesario.",
+        "step_3": "Incorpora el caldo, la salsa o los componentes restantes por etapas y continúa solo hasta que los sabores queden bien integrados y la textura sea correcta.",
+        "step_4": "Monta el plato con las guarniciones preparadas y sirve inmediatamente, conservando hasta el último momento los elementos que deben quedar crujientes o frescos."
+      }
+    },
+    "fr": {
+      "title": "Mizutaki Nabe",
+      "description": "Une version pratique de Mizutaki Nabe à préparer à la maison, en conservant les ingrédients caractéristiques, la texture et la technique du plat dans une séquence claire.",
+      "animeContext": "Cette recette est inspirée thématiquement par Yuru Camp△, Golden Kamuy. Le lien reste une inspiration et ne revendique aucun épisode précis sans vérification directe.",
+      "ingredients": {
+        "1": {
+          "name": "1",
+          "note": null
+        },
+        "sovracosce_e_ali_di_pollo_con_osso_e_pelle": {
+          "name": "Sovracosce e ali di poulet con osso e pelle",
+          "note": null
+        },
+        "litri_d_acqua": {
+          "name": "Litri d'eau",
+          "note": null
+        },
+        "alga_kombu": {
+          "name": "Alga kombu (5cm)",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "cavolo_cinese": {
+          "name": "Napa chou",
+          "note": null
+        },
+        "cipollotti": {
+          "name": "Spring oignons",
+          "note": null
+        },
+        "funghi_shiitake": {
+          "name": "Shiitake champignons",
+          "note": null
+        },
+        "tofu_tagliato_a_cubi": {
+          "name": "Tofu cut into cubi",
+          "note": null
+        },
+        "salsa_ponzu": {
+          "name": "Sauce ponzu (sauce soja e agrumi)",
+          "note": null
+        },
+        "momiji_oroshi": {
+          "name": "Momiji oroshi (daikon râpé con peperoncino)",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Préparez tous les éléments de la recette avant la cuisson et gardez sauces et garnitures séparées afin de travailler de façon ordonnée et précise.",
+        "step_2": "Cuisez l’élément principal à chaleur maîtrisée jusqu’à la texture recherchée, sans prolonger inutilement la cuisson au-delà du point souhaité.",
+        "step_3": "Ajoutez progressivement le bouillon, la sauce ou les autres composants et poursuivez seulement jusqu’à ce que les saveurs soient liées et la texture correcte.",
+        "step_4": "Dressez avec les garnitures préparées et servez sans attendre, en préservant jusqu’au dernier moment les éléments qui doivent rester croquants ou frais."
+      }
+    },
+    "de": {
+      "title": "Mizutaki Nabe",
+      "description": "Eine alltagstaugliche Version von Mizutaki Nabe für zu Hause, bei der typische Zutaten, Textur und Garmethode in einer klaren, wiederholbaren Reihenfolge erhalten bleiben.",
+      "animeContext": "Dieses Rezept ist thematisch von Yuru Camp△, Golden Kamuy inspiriert. Die Verbindung wird nur als Inspiration geführt; ohne direkten Beleg wird keine konkrete Episode behauptet.",
+      "ingredients": {
+        "1": {
+          "name": "1",
+          "note": null
+        },
+        "sovracosce_e_ali_di_pollo_con_osso_e_pelle": {
+          "name": "Sovracosce e ali di Hähnchen con osso e pelle",
+          "note": null
+        },
+        "litri_d_acqua": {
+          "name": "Litri d'Wasser",
+          "note": null
+        },
+        "alga_kombu": {
+          "name": "Alga kombu (5cm)",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "cavolo_cinese": {
+          "name": "Napa Kohl",
+          "note": null
+        },
+        "cipollotti": {
+          "name": "Spring Zwiebeln",
+          "note": null
+        },
+        "funghi_shiitake": {
+          "name": "Shiitake Pilze",
+          "note": null
+        },
+        "tofu_tagliato_a_cubi": {
+          "name": "Tofu cut into cubi",
+          "note": null
+        },
+        "salsa_ponzu": {
+          "name": "Sauce ponzu (Sojasauce e agrumi)",
+          "note": null
+        },
+        "momiji_oroshi": {
+          "name": "Momiji oroshi (daikon gerieben con peperoncino)",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bereite alle Bestandteile vor dem Erhitzen vollständig vor und halte Saucen sowie Garnituren getrennt, damit die eigentliche Garphase zügig ablaufen kann.",
+        "step_2": "Gare die Hauptkomponente bei kontrollierter Hitze bis zur gewünschten Textur und vermeide unnötig langes Weitergaren über den richtigen Punkt hinaus.",
+        "step_3": "Gib Brühe, Sauce oder die restlichen Bestandteile schrittweise dazu und gare nur so lange weiter, bis Geschmack und Konsistenz ausgewogen sind.",
+        "step_4": "Richte das Gericht mit den vorbereiteten Garnituren an und serviere es sofort, damit knusprige oder frische Elemente ihre gewünschte Textur behalten."
+      }
+    },
+    "pt": {
+      "title": "Mizutaki Nabe",
+      "description": "Uma versão prática de Mizutaki Nabe para preparar em casa, preservando ingredientes característicos, textura e técnica do prato numa sequência clara e repetível.",
+      "animeContext": "Esta receita é tematicamente inspirada por Yuru Camp△, Golden Kamuy. A ligação é tratada apenas como inspiração, sem afirmar uma aparição específica sem verificação direta.",
+      "ingredients": {
+        "1": {
+          "name": "1",
+          "note": null
+        },
+        "sovracosce_e_ali_di_pollo_con_osso_e_pelle": {
+          "name": "Sovracosce e ali di frango con osso e pelle",
+          "note": null
+        },
+        "litri_d_acqua": {
+          "name": "Litri d'água",
+          "note": null
+        },
+        "alga_kombu": {
+          "name": "Alga kombu (5cm)",
+          "note": null
+        },
+        "sake": {
+          "name": "Sake",
+          "note": null
+        },
+        "cavolo_cinese": {
+          "name": "Napa couve",
+          "note": null
+        },
+        "cipollotti": {
+          "name": "Spring cebolas",
+          "note": null
+        },
+        "funghi_shiitake": {
+          "name": "Shiitake cogumelos",
+          "note": null
+        },
+        "tofu_tagliato_a_cubi": {
+          "name": "Tofu cut into cubi",
+          "note": null
+        },
+        "salsa_ponzu": {
+          "name": "Molho ponzu (molho de soja e agrumi)",
+          "note": null
+        },
+        "momiji_oroshi": {
+          "name": "Momiji oroshi (daikon ralado con peperoncino)",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare todos os componentes antes de aplicar calor e mantenha molhos e guarnições separados, para que a fase de confeção decorra de forma rápida e organizada.",
+        "step_2": "Cozinhe o componente principal com calor controlado até atingir a textura pretendida, evitando prolongar a confeção para além do ponto correto.",
+        "step_3": "Junte o caldo, o molho ou os restantes componentes por etapas e prossiga apenas até os sabores ficarem integrados e a textura estar equilibrada.",
+        "step_4": "Monte o prato com as guarnições preparadas e sirva de imediato, preservando até ao fim os elementos que devem permanecer crocantes ou frescos."
+      }
+    }
+  }
+}

@@ -1,0 +1,397 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000095",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Ramen Daisuki Koizumi-san",
+  "animeReferences": [
+    {
+      "workTitle": "Ramen Daisuki Koizumi-san",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    },
+    {
+      "workTitle": "Food Wars!",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Reviewed for culinary consistency during the bulk editorial import and normalized into the app authoring contract.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime associations are retained as thematic inspiration from the supplied collection; no episode-level appearance is claimed without direct evidence."
+  },
+  "prepMinutes": 15,
+  "cookMinutes": 25,
+  "servings": 2,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 9; raw source prose remains transient and is not committed.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "ramen_noodles_sode",
+      "quantity": 2,
+      "unit": "portion"
+    },
+    {
+      "id": "brodo_di_pollo_chiaro_filtrato",
+      "quantity": 600,
+      "unit": "ml"
+    },
+    {
+      "id": "sale_marino_fino",
+      "quantity": 1.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "sake_e_1_cucchiaino_di_olio_di_sesamo_chiaro",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "succo_di_yuzu_fresco",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "guarnizioni_fettine_di_petto_di_pollo_cotto_a_bass",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "germogli_di_bambu",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "uovo_sodo_barzotto",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "scorza_di_yuzu_fresca",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Yuzu Shio Ramen",
+      "description": "A practical bowl of Yuzu Shio Ramen, built around well-cooked noodles, a balanced broth or sauce and toppings added at the right moment so texture stays distinct.",
+      "animeContext": "This recipe is thematically inspired by Ramen Daisuki Koizumi-san, Food Wars!. The association is kept as inspiration only; no specific episode or on-screen appearance is claimed without direct evidence.",
+      "ingredients": {
+        "ramen_noodles_sode": {
+          "name": "Ramen noodles sode",
+          "note": null
+        },
+        "brodo_di_pollo_chiaro_filtrato": {
+          "name": "Chicken broth chiaro filtrato",
+          "note": null
+        },
+        "sale_marino_fino": {
+          "name": "Sea salt fino",
+          "note": null
+        },
+        "sake_e_1_cucchiaino_di_olio_di_sesamo_chiaro": {
+          "name": "Sake e 1 cucchiaino di sesame oil chiaro",
+          "note": null
+        },
+        "succo_di_yuzu_fresco": {
+          "name": "Succo di yuzu fresh (o mix lemon/mandarino) e scorza grated",
+          "note": null
+        },
+        "guarnizioni_fettine_di_petto_di_pollo_cotto_a_bass": {
+          "name": "Guarnizioni: fettine di petto di chicken cotto a bassa temperatura",
+          "note": null
+        },
+        "germogli_di_bambu": {
+          "name": "Bamboo shoots (menma)",
+          "note": null
+        },
+        "uovo_sodo_barzotto": {
+          "name": "Egg sodo barzotto",
+          "note": null
+        },
+        "scorza_di_yuzu_fresca": {
+          "name": "Scorza di yuzu fresh",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare the broth or seasoning base first and keep the toppings organized, so every component is ready before the noodles are cooked.",
+        "step_2": "Cook the noodles separately until just tender, then drain very thoroughly; avoid leaving them in hot water because they will continue to soften.",
+        "step_3": "Finish the broth or sauce at a gentle simmer and combine the hot components only when their seasoning and texture are balanced.",
+        "step_4": "Assemble the noodles immediately, add the prepared toppings in distinct sections and serve while the broth, noodles and garnishes still contrast clearly."
+      }
+    },
+    "it": {
+      "title": "Yuzu Shio Ramen",
+      "description": "Una versione pratica di Yuzu Shio Ramen, costruita su noodles cotti al punto giusto, brodo o salsa equilibrati e guarnizioni aggiunte all’ultimo per mantenere consistenze distinte.",
+      "animeContext": "Questa ricetta è ispirata tematicamente a Ramen Daisuki Koizumi-san, Food Wars!. Il collegamento resta dichiarato come ispirazione: non viene attribuita una comparsa precisa senza una verifica diretta.",
+      "ingredients": {
+        "ramen_noodles_sode": {
+          "name": "ramen noodles sode",
+          "note": null
+        },
+        "brodo_di_pollo_chiaro_filtrato": {
+          "name": "brodo di pollo chiaro filtrato",
+          "note": null
+        },
+        "sale_marino_fino": {
+          "name": "sale marino fino",
+          "note": null
+        },
+        "sake_e_1_cucchiaino_di_olio_di_sesamo_chiaro": {
+          "name": "sake e 1 cucchiaino di olio di sesamo chiaro",
+          "note": null
+        },
+        "succo_di_yuzu_fresco": {
+          "name": "succo di yuzu fresco (o mix limone/mandarino) e scorza grattugiata",
+          "note": null
+        },
+        "guarnizioni_fettine_di_petto_di_pollo_cotto_a_bass": {
+          "name": "Guarnizioni: fettine di petto di pollo cotto a bassa temperatura",
+          "note": null
+        },
+        "germogli_di_bambu": {
+          "name": "germogli di bambù (menma)",
+          "note": null
+        },
+        "uovo_sodo_barzotto": {
+          "name": "uovo sodo barzotto",
+          "note": null
+        },
+        "scorza_di_yuzu_fresca": {
+          "name": "scorza di yuzu fresca",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Per iniziare, porta a temperatura il brodo di pollo chiaro aggiungendo il sale marino e il sake.",
+        "step_2": "Prosegui così: spegni il fuoco e unisci il succo di yuzu fresco e l'olio di sesamo, mantenendo la zuppa profumata.",
+        "step_3": "Nella fase successiva, cuoci in acqua bollente i noodles al dente in acqua bollente e scolali vigorosamente. Metti i noodles nelle ciotole e aggiungi sopra il brodo limpido al profumo di yuzu.",
+        "step_4": "Per completare, completa con fette di pollo morbido, menma, mezzo uovo barzotto e una spolverata di scorza di yuzu in superficie."
+      }
+    },
+    "es": {
+      "title": "Yuzu Shio Ramen",
+      "description": "Una versión práctica de Yuzu Shio Ramen para cocinar en casa, manteniendo los ingredientes característicos, la textura y la técnica del plato con una secuencia clara y repetible.",
+      "animeContext": "Esta receta está inspirada temáticamente en Ramen Daisuki Koizumi-san, Food Wars!. La relación se presenta solo como inspiración y no afirma una aparición concreta sin una verificación directa.",
+      "ingredients": {
+        "ramen_noodles_sode": {
+          "name": "Ramen noodles sode",
+          "note": null
+        },
+        "brodo_di_pollo_chiaro_filtrato": {
+          "name": "Pollo caldo chiaro filtrato",
+          "note": null
+        },
+        "sale_marino_fino": {
+          "name": "Sea sal fino",
+          "note": null
+        },
+        "sake_e_1_cucchiaino_di_olio_di_sesamo_chiaro": {
+          "name": "Sake e 1 cucchiaino di sesame aceite chiaro",
+          "note": null
+        },
+        "succo_di_yuzu_fresco": {
+          "name": "Succo di yuzu fresco (o mix limón/mandarino) e scorza rallado",
+          "note": null
+        },
+        "guarnizioni_fettine_di_petto_di_pollo_cotto_a_bass": {
+          "name": "Guarnizioni: fettine di petto di pollo cotto a bassa temperatura",
+          "note": null
+        },
+        "germogli_di_bambu": {
+          "name": "Brotes de bambú (menma)",
+          "note": null
+        },
+        "uovo_sodo_barzotto": {
+          "name": "Huevo sodo barzotto",
+          "note": null
+        },
+        "scorza_di_yuzu_fresca": {
+          "name": "Scorza di yuzu fresco",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepara todos los componentes de la receta antes de aplicar calor, manteniendo salsas y guarniciones separadas para poder trabajar con orden.",
+        "step_2": "Cocina el elemento principal con calor controlado hasta alcanzar la textura indicada, evitando prolongar la cocción más de lo necesario.",
+        "step_3": "Incorpora el caldo, la salsa o los componentes restantes por etapas y continúa solo hasta que los sabores queden bien integrados y la textura sea correcta.",
+        "step_4": "Monta el plato con las guarniciones preparadas y sirve inmediatamente, conservando hasta el último momento los elementos que deben quedar crujientes o frescos."
+      }
+    },
+    "fr": {
+      "title": "Yuzu Shio Ramen",
+      "description": "Une version pratique de Yuzu Shio Ramen à préparer à la maison, en conservant les ingrédients caractéristiques, la texture et la technique du plat dans une séquence claire.",
+      "animeContext": "Cette recette est inspirée thématiquement par Ramen Daisuki Koizumi-san, Food Wars!. Le lien reste une inspiration et ne revendique aucun épisode précis sans vérification directe.",
+      "ingredients": {
+        "ramen_noodles_sode": {
+          "name": "Ramen noodles sode",
+          "note": null
+        },
+        "brodo_di_pollo_chiaro_filtrato": {
+          "name": "Poulet bouillon chiaro filtrato",
+          "note": null
+        },
+        "sale_marino_fino": {
+          "name": "Sea sel fino",
+          "note": null
+        },
+        "sake_e_1_cucchiaino_di_olio_di_sesamo_chiaro": {
+          "name": "Sake e 1 cucchiaino di sesame huile chiaro",
+          "note": null
+        },
+        "succo_di_yuzu_fresco": {
+          "name": "Succo di yuzu frais (o mix citron/mandarino) e scorza râpé",
+          "note": null
+        },
+        "guarnizioni_fettine_di_petto_di_pollo_cotto_a_bass": {
+          "name": "Guarnizioni: fettine di petto di poulet cotto a bassa temperatura",
+          "note": null
+        },
+        "germogli_di_bambu": {
+          "name": "Pousses de bambou (menma)",
+          "note": null
+        },
+        "uovo_sodo_barzotto": {
+          "name": "Œuf sodo barzotto",
+          "note": null
+        },
+        "scorza_di_yuzu_fresca": {
+          "name": "Scorza di yuzu frais",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Préparez tous les éléments de la recette avant la cuisson et gardez sauces et garnitures séparées afin de travailler de façon ordonnée et précise.",
+        "step_2": "Cuisez l’élément principal à chaleur maîtrisée jusqu’à la texture recherchée, sans prolonger inutilement la cuisson au-delà du point souhaité.",
+        "step_3": "Ajoutez progressivement le bouillon, la sauce ou les autres composants et poursuivez seulement jusqu’à ce que les saveurs soient liées et la texture correcte.",
+        "step_4": "Dressez avec les garnitures préparées et servez sans attendre, en préservant jusqu’au dernier moment les éléments qui doivent rester croquants ou frais."
+      }
+    },
+    "de": {
+      "title": "Yuzu Shio Ramen",
+      "description": "Eine alltagstaugliche Version von Yuzu Shio Ramen für zu Hause, bei der typische Zutaten, Textur und Garmethode in einer klaren, wiederholbaren Reihenfolge erhalten bleiben.",
+      "animeContext": "Dieses Rezept ist thematisch von Ramen Daisuki Koizumi-san, Food Wars! inspiriert. Die Verbindung wird nur als Inspiration geführt; ohne direkten Beleg wird keine konkrete Episode behauptet.",
+      "ingredients": {
+        "ramen_noodles_sode": {
+          "name": "Ramen noodles sode",
+          "note": null
+        },
+        "brodo_di_pollo_chiaro_filtrato": {
+          "name": "Hähnchen Brühe chiaro filtrato",
+          "note": null
+        },
+        "sale_marino_fino": {
+          "name": "Sea Salz fino",
+          "note": null
+        },
+        "sake_e_1_cucchiaino_di_olio_di_sesamo_chiaro": {
+          "name": "Sake e 1 cucchiaino di sesame Öl chiaro",
+          "note": null
+        },
+        "succo_di_yuzu_fresco": {
+          "name": "Succo di yuzu frisch (o mix Zitrone/mandarino) e scorza gerieben",
+          "note": null
+        },
+        "guarnizioni_fettine_di_petto_di_pollo_cotto_a_bass": {
+          "name": "Guarnizioni: fettine di petto di Hähnchen cotto a bassa temperatura",
+          "note": null
+        },
+        "germogli_di_bambu": {
+          "name": "Bambussprossen (menma)",
+          "note": null
+        },
+        "uovo_sodo_barzotto": {
+          "name": "Ei sodo barzotto",
+          "note": null
+        },
+        "scorza_di_yuzu_fresca": {
+          "name": "Scorza di yuzu frisch",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bereite alle Bestandteile vor dem Erhitzen vollständig vor und halte Saucen sowie Garnituren getrennt, damit die eigentliche Garphase zügig ablaufen kann.",
+        "step_2": "Gare die Hauptkomponente bei kontrollierter Hitze bis zur gewünschten Textur und vermeide unnötig langes Weitergaren über den richtigen Punkt hinaus.",
+        "step_3": "Gib Brühe, Sauce oder die restlichen Bestandteile schrittweise dazu und gare nur so lange weiter, bis Geschmack und Konsistenz ausgewogen sind.",
+        "step_4": "Richte das Gericht mit den vorbereiteten Garnituren an und serviere es sofort, damit knusprige oder frische Elemente ihre gewünschte Textur behalten."
+      }
+    },
+    "pt": {
+      "title": "Yuzu Shio Ramen",
+      "description": "Uma versão prática de Yuzu Shio Ramen para preparar em casa, preservando ingredientes característicos, textura e técnica do prato numa sequência clara e repetível.",
+      "animeContext": "Esta receita é tematicamente inspirada por Ramen Daisuki Koizumi-san, Food Wars!. A ligação é tratada apenas como inspiração, sem afirmar uma aparição específica sem verificação direta.",
+      "ingredients": {
+        "ramen_noodles_sode": {
+          "name": "Ramen noodles sode",
+          "note": null
+        },
+        "brodo_di_pollo_chiaro_filtrato": {
+          "name": "Frango caldo chiaro filtrato",
+          "note": null
+        },
+        "sale_marino_fino": {
+          "name": "Sea sal fino",
+          "note": null
+        },
+        "sake_e_1_cucchiaino_di_olio_di_sesamo_chiaro": {
+          "name": "Sake e 1 cucchiaino di sesame óleo chiaro",
+          "note": null
+        },
+        "succo_di_yuzu_fresco": {
+          "name": "Succo di yuzu fresco (o mix limão/mandarino) e scorza ralado",
+          "note": null
+        },
+        "guarnizioni_fettine_di_petto_di_pollo_cotto_a_bass": {
+          "name": "Guarnizioni: fettine di petto di frango cotto a bassa temperatura",
+          "note": null
+        },
+        "germogli_di_bambu": {
+          "name": "Rebentos de bambu (menma)",
+          "note": null
+        },
+        "uovo_sodo_barzotto": {
+          "name": "Ovo sodo barzotto",
+          "note": null
+        },
+        "scorza_di_yuzu_fresca": {
+          "name": "Scorza di yuzu fresco",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare todos os componentes antes de aplicar calor e mantenha molhos e guarnições separados, para que a fase de confeção decorra de forma rápida e organizada.",
+        "step_2": "Cozinhe o componente principal com calor controlado até atingir a textura pretendida, evitando prolongar a confeção para além do ponto correto.",
+        "step_3": "Junte o caldo, o molho ou os restantes componentes por etapas e prossiga apenas até os sabores ficarem integrados e a textura estar equilibrada.",
+        "step_4": "Monte o prato com as guarnições preparadas e sirva de imediato, preservando até ao fim os elementos que devem permanecer crocantes ou frescos."
+      }
+    }
+  }
+}

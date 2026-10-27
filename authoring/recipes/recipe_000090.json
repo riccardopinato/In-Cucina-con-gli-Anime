@@ -1,0 +1,455 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000090",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Naruto",
+  "animeReferences": [
+    {
+      "workTitle": "Naruto",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    },
+    {
+      "workTitle": "Ramen Daisuki Koizumi-san",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Reviewed for culinary consistency during the bulk editorial import and normalized into the app authoring contract.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime associations are retained as thematic inspiration from the supplied collection; no episode-level appearance is claimed without direct evidence."
+  },
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "servings": 2,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 9; raw source prose remains transient and is not committed.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "tagliolini_per_ramen_freschi",
+      "quantity": 2,
+      "unit": "portion"
+    },
+    {
+      "id": "brodo_dashi_o_brodo_di_pollo_leggero",
+      "quantity": 600,
+      "unit": "ml"
+    },
+    {
+      "id": "salsa_di_soia_scura",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "mirin",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "d_aglio_schiacciato",
+      "quantity": 1,
+      "unit": "piece"
+    },
+    {
+      "id": "zenzero_fresco",
+      "quantity": 1,
+      "unit": "slice"
+    },
+    {
+      "id": "fettine_di_chashu",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "uovo_marinato_ajitsuke_tamago_a_meta",
+      "quantity": 1,
+      "unit": "piece"
+    },
+    {
+      "id": "naruto",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "cipollotto_fresco_affettato",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "id": "alga_nori",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Shoyu Ramen Classic",
+      "description": "A practical bowl of Shoyu Ramen Classic, built around well-cooked noodles, a balanced broth or sauce and toppings added at the right moment so texture stays distinct.",
+      "animeContext": "This recipe is thematically inspired by Naruto, Ramen Daisuki Koizumi-san. The association is kept as inspiration only; no specific episode or on-screen appearance is claimed without direct evidence.",
+      "ingredients": {
+        "tagliolini_per_ramen_freschi": {
+          "name": "Tagliolini per ramen fresh",
+          "note": null
+        },
+        "brodo_dashi_o_brodo_di_pollo_leggero": {
+          "name": "Dashi broth o chicken broth leggero",
+          "note": null
+        },
+        "salsa_di_soia_scura": {
+          "name": "Soy sauce scura",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "d_aglio_schiacciato": {
+          "name": "D'garlic schiacciato",
+          "note": null
+        },
+        "zenzero_fresco": {
+          "name": "Ginger fresh",
+          "note": null
+        },
+        "fettine_di_chashu": {
+          "name": "Fettine di chashu (pancia di pork)",
+          "note": null
+        },
+        "uovo_marinato_ajitsuke_tamago_a_meta": {
+          "name": "Egg marinato ajitsuke tamago a metà",
+          "note": null
+        },
+        "naruto": {
+          "name": "Naruto (pasta di pesce a spirale)",
+          "note": null
+        },
+        "cipollotto_fresco_affettato": {
+          "name": "Spring onion fresh sliced",
+          "note": null
+        },
+        "alga_nori": {
+          "name": "Nori",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare the broth or seasoning base first and keep the toppings organized, so every component is ready before the noodles are cooked.",
+        "step_2": "Cook the noodles separately until just tender, then drain very thoroughly; avoid leaving them in hot water because they will continue to soften.",
+        "step_3": "Finish the broth or sauce at a gentle simmer and combine the hot components only when their seasoning and texture are balanced.",
+        "step_4": "Assemble the noodles immediately, add the prepared toppings in distinct sections and serve while the broth, noodles and garnishes still contrast clearly."
+      }
+    },
+    "it": {
+      "title": "Shoyu Ramen Classic",
+      "description": "Una versione pratica di Shoyu Ramen Classic, costruita su noodles cotti al punto giusto, brodo o salsa equilibrati e guarnizioni aggiunte all’ultimo per mantenere consistenze distinte.",
+      "animeContext": "Questa ricetta è ispirata tematicamente a Naruto, Ramen Daisuki Koizumi-san. Il collegamento resta dichiarato come ispirazione: non viene attribuita una comparsa precisa senza una verifica diretta.",
+      "ingredients": {
+        "tagliolini_per_ramen_freschi": {
+          "name": "tagliolini per ramen freschi",
+          "note": null
+        },
+        "brodo_dashi_o_brodo_di_pollo_leggero": {
+          "name": "brodo dashi o brodo di pollo leggero",
+          "note": null
+        },
+        "salsa_di_soia_scura": {
+          "name": "salsa di soia scura",
+          "note": null
+        },
+        "mirin": {
+          "name": "mirin",
+          "note": null
+        },
+        "d_aglio_schiacciato": {
+          "name": "d'aglio schiacciato",
+          "note": null
+        },
+        "zenzero_fresco": {
+          "name": "zenzero fresco",
+          "note": null
+        },
+        "fettine_di_chashu": {
+          "name": "fettine di Chashu (pancia di maiale)",
+          "note": null
+        },
+        "uovo_marinato_ajitsuke_tamago_a_meta": {
+          "name": "uovo marinato Ajitsuke Tamago a metà",
+          "note": null
+        },
+        "naruto": {
+          "name": "naruto (pasta di pesce a spirale)",
+          "note": null
+        },
+        "cipollotto_fresco_affettato": {
+          "name": "cipollotto fresco affettato",
+          "note": null
+        },
+        "alga_nori": {
+          "name": "alga nori",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Per iniziare, in un pentolino porta a temperatura la salsa di soia, il mirin, lo zenzero e l'aglio per 3 minuti a fuoco lento.",
+        "step_2": "Prosegui così: aggiungi il fondo filtrato sul fondo di due ampie ciotole da ramen.",
+        "step_3": "Nella fase successiva, porta a ebollizione il brodo e aggiungilo bollente nelle ciotole, amalgamando bene con il tare. Cuoci in acqua bollente i noodles per ramen in abbondante acqua bollente per 2 minuti, scolali accuratamente e adagiali delicatamente nel brodo.",
+        "step_4": "Per completare, decora la superficie disponendo le fettine di chashu, il naruto affettato, l'uovo marinato diviso in due, abbondante cipollotto tritato e un foglio di alga nori infilato sul bordo della ciotola. Porta in tavolare bollente."
+      }
+    },
+    "es": {
+      "title": "Shoyu Ramen Classic",
+      "description": "Una versión práctica de Shoyu Ramen Classic para cocinar en casa, manteniendo los ingredientes característicos, la textura y la técnica del plato con una secuencia clara y repetible.",
+      "animeContext": "Esta receta está inspirada temáticamente en Naruto, Ramen Daisuki Koizumi-san. La relación se presenta solo como inspiración y no afirma una aparición concreta sin una verificación directa.",
+      "ingredients": {
+        "tagliolini_per_ramen_freschi": {
+          "name": "Tagliolini per ramen fresco",
+          "note": null
+        },
+        "brodo_dashi_o_brodo_di_pollo_leggero": {
+          "name": "Dashi caldo o pollo caldo leggero",
+          "note": null
+        },
+        "salsa_di_soia_scura": {
+          "name": "Salsa de soja scura",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "d_aglio_schiacciato": {
+          "name": "D'ajo schiacciato",
+          "note": null
+        },
+        "zenzero_fresco": {
+          "name": "Jengibre fresco",
+          "note": null
+        },
+        "fettine_di_chashu": {
+          "name": "Fettine di chashu (pancia di cerdo)",
+          "note": null
+        },
+        "uovo_marinato_ajitsuke_tamago_a_meta": {
+          "name": "Huevo marinato ajitsuke tamago a metà",
+          "note": null
+        },
+        "naruto": {
+          "name": "Naruto (pasta di pesce a spirale)",
+          "note": null
+        },
+        "cipollotto_fresco_affettato": {
+          "name": "Spring cebolla fresco en rodajas",
+          "note": null
+        },
+        "alga_nori": {
+          "name": "Nori",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepara todos los componentes de la receta antes de aplicar calor, manteniendo salsas y guarniciones separadas para poder trabajar con orden.",
+        "step_2": "Cocina el elemento principal con calor controlado hasta alcanzar la textura indicada, evitando prolongar la cocción más de lo necesario.",
+        "step_3": "Incorpora el caldo, la salsa o los componentes restantes por etapas y continúa solo hasta que los sabores queden bien integrados y la textura sea correcta.",
+        "step_4": "Monta el plato con las guarniciones preparadas y sirve inmediatamente, conservando hasta el último momento los elementos que deben quedar crujientes o frescos."
+      }
+    },
+    "fr": {
+      "title": "Shoyu Ramen Classic",
+      "description": "Une version pratique de Shoyu Ramen Classic à préparer à la maison, en conservant les ingrédients caractéristiques, la texture et la technique du plat dans une séquence claire.",
+      "animeContext": "Cette recette est inspirée thématiquement par Naruto, Ramen Daisuki Koizumi-san. Le lien reste une inspiration et ne revendique aucun épisode précis sans vérification directe.",
+      "ingredients": {
+        "tagliolini_per_ramen_freschi": {
+          "name": "Tagliolini per ramen frais",
+          "note": null
+        },
+        "brodo_dashi_o_brodo_di_pollo_leggero": {
+          "name": "Dashi bouillon o poulet bouillon leggero",
+          "note": null
+        },
+        "salsa_di_soia_scura": {
+          "name": "Sauce soja scura",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "d_aglio_schiacciato": {
+          "name": "D'ail schiacciato",
+          "note": null
+        },
+        "zenzero_fresco": {
+          "name": "Gingembre frais",
+          "note": null
+        },
+        "fettine_di_chashu": {
+          "name": "Fettine di chashu (pancia di porc)",
+          "note": null
+        },
+        "uovo_marinato_ajitsuke_tamago_a_meta": {
+          "name": "Œuf marinato ajitsuke tamago a metà",
+          "note": null
+        },
+        "naruto": {
+          "name": "Naruto (pasta di pesce a spirale)",
+          "note": null
+        },
+        "cipollotto_fresco_affettato": {
+          "name": "Spring oignon frais tranché",
+          "note": null
+        },
+        "alga_nori": {
+          "name": "Nori",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Préparez tous les éléments de la recette avant la cuisson et gardez sauces et garnitures séparées afin de travailler de façon ordonnée et précise.",
+        "step_2": "Cuisez l’élément principal à chaleur maîtrisée jusqu’à la texture recherchée, sans prolonger inutilement la cuisson au-delà du point souhaité.",
+        "step_3": "Ajoutez progressivement le bouillon, la sauce ou les autres composants et poursuivez seulement jusqu’à ce que les saveurs soient liées et la texture correcte.",
+        "step_4": "Dressez avec les garnitures préparées et servez sans attendre, en préservant jusqu’au dernier moment les éléments qui doivent rester croquants ou frais."
+      }
+    },
+    "de": {
+      "title": "Shoyu Ramen Classic",
+      "description": "Eine alltagstaugliche Version von Shoyu Ramen Classic für zu Hause, bei der typische Zutaten, Textur und Garmethode in einer klaren, wiederholbaren Reihenfolge erhalten bleiben.",
+      "animeContext": "Dieses Rezept ist thematisch von Naruto, Ramen Daisuki Koizumi-san inspiriert. Die Verbindung wird nur als Inspiration geführt; ohne direkten Beleg wird keine konkrete Episode behauptet.",
+      "ingredients": {
+        "tagliolini_per_ramen_freschi": {
+          "name": "Tagliolini per ramen frisch",
+          "note": null
+        },
+        "brodo_dashi_o_brodo_di_pollo_leggero": {
+          "name": "Dashi Brühe o Hähnchen Brühe leggero",
+          "note": null
+        },
+        "salsa_di_soia_scura": {
+          "name": "Sojasauce scura",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "d_aglio_schiacciato": {
+          "name": "D'Knoblauch schiacciato",
+          "note": null
+        },
+        "zenzero_fresco": {
+          "name": "Ingwer frisch",
+          "note": null
+        },
+        "fettine_di_chashu": {
+          "name": "Fettine di chashu (pancia di Schweinefleisch)",
+          "note": null
+        },
+        "uovo_marinato_ajitsuke_tamago_a_meta": {
+          "name": "Ei marinato ajitsuke tamago a metà",
+          "note": null
+        },
+        "naruto": {
+          "name": "Naruto (pasta di pesce a spirale)",
+          "note": null
+        },
+        "cipollotto_fresco_affettato": {
+          "name": "Spring Zwiebel frisch in Scheiben",
+          "note": null
+        },
+        "alga_nori": {
+          "name": "Nori",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bereite alle Bestandteile vor dem Erhitzen vollständig vor und halte Saucen sowie Garnituren getrennt, damit die eigentliche Garphase zügig ablaufen kann.",
+        "step_2": "Gare die Hauptkomponente bei kontrollierter Hitze bis zur gewünschten Textur und vermeide unnötig langes Weitergaren über den richtigen Punkt hinaus.",
+        "step_3": "Gib Brühe, Sauce oder die restlichen Bestandteile schrittweise dazu und gare nur so lange weiter, bis Geschmack und Konsistenz ausgewogen sind.",
+        "step_4": "Richte das Gericht mit den vorbereiteten Garnituren an und serviere es sofort, damit knusprige oder frische Elemente ihre gewünschte Textur behalten."
+      }
+    },
+    "pt": {
+      "title": "Shoyu Ramen Classic",
+      "description": "Uma versão prática de Shoyu Ramen Classic para preparar em casa, preservando ingredientes característicos, textura e técnica do prato numa sequência clara e repetível.",
+      "animeContext": "Esta receita é tematicamente inspirada por Naruto, Ramen Daisuki Koizumi-san. A ligação é tratada apenas como inspiração, sem afirmar uma aparição específica sem verificação direta.",
+      "ingredients": {
+        "tagliolini_per_ramen_freschi": {
+          "name": "Tagliolini per ramen fresco",
+          "note": null
+        },
+        "brodo_dashi_o_brodo_di_pollo_leggero": {
+          "name": "Dashi caldo o frango caldo leggero",
+          "note": null
+        },
+        "salsa_di_soia_scura": {
+          "name": "Molho de soja scura",
+          "note": null
+        },
+        "mirin": {
+          "name": "Mirin",
+          "note": null
+        },
+        "d_aglio_schiacciato": {
+          "name": "D'alho schiacciato",
+          "note": null
+        },
+        "zenzero_fresco": {
+          "name": "Gengibre fresco",
+          "note": null
+        },
+        "fettine_di_chashu": {
+          "name": "Fettine di chashu (pancia di porco)",
+          "note": null
+        },
+        "uovo_marinato_ajitsuke_tamago_a_meta": {
+          "name": "Ovo marinato ajitsuke tamago a metà",
+          "note": null
+        },
+        "naruto": {
+          "name": "Naruto (pasta di pesce a spirale)",
+          "note": null
+        },
+        "cipollotto_fresco_affettato": {
+          "name": "Spring cebola fresco fatiado",
+          "note": null
+        },
+        "alga_nori": {
+          "name": "Nori",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare todos os componentes antes de aplicar calor e mantenha molhos e guarnições separados, para que a fase de confeção decorra de forma rápida e organizada.",
+        "step_2": "Cozinhe o componente principal com calor controlado até atingir a textura pretendida, evitando prolongar a confeção para além do ponto correto.",
+        "step_3": "Junte o caldo, o molho ou os restantes componentes por etapas e prossiga apenas até os sabores ficarem integrados e a textura estar equilibrada.",
+        "step_4": "Monte o prato com as guarnições preparadas e sirva de imediato, preservando até ao fim os elementos que devem permanecer crocantes ou frescos."
+      }
+    }
+  }
+}

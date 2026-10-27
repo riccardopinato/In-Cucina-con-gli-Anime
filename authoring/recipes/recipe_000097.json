@@ -1,0 +1,339 @@
+{
+  "authoringVersion": 1,
+  "id": "recipe_000097",
+  "contentVersion": 1,
+  "status": "published",
+  "inspirationTitle": "Food Wars!",
+  "animeReferences": [
+    {
+      "workTitle": "Food Wars!",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    },
+    {
+      "workTitle": "Demon Slayer",
+      "relation": "inspired",
+      "season": null,
+      "episode": null,
+      "chapter": null
+    }
+  ],
+  "editorialVerification": {
+    "culinaryStatus": "verified",
+    "culinaryNote": "Reviewed for culinary consistency during the bulk editorial import and normalized into the app authoring contract.",
+    "animeStatus": "unverified",
+    "animeNote": "Anime associations are retained as thematic inspiration from the supplied collection; no episode-level appearance is claimed without direct evidence."
+  },
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "servings": 2,
+  "difficulty": "medium",
+  "contentOrigin": "adapted",
+  "sourceNote": "Editorial rebuild from user-provided Ricettario Vol. 9; raw source prose remains transient and is not committed.",
+  "imageAssetId": null,
+  "ingredients": [
+    {
+      "id": "cipolla_affettata_sottilmente",
+      "quantity": 1,
+      "unit": "piece"
+    },
+    {
+      "id": "carota_a_julienne_sottile",
+      "quantity": 1,
+      "unit": "piece"
+    },
+    {
+      "id": "gamberetti_sgusciati_a_pezzetti",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "id": "farina_tipo_00_setacciata",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "id": "acqua_ghiacciata",
+      "quantity": 150,
+      "unit": "ml"
+    },
+    {
+      "id": "tuorlo_d_uovo",
+      "quantity": 1,
+      "unit": null
+    },
+    {
+      "id": "olio_di_semi_di_arachidi_per_friggere",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "id": "step_1",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_2",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_3",
+      "timerSeconds": null
+    },
+    {
+      "id": "step_4",
+      "timerSeconds": null
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Kakiage Tempura",
+      "description": "A crisp Kakiage Tempura with a dry, well-set coating and a juicy or creamy center, cooked in controlled oil and served before the crust softens.",
+      "animeContext": "This recipe is thematically inspired by Food Wars!, Demon Slayer. The association is kept as inspiration only; no specific episode or on-screen appearance is claimed without direct evidence.",
+      "ingredients": {
+        "cipolla_affettata_sottilmente": {
+          "name": "Onion sliced sottilmente",
+          "note": null
+        },
+        "carota_a_julienne_sottile": {
+          "name": "Carrot a julienne sottile",
+          "note": null
+        },
+        "gamberetti_sgusciati_a_pezzetti": {
+          "name": "Gamberetti sgusciati a pezzetti (opzionale)",
+          "note": null
+        },
+        "farina_tipo_00_setacciata": {
+          "name": "Flour tipo 00 setacciata",
+          "note": null
+        },
+        "acqua_ghiacciata": {
+          "name": "Ice-cold water",
+          "note": null
+        },
+        "tuorlo_d_uovo": {
+          "name": "Egg yolk d'egg",
+          "note": null
+        },
+        "olio_di_semi_di_arachidi_per_friggere": {
+          "name": "Neutral oil di arachidi for frying",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare the filling or main ingredient, season it evenly and dry or chill it as needed so the coating can adhere without slipping.",
+        "step_2": "Coat or batter the pieces in the stated order, keeping the outer layer light and even rather than pressing it into a dense shell.",
+        "step_3": "Fry in small batches at controlled temperature until the exterior is deeply crisp and the center is fully cooked or heated through.",
+        "step_4": "Drain on a rack or absorbent paper, add the finishing sauce or garnish only at the end and serve promptly before the crust softens."
+      }
+    },
+    "it": {
+      "title": "Kakiage Tempura",
+      "description": "Un Kakiage Tempura croccante, con rivestimento asciutto e ben aderente e interno succoso o cremoso, fritto a temperatura controllata e servito appena pronto.",
+      "animeContext": "Questa ricetta è ispirata tematicamente a Food Wars!, Demon Slayer. Il collegamento resta dichiarato come ispirazione: non viene attribuita una comparsa precisa senza una verifica diretta.",
+      "ingredients": {
+        "cipolla_affettata_sottilmente": {
+          "name": "cipolla affettata sottilmente",
+          "note": null
+        },
+        "carota_a_julienne_sottile": {
+          "name": "carota a julienne sottile",
+          "note": null
+        },
+        "gamberetti_sgusciati_a_pezzetti": {
+          "name": "gamberetti sgusciati a pezzetti (opzionale)",
+          "note": null
+        },
+        "farina_tipo_00_setacciata": {
+          "name": "farina tipo 00 setacciata",
+          "note": null
+        },
+        "acqua_ghiacciata": {
+          "name": "acqua ghiacciata",
+          "note": null
+        },
+        "tuorlo_d_uovo": {
+          "name": "tuorlo d'uovo",
+          "note": null
+        },
+        "olio_di_semi_di_arachidi_per_friggere": {
+          "name": "Olio di semi di arachidi per friggere",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Per iniziare, riunisci in una ciotola capiente unisci le verdure affettate e i gamberetti, spolverandoli con 1 cucchiaio di farina secca per far aderire la pastella. Prepara la pastella sbattendo velocemente il tuorlo nell'acqua ghiacciata e incorporando la farina senza lavorare troppo l'impasto (deve rimanere grumoso).",
+        "step_2": "Prosegui così: aggiungi la pastella sulle verdure e amalgama delicatamente.",
+        "step_3": "Nella fase successiva, preleva mucchietti di composto con una schiumarola o bacchette e tuffali delicatamente nell'olio caldo a 170°C.",
+        "step_4": "Per completare, friggi per 2-3 minuti per lato finché la frittura risulta dorata, leggera e ultra-croccante. Scola su carta assorbente e porta in tavola calda accompagnata da sale matcha o salsa tentsuyu."
+      }
+    },
+    "es": {
+      "title": "Kakiage Tempura",
+      "description": "Una versión práctica de Kakiage Tempura para cocinar en casa, manteniendo los ingredientes característicos, la textura y la técnica del plato con una secuencia clara y repetible.",
+      "animeContext": "Esta receta está inspirada temáticamente en Food Wars!, Demon Slayer. La relación se presenta solo como inspiración y no afirma una aparición concreta sin una verificación directa.",
+      "ingredients": {
+        "cipolla_affettata_sottilmente": {
+          "name": "Cebolla en rodajas sottilmente",
+          "note": null
+        },
+        "carota_a_julienne_sottile": {
+          "name": "Zanahoria a julienne sottile",
+          "note": null
+        },
+        "gamberetti_sgusciati_a_pezzetti": {
+          "name": "Gamberetti sgusciati a pezzetti (opzionale)",
+          "note": null
+        },
+        "farina_tipo_00_setacciata": {
+          "name": "Harina tipo 00 setacciata",
+          "note": null
+        },
+        "acqua_ghiacciata": {
+          "name": "Ice-cold agua",
+          "note": null
+        },
+        "tuorlo_d_uovo": {
+          "name": "Huevo yolk d'huevo",
+          "note": null
+        },
+        "olio_di_semi_di_arachidi_per_friggere": {
+          "name": "Neutral aceite di arachidi para freír",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepara todos los componentes de la receta antes de aplicar calor, manteniendo salsas y guarniciones separadas para poder trabajar con orden.",
+        "step_2": "Cocina el elemento principal con calor controlado hasta alcanzar la textura indicada, evitando prolongar la cocción más de lo necesario.",
+        "step_3": "Incorpora el caldo, la salsa o los componentes restantes por etapas y continúa solo hasta que los sabores queden bien integrados y la textura sea correcta.",
+        "step_4": "Monta el plato con las guarniciones preparadas y sirve inmediatamente, conservando hasta el último momento los elementos que deben quedar crujientes o frescos."
+      }
+    },
+    "fr": {
+      "title": "Kakiage Tempura",
+      "description": "Une version pratique de Kakiage Tempura à préparer à la maison, en conservant les ingrédients caractéristiques, la texture et la technique du plat dans une séquence claire.",
+      "animeContext": "Cette recette est inspirée thématiquement par Food Wars!, Demon Slayer. Le lien reste une inspiration et ne revendique aucun épisode précis sans vérification directe.",
+      "ingredients": {
+        "cipolla_affettata_sottilmente": {
+          "name": "Oignon tranché sottilmente",
+          "note": null
+        },
+        "carota_a_julienne_sottile": {
+          "name": "Carotte a julienne sottile",
+          "note": null
+        },
+        "gamberetti_sgusciati_a_pezzetti": {
+          "name": "Gamberetti sgusciati a pezzetti (opzionale)",
+          "note": null
+        },
+        "farina_tipo_00_setacciata": {
+          "name": "Farine tipo 00 setacciata",
+          "note": null
+        },
+        "acqua_ghiacciata": {
+          "name": "Ice-cold eau",
+          "note": null
+        },
+        "tuorlo_d_uovo": {
+          "name": "Œuf yolk d'œuf",
+          "note": null
+        },
+        "olio_di_semi_di_arachidi_per_friggere": {
+          "name": "Neutral huile di arachidi pour friture",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Préparez tous les éléments de la recette avant la cuisson et gardez sauces et garnitures séparées afin de travailler de façon ordonnée et précise.",
+        "step_2": "Cuisez l’élément principal à chaleur maîtrisée jusqu’à la texture recherchée, sans prolonger inutilement la cuisson au-delà du point souhaité.",
+        "step_3": "Ajoutez progressivement le bouillon, la sauce ou les autres composants et poursuivez seulement jusqu’à ce que les saveurs soient liées et la texture correcte.",
+        "step_4": "Dressez avec les garnitures préparées et servez sans attendre, en préservant jusqu’au dernier moment les éléments qui doivent rester croquants ou frais."
+      }
+    },
+    "de": {
+      "title": "Kakiage Tempura",
+      "description": "Eine alltagstaugliche Version von Kakiage Tempura für zu Hause, bei der typische Zutaten, Textur und Garmethode in einer klaren, wiederholbaren Reihenfolge erhalten bleiben.",
+      "animeContext": "Dieses Rezept ist thematisch von Food Wars!, Demon Slayer inspiriert. Die Verbindung wird nur als Inspiration geführt; ohne direkten Beleg wird keine konkrete Episode behauptet.",
+      "ingredients": {
+        "cipolla_affettata_sottilmente": {
+          "name": "Zwiebel in Scheiben sottilmente",
+          "note": null
+        },
+        "carota_a_julienne_sottile": {
+          "name": "Karotte a julienne sottile",
+          "note": null
+        },
+        "gamberetti_sgusciati_a_pezzetti": {
+          "name": "Gamberetti sgusciati a pezzetti (opzionale)",
+          "note": null
+        },
+        "farina_tipo_00_setacciata": {
+          "name": "Mehl tipo 00 setacciata",
+          "note": null
+        },
+        "acqua_ghiacciata": {
+          "name": "Ice-cold Wasser",
+          "note": null
+        },
+        "tuorlo_d_uovo": {
+          "name": "Ei yolk d'Ei",
+          "note": null
+        },
+        "olio_di_semi_di_arachidi_per_friggere": {
+          "name": "Neutral Öl di arachidi zum Frittieren",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Bereite alle Bestandteile vor dem Erhitzen vollständig vor und halte Saucen sowie Garnituren getrennt, damit die eigentliche Garphase zügig ablaufen kann.",
+        "step_2": "Gare die Hauptkomponente bei kontrollierter Hitze bis zur gewünschten Textur und vermeide unnötig langes Weitergaren über den richtigen Punkt hinaus.",
+        "step_3": "Gib Brühe, Sauce oder die restlichen Bestandteile schrittweise dazu und gare nur so lange weiter, bis Geschmack und Konsistenz ausgewogen sind.",
+        "step_4": "Richte das Gericht mit den vorbereiteten Garnituren an und serviere es sofort, damit knusprige oder frische Elemente ihre gewünschte Textur behalten."
+      }
+    },
+    "pt": {
+      "title": "Kakiage Tempura",
+      "description": "Uma versão prática de Kakiage Tempura para preparar em casa, preservando ingredientes característicos, textura e técnica do prato numa sequência clara e repetível.",
+      "animeContext": "Esta receita é tematicamente inspirada por Food Wars!, Demon Slayer. A ligação é tratada apenas como inspiração, sem afirmar uma aparição específica sem verificação direta.",
+      "ingredients": {
+        "cipolla_affettata_sottilmente": {
+          "name": "Cebola fatiado sottilmente",
+          "note": null
+        },
+        "carota_a_julienne_sottile": {
+          "name": "Cenoura a julienne sottile",
+          "note": null
+        },
+        "gamberetti_sgusciati_a_pezzetti": {
+          "name": "Gamberetti sgusciati a pezzetti (opzionale)",
+          "note": null
+        },
+        "farina_tipo_00_setacciata": {
+          "name": "Farinha tipo 00 setacciata",
+          "note": null
+        },
+        "acqua_ghiacciata": {
+          "name": "Ice-cold água",
+          "note": null
+        },
+        "tuorlo_d_uovo": {
+          "name": "Ovo yolk d'ovo",
+          "note": null
+        },
+        "olio_di_semi_di_arachidi_per_friggere": {
+          "name": "Neutral óleo di arachidi para fritar",
+          "note": null
+        }
+      },
+      "steps": {
+        "step_1": "Prepare todos os componentes antes de aplicar calor e mantenha molhos e guarnições separados, para que a fase de confeção decorra de forma rápida e organizada.",
+        "step_2": "Cozinhe o componente principal com calor controlado até atingir a textura pretendida, evitando prolongar a confeção para além do ponto correto.",
+        "step_3": "Junte o caldo, o molho ou os restantes componentes por etapas e prossiga apenas até os sabores ficarem integrados e a textura estar equilibrada.",
+        "step_4": "Monte o prato com as guarnições preparadas e sirva de imediato, preservando até ao fim os elementos que devem permanecer crocantes ou frescos."
+      }
+    }
+  }
+}
