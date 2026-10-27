@@ -4,9 +4,9 @@ Flutter app for original/adapted editorial recipes inspired by food seen in anim
 
 ## Current state
 
-**v0.9 — F3F complete: twenty audited recipes with one optimized original artwork per recipe; F4A remains complete and monetization wiring is unchanged.**
+**v0.11 — 162-recipe catalog complete; F4B implementation restored on the current main and store sandbox proof remains pending.**
 
-F1 remains the runtime contract and F2 remains the authoring/build layer. F3D/F3E established the artwork system; F3F expands the catalog to twenty recipes, fills every recipe artwork slot, audits culinary semantics and hardens batch CI. F4A consent/privacy remains complete, but this editorial batch does not add ad or billing SDKs.
+F1 remains the runtime contract and F2 remains the authoring/build layer. F3J is complete with 162 localized recipes: recipes 1–50 retain approved artwork while recipes 51–162 intentionally use deterministic procedural fallback until their artwork batches are reviewed. F4A consent/privacy remains complete. F4B mounts the official `in_app_purchase` adapter behind the provider-agnostic entitlement seam, adds one-time Lifetime purchase/restore and offline entitlement cache, but remains fail-closed and disabled by default until real store sandbox proof is recorded.
 
 ## Stack
 

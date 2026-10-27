@@ -25,7 +25,7 @@ The product should feel warm, illustrated and playful without presenting itself 
 
 F0 foundation, F1 runtime catalog contract, F2 authoring/import pipeline and F3A content ingestion are complete.
 
-The production catalog contains 162 published recipes localized in EN/IT/ES/FR/DE/PT. Recipes 1–50 retain their approved artwork; recipes 51–162 intentionally use the deterministic procedural fallback until their original food artwork is reviewed and approved in batches. F4A consent/privacy foundation is complete; F4B entitlement + one-time purchase remains the next monetization step.
+The production catalog contains 162 published recipes localized in EN/IT/ES/FR/DE/PT. Recipes 1–50 retain their approved artwork; recipes 51–162 intentionally use the deterministic procedural fallback until their original food artwork is reviewed and approved in batches. F3J is complete and F4A consent/privacy foundation is complete. F4B's Lifetime purchase/restore implementation is now mounted on the current catalog baseline and awaits real store sandbox proof before PASS.
 
 ## UX direction
 
@@ -94,7 +94,13 @@ Initial preferred model:
 - no ads while actively following a recipe/timer;
 - one-time Remove Ads/Lifetime before considering a subscription.
 
-Exact pricing/provider/store integration is out of scope until F4.
+F4 provider decision:
+- native store transport uses the official Flutter `in_app_purchase` plugin behind the existing entitlement seam;
+- product ID is `remove_ads_lifetime`;
+- billing and sandbox verification are disabled by default;
+- store price is runtime store data, not hardcoded app truth;
+- RevenueCat remains optional if production verification/operations later justify it;
+- exact commercial price still requires store configuration.
 
 ## Out of scope now
 
@@ -120,6 +126,7 @@ Exact pricing/provider/store integration is out of scope until F4.
 - localization/theme/settings infrastructure exists;
 - stable user-state persistence seams exist;
 - entitlement boundary is provider-agnostic;
+- F4B store transport is isolated behind PurchaseGateway/PurchaseVerifier and cannot grant Lifetime optimistically;
 - consent/privacy foundation is fail-closed and separates persisted local preference from per-launch provider eligibility;
 - CI validates authoring, generated catalog, Flutter tests and production/fixture Web builds;
 - new recipes can be added without editing Dart.

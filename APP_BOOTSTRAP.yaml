@@ -2,7 +2,7 @@ app_name: "In Cucina con gli Anime"
 project_name: "animekitchen"
 package_name: "com.riccardopinato.animekitchen"
 bundle_id: "com.riccardopinato.animekitchen"
-version: "0.10.0+10"
+version: "0.11.0+11"
 platforms: [android, ios, web]
 flutter_version: "3.47.3"
 default_locale: en
@@ -32,8 +32,12 @@ notifications:
 
 premium:
   enabled: true
-  provider: none_yet
+  provider: in_app_purchase
   contract: provider_agnostic
+  product_id: remove_ads_lifetime
+  billing_enabled_by_default: false
+  verification: sandbox_opt_in_only
+  production_verification: pending
 
 ads:
   enabled: false
@@ -47,13 +51,13 @@ web_preview:
   enabled: true
   boundary: "shared UI/navigation/content wiring only"
 
-native_capabilities: []
+native_capabilities: [in_app_purchase]
 
 content:
-  imported_recipes: 20
+  imported_recipes: 162
   authoring_pipeline: implemented
   duplicate_similarity_gate: implemented
-  note: "F3F expands the production catalog to twenty audited recipes, completes one optimized original artwork per recipe and hardens batch materialization/Android CI."
+  note: "F3J materializes 162 reviewed recipes at catalog 0.8.0; recipes 1-50 retain approved artwork and recipes 51-162 use deterministic procedural fallback pending artwork review."
 
 goldens:
   - app_bootstrap
