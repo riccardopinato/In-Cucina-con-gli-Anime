@@ -60,9 +60,9 @@ def inspect(source, pack, *, require_review=False):
     for component_id, src in src_components.items():
         if component_id not in dst_components: continue
         dst=dst_components[component_id]
-        if (src.get("servings") != dst.get("servings") or
-            src.get("totalElapsedMinutes") != dst.get("totalElapsedMinutes")):
-            issues.append(f"{component_id}: canonical servings/elapsed time mismatch")
+        for field in ("servings","totalElapsedMinutes","recipeRef"):
+            if src.get(field) != dst.get(field):
+                issues.append(f"{component_id}: canonical {field} mismatch")
         if (not isinstance(dst.get("title"),str) or not dst["title"].strip()):
             issues.append(f"{component_id}: missing translated title")
         si,di=src.get("ingredients",[]),dst.get("ingredients",[])

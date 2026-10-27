@@ -32,6 +32,12 @@ class GateTest(unittest.TestCase):
         s,p=data();s["reusableComponents"]={"component_test":{"title":"brodo","servings":1,"totalElapsedMinutes":25,"ingredients":[],"steps":["Bolli per 20 minuti."]}}
         p["sourceBaselineSha256"]=digest(s)
         self.assertIn("Reusable component IDs differ", " ".join(inspect(s,p)))
+    def test_component_reference_must_be_preserved(self):
+        s,p=data()
+        s["reusableComponents"]={"component_ref":{"title":"curry di base","recipeRef":"recipe_000013"}}
+        p["sourceBaselineSha256"]=digest(s)
+        p["reusableComponents"]={"component_ref":{"title":"Base curry","recipeRef":"recipe_000019"}}
+        self.assertIn("canonical recipeRef mismatch"," ".join(inspect(s,p)))
     def test_boilerplate_rejected(self):
         s,p=data();p["recipes"][0]["steps"][0]["instruction"]="cook the main component";self.assertIn("filler"," ".join(inspect(s,p)))
 

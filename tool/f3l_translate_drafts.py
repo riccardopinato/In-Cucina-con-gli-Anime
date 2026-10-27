@@ -98,8 +98,8 @@ def main():
     texts=[]
     for component in source["reusableComponents"].values():
         texts.append(component["title"])
-        texts += [i["name"] for i in component["ingredients"]]
-        texts += list(component["steps"])
+        texts += [i["name"] for i in component.get("ingredients",[])]
+        texts += list(component.get("steps",[]))
     for r in rows:
         texts += [r["title"],r["description"]]
         texts += [i["name"] for i in r["ingredients"]]
@@ -116,11 +116,12 @@ def main():
     for comp_id, comp in source["reusableComponents"].items():
         components[comp_id]={
             "title":t(comp["title"]),
-            "servings":comp["servings"],
-            "totalElapsedMinutes":comp["totalElapsedMinutes"],
-            "ingredients":[{"name":t(i["name"]),"quantity":i.get("quantity"),"unit":i.get("unit")}
-                           for i in comp["ingredients"]],
-            "steps":[t(x) for x in comp["steps"]]
+            **({"recipeRef":comp["recipeRef"]} if "recipeRef" in comp else {}),
+            **({"servings":comp["servings"]} if "servings" in comp else {}),
+            **({"totalElapsedMinutes":comp["totalElapsedMinutes"]} if "totalElapsedMinutes" in comp else {}),
+            **({"ingredients":[{"name":t(i["name"]),"quantity":i.get("quantity"),"unit":i.get("unit")}
+                             for i in comp["ingredients"]]} if "ingredients" in comp else {}),
+            **({"steps":[t(x) for x in comp["steps"]]} if "steps" in comp else {}),
         }
     output=[]
     for r in rows:
