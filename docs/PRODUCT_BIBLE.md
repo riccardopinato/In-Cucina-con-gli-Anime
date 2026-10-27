@@ -77,6 +77,7 @@ The committed authoring record contains normalized facts and fresh app editorial
 Before publication:
 - for recipes 51–162, the frozen Italian source baseline must pass F3K before translation regeneration starts;
 - translations must preserve the full recipe-specific procedure rather than collapsing to fixed generic step counts;
+- generic description boilerplate is not accepted as editorial completeness: Italian source descriptions must be dish-specific before translation begins;
 - identity/structure validate;
 - all six locales complete;
 - assets resolve through the authoring asset manifest;

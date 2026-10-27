@@ -24,7 +24,7 @@ F3K hardens only the Italian editorial baseline for `recipe_000051` through `rec
 - recipes: **112/112**
 - procedure steps: min **6**, median **8**, max **13**
 - procedure words: min **100**, median **124**, max **204**
-- description words: min **40**, median **56.5**, max **72**
+- description words after anti-template hardening: min **47**, median **65**, max **86**
 - resolved reusable component references: **61**
 - anime relations reviewed: **224/224**
   - evidence-backed verified appearances: **2**
@@ -36,6 +36,19 @@ F3K hardens only the Italian editorial baseline for `recipe_000051` through `rec
 ## Important interpretation of anime review
 
 `inspired` is not a weaker or unfinished state in F3K. It is the correct final classification when there is no direct evidence that the exact dish appears in the named work. The review is complete when every association has been examined and either receives evidence-backed appearance/recurrence semantics or is deliberately kept as inspiration without an episode claim.
+
+## Anti-template correction before translation release
+
+A stricter post-merge editorial review found that the first F3K gate could accept descriptions that were long enough but still followed a repetitive generated formula (for example, wording equivalent to “è una preparazione a base di…” / “il procedimento comprende…”). Translation work remained blocked, so no downstream locale was generated from that weaker copy.
+
+The Italian baseline was therefore hardened again before Phase B:
+- all 112 descriptions were rewritten to be dish-specific and to describe the role of ingredients, technique and structure rather than merely enumerate fields;
+- generic description boilerplate is now explicitly banned by CI;
+- minimum description depth increased from 35 to 45 words;
+- pairwise description-similarity threshold tightened from 0.75 to 0.70;
+- the full 112/112 Italian gate passes with the stricter rules.
+
+This corrective pass is part of the Italian 100% freeze and must land before translation staging starts.
 
 ## Recipe evidence table
 
