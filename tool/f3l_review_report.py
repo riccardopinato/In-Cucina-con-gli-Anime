@@ -14,10 +14,19 @@ DECIMAL = re.compile(r"(?<![\w])\d+(?:[.,]\d+)?(?![\d])")
 # generic 'meat', 'sauce', or 'noodles'. This is a review hint, not a legal name gate.
 STABLE_FOOD_TERMS = ("chashu", "miso", "mirin", "sake", "dashi", "anko", "kinako", "menma", "yuzu", "nori", "togarashi", "mochi", "udon", "ramen", "soba", "tempura", "daikon", "kabocha", "wasabi")
 
-def normalized_numbers(text):
+WORDS_AS_NUMERALS={
+    "es":{"dos":"2","cuatro":"4"},
+    "fr":{"deux":"2","huit":"8"},
+}
+
+def normalized_numbers(text,locale=None):
     # Match the whole number even when the unit is directly attached (400ml, 20g).
     # Avoid accidentally matching 40 inside 400 or 2 inside 20.
-    return [x.replace(",", ".") for x in DECIMAL.findall(text)]
+    numbers=[x.replace(",", ".") for x in DECIMAL.findall(text)]
+    if locale in WORDS_AS_NUMERALS:
+        for word,n in WORDS_AS_NUMERALS[locale].items():
+            numbers += [n] * len(re.findall(r"\b"+re.escape(word)+r"\b",text,re.I))
+    return numbers
 
 def inspect_copy(source, pack):
     issues=[]
@@ -29,7 +38,7 @@ def inspect_copy(source, pack):
             ref=src["instruction"]
             output=dst.get("instruction","")
             src_numbers=collections.Counter(normalized_numbers(ref))
-            dst_numbers=collections.Counter(normalized_numbers(output))
+            dst_numbers=collections.Counter(normalized_numbers(output, pack.get("locale")))
             missing=src_numbers-dst_numbers
             if missing:
                 issues.append({"severity":"high","recipe":rid,"field":f"step_{ix+1}","reason":"numeric_tokens_missing_or_reworded","tokens":list(missing.elements())})

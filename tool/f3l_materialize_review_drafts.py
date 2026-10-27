@@ -7,6 +7,8 @@ from f3l_translation_gate import inspect, digest, source_recipes
 from f3l_editorial_audit import audit
 from f3l_curated_recipe_051 import apply as curate_051
 from f3l_culinary_safety_fixes import apply as culinary_fixes
+from f3l_curated_titles import apply_titles
+from f3l_witnessed_wording_repairs import apply as fix_witnessed
 
 LOCALES=('en','es','fr','de','pt')
 def generate(source,pack):
@@ -22,10 +24,15 @@ def generate(source,pack):
         if rid=='recipe_000051':curate_051(it,translated,locale)
         culinary_fixes(it,translated,locale)
         if translated['reviewStatus']!='machine_draft':raise ValueError('must never mark edits human_reviewed')
-    # Explicit provenance distinguishes this human-guided copy edit from locale sign-off.
+    apply_titles(source,pack)
+    witnessed_count=fix_witnessed(source,pack)
+    # Explicit provenance distinguishes this AI-guided copy edit from locale sign-off.
     pack['editorialStaging']={
         'status':'PARTIAL_COPYEDIT_UNAPPROVED',
         'comprehensivelyEditedRecipeIds':['recipe_000051'],
+        'titleCopyeditCount':112,
+        'witnessedWordingFieldsRepaired':witnessed_count,
+        'titleCopyeditScope':'All titles reviewed as AI-assisted terminology candidates, not certified by human linguists.',
         'partiallyEditedRecipeIds':['recipe_000053','recipe_000059','recipe_000107','recipe_000150'],
         'noAutomaticPublication':True,
         'copyeditScope':'Machine drafts are not native-speaker certified or cooking-tested.'
