@@ -96,6 +96,10 @@ def main():
     source=json.loads(Path(ns.source).read_text(encoding="utf-8"))
     rows=source_recipes(source)
     texts=[]
+    for component in source["reusableComponents"].values():
+        texts.append(component["title"])
+        texts += [i["name"] for i in component["ingredients"]]
+        texts += list(component["steps"])
     for r in rows:
         texts += [r["title"],r["description"]]
         texts += [i["name"] for i in r["ingredients"]]
@@ -108,6 +112,16 @@ def main():
         output=translate_all(texts if translated is None else translated.values(),model,batch_size=ns.batch_size,max_length=ns.max_length,prefix=prefix)
         translated=output if translated is None else {src:output[target] for src,target in translated.items()}
     def t(s):return translated[s.strip()] if isinstance(s,str) and s.strip() else s
+    components={}
+    for comp_id, comp in source["reusableComponents"].items():
+        components[comp_id]={
+            "title":t(comp["title"]),
+            "servings":comp["servings"],
+            "totalElapsedMinutes":comp["totalElapsedMinutes"],
+            "ingredients":[{"name":t(i["name"]),"quantity":i.get("quantity"),"unit":i.get("unit")}
+                           for i in comp["ingredients"]],
+            "steps":[t(x) for x in comp["steps"]]
+        }
     output=[]
     for r in rows:
         names=", ".join(x["workTitle"] for x in r.get("animeReview",{}).get("references",[]))
@@ -130,7 +144,8 @@ def main():
     pack={"schemaVersion":1,"phase":"F3L_TRANSLATIONS","locale":ns.locale,"sourceLocale":"it",
           "sourceBaselineSha256":digest(source),"modelChain":list(MODEL_MAP[ns.locale]),
           "copyrightPolicy":"Apache-2.0 MT model weights; translation candidates need editorial QA",
-          "reviewStatus":"machine_draft_not_publishable","recipeCount":112,"recipes":output}
+          "reviewStatus":"machine_draft_not_publishable","recipeCount":112,"reusableComponentCount":len(components),
+          "reusableComponents":components,"recipes":output}
     issues=inspect(source,pack)
     path=Path(ns.output); path.parent.mkdir(parents=True,exist_ok=True)
     path.write_text(json.dumps(pack,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")

@@ -7,7 +7,7 @@
 1. F3K Phase A source is the sole translation source. Its canonical file on `main` is `authoring/f3k_it_hardening_51_162.json`.
 2. A changed source fingerprint invalidates the entire translation pack. Any substantive Italian edit relocks all five locales.
 3. Machine translation is permitted only as a **review-required candidate**. It is not publication sign-off, and cannot be imported into runtime just because structure passes.
-4. Every ingredient and step is translated *individually* while stable IDs, quantities, timerSeconds and elapsed time remain unchanged. Do not reduce 8 steps to four summaries.
+4. Every ingredient and step, including all 10 reusable subrecipes (chashu/ajitama/etc.), is translated *individually* while stable IDs, quantities, timerSeconds and elapsed time remain unchanged. Do not reduce 8 steps to four summaries.
 5. The ingredient/component glossary requires native review, especially dashi, mirin, shichimi, chashu, menma, anko, kinako, kuromitsu, tare, sake, yuzu, and cooking techniques.
 6. Portuguese candidate stage uses an English pivot; this is **extra-risk** and needs stronger bilingual review than direct-language candidates.
 7. Publication gate requires 112/112 translated recipes *per locale*, zero structural errors, and explicit human-review evidence for every recipe. Until then, keep existing published runtime locale data unchanged.

@@ -53,6 +53,34 @@ def inspect(source, pack, *, require_review=False):
         issues.append(f"Coverage is {len(translated)}/112")
     if [r.get("id") for r in translated] != [r["id"] for r in source_rows]:
         issues.append("Sequence of stable recipe IDs differs from Italian baseline")
+    src_components=source.get("reusableComponents",{})
+    dst_components=pack.get("reusableComponents",{})
+    if set(src_components) != set(dst_components):
+        issues.append("Reusable component IDs differ from source (must translate ALL subrecipes)")
+    for component_id, src in src_components.items():
+        if component_id not in dst_components: continue
+        dst=dst_components[component_id]
+        if (src.get("servings") != dst.get("servings") or
+            src.get("totalElapsedMinutes") != dst.get("totalElapsedMinutes")):
+            issues.append(f"{component_id}: canonical servings/elapsed time mismatch")
+        if (not isinstance(dst.get("title"),str) or not dst["title"].strip()):
+            issues.append(f"{component_id}: missing translated title")
+        si,di=src.get("ingredients",[]),dst.get("ingredients",[])
+        if len(si)!=len(di): issues.append(f"{component_id}: ingredient count mismatch")
+        else:
+            for n,(a,b) in enumerate(zip(si,di)):
+                if a.get("quantity")!=b.get("quantity") or a.get("unit")!=b.get("unit"):
+                    issues.append(f"{component_id}: ingredient {n} quantity/unit mismatch")
+                if not isinstance(b.get("name"),str) or not b["name"].strip():
+                    issues.append(f"{component_id}: ingredient {n} name missing")
+        ss,ds=src.get("steps",[]),dst.get("steps",[])
+        if len(ss)!=len(ds):issues.append(f"{component_id}: steps truncated")
+        else:
+            for n,(a,b) in enumerate(zip(ss,ds)):
+                if not isinstance(b,str) or not b.strip() or b.strip()==a.strip():
+                    issues.append(f"{component_id}: step {n} missing/untranslated")
+                elif not .3 <= len(b.strip())/max(1,len(a.strip())) <= 3.1:
+                    issues.append(f"{component_id}: step {n} suspicious length")
     source_by_id = {r["id"]: r for r in source_rows}
     seen = set()
     for r in translated:
