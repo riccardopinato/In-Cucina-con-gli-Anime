@@ -25,6 +25,14 @@ BANNED = [
     r"Prosegui così",
     r"Nella fase successiva",
     r"Per completare",
+
+]
+DESCRIPTION_BANNED = [
+    r"è una preparazione a base di",
+    r"Il procedimento comprende",
+    r"tra i riferimenti operativi espliciti",
+    r"Il piatto va servito caldo, subito dopo l’assemblaggio finale",
+    r"Il servizio avviene solo dopo che ogni componente ha raggiunto",
 ]
 STOPWORDS = {
     "il", "lo", "la", "i", "gli", "le", "un", "una", "uno", "di", "a",
@@ -71,8 +79,11 @@ def main() -> int:
             errors.append(f"{rid}: unexpected staging status")
 
         desc = recipe.get("description", "")
-        if words(desc) < 35:
+        if words(desc) < 45:
             errors.append(f"{rid}: description too short ({words(desc)} words)")
+        for pattern in DESCRIPTION_BANNED:
+            if re.search(pattern, desc, flags=re.I):
+                errors.append(f"{rid}: banned generic description pattern: {pattern}")
         descriptions.append((rid, tokens(desc)))
 
         steps = recipe.get("steps", [])
@@ -118,7 +129,7 @@ def main() -> int:
         for rid_b, tok_b in descriptions[i + 1:]:
             union = tok_a | tok_b
             score = len(tok_a & tok_b) / len(union) if union else 0.0
-            if score >= 0.75:
+            if score >= 0.70:
                 errors.append(f"{rid_a}/{rid_b}: description similarity too high ({score:.3f})")
 
     if errors:

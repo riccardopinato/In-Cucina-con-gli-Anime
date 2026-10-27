@@ -447,6 +447,8 @@ Implemented Italian staging baseline:
 - all 224 anime associations reviewed individually;
 - factual anime appearance/recurrence claims require evidence; otherwise the final reviewed relation remains conservatively `inspired`;
 - EN/ES/FR/DE/PT are explicitly `BLOCKED_UNTIL_IT_100_PERCENT`.
+- generic description boilerplate is explicitly rejected; descriptions must be dish-specific and at least 45 words;
+- description pair similarity is blocked at >= 0.70 to prevent formulaic near-duplicates.
 
 Evidence:
 - `authoring/f3k_it_hardening_51_162.json`;
@@ -462,5 +464,5 @@ Exit for Phase A:
 - translation policy remains BLOCKED until that exact-head PASS.
 
 Phase B — EN/ES/FR/DE/PT:
-- BLOCKED until Phase A exact-head PASS;
+- BLOCKED until the stricter anti-template Italian freeze also passes exact-head CI;
 - translations must reproduce the full frozen Italian recipe structure and may not collapse procedures back to generic four-step templates.
