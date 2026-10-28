@@ -1,0 +1,47 @@
+[
+  {
+    "locale": "en",
+    "recipeCount": 112,
+    "structuralErrorCount": 0,
+    "warningCount": 0,
+    "highSeverityCount": 0,
+    "humanReviewedCount": 0,
+    "releaseApproved": false
+  },
+  {
+    "locale": "es",
+    "recipeCount": 112,
+    "structuralErrorCount": 0,
+    "warningCount": 0,
+    "highSeverityCount": 0,
+    "humanReviewedCount": 0,
+    "releaseApproved": false
+  },
+  {
+    "locale": "fr",
+    "recipeCount": 112,
+    "structuralErrorCount": 0,
+    "warningCount": 0,
+    "highSeverityCount": 0,
+    "humanReviewedCount": 0,
+    "releaseApproved": false
+  },
+  {
+    "locale": "de",
+    "recipeCount": 112,
+    "structuralErrorCount": 0,
+    "warningCount": 0,
+    "highSeverityCount": 0,
+    "humanReviewedCount": 0,
+    "releaseApproved": false
+  },
+  {
+    "locale": "pt",
+    "recipeCount": 112,
+    "structuralErrorCount": 0,
+    "warningCount": 0,
+    "highSeverityCount": 0,
+    "humanReviewedCount": 0,
+    "releaseApproved": false
+  }
+]

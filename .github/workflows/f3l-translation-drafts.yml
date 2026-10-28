@@ -1,0 +1,47 @@
+name: F3L translation draft candidates (non-publishable)
+
+on:
+  pull_request:
+    paths:
+      - 'tool/f3l_translate_drafts.py'
+      - 'tool/f3l_translation_gate.py'
+      - 'authoring/f3k_it_hardening_51_162.json'
+      - '.github/workflows/f3l-translation-drafts.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  translation-candidates:
+    if: startsWith(github.head_ref, 'f3l-') || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix:
+        locale: [en, es, fr, de, pt]
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: '3.11'
+      - name: Install CPU-only authoring translator
+        run: |
+          python -m pip install --disable-pip-version-check --index-url https://download.pytorch.org/whl/cpu 'torch==2.6.0'
+          python -m pip install --disable-pip-version-check 'transformers==4.48.3' 'sentencepiece==0.2.0' 'sacremoses==0.1.1'
+      - name: Generate non-publishable translation draft
+        run: |
+          mkdir -p build/f3l
+          python tool/f3l_translate_drafts.py --locale "${{ matrix.locale }}" --output "build/f3l/f3l_${{ matrix.locale }}_51_162_draft.json"
+      - name: Validate 1-to-1 source equivalence
+        run: |
+          python tool/f3l_translation_gate.py --pack "build/f3l/f3l_${{ matrix.locale }}_51_162_draft.json" --report "build/f3l/qa_${{ matrix.locale }}.json"
+      - name: Save audit artifacts (not production content)
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: f3l-${{ matrix.locale }}-draft-candidates
+          path: build/f3l/
+          if-no-files-found: warn
+          retention-days: 14
