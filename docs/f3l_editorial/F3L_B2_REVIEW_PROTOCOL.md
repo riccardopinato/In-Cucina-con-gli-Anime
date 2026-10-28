@@ -2,17 +2,17 @@
 
 **Status: REVIEW WORKBENCH ONLY — NO-GO FOR PUBLICATION.**
 
-F3L contains 112 Italian canonical recipes (\`recipe_000051\`–\`recipe_000162\`), five machine-translation candidate packs (EN/ES/FR/DE/PT, **560** recipe candidates), and ten reusable components per target locale (**50** component reviews). The currently published runtime catalog is separate and **must not be touched** by the B2 tooling.
+F3L contains 112 Italian canonical recipes (`recipe_000051`–`recipe_000162`), five machine-translation candidate packs (EN/ES/FR/DE/PT, **560** recipe candidates), and ten reusable components per target locale (**50** component reviews). The currently published runtime catalog is separate and **must not be touched** by the B2 tooling.
 
 ## 1. Generate the review material
 
 From repository root:
 
-\`\`\`bash
+```bash
 python tool/f3l_b2_review_dossiers.py
 python tool/f3l_b2_review_dossiers.py --out-dir build/f3l-b2-review
 python tool/f3l_b2_review_dossiers.py --locale fr --recipe-id recipe_000073 --out-dir build/f3l-b2-focused
-\`\`\`
+```
 
 The CLI uses the current Italian source fingerprint and refuses stale candidates, structural drift, forged review claims and removal of the publication quarantine. It emits a source triage queue and per-locale *paired* source/candidate JSON dossiers to the requested output directory only. CI additionally generates downloadable, **non-production** review dossiers.
 
@@ -46,7 +46,7 @@ A real reviewer record should identify:
 - independent food-safety clearance where required, with market-specific scope;
 - signed acceptance or rejection and an evidence location the project can audit.
 
-No B2 generator may write \`reviewEvidence\`, \`human_reviewed\`, release approval, runtime JSON or store metadata. Existing packs must retain \`machine_draft_not_publishable\`, recipe \`machine_draft\` and \`editorialStaging.noAutomaticPublication=true\` until qualified reviews and the separate B3 promotion process actually establish otherwise.
+No B2 generator may write `reviewEvidence`, `human_reviewed`, release approval, runtime JSON or store metadata. Existing packs must retain `machine_draft_not_publishable`, recipe `machine_draft` and `editorialStaging.noAutomaticPublication=true` until qualified reviews and the separate B3 promotion process actually establish otherwise.
 
 ## 4. Technical gates and decision
 
