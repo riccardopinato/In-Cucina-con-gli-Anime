@@ -26,3 +26,13 @@ jobs:
         run: python tool/f3l_check_review_drafts.py
       - name: Reject witnessed semantic mistranslations and unsafe source drift
         run: python tool/f3l_semantic_safety_gate.py
+      - name: Generate source-locked reviewer dossiers (non-publishable)
+        run: python tool/f3l_b2_review_dossiers.py --out-dir build/f3l-b2-review
+      - name: Upload bilingual review material (not app content)
+        if: success()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: f3l-b2-review-dossiers
+          path: build/f3l-b2-review/
+          if-no-files-found: error
+          retention-days: 14

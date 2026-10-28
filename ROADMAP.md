@@ -467,6 +467,13 @@ Phase B — EN/ES/FR/DE/PT:
 - BLOCKED until the stricter anti-template Italian freeze also passes exact-head CI;
 - translations must reproduce the full frozen Italian recipe structure and may not collapse procedures back to generic four-step templates.
 
+### F3L B2-0 — source-first editorial triage + bilingual review dossiers (technical workbench)
+
+- **Scope:** generate a complete 112-recipe Italian review queue; flag six observed dish/copy mismatches and additional template-style copy for contextual examination. These are pending reviews, not corrected or signed-off source records.
+- **Language handoff:** produce complete bilingual side-by-side dossiers for 112 recipes and 10 reusable components per EN/ES/FR/DE/PT locale (560 recipe + 50 component review units).
+- **Invariants:** exact Italian source fingerprint, immutable quantities/IDs/timers, quarantined machine drafts, 0 human signoffs, runtime content untouched. Invalid/unsafe input must fail closed.
+- **Evidence/commands:** `tool/f3l_b2_review_dossiers.py`, tests `tool/tests/test_f3l_b2_review_dossiers.py`, CI artifact `f3l-b2-review-dossiers`, `docs/f3l_editorial/F3L_B2_REVIEW_PROTOCOL.md`.
+- **B2 remaining:** perform Italian recipe-by-recipe edits with version/hash migration and all qualified bilingual/culinary reviews. B2-0 technical PASS does **not** close B2 and does not unblock B3/F4.
 ## F3L — Translation rebuild for recipes 51–162 — CURRENT
 
 Blocked by: F3K Italian editorial freeze — PASS (main `bda4ef4e603741336882cd91cd10b8eff0ab3695`).
