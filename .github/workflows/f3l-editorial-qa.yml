@@ -36,3 +36,14 @@ jobs:
           path: build/f3l-b2-review/
           if-no-files-found: error
           retention-days: 14
+
+      - name: Generate 112 Italian editorial copy candidates (not source edits)
+        run: python tool/f3l_b2_italian_review.py --out-dir build/f3l-b2-italian-review
+      - name: Upload Italian source-first editorial review packet (non-production)
+        if: success()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: f3l-b2-italian-112-review-candidates
+          path: build/f3l-b2-italian-review/
+          if-no-files-found: error
+          retention-days: 14
