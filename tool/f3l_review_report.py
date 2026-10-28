@@ -14,6 +14,26 @@ DECIMAL = re.compile(r"(?<![\w])\d+(?:[.,]\d+)?(?![\d])")
 # generic 'meat', 'sauce', or 'noodles'. This is a review hint, not a legal name gate.
 STABLE_FOOD_TERMS = ("chashu", "miso", "mirin", "sake", "dashi", "anko", "kinako", "menma", "yuzu", "nori", "togarashi", "mochi", "udon", "ramen", "soba", "tempura", "daikon", "kabocha", "wasabi")
 
+# Attested culinary spellings and German productive compounds. These recognize
+# the *same ingredient*, not a generic substitute: saké, saquê, Misopaste,
+# Kochsake and Daikonwurzel are legitimate localized renderings.
+ACCEPTED_TERM_PATTERNS={
+    'fr':{'sake':r'\bsak[ée]\b'},
+    'pt':{'sake':r'\bsaqu?[éeê]\b'},
+    'de':{
+        'sake':r'\b(?:Koch|Küchen)?sake\b',
+        'miso':r'\bmiso(?:paste|glasur)?\b',
+        'ramen':r'\bramen(?:noodles|nudeln|schalen)?\b',
+        'daikon':r'\bdaikon(?:wurzel)?\b',
+    },
+    'es':{'mirin':r'\bmir[ií]n\b'},
+}
+
+def term_visible(output,term,locale):
+    canonical=r'\b'+re.escape(term)+r'\b'
+    return bool(re.search(canonical,output,re.I) or
+                re.search(ACCEPTED_TERM_PATTERNS.get(locale,{}).get(term,r'(?!)'),output,re.I))
+
 WORDS_AS_NUMERALS={
     "es":{"dos":"2","cuatro":"4"},
     "fr":{"deux":"2","huit":"8"},
@@ -43,12 +63,12 @@ def inspect_copy(source, pack):
             if missing:
                 issues.append({"severity":"high","recipe":rid,"field":f"step_{ix+1}","reason":"numeric_tokens_missing_or_reworded","tokens":list(missing.elements())})
             required=[t for t in STABLE_FOOD_TERMS if re.search(r"\b"+re.escape(t)+r"\b",ref,re.I)]
-            absent=[t for t in required if not re.search(r"\b"+re.escape(t)+r"\b",output,re.I)]
+            absent=[t for t in required if not term_visible(output,t,pack.get('locale'))]
             if absent:
                 issues.append({"severity":"medium","recipe":rid,"field":f"step_{ix+1}","reason":"japanese_culinary_term_not_visible","terms":absent})
         for ix,(src,dst) in enumerate(zip(it["ingredients"],target.get("ingredients",[]))):
             required=[t for t in STABLE_FOOD_TERMS if re.search(r"\b"+re.escape(t)+r"\b",src["name"],re.I)]
-            missing=[t for t in required if not re.search(r"\b"+re.escape(t)+r"\b",dst.get("name",""),re.I)]
+            missing=[t for t in required if not term_visible(dst.get('name',''),t,pack.get('locale'))]
             if missing:
                 issues.append({"severity":"medium","recipe":rid,"field":f"ingredient_{ix+1}","reason":"japanese_food_term_not_visible","terms":missing})
     return issues

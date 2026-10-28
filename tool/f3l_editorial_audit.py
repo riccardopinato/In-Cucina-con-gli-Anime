@@ -17,11 +17,11 @@ from f3l_review_report import inspect_copy
 # Each of these is a witnessed bad output, not a heuristic assumption that a
 # legitimate culinary term never appears in another language.
 WITNESSED_MISTRANSLATIONS = {
-    'en': (r'\b(?:Sexam|Ginger Pig Lumbat|dust dashes|Black Sexam)\b',),
-    'es': (r'\b(?:Temporada de Gambas|en el diente|zuca|Lombarda de Cerdo)\b',),
-    'fr': (r'\b(?:pangratté|Escolez|Miso Nikumi|Strufato|Couette cruciforme|man et porc)\b',),
-    'de': (r'\b(?:Kupfer|Krebshomelette|Bierhefe|Vogel zum Vapore|Manzo|Sexam)\b',),
-    'pt': (r'\b(?:lagartos frescos|traço de poeira|Sexam|Lumbat|macarrãoes)\b',),
+    'en': (r'\b(?:Sexam|Ginger Pig Lumbat|dust dashes|Black Sexam|jump|spatolines|candy slightly)\b',),
+    'es': (r'\b(?:Temporada de Gambas|en el diente|zuca|Lombarda de Cerdo|únete|acaricia|pañuelo|dispar(?:e|en|a|o))\b',),
+    'fr': (r'\b(?:pangratté|Escolez|Miso Nikumi|Strufato|Couette cruciforme|man et porc|écoutez|taureau|cuisinier|surbouches)\b',),
+    'de': (r'\b(?:Kupfer|Krebshomelette|Bierhefe|Vogel zum Vapore|Manzo|Sexam|streicheln|Peitsche|Mist)\b',),
+    'pt': (r'\b(?:lagartos frescos|traço de poeira|Sexam|Lumbat|macarrãoes|pule|colchão)\b',),
 }
 # Italian fragments unsuitable as translated display titles. Some words can be
 # legitimate in Italian, but these are only applied to non-Italian locales.
@@ -49,6 +49,8 @@ def audit(source: dict, pack: dict) -> dict:
             if field=='title':
                 for expr in ITALIAN_IN_TITLES:
                     if m:=re.search(expr,value,re.I):
+                        if locale=='es' and m.group().lower() in ('con chashu','salsa tentsuyu'):
+                            continue  # Both are grammatical Spanish culinary phrases.
                         warnings.append({'severity':'medium','recipe':rid,'field':field,'reason':'untranslated_italian_title_fragment','excerpt':m.group()})
         for index,step in enumerate(translated.get('steps',[]),1):
             text=step.get('instruction','')

@@ -17,24 +17,8 @@
 6. A new lexical/number-preservation audit flags Italian leakage in titles, lost Japanese culinary terminology, high-risk mistranslations and numeric changes. It distinguishes heuristics/false positives from proven errors. The numeric tokenizer was corrected to handle units attached directly to numbers (`400ml`, `20g`), avoiding false alerts.
 7. Saved all 5 candidate JSON packs and per-language audit reports to the repo. Added a lightweight CI editorial staging audit and negative-path tests. No production recipe authoring or compiled catalog was modified.
 
-## QA outcomes after targeted edits
+## Follow-up copy edit pass (2026-10-28)
 
-| Locale | Recipes / 112 | Structural errors | Editorial triage warnings | High-priority warnings | Release-approved |
-| --- | ---: | ---: | ---: | ---: | --- |
-| EN | 112 | 0 | 15 | 0 | **NO** |
-| ES | 112 | 0 | 25 | 0 | **NO** |
-| FR | 112 | 0 | 81 | 0 | **NO** |
-| DE | 112 | 0 | 41 | 0 | **NO** |
-| PT | 112 | 0 | 23 | 0 | **NO** |
+See [F3L_COPYEDIT_PASS_2.md](F3L_COPYEDIT_PASS_2.md) for 226 additional source-locked text corrections, exact before/after ledger, expanded regression tests and updated warnings. The earlier figures of 185 issues are historical; the currently implemented lexical/number detectors now report **zero identified flags** across the five saved draft packs. **This is NOT a comprehensive bilingual editorial sign-off:** each locale remains 0/112 human-reviewed and `--strict-release` must fail. No runtime translation has been published.
 
-The remaining 185 recipe-level advisory warnings include real observed semantic problems, Italian copy leakage, potential loss of specialized Japanese terms, and some intentionally retained spelled-out numbers. The high-priority lexical signature flags have been addressed, but **this does not establish that severe errors are absent**: the detector knows only specific failure patterns. Counts are **triage flags**, not a comprehensive tally of every translation error. None of the five locales has all 112 entries human-reviewed; 0/112 `human_reviewed` per locale.
-
-## Hard publication lock
-
-Run `python tool/f3l_check_review_drafts.py` for structural/source matching; it passes for quarantined drafts. Run `python tool/f3l_check_review_drafts.py --strict-release` before any runtime promotion: it **must fail** until every locale's recipes are individually reviewed with evidence and all identified risk flags are resolved or documented as accepted, contextually justified exceptions. Do not bypass by marking `human_reviewed` automatically.
-
-A true release requires checking **every ingredient, subrecipe, cooking step, quantity, temperature, time, food safety instruction, and Japanese term** against the frozen Italian source, and reviewing naturalness and consistency of EN/ES/FR/DE/PT with qualified native editors. Retain `recipeRef` links, stable IDs, and timers; validate compiled catalog and Flutter/Web/Android CI only after editorial acceptance. The Portuguese English-pivot translation merits extra attention.
-
-## Additional source-level concern
-
-Some wording in the *Italian* F3K baseline is anomalous (for example, recipe `000089` step 2 includes `Cuoci nel lascia cuocereriso`). Correcting Italian would change its canonical SHA and therefore deliberately invalidate all current draft translations. Plan any such correction as a source-version migration with retranslation of the affected content, not as a silent staging edit.
+Italian source `recipe_000089` step 2 requires a separate source-version migration before publication; a source change invalidates all current per-recipe and global SHA fingerprints.
