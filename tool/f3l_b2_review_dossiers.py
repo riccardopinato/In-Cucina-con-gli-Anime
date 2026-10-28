@@ -101,6 +101,11 @@ def paired_recipe(source: dict, translated: dict, triage: dict) -> dict:
         "reviewStatus": "PENDING_QUALIFIED_BILINGUAL_REVIEW",
         "humanReviewEvidence": None,
         "italianSourceTriageFlags": triage["triageFlags"],
+        "servings": {"it": source["servings"], "candidate": translated["servings"]},
+        "numericTimes": {
+            "it": {k: v for k, v in source["times"].items() if k != "note"},
+            "candidate": {k: v for k, v in translated["times"].items() if k != "note"},
+        },
         "fields": {
             "title": {"it": source["title"], "candidate": translated["title"]},
             "description": {"it": source["description"], "candidate": translated["description"]},
@@ -216,7 +221,10 @@ def load_inputs(source_path: Path, draft_dir: Path) -> tuple[dict, dict]:
     packs = {}
     for loc in LOCALES:
         path = draft_dir / f"f3l_{loc}_51_162_review_draft.json"
-        packs[loc] = json.loads(path.read_text(encoding="utf-8"))
+        pack = json.loads(path.read_text(encoding="utf-8"))
+        if pack.get("locale") != loc:
+            raise ValueError(f"{path}: embedded locale mismatch; expected {loc!r}, got {pack.get('locale')!r}")
+        packs[loc] = pack
     return source, packs
 
 
