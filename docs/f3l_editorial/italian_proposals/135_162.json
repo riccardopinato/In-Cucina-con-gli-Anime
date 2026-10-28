@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "sourceBaselineSha256": "954fb9ddc47ff90f7678b4677a4f12dab4633b6c0afa883c25ec8b417f19cd1c",
+  "locale": "it",
+  "range": [
+    135,
+    162
+  ],
+  "reviewKind": "AI_ASSISTED_SOURCE_LOCKED_DESCRIPTION_PROPOSALS_NOT_APPLIED",
+  "proposals": [
+    {
+      "recipeId": "recipe_000135",
+      "proposedDescriptionIT": "Le Agedashi Nasu sono melanzane tagliate e fritte, poi immerse brevemente in un brodo dashi insaporito con soia e mirin. La finitura di daikon grattugiato e zenzero fresco porta freschezza al fondo di cottura.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000136",
+      "proposedDescriptionIT": "Il Tofu Dengaku si prepara con tofu compatto ben scolato, tagliato e infilzato, quindi dorato prima di essere glassato con una salsa dolce al miso. Una breve finitura al calore rende lucida la superficie, da completare con sesamo.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000137",
+      "proposedDescriptionIT": "Lo Yakiudon al sesamo unisce udon spessi, cavolo e carote saltati in padella a fuoco vivace. La pasta viene prima allentata in acqua calda, poi rosolata rapidamente con verdure e condimento per mantenere una consistenza elastica.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000138",
+      "proposedDescriptionIT": "Il Tonjiru è una zuppa sostanziosa di maiale, daikon, carote e altre radici in brodo al miso. La carne viene rosolata e le verdure cotte finché tenere, prima di sciogliere il miso senza prolungare inutilmente la bollitura.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000139",
+      "proposedDescriptionIT": "Il Kabocha no Nimono cuoce pezzi di zucca giapponese con la buccia in un fondo di dashi, zucchero e condimenti. Il liquido si riduce delicatamente e la zucca viene lasciata intiepidire nel brodo per assorbirne il sapore.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000140",
+      "proposedDescriptionIT": "La Matcha Mille Crepe Cake sovrappone molte crêpe sottili al tè verde alternate con crema al matcha. Dopo aver preparato e raffreddato i dischi, la torta viene assemblata a strati e servita ben fredda con una spolverata di matcha.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000141",
+      "proposedDescriptionIT": "Il Kurogoma Pudding è un budino morbido di latte, panna e pasta di sesamo nero, rassodato con gelatina. Il composto viene scaldato senza bollire, filtrato e lasciato riposare in frigorifero, poi guarnito con sesamo tostato.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000142",
+      "proposedDescriptionIT": "Il Matcha Daifuku avvolge una pallina di anko in una pasta elastica di farina di riso glutinoso e tè verde. L’impasto viene cotto al microonde, suddiviso ancora tiepido e richiuso sul ripieno prima di essere servito in giornata.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000143",
+      "proposedDescriptionIT": "Le Japanese Fruit Tartlet hanno gusci di pasta frolla cotti in bianco, riempiti di crema pasticcera fredda e frutta fresca. Una leggera gelatina lucida la superficie, mentre la conservazione al fresco protegge il ripieno.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000144",
+      "proposedDescriptionIT": "Le Soufflé Cheese Tart uniscono gusci di frolla già cotti a un ripieno leggero di cream cheese e albume montato. Le crostatine vengono infornate brevemente finché la superficie è dorata, conservando il centro soffice.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000145",
+      "proposedDescriptionIT": "Le Sata Andagi sono frittelle di Okinawa preparate con un impasto denso di farina, uova e zucchero. Vengono fritte a temperatura moderata per favorire una cottura uniforme e la tipica superficie aperta in piccole crepe.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000146",
+      "proposedDescriptionIT": "Il Maguro Don dispone fettine di tonno rosso espressamente idoneo al consumo crudo sopra riso sushi condito e intiepidito. Il tonno viene mantenuto refrigerato secondo le indicazioni del fornitore; una breve marinatura aromatizza il pesce ma non costituisce un trattamento di sicurezza.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000147",
+      "proposedDescriptionIT": "Il Kurogoma Ramen presenta un brodo scuro e denso ottenuto emulsionando pasta di sesamo nero, sesamo tostato e brodo caldo. I noodles vengono cotti a parte e completati con maiale macinato rosolato, uova marinate e germogli.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000148",
+      "proposedDescriptionIT": "L’Ika no Sugatayaki griglia calamari interi incisi in superficie e li glassa negli ultimi minuti con salsa teriyaki di soia, sake e mirin. Si affettano seguendo le incisioni e si servono con shichimi togarashi e maionese a lato.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000149",
+      "proposedDescriptionIT": "Il Kani Chahan è riso giapponese già cotto e ben raffreddato, saltato rapidamente nel wok con uova, cipollotto e granchio. La salsa di soia viene versata sul bordo caldo della padella per profumare il riso senza renderlo umido.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000150",
+      "proposedDescriptionIT": "Il Kamo Namban Soba unisce noodles di grano saraceno, petto d’anatra rosolato dal lato della pelle e porri tostati. Le fette di anatra terminano la cottura nel brodo di dashi, soia e mirin, che viene versato sulla soba appena prima del servizio.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000151",
+      "proposedDescriptionIT": "I Chashu Bun sono panini soffici di impasto lievitato, modellati a conchiglia e cotti al vapore. Dopo la cottura vengono aperti e farciti con fettine di maiale chashu glassato, cetriolo e cipollotto.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000152",
+      "proposedDescriptionIT": "Lo Yaki Curry si prepara distribuendo riso caldo e curry giapponese denso in piccole pirofile. Al centro viene aggiunto un uovo, mentre formaggio e panko formano la crosta durante una breve gratinatura in forno.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000153",
+      "proposedDescriptionIT": "I Tori Tsukune sono spiedini di pollo macinato con cipollotto e zenzero, modellati e grigliati prima di essere glassati con salsa tare. La ricetta propone un tuorlo per intingere: questa modalità di servizio richiede un’apposita verifica di sicurezza alimentare e un ingrediente idoneo.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000154",
+      "proposedDescriptionIT": "Il Kenchin Udon è una zuppa di udon con tofu sbriciolato e radici come daikon e carota in brodo di kombu. Le verdure vengono cotte nella base, mentre i noodles vengono lessati separatamente e uniti nelle ciotole al servizio.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000155",
+      "proposedDescriptionIT": "Nel Buri Daikon la ricciola viene stufata con dischi di daikon e un fondo di dashi, sake, zenzero, mirin e soia. Il daikon viene prima sbollentato e il pesce scottato, poi entrambi sobbollono sotto un coperchio a contatto fino ad assorbire il condimento.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000156",
+      "proposedDescriptionIT": "L’Asari Ramen utilizza il liquido filtrato delle vongole aperte con sake e aglio per aromatizzare un brodo leggero di dashi. I noodles si cuociono a parte e vengono serviti subito con le vongole, il mais, cipollotto e poco burro.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000157",
+      "proposedDescriptionIT": "Le Nasu Dengaku sono mezze melanzane rosolate in padella, spennellate con una glassa dolce di miso, mirin e sake. La superficie viene passata brevemente sotto il grill per caramellare, poi completata con sesamo tostato.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000158",
+      "proposedDescriptionIT": "La Matcha Chiffon Cake è una torta alta e soffice ottenuta incorporando meringa di albumi a una base di tuorli, farina e tè verde. Si cuoce in uno stampo non imburrato e si raffredda capovolta per limitarne il collasso.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000159",
+      "proposedDescriptionIT": "I Kuri Manju sono dolcetti cotti al forno con un ripieno di castagna avvolta in pasta dolce di fagioli bianchi shiro-an. L’involucro al latte condensato viene modellato intorno al ripieno, spennellato con tuorlo e soia e decorato con sesamo nero.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000160",
+      "proposedDescriptionIT": "La Coffee Jelly è una gelatina al caffè zuccherato lasciata rassodare in frigorifero e servita a cubetti. La consistenza può essere ottenuta con gelatina oppure agar seguendo metodi di attivazione diversi; si completa con panna e gelato alla vaniglia.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000161",
+      "proposedDescriptionIT": "Le Fruit Crepe in stile Harajuku sono crêpe sottili arrotolate a cono intorno a panna montata e frutta fresca. La base viene cotta e raffreddata prima di farcire; la piegatura finale permette di servirle da passeggio.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000162",
+      "proposedDescriptionIT": "Il sorbetto allo yuzu si prepara da uno sciroppo di acqua, zucchero e succo dell’agrume, lasciato raffreddare prima del congelamento. La ricetta prevede l’impiego di albume pastorizzato per alleggerire la consistenza: non sostituirlo con albume crudo non pastorizzato.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    }
+  ]
+}
