@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "sourceBaselineSha256": "954fb9ddc47ff90f7678b4677a4f12dab4633b6c0afa883c25ec8b417f19cd1c",
+  "locale": "it",
+  "range": [
+    107,
+    134
+  ],
+  "reviewKind": "AI_ASSISTED_SOURCE_LOCKED_DESCRIPTION_PROPOSALS_NOT_APPLIED",
+  "proposals": [
+    {
+      "recipeId": "recipe_000107",
+      "proposedDescriptionIT": "L’Ogura Toast è una fetta spessa di shokupan tostato, spalmata di burro e ricoperta di pasta dolce di fagioli rossi ogura-an. Viene servito subito dopo il taglio, quando il pane è ancora caldo e contrasta con il ripieno.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000108",
+      "proposedDescriptionIT": "Il Tonkotsu Ramen richiede un brodo di ossa di maiale cotto a lungo fino a diventare denso e lattiginoso. I noodles si lessano separatamente e vengono completati con chashu, ajitama e guarnizioni; la lunga estrazione del brodo precede l’assemblaggio finale.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000109",
+      "proposedDescriptionIT": "Il Kurogoma Ice Cream è un gelato al sesamo nero ottenuto incorporando pasta di sesamo tostato a una base di latte, panna e zucchero. Il composto viene raffreddato e mantecato; senza gelatiera richiede mescolamenti durante il congelamento per limitare i cristalli di ghiaccio.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000110",
+      "proposedDescriptionIT": "Il Motsunabe cuoce trippa o altre frattaglie pulite insieme a cavolo, porri cinesi e aromi in un brodo saporito. La preparazione delle frattaglie richiede particolare attenzione prima della cottura; le verdure si aggiungono per tempo in modo da rimanere riconoscibili.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000111",
+      "proposedDescriptionIT": "Lo Saba no Misoni è sgombro stufato in una salsa di miso, mirin e zenzero. Il pesce viene scottato e poi cotto delicatamente nel fondo, che si restringe senza rompere i filetti; si completa con zenzero fresco.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000112",
+      "proposedDescriptionIT": "Il Chashu Don mette su riso giapponese caldo fette di maiale chashu brasato e riscaldato nel proprio fondo. Una parte della salsa di cottura viene versata sulla carne; uovo e guarnizioni completano il piatto da servire immediatamente.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000113",
+      "proposedDescriptionIT": "Gli Ebi Mayo sono gamberi con una sottile crosta di amido e albume, fritti e poi rivestiti da una salsa cremosa alla maionese dal gusto agrodolce. La salsa si aggiunge alla fine, così i gamberi restano caldi e leggermente croccanti.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000114",
+      "proposedDescriptionIT": "I Nagashi Somen sono sottilissimi noodles lessati e raffreddati rapidamente, serviti con salsa mentsuyu fredda e aromi come zenzero e cipollotto. Il tipico servizio in acqua corrente può essere simulato, mentre il condimento si offre separatamente per intingere la pasta.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000115",
+      "proposedDescriptionIT": "L’Anmitsu riunisce cubetti di gelatina kanten, frutta e pasta dolce di fagioli rossi in una coppa. Il kanten deve essere bollito, solidificato e tagliato in anticipo; lo sciroppo kuromitsu si versa solo al servizio.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000116",
+      "proposedDescriptionIT": "Nel Kimpira Gobo bastoncini sottili di bardana e carota vengono saltati rapidamente e insaporiti con salsa di soia, mirin e sesamo. La consistenza resta leggermente croccante; shichimi e semi tostati completano le verdure.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000117",
+      "proposedDescriptionIT": "Il Tori no Karaage Namban Don serve su riso caldo bocconi di pollo marinato, rivestito di amido e fritto. La salsa namban e i condimenti finali aggiungono una nota agrodolce senza rinunciare alla croccantezza del pollo.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000118",
+      "proposedDescriptionIT": "Il Kakuni Udon combina noodles udon in brodo dashi e maiale kakuni già brasato, riportato a temperatura nel suo fondo. Le fette di carne vengono distribuite sul brodo con cipollotto e poca senape karashi, da aggiungere a piacere.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000119",
+      "proposedDescriptionIT": "Il Kenchinjiru è una zuppa vegetale di radici giapponesi, funghi e tofu sbriciolato. Gli ingredienti vengono prima insaporiti in casseruola e poi fatti sobbollire nel brodo, che si completa con salsa di soia e sake.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000120",
+      "proposedDescriptionIT": "L’Omusoba racchiude una porzione di yakisoba con verdure e carne sotto una frittata sottile. I noodles vengono prima saltati con la loro salsa; l’omelette si cuoce a parte e si adagia sulla pasta appena prima del servizio.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000121",
+      "proposedDescriptionIT": "La Soufflé Cheesecake giapponese combina formaggio spalmabile, tuorli e albumi montati per ottenere una torta alta e leggera. La cottura a bagnomaria e il raffreddamento graduale in forno aiutano a conservare la struttura soffice.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000122",
+      "proposedDescriptionIT": "Il Suika Shiratama è un dessert estivo di anguria fredda, palline di mochi di riso e soda al limone. Gli shiratama vengono prima bolliti e raffreddati, poi riuniti alla frutta al momento del servizio per mantenerne freschezza e consistenza.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000123",
+      "proposedDescriptionIT": "Il Tori Zosui è una minestra delicata di riso già cotto, pollo e uovo in brodo dashi. Il riso viene eventualmente sciacquato per controllare l’amido, mentre pollo e uovo cuociono nel liquido prima di aggiungere cipollotto fresco.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000124",
+      "proposedDescriptionIT": "L’Uni Don mette al centro il sapore delicato dei ricci di mare serviti sopra riso giapponese tiepido. La polpa di uni viene maneggiata il meno possibile e mantenuta refrigerata fino al momento dell’assemblaggio, mentre il riso viene lasciato intiepidire. Nelle ciotole si distribuiscono prima riso e nori, poi si adagiano delicatamente le lingue di uni in un solo strato.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000125",
+      "proposedDescriptionIT": "Il Choco Cornet è un panino dolce di pasta brioche avvolta su stampi a cono e cotta fino a doratura. Solo dopo il raffreddamento l’involucro viene farcito con crema densa al cioccolato, evitando che il ripieno si sciolga.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000126",
+      "proposedDescriptionIT": "I Kushikatsu sono spiedini di carne, gamberi e verdure impanati e fritti fino a ottenere una crosta uniforme. I pezzi vengono tagliati di dimensioni simili e infilzati prima della panatura; la salsa si serve a parte.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000127",
+      "proposedDescriptionIT": "Il Mizumochi, o Raindrop Cake, è una gelatina d’acqua molto delicata addensata con agar-agar e modellata in forme trasparenti. Dopo il rassodamento si serve subito con kinako e kuromitsu aggiunti a lato per non nasconderne l’aspetto.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000128",
+      "proposedDescriptionIT": "Questo curry giapponese cuoce lentamente carne, cipolla e mela grattugiata in una salsa arricchita con poco cacao amaro. La dolcezza della mela bilancia le note speziate del roux, e il piatto viene servito con riso bianco al vapore.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000129",
+      "proposedDescriptionIT": "Il Niku Soba è una zuppa di noodles di grano saraceno con fettine sottili di maiale e porri tostati. Il brodo caldo viene preparato separatamente e versato sulla soba cotta, insieme alla carne già cotta e agli aromi.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000130",
+      "proposedDescriptionIT": "L’Ebi Tempura Udon unisce noodles udon in brodo dashi e gamberi in tempura appena fritti. La pastella fredda deve restare leggera e la frittura viene completata poco prima del servizio, così la crosta resta croccante sulla zuppa.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000131",
+      "proposedDescriptionIT": "Gli Hiyashi Tanuki Udon sono noodles spessi serviti freddi con salsa mentsuyu, cetriolo e tenkasu croccante. Gli udon vengono raffreddati e scolati bene; condimento e croccantini si aggiungono soltanto al momento di mangiare.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000132",
+      "proposedDescriptionIT": "Il Katsu Curry Sando abbina pane shokupan morbido a una cotoletta tonkatsu croccante e a salsa curry densa. Il sandwich viene assemblato a caldo con ripieno ben scolato e tagliato prima che l’umidità ammorbidisca la panatura.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000133",
+      "proposedDescriptionIT": "Il Tori Chashu Ramen utilizza sovracoscia di pollo arrotolata e cotta in una marinatura di salsa di soia e aromi. Il pollo affettato viene disposto sopra noodles e brodo preparati separatamente, senza confondere la cottura della carne con il breve tempo richiesto dalla pasta.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000134",
+      "proposedDescriptionIT": "Lo Shirasu Don unisce riso giapponese caldo, bianchetti già cotti e un tuorlo ottenuto da uovo pastorizzato idoneo al consumo previsto. Gli ingredienti si dispongono sulla ciotola poco prima del servizio, con salsa di soia aggiunta a filo.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    }
+  ]
+}
