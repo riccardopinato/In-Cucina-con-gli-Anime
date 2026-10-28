@@ -128,6 +128,12 @@ def build(source: dict, proposals: dict) -> dict:
             "titleIT": recipe["title"],
             "originalDescriptionIT": recipe["description"],
             "proposedDescriptionIT": proposals[recipe["id"]],
+            "servings": recipe["servings"],
+            "times": recipe["times"],
+            "equipmentIT": recipe.get("equipment", []),
+            "ingredientsIT": recipe["ingredients"],
+            "stepsIT": recipe["steps"],
+            "animeReviewSource": recipe.get("animeReview"),
             "descriptionChangedInProposal": proposals[recipe["id"]] != recipe["description"],
             "status": "PENDING_ITALIAN_HUMAN_EDITORIAL_ACCEPTANCE_AND_ATOMIC_LOCALE_MIGRATION",
             "reviewEvidence": None,
@@ -194,7 +200,8 @@ def main() -> None:
     (output / "F3L_B2_ITALIAN_REVIEW_CANDIDATES.json").write_text(
         json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
-    print(json.dumps({k: v for k, v in report.items() if k != "recipes"},
+    print(json.dumps({k: v for k, v in report.items()
+                      if k not in ("recipes", "italianReusableComponents")},
                      ensure_ascii=False, indent=2))
 
 
