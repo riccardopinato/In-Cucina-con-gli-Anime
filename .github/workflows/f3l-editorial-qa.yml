@@ -3,6 +3,7 @@ on:
   pull_request:
     paths:
       - 'tool/f3l_*'
+      - 'authoring/f3k_it_hardening_51_162.json'
       - 'tool/tests/test_f3l_*'
       - 'authoring/f3l_review_drafts/**'
       - 'docs/f3l_editorial/**'
@@ -23,3 +24,5 @@ jobs:
         run: python -m unittest discover -s tool/tests -p 'test_f3l*.py' -q
       - name: Check all five source-bound quarantined recipe packs
         run: python tool/f3l_check_review_drafts.py
+      - name: Reject witnessed semantic mistranslations and unsafe source drift
+        run: python tool/f3l_semantic_safety_gate.py
