@@ -27,3 +27,8 @@ Italian source `recipe_000089` step 2 requires a separate source-version migrati
 ## Later controlled migration
 
 The Italian source erratum for recipe `000089`, described historically above, was corrected on 2026-10-28 through a versioned/hash-bound migration. See `F3L_SOURCE_MIGRATION_000089.md`. The five draft packs remain non-publishable.
+
+
+## Latest editorial status (2026-10-28)
+
+The original source migration `F3L_SOURCE_MIGRATION_000089.md` remains historical. Subsequent confirmed defect fixes, new source SHA and non-publication CI are documented at `F3L_REMEDIATION_2026-10-28.md`. The old audit summaries are historical snapshots and are not a new human certification.

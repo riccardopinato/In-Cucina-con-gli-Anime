@@ -8,7 +8,7 @@ import json
 from pathlib import Path
 from f3l_translation_gate import digest, inspect
 
-SOURCE_SHA='905e4faa5253bc2968477836657abc6068e2961768008707f83b3b4b6f17431e'
+SOURCE_SHA='954fb9ddc47ff90f7678b4677a4f12dab4633b6c0afa883c25ec8b417f19cd1c'
 # Each entry is hand reconstructed from the exact Italian instruction, rather than
 # translated with unconstrained substitutions. Ingredient names repaired below.
 STEP_EDITS={
@@ -183,7 +183,7 @@ EXTRA_STEPS={
  },
 }
 EXTRA_STEPS['de'].update({
- (55,2):'Kurz aufkochen lassen, dann die Hitze reduzieren.',
+ (55,2):'Die Brühe leicht köcheln lassen.',
  (67,1):'Dashi-Brühe, Mehl und Worcestershiresauce in einem Krug mit einem Schneebesen kräftig verrühren.',
  (71,8):'Die heiße Brühe in die Schüsseln geben und die Sesampaste am Boden mit einem Schneebesen gründlich darin auflösen.',
  (75,6):'Den Herd ausschalten, die zerbröselten Curry-Roux-Würfel zugeben und mit dem Schneebesen rühren, bis sie sich vollständig aufgelöst haben und eine dicke, samtige Brühe entstanden ist.',
@@ -201,7 +201,7 @@ EXTRA_STEPS['de'].update({
  (147,5):'Die restliche Hühnerbrühe erhitzen und die schwarze Sesambasis mit einem Schneebesen kräftig einrühren, bis sich der Sesam gleichmäßig verteilt.',
  (154,4):'Das Kombu-Dashi zugießen, leicht aufkochen lassen und zugedeckt etwa 8–10 Minuten garen, bis das Wurzelgemüse weich ist.',
  (158,3):'Das Mehl zusammen mit dem Matcha-Pulver sieben und mit einem Schneebesen unter die Eigelbmasse rühren.',
- (162,5):'Nach 1 Stunde, sobald der Sorbetansatz am Rand fest zu werden beginnt, das Eiweiß steif schlagen und mit einem Schneebesen unter das Sorbet heben, damit es luftig wird.',
+ (162,5):'Nach 1 Stunde, sobald der Sorbetansatz am Rand fest wird, ausschließlich pasteurisiertes Eiweiß steif schlagen und vorsichtig unterheben. Kein rohes, unpasteurisiertes Eiweiß verwenden.',
 })
 EXTRA_STEPS['pt'].update({
  (55,3):'Retire uma concha de caldo quente, dissolva nela a pasta de miso com um batedor de varas ou pauzinhos e volte a juntar tudo à panela, mexendo bem.',
