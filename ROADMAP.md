@@ -482,3 +482,9 @@ Phase B3: promote only audited packs with 112/112 human reviews per language, fu
 Evidence: `tool/f3l_translate_drafts.py`, `tool/f3l_translation_gate.py`, `tool/tests/test_f3l_translation_gate.py`, `docs/F3L_TRANSLATION_QA.md`, `.github/workflows/f3l-translation-drafts.yml`.
 
 Do **not** mark F3L PASS because automated machine drafts exist. Gate `--release-ready` explicitly rejects drafts lacking human editorial sign-off.
+
+### F3L staging and versioned-source migration — 2026-10-28
+
+- PR #33 merged on `main` as a non-publishable milestone at `0ce4ff684fca9d83adedcb6b95104c7437e97968`, preserving 560 translated recipe candidates and the 226-field copy-edit ledger.
+- `recipe_000089` step-2 Italian rice-cooker erratum is repaired via controlled source version 2 -> 3, five draft pack hash migrations and tests. Details: `docs/f3l_editorial/F3L_SOURCE_MIGRATION_000089.md`.
+- **F3L is not release-ready:** every target locale remains at 0/112 human editorial sign-offs. Automated structure/lexical results do not permit publishing. Runtime catalog remains unchanged. F3L B2 and B3 are still gated; F4 is not unblocked by technical staging alone.

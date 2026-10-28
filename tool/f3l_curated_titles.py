@@ -6,7 +6,7 @@ editorial candidates, not independently certified native translations.
 from __future__ import annotations
 from pathlib import Path
 from f3l_translation_gate import digest,source_recipes
-SOURCE_SHA256='4d736cfa431025fdd8c6baa9725adf2525cdf0bcbf2be8508941f5dd68c3710f'
+SOURCE_SHA256='905e4faa5253bc2968477836657abc6068e2961768008707f83b3b4b6f17431e'
 LOCALES=('en','es','fr','de','pt')
 TITLE_FILE=Path(__file__).with_suffix('.psv')
 

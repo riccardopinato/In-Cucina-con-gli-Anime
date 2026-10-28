@@ -22,3 +22,8 @@
 See [F3L_COPYEDIT_PASS_2.md](F3L_COPYEDIT_PASS_2.md) for 226 additional source-locked text corrections, exact before/after ledger, expanded regression tests and updated warnings. The earlier figures of 185 issues are historical; the currently implemented lexical/number detectors now report **zero identified flags** across the five saved draft packs. **This is NOT a comprehensive bilingual editorial sign-off:** each locale remains 0/112 human-reviewed and `--strict-release` must fail. No runtime translation has been published.
 
 Italian source `recipe_000089` step 2 requires a separate source-version migration before publication; a source change invalidates all current per-recipe and global SHA fingerprints.
+
+
+## Later controlled migration
+
+The Italian source erratum for recipe `000089`, described historically above, was corrected on 2026-10-28 through a versioned/hash-bound migration. See `F3L_SOURCE_MIGRATION_000089.md`. The five draft packs remain non-publishable.
