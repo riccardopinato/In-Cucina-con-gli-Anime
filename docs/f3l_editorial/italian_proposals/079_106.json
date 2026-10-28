@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "sourceBaselineSha256": "954fb9ddc47ff90f7678b4677a4f12dab4633b6c0afa883c25ec8b417f19cd1c",
+  "locale": "it",
+  "range": [
+    79,
+    106
+  ],
+  "reviewKind": "AI_ASSISTED_SOURCE_LOCKED_DESCRIPTION_PROPOSALS_NOT_APPLIED",
+  "proposals": [
+    {
+      "recipeId": "recipe_000079",
+      "proposedDescriptionIT": "Le Kani Cream Korokke racchiudono un ripieno cremoso di granchio, cipolla e besciamella in una panatura croccante. Il composto viene raffreddato prima di formare le crocchette; dopo la frittura si servono calde con salsa tonkatsu.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000080",
+      "proposedDescriptionIT": "Il Sanma no Shioyaki è un pesce intero salato e grigliato finché la pelle diventa dorata. Si accompagna con daikon grattugiato e condimenti essenziali per lasciare in evidenza il sapore del pesce; la denominazione italiana della specie richiede una verifica tassonomica.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000081",
+      "proposedDescriptionIT": "Il Tamago Sando è un sandwich giapponese di pane shokupan soffice, farcito con uova sode e maionese Kewpie. Parte delle uova viene schiacciata con maionese, latte e condimenti fino a ottenere una crema spalmabile; una porzione di uovo resta al centro per creare una sezione decorativa al taglio. Il pane si farcisce e si lascia riposare avvolto prima del taglio, senza cuocerlo.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000082",
+      "proposedDescriptionIT": "Il Mizutaki Nabe è una zuppa in cui sovracosce e ali di pollo cuociono nel brodo prima dell’aggiunta delle verdure. Il fondo viene arricchito gradualmente e servito nella pentola comune, dalla quale ogni commensale preleva ingredienti da accompagnare con il proprio condimento.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000083",
+      "proposedDescriptionIT": "Nel Tsukemen i noodles vengono scolati e serviti separati da un brodo concentrato di carne, dashi e condimenti. Ogni boccone di pasta viene intinto nella salsa calda; chashu e uovo marinato completano il servizio senza perdere la consistenza dei noodles.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000084",
+      "proposedDescriptionIT": "Il Chicken Namban abbina bocconcini di pollo impanati e fritti a una salsa agrodolce e a una tartara giapponese all’uovo. La salsa cremosa viene preparata a parte e distribuita sul pollo solo dopo la cottura, così da conservare il contrasto di consistenze.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000085",
+      "proposedDescriptionIT": "Il Warabi Mochi è un dolce dalla consistenza gelatinosa ottenuto scaldando acqua, zucchero e amido fino a farli diventare traslucidi. Dopo il raffreddamento si taglia a cubetti e si completa con kinako tostato e sciroppo kuromitsu.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000086",
+      "proposedDescriptionIT": "I Soufflé Pancake giapponesi devono la loro altezza agli albumi montati incorporati delicatamente alla base di tuorli, latte e farina. La pastella viene cotta lentamente in padella, spesso coperta, e servita subito per mantenere il volume.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000087",
+      "proposedDescriptionIT": "Il Mont Blanc alle castagne presenta una base di pan di Spagna o meringa, panna montata e una crema di castagne distribuita in fili decorativi. L’assemblaggio avviene a freddo per ottenere la tipica forma a cupola, completata con zucchero a velo.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000088",
+      "proposedDescriptionIT": "Il Fruit Sando abbina pane shokupan morbido, panna montata con zucchero e vaniglia e frutta fresca. La frutta viene disposta sulle fette ricoperte di panna secondo la diagonale di taglio, poi gli spazi vengono riempiti con altra crema. Dopo aver chiuso e avvolto i sandwich, si lasciano in frigorifero e si tagliano seguendo la diagonale: è un dolce freddo, non da cuocere.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000089",
+      "proposedDescriptionIT": "Il Botamochi, chiamato anche Ohagi, combina riso glutinoso e riso giapponese in bocconi modellati a mano. La pasta dolce di fagioli rossi anko viene distribuita intorno o all’interno del riso, e i dolcetti si servono a temperatura ambiente.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000090",
+      "proposedDescriptionIT": "Lo Shoyu Ramen usa un tare di salsa di soia e mirin per insaporire un brodo leggero di pollo o dashi. I noodles si lessano separatamente e la ciotola si completa con chashu, ajitama, narutomaki, cipollotto e nori.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000091",
+      "proposedDescriptionIT": "Il Takikomi Gohan cuoce il riso giapponese direttamente insieme a brodo dashi, pollo e verdure. Gli ingredienti vengono disposti sopra il riso prima della cottura e incorporati soltanto dopo il riposo, per non compromettere l’assorbimento del liquido.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000092",
+      "proposedDescriptionIT": "Nel Moyashi Itame i germogli di soia vengono saltati rapidamente nel wok con pancetta, carota e cipollotto. La cottura a fuoco vivace mantiene i germogli croccanti; soia, pepe e olio di sesamo completano il condimento.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000093",
+      "proposedDescriptionIT": "Questo Katsu Donburi mette su riso caldo una cotoletta tonkatsu con cipolla e condimento al dashi, quindi la completa con formaggio fuso. La cottura finale deve scaldare la cotoletta senza inzuppare eccessivamente la panatura.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000094",
+      "proposedDescriptionIT": "L’Ishikari Nabe è una pentola di salmone e verdure in brodo dashi condito con miso. Il pesce viene aggiunto dopo la base vegetale per rispettarne i tempi; una noce di burro a fine cottura arrotonda il sapore del brodo.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000095",
+      "proposedDescriptionIT": "Lo Yuzu Shio Ramen profuma un brodo chiaro di pollo con sale e scorza fresca di yuzu. I noodles vengono lessati a parte e serviti subito con pollo, menma, uovo e scorza grattugiata, evitando di lasciare la pasta in attesa nel liquido.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000096",
+      "proposedDescriptionIT": "L’Asari Clam Chowder è una zuppa cremosa con vongole aperte al vapore, patate e cipolla. Il liquido delle vongole viene filtrato e recuperato per insaporire la base; i molluschi entrano solo alla fine, senza prolungarne inutilmente la cottura.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000097",
+      "proposedDescriptionIT": "La Kakiage Tempura raccoglie cipolla, carota e, facoltativamente, gamberetti in piccole frittelle dalla superficie irregolare. Una pastella fredda lega appena gli ingredienti; la frittura deve risultare leggera e croccante, da servire subito con tentsuyu.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000098",
+      "proposedDescriptionIT": "Il Chicken Teriyaki Don abbina riso bianco e sovracosce di pollo rosolate dal lato della pelle. La salsa di soia e mirin si riduce intorno alla carne fino a formare una glassa, poi il pollo viene affettato e sistemato sul riso.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000099",
+      "proposedDescriptionIT": "Gli Anko Dango sono palline di riso glutinoso bollite, raffreddate e infilzate sugli spiedini. Si completano con una copertura di anko liscio e una spolverata di farina di soia tostata kinako zuccherata.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000100",
+      "proposedDescriptionIT": "Il Japanese Curry Udon serve udon spessi in un brodo di dashi addensato con roux di curry giapponese. Cipolla e carne cuociono nella base saporita, mentre i noodles vengono lessati separatamente prima di ricevere il curry caldo.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000101",
+      "proposedDescriptionIT": "Gli Yaki Onigiri sono triangoli di riso compattati e dorati sulla piastra fino a formare una crosta asciutta. Salsa di soia, mirin e burro vengono aggiunti durante la finitura per una glassa salata e lucida.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000102",
+      "proposedDescriptionIT": "Il Dashi Maki Tamago è una frittata giapponese arrotolata a strati sottili con brodo dashi, mirin e salsa di soia. Le aggiunte successive di uovo vengono fatte rapprendere e avvolte sul rotolo, poi la frittata viene modellata e tagliata a fette.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000103",
+      "proposedDescriptionIT": "Il Matcha Parfait alterna gelato al tè verde, anko, gelatina al matcha e altre guarnizioni in un bicchiere alto. Gli elementi da raffreddare vengono preparati prima, mentre il montaggio a strati e la decorazione si eseguono subito prima del servizio.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000104",
+      "proposedDescriptionIT": "Le Kabocha Korokke sono crocchette di zucca giapponese cotta al vapore e schiacciata, arricchita con carne macinata e cipolla. Dopo la formatura e l’impanatura vengono fritte fino a doratura e servite con salsa tonkatsu.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000105",
+      "proposedDescriptionIT": "Il Nerikiri è un piccolo dolce modellato con pasta dolce di fagioli bianchi shiroan e una base di farina di riso glutinoso. Ogni porzione viene stesa, riempita con anko e lavorata a mano in forme decorative, da servire con il tè.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000106",
+      "proposedDescriptionIT": "Lo Yaki-Imo si ottiene cuocendo lentamente le patate dolci giapponesi satsumaimo con la buccia. La cottura prolungata concentra la dolcezza e lascia la polpa morbida, da consumare calda senza necessità di ripieno.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    }
+  ]
+}

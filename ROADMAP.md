@@ -467,6 +467,14 @@ Phase B — EN/ES/FR/DE/PT:
 - BLOCKED until the stricter anti-template Italian freeze also passes exact-head CI;
 - translations must reproduce the full frozen Italian recipe structure and may not collapse procedures back to generic four-step templates.
 
+### F3L B2-I — complete AI-assisted Italian recipe-description review (112/112 candidate pack)
+
+- **Deliverable:** 112 individual source-grounded Italian copy proposals, ten source component-review dossiers, context-anchored risk/typo leads, numeric timing triage, deterministic negative-path tests and non-production CI reviewer artifact.
+- **Scope of completion:** candidate descriptions for 112/112 Italian recipes 51–162 only; changed wording remains segregated under `docs/f3l_editorial/italian_proposals/`. Exact source SHA is enforced; no undocumented recipe/ingredient/step edits.
+- **Release and human gates:** no qualified human culinary/editorial acceptance, no source version/hash migration, no localized revisions and **no runtime publication**. Existing source and five draft locales remain unchanged and quarantined; B2 is NOT PASS and B3 remains BLOCKED.
+- **Evidence:** `docs/f3l_editorial/F3L_B2_ITALIAN_112_REVIEW_REPORT.md`, `tool/f3l_b2_italian_review.py`, `tool/tests/test_f3l_b2_italian_review.py`, CI artifact `f3l-b2-italian-112-review-candidates`.
+- **Next gated step:** qualified Italian editorial/culinary review of all 112 proposed descriptions + the 10 components; remedy step/safety defects; atomic five-locale source-version migration before any release consideration.
+
 ### F3L B2-0 — source-first editorial triage + bilingual review dossiers (technical workbench)
 
 - **Scope:** generate a complete 112-recipe Italian review queue; flag six observed dish/copy mismatches and additional template-style copy for contextual examination. These are pending reviews, not corrected or signed-off source records.
