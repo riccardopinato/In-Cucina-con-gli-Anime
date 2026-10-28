@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "sourceBaselineSha256": "954fb9ddc47ff90f7678b4677a4f12dab4633b6c0afa883c25ec8b417f19cd1c",
+  "locale": "it",
+  "range": [
+    51,
+    78
+  ],
+  "reviewKind": "AI_ASSISTED_SOURCE_LOCKED_DESCRIPTION_PROPOSALS_NOT_APPLIED",
+  "proposals": [
+    {
+      "recipeId": "recipe_000051",
+      "proposedDescriptionIT": "Lo Shio Ramen valorizza un brodo chiaro di pollo e dashi insaporito con sake, sale e olio di sesamo. I tagliolini vengono lessati separatamente e sistemati nel brodo caldo con chashu, uovo marinato, menma, cipollotto e nori: la rapidità dell’assemblaggio conserva la consistenza della pasta.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000052",
+      "proposedDescriptionIT": "Il Kare Pan racchiude un ripieno di curry denso in un involucro lievitato e impanato nel panko. Dopo una prima lievitazione l’impasto viene diviso, farcito e sigillato, quindi i panini vengono fritti fino a ottenere una crosta dorata e croccante.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000053",
+      "proposedDescriptionIT": "Nell’Ebi Tendon il riso caldo sostiene gamberi e verdure in tempura appena fritti. La pastella viene amalgamata rapidamente con acqua ghiacciata, mentre la salsa tentsuyu di dashi, soia e mirin viene preparata a parte e aggiunta al momento di servire.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000054",
+      "proposedDescriptionIT": "Gli Hambagu sono polpette ovali di carne macinata mista, cipolla e panko ammorbidito nel latte. Dopo la rosolatura vengono terminati in padella con coperchio, mentre i succhi di cottura diventano la base di una salsa saporita da versare sulle porzioni.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000055",
+      "proposedDescriptionIT": "Nel Miso Nikomi Udon il dashi e il miso rosso danno corpo a un brodo intenso, mentre gli udon cuociono direttamente nel liquido e assorbono il condimento. Il pollo a bocconcini, i funghi shiitake e il tofu vanno cotti prima dell'aggiunta della pasta; l'uovo si aggiunge solo alla fine. Usa uova pastorizzate se desideri il tuorlo cremoso e controlla la temperatura del pollo prima di servire.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000056",
+      "proposedDescriptionIT": "Il Chirashizushi dispone sul riso sushi condito e intiepidito un mosaico di striscioline di frittata, pesce, gamberi, cetriolo e uova di salmone. La preparazione è soprattutto un assemblaggio delicato; gli ingredienti di mare destinati a essere serviti crudi richiedono una specifica verifica di idoneità e conservazione.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000057",
+      "proposedDescriptionIT": "I Kurogoma Dango sono palline di riso glutinoso prima bollite e raffreddate in acqua e ghiaccio, poi infilzate su spiedini e leggermente grigliate. Una salsa calda di pasta di sesamo nero, zucchero, soia e mirin ne completa la superficie.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000058",
+      "proposedDescriptionIT": "Gli Hanami Dango alternano tre palline di riso glutinoso e tofu di seta nei colori rosa, bianco e verde. Il composto viene diviso e colorato con fragola e matcha, poi lessato, raffreddato e infilzato sugli spiedini secondo la sequenza tradizionale.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000059",
+      "proposedDescriptionIT": "Nell’Asari no Sakamushi le vongole già spurgate vengono cotte brevemente in un tegame coperto con sake, aglio e zenzero. Dopo aver aromatizzato il burro a fuoco dolce, si uniscono le vongole e si alza la fiamma per favorirne l’apertura; quelle rimaste chiuse vengono scartate. A fuoco spento si completa il brodetto con il burro restante e poca salsa di soia, poi si serve con erba cipollina fresca.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000060",
+      "proposedDescriptionIT": "Il Castella è un dolce alto e soffice che ottiene volume montando a lungo uova e zucchero. Si incorporano miele e farina setacciata senza smontare il composto, poi si cuoce nello stampo rettangolare e si lascia riposare avvolto per stabilizzare la mollica.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000061",
+      "proposedDescriptionIT": "Il Miso Ramen di Sapporo parte da una base di aglio, zenzero, carne e miso rosso e bianco leggermente tostati. Il brodo viene aggiunto gradualmente; i noodles si cuociono separatamente e la ciotola si completa con germogli saltati, mais, uovo e una noce di burro.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000062",
+      "proposedDescriptionIT": "Il Kurogoma Nabe combina fettine di maiale, cavolo cinese, tofu e funghi in un’unica pentola. La salsa di miso e sesamo nero viene stemperata con dashi e versata sugli ingredienti, poi si cuoce coperto finché verdure e carne sono pronte.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000063",
+      "proposedDescriptionIT": "Il Tenshinhan accosta un’omelette morbida con granchio o surimi a una ciotola di riso bianco caldo. Una salsa ankake di brodo, soia e condimenti, addensata con amido, viene versata sulla frittata soltanto al termine della cottura.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000064",
+      "proposedDescriptionIT": "Le Menchi Katsu sono cotolette ovali di carne macinata e cipolla, legate con uovo e pangrattato ammorbidito nel latte. Dopo la doppia impanatura vengono fritte fino a doratura e servite con cavolo fresco e salsa tonkatsu, verificando la cottura interna della carne.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000065",
+      "proposedDescriptionIT": "Nello Shogayaki le fettine sottili di maiale vengono infarinate leggermente, rosolate in padella e rivestite da una salsa a base di zenzero, soia, mirin e sake. Il condimento si riduce in pochi istanti fino a glassare la carne, da servire con cavolo tagliato fine.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000066",
+      "proposedDescriptionIT": "Il Mabo Nasu combina bastoncini di melanzana rosolati e carne macinata di maiale in una salsa aromatica di aglio, zenzero, miso e soia. Le melanzane tornano in padella alla fine; l’amido addensa il fondo prima di servire con riso.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000067",
+      "proposedDescriptionIT": "Il Monjayaki si prepara su una piastra con cavolo, tenkasu e carne o frutti di mare disposti ad anello. Al centro viene versata una pastella molto liquida a base di dashi, farina e salsa Worcestershire, poi il tutto viene steso e lasciato formare una crosticina da raccogliere con piccole spatole.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000068",
+      "proposedDescriptionIT": "Questi Dorayaki sostituiscono l’anko con una crema custard alla vaniglia. La crema viene fatta addensare e raffreddare, mentre una pastella al miele forma piccoli dischi in padella che vengono uniti a sandwich solo dopo il raffreddamento.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000069",
+      "proposedDescriptionIT": "La Yuzu Cheesecake ha una base di biscotti e burro e un ripieno al formaggio profumato con succo e scorza di yuzu. Dopo la cottura in forno deve raffreddarsi e riposare in frigorifero per assestare la consistenza prima del taglio.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000070",
+      "proposedDescriptionIT": "Il Sakura Mochi racchiude una pallina di anko in un involucro di riso glutinoso rosa. Dopo la cottura e il modellamento, ogni dolcetto viene avvolto in una foglia di ciliegio conservata in salamoia, che offre il contrasto aromatico e sapido.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000071",
+      "proposedDescriptionIT": "Il Tantanmen unisce noodles al brodo di sesamo e miso e una guarnizione di carne macinata di maiale piccante. La base aromatica viene preparata in padella; il brodo caldo e la pasta si incontrano nella ciotola appena prima di aggiungere la carne.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000072",
+      "proposedDescriptionIT": "La Yakisoba classica si prepara saltando noodles precotti con maiale, cavolo e verdure sulla piastra. La salsa a base di Worcestershire e condimenti avvolge la pasta nel wok; aonori, zenzero rosso e katsuobushi completano il piatto al servizio.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000073",
+      "proposedDescriptionIT": "Il Pork Kakuni si prepara con cubi di pancia di maiale prima sobbolliti in acqua con zenzero e parte verde del cipollotto, poi cotti lentamente in un fondo di sake, mirin, salsa di soia e zucchero. La prima cottura aiuta a eliminare il grasso in eccesso; nella seconda, la carne diventa tenera e assorbe gli aromi. Le uova sode entrano nel fondo durante gli ultimi minuti e si servono insieme al maiale, con salsa ristretta e senape karashi.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000074",
+      "proposedDescriptionIT": "L’oden è una preparazione invernale in cui daikon, konnyaku, uova sode e tortini di pesce cuociono lentamente in un brodo di dashi, salsa di soia chiara e mirin. Il daikon viene prima sbollentato, così come il konnyaku, mentre gli ingredienti principali sobbollono a fiamma bassa per insaporirsi senza disfarsi. I fagottini kinchaku con mochi si aggiungono solo negli ultimi dieci minuti.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000075",
+      "proposedDescriptionIT": "Il Katsu Curry Udon unisce udon spessi in una salsa al curry giapponese e una cotoletta tonkatsu croccante. La pasta viene cotta mentre la base di curry e cipolla si scalda; la cotoletta si posa sulla ciotola solo al momento del servizio.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000076",
+      "proposedDescriptionIT": "L’Agedashi Tofu parte da cubi di tofu ben scolati e asciugati, rivestiti con un velo di amido e fritti fino a formare una crosta leggera. Il tofu viene immerso in un brodo dashi condito e guarnito con daikon grattugiato e aromi freschi.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000077",
+      "proposedDescriptionIT": "L’Unadon abbina anguilla kabayaki grigliata e glassata con salsa dolce-salata a riso bianco caldo. Il condimento di soia, mirin, sake e zucchero viene ristretto a parte e spennellato sull’anguilla prima di disporla sulla ciotola.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    },
+    {
+      "recipeId": "recipe_000078",
+      "proposedDescriptionIT": "Gli Ebi Chili sono gamberi leggermente rivestiti di amido e albume, saltati in una salsa piccante al pomodoro con zenzero e aglio. La cottura è breve per conservare una consistenza soda; il piatto si serve subito con riso bianco.",
+      "reviewStatus": "CANDIDATE_NOT_APPROVED"
+    }
+  ]
+}
