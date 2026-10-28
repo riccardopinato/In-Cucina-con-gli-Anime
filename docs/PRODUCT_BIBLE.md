@@ -126,3 +126,8 @@ Exact pricing/provider/store integration is out of scope until F4.
 - consent/privacy foundation is fail-closed and separates persisted local preference from per-launch provider eligibility;
 - CI validates authoring, generated catalog, Flutter tests and production/fixture Web builds;
 - new recipes can be added without editing Dart.
+
+
+## F3L editorial release caution — 2026-10-28
+
+The F3L five-locale rebuild remains editorial staging, not production content. A new versioned Italian source fixes specific food-safety, narrative and anime-provenance issues, and all five translated draft packs are linked to this exact source with witness-level correction tests. Full 112/112 native reviews per locale, component review and runtime promotion have **not** occurred; see `docs/f3l_editorial/F3L_REMEDIATION_2026-10-28.md`.

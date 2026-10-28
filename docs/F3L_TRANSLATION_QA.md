@@ -57,3 +57,8 @@ human-reviewed. Publication and full-locale release certification remain blocked
 ## Italian source correction — 2026-10-28
 
 Controlled version and hash migration for recipe `000089` has updated five source-bound staging drafts and editorial tooling. Historical F3K freeze is recoverable in Git. See `docs/f3l_editorial/F3L_SOURCE_MIGRATION_000089.md`. No human sign-off or runtime publication implied.
+
+
+## Audit-driven safety and copy-edit migration (2026-10-28)
+
+New Italian source SHA: `954fb9ddc47ff90f7678b4677a4f12dab4633b6c0afa883c25ec8b417f19cd1c`, with version 3 on Italian recipes `000055/000074/000134/000146/000160/000162`; recipe `000089` remains version 3. All five draft packs rebound, and witnessed false-friend regressions added in CI. See `docs/f3l_editorial/F3L_REMEDIATION_2026-10-28.md`. This does not clear the human review gate.

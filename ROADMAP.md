@@ -488,3 +488,8 @@ Do **not** mark F3L PASS because automated machine drafts exist. Gate `--release
 - PR #33 merged on `main` as a non-publishable milestone at `0ce4ff684fca9d83adedcb6b95104c7437e97968`, preserving 560 translated recipe candidates and the 226-field copy-edit ledger.
 - `recipe_000089` step-2 Italian rice-cooker erratum is repaired via controlled source version 2 -> 3, five draft pack hash migrations and tests. Details: `docs/f3l_editorial/F3L_SOURCE_MIGRATION_000089.md`.
 - **F3L is not release-ready:** every target locale remains at 0/112 human editorial sign-offs. Automated structure/lexical results do not permit publishing. Runtime catalog remains unchanged. F3L B2 and B3 are still gated; F4 is not unblocked by technical staging alone.
+
+
+### F3L audit remediation — 2026-10-28 (staging / partial, NOT RELEASE READY)
+
+The external audit on main `5146bfd` found confirmed mistranslations in all five draft languages, generic Italian copy and safety-critical instructions. A controlled source revision now corrects six Italian recipes and migrates the five source-bound translation draft packs; witness-level copy-edits and CI regression are recorded in `docs/f3l_editorial/F3L_REMEDIATION_2026-10-28.md`. **Remaining**: full human bilingual culinary review 112/112 per language + 10 components, comprehensive IT copy sweep, native signoff, then runtime validation. Keep F3L B2/B3 and publication blocked.
