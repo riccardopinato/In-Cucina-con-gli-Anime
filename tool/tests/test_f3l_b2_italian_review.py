@@ -46,6 +46,13 @@ class F3LB2ItalianReviewTests(unittest.TestCase):
         self.assertTrue(all(r["reviewEvidence"] is None and
                             r["status"].startswith("PENDING_")
                             for r in report["recipes"]))
+        for source, packet in zip(self.source["recipes"], report["recipes"]):
+            self.assertEqual(packet["stepsIT"], source["steps"])
+            self.assertEqual(packet["ingredientsIT"], source["ingredients"])
+            self.assertEqual(packet["times"], source["times"])
+            self.assertEqual(packet["servings"], source["servings"])
+            self.assertEqual(packet["animeReviewSource"], source["animeReview"])
+            self.assertEqual(packet["equipmentIT"], source.get("equipment", []))
         self.assertTrue(all(c["reviewEvidence"] is None and
                             c["status"].startswith("PENDING_")
                             for c in report["italianReusableComponents"]))
