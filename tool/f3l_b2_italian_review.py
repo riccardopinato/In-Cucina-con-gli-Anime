@@ -149,6 +149,19 @@ def build(source: dict, proposals: dict) -> dict:
         "timingReviewLeads": sum(any(f["kind"] == "elapsed_time_arithmetic_requires_context"
                                      for f in r["findingsRequiringReview"]) for r in review_rows),
         "humanEditorialSignoffs": 0,
+        "italianReusableComponentCount": len(source["reusableComponents"]),
+        "italianReusableComponents": [
+            {
+                "componentId": key,
+                "sourceComponentSha256": digest(component),
+                "titleIT": component["title"],
+                "ingredientsIT": component.get("ingredients", []),
+                "stepsIT": component.get("steps", []),
+                "status": "PENDING_QUALIFIED_ITALIAN_COMPONENT_REVIEW",
+                "reviewEvidence": None,
+            }
+            for key, component in source["reusableComponents"].items()
+        ],
         "sourceApprovedForPromotion": False,
         "releaseApproved": False,
         "reviewNotice": (
