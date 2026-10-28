@@ -176,3 +176,7 @@ Translation work may start only after:
 3. no subsequent Italian edit invalidates that frozen baseline.
 
 After those conditions, EN/ES/FR/DE/PT must be regenerated from this frozen Italian baseline, preserving the complete step structure rather than falling back to generic four-step templates.
+
+## Later controlled source erratum (2026-10-28)
+
+The historical Italian F3K freeze stays available from its original merge. Recipe `000089` has subsequently received a versioned typo correction, documented at `docs/f3l_editorial/F3L_SOURCE_MIGRATION_000089.md`. This does not retroactively alter F3K evidence or approve the multilingual release.

@@ -53,3 +53,7 @@ one error to **zero errors for all 112 recipes**. Three dedicated regression
 tests pass in addition to the existing eight gate tests. This is a targeted
 linguistic repair, **not** a claim that all 112 French recipes are fully
 human-reviewed. Publication and full-locale release certification remain blocked.
+
+## Italian source correction — 2026-10-28
+
+Controlled version and hash migration for recipe `000089` has updated five source-bound staging drafts and editorial tooling. Historical F3K freeze is recoverable in Git. See `docs/f3l_editorial/F3L_SOURCE_MIGRATION_000089.md`. No human sign-off or runtime publication implied.

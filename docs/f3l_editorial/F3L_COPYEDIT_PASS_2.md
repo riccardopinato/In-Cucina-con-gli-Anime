@@ -34,3 +34,7 @@ F3K `recipe_000089` step 2 currently reads `Cuoci nel lascia cuocereriso o in pe
 - **Do not merge translated text into app runtime**, generate release assets, or represent all 162 recipes as publication-ready. The PR is an authoring/QA milestone, not a language launch.
 
 Next editorial step: perform a true recipe-by-recipe bilingual semantic pass across *every* remaining field, with culinary/food-safety review and qualified human editorial evidence, then migrate source 000089, recheck the five locales, compile catalog, and run app builds.
+
+### Later controlled migration
+
+The `recipe_000089` malformed Italian source step described in this historical second-pass report has since been fixed through a version/hash migration. See `F3L_SOURCE_MIGRATION_000089.md`. This does not constitute language certification.
