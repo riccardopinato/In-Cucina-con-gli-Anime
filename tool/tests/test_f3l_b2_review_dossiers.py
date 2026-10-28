@@ -6,6 +6,7 @@ import json
 import sys
 import unittest
 from pathlib import Path
+from tempfile import TemporaryDirectory
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from f3l_b2_review_dossiers import (
@@ -59,6 +60,16 @@ class F3LB2ReviewDossiersTests(unittest.TestCase):
                     self.assertEqual(len(paired["steps"]), len(raw["steps"]))
                     self.assertEqual(len(paired["equipment"]), len(raw["equipment"]))
                     self.assertIsNone(paired["humanReviewEvidence"])
+                    self.assertEqual(paired["servings"], {
+                        "it": raw["servings"],
+                        "candidate": self.packs[locale]["recipes"][self.source["recipes"].index(raw)]["servings"],
+                    })
+                    self.assertEqual(paired["numericTimes"]["it"], {
+                        key: value for key, value in raw["times"].items() if key != "note"
+                    })
+                    self.assertEqual(paired["numericTimes"]["candidate"], {
+                        key: value for key, value in self.packs[locale]["recipes"][self.source["recipes"].index(raw)]["times"].items() if key != "note"
+                    })
                     for src, dst in zip(raw["steps"], paired["steps"]):
                         self.assertEqual(dst["stableStepId"], src["id"])
                         self.assertEqual(dst["timerSeconds"], src.get("timerSeconds"))
@@ -102,6 +113,15 @@ class F3LB2ReviewDossiersTests(unittest.TestCase):
         changed["recipes"][0]["ingredients"][0]["quantity"] = 9999
         with self.assertRaisesRegex(ValueError, "structural mismatch"):
             build_dossier(self.source, changed)
+
+    def test_mislabeled_locale_pack_rejected_before_review(self):
+        with TemporaryDirectory() as temp_dir:
+            draft_dir = Path(temp_dir)
+            (draft_dir / "f3l_en_51_162_review_draft.json").write_text(
+                json.dumps(self.packs["fr"]), encoding="utf-8"
+            )
+            with self.assertRaisesRegex(ValueError, "embedded locale mismatch"):
+                load_inputs(Path("authoring/f3k_it_hardening_51_162.json"), draft_dir)
 
     def test_unknown_id_rejected(self):
         with self.assertRaisesRegex(ValueError, "unknown recipe"):
