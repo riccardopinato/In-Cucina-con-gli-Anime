@@ -10,7 +10,7 @@ from f3l_editorial_audit import audit
 
 ROOT=Path(__file__).resolve().parents[2]
 OLD_SOURCE="4d736cfa431025fdd8c6baa9725adf2525cdf0bcbf2be8508941f5dd68c3710f"
-NEW_SOURCE="ec302126b6578f52fb931cce03a06457660031b058a038360a4e289e684240c3"
+NEW_SOURCE="deb77a9375fb0d6ce7fd92af3e2affda89124ce0f39e76f9215c367986e4aa67"
 OLD_RECIPE="485c7ba4a19db4b71b5455b990a8b73cbc32ac38c226df989a338c704409cd5e"
 NEW_RECIPE="56992a2f75b2eb4e0c5935cd9397be9249519bdce10a72323e5af45b655f6f8b"
 OLD_TEXT="Cuoci nel lascia cuocereriso o in pentola con 280ml d'acqua per 15 minuti dal bollore."
@@ -29,12 +29,12 @@ class SourceMigration000089Tests(unittest.TestCase):
         row=next(x for x in now["recipes"] if x["id"]=="recipe_000089")
         self.assertEqual(row["steps"][1]["instruction"],NEW_TEXT)
         self.assertEqual(row["steps"][1]["timerSeconds"],900)
-        self.assertEqual(row["targetContentVersion"],4)
+        self.assertEqual(row["targetContentVersion"],5)
         # Legacy rice-cooker repair stays in force after the later B2 description update.
         prior=json.loads((ROOT/"tool/f3l_b2_2_106_migration_baseline.json").read_text(encoding="utf-8"))
         self.assertEqual(prior["oldRecipeSha256"]["recipe_000089"],NEW_RECIPE)
         self.assertNotEqual(digest(row),NEW_RECIPE)
-        self.assertEqual(row["targetContentVersion"],prior["oldContentVersions"]["recipe_000089"]+1)
+        self.assertEqual(row["targetContentVersion"],prior["oldContentVersions"]["recipe_000089"]+2)
 
     def test_five_packs_still_frozen_non_publishable(self):
         for locale in LOCALES:
@@ -46,7 +46,7 @@ class SourceMigration000089Tests(unittest.TestCase):
                 self.assertEqual(inspect(self.source,pack),[])
                 row=next(r for r in pack["recipes"] if r["id"]=="recipe_000089")
                 self.assertEqual(row["sourceRecipeSha256"],digest(next(x for x in self.source["recipes"] if x["id"]=="recipe_000089")))
-                self.assertEqual(row["sourceContentVersion"],4)
+                self.assertEqual(row["sourceContentVersion"],5)
                 self.assertIn("280",row["steps"][1]["instruction"])
                 self.assertIn("15",row["steps"][1]["instruction"])
                 self.assertEqual(pack["reviewStatus"],"machine_draft_not_publishable")
