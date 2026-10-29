@@ -7,9 +7,19 @@ Reuse map: `docs/GOLDEN_REUSE_MANIFEST.txt`.
 Rights policy: `docs/CONTENT_RIGHTS_POLICY.md`.
 Authoring truth: `docs/RECIPE_AUTHORING_PIPELINE.md`.
 
-Factory baseline for the current implementation:
-`riccardopinato/App-Factory-Core@4cc0b94467b94ab6fabe2c927fcc58afff49e39a`
-(Master 26.6 / Golden Index 19).
+Factory resolver (always authoritative): `riccardopinato/App-Factory-Core/CURRENT.yaml`.
+Last verified alignment snapshot (2026-10-29): Factory
+`174a05e165076c9e4b2d61a20acd85ca6b215f12`
+(**Master v27 modular ACTIVE / Golden Index v23**), AppLab
+`636490e58d38c3910eb168197cde72adb9cdb3f9` (**v6.2, SELF_CANARY**).
+Do not treat historical v26.6 / Golden 19 copies as the current policy.
+Resolve the Factory once per bootstrap; reuse pinned SHA between consecutive
+steps unless the Core changes or an explicit refresh is requested. AppLab v6.2
+does not authorize an autonomous repair writer for this downstream repository.
+
+Detailed active roadmap: `docs/ROADMAP_FACTORY_V27_APPLAB_V62_2026-10-29.md`
+under the root `ROADMAP.md`. It distinguishes draft editorial source changes,
+real human-review gates, and subsequent artwork in the style of recipes 1–50.
 
 Load only the project guidance relevant to the current task:
 - cleanup/replacement work -> `governance/agents/code-hygiene.md`
