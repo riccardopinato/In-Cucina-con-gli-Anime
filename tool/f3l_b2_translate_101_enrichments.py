@@ -8,6 +8,7 @@ from f3l_translation_gate import digest, source_recipes
 from f3l_translate_drafts import MODEL_MAP, translate_all
 
 BEFORE = "ec302126b6578f52fb931cce03a06457660031b058a038360a4e289e684240c3"
+AFTER = "deb77a9375fb0d6ce7fd92af3e2affda89124ce0f39e76f9215c367986e4aa67"
 
 
 def main():
@@ -16,8 +17,9 @@ def main():
     a = parser.parse_args()
     source = json.loads(Path("authoring/f3k_it_hardening_51_162.json").read_text(encoding="utf-8"))
     ledger = json.loads(Path("tool/f3l_b2_2_101_description_enrichment.json").read_text(encoding="utf-8"))
-    if digest(source) != BEFORE or ledger["sourceSha256Before"] != BEFORE:
-        raise ValueError("Expected exact pre-enrichment Italian SHA; no unapproved MT")
+    current_sha = digest(source)
+    if current_sha not in (BEFORE, AFTER) or ledger["sourceSha256Before"] != BEFORE:
+        raise ValueError("Unexpected Italian source SHA; no unapproved MT")
     rows = {r["id"]: r for r in source_recipes(source)}
     items = ledger["appendItalianByRecipeId"]
     if len(items) != 101 or len(set(items)) != 101:
@@ -25,8 +27,10 @@ def main():
     for rid, sentence in items.items():
         if rid not in rows or len(sentence.split()) < 12:
             raise ValueError(f"Invalid source-specific enrichment {rid}")
-        if len(rows[rid]["description"].split()) >= 45:
+        if current_sha == BEFORE and len(rows[rid]["description"].split()) >= 45:
             raise ValueError(f"Cannot append to already-compliant recipe {rid}")
+        if current_sha == AFTER and not rows[rid]["description"].endswith(sentence):
+            raise ValueError(f"Already enriched source sentence does not match ledger {rid}")
     first = list(items.values())
     result = None
     for ix, model in enumerate(MODEL_MAP[a.locale]):
