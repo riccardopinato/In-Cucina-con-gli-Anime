@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Translate the remaining 106 verified Italian F3L candidate descriptions.
 
-CI-only utility: emits 106 source-bound machine translations per requested
+CI-only utility: emits 105 source-bound machine translations plus one source-matching no-op per requested
 locale, never human reviewed, never production assets. GitHub job logs expose
 one JSON item per record for deterministic retrieval/reconciliation.
 """
@@ -19,6 +19,7 @@ from f3l_translate_drafts import MODEL_MAP, translate_all
 HISTORICAL_SHA = "954fb9ddc47ff90f7678b4677a4f12dab4633b6c0afa883c25ec8b417f19cd1c"
 PRE_MIGRATION_SHA = "d18d492b0db2148aed213610ffd1ff98bcff925a66cf4444a8a4da9b51576227"
 ALREADY_MIGRATED = {59, 73, 74, 81, 88, 124}
+ALREADY_MATCHING_SOURCE = {55}  # No semantic change: do not fake a version bump.
 PARTS = ((51, 78), (79, 106), (107, 134), (135, 162))
 
 
@@ -37,7 +38,7 @@ def load_pending(root: Path) -> list[tuple[str, str]]:
             rid = f"recipe_{n:06d}"
             if record["recipeId"] != rid or record["reviewStatus"] != "CANDIDATE_NOT_APPROVED":
                 raise ValueError(f"Candidate missing/not pending: {rid}")
-            if n in ALREADY_MIGRATED:
+            if n in ALREADY_MIGRATED or n in ALREADY_MATCHING_SOURCE:
                 continue
             candidate = record["proposedDescriptionIT"]
             if not isinstance(candidate, str) or len(candidate.strip()) < 75:
@@ -45,8 +46,8 @@ def load_pending(root: Path) -> list[tuple[str, str]]:
             if candidate == all_recipes[rid]["description"]:
                 raise ValueError(f"New description identical to old source: {rid}")
             pending.append((rid, candidate))
-    if len(pending) != 106 or len(set(rid for rid, _ in pending)) != 106:
-        raise ValueError("Expected exactly 106 distinct remaining Italian candidates")
+    if len(pending) != 105 or len(set(rid for rid, _ in pending)) != 105:
+        raise ValueError("Expected exactly 105 distinct changing Italian candidates plus one no-op (55)")
     return pending
 
 
@@ -70,7 +71,7 @@ def main() -> None:
                 _translate_second_pass(out, model, args.batch_size, prefix)
             )
         }
-    if out is None or len(out) != 106:
+    if out is None or len(out) != 105:
         raise ValueError("Incomplete model translation")
     print("F3L_B2_106_BEGIN " + args.locale, flush=True)
     for rid, candidate in pending:
