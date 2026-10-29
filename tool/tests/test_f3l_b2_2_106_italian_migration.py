@@ -34,13 +34,15 @@ class BulkItalianEditorialMigrationTests(unittest.TestCase):
     def setUpClass(cls):
         cls.source = read("authoring/f3k_it_hardening_51_162.json")
         cls.baseline = read("tool/f3l_b2_2_106_migration_baseline.json")
+        cls.enriched = read("tool/f3l_b2_2_101_enrichment_baseline.json")
         cls.packs = {loc: read(
             f"authoring/f3l_review_drafts/f3l_{loc}_51_162_review_draft.json"
         ) for loc in LOCALES}
 
     def test_105_changed_and_seven_unmodified(self):
         source, baseline = self.source, self.baseline
-        self.assertEqual(digest(source), baseline["postMigrationSourceSha256"])
+        self.assertEqual(digest(source), self.enriched["postMigrationSourceSha256"])
+        self.assertEqual(baseline["postMigrationSourceSha256"], self.enriched["preMigrationSourceSha256"])
         self.assertEqual(len(source_recipes(source)), 112)
         modified = set(baseline["changedRecipeIds"])
         unchanged = set(baseline["unchangedRecipeIds"])
@@ -65,7 +67,7 @@ class BulkItalianEditorialMigrationTests(unittest.TestCase):
             )
             self.assertEqual(
                 row["targetContentVersion"],
-                baseline["oldContentVersions"][rid] + 1,
+                baseline["oldContentVersions"][rid] + 1 + (1 if rid in self.enriched["modifiedRecipeIds"] else 0),
             )
             self.assertEqual(
                 digest(invariant(row)),
@@ -118,7 +120,7 @@ class BulkItalianEditorialMigrationTests(unittest.TestCase):
     def test_malformed_source_is_rejected_even_if_target_hashes_are_changed(self):
         src = copy.deepcopy(self.source)
         src["recipes"][0]["description"] += " una nuova modifica non versionata"
-        self.assertNotEqual(digest(src), self.baseline["postMigrationSourceSha256"])
+        self.assertNotEqual(digest(src), self.enriched["postMigrationSourceSha256"])
         for locale, pack in self.packs.items():
             self.assertTrue(any("fingerprint" in x or "stale" in x
                 for x in inspect(src, pack)), locale)
