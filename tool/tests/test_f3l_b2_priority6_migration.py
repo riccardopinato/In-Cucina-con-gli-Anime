@@ -140,7 +140,8 @@ class PrioritySixMigrationTests(unittest.TestCase):
         src = next(
             r for r in self.source["recipes"] if r["id"] == "recipe_000124"
         )["steps"][2]["instruction"].lower()
-        self.assertNotIn("assaggia", src)
+        self.assertNotIn("assaggia una piccola quantità", src)
+        self.assertIn("non assaggiarlo", src)
         self.assertIn("idoneo al consumo crudo", src)
         forbidden = {
             "en": "taste a small amount",
