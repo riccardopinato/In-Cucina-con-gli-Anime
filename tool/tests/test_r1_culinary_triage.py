@@ -25,7 +25,7 @@ class R1CulinaryTriageTests(unittest.TestCase):
         report = build(self.source)
         self.assertEqual(report["sourceCatalogSha256"], SOURCE_SHA)
         self.assertEqual(report["coverage"], {
-            "recipes": 112, "components": 10, "priorityReviewLeads": 12,
+            "recipes": 112, "components": 10, "priorityReviewLeads": 20,
             "unreviewedEntities": 122,
         })
         self.assertEqual([x["id"] for x in report["recipes"]], RECIPE_IDS)
