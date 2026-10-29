@@ -2,7 +2,7 @@
 
 **Status:** PRE-AUDIT / DRAFT / NO HUMAN SIGN-OFF. 29 October 2026.
 **Input:** PR #41 source candidate `7fabb1b36e625b4247a0247cac17351a7c8a13c1`, path `authoring/f3k_it_hardening_51_162.json`, repository content blob `5edfe3e16cccd4e3f93d4be4db4fea2f7c2f4af3`. Italian canonical source digest recorded in F3L: `deb77a9375fb0d6ce7fd92af3e2affda89124ce0f39e76f9215c367986e4aa67`.
-**Dependency:** R1 is formally downstream of R0; **do not merge or promote this dossier until PR #41 has merged and the source digest has been rechecked against main.** Main baseline of this document branch: `4191933639afc7c01b6e459270c7394b297c3fbd`.
+**R0 state (verified):** PR #41 was squash-merged on 29 October 2026 as `cae9efe1488253d996234f249c0dd8ef3a0b14da`. The post-merge `main` F3K source blob remains `5edfe3e16cccd4e3f93d4be4db4fea2f7c2f4af3` (equal to the candidate above). This draft dossier is **not approved for R1 merge** until genuine qualified review evidence and dispositions exist. Original branch baseline: `4191933639afc7c01b6e459270c7394b297c3fbd`.
 
 ## Purpose and boundary
 
@@ -27,17 +27,39 @@ For each source recipe and reusable component, qualified reviewers must establis
 | R1-011 | P1 CANDIDATE | `recipe_000162` — Yuzu Sorbet | Pasteurized egg white required and raw untreated explicitly excluded. Check cross-contamination/cold chain and duration; keep existing safeguards. | Cold dessert with egg whites |
 | R1-012 | P1 CANDIDATE | `component_chashu` — Chashu | Review heat penetration, refrigeration after braising, 1-hour chilling assumption and safe rewarming across recipes. | Shared component validation |
 
-These are **12 candidate follow-ups**, not a declaration that other records are safe. Priority P0/P1 here denotes risk-screening urgency, not verified policy severity. The complete review matrix remains pending below.
+| R1-013 | P0 CANDIDATE | `recipe_000153` — Tori Tsukune | Raw fresh egg yolk is served as a dip, with no pasteurization condition. Review a pasteurized yolk or a safe cooked alternative. | Qualified egg safety review; synchronize source plus five draft locales if changed |
+| R1-014 | P0 CANDIDATE | `recipe_000133` — Tori Chashu Ramen | Rolled poultry is simmered on a time-only 15–20 minute instruction without measured internal doneness. | Qualified poultry cooking verification |
+| R1-015 | P0 CANDIDATE | `recipe_000054` — Hambagu | Mixed ground meat is cooked by time and color, without an internal temperature check. | Ground meat endpoint verification |
+| R1-016 | P0 CANDIDATE | `recipe_000064` — Menchi Katsu | Mixed ground meat is fried by prescribed minutes and dark crust; verify interior cooking safely. | Ground meat endpoint verification |
+| R1-017 | P1 CANDIDATE | `recipe_000149` — Kani Chahan | Calls for day-old cold cooked rice without rapid-cooling and handling instructions. | Safe rice storage/reheating and supplier review |
+| R1-018 | P1 CANDIDATE | `recipe_000117` — Karaage Namban Don | Poultry frying judged by color; cold mayo/egg topping handled separately. | Measured poultry endpoint and hygiene |
+| R1-019 | P1 CANDIDATE | `recipe_000096` — Asari Clam Chowder | Opens clams in covered pan; verify shellfish source, broth filtering, safe handling and unopened-clam disposition. | Shellfish expertise |
+| R1-020 | P1 CANDIDATE | `recipe_000156` — Asari Ramen | Clams cooked briefly and reused in broth, without explicit discard of unopened clams. | Shellfish expertise |
+
+These are **20 source-witnessed candidate follow-ups**, not a declaration that other records are safe. Priority P0/P1 here denotes triage urgency, not verified severity. The complete review matrix remains pending below.
+
+### Executable review queue
+
+The separate tooling PR [#45](https://github.com/riccardopinato/In-Cucina-con-gli-Anime/pull/45) introduces `python3 tool/r1_culinary_triage.py` (output `build/r1/culinary_triage.json`). It pins the merged Italian source SHA, preserves 112/112 recipes + 10/10 components and their dependencies, emits 20 verbatim-source review leads, and refuses unexpected source changes. **It never creates approvals.** CI/test success of that tool is not acceptance of the 20 leads or of the remaining 102 records without explicit findings.
+
+#### Candidate remediation guidance (NOT applied)
+
+- For #153 and Ajitama: distinguish eggs explicitly pasteurized for lightly cooked/uncooked service from ordinary fresh eggs, or provide a properly cooked alternative.
+- For #54, #64, #133, #150 and #117: have a qualified reviewer validate a measurable cooking endpoint appropriate to each meat and process; timing and crust color alone are insufficient.
+- For #56, #124 and #146: do not assume marination or freezing removes *all* hazards; retain raw-consumption sourcing, cold-chain and risk-group warnings where appropriate.
+- For #149: document cooling of cooked rice promptly and safe refrigerated storage/reheating; do not rely on `day-old` alone.
+- For #51: explicitly describe pre-prepared components; component durations are source-grounded: chashu **180 min**, ajitama **260 min**.
+
 
 ## External references used only as review criteria
 
-- FoodSafety.gov, minimum cooking temperatures: https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures (poultry 74 °C; whole fish 63 °C or verified doneness; shellfish handling).
-- FDA, seafood raw-consumption and risk groups: https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely (freezing can control some parasites but **not all microbial hazards**).
-- ATS Brescia, correct handling of raw fish: https://www.ats-brescia.it/corretta-gestione-prodotti-ittici-crudi (Italian consumer context; parasite treatment and cold chain).
-- UK food fact checker, cooked rice cooling/reheating: https://www.gov.uk/government/publications/home-food-fact-checker/home-food-fact-checker (within 1 h cooling ideal, 24 h chilled use, reheat at most once).
-- AUSL Veneto seafood guidance, consult local authoritative source for shellfish cooking and market conditions before updating recipes: https://www.aulss3.veneto.it/myportal/AU12VE/api/content/download?id=63dce51cc2a2200088d4731b
+The following official references were independently checked on 29 October 2026. They provide **screening criteria**, not a professional sign-off nor proof that a recipe is safe.
 
-References are **screening material**, not proof that a given recipe passed. Jurisdiction-specific guidance must be validated in the release market.
+- FoodSafety.gov — [safe minimum internal temperatures](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures): poultry including duck **74 °C**; ground beef/pork **71 °C**; finfish **63 °C**, or the listed validated doneness cues. Applicability must be decided for each recipe and market.
+- FDA — [selecting and serving seafood safely](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely): freezing controls some parasites but not all harmful germs; vulnerable groups should avoid raw seafood.
+- Istituto Superiore di Sanità — [Anisakidosi / prevenzione](https://www.issalute.it/index.php/la-salute-dalla-a-alla-z-menu/a/anisakidosi-o-anisakiasi): raw fish controls and proper handling of viscera.
+- Istituto Superiore di Sanità — [Salmonella](https://www.epicentro.iss.it/salmonella/): raw/undercooked eggs are a risk category.
+- UK Food Standards Agency — [home food fact checker](https://www.gov.uk/government/publications/home-food-fact-checker/home-food-fact-checker): cooked rice requires prompt cooling, refrigerated storage and appropriate reheating. UK-specific guidance; verify release-market applicability.
 
 ## 112/112 recipe review checklist — all PENDING
 
