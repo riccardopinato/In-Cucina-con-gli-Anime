@@ -8,7 +8,7 @@ from pathlib import Path
 from f3l_translation_gate import digest, inspect
 
 LOCALES=("en","es","fr","de","pt")
-EXPECTED_SOURCE="954fb9ddc47ff90f7678b4677a4f12dab4633b6c0afa883c25ec8b417f19cd1c"
+EXPECTED_SOURCE="d18d492b0db2148aed213610ffd1ff98bcff925a66cf4444a8a4da9b51576227"
 WITNESSED={
  "en":(r"door to light boil",r"chicken buns",r"gaskets",r"onipollot",r"semolated sugar",r"it snows the egg white",r"egg white to repel"),
  "es":(r"ligera marca",r"bocadillos de pollo",r"huevo golpeado",r"látigo",r"despídelos",r"se tiemble",r"se tiemblen",r"se represente",r"zócalo"),
@@ -24,7 +24,7 @@ def check(source, packs):
     if digest(source)!=EXPECTED_SOURCE:issues.append("Italian editorial source fingerprint drift")
     src={r["id"]:r for r in source["recipes"]}
     for rid in IDS:
-        if src[rid]["targetContentVersion"]!=3:issues.append(f"{rid}: source version not 3")
+        if src[rid]["targetContentVersion"]!=(4 if rid=="recipe_000074" else 3):issues.append(f"{rid}: expected approved source version mismatch")
     if src["recipe_000089"]["targetContentVersion"]!=3:issues.append("recipe_000089 historical version changed")
     if "pastorizzat" not in src["recipe_000162"]["ingredients"][3]["name"].lower():issues.append("Italian yuzu unpasteurized")
     ref=next(x for x in src["recipe_000074"]["animeReview"]["references"] if x["workTitle"]=="One Piece")

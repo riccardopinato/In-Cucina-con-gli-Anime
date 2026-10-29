@@ -19,14 +19,12 @@ DRAFT_DIR = Path("authoring/f3l_review_drafts")
 
 # These are observable conflicts in existing source descriptions, not approvals
 # to rewrite them automatically. Check the complete method before editing.
-KNOWN_ITALIAN_COPY_ISSUES = {
-    "recipe_000059": "Awkward clause about clams and consistency; check against the cooking method.",
-    "recipe_000073": "Pork kakuni description describes dough shaping and filling.",
-    "recipe_000074": "Oden description begins 'Nel Oden' and uses generic method wording.",
-    "recipe_000081": "Tamago sando description describes forming dough and an oven-ready wrapper.",
-    "recipe_000088": "Fruit sando description describes dough development, shaping and cooking.",
-    "recipe_000124": "Uni don description lists whipping among its principal techniques.",
-}
+# The following observed conflicts were corrected in versioned source migration B2-1.
+# Keep the historical observations in docs, not as open blockers on revised text.
+RESOLVED_ITALIAN_COPY_CONFLICTS = ("recipe_000059", "recipe_000073", "recipe_000074",
+                                   "recipe_000081", "recipe_000088", "recipe_000124")
+KNOWN_ITALIAN_COPY_ISSUES = {}
+
 GENERIC_COPY_MARKERS = (
     ("generic_sequence", r"secondo una sequenza precisa"),
     ("generic_techniques", r"(?:le tecniche previste|le tecniche principali|la sequenza include le lavorazioni previste)"),
