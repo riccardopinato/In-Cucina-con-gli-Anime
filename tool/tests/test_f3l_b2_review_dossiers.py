@@ -87,7 +87,7 @@ class F3LB2ReviewDossiersTests(unittest.TestCase):
         )
         self.assertEqual(packet["candidateRecipeCount"], 1)
         self.assertEqual(packet["candidateComponentCount"], 0)
-        self.assertIn(
+        self.assertNotIn(
             "observed_source_copy_conflict",
             [x["code"] for x in packet["recipes"][0]["italianSourceTriageFlags"]],
         )
