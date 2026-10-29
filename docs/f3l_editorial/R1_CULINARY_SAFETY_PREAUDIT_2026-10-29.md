@@ -61,6 +61,26 @@ The following official references were independently checked on 29 October 2026.
 - Istituto Superiore di Sanità — [Salmonella](https://www.epicentro.iss.it/salmonella/): raw/undercooked eggs are a risk category.
 - UK Food Standards Agency — [home food fact checker](https://www.gov.uk/government/publications/home-food-fact-checker/home-food-fact-checker): cooked rice requires prompt cooling, refrigerated storage and appropriate reheating. UK-specific guidance; verify release-market applicability.
 
+## Candidate corrections for qualified review — NOT committed to source
+
+This is an editorial change proposal queue, **not approved/safe-to-publish recipe copy**. The sentences below are deliberately specific to affected operations and contain no invented certifications. A qualified culinary/food-safety reviewer must validate market requirements, actual ingredient/process constraints, the consumer-facing wording and any alternative, **before** an editor changes canonical source and atomically refreshes five quarantined language packs with version/hash updates.
+
+| Recipe / component | Candidate surgical remediation (Italian source proposal; not applied) | Gate |
+| --- | --- | --- |
+| `recipe_000153` — Tori Tsukune | Replace the fresh raw dipping yolk with **tuorlo da uovo pastorizzato espressamente idoneo al consumo senza cottura** or a fully cooked alternative. Add a validated poultry core-temperature check for minced chicken before serving. | Egg supply/product suitability + poultry; qualified validation |
+| `component_ajitama` | Keep soft yolk only if an appropriate pasteurized/validated egg and storage procedure is specified; otherwise cook until fully set. Explicitly distinguish the 6m30s **quality/timing estimate** from safety evidence. | Shared-component and every dependent ramen |
+| `recipe_000133` — Tori Chashu | Rolled chicken: replace time-only `15–20 minuti` as completion criterion with a check that the center reaches **at least 74 °C** using a probe, with cooking time described as indicative; review reheating after cooling. | Poultry guidance + recipe feasibility |
+| `recipe_000150` — Kamo Namban | Duck breast: add probe check to a fully cooked **74 °C** center under the consumer-safety standard used here; adjust technique/time as validated, without claiming 2 minutes always suffice. | Duck culinary quality + local-market safety |
+| `recipe_000117` — Karaage Namban | Fry chicken until a measured **74 °C at thickest point**; keep cold egg/mayo topping refrigerated and prevent cross-contamination during plating. | Method and cold topping QA |
+| `recipe_000054` — Hambagu | Verify a **71 °C** internal endpoint for mixed ground beef/pork, rather than just crust color/steam time. | Recipe technique and temperature measurement |
+| `recipe_000064` — Menchi Katsu | Verify mixed ground meat reaches **71 °C** at its thickest point; oil temperature, crust darkness and fixed minutes alone do not certify center doneness. | Frying and measured center |
+| `recipe_000056` — Chirashizushi | Specify documented raw-consumption-appropriate salmon and tuna from a suitable supplier, uninterrupted refrigeration and separate clean tools. Explicitly warn that freezing controls some parasite hazards but does **not** eliminate all microorganisms. | Fish species/sourcing + Italy/EU rules + vulnerable groups |
+| `recipe_000149` — Kani Chahan | Define prompt cooling of leftover rice (ideally within **1 hour**), refrigeration, use within **24 hours**, thorough reheating until steaming hot and no repeat reheating; adapt to approved release-market policy. | Cold-chain feasibility + UK criteria not automatically Italian certification |
+| `recipe_000110` — Motsunabe | Separate tripe from other offal varieties in ingredient/process prerequisites; validate handling and complete-cook endpoint per actual selected organ. A 1-minute blanch + 10–15 minute simmer must not be treated as universally sufficient. | Specialist review per ingredient |
+| `recipe_000051` — Shio Ramen | Clarify the indicated **45 min** assumes already prepared chashu (component **180 min**) and ajitama (**260 min**), or explicitly represent total advance-preparation effort and refrigeration. | UI time semantics + component dependencies |
+
+**No text above was applied to a recipe.** This list is intentionally a review prompt, not a direct instruction to bypass F3L localization source locks. Additional cases R1-006, 007, 008, 009, 010, 011, 012, 019 and 020 remain unresolved in the case table.
+
 ## 112/112 recipe review checklist — all PENDING
 
 **Definition:** checked means independently reviewed with dated evidence (not simply present/parsed). All unchecked here.
