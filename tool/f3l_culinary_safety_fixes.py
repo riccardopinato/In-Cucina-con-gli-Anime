@@ -42,7 +42,7 @@ def apply(source_recipe, target_recipe, locale):
     rid=source_recipe['id']
     if rid!=target_recipe['id']:raise ValueError('source and target recipe IDs mismatch')
     if rid=='recipe_000053':
-        if digest(source_recipe)!='144316766446fb70f77715d858cc2a8ae4c19587c2a8e8db5b0fb7e39c78653d':
+        if digest(source_recipe)!='0e4a43684846deb4c4ca101e3c7324e729e316143f59c6d635fd32b2568c85b9':
             raise ValueError('Italian Ebi Tendon source changed')
         target_recipe['title']=TITLES_053[locale]
         target_recipe['description']=DESCRIPTIONS_053[locale]
