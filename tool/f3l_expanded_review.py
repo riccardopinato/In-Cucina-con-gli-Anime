@@ -8,7 +8,7 @@ import json
 from pathlib import Path
 from f3l_translation_gate import digest, inspect
 
-SOURCE_SHA='ec302126b6578f52fb931cce03a06457660031b058a038360a4e289e684240c3'
+SOURCE_SHA='deb77a9375fb0d6ce7fd92af3e2affda89124ce0f39e76f9215c367986e4aa67'
 # Each entry is hand reconstructed from the exact Italian instruction, rather than
 # translated with unconstrained substitutions. Ingredient names repaired below.
 STEP_EDITS={
