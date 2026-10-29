@@ -42,7 +42,7 @@ def apply(source_recipe, target_recipe, locale):
     rid=source_recipe['id']
     if rid!=target_recipe['id']:raise ValueError('source and target recipe IDs mismatch')
     if rid=='recipe_000053':
-        if digest(source_recipe)!='144316766446fb70f77715d858cc2a8ae4c19587c2a8e8db5b0fb7e39c78653d':
+        if digest(source_recipe)!='e708cae3823ad23ee8827e59dc834e9758148c07ca7cb2fbd36d530b968de89b':
             raise ValueError('Italian Ebi Tendon source changed')
         target_recipe['title']=TITLES_053[locale]
         target_recipe['description']=DESCRIPTIONS_053[locale]
@@ -59,5 +59,5 @@ def apply(source_recipe, target_recipe, locale):
 
 DIGESTS={
     # Immutable exact source fingerprints; verified against F3K Italian baseline.
-    'recipe_000059':'99e7c1a025a4e61c53698266dfa42669bc9d14b0fce753fd95209f070f6918be', 'recipe_000107':'88e10b92a35afee9868971b87e71d436bb3ecd3884fa4f973ba60f637ed57ed8','recipe_000150':'fac38660770a0602c0ee2bbcb2d02606567fea065c5933d748d3ef4b82904bf7'
+    'recipe_000059':'99e7c1a025a4e61c53698266dfa42669bc9d14b0fce753fd95209f070f6918be', 'recipe_000107':'d8c88010421a14a8d12786db5830087032ed02dd1e4208453a33b722541a1eb7','recipe_000150':'baf4d2b2c4ceb096b38bd92e777bcf698fac1612e8a4c6c82d05fb63507d4e69'
 }

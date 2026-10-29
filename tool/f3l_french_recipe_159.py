@@ -9,7 +9,7 @@ from __future__ import annotations
 from f3l_translation_gate import digest
 
 RECIPE_ID = "recipe_000159"
-SOURCE_SHA256 = "4de3588c54cb13611568ebba5c65c0e6db3731ad9fe3cef75cb4e24afe14b268"
+SOURCE_SHA256 = "fd8800bb21bf7ad3adae4619c178aa5e8853b840d19667f155d46582cc6ca7cd"
 TITLE = "Kuri Manju — petits gâteaux japonais fourrés à la châtaigne"
 DESCRIPTION = (
     "Ces kuri manju sont de petits gâteaux japonais cuits au four, façonnés en forme "

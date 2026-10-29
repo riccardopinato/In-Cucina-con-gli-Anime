@@ -4,7 +4,7 @@ Six components contain full ingredients and cooking instructions; four are
 recipeRef-only pointers. These are NOT externally certified or cooking-tested.
 """
 from f3l_translation_gate import digest
-SOURCE_SHA256='d18d492b0db2148aed213610ffd1ff98bcff925a66cf4444a8a4da9b51576227'
+SOURCE_SHA256='deb77a9375fb0d6ce7fd92af3e2affda89124ce0f39e76f9215c367986e4aa67'
 COPY={
 'en':{
  'component_chashu':{

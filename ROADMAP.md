@@ -474,6 +474,14 @@ Phase B — EN/ES/FR/DE/PT:
 - BLOCKED until the stricter anti-template Italian freeze also passes exact-head CI;
 - translations must reproduce the full frozen Italian recipe structure and may not collapse procedures back to generic four-step templates.
 
+### F3L B2-2 — remaining 106 Italian description decisions (105 actual edits)
+
+- **Source candidates applied as Italian prose:** 105 changed descriptions, versioned exactly once; recipe `000055` was already identical to its proposal and is not spuriously versioned. The six previously corrected source recipes remain stable.
+- **All five review-only locales synchronized:** 105 newly machine-translated description drafts per EN/ES/FR/DE/PT locale (525 localized description edits); previous six contextually edited records preserved. Source/recipe hash bindings follow the accepted Italian text, not blind rehashing of untranslated wording.
+- **Intermediate source SHA after 105 changes:** `ec302126b6578f52fb931cce03a06457660031b058a038360a4e289e684240c3` (historical ledger). **F3K completion repair:** 101 shorter descriptions extended with distinct dish-specific detail to preserve the ≥45-word quality contract; five locales received 101 corresponding translated additions each (**505**) and six witnessed false friends were corrected. **New source SHA:** `deb77a9375fb0d6ce7fd92af3e2affda89124ce0f39e76f9215c367986e4aa67`, with separate immutable migration ledger `tool/f3l_b2_2_101_enrichment_baseline.json` and QA test. Details in `docs/f3l_editorial/F3L_B2_2_106_DESCRIPTION_MIGRATION.md`.
+- **Status:** AI-assisted staging only. No authenticated Italian culinary or five-language native review; 0/112 human-reviewed per target locale; all five machine drafts remain not publishable. B2/B3 release approval still blocked.
+- **Next:** qualified recipe steps/culinary/food-safety review, native full-field translation verification, B3 promotion; only subsequently align illustrations to original first-50 recipe visual style.
+
 ### F3L B2-1 — controlled Italian source and five-locale migration, batch 1/19 (six recipes)
 
 - **Implemented in PR:** versioned Italian edits for recipes `000059`, `000073`, `000074`, `000081`, `000088`, `000124`. Both descriptions and five originally defective instruction lines are corrected. 

@@ -4,7 +4,7 @@ This does not auto-certify or suggest that the surrounding prose is native-quali
 Every replacement is an exact known harmful substring under a frozen IT hash.
 """
 from f3l_translation_gate import digest
-SOURCE_SHA256='d18d492b0db2148aed213610ffd1ff98bcff925a66cf4444a8a4da9b51576227'
+SOURCE_SHA256='deb77a9375fb0d6ce7fd92af3e2affda89124ce0f39e76f9215c367986e4aa67'
 REPLACEMENTS={
  'en':[],
  'es':[

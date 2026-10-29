@@ -32,22 +32,27 @@ class PrioritySixMigrationTests(unittest.TestCase):
         cls.source = load("authoring/f3k_it_hardening_51_162.json")
         cls.baseline = load("tool/f3l_b2_priority6_migration_baseline.json")
         cls.payload = load("tool/f3l_b2_priority6_migration_payload.json")
+        cls.bulk = load("tool/f3l_b2_2_106_migration_baseline.json")
+        cls.enriched = load("tool/f3l_b2_2_101_enrichment_baseline.json")
         cls.packs = {
             loc: load(f"authoring/f3l_review_drafts/f3l_{loc}_51_162_review_draft.json")
             for loc in ("en", "es", "fr", "de", "pt")
         }
 
-    def test_exact_six_recipe_source_delta_and_frozen_106(self):
+    def test_six_historical_source_revisions_survive_following_bulk_migration(self):
         expected = set(self.baseline["changedRecipeIds"])
         self.assertEqual(len(expected), 6)
         self.assertEqual(set(self.payload["ids"]), expected)
         self.assertEqual(
-            digest(self.source),
             self.baseline["postMigrationSourceSha256"],
+            self.bulk["preMigrationSourceSha256"],
         )
         self.assertEqual(
             self.payload["preMigrationSourceSha256"],
             self.baseline["preMigrationSourceSha256"],
+        )
+        self.assertEqual(
+            digest(self.source), self.enriched["postMigrationSourceSha256"]
         )
         self.assertEqual(
             set(self.baseline["oldRecipeFingerprints"]),
@@ -57,30 +62,24 @@ class PrioritySixMigrationTests(unittest.TestCase):
             digest(self.source["reusableComponents"]),
             self.baseline["oldReuseComponentsFingerprint"],
         )
-        observed_changes = set()
-        for recipe in self.source["recipes"]:
-            rid = recipe["id"]
-            if digest(recipe) == self.baseline["oldRecipeFingerprints"][rid]:
-                self.assertNotIn(rid, expected)
-                continue
-            observed_changes.add(rid)
-            self.assertIn(rid, expected, f"unexpected recipe delta: {rid}")
+        for row in self.source["recipes"]:
+            rid = row["id"]
+            if rid not in expected:
+                continue  # B2-2 changes are verified by its separate regression test.
+            self.assertNotEqual(
+                digest(row), self.baseline["oldRecipeFingerprints"][rid]
+            )
             self.assertEqual(
-                recipe["targetContentVersion"],
+                digest(row), self.bulk["oldRecipeSha256"][rid]
+            )
+            self.assertEqual(
+                row["targetContentVersion"],
                 self.baseline["oldVersions"][rid] + 1,
             )
             self.assertEqual(
-                digest(immutable_fields(recipe)),
+                digest(immutable_fields(row)),
                 self.baseline["unchangedFieldsFingerprints"][rid],
-                f"canonical non-prose identity, amounts, steps or timers changed: {rid}",
             )
-        self.assertEqual(observed_changes, expected)
-        self.assertEqual(
-            next(r for r in self.source["recipes"] if r["id"] == "recipe_000074")[
-                "targetContentVersion"
-            ],
-            4,
-        )
 
     def test_five_language_packs_match_new_source_without_false_approvals(self):
         self.assertTrue(self.payload["noAutomaticPublication"])
@@ -95,7 +94,8 @@ class PrioritySixMigrationTests(unittest.TestCase):
                 )
                 self.assertIs(pack["editorialStaging"]["noAutomaticPublication"], True)
                 b2 = pack["editorialStaging"]["b2Priority6"]
-                self.assertEqual(b2["sourceSha256"], digest(self.source))
+                self.assertEqual(b2["sourceSha256"], self.baseline["postMigrationSourceSha256"])
+                self.assertEqual(pack["editorialStaging"]["b2BulkItalianDescriptions"]["sourceSha256"], self.bulk["postMigrationSourceSha256"])
                 self.assertEqual(set(b2["updatedRecipeIds"]), set(self.payload["ids"]))
                 self.assertEqual(b2["editedDescriptionCount"], 6)
                 self.assertEqual(b2["editedStepCount"], 5)
@@ -163,7 +163,7 @@ class PrioritySixMigrationTests(unittest.TestCase):
         broken["recipes"][0]["steps"][0]["instruction"] += " changed"
         self.assertNotEqual(
             digest(broken),
-            self.baseline["postMigrationSourceSha256"],
+            self.enriched["postMigrationSourceSha256"],
         )
         pack = copy.deepcopy(self.packs["en"])
         pack["recipes"][0]["reviewStatus"] = "human_reviewed"
