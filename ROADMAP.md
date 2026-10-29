@@ -467,6 +467,15 @@ Phase B — EN/ES/FR/DE/PT:
 - BLOCKED until the stricter anti-template Italian freeze also passes exact-head CI;
 - translations must reproduce the full frozen Italian recipe structure and may not collapse procedures back to generic four-step templates.
 
+### F3L B2-1 — controlled Italian source and five-locale migration, batch 1/19 (six recipes)
+
+- **Implemented in PR:** versioned Italian edits for recipes `000059`, `000073`, `000074`, `000081`, `000088`, `000124`. Both descriptions and five originally defective instruction lines are corrected. 
+- **Five-language rebinding with actual prose revision:** for each changed recipe update EN/ES/FR/DE/PT description, and corresponding edited steps, before rehashing. Preserve the remaining 106 recipes and all 10 reusable components byte-semantically via immutable regression snapshots.
+- **Exact live source:** `d18d492b0db2148aed213610ffd1ff98bcff925a66cf4444a8a4da9b51576227`; old proposal inventory remains historical against SHA `954fb9ddc47ff90f7678b4677a4f12dab4633b6c0afa883c25ec8b417f19cd1c`.
+- **No release:** all five packs still `machine_draft_not_publishable`; 0 qualified/native human approvals; full B2/B3 not complete; no runtime/catalog or image changes. This is a technical, AI-assisted candidate migration, not the qualified editorial gate.
+- **Evidence:** `docs/f3l_editorial/F3L_B2_1_PRIORITY6_SOURCE_MIGRATION.md` and `tool/tests/test_f3l_b2_priority6_migration.py`.
+- **Next:** remaining Italian source/copy defects, qualified culinary and safety acceptance of 112 + 10 components, further five-locale revisions, native review and only then B3 promotion. Image work follows content stabilization and must use the established first-50 visual style.
+
 ### F3L B2-I — complete AI-assisted Italian recipe-description review (112/112 candidate pack)
 
 - **Deliverable:** 112 individual source-grounded Italian copy proposals, ten source component-review dossiers, context-anchored risk/typo leads, numeric timing triage, deterministic negative-path tests and non-production CI reviewer artifact.
