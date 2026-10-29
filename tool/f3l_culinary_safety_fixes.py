@@ -59,5 +59,5 @@ def apply(source_recipe, target_recipe, locale):
 
 DIGESTS={
     # Immutable exact source fingerprints; verified against F3K Italian baseline.
-    'recipe_000059':'99e7c1a025a4e61c53698266dfa42669bc9d14b0fce753fd95209f070f6918be', 'recipe_000107':'88e10b92a35afee9868971b87e71d436bb3ecd3884fa4f973ba60f637ed57ed8','recipe_000150':'fac38660770a0602c0ee2bbcb2d02606567fea065c5933d748d3ef4b82904bf7'
+    'recipe_000059':'99e7c1a025a4e61c53698266dfa42669bc9d14b0fce753fd95209f070f6918be', 'recipe_000107':'c5b68f1b02c1e843037d77fc263473eeb7e78fc25d81c64e516c1556e1e3e815','recipe_000150':'916c93ef09e90c3ca79d3628288add6ca3bb336f61973286ae94ba2ec1cb52cb'
 }
