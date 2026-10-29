@@ -29,3 +29,20 @@
 ## Illustrations (deliberately deferred)
 
 The image pass starts only after text and recipe IDs are stable. Use the already-adopted first 50 images as the **direct style reference** for composition, food styling, material treatment, illustration technique and color, without overwriting existing artwork. Do not treat B2 staging as authorization to invent or publish visual assets.
+
+## F3K description-completeness repair — 29 October 2026 (AI-assisted staging)
+
+A further deterministic F3K quality preflight showed **101 Italian descriptions had 32–44 words**, below the existing non-negotiable `>=45` word limit; this was a genuine regression of the first 105-description migration, not a test bug. The F3K quality gate has **not been relaxed**.
+
+- Authored 101 distinct, source-grounded Italian completion sentences: `tool/f3l_b2_2_101_description_enrichment.json`. No generic boilerplate, no canonical ingredient/step/timer/identity changes.
+- Rechecked exact source-specific candidate coverage: **101/101** descriptions now reach at least 45 words; pairwise token similarity remains below the original 0.70 blocking threshold.
+- Incremented `targetContentVersion` once more for the 101 revised records; **11 recipes not revised in this follow-up** preserve their source versions. Historical 105-description and earlier six-recipe migrations remain separately versioned and independently testable.
+- New Italian source SHA-256: `deb77a9375fb0d6ce7fd92af3e2affda89124ce0f39e76f9215c367986e4aa67`. Previous source SHA: `ec302126b6578f52fb931cce03a06457660031b058a038360a4e289e684240c3`. No content history was overwritten.
+- EN/ES/FR/DE/PT each received 101 **actual machine-translated contextual additions** (505 new text candidates); each revised pack has corresponding recipe/content version and source hash. A source-bound CI translation run produced the five 101-item translation ledgers. These are **machine drafts**, not native review.
+- Corrected 2 attested French mistranslations (`cuisinier` used incorrectly) and 4 Portuguese mistranslations (`macarrãoes`), plus pasteurized-egg-white terminology in the additional sentence for recipe 162.
+- New immutable-field fingerprints and old-version/source identity: `tool/f3l_b2_2_101_enrichment_baseline.json`. New regression: `tool/tests/test_f3l_b2_2_101_enrichment.py`. Other frozen-source tests and previous migration regressions were rebound to the new exact source version **without weakening the culinary, numeric, human review or similarity gates**.
+- Translation generation is manual/on-demand after this completed job, to avoid unnecessary retranslation during ordinary CI; no MT models enter the app binary.
+
+**Still NOT approved:** no qualified culinary review of all 112 recipes/ten components; zero authenticated native sign-offs per language; `machine_draft_not_publishable` and `noAutomaticPublication=true` remain in force. The existing runtime catalog is unchanged. No new recipe image was created. `PASS` for F3L B2/B3 or store publication must not be claimed from staging tests.
+
+**Exact-head verification:** check the PR workflow results on the final commit. Documentation of the preflight is not itself evidence that final CI has completed.
