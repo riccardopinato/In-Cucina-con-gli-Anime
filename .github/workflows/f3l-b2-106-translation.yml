@@ -1,5 +1,10 @@
-name: F3L B2 106 Italian descriptions MT staging (non-publishable)
+name: F3L B2 101 Italian completion MT staging (non-publishable)
 on:
+  pull_request:
+    paths:
+      - 'tool/f3l_b2_translate_101_enrichments.py'
+      - 'tool/f3l_b2_2_101_description_enrichment.json'
+      - '.github/workflows/f3l-b2-106-translation.yml'
   workflow_dispatch:
 permissions:
   contents: read
@@ -20,6 +25,6 @@ jobs:
         run: |
           python -m pip install --disable-pip-version-check --index-url https://download.pytorch.org/whl/cpu 'torch==2.6.0'
           python -m pip install --disable-pip-version-check 'transformers==4.48.3' 'sentencepiece==0.2.0' 'sacremoses==0.1.1'
-      - name: Generate review-only 106-description machine translation ledger
+      - name: Generate review-only 101-sentence contextual translation ledger
         run: |
-          python tool/f3l_b2_translate_remaining_106.py --locale "${{ matrix.locale }}"
+          python tool/f3l_b2_translate_101_enrichments.py --locale "${{ matrix.locale }}"
