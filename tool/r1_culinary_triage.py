@@ -51,6 +51,22 @@ LEADS = (
      "Check handling and cold chain of pasteurized egg whites in uncooked frozen dessert."),
     ("R1-012", "P1_CANDIDATE", "component_chashu", "Raffredda almeno 1 ora",
      "Verify pork cooking endpoint, cooling/refrigeration and dependent recipe preparation."),
+    ("R1-013", "P0_CANDIDATE", "recipe_000153", "tuorlo d'uovo fresco",
+     "Raw yolk offered as a dipping sauce; verify pasteurized alternative and vulnerable-consumer controls."),
+    ("R1-014", "P0_CANDIDATE", "recipe_000133", "15-20 minuti",
+     "Rolled chicken thigh uses time-only instructions; validate a poultry core temperature check."),
+    ("R1-015", "P0_CANDIDATE", "recipe_000054", "carne macinata mista",
+     "Mixed ground beef/pork cooking has no measured core temperature; validate safe ground-meat doneness."),
+    ("R1-016", "P0_CANDIDATE", "recipe_000064", "carne macinata mista",
+     "Ground-meat cutlet uses browning/timing; verify a measured safe internal cooking endpoint."),
+    ("R1-017", "P1_CANDIDATE", "recipe_000149", "riso cotto del giorno prima",
+     "Confirm rapid cooling, uninterrupted refrigeration, safe reheating and Bacillus cereus risk."),
+    ("R1-018", "P1_CANDIDATE", "recipe_000117", "sovracosce di pollo disossate",
+     "Review measured poultry endpoint and handling of cold tartar-style mayonnaise topping."),
+    ("R1-019", "P1_CANDIDATE", "recipe_000096", "vongole asari (o veraci)",
+     "Check shellfish sourcing, opening/cooking verification, broth filtration and cold-chain management."),
+    ("R1-020", "P1_CANDIDATE", "recipe_000156", "vongole veraci spurgate",
+     "Check shellfish sourcing and doneness; source does not explicitly require discarding unopened clams."),
 )
 
 
