@@ -14,7 +14,7 @@ from pathlib import Path
 
 from f3l_translation_gate import digest, source_recipes
 
-EXPECTED_SOURCE_SHA = "ec302126b6578f52fb931cce03a06457660031b058a038360a4e289e684240c3"
+EXPECTED_SOURCE_SHA = "deb77a9375fb0d6ce7fd92af3e2affda89124ce0f39e76f9215c367986e4aa67"
 ORIGINAL_CANDIDATE_BASELINE_SHA = "954fb9ddc47ff90f7678b4677a4f12dab4633b6c0afa883c25ec8b417f19cd1c"
 PROPOSALS_DIR = Path("docs/f3l_editorial/italian_proposals")
 PARTS = ((51, 78), (79, 106), (107, 134), (135, 162))
