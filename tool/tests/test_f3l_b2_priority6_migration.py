@@ -33,6 +33,7 @@ class PrioritySixMigrationTests(unittest.TestCase):
         cls.baseline = load("tool/f3l_b2_priority6_migration_baseline.json")
         cls.payload = load("tool/f3l_b2_priority6_migration_payload.json")
         cls.bulk = load("tool/f3l_b2_2_106_migration_baseline.json")
+        cls.enriched = load("tool/f3l_b2_2_101_enrichment_baseline.json")
         cls.packs = {
             loc: load(f"authoring/f3l_review_drafts/f3l_{loc}_51_162_review_draft.json")
             for loc in ("en", "es", "fr", "de", "pt")
@@ -51,7 +52,7 @@ class PrioritySixMigrationTests(unittest.TestCase):
             self.baseline["preMigrationSourceSha256"],
         )
         self.assertEqual(
-            digest(self.source), self.bulk["postMigrationSourceSha256"]
+            digest(self.source), self.enriched["postMigrationSourceSha256"]
         )
         self.assertEqual(
             set(self.baseline["oldRecipeFingerprints"]),
@@ -94,7 +95,7 @@ class PrioritySixMigrationTests(unittest.TestCase):
                 self.assertIs(pack["editorialStaging"]["noAutomaticPublication"], True)
                 b2 = pack["editorialStaging"]["b2Priority6"]
                 self.assertEqual(b2["sourceSha256"], self.baseline["postMigrationSourceSha256"])
-                self.assertEqual(pack["editorialStaging"]["b2BulkItalianDescriptions"]["sourceSha256"], digest(self.source))
+                self.assertEqual(pack["editorialStaging"]["b2BulkItalianDescriptions"]["sourceSha256"], self.bulk["postMigrationSourceSha256"])
                 self.assertEqual(set(b2["updatedRecipeIds"]), set(self.payload["ids"]))
                 self.assertEqual(b2["editedDescriptionCount"], 6)
                 self.assertEqual(b2["editedStepCount"], 5)
@@ -162,7 +163,7 @@ class PrioritySixMigrationTests(unittest.TestCase):
         broken["recipes"][0]["steps"][0]["instruction"] += " changed"
         self.assertNotEqual(
             digest(broken),
-            self.bulk["postMigrationSourceSha256"],
+            self.enriched["postMigrationSourceSha256"],
         )
         pack = copy.deepcopy(self.packs["en"])
         pack["recipes"][0]["reviewStatus"] = "human_reviewed"
