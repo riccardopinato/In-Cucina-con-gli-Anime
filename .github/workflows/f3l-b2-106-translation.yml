@@ -1,10 +1,5 @@
 name: F3L B2 101 Italian completion MT staging (non-publishable)
 on:
-  pull_request:
-    paths:
-      - 'tool/f3l_b2_translate_101_enrichments.py'
-      - 'tool/f3l_b2_2_101_description_enrichment.json'
-      - '.github/workflows/f3l-b2-106-translation.yml'
   workflow_dispatch:
 permissions:
   contents: read
