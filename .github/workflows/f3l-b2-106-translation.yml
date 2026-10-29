@@ -1,9 +1,5 @@
 name: F3L B2 106 Italian descriptions MT staging (non-publishable)
 on:
-  pull_request:
-    paths:
-      - 'tool/f3l_b2_translate_remaining_106.py'
-      - '.github/workflows/f3l-b2-106-translation.yml'
   workflow_dispatch:
 permissions:
   contents: read
