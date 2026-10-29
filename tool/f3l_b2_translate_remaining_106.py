@@ -17,7 +17,7 @@ from f3l_translation_gate import digest, source_recipes
 from f3l_translate_drafts import MODEL_MAP, translate_all
 
 HISTORICAL_SHA = "954fb9ddc47ff90f7678b4677a4f12dab4633b6c0afa883c25ec8b417f19cd1c"
-PRE_MIGRATION_SHA = "d18d492b0db2148aed213610ffd1ff98bcff925a66cf4444a8a4da9b51576227"
+CURRENT_SOURCE_SHA = "ec302126b6578f52fb931cce03a06457660031b058a038360a4e289e684240c3"
 ALREADY_MIGRATED = {59, 73, 74, 81, 88, 124}
 ALREADY_MATCHING_SOURCE = {55}  # No semantic change: do not fake a version bump.
 PARTS = ((51, 78), (79, 106), (107, 134), (135, 162))
@@ -25,8 +25,8 @@ PARTS = ((51, 78), (79, 106), (107, 134), (135, 162))
 
 def load_pending(root: Path) -> list[tuple[str, str]]:
     source = json.loads((root / "authoring/f3k_it_hardening_51_162.json").read_text(encoding="utf-8"))
-    if digest(source) != PRE_MIGRATION_SHA:
-        raise ValueError("Italian source baseline changed before bulk translation")
+    if digest(source) != CURRENT_SOURCE_SHA:
+        raise ValueError("Italian source changed after 105-description migration")
     all_recipes = {x["id"]: x for x in source_recipes(source)}
     pending: list[tuple[str, str]] = []
     for start, end in PARTS:
@@ -43,8 +43,8 @@ def load_pending(root: Path) -> list[tuple[str, str]]:
             candidate = record["proposedDescriptionIT"]
             if not isinstance(candidate, str) or len(candidate.strip()) < 75:
                 raise ValueError(f"Candidate missing substantive description: {rid}")
-            if candidate == all_recipes[rid]["description"]:
-                raise ValueError(f"New description identical to old source: {rid}")
+            if candidate != all_recipes[rid]["description"]:
+                raise ValueError(f"Accepted source description and historical candidate diverge: {rid}")
             pending.append((rid, candidate))
     if len(pending) != 105 or len(set(rid for rid, _ in pending)) != 105:
         raise ValueError("Expected exactly 105 distinct changing Italian candidates plus one no-op (55)")
