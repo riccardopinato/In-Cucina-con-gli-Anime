@@ -14,7 +14,8 @@ from pathlib import Path
 
 from f3l_translation_gate import digest, source_recipes
 
-EXPECTED_SOURCE_SHA = "954fb9ddc47ff90f7678b4677a4f12dab4633b6c0afa883c25ec8b417f19cd1c"
+EXPECTED_SOURCE_SHA = "d18d492b0db2148aed213610ffd1ff98bcff925a66cf4444a8a4da9b51576227"
+ORIGINAL_CANDIDATE_BASELINE_SHA = "954fb9ddc47ff90f7678b4677a4f12dab4633b6c0afa883c25ec8b417f19cd1c"
 PROPOSALS_DIR = Path("docs/f3l_editorial/italian_proposals")
 PARTS = ((51, 78), (79, 106), (107, 134), (135, 162))
 LOCALES = ("en", "es", "fr", "de", "pt")
@@ -28,16 +29,14 @@ OBSERVED_REVIEW_LEADS = {
     59: ("shellfish_handling_qualified_review", "vongole fresche (fatte spurgare"),
     60: ("split_instruction", "Finché il composto diventa chiaro"),
     61: ("method_wording", "In una pentola, capiente"),
-    73: ("incorrect_meat_method_description", "struttura dell’impasto"),
-    74: ("article_and_boilerplate", "Nel Oden Invernale"),
+
     80: ("species_name_and_fish_handling", "Luccio di mare/Costardella"),
-    81: ("incorrect_sandwich_method_description", "struttura all’impasto"),
-    88: ("split_instruction_and_dough_description", "(es."),
+
     96: ("shellfish_handling_qualified_review", "vongole asari (o veraci)"),
     104: ("method_typo", "cuocerela"),
     110: ("offal_qualified_review", "trippa o frattaglie"),
     117: ("poultry_qualified_review", "sovracosce di pollo"),
-    124: ("raw_sea_urchin_qualified_review", "Assaggia una piccola quantità di uni"),
+    124: ("raw_sea_urchin_qualified_review", "espressamente idoneo al consumo crudo"),
     133: ("poultry_qualified_review", "sovracosce di pollo disossate con pelle"),
     146: ("raw_tuna_qualified_review", "idoneo al consumo crudo"),
     149: ("cooked_rice_storage_qualified_review", "riso cotto del giorno prima"),
@@ -65,7 +64,7 @@ def load_proposals(folder: Path = PROPOSALS_DIR) -> dict:
         path = folder / f"{start:03d}_{end:03d}.json"
         part = json.loads(path.read_text(encoding="utf-8"))
         if (part.get("schemaVersion") != 1 or part.get("locale") != "it"
-                or part.get("sourceBaselineSha256") != EXPECTED_SOURCE_SHA
+                or part.get("sourceBaselineSha256") != ORIGINAL_CANDIDATE_BASELINE_SHA
                 or part.get("range") != [start, end]
                 or part.get("reviewKind")
                 != "AI_ASSISTED_SOURCE_LOCKED_DESCRIPTION_PROPOSALS_NOT_APPLIED"):
