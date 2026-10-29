@@ -8,7 +8,7 @@ from pathlib import Path
 from f3l_translation_gate import digest, inspect
 
 LOCALES=("en","es","fr","de","pt")
-EXPECTED_SOURCE="ec302126b6578f52fb931cce03a06457660031b058a038360a4e289e684240c3"
+EXPECTED_SOURCE="deb77a9375fb0d6ce7fd92af3e2affda89124ce0f39e76f9215c367986e4aa67"
 WITNESSED={
  "en":(r"door to light boil",r"chicken buns",r"gaskets",r"onipollot",r"semolated sugar",r"it snows the egg white",r"egg white to repel"),
  "es":(r"ligera marca",r"bocadillos de pollo",r"huevo golpeado",r"látigo",r"despídelos",r"se tiemble",r"se tiemblen",r"se represente",r"zócalo"),
@@ -24,8 +24,8 @@ def check(source, packs):
     if digest(source)!=EXPECTED_SOURCE:issues.append("Italian editorial source fingerprint drift")
     src={r["id"]:r for r in source["recipes"]}
     for rid in IDS:
-        if src[rid]["targetContentVersion"]!={"recipe_000055":3,"recipe_000074":4,"recipe_000134":4,"recipe_000146":4,"recipe_000160":4,"recipe_000162":4}[rid]:issues.append(f"{rid}: expected source version mismatch")
-    if src["recipe_000089"]["targetContentVersion"]!=4:issues.append("recipe_000089 historical version changed")
+        if src[rid]["targetContentVersion"]!={"recipe_000055":3,"recipe_000074":4,"recipe_000134":5,"recipe_000146":5,"recipe_000160":5,"recipe_000162":5}[rid]:issues.append(f"{rid}: expected source version mismatch")
+    if src["recipe_000089"]["targetContentVersion"]!=5:issues.append("recipe_000089 historical version changed")
     if "pastorizzat" not in src["recipe_000162"]["ingredients"][3]["name"].lower():issues.append("Italian yuzu unpasteurized")
     ref=next(x for x in src["recipe_000074"]["animeReview"]["references"] if x["workTitle"]=="One Piece")
     if ref.get("episode")!="966" or "one-piece.com" not in ref.get("evidenceSource",""):issues.append("One Piece provenance not source-specific")
