@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "phase": "F3L_B2_VERSIONED_PRIORITY6_SOURCE_AND_LOCALE_MIGRATION",
+  "preMigrationSourceSha256": "954fb9ddc47ff90f7678b4677a4f12dab4633b6c0afa883c25ec8b417f19cd1c",
+  "ids": [
+    "recipe_000059",
+    "recipe_000073",
+    "recipe_000074",
+    "recipe_000081",
+    "recipe_000088",
+    "recipe_000124"
+  ],
+  "localeCopyEditStatus": "AI_ASSISTED_NOT_HUMAN_CERTIFIED",
+  "noAutomaticPublication": true,
+  "localizedDescriptions": {
+    "en": {
+      "59": "Asari no Sakamushi steams purged clams briefly with sake, garlic and ginger in a covered pan. The clams open over high heat after the butter has been gently infused with the aromatics; discard any that remain closed. Finish the cooking juices off the heat with the remaining butter and a little soy sauce, then serve with fresh chives.",
+      "73": "Pork Kakuni begins with large cubes of pork belly simmered in water with ginger and the green tops of spring onions. The meat is then braised slowly in sake, mirin, soy sauce and sugar until tender and richly seasoned. Shelled hard-boiled eggs are warmed in the braising liquid towards the end; serve them with the pork, reduced sauce and a little karashi mustard.",
+      "74": "Oden is a winter dish of daikon, konnyaku, hard-boiled eggs and fish cakes gently simmered in dashi seasoned with light soy sauce and mirin. Blanch the daikon and konnyaku first, then simmer the main ingredients without a vigorous boil. Add the mochi-filled kinchaku pouches for the final ten minutes and serve with hot broth and karashi mustard.",
+      "81": "Tamago Sando is a Japanese sandwich made with soft crustless shokupan, hard-boiled eggs and Kewpie mayonnaise. Mash most of the eggs with mayonnaise, milk and seasonings into a spreadable filling; place half an egg in the centre to create a decorative cross-section. Butter the bread lightly, fill and wrap the sandwiches, let them rest briefly, then slice. The bread is not baked.",
+      "88": "Fruit Sando pairs soft shokupan bread with whipped cream, sugar, vanilla and fresh fruit. Arrange the fruit along the intended cutting diagonal on the cream-covered slices, then fill any gaps with more cream. Close, wrap and chill the sandwiches before slicing along the diagonal to reveal the fruit pattern. This is a chilled sandwich, not a baked dessert.",
+      "124": "Uni Don presents sea urchin roe over gently cooled Japanese sushi rice. Use only uni expressly suitable for raw consumption and keep it refrigerated until assembly; do not rely on tasting or smell to establish safety. Divide the warm—not hot—rice between bowls with strips of nori, arrange the uni delicately in a single layer, and serve with wasabi and soy sauce on the side."
+    },
+    "es": {
+      "59": "El Asari no Sakamushi consiste en almejas ya depuradas que se cuecen brevemente al vapor, en una sartén tapada, con sake, ajo y jengibre. Tras aromatizar suavemente la mantequilla, se añaden las almejas y se sube el fuego hasta que se abran; se desechan las que permanezcan cerradas. Fuera del fuego se añade el resto de la mantequilla y un poco de salsa de soja, y se sirve con cebollino fresco.",
+      "73": "Para preparar Pork Kakuni, se cuecen primero dados grandes de panceta de cerdo en agua con jengibre y la parte verde de la cebolleta. Después se estofan lentamente en sake, mirin, salsa de soja y azúcar hasta quedar tiernos. Los huevos cocidos pelados se incorporan al jugo de cocción durante los últimos minutos y se sirven con la carne, salsa reducida y un poco de mostaza karashi.",
+      "74": "El oden es un plato invernal de daikon, konnyaku, huevos cocidos y pasteles de pescado que se cuecen a fuego lento en caldo dashi con salsa de soja clara y mirin. El daikon y el konnyaku se escaldan antes; los demás ingredientes se dejan cocinar sin hervir con fuerza. Los saquitos kinchaku rellenos de mochi se añaden durante los últimos diez minutos y se sirve con caldo caliente y mostaza karashi.",
+      "81": "El Tamago Sando es un sándwich japonés de pan shokupan muy tierno, relleno de huevo cocido y mayonesa Kewpie. Se machacan la mayoría de los huevos con mayonesa, leche y condimentos hasta obtener una crema untable; medio huevo se coloca en el centro para mostrar una sección decorativa al cortarlo. Se unta el pan con mantequilla, se rellena, se envuelve y se deja reposar brevemente antes de cortar. No se hornea el pan.",
+      "88": "El Fruit Sando combina pan shokupan tierno, nata montada con azúcar y vainilla y fruta fresca. Se coloca la fruta sobre las rebanadas cubiertas de nata siguiendo la diagonal del corte y se rellenan los huecos con más nata. Se cierran y envuelven los sándwiches, se enfrían en la nevera y se cortan por la diagonal para mostrar el dibujo de la fruta. Es un postre frío, sin horneado.",
+      "124": "El Uni Don dispone huevas de erizo de mar sobre arroz japonés de sushi templado. Utiliza únicamente uni expresamente apto para consumir crudo y mantenlo refrigerado hasta el montaje; ni el sabor ni el olor demuestran su seguridad. Reparte el arroz templado, no caliente, en cuencos con tiras de nori, coloca delicadamente el uni en una sola capa y sirve el wasabi y la soja aparte."
+    },
+    "fr": {
+      "59": "L'Asari no Sakamushi consiste à cuire brièvement à couvert des palourdes déjà dégorgées avec du saké, de l'ail et du gingembre. Après avoir doucement parfumé le beurre, ajoutez les palourdes et augmentez le feu jusqu'à ce qu'elles s'ouvrent; jetez celles qui restent fermées. Hors du feu, complétez le jus avec le reste du beurre et un peu de sauce soja, puis servez avec de la ciboulette fraîche.",
+      "73": "Pour préparer le Pork Kakuni, faites d'abord frémir de gros cubes de poitrine de porc dans l'eau avec du gingembre et le vert des oignons nouveaux. Faites-les ensuite braiser lentement dans un mélange de saké, mirin, sauce soja et sucre jusqu'à ce qu'ils soient tendres. Ajoutez les œufs durs écalés en fin de cuisson et servez avec la viande, la sauce réduite et un peu de moutarde karashi.",
+      "74": "L'oden est un plat d'hiver composé de daikon, de konnyaku, d'œufs durs et de galettes de poisson doucement mijotés dans un bouillon dashi assaisonné de sauce soja claire et de mirin. Blanchissez d'abord le daikon et le konnyaku, puis laissez les autres ingrédients frémir sans forte ébullition. Ajoutez les sachets kinchaku farcis de mochi pendant les dix dernières minutes et servez avec le bouillon chaud et de la moutarde karashi.",
+      "81": "Le Tamago Sando est un sandwich japonais au pain shokupan moelleux et sans croûte, garni d'œufs durs et de mayonnaise Kewpie. Écrasez la plupart des œufs avec la mayonnaise, le lait et les assaisonnements pour obtenir une garniture tartinable; placez un demi-œuf au centre pour obtenir une jolie coupe. Beurrez légèrement le pain, garnissez, enveloppez, laissez reposer quelques minutes et tranchez. Le pain ne passe pas au four.",
+      "88": "Le Fruit Sando associe du pain shokupan moelleux, de la crème fouettée au sucre et à la vanille et des fruits frais. Disposez les fruits sur les tranches garnies de crème en suivant la diagonale de découpe, puis comblez les espaces avec le reste de crème. Refermez et enveloppez les sandwichs, laissez-les refroidir au réfrigérateur et coupez-les en diagonale pour révéler les fruits. Ce dessert se sert froid, sans cuisson.",
+      "124": "L'Uni Don présente des gonades d'oursin sur du riz japonais à sushi tiédi. Utilisez uniquement de l'uni explicitement adapté à une consommation crue et conservez-le au réfrigérateur jusqu'au dressage; ni la dégustation ni l'odeur ne permettent de garantir sa sécurité. Répartissez le riz tiède, et non brûlant, avec des lanières de nori, déposez délicatement l'uni en une seule couche et servez le wasabi et la sauce soja à part."
+    },
+    "de": {
+      "59": "Für Asari no Sakamushi werden bereits entsandete Venusmuscheln kurz mit Sake, Knoblauch und Ingwer in einer zugedeckten Pfanne gedämpft. Zunächst wird die Butter bei milder Hitze aromatisiert, dann werden die Muscheln bei stärkerer Hitze geöffnet; geschlossen gebliebene Muscheln werden entsorgt. Den Sud nach dem Abschalten mit restlicher Butter und etwas Sojasauce verfeinern und mit frischem Schnittlauch servieren.",
+      "73": "Für Pork Kakuni werden große Schweinebauchwürfel zuerst mit Ingwer und dem Grün von Frühlingszwiebeln in Wasser gegart. Anschließend schmoren sie langsam in einer Mischung aus Sake, Mirin, Sojasauce und Zucker, bis das Fleisch zart ist. Geschälte hartgekochte Eier kommen zum Schluss in den Schmorsud und werden mit dem Schweinebauch, eingekochter Sauce und etwas Karashi-Senf serviert.",
+      "74": "Oden ist ein winterliches Gericht, bei dem Daikon, Konnyaku, hartgekochte Eier und Fischkuchen langsam in Dashi mit heller Sojasauce und Mirin ziehen. Daikon und Konnyaku werden zuvor blanchiert; die übrigen Zutaten sollen sanft köcheln, ohne stark aufzuwallen. Die mit Mochi gefüllten Kinchaku-Täschchen kommen erst in den letzten zehn Minuten dazu. Mit heißer Brühe und Karashi-Senf servieren.",
+      "81": "Tamago Sando ist ein japanisches Sandwich aus weichem Shokupan ohne Rinde, hartgekochten Eiern und Kewpie-Mayonnaise. Die meisten Eier werden mit Mayonnaise, Milch und Gewürzen zu einer streichfähigen Füllung zerdrückt; eine Eierhälfte liegt für den dekorativen Anschnitt in der Mitte. Das Brot dünn mit Butter bestreichen, füllen, einwickeln, kurz ruhen lassen und schneiden. Das Brot wird nicht gebacken.",
+      "88": "Fruit Sando kombiniert weiches Shokupan-Brot mit Schlagsahne, Zucker, Vanille und frischen Früchten. Die Früchte werden auf den mit Sahne bestrichenen Scheiben entlang der späteren Schnittdiagonale angeordnet; Hohlräume werden mit weiterer Sahne gefüllt. Die Sandwiches verschließen, einwickeln, kühlen und diagonal aufschneiden, damit das Fruchtmuster sichtbar wird. Das Dessert wird kalt serviert und nicht gebacken.",
+      "124": "Uni Don besteht aus Seeigelrogen auf leicht abgekühltem japanischem Sushi-Reis. Nur ausdrücklich zum Rohverzehr geeigneten Uni verwenden und bis zum Anrichten kühlen; weder Probieren noch Geruch sind ein Sicherheitsnachweis. Den lauwarmen, nicht heißen Reis mit Noristreifen auf Schalen verteilen, den Uni behutsam in einer Lage daraufsetzen und Wasabi sowie Sojasauce getrennt servieren."
+    },
+    "pt": {
+      "59": "No Asari no Sakamushi, as amêijoas já depuradas são cozinhadas brevemente numa frigideira tapada com saqué, alho e gengibre. Depois de aromatizar suavemente a manteiga, juntam-se as amêijoas e aumenta-se o lume até abrirem; rejeitam-se as que permanecerem fechadas. Fora do lume, acrescenta-se a restante manteiga e um pouco de molho de soja, servindo com cebolinho fresco.",
+      "73": "Para preparar Pork Kakuni, cozem-se primeiro cubos grandes de entremeada de porco em água com gengibre e a parte verde do cebolinho. Depois estufam-se lentamente em saqué, mirin, molho de soja e açúcar até ficarem tenros. Os ovos cozidos descascados entram no molho nos últimos minutos e servem-se com a carne, o molho reduzido e um pouco de mostarda karashi.",
+      "74": "O oden é um prato de inverno em que daikon, konnyaku, ovos cozidos e bolinhos de peixe cozinham lentamente num caldo dashi temperado com molho de soja claro e mirin. Escaldam-se primeiro o daikon e o konnyaku; os restantes ingredientes fervilham suavemente, sem uma fervura intensa. Os saquinhos kinchaku recheados com mochi juntam-se apenas nos últimos dez minutos. Servir com caldo quente e mostarda karashi.",
+      "81": "O Tamago Sando é uma sanduíche japonesa de pão shokupan macio, sem côdea, recheada com ovos cozidos e maionese Kewpie. Esmaga-se a maior parte dos ovos com maionese, leite e temperos até obter uma pasta fácil de barrar; coloca-se meio ovo no centro para revelar um corte decorativo. Barra-se o pão com um pouco de manteiga, recheia-se, embrulha-se, deixa-se repousar brevemente e corta-se. O pão não vai ao forno.",
+      "88": "O Fruit Sando combina pão shokupan macio, natas batidas com açúcar e baunilha e fruta fresca. Distribui-se a fruta sobre as fatias com natas segundo a diagonal do corte e preenchem-se os espaços com mais natas. Fecham-se e embrulham-se as sanduíches, deixam-se arrefecer no frigorífico e cortam-se na diagonal para revelar o desenho da fruta. É uma sobremesa fria, sem ir ao forno.",
+      "124": "O Uni Don apresenta gónadas de ouriço-do-mar sobre arroz japonês para sushi já morno. Utilize apenas uni expressamente indicado para consumo cru e mantenha-o refrigerado até à montagem; nem a prova nem o cheiro comprovam a segurança. Distribua o arroz morno, não quente, por taças com tiras de nori, disponha delicadamente o uni numa só camada e sirva o wasabi e o molho de soja à parte."
+    }
+  },
+  "italianSourceStepEdits": {
+    "73": {
+      "step_2": "In una pentola capiente, metti il maiale, copri d'acqua e unisci lo zenzero e la parte verde dei cipollotti.",
+      "step_3": "Fai sobbollire a fuoco lento per 45 minuti per eliminare parte del grasso in eccesso."
+    },
+    "88": {
+      "step_3": "Sistema la frutta fresca sulla panna seguendo la diagonale lungo cui taglierai il sandwich.",
+      "step_4": "Orienta le fragole in modo che al taglio mostrino la caratteristica sezione a cuore."
+    },
+    "124": {
+      "step_3": "Verifica che l'uni sia espressamente idoneo al consumo crudo e sia stato conservato secondo le indicazioni del fornitore. Non assaggiarlo per valutarne la sicurezza: odore e sapore non sono criteri sufficienti."
+    }
+  },
+  "localizedStepEdits": {
+    "en": {
+      "73": {
+        "step_2": "Place the pork in a large pot, cover with water and add the ginger and green parts of the spring onions.",
+        "step_3": "Simmer gently for 45 minutes to remove some of the excess fat."
+      },
+      "88": {
+        "step_3": "Arrange the fresh fruit on the cream along the diagonal where you plan to slice the sandwich.",
+        "step_4": "Position the strawberries so that the cut reveals their characteristic heart-shaped cross-section."
+      },
+      "124": {
+        "step_3": "Check that the uni is expressly suitable for raw consumption and has been stored according to the supplier's instructions. Do not taste it to assess safety: neither smell nor flavour is sufficient evidence."
+      }
+    },
+    "es": {
+      "73": {
+        "step_2": "Pon el cerdo en una olla grande, cúbrelo con agua y añade el jengibre y la parte verde de las cebolletas.",
+        "step_3": "Deja cocer a fuego lento durante 45 minutos para retirar parte del exceso de grasa."
+      },
+      "88": {
+        "step_3": "Dispón la fruta fresca sobre la nata siguiendo la diagonal por la que cortarás el sándwich.",
+        "step_4": "Orienta las fresas para que el corte muestre su característica sección en forma de corazón."
+      },
+      "124": {
+        "step_3": "Comprueba que el uni sea expresamente apto para comer crudo y que se haya conservado según las indicaciones del proveedor. No lo pruebes para evaluar su seguridad: el olor y el sabor no son pruebas suficientes."
+      }
+    },
+    "fr": {
+      "73": {
+        "step_2": "Placez le porc dans une grande casserole, couvrez-le d'eau et ajoutez le gingembre ainsi que le vert des oignons nouveaux.",
+        "step_3": "Laissez frémir doucement pendant 45 minutes pour éliminer une partie de l'excès de graisse."
+      },
+      "88": {
+        "step_3": "Disposez les fruits frais sur la crème en suivant la diagonale prévue pour découper le sandwich.",
+        "step_4": "Orientez les fraises de façon que la coupe révèle leur section caractéristique en forme de cœur."
+      },
+      "124": {
+        "step_3": "Vérifiez que l'uni est explicitement adapté à une consommation crue et qu'il a été conservé selon les indications du fournisseur. Ne le goûtez pas pour évaluer sa sécurité: l'odeur et la saveur ne suffisent pas."
+      }
+    },
+    "de": {
+      "73": {
+        "step_2": "Das Schweinefleisch in einen großen Topf geben, mit Wasser bedecken und Ingwer sowie das Grün der Frühlingszwiebeln hinzufügen.",
+        "step_3": "Bei milder Hitze 45 Minuten köcheln lassen, um einen Teil des überschüssigen Fetts zu entfernen."
+      },
+      "88": {
+        "step_3": "Das frische Obst auf der Sahne entlang der vorgesehenen Schnittdiagonale anordnen.",
+        "step_4": "Die Erdbeeren so ausrichten, dass beim Aufschneiden der typische herzförmige Querschnitt sichtbar wird."
+      },
+      "124": {
+        "step_3": "Prüfen Sie, ob der Uni ausdrücklich für den Rohverzehr geeignet ist und gemäß den Vorgaben des Lieferanten gelagert wurde. Probieren Sie ihn nicht zur Sicherheitsprüfung: Geruch und Geschmack reichen dafür nicht aus."
+      }
+    },
+    "pt": {
+      "73": {
+        "step_2": "Coloque o porco numa panela grande, cubra com água e junte o gengibre e a parte verde dos cebolinhos.",
+        "step_3": "Deixe fervilhar em lume brando durante 45 minutos para retirar parte do excesso de gordura."
+      },
+      "88": {
+        "step_3": "Disponha a fruta fresca sobre as natas seguindo a diagonal por onde irá cortar a sanduíche.",
+        "step_4": "Oriente os morangos de modo que, ao cortar, apresentem a característica secção em forma de coração."
+      },
+      "124": {
+        "step_3": "Confirme que o uni é expressamente indicado para consumo cru e que foi conservado segundo as instruções do fornecedor. Não o prove para avaliar a segurança: nem o cheiro nem o sabor são critérios suficientes."
+      }
+    }
+  }
+}
