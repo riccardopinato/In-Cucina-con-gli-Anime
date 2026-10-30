@@ -33,6 +33,10 @@ v2.2 L1 diagnosis is merged as PR #48 on `main` (SHA `cd0103b2efa18f55f2e284b035
 
 Next stages: **v2.4 deeper code analyzers -> L2.1 bounded code-format draft repairs -> L2.2 isolated AI-assisted proposals -> v3.0 multi-app canary and separate Factory Core adoption**. Autonomously merging app-code changes or certifying food safety remains excluded without new governance and domain evidence. Culinary PR #44 is DRAFT with 122 human reviews PENDING.
 
+## Quality Engine v2.4-A — portable static analyzers
+
+After v2.3 merge (PR #50, main SHA `77923446bf4b89528ad13af676f1f050abf1e762`), this **separate PR candidate** adds read-only Dart/Flutter, Kotlin, Android manifest and Gradle review leads without changing the v2/v2.1 historical scanner version. [v2.4-A adapter specification](docs/R1_QUALITY_ENGINE_V24A_STATIC.md). Current Cooking Anime repository contains Dart but **no native Android/Kotlin/Gradle sources**, so three modes must report `NO_MATCHING_FILES`, not fabricated PASS. Reviewer/CI gates pending; next v2.4-B pinned mature analyzers, v2.4-C real Kotlin repo canary, then L2.1 code-formatting draft repair. The original culinary R1 review remains separate and unapproved.
+
 The roadmap uses tracer-bullet slices: each step should end in something demonstrable and leave CI green.
 
 ## F0 — Foundation shell — PASS
