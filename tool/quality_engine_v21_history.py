@@ -94,6 +94,12 @@ def validate_report(report: dict) -> list[dict]:
     return findings
 
 
+def signature(row: dict) -> tuple:
+    """Conservative relocation key; only unique, unambiguous pairs may migrate."""
+    return (row.get("ruleId"), row.get("path"), row.get("entityId"),
+            row.get("message"), row.get("severity"))
+
+
 def compare(report: dict, config: dict, previous: dict | None, *,
             repository: str, run_id: str, event: str) -> tuple[dict, dict]:
     current_findings = validate_report(report)
@@ -102,10 +108,8 @@ def compare(report: dict, config: dict, previous: dict | None, *,
     mode = report["mode"]
     scope = scope_digest(config, report)
     if report["filesSkipped"]:
-        # Skipped files can cause apparently 'resolved' findings.
         raise ValueError("Incomplete scan: skipped files prevent safe lifecycle comparison")
     current = {f["id"]: f for f in current_findings}
-
     baseline_status = "AVAILABLE" if previous is not None else "ABSENT"
     old_records = {}
     previous_sha = None
@@ -128,6 +132,7 @@ def compare(report: dict, config: dict, previous: dict | None, *,
         previous_sha = previous.get("sourceSha")
         if not isinstance(previous_sha, str) or not previous_sha:
             raise ValueError("Invalid baseline commit")
+        scanner_ids = set()
         for fid, row in old_records.items():
             if (not isinstance(fid, str) or not isinstance(row, dict)
                     or row.get("id") != fid
@@ -135,39 +140,93 @@ def compare(report: dict, config: dict, previous: dict | None, *,
                     or not isinstance(row.get("firstSeenSha"), str)
                     or not isinstance(row.get("lastSeenSha"), str)
                     or not isinstance(row.get("observations"), int)
-                    or row["observations"] < 1):
+                    or row["observations"] < 1
+                    or not isinstance(row.get("scannerId", fid), str)
+                    or not row.get("scannerId", fid)):
                 raise ValueError("Malformed prior history row")
+            # A current scanner fingerprint may only belong to one historical
+            # record: otherwise no deterministic identity comparison is safe.
+            scanner_id = row.get("scannerId", fid)
+            if scanner_id in scanner_ids:
+                raise ValueError("Duplicate historical scanner fingerprints")
+            scanner_ids.add(scanner_id)
+
+    # First reconcile exact observed fingerprints (including a previously
+    # relocated scannerId). Then pair *only unique* shifts of line number
+    # within the same rule/path/entity/message/severity.
+    matches: dict[str, str] = {}  # current scannerId -> stable history ID
+    used_old: set[str] = set()
+    prior_by_scanner = {
+        row.get("scannerId", fid): fid for fid, row in old_records.items()
+    }
+    for scanner_id in sorted(current):
+        historical_id = prior_by_scanner.get(scanner_id)
+        if historical_id is not None:
+            matches[scanner_id] = historical_id
+            used_old.add(historical_id)
+
+    groups_old: dict[tuple, list[str]] = {}
+    groups_new: dict[tuple, list[str]] = {}
+    for fid, old in old_records.items():
+        if fid not in used_old and old["state"] == "ACTIVE":
+            groups_old.setdefault(signature(old), []).append(fid)
+    for scanner_id, finding in current.items():
+        if scanner_id not in matches:
+            groups_new.setdefault(signature(finding), []).append(scanner_id)
+    for sig in sorted(set(groups_new) & set(groups_old)):
+        old_ids, new_ids = groups_old[sig], groups_new[sig]
+        if len(old_ids) == 1 and len(new_ids) == 1:
+            matches[new_ids[0]] = old_ids[0]
+            used_old.add(old_ids[0])
+
     result_rows = []
     updated = {}
-    for fid in sorted(set(old_records) | set(current)):
-        old = old_records.get(fid)
-        finding = current.get(fid)
-        if finding is not None:
-            if old is None:
-                transition = "NEW" if previous is not None else "UNBASELINED"
-                updated[fid] = {
-                    **finding, "state": "ACTIVE", "firstSeenSha": report["sourceSha"],
-                    "lastSeenSha": report["sourceSha"], "observations": 1,
-                }
-            else:
-                transition = "REOPENED" if old["state"] == "RESOLVED" else "PERSISTING"
-                updated[fid] = {
-                    **finding, "state": "ACTIVE", "firstSeenSha": old["firstSeenSha"],
-                    "lastSeenSha": report["sourceSha"],
-                    "observations": old["observations"] + 1,
-                }
-            result_rows.append({**finding, "transition": transition, "state": "ACTIVE"})
-        elif old is not None:
-            updated[fid] = dict(old)
+    for scanner_id in sorted(current):
+        finding = current[scanner_id]
+        historical_id = matches.get(scanner_id, scanner_id)
+        old = old_records.get(historical_id)
+        if old is None:
+            transition = "NEW" if previous is not None else "UNBASELINED"
+            record = {
+                **finding, "state": "ACTIVE", "scannerId": scanner_id,
+                "firstSeenSha": report["sourceSha"],
+                "lastSeenSha": report["sourceSha"], "resolvedAtSha": None,
+                "observations": 1,
+            }
+        else:
+            transition = "REOPENED" if old["state"] == "RESOLVED" else "PERSISTING"
+            record = {
+                **finding, "id": historical_id, "scannerId": scanner_id,
+                "state": "ACTIVE",
+                "firstSeenSha": old["firstSeenSha"],
+                "lastSeenSha": report["sourceSha"], "resolvedAtSha": None,
+                "observations": old["observations"] + 1,
+            }
+        updated[historical_id] = record
+        result_rows.append({
+            **{k: record.get(k) for k in
+               ("id", "ruleId", "severity", "path", "line", "entityId", "message")},
+            "scannerId": scanner_id, "transition": transition, "state": "ACTIVE",
+        })
+
+    for fid in sorted(old_records):
+        old = old_records[fid]
+        if fid not in updated:
+            # Keep the last SHA where the problem was actually *detected*.
+            record = dict(old)
             if old["state"] == "ACTIVE":
-                updated[fid]["state"] = "RESOLVED"
-                updated[fid]["lastSeenSha"] = report["sourceSha"]
+                record["state"] = "RESOLVED"
+                record["resolvedAtSha"] = report["sourceSha"]
                 result_rows.append({
-                    **{k: old.get(k) for k in ("id", "ruleId", "severity", "path", "line", "entityId", "message")},
+                    **{k: record.get(k) for k in
+                       ("id", "ruleId", "severity", "path", "line", "entityId", "message")},
+                    "scannerId": record.get("scannerId", fid),
                     "transition": "RESOLVED", "state": "RESOLVED",
                 })
+            updated[fid] = record
     if len(updated) > MAX_RECORDS:
         raise ValueError("History exceeds max records: needs explicit retention policy")
+    result_rows.sort(key=lambda r: (r["path"], r["line"], r["ruleId"], r["id"]))
     tallies = {key: sum(row["transition"] == key for row in result_rows)
                for key in TRANSITIONS}
     delta = {
