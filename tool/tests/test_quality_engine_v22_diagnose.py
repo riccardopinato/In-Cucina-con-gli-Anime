@@ -135,7 +135,10 @@ class DiagnoserTests(unittest.TestCase):
 
     def test_malformed_paths_privacy_and_unsafe_policy(self):
         s = scan(item("PY_SHELL_TRUE", "x", path="../secrets.txt"))
-        _, _, d = package(s)
+        # Build a valid historical delta first; the diagnoser itself must
+        # reject the unsafe relative path when invoked under the assertion.
+        d, _ = compare(s, CONFIG, None, repository="owner/repo",
+                       run_id="1", event="push")
         with self.assertRaisesRegex(ValueError, "finding path"):
             diagnose(s, d, CONFIG)
         s = scan(item("PY_DYNAMIC_EXECUTION", "x", entity="SECRET USER STRING; DON'T LEAK"))
