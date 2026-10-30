@@ -178,6 +178,10 @@ def compare(report: dict, config: dict, previous: dict | None, *,
         if len(old_ids) == 1 and len(new_ids) == 1:
             matches[new_ids[0]] = old_ids[0]
             used_old.add(old_ids[0])
+        else:
+            # Without excerpts or AST anchors, multiple equivalent findings
+            # cannot be paired after line movement. Avoid false NEW/RESOLVED.
+            raise ValueError("Ambiguous finding relocation: review source locations")
 
     result_rows = []
     updated = {}
