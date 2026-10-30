@@ -119,6 +119,26 @@ jobs:
             --out-delta build/quality-v21/delta.json \
             "${baseline[@]}"
 
+      - name: Build evidence-linked diagnostic proposals (read-only)
+        shell: bash
+        env:
+          QUALITY_MODE: ${{ matrix.mode }}
+        run: |
+          set -euo pipefail
+          python3 tool/quality_engine_v22_diagnose.py \
+            --scan "build/quality-v2/$QUALITY_MODE.json" \
+            --delta build/quality-v21/delta.json \
+            --config .quality-engine-v2.json \
+            --output "build/quality-v22/proposals-$QUALITY_MODE.json"
+
+      - name: Upload non-executable diagnostic proposals
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: quality-v22-proposals-${{ matrix.mode }}
+          path: build/quality-v22/proposals-${{ matrix.mode }}.json
+          if-no-files-found: error
+          retention-days: 14
+
       - name: Upload persistent, source-bound history state
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
