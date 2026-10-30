@@ -9,6 +9,9 @@ on:
       - 'tool/tests/test_quality_engine_v24_static.py'
       - '.quality-engine-v24.json'
       - '.github/workflows/quality-engine-v24-static.yml'
+      - 'tool/quality_engine_v24b_official.py'
+      - 'tool/tests/test_quality_engine_v24b_official.py'
+      - '.github/workflows/quality-engine-v24b-official.yml'
   pull_request:
     branches: [main]
     paths:
@@ -17,6 +20,9 @@ on:
       - 'tool/tests/test_quality_engine_v24_static.py'
       - '.quality-engine-v24.json'
       - '.github/workflows/quality-engine-v24-static.yml'
+      - 'tool/quality_engine_v24b_official.py'
+      - 'tool/tests/test_quality_engine_v24b_official.py'
+      - '.github/workflows/quality-engine-v24b-official.yml'
   schedule:
     # Best effort: does not substitute for a compiler or real Android test.
     - cron: '47 6 * * *'
