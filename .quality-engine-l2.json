@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "enabled": true,
+  "riskTier": "LOW_FORMAT_ONLY",
+  "draftOnly": true,
+  "autoMerge": false,
+  "autoPublish": false,
+  "allowedRule": "MD_BLANK_LINE_WHITESPACE",
+  "eligiblePaths": [
+    "docs/R1_QUALITY_ENGINE_V2_PILOT.md",
+    "docs/R1_QUALITY_ENGINE_V21_HISTORY.md",
+    "docs/R1_QUALITY_ENGINE_V22_DIAGNOSER.md"
+  ],
+  "changeBudget": {
+    "maxFiles": 3,
+    "maxChangedLinesPerFile": 40,
+    "maxRemovedBytesPerFile": 1024
+  },
+  "note": "Only whitespace-only Markdown lines in three fixed Quality Engine docs. Draft PR only, never changes product code or content."
+}
