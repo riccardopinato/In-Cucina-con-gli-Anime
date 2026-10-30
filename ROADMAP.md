@@ -13,6 +13,10 @@ Implementation branch `feat/r1-quality-engine-v2-readonly`: three source-bound, 
 
 **Current deliverable status:** implementation PR / exact-head CI pending. The hourly trigger activates only after merge to `main`; schedules are best-effort, not a 24/7 process. All operation is read-only with no automatic writes, repairs, PR merges, publication or AppLab SELF_CANARY promotion. Existing R1 culinary PR #44 remains draft with 112 recipes and 10 components awaiting qualified review. Factory v27 remains pinned, and future App-Factory-Core reuse needs separate governance.
 
+## R1 Quality Engine v2.1 — longitudinal monitoring (separate from R1 culinary clearance)
+
+v2.0 read-only observer is merged on `main` as PR #46. v2.1 adds source-bound per-lane **NEW / PERSISTING / RESOLVED / REOPENED / UNBASELINED** lifecycle state, with cumulative snapshots read from successful `main` GitHub Actions artifacts and stored for 14 days. This is **NOT permanent central storage** and does not authorize autonomous repair. See [R1 Quality Engine v2.1 History](docs/R1_QUALITY_ENGINE_V21_HISTORY.md). **Execution status:** PR in progress; CI/merge gate pending. Future App-Factory-Core extraction and any repair writer require separate approval. R1 culinary PR #44 remains draft and all 122 reviews PENDING.
+
 The roadmap uses tracer-bullet slices: each step should end in something demonstrable and leave CI green.
 
 ## F0 — Foundation shell — PASS
