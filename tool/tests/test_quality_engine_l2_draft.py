@@ -152,7 +152,7 @@ class L2DraftRepairTests(unittest.TestCase):
     def test_byte_and_line_budget_fail_closed(self):
         with self.assertRaisesRegex(ValueError, "bounded budget"):
             transform(b" \n" * (MAX_CHANGED_LINES + 1))
-        with self.assertRaisesRegex(UnicodeDecodeError):
+        with self.assertRaises(UnicodeDecodeError):
             transform(b"\xff\n")
 
     def test_writer_workflow_has_strict_triggers_and_pr_only(self):
