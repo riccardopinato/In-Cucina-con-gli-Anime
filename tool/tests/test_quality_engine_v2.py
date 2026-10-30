@@ -93,6 +93,33 @@ class QualityV2Tests(unittest.TestCase):
             self.assertEqual([x["mode"] for x in reports],
                              ["code", "content", "workflows"])
 
+    def test_unhashable_component_refs_and_repeated_errors_have_distinct_ids(self):
+        recipe = {
+            "recipes": [{
+                "id": "r1", "title": "Test", "description": "Test",
+                "ingredients": [
+                    {"id": "egg", "componentRef": ["component_dashi"]},
+                    {"id": "egg", "componentRef": {"unexpected": True}},
+                    {"id": "egg", "componentRef": "missing"},
+                ],
+                "steps": [{}, {"instruction": ""}, None,
+                          {"instruction": "Mix and serve."}],
+            }],
+            "reusableComponents": {"component_dashi": {"totalElapsedMinutes": 12}},
+        }
+        findings = scan_recipe_catalog("authoring/test.json", json.dumps(recipe))
+        self.assertEqual(sum(f["ruleId"] == "CONTENT_COMPONENT_REF_SCHEMA"
+                             for f in findings), 2)
+        self.assertEqual(sum(f["ruleId"] == "CONTENT_DUPLICATE_INGREDIENT"
+                             for f in findings), 2)
+        self.assertEqual(sum(f["ruleId"] == "CONTENT_EMPTY_STEP"
+                             for f in findings), 3)
+        self.assertEqual(len({f["id"] for f in findings}), len(findings))
+        self.assertIn("r1/ingredient:1", {f["entityId"] for f in findings})
+        self.assertIn("r1/step:3", {f["entityId"] for f in findings})
+        self.assertNotIn("unexpected", json.dumps(findings))
+        self.assertTrue(all(f["humanReviewEvidence"] is None for f in findings))
+
     def test_invalid_scope_fail_closed_and_secret_values_not_reported(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
