@@ -27,6 +27,12 @@ v2.2 L1 diagnosis is merged as PR #48 on `main` (SHA `cd0103b2efa18f55f2e284b035
 
 **Status:** implementation PR, CI/review pending; not a general-purpose code repair agent. The three docs currently have zero eligible changes; no repair PR is expected without a genuine candidate. No automatic merge or changes to app code, culinary authoring, R1 safety approvals, payments, assets, rights, AppLab SELF_CANARY or Factory Core. PR #44 remains DRAFT and 122 human reviews are still PENDING.
 
+## Quality Engine v2.3 — Autonomy Reliability Gate
+
+**Execution candidate** on branch `feat/quality-engine-v23-reliability-gate`, PR and exact-head CI **not yet verified**. Following merged PR #49 L2 pilot, this step adds actual `schedule` evidence auditing (hourly quality observer and daily low-risk draft pilot), stable repair fingerprints across unrelated commits, historical draft de-duplication and 14 fixture/E2E tests using **local disposable Git only**. See [v2.3 reliability](docs/R1_QUALITY_ENGINE_V23_RELIABILITY.md). Neither generated test results nor successful source CI prove that GitHub created a real repair PR: that remote capability remains pending naturally eligible candidate and permission checks.
+
+Next stages: **v2.4 deeper code analyzers -> L2.1 bounded code-format draft repairs -> L2.2 isolated AI-assisted proposals -> v3.0 multi-app canary and separate Factory Core adoption**. Autonomously merging app-code changes or certifying food safety remains excluded without new governance and domain evidence. Culinary PR #44 is DRAFT with 122 human reviews PENDING.
+
 The roadmap uses tracer-bullet slices: each step should end in something demonstrable and leave CI green.
 
 ## F0 — Foundation shell — PASS
