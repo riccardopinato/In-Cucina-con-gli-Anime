@@ -24,10 +24,13 @@ on:
 
 permissions:
   contents: read
+  actions: read
 
 concurrency:
-  group: quality-v2-${{ github.event_name }}-${{ github.ref }}
-  cancel-in-progress: true
+  # A single main-branch lane across push, schedule, and manual events.
+  # Parallel mode workers remain inside each serialized workflow run.
+  group: quality-v2-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   observe:
@@ -56,6 +59,81 @@ jobs:
             --mode "${{ matrix.mode }}" \
             --source-sha "$GITHUB_SHA" \
             --output "build/quality-v2/${{ matrix.mode }}.json"
+
+      # Only previous successful runs of THIS workflow on protected main are
+      # candidates. PR artifacts and incomplete runs are never historical truth.
+      - name: Fetch previous main snapshot if one exists
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          QUALITY_REPO: ${{ github.repository }}
+          QUALITY_RUN_ID: ${{ github.run_id }}
+          QUALITY_MODE: ${{ matrix.mode }}
+        run: |
+          set -euo pipefail
+          mkdir -p build/quality-v21
+          gh api "repos/$QUALITY_REPO/actions/workflows/quality-engine-v2.yml/runs?branch=main&status=success&per_page=30" > build/quality-v21/runs.json
+          while IFS= read -r previous_run; do
+            if [ "$previous_run" = "$QUALITY_RUN_ID" ]; then
+              continue
+            fi
+            gh api "repos/$QUALITY_REPO/actions/runs/$previous_run/artifacts?per_page=100" > build/quality-v21/artifacts.json
+            artifact_id="$(jq -r --arg name "quality-v21-state-$QUALITY_MODE"               '[.artifacts[] | select(.name == $name and .expired == false) | .id] | first // empty' build/quality-v21/artifacts.json)"
+            if [ -n "$artifact_id" ]; then
+              curl --fail --silent --show-error --location \
+                --header "Authorization: Bearer $GH_TOKEN" \
+                --header "Accept: application/vnd.github+json" \
+                --header "X-GitHub-Api-Version: 2022-11-28" \
+                "https://api.github.com/repos/$QUALITY_REPO/actions/artifacts/$artifact_id/zip" \
+                --output build/quality-v21/previous.zip
+              unzip -p build/quality-v21/previous.zip state.json > build/quality-v21/baseline.json
+              test -s build/quality-v21/baseline.json
+              echo "Prior verified-main history selected from run $previous_run"
+              break
+            fi
+          done < <(jq -r '.workflow_runs[] | select(.event == "push" or .event == "schedule" or .event == "workflow_dispatch") | .id' build/quality-v21/runs.json)
+          if [ ! -f build/quality-v21/baseline.json ]; then
+            echo "No previous valid-main artifact: history baseline explicitly ABSENT"
+          fi
+
+      - name: Compute source-bound historical delta (read-only)
+        shell: bash
+        env:
+          QUALITY_MODE: ${{ matrix.mode }}
+          QUALITY_REPO: ${{ github.repository }}
+          QUALITY_RUN_ID: ${{ github.run_id }}
+          QUALITY_EVENT: ${{ github.event_name }}
+        run: |
+          set -euo pipefail
+          baseline=()
+          if [ -s build/quality-v21/baseline.json ]; then
+            baseline=(--previous build/quality-v21/baseline.json)
+          fi
+          python3 tool/quality_engine_v21_history.py \
+            --report "build/quality-v2/$QUALITY_MODE.json" \
+            --config .quality-engine-v2.json \
+            --repository "$QUALITY_REPO" \
+            --run-id "$QUALITY_RUN_ID" \
+            --event "$QUALITY_EVENT" \
+            --out-state build/quality-v21/state.json \
+            --out-delta build/quality-v21/delta.json \
+            "${baseline[@]}"
+
+      - name: Upload persistent, source-bound history state
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: quality-v21-state-${{ matrix.mode }}
+          path: build/quality-v21/state.json
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Upload historical delta and status report
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: quality-v21-delta-${{ matrix.mode }}
+          path: build/quality-v21/delta.json
+          if-no-files-found: error
+          retention-days: 14
 
       - name: Upload inspectable audit report (no source snippets)
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
