@@ -80,7 +80,12 @@ jobs:
             gh api "repos/$QUALITY_REPO/actions/runs/$previous_run/artifacts?per_page=100" > build/quality-v21/artifacts.json
             artifact_id="$(jq -r --arg name "quality-v21-state-$QUALITY_MODE"               '[.artifacts[] | select(.name == $name and .expired == false) | .id] | first // empty' build/quality-v21/artifacts.json)"
             if [ -n "$artifact_id" ]; then
+              # GitHub artifact downloads can transiently return 502/503.
+              # Retry transient errors only; persistent failure remains a
+              # hard error rather than a false ABSENT historical baseline.
               curl --fail --silent --show-error --location \
+                --retry 4 --retry-all-errors --retry-delay 3 \
+                --connect-timeout 10 --max-time 30 \
                 --header "Authorization: Bearer $GH_TOKEN" \
                 --header "Accept: application/vnd.github+json" \
                 --header "X-GitHub-Api-Version: 2022-11-28" \
