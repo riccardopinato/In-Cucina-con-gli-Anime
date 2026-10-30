@@ -27,8 +27,10 @@ permissions:
   actions: read
 
 concurrency:
-  group: quality-v2-${{ github.event_name }}-${{ github.ref }}
-  cancel-in-progress: true
+  # A single main-branch lane across push, schedule, and manual events.
+  # Parallel mode workers remain inside each serialized workflow run.
+  group: quality-v2-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   observe:
