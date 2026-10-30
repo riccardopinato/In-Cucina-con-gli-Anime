@@ -81,6 +81,36 @@ class L2DraftRepairTests(unittest.TestCase):
         self.assertEqual(lines, (2, 3))
         self.assertEqual(removed, 3)
 
+    def test_fence_with_trailing_text_does_not_close_code_block(self):
+        source = (b"Opening\n"
+                  b"```python\n"
+                  b"```not-a-closing-fence\n"
+                  b"  \t\n"
+                  b"```\n"
+                  b"  \n"
+                  b"Ending\n")
+        fixed, lines, removed = transform(source)
+        self.assertEqual(lines, (6,))
+        self.assertEqual(removed, 2)
+        self.assertIn(b"```not-a-closing-fence\n  \t\n```", fixed)
+        self.assertIn(b"```\n\nEnding\n", fixed)
+
+    def test_symlinked_parent_directory_rejected_before_write(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            other = root / "lib"
+            other.mkdir()
+            for allowed in ALLOWED:
+                (other / Path(allowed).name).write_bytes(b"Header\n \n")
+            (root / "docs").symlink_to(other, target_is_directory=True)
+            with self.assertRaisesRegex(ValueError, "Symlinked parent"):
+                plan(root, CONFIG, source_sha=SHA, repository=REPO)
+            with self.assertRaisesRegex(ValueError, "Symlinked parent"):
+                apply(root, CONFIG, {}, source_sha=SHA, repository=REPO)
+            for allowed in ALLOWED:
+                self.assertEqual((other / Path(allowed).name).read_bytes(),
+                                 b"Header\n \n")
+
     def test_no_changes_is_clean_noop(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
