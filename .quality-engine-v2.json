@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "profile": "cooking-anime-r1-v2-pilot",
+  "paths": {
+    "code": [
+      "lib/**/*.dart",
+      "tool/**/*.py",
+      "tool/tests/**/*.py"
+    ],
+    "content": [
+      "authoring/f3k_it_hardening_51_162.json"
+    ],
+    "workflows": [
+      ".github/workflows/*.yml",
+      ".github/workflows/*.yaml"
+    ]
+  },
+  "policy": {
+    "mode": "READ_ONLY_OBSERVATION",
+    "autoFix": false,
+    "autoMerge": false,
+    "codeSecretExfiltration": false,
+    "humanReviewRequired": true,
+    "notes": "Path patterns and risk leads are configurable. Reports are not certifications. No remote AI API."
+  }
+}
