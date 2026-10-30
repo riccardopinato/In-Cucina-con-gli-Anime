@@ -1,0 +1,72 @@
+name: Quality Engine v2.3 — schedule evidence audit
+
+on:
+  schedule:
+    # Observes both hourly scanner and daily L2 pilot, best-effort UTC.
+    - cron: '17 8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: quality-v23-reliability-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  verify-scheduler:
+    name: verify-schedule-evidence-readonly
+    if: github.repository == 'riccardopinato/In-Cucina-con-gli-Anime' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout trusted main without persisted credentials
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Install pinned Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: '3.11'
+      - name: Fetch GitHub schedule facts with read-only token
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          QUALITY_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          mkdir -p build/quality-v23
+          gh api "repos/$QUALITY_REPO/actions/workflows/quality-engine-v2.yml/runs?branch=main&per_page=100" \
+            > build/quality-v23/v2-runs.json
+          gh api "repos/$QUALITY_REPO/actions/workflows/quality-engine-l2-draft.yml/runs?branch=main&per_page=100" \
+            > build/quality-v23/l2-runs.json
+      - name: Audit real scheduled events without synthetic success
+        shell: bash
+        env:
+          QUALITY_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          now="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          python3 tool/quality_engine_v23_reliability.py \
+            --v2-runs build/quality-v23/v2-runs.json \
+            --l2-runs build/quality-v23/l2-runs.json \
+            --repository "$QUALITY_REPO" --as-of "$now" \
+            --output build/quality-v23/reliability.json
+          python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          from pathlib import Path
+          data=json.loads(Path("build/quality-v23/reliability.json").read_text())
+          print("### Quality Engine v2.3 — scheduled execution evidence")
+          print("Overall:", data["overall"])
+          for item in data["checks"]:
+              print(f'- {item["workflow"]}: {item["status"]} (run {item["lastScheduledRunId"]})')
+          print("Schedule is best effort; this does not prove autonomous PR creation.")
+          PY
+      - name: Upload inspectable scheduler health report
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: quality-v23-scheduler-health
+          path: build/quality-v23/reliability.json
+          if-no-files-found: error
+          retention-days: 14
