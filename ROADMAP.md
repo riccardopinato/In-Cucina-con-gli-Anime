@@ -7,6 +7,12 @@
 > Existing F0–F5 sections below preserve historical implementation evidence and original stage contracts. Where a legacy `CURRENT` or `NEXT` label conflicts with the detailed current roadmap, reconcile against the latest real commit and CI; never treat a staged draft as publication or an AppLab self-canary as autonomous editing rights for this app.
 
 
+## R1 Quality Engine v2 — autonomous read-only pilot (separate from culinary certification)
+
+Implementation branch `feat/r1-quality-engine-v2-readonly`: three source-bound, parallel, recurring GitHub Actions analysis lanes for **code, content and workflow security hygiene**. The portable stdlib scanner, configuration, regression tests and workflow are specified in [R1 Quality Engine v2 Pilot](docs/R1_QUALITY_ENGINE_V2_PILOT.md). This is a *technical observation tool*, not human food-safety certification.
+
+**Current deliverable status:** implementation PR / exact-head CI pending. The hourly trigger activates only after merge to `main`; schedules are best-effort, not a 24/7 process. All operation is read-only with no automatic writes, repairs, PR merges, publication or AppLab SELF_CANARY promotion. Existing R1 culinary PR #44 remains draft with 112 recipes and 10 components awaiting qualified review. Factory v27 remains pinned, and future App-Factory-Core reuse needs separate governance.
+
 The roadmap uses tracer-bullet slices: each step should end in something demonstrable and leave CI green.
 
 ## F0 — Foundation shell — PASS
