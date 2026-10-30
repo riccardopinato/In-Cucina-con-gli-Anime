@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "profile": "cooking-anime-v24a-portable",
+  "paths": {
+    "dart": [
+      "lib/**/*.dart"
+    ],
+    "kotlin": [
+      "android/**/*.kt",
+      "app/src/**/*.kt"
+    ],
+    "android_manifest": [
+      "android/**/AndroidManifest.xml",
+      "app/src/**/AndroidManifest.xml"
+    ],
+    "gradle": [
+      "android/**/*.gradle",
+      "android/**/*.gradle.kts",
+      "app/**/*.gradle",
+      "app/**/*.gradle.kts"
+    ]
+  },
+  "policy": {
+    "mode": "READ_ONLY_REVIEW_LEADS",
+    "writes": false,
+    "autoMerge": false,
+    "externalAI": false,
+    "notes": "No matching Android/Kotlin files means coverage unavailable, not a PASS or a defect-free claim."
+  }
+}
