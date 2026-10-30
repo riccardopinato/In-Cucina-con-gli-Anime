@@ -73,7 +73,10 @@ def transform(source: bytes) -> tuple[bytes, tuple[int, ...], int]:
             marker = fence.group(1)
             if fence_kind is None:
                 fence_kind, fence_width = marker[:1], len(marker)
-            elif marker[:1] == fence_kind and len(marker) >= fence_width:
+            elif (marker[:1] == fence_kind and len(marker) >= fence_width
+                    and not line[fence.end():].strip(b" \t\r\n")):
+                # Closing fences must have *only* optional whitespace after
+                # the marker. A line like ```example is not a closing fence.
                 fence_kind, fence_width = None, 0
             output.append(line)
             continue
@@ -99,7 +102,17 @@ def safe_target(root: Path, name: str) -> Path:
     if name not in FIXED_ALLOWLIST:
         raise ValueError("L2 path is not in immutable code allowlist")
     root_real = root.resolve(strict=True)
-    path = root / name
+    if root.is_symlink():
+        raise ValueError("Checkout root may not be a symlink")
+    relative = Path(name)
+    cursor = root
+    for segment in relative.parts[:-1]:
+        cursor = cursor / segment
+        if cursor.is_symlink():
+            raise ValueError("Symlinked parent directory is forbidden")
+        if not cursor.is_dir():
+            raise ValueError("Missing expected checkout directory")
+    path = root / relative
     if not path.is_file() or path.is_symlink():
         raise ValueError("Target must be existing regular file, never symlink")
     if not path.resolve(strict=True).is_relative_to(root_real):
