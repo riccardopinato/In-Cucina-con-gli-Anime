@@ -142,6 +142,40 @@ class QualityV21HistoryTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Malformed prior history"):
             evaluate(report(f("a")), baseline)
 
+    def test_preserve_last_detected_sha_on_resolution(self):
+        _, old = evaluate(report(f("detected"), sha="a" * 40), run="1")
+        delta, resolved = evaluate(report(sha="b" * 40), old, run="2")
+        self.assertEqual(delta["counts"]["RESOLVED"], 1)
+        self.assertEqual(resolved["records"]["detected"]["lastSeenSha"], "a" * 40)
+        self.assertEqual(resolved["records"]["detected"]["resolvedAtSha"], "b" * 40)
+        self.assertEqual(resolved["records"]["detected"]["observations"], 1)
+
+    def test_relocate_single_finding_without_new_or_resolved(self):
+        _, old = evaluate(report(f("line4", 4), sha="a" * 40))
+        delta, nxt = evaluate(report(f("line7", 7), sha="b" * 40), old)
+        self.assertEqual(delta["counts"]["PERSISTING"], 1)
+        self.assertEqual(delta["counts"]["NEW"], 0)
+        self.assertEqual(delta["counts"]["RESOLVED"], 0)
+        self.assertEqual(nxt["records"]["line4"]["scannerId"], "line7")
+        self.assertEqual(nxt["records"]["line4"]["line"], 7)
+        self.assertEqual(nxt["records"]["line4"]["firstSeenSha"], "a" * 40)
+        self.assertEqual(nxt["records"]["line4"]["lastSeenSha"], "b" * 40)
+        self.assertEqual(nxt["records"]["line4"]["observations"], 2)
+        newer, n = evaluate(report(f("line7", 7), sha="c" * 40), nxt)
+        self.assertEqual(newer["counts"]["PERSISTING"], 1)
+        self.assertEqual(n["records"]["line4"]["observations"], 3)
+
+    def test_ambiguous_relocation_must_not_claim_new_or_resolved(self):
+        _, prior = evaluate(report(f("one", 4), f("two", 9)))
+        with self.assertRaisesRegex(ValueError, "Ambiguous finding relocation"):
+            evaluate(report(f("three", 5), f("four", 10), sha="b" * 40), prior)
+
+    def test_workflow_serializes_all_main_trigger_types(self):
+        workflow = Path(".github/workflows/quality-engine-v2.yml").read_text(encoding="utf-8")
+        self.assertIn("group: quality-v2-${{ github.ref }}", workflow)
+        self.assertIn("cancel-in-progress: false", workflow)
+        self.assertNotIn("quality-v2-${{ github.event_name }}", workflow)
+
     def test_cumulative_state_is_json_serializable_and_deterministic(self):
         _, b = evaluate(report(f("a"), f("b")), run="1")
         left = evaluate(report(f("b"), f("c"), sha="b"*40), b, run="2")
