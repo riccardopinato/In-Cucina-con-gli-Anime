@@ -11,6 +11,7 @@ import argparse
 import datetime as dt
 import json
 import re
+import sys
 from pathlib import Path
 
 REPO = "riccardopinato/In-Cucina-con-gli-Anime"
@@ -155,6 +156,22 @@ def build_report(runs: dict[str, dict], now: dt.datetime, repository: str) -> di
 
 
 def main() -> int:
+    if len(sys.argv) > 1 and sys.argv[1] == "dedupe":
+        cli = argparse.ArgumentParser(description="Validate autonomous draft uniqueness")
+        cli.add_argument("dedupe")
+        cli.add_argument("--plan", required=True, type=Path)
+        cli.add_argument("--refs", required=True, type=Path)
+        cli.add_argument("--repository", required=True)
+        cli.add_argument("--output", required=True, type=Path)
+        args = cli.parse_args()
+        refs = args.refs.read_text(encoding="utf-8").splitlines()
+        answer = check_duplicate(json.loads(args.plan.read_text(encoding="utf-8")),
+                                 refs, args.repository)
+        args.output.parent.mkdir(parents=True, exist_ok=True)
+        args.output.write_text(json.dumps(answer, sort_keys=True) + "\n",
+                               encoding="utf-8")
+        print("L2 draft decision: " + answer["decision"])
+        return 0
     cli = argparse.ArgumentParser(description=__doc__)
     cli.add_argument("--v2-runs", type=Path, required=True)
     cli.add_argument("--l2-runs", type=Path, required=True)
