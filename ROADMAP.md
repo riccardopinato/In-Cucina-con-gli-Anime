@@ -37,6 +37,10 @@ Next stages: **v2.4 deeper code analyzers -> L2.1 bounded code-format draft repa
 
 After v2.3 merge (PR #50, main SHA `77923446bf4b89528ad13af676f1f050abf1e762`), this **separate PR candidate** adds read-only Dart/Flutter, Kotlin, Android manifest and Gradle review leads without changing the v2/v2.1 historical scanner version. [v2.4-A adapter specification](docs/R1_QUALITY_ENGINE_V24A_STATIC.md). Current Cooking Anime repository contains Dart but **no native Android/Kotlin/Gradle sources**, so three modes must report `NO_MATCHING_FILES`, not fabricated PASS. Reviewer/CI gates pending; next v2.4-B pinned mature analyzers, v2.4-C real Kotlin repo canary, then L2.1 code-formatting draft repair. The original culinary R1 review remains separate and unapproved.
 
+## Quality Engine v2.4-B — official Dart analysis evidence
+
+PR candidate `feat/quality-engine-v24b-official-dart-evidence`: run **official Dart analyzer** in a pinned Flutter **3.47.3** job identical to Development CI version; normalize source-SHA/rule/position/severity into sanitized report without tool messages, snippets or privilege escalation. See [v2.4-B official adapter](docs/R1_QUALITY_ENGINE_V24B_OFFICIAL.md). This does not replace `flutter analyze`, the v2.4-A heuristics, or human review. **State:** exact-head CI/review pending. Android lint / Gradle remain explicitly NOT COVERED until the next Kotlin repository pilot. Next: v2.4-C Kotlin native adapter validation, then L2.1 isolated Dart code-format drafting.
+
 The roadmap uses tracer-bullet slices: each step should end in something demonstrable and leave CI green.
 
 ## F0 — Foundation shell — PASS
