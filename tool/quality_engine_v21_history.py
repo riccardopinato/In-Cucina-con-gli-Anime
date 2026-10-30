@@ -173,7 +173,7 @@ def compare(report: dict, config: dict, previous: dict | None, *,
     for scanner_id, finding in current.items():
         if scanner_id not in matches:
             groups_new.setdefault(signature(finding), []).append(scanner_id)
-    for sig in sorted(set(groups_new) & set(groups_old)):
+    for sig in sorted(set(groups_new) & set(groups_old), key=repr):
         old_ids, new_ids = groups_old[sig], groups_new[sig]
         if len(old_ids) == 1 and len(new_ids) == 1:
             matches[new_ids[0]] = old_ids[0]
