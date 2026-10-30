@@ -63,10 +63,25 @@ def transform(source: bytes) -> tuple[bytes, tuple[int, ...], int]:
     output: list[bytes] = []
     changed: list[int] = []
     removed = 0
+    fence_kind: bytes | None = None
+    fence_width = 0
     for index, line in enumerate(source.splitlines(keepends=True), start=1):
-        # The only editable lines consist exclusively of spaces/tabs plus an
-        # optional original newline. Intentional Markdown hard-break spaces,
-        # code blocks and all content-bearing lines stay byte-identical.
+        # A conservative Markdown fence tracker protects blank lines within
+        # fenced code blocks, including examples where spaces are meaningful.
+        fence = re.match(rb"^ {0,3}(`{3,}|~{3,})", line)
+        if fence:
+            marker = fence.group(1)
+            if fence_kind is None:
+                fence_kind, fence_width = marker[:1], len(marker)
+            elif marker[:1] == fence_kind and len(marker) >= fence_width:
+                fence_kind, fence_width = None, 0
+            output.append(line)
+            continue
+        if fence_kind is not None:
+            output.append(line)
+            continue
+        # Only whitespace-only lines are editable. Content-bearing lines and
+        # intentional Markdown hard breaks remain byte-identical.
         match = re.fullmatch(rb"[ \t]+(\r\n|\n|\r)?", line)
         if match:
             clean = match.group(1) or b""
