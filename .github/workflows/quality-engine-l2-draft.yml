@@ -1,0 +1,149 @@
+name: Quality Engine L2 — safe draft-only repair pilot
+
+on:
+  # Best-effort periodic workflow. No PR/fork-triggered privileged execution.
+  schedule:
+    - cron: '41 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: quality-l2-draft-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    name: read-only-low-risk-plan
+    if: github.repository == 'riccardopinato/In-Cucina-con-gli-Anime' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      has_changes: ${{ steps.plan.outputs.has_changes }}
+    steps:
+      - name: Checkout trusted main revision without persisted credentials
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Set up pinned Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: '3.11'
+      - name: Inspect strictly allowlisted whitespace-only docs
+        id: plan
+        shell: bash
+        env:
+          L2_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          python3 tool/quality_engine_l2_draft.py plan \
+            --root . --config .quality-engine-l2.json \
+            --source-sha "$GITHUB_SHA" --repository "$L2_REPO" \
+            --plan build/quality-l2/plan.json
+          count="$(jq -r '.counts.files' build/quality-l2/plan.json)"
+          if ! [[ "$count" =~ ^[0-3]$ ]]; then
+            echo "::error::Unexpected L2 plan file count"
+            exit 1
+          fi
+          if [ "$count" -gt 0 ]; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "No eligible low-risk documentation repairs; no writer job."
+          fi
+      - name: Upload inspection-only plan
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: quality-l2-readonly-plan
+          path: build/quality-l2/plan.json
+          retention-days: 14
+          if-no-files-found: error
+
+  repair-draft:
+    name: isolated-draft-pr-writer
+    needs: plan
+    if: needs.plan.outputs.has_changes == 'true' && github.repository == 'riccardopinato/In-Cucina-con-gli-Anime' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout trusted event SHA, no credentials persisted
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Set up pinned Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: '3.11'
+      - name: Re-plan, verify, apply only on isolated branch and open DRAFT PR
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          L2_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          latest="$(gh api "repos/$L2_REPO/git/ref/heads/main" --jq '.object.sha')"
+          if [ "$latest" != "$GITHUB_SHA" ]; then
+            echo "Main advanced since event: no autonomous patch."
+            exit 0
+          fi
+
+          branch="quality-l2/blank-lines-$(printf '%.12s' "$GITHUB_SHA")"
+          if git ls-remote --exit-code --heads origin "$branch" >/dev/null 2>&1; then
+            echo "Branch already exists. Refusing to overwrite it."
+            exit 1
+          fi
+
+          python3 tool/quality_engine_l2_draft.py plan \
+            --root . --config .quality-engine-l2.json \
+            --source-sha "$GITHUB_SHA" --repository "$L2_REPO" \
+            --plan build/quality-l2/plan.json
+          count="$(jq -r '.counts.files' build/quality-l2/plan.json)"
+          if [ "$count" -eq 0 ]; then
+            echo "No eligible changes at writer checkout; no PR."
+            exit 0
+          fi
+          python3 -m unittest tool.tests.test_quality_engine_l2_draft -q
+
+          git switch --create "$branch"
+          python3 tool/quality_engine_l2_draft.py apply \
+            --root . --config .quality-engine-l2.json \
+            --source-sha "$GITHUB_SHA" --repository "$L2_REPO" \
+            --plan build/quality-l2/plan.json
+
+          # Compare actual diff with the precise plan; never broad git add.
+          python3 - <<'PY'
+          import json, subprocess
+          from pathlib import Path
+          p = json.loads(Path("build/quality-l2/plan.json").read_text())
+          expected = sorted(item["path"] for item in p["changes"])
+          modified = sorted(subprocess.check_output(
+              ["git", "diff", "--name-only"], text=True).splitlines())
+          if modified != expected or not modified:
+              raise SystemExit("Unapproved or empty L2 diff: refusing draft PR")
+          PY
+          git diff --check
+          git add -- docs/R1_QUALITY_ENGINE_V2_PILOT.md \
+                     docs/R1_QUALITY_ENGINE_V21_HISTORY.md \
+                     docs/R1_QUALITY_ENGINE_V22_DIAGNOSER.md
+          git -c user.name="quality-engine-l2[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -m "docs(quality-l2): trim whitespace-only blank lines"
+
+          gh auth setup-git
+          git push origin "HEAD:refs/heads/$branch"
+          gh pr create --draft --base main --head "$branch" \
+            --title "Quality Engine L2: safe documentation whitespace cleanup" \
+            --body "Autonomously prepared DRAFT ONLY by Quality Engine L2.
+
+          - Trusted base SHA: $GITHUB_SHA
+          - Scope: three fixed Quality Engine documentation files only
+          - Allowed rule: MD_BLANK_LINE_WHITESPACE
+          - Reviewer action: inspect diff, independently run required CI and approve
+          - No product-code, culinary, rights, signing, security, billing, runtime or app data modification
+          - No autonomous merge, review approval, release or App Factory Core mutation
+
+          Automated GitHub-token-created PRs might not trigger CI automatically; verify exact-head checks manually where necessary."
