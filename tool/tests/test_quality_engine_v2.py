@@ -103,7 +103,7 @@ class QualityV2Tests(unittest.TestCase):
                     {"id": "egg", "componentRef": "missing"},
                 ],
                 "steps": [{}, {"instruction": ""}, None,
-                          {"instruction": "Mix and serve."}],
+                          {"instruction": None}, {"instruction": "Mix and serve."}],
             }],
             "reusableComponents": {"component_dashi": {"totalElapsedMinutes": 12}},
         }
@@ -113,7 +113,7 @@ class QualityV2Tests(unittest.TestCase):
         self.assertEqual(sum(f["ruleId"] == "CONTENT_DUPLICATE_INGREDIENT"
                              for f in findings), 2)
         self.assertEqual(sum(f["ruleId"] == "CONTENT_EMPTY_STEP"
-                             for f in findings), 3)
+                             for f in findings), 4)
         self.assertEqual(len({f["id"] for f in findings}), len(findings))
         self.assertIn("r1/ingredient:1", {f["entityId"] for f in findings})
         self.assertIn("r1/step:3", {f["entityId"] for f in findings})
