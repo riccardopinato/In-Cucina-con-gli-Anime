@@ -22,10 +22,11 @@ ANDROID = "{http://schemas.android.com/apk/res/android}"
 MODES = {"dart", "kotlin", "android_manifest", "gradle"}
 
 
-def finding(rule: str, severity: str, path: str, line: int, explanation: str) -> dict:
+def finding(rule: str, severity: str, path: str, line: int, explanation: str,
+            anchor: str = "") -> dict:
     if severity not in ("info", "review", "high") or line < 1:
         raise ValueError("Invalid finding")
-    key = "\x1f".join((rule, path, str(line)))
+    key = "\x1f".join((rule, path, str(line), anchor))
     return {
         "id": hashlib.sha256(key.encode("utf-8")).hexdigest()[:20],
         "ruleId": rule, "severity": severity, "path": path, "line": line,
@@ -46,6 +47,10 @@ def lines_without_obvious_comments(src: str):
 
 def dart(path: str, src: str) -> list[dict]:
     findings = []
+    for num, line in enumerate(src.splitlines(), 1):
+        if re.search(r"^\s*//\s*ignore_for_file\s*:", line):
+            findings.append(finding("DART_FILE_LINT_SUPPRESSION", "review", path, num,
+                                    "Whole-file lint suppression requires scope justification"))
     for num, line in lines_without_obvious_comments(src):
         if re.search(r"\bbadCertificateCallback\b", line) and (
                 "true" in line or "=>" in line):
@@ -57,9 +62,6 @@ def dart(path: str, src: str) -> list[dict]:
         if re.search(r"\bsetString\s*\(\s*['\"](?:access_?token|refresh_?token|password|api_?key|secret)['\"]", line, re.I):
             findings.append(finding("DART_SENSITIVE_PREF_KEY_CANDIDATE", "review", path, num,
                                     "Sensitive-key literal in generic storage call needs privacy review"))
-        if re.search(r"^\s*//\s*ignore_for_file\s*:", line):
-            findings.append(finding("DART_FILE_LINT_SUPPRESSION", "review", path, num,
-                                    "Whole-file lint suppression requires scope justification"))
     return findings
 
 
@@ -106,10 +108,11 @@ def android_manifest(path: str, src: str) -> list[dict]:
             findings.append(finding("ANDROID_DEBUGGABLE_MANIFEST", "high", path, 1,
                                     "Manifest explicitly enables debugging; verify release override"))
         for tag in ("activity", "service", "receiver", "provider"):
-            for element in application.findall(tag):
+            for index, element in enumerate(application.findall(tag), 1):
                 if element.get(ANDROID + "exported") == "true" and element.get(ANDROID + "permission") is None:
                     findings.append(finding("ANDROID_EXPORTED_COMPONENT_REVIEW", "review", path, 1,
-                                            "Exported component without local permission needs intent/exposure review"))
+                                            "Exported component without local permission needs intent/exposure review",
+                                            anchor=f"{tag}:{index}"))
     return findings
 
 
