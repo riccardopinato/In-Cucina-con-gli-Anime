@@ -1,0 +1,88 @@
+name: Quality Engine v2.4-B — official Dart analyzer evidence
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'lib/**'
+      - 'analysis_options.yaml'
+      - 'pubspec.yaml'
+      - 'tool/quality_engine_v24b_official.py'
+      - 'tool/tests/test_quality_engine_v24b_official.py'
+      - '.github/workflows/quality-engine-v24b-official.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'lib/**'
+      - 'analysis_options.yaml'
+      - 'pubspec.yaml'
+      - 'tool/quality_engine_v24b_official.py'
+      - 'tool/tests/test_quality_engine_v24b_official.py'
+      - '.github/workflows/quality-engine-v24b-official.yml'
+  schedule:
+    - cron: '23 7 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: quality-v24b-dart-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  official-dart-evidence:
+    name: official-dart-evidence
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout without persisted credentials
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Setup pinned Flutter, matching Development checks
+        uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2.23.0
+        with:
+          flutter-version: "3.47.3"
+          channel: stable
+          cache: true
+      - name: Resolve project dependencies and localization
+        shell: bash
+        run: |
+          set -euo pipefail
+          flutter pub get
+          flutter gen-l10n
+      - name: Collect official version and JSON diagnostics
+        id: official
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p build/quality-v24b
+          flutter --version --machine > build/quality-v24b/flutter-version-private.json
+          set +e
+          dart analyze --format=json lib \
+            > build/quality-v24b/analyzer-raw-private.json \
+            2> build/quality-v24b/analyzer-stderr-private.txt
+          code=$?
+          set -e
+          echo "dart_exit_code=$code" >> "$GITHUB_OUTPUT"
+      - name: Normalize diagnostic evidence without source excerpts
+        shell: bash
+        env:
+          ANALYZER_EXIT: ${{ steps.official.outputs.dart_exit_code }}
+        run: |
+          set -euo pipefail
+          python3 tool/quality_engine_v24b_official.py \
+            --root . \
+            --analyzer-json build/quality-v24b/analyzer-raw-private.json \
+            --flutter-version-json build/quality-v24b/flutter-version-private.json \
+            --exit-code "$ANALYZER_EXIT" \
+            --source-sha "$GITHUB_SHA" \
+            --output build/quality-v24b/dart-evidence.json
+      - name: Upload normalized privacy-safe Dart evidence
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: quality-v24b-dart-evidence
+          path: build/quality-v24b/dart-evidence.json
+          retention-days: 14
+          if-no-files-found: error
