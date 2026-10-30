@@ -17,6 +17,10 @@ Implementation branch `feat/r1-quality-engine-v2-readonly`: three source-bound, 
 
 v2.0 read-only observer is merged on `main` as PR #46. v2.1 adds source-bound per-lane **NEW / PERSISTING / RESOLVED / REOPENED / UNBASELINED** lifecycle state, with cumulative snapshots read from successful `main` GitHub Actions artifacts and stored for 14 days. This is **NOT permanent central storage** and does not authorize autonomous repair. See [R1 Quality Engine v2.1 History](docs/R1_QUALITY_ENGINE_V21_HISTORY.md). **Execution status:** PR in progress; CI/merge gate pending. Future App-Factory-Core extraction and any repair writer require separate approval. R1 culinary PR #44 remains draft and all 122 reviews PENDING.
 
+## Quality Engine v2.2 — autonomous diagnostic proposals (separate from culinary approval)
+
+Following merged v2.1 on `main` (PR #47), v2.2 introduces a **read-only L1 diagnoser** over source-bound v2 scan + v2.1 delta. It generates specific review proposals by rule and reviewer role in three parallel CI lanes. It does **not** modify code, auto-open PRs, certify content or change release/runtime gates; the roadmap for isolated writer/draft PR L2 and possible bounded L3 automerge remains a **future, separately approved** milestone. See [R1 Quality Engine v2.2 Diagnoser](docs/R1_QUALITY_ENGINE_V22_DIAGNOSER.md). **Execution status:** PR candidate; exact-head CI and review required before merge. R1 culinary PR #44 remains draft, 122 records pending.
+
 The roadmap uses tracer-bullet slices: each step should end in something demonstrable and leave CI green.
 
 ## F0 — Foundation shell — PASS
