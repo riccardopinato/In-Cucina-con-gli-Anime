@@ -21,6 +21,12 @@ v2.0 read-only observer is merged on `main` as PR #46. v2.1 adds source-bound pe
 
 Following merged v2.1 on `main` (PR #47), v2.2 introduces a **read-only L1 diagnoser** over source-bound v2 scan + v2.1 delta. It generates specific review proposals by rule and reviewer role in three parallel CI lanes. It does **not** modify code, auto-open PRs, certify content or change release/runtime gates; the roadmap for isolated writer/draft PR L2 and possible bounded L3 automerge remains a **future, separately approved** milestone. See [R1 Quality Engine v2.2 Diagnoser](docs/R1_QUALITY_ENGINE_V22_DIAGNOSER.md). **Execution status:** PR candidate; exact-head CI and review required before merge. R1 culinary PR #44 remains draft, 122 records pending.
 
+## Quality Engine L2 — autonomous bounded draft repair pilot
+
+v2.2 L1 diagnosis is merged as PR #48 on `main` (SHA `cd0103b2efa18f55f2e284b035e87049e8243b40`). L2 introduces a **separate daily/manual, main-only** planning workflow and a conditional narrow **draft-PR writer**, with exact source-commit checks, full plan regeneration, protected allowlists and a tiny Markdown whitespace-only rule limited to three Quality Engine docs. See [L2 Draft-only Pilot](docs/R1_QUALITY_ENGINE_L2_DRAFT_REPAIR.md).
+
+**Status:** implementation PR, CI/review pending; not a general-purpose code repair agent. The three docs currently have zero eligible changes; no repair PR is expected without a genuine candidate. No automatic merge or changes to app code, culinary authoring, R1 safety approvals, payments, assets, rights, AppLab SELF_CANARY or Factory Core. PR #44 remains DRAFT and 122 human reviews are still PENDING.
+
 The roadmap uses tracer-bullet slices: each step should end in something demonstrable and leave CI green.
 
 ## F0 — Foundation shell — PASS
