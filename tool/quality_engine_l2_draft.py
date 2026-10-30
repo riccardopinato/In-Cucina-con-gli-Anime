@@ -144,9 +144,22 @@ def plan(root: Path, cfg: dict, *, source_sha: str, repository: str) -> dict:
             })
     if len(changes) > MAX_CHANGED_FILES:
         raise ValueError("Too many L2 files")
+    # Stable across unrelated source-SHA changes; a repaired finding must not
+    # spawn another draft just because a different file advanced main.
+    # Source SHA remains bound to each plan to prevent stale application.
+    repair_key = (hash_bytes(as_json({
+        "repository": repository, "rule": RULE_ID,
+        "policy": hash_bytes(as_json(cfg).encode("utf-8")),
+        "changes": [
+            {"path": c["path"], "beforeSha256": c["beforeSha256"],
+             "afterSha256": c["afterSha256"]}
+            for c in changes
+        ],
+    }).encode("utf-8"))[:24] if changes else None)
     return {
         "schemaVersion": 1, "engine": "QUALITY_ENGINE_L2_DRAFT_REPAIR",
         "version": VERSION, "repository": repository, "sourceSha": source_sha,
+        "repairKey": repair_key,
         "policySha256": hash_bytes(as_json(cfg).encode("utf-8")),
         "ruleId": RULE_ID, "readOnlyPlan": True,
         "draftPrOnly": True, "autoMergeEnabled": False,
