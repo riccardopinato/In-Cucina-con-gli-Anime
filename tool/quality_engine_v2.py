@@ -141,10 +141,10 @@ def scan_recipe_catalog(path: str, source: str) -> list[dict]:
                                   "Duplicate recipe ID in source",
                                   entity=f"{entity}/entry:{index + 1}"))
         seen.add(rid)
-        if not str(recipe.get("title", "")).strip():
+        if not isinstance(recipe.get("title"), str) or not recipe["title"].strip():
             findings.append(issue("CONTENT_EMPTY_TITLE", "high", path,
                                   "Recipe title is empty", entity=entity))
-        if not str(recipe.get("description", "")).strip():
+        if not isinstance(recipe.get("description"), str) or not recipe["description"].strip():
             findings.append(issue("CONTENT_EMPTY_DESCRIPTION", "review", path,
                                   "Recipe description is missing", entity=entity))
         times = recipe.get("times", {})
@@ -193,11 +193,13 @@ def scan_recipe_catalog(path: str, source: str) -> list[dict]:
         full_steps = []
         for step_index, step in enumerate(steps, 1):
             location = f"{entity}/step:{step_index}"
-            if not isinstance(step, dict) or not str(step.get("instruction", "")).strip():
+            if (not isinstance(step, dict)
+                    or not isinstance(step.get("instruction"), str)
+                    or not step["instruction"].strip()):
                 findings.append(issue("CONTENT_EMPTY_STEP", "high", path,
                                       "A recipe instruction is empty or malformed", entity=location))
             else:
-                full_steps.append(str(step["instruction"]))
+                full_steps.append(step["instruction"])
         operations = " ".join(full_steps).casefold()
         if re.search(r"tuorlo\s+d['’]uovo\s+fresco", operations) and not re.search(
                 r"tuorlo\s+(?:da\s+uovo\s+)?pastorizzat", operations):
