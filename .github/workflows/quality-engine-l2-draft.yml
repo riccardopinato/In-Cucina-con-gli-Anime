@@ -91,12 +91,6 @@ jobs:
             exit 0
           fi
 
-          branch="quality-l2/blank-lines-$(printf '%.12s' "$GITHUB_SHA")"
-          if git ls-remote --exit-code --heads origin "$branch" >/dev/null 2>&1; then
-            echo "Branch already exists. Refusing to overwrite it."
-            exit 1
-          fi
-
           python3 tool/quality_engine_l2_draft.py plan \
             --root . --config .quality-engine-l2.json \
             --source-sha "$GITHUB_SHA" --repository "$L2_REPO" \
@@ -106,7 +100,34 @@ jobs:
             echo "No eligible changes at writer checkout; no PR."
             exit 0
           fi
-          python3 -m unittest tool.tests.test_quality_engine_l2_draft -q
+
+          # Stable content+policy fingerprint prevents duplicate PRs when main
+          # advances on unrelated commits. Compare with ALL historical PR heads,
+          # including closed/merged ones. API failures abort before any writes.
+          mkdir -p build/quality-l2
+          gh api --paginate "repos/$L2_REPO/pulls?state=all&per_page=100" \
+            --jq '.[].head.ref' > build/quality-l2/pr-heads.txt
+          python3 tool/quality_engine_v23_reliability.py dedupe \
+            --plan build/quality-l2/plan.json \
+            --refs build/quality-l2/pr-heads.txt \
+            --repository "$L2_REPO" \
+            --output build/quality-l2/draft-decision.json
+          decision="$(jq -r '.decision' build/quality-l2/draft-decision.json)"
+          if [ "$decision" = "ALREADY_PROPOSED" ]; then
+            echo "Repair already proposed before; no duplicate draft."
+            exit 0
+          fi
+          if [ "$decision" != "DRAFT_ALLOWED" ]; then
+            echo "::error::L2 preflight refused candidate"
+            exit 1
+          fi
+          branch="$(jq -r '.branch' build/quality-l2/draft-decision.json)"
+          if git ls-remote --exit-code --heads origin "$branch" >/dev/null 2>&1; then
+            echo "L2 candidate branch already exists; no overwrites."
+            exit 0
+          fi
+          python3 -m unittest tool.tests.test_quality_engine_l2_draft \
+            tool.tests.test_quality_engine_v23_reliability -q
 
           git switch --create "$branch"
           python3 tool/quality_engine_l2_draft.py apply \
