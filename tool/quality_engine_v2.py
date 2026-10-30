@@ -138,7 +138,8 @@ def scan_recipe_catalog(path: str, source: str) -> list[dict]:
                                   "Recipe identity is missing", entity=entity))
         elif rid in seen:
             findings.append(issue("CONTENT_DUPLICATE_RECIPE", "high", path,
-                                  "Duplicate recipe ID in source", entity=entity))
+                                  "Duplicate recipe ID in source",
+                                  entity=f"{entity}/entry:{index + 1}"))
         seen.add(rid)
         if not str(recipe.get("title", "")).strip():
             findings.append(issue("CONTENT_EMPTY_TITLE", "high", path,
@@ -161,32 +162,40 @@ def scan_recipe_catalog(path: str, source: str) -> list[dict]:
             ingredients = []
         ing_ids = set()
         deps = set()
-        for ingredient in ingredients:
+        for ingredient_index, ingredient in enumerate(ingredients, 1):
+            location = f"{entity}/ingredient:{ingredient_index}"
             if not isinstance(ingredient, dict):
                 findings.append(issue("CONTENT_INGREDIENT_SCHEMA", "high", path,
-                                      "Ingredient is not an object", entity=entity))
+                                      "Ingredient is not an object", entity=location))
                 continue
             iid = str(ingredient.get("id", ""))
             if iid and iid in ing_ids:
                 findings.append(issue("CONTENT_DUPLICATE_INGREDIENT", "high", path,
-                                      "Repeated ingredient ID in one recipe", entity=entity))
+                                      "Repeated ingredient ID in one recipe", entity=location))
             ing_ids.add(iid)
             ref = ingredient.get("componentRef")
-            if ref:
-                deps.add(str(ref))
-                if ref not in components:
-                    findings.append(issue("CONTENT_MISSING_COMPONENT", "high", path,
-                                          "Ingredient references missing reusable component", entity=entity))
+            if ref is not None and ref != "":
+                if not isinstance(ref, str) or not ref.strip():
+                    findings.append(issue("CONTENT_COMPONENT_REF_SCHEMA", "high", path,
+                                          "Component reference must be a nonempty string",
+                                          entity=location))
+                else:
+                    deps.add(ref)
+                    if ref not in components:
+                        findings.append(issue("CONTENT_MISSING_COMPONENT", "high", path,
+                                              "Ingredient references missing reusable component",
+                                              entity=location))
         steps = recipe.get("steps", [])
         if not isinstance(steps, list) or not steps:
             findings.append(issue("CONTENT_MISSING_STEPS", "high", path,
                                   "Recipe has no preparation steps", entity=entity))
             steps = []
         full_steps = []
-        for step in steps:
+        for step_index, step in enumerate(steps, 1):
+            location = f"{entity}/step:{step_index}"
             if not isinstance(step, dict) or not str(step.get("instruction", "")).strip():
                 findings.append(issue("CONTENT_EMPTY_STEP", "high", path,
-                                      "A recipe instruction is empty or malformed", entity=entity))
+                                      "A recipe instruction is empty or malformed", entity=location))
             else:
                 full_steps.append(str(step["instruction"]))
         operations = " ".join(full_steps).casefold()
