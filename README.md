@@ -73,3 +73,8 @@ Factory baseline: App-Factory-Core Master 26.6 / Golden Index 19 @ `4cc0b94467b9
 
 F3E stores one optimized JPEG per approved recipe. The same asset is cropped in cards and shown full in recipe detail. Run `python3 tool/build_recipe_artwork_queue.py --missing-only` to prepare a batch; semantic approval is explicit and CI enforces the 140 KiB / 720–960 px asset budget.
 
+
+
+## Template Notion — ricerca
+
+[Apri il catalogo di Cooking Anime](docs/TEMPLATE_NOTION/README.md). Riferimenti di design e funzionalità, non template Notion importati né acquisti attivi.

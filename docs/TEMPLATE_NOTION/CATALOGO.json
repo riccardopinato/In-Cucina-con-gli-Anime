@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "application": "Cooking Anime",
+  "repository": "riccardopinato/In-Cucina-con-gli-Anime",
+  "catalogue_type": "public_research_index",
+  "updated_at": "2026-11-09",
+  "master_reference": "riccardopinato/Idee-app-Archivi-riferimenti/17-RICERCA-TEMPLATE-UX",
+  "entries": [
+    {
+      "id": "TN-INCUCINACONGLIANIME-0001",
+      "master_ref": "TPLUX-REF-0009",
+      "title": "Shopping List",
+      "app_fit": "SECONDARY_CANDIDATE",
+      "note": "Lista per ingredienti delle ricette editoriali, con contenuti canonici e diritti editoriali; non un secondo database.",
+      "evidence_level": "E2_EXPORT_STRUCTURE_VERIFIED",
+      "implementation_status": "NOT_IMPLEMENTED_FROM_THIS_SOURCE",
+      "product_status": "RESEARCH_ONLY",
+      "reuse_mode": "APP_NATIVE_ORIGINAL_ONLY",
+      "source_audit_url": "https://github.com/riccardopinato/Idee-app-Archivi-riferimenti/blob/main/17-RICERCA-TEMPLATE-UX/LOTTO_NOTION_2026_11_09_12_ZIP.md"
+    },
+    {
+      "id": "TN-INCUCINACONGLIANIME-0002",
+      "master_ref": "TPLUX-REF-0012",
+      "title": "Meal & Diet Planner",
+      "app_fit": "SECONDARY_CANDIDATE",
+      "note": "Calendario ricette originali e lista spesa da valutare; il prodotto è editoriale/anime, non un'app di dietologia.",
+      "evidence_level": "E2_EXPORT_STRUCTURE_VERIFIED",
+      "implementation_status": "NOT_IMPLEMENTED_FROM_THIS_SOURCE",
+      "product_status": "RESEARCH_ONLY",
+      "reuse_mode": "APP_NATIVE_ORIGINAL_ONLY",
+      "source_audit_url": "https://github.com/riccardopinato/Idee-app-Archivi-riferimenti/blob/main/17-RICERCA-TEMPLATE-UX/LOTTO_NOTION_2026_11_09_12_ZIP.md"
+    }
+  ]
+}
