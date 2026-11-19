@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000078",
-  "contentVersion": 4,
+  "contentVersion": 5,
   "status": "published",
   "inspirationTitle": "Food Wars!",
   "animeReferences": [
@@ -315,7 +315,7 @@
           "note": null
         },
         "cipollotto_tritato": {
-          "name": "cipollotto picado",
+          "name": "cebolleta picada",
           "note": null
         },
         "ketchup": {
@@ -457,7 +457,7 @@
           "note": null
         },
         "cipollotto_tritato": {
-          "name": "gehackte Zwiebel",
+          "name": "gehackte Frühlingszwiebel",
           "note": null
         },
         "ketchup": {
@@ -528,7 +528,7 @@
           "note": null
         },
         "cipollotto_tritato": {
-          "name": "cebola picada",
+          "name": "cebola de rama picada",
           "note": null
         },
         "ketchup": {

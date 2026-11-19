@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000112",
-  "contentVersion": 4,
+  "contentVersion": 5,
   "status": "published",
   "inspirationTitle": "Naruto",
   "animeReferences": [
@@ -198,7 +198,7 @@
           "note": null
         },
         "finitura_cipollotto_fresco_affettato_5": {
-          "name": "cipollotto fresco cortado",
+          "name": "cebolleta fresca en rodajas",
           "note": null
         },
         "finitura_maionese_giapponese_kewpie_6": {
@@ -238,7 +238,7 @@
           "note": null
         },
         "finitura_cipollotto_fresco_affettato_5": {
-          "name": "Ciboulette frais coupé",
+          "name": "cébette fraîche émincée",
           "note": null
         },
         "finitura_maionese_giapponese_kewpie_6": {
@@ -278,7 +278,7 @@
           "note": null
         },
         "finitura_cipollotto_fresco_affettato_5": {
-          "name": "Schnittlauch, frisch geschnitten",
+          "name": "frische Frühlingszwiebel, in Ringe geschnitten",
           "note": null
         },
         "finitura_maionese_giapponese_kewpie_6": {
@@ -318,7 +318,7 @@
           "note": null
         },
         "finitura_cipollotto_fresco_affettato_5": {
-          "name": "cebola fresca cortada",
+          "name": "cebola de rama fresca cortada às rodelas",
           "note": null
         },
         "finitura_maionese_giapponese_kewpie_6": {

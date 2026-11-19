@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000100",
-  "contentVersion": 5,
+  "contentVersion": 6,
   "status": "published",
   "inspirationTitle": "Persona 5",
   "animeReferences": [
@@ -236,7 +236,7 @@
           "note": null
         },
         "cipollotto_fresco_tritato": {
-          "name": "cipollotto fresco picado",
+          "name": "cebolleta fresca picada",
           "note": null
         }
       },
@@ -284,7 +284,7 @@
           "note": null
         },
         "cipollotto_fresco_tritato": {
-          "name": "Ciboulette frais haché",
+          "name": "cébette fraîche hachée",
           "note": null
         }
       },
@@ -380,7 +380,7 @@
           "note": null
         },
         "cipollotto_fresco_tritato": {
-          "name": "cebola fresca picada",
+          "name": "cebola de rama fresca picada",
           "note": null
         }
       },

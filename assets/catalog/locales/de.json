@@ -2820,7 +2820,7 @@
           "note": null
         },
         "cipollotto_fresco_affettato": {
-          "name": "Schnittlauch, frisch geschnitten",
+          "name": "frische Frühlingszwiebel, in Ringe geschnitten",
           "note": null
         },
         "uovo_fresche": {
@@ -3151,7 +3151,7 @@
           "note": null
         },
         "cipollotto_fresco_affettato": {
-          "name": "Schnittlauch, frisch geschnitten",
+          "name": "frische Frühlingszwiebel, in Ringe geschnitten",
           "note": null
         },
         "alga_nori": {
@@ -3253,7 +3253,7 @@
           "note": null
         },
         "cipollotto_freschi_affettati_finemente": {
-          "name": "Zwiebeln, frisch, fein geschnitten",
+          "name": "frische Frühlingszwiebeln, fein geschnitten",
           "note": null
         },
         "olio_di_sesamo": {
@@ -3456,7 +3456,7 @@
           "note": null
         },
         "cipollotto_affettati": {
-          "name": "Zwiebeln, geschnitten",
+          "name": "Frühlingszwiebeln, in Ringe geschnitten",
           "note": null
         },
         "pasta_di_miso": {
@@ -3860,7 +3860,7 @@
           "note": null
         },
         "cipollotto": {
-          "name": "Zwiebel (nur grün)",
+          "name": "Frühlingszwiebel (nur der grüne Teil)",
           "note": null
         },
         "sake": {
@@ -3990,7 +3990,7 @@
           "note": null
         },
         "cipollotto_fresco_affettato": {
-          "name": "Schnittlauch, frisch geschnitten",
+          "name": "frische Frühlingszwiebel, in Ringe geschnitten",
           "note": null
         }
       },
@@ -4048,7 +4048,7 @@
           "note": null
         },
         "cipollotto_tritato": {
-          "name": "gehackte Zwiebel",
+          "name": "gehackte Frühlingszwiebel",
           "note": null
         },
         "katsuobushi": {
@@ -4143,7 +4143,7 @@
           "note": null
         },
         "cipollotto_tritato": {
-          "name": "gehackte Zwiebel",
+          "name": "gehackte Frühlingszwiebel",
           "note": null
         },
         "ketchup": {
@@ -4402,15 +4402,15 @@
     },
     "recipe_000083": {
       "title": "Tsukemen – Ramen-Nudeln zum Dippen in kräftiger Brühe",
-      "description": "Im Tsukemen werden die Nudeln von einer konzentrierten Brühe aus Fleisch, Dashi und Würzmitteln abgekocht und serviert. Jeder Nudelbissen wird in heißer Soße getrunken; Chashu und mariniertes Ei ergänzen den Service, ohne die Konsistenz der Nudeln zu verlieren. Die konzentrierte Brühe wurde in einer separaten Schüssel kochend serviert, während die Nudeln bis zum Eintauchen kalt bleiben.",
+      "description": "Bei Tsukemen werden dicke Nudeln getrennt von einer kräftigen, konzentrierten Schweine- und Hühnerbrühe zum Eintauchen serviert. Die Brühe wird mit Sojasauce, Mirin, Reisessig, Chiliöl und Katsuobushi gewürzt. Die gekochten Nudeln werden kalt abgespült, damit Oberflächenstärke entfernt wird, und mit Chashu, halbiertem mariniertem Ei und Nori angerichtet. Jede Portion kalter Nudeln wird erst unmittelbar vor dem Essen in die heiße Brühe getaucht.",
       "animeContext": "Dieses Rezept ist thematisch von Ramen Daisuki Koizumi-san, Food Wars! inspiriert. Es handelt sich um redaktionelle Bezüge, nicht um Behauptungen über Auftritte in bestimmten Folgen oder Kapiteln.",
       "ingredientTexts": {
         "spessi_noodles_per_tsukemen_o_ramen": {
-          "name": "dicken Nudeln für Tsukemen oder Ramen",
+          "name": "dicke Tsukemen- oder Ramen-Nudeln",
           "note": null
         },
         "fettine_di_carne_chashu_di_maiale": {
-          "name": "Schweineschnecken-Chashu",
+          "name": "Schweine-Chashu in Scheiben",
           "note": null
         },
         "uovo_ajitsuke_tamago": {
@@ -4418,11 +4418,11 @@
           "note": null
         },
         "brodo_di_maiale_pollo_concentrato": {
-          "name": "Schweinebrühe/Konzentrat",
+          "name": "konzentrierte Schweine- und Hühnerbrühe",
           "note": null
         },
         "polvere_di_pesce": {
-          "name": "Fischpulver (arme Katsuobushi)",
+          "name": "Katsuobushi-Pulver (getrockneter Bonito)",
           "note": null
         },
         "salsa_di_soia": {
@@ -4450,18 +4450,18 @@
           "note": null
         },
         "cipollotto": {
-          "name": "Zwiebel",
+          "name": "Frühlingszwiebel",
           "note": null
         }
       },
       "stepTexts": {
-        "step_1": "In einem Topf, reduzieren Sie die Brühe von Schwein und Hühnchen, so dass es weich wird, bis es sehr dick und lecker.",
-        "step_2": "Kombinieren Sie Sojasoße, Mirin, Reisessig, würziges Öl und Fischpulver Katsuobushi, um einen intensiven Umamischub zu geben.",
-        "step_3": "Kochen Sie die dicken Nudeln in reichlich kochendem Wasser für die auf der Verpackung angegebene Zeit (in der Regel 5-6 Minuten).",
-        "step_4": "Schütten Sie die Nudeln und spülen Sie sie sofort unter kaltem fließendem Wasser und Eis mit Ihren Händen, um die Oberflächenstärke zu entfernen und sie extrem elastisch und hart zu machen, schütten Sie sie sehr gut.",
-        "step_5": "Machen Sie kalte Nudeln auf einem Teller oder Bambuskorb mit über dem Chashu, dem halbmarinierten Ei und dem Nori Blatt.",
-        "step_6": "Fügen Sie die kochende Brühe hinzu und konzentrieren Sie sich auf eine separate Schüssel.",
-        "step_7": "Nehmen Sie eine kalte Nudelsträhne mit den Stäben, tauchen Sie sie in die kochende Brühe konzentriert und genießen Sie sie sofort."
+        "step_1": "Lass die Schweine- und Hühnerbrühe in einem kleinen Topf sanft köcheln, bis sie eingekocht und kräftig im Geschmack ist.",
+        "step_2": "Rühre Sojasauce, Mirin, Reisessig, Chiliöl und Katsuobushi-Pulver ein, um der Dip-Brühe ein intensives Umami-Aroma zu geben.",
+        "step_3": "Koche die dicken Nudeln in reichlich sprudelndem Wasser nach Packungsanweisung, meist etwa 5–6 Minuten.",
+        "step_4": "Gieße die Nudeln ab, spüle sie unter kaltem fließendem Wasser gründlich ab und kühle sie mit Eis, während du die Stränge vorsichtig trennst, damit die Oberflächenstärke verschwindet. Lass sie sehr gut abtropfen, damit sie bissfest bleiben.",
+        "step_5": "Richte die kalten Nudeln auf einem Teller oder Bambustablett mit Schweine-Chashu, einem halbierten marinierten Ei und Nori an.",
+        "step_6": "Fülle die sehr heiße, konzentrierte Brühe in eine separate kleine Schüssel.",
+        "step_7": "Nimm mit Stäbchen einige kalte Nudeln auf, tauche sie in die heiße konzentrierte Brühe und iss sie sofort."
       }
     },
     "recipe_000084": {
@@ -4797,7 +4797,7 @@
           "note": null
         },
         "cipollotto_fresco_affettato": {
-          "name": "Schnittlauch, frisch geschnitten",
+          "name": "frische Frühlingszwiebel, in Ringe geschnitten",
           "note": null
         },
         "alga_nori": {
@@ -4885,7 +4885,7 @@
           "note": null
         },
         "cipollotto_affettati": {
-          "name": "Zwiebeln, geschnitten",
+          "name": "Frühlingszwiebeln, in Ringe geschnitten",
           "note": null
         },
         "salsa_di_soia": {
@@ -5213,7 +5213,7 @@
           "note": null
         },
         "semi_di_sesamo_tostate_e_cipollotto_tritato_per_gu_2_cipollotto_tritato_per_guar": {
-          "name": "gehackte Zwiebel zum Garnieren",
+          "name": "gehackte Frühlingszwiebel zum Garnieren",
           "note": null
         }
       },
@@ -5614,7 +5614,7 @@
           "note": null
         },
         "topping_cipollotto_affettato_10": {
-          "name": "Schnittlauch",
+          "name": "Frühlingszwiebel, in Ringe geschnitten",
           "note": null
         },
         "topping_alga_nori_11": {
@@ -5783,7 +5783,7 @@
           "note": null
         },
         "finitura_cipollotto_fresco_affettato_5": {
-          "name": "Schnittlauch, frisch geschnitten",
+          "name": "frische Frühlingszwiebel, in Ringe geschnitten",
           "note": null
         },
         "finitura_maionese_giapponese_kewpie_6": {
@@ -5863,7 +5863,7 @@
           "note": null
         },
         "cipollotto_e_semi_di_sesamo_1_cipollotto": {
-          "name": "Zwiebel",
+          "name": "Frühlingszwiebel",
           "note": null
         },
         "cipollotto_e_semi_di_sesamo_2_semi_di_sesamo": {
@@ -6084,7 +6084,7 @@
           "note": null
         },
         "finitura_cipollotto_affettato_6": {
-          "name": "Schnittlauch",
+          "name": "Frühlingszwiebel, in Ringe geschnitten",
           "note": null
         },
         "finitura_karashi_7": {
@@ -6302,7 +6302,7 @@
           "note": null
         },
         "uovo_sbattuto_e_cipollotto_2_cipollotto": {
-          "name": "Zwiebel",
+          "name": "Frühlingszwiebel",
           "note": null
         }
       },
@@ -6603,7 +6603,7 @@
           "note": null
         },
         "cipollotto_fresco_affettato_finemente": {
-          "name": "Zwiebeln, frisch, fein geschnitten",
+          "name": "frische Frühlingszwiebel, fein geschnitten",
           "note": null
         }
       },
@@ -6744,7 +6744,7 @@
           "note": null
         },
         "uovo_marinato_2_cipollotto_per_servire": {
-          "name": "Zwiebel zum Servieren",
+          "name": "Frühlingszwiebel zum Servieren",
           "note": null
         }
       },
@@ -6784,7 +6784,7 @@
           "note": null
         },
         "cipollotto_e_alga_nori_a_striscioline_1_cipollotto": {
-          "name": "Zwiebel",
+          "name": "Frühlingszwiebel",
           "note": null
         },
         "cipollotto_e_alga_nori_a_striscioline_2_alga_nori_a_striscioline": {
@@ -6968,7 +6968,7 @@
           "note": null
         },
         "cipollotto_tagliato_a_rondelle": {
-          "name": "Zwiebeln, in Unterlegscheiben geschnitten",
+          "name": "Frühlingszwiebel, in Ringe geschnitten",
           "note": null
         }
       },
@@ -7617,7 +7617,7 @@
           "note": null
         },
         "cipollotto_e_maionese_giapponese_1_cipollotto": {
-          "name": "Zwiebel",
+          "name": "Frühlingszwiebel",
           "note": null
         },
         "cipollotto_e_maionese_giapponese_2_maionese_giapponese": {

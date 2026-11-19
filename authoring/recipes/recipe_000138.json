@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000138",
-  "contentVersion": 5,
+  "contentVersion": 6,
   "status": "published",
   "inspirationTitle": "My Hero Academia",
   "animeReferences": [
@@ -242,7 +242,7 @@
           "note": null
         },
         "cipollotto_tagliato_a_rondelle": {
-          "name": "Cipollotto cortado con pipetas",
+          "name": "cebolleta en rodajas",
           "note": null
         }
       },
@@ -340,7 +340,7 @@
           "note": null
         },
         "cipollotto_tagliato_a_rondelle": {
-          "name": "Zwiebeln, in Unterlegscheiben geschnitten",
+          "name": "Frühlingszwiebel, in Ringe geschnitten",
           "note": null
         }
       },
@@ -389,7 +389,7 @@
           "note": null
         },
         "cipollotto_tagliato_a_rondelle": {
-          "name": "Cebola cortada em lavadoras",
+          "name": "cebola de rama cortada às rodelas",
           "note": null
         }
       },

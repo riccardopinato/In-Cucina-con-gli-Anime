@@ -2820,7 +2820,7 @@
           "note": null
         },
         "cipollotto_fresco_affettato": {
-          "name": "cipollotto fresco cortado",
+          "name": "cebolleta fresca en rodajas",
           "note": null
         },
         "uovo_fresche": {
@@ -3151,7 +3151,7 @@
           "note": null
         },
         "cipollotto_fresco_affettato": {
-          "name": "cipollotto fresco cortado",
+          "name": "cebolleta fresca en rodajas",
           "note": null
         },
         "alga_nori": {
@@ -3758,7 +3758,7 @@
           "note": null
         },
         "cipollotto_fresco_tritato": {
-          "name": "cipollotto fresco picado",
+          "name": "cebolleta fresca picada",
           "note": null
         }
       },
@@ -3860,7 +3860,7 @@
           "note": null
         },
         "cipollotto": {
-          "name": "Cipollotto (solo parte verde)",
+          "name": "cebolleta (solo la parte verde)",
           "note": null
         },
         "sake": {
@@ -3990,7 +3990,7 @@
           "note": null
         },
         "cipollotto_fresco_affettato": {
-          "name": "cipollotto fresco cortado",
+          "name": "cebolleta fresca en rodajas",
           "note": null
         }
       },
@@ -4048,7 +4048,7 @@
           "note": null
         },
         "cipollotto_tritato": {
-          "name": "cipollotto picado",
+          "name": "cebolleta picada",
           "note": null
         },
         "katsuobushi": {
@@ -4143,7 +4143,7 @@
           "note": null
         },
         "cipollotto_tritato": {
-          "name": "cipollotto picado",
+          "name": "cebolleta picada",
           "note": null
         },
         "ketchup": {
@@ -4402,7 +4402,7 @@
     },
     "recipe_000083": {
       "title": "Tsukemen — ramen para mojar en caldo concentrado",
-      "description": "En el Tsukemen los fideos son escurridos y servidos separados por un caldo concentrado de carne, dashi y condimentos. Cada bocado de pasta se teñi en la salsa caliente; chashu y huevo marinado completan el servicio sin perder la consistencia de los fideos. El caldo concentrado se sirve caliente en un tazón separado, mientras que los fideos permanecen fríos hasta el momento del intingol.",
+      "description": "El tsukemen se sirve con fideos gruesos separados de un caldo concentrado de cerdo y pollo para mojar, sazonado con soja, mirin, vinagre de arroz, aceite picante y katsuobushi. Los fideos cocidos se enjuagan con agua fría para retirar el almidón superficial y se acompañan de chashu, medio huevo marinado y nori. Cada bocado de fideos fríos se sumerge en el caldo caliente justo antes de comerlo.",
       "animeContext": "Esta receta está inspirada temáticamente en Ramen Daisuki Koizumi-san, Food Wars!. Son asociaciones editoriales, no afirmaciones de apariciones en episodios o capítulos concretos.",
       "ingredientTexts": {
         "spessi_noodles_per_tsukemen_o_ramen": {
@@ -4422,7 +4422,7 @@
           "note": null
         },
         "polvere_di_pesce": {
-          "name": "polvo de pescado (Katsuobushi pobre)",
+          "name": "katsuobushi en polvo (bonito seco)",
           "note": null
         },
         "salsa_di_soia": {
@@ -4450,18 +4450,18 @@
           "note": null
         },
         "cipollotto": {
-          "name": "cipollotto",
+          "name": "cebolleta",
           "note": null
         }
       },
       "stepTexts": {
-        "step_1": "En una olla, reduce el caldo de cerdo y pollo dejándolo hervir hasta que se vuelva muy denso y sabroso.",
-        "step_2": "Combina la salsa de soja, el Mirin, el vinagre de arroz, el aceite picante y el polvo de pescado Katsuobushi para dar un impulso umami intenso.",
-        "step_3": "Cocine los fideos gruesos en abundante agua hirviendo durante el tiempo indicado en el envase (normalmente 5-6 minutos).",
-        "step_4": "Escurrir los fideos y enjuagarlos inmediatamente bajo agua corriente fría y hielo trabajando con las manos para eliminar el almidón superficial y hacerlos extremadamente elásticos y duros, escurrir muy bien.",
-        "step_5": "Arregla los fideos fríos en un plato o cesta de bambú con sobre el Chashu, el huevo marinado a la mitad y la hoja de Nori.",
-        "step_6": "Añade el caldo caliente y concentrado en un cuenco separado.",
-        "step_7": "Coge un mechón de fideos fríos con palillos, tómalo en el caldo caliente concentrado y guárdalo ahora."
+        "step_1": "Cuece el caldo de cerdo y pollo a fuego suave en un cazo hasta que se reduzca y tenga un sabor concentrado.",
+        "step_2": "Añade salsa de soja, mirin, vinagre de arroz, aceite picante y katsuobushi en polvo para intensificar el umami del caldo.",
+        "step_3": "Cuece los fideos gruesos en abundante agua hirviendo siguiendo el tiempo del envase, normalmente unos 5–6 minutos.",
+        "step_4": "Escurre los fideos, acláralos bien bajo agua corriente fría y enfríalos con hielo mientras separas las hebras suavemente para retirar el almidón superficial. Escúrrelos por completo para que queden firmes y elásticos.",
+        "step_5": "Coloca los fideos fríos en un plato o bandeja de bambú con el chashu de cerdo, el huevo marinado partido por la mitad y una hoja de nori.",
+        "step_6": "Sirve el caldo concentrado muy caliente en un cuenco aparte.",
+        "step_7": "Toma unas hebras de fideos fríos con los palillos, sumérgelas en el caldo concentrado caliente y cómelas enseguida."
       }
     },
     "recipe_000084": {
@@ -4797,7 +4797,7 @@
           "note": null
         },
         "cipollotto_fresco_affettato": {
-          "name": "cipollotto fresco cortado",
+          "name": "cebolleta fresca en rodajas",
           "note": null
         },
         "alga_nori": {
@@ -5292,7 +5292,7 @@
           "note": null
         },
         "cipollotto_fresco_tritato": {
-          "name": "cipollotto fresco picado",
+          "name": "cebolleta fresca picada",
           "note": null
         }
       },
@@ -5614,7 +5614,7 @@
           "note": null
         },
         "topping_cipollotto_affettato_10": {
-          "name": "cipollotto cortado",
+          "name": "cebolleta en rodajas",
           "note": null
         },
         "topping_alga_nori_11": {
@@ -5783,7 +5783,7 @@
           "note": null
         },
         "finitura_cipollotto_fresco_affettato_5": {
-          "name": "cipollotto fresco cortado",
+          "name": "cebolleta fresca en rodajas",
           "note": null
         },
         "finitura_maionese_giapponese_kewpie_6": {
@@ -5863,7 +5863,7 @@
           "note": null
         },
         "cipollotto_e_semi_di_sesamo_1_cipollotto": {
-          "name": "cipollotto",
+          "name": "cebolleta",
           "note": null
         },
         "cipollotto_e_semi_di_sesamo_2_semi_di_sesamo": {
@@ -6084,7 +6084,7 @@
           "note": null
         },
         "finitura_cipollotto_affettato_6": {
-          "name": "cipollotto cortado",
+          "name": "cebolleta en rodajas",
           "note": null
         },
         "finitura_karashi_7": {
@@ -6302,7 +6302,7 @@
           "note": null
         },
         "uovo_sbattuto_e_cipollotto_2_cipollotto": {
-          "name": "cipollotto",
+          "name": "cebolleta",
           "note": null
         }
       },
@@ -6744,7 +6744,7 @@
           "note": null
         },
         "uovo_marinato_2_cipollotto_per_servire": {
-          "name": "Cipollotto para servir",
+          "name": "cebolleta para servir",
           "note": null
         }
       },
@@ -6784,7 +6784,7 @@
           "note": null
         },
         "cipollotto_e_alga_nori_a_striscioline_1_cipollotto": {
-          "name": "cipollotto",
+          "name": "cebolleta",
           "note": null
         },
         "cipollotto_e_alga_nori_a_striscioline_2_alga_nori_a_striscioline": {
@@ -6968,7 +6968,7 @@
           "note": null
         },
         "cipollotto_tagliato_a_rondelle": {
-          "name": "Cipollotto cortado con pipetas",
+          "name": "cebolleta en rodajas",
           "note": null
         }
       },
@@ -7401,7 +7401,7 @@
           "note": null
         },
         "germogli_di_soia_e_cipollotto_fresco_2_cipollotto_fresco": {
-          "name": "cipollotto fresco",
+          "name": "cebolleta fresca",
           "note": null
         }
       },
@@ -7617,7 +7617,7 @@
           "note": null
         },
         "cipollotto_e_maionese_giapponese_1_cipollotto": {
-          "name": "cipollotto",
+          "name": "cebolleta",
           "note": null
         },
         "cipollotto_e_maionese_giapponese_2_maionese_giapponese": {

@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000147",
-  "contentVersion": 6,
+  "contentVersion": 7,
   "status": "published",
   "inspirationTitle": "Ramen Daisuki Koizumi-san",
   "animeReferences": [
@@ -327,7 +327,7 @@
           "note": null
         },
         "germogli_di_soia_e_cipollotto_fresco_2_cipollotto_fresco": {
-          "name": "cipollotto fresco",
+          "name": "cebolleta fresca",
           "note": null
         }
       },
@@ -534,7 +534,7 @@
           "note": null
         },
         "germogli_di_soia_e_cipollotto_fresco_2_cipollotto_fresco": {
-          "name": "cebola fresca",
+          "name": "cebola de rama fresca",
           "note": null
         }
       },

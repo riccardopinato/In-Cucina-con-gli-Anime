@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000108",
-  "contentVersion": 5,
+  "contentVersion": 6,
   "status": "published",
   "inspirationTitle": "Food Wars! (Shokugeki no Soma)",
   "animeReferences": [
@@ -302,7 +302,7 @@
           "note": null
         },
         "topping_cipollotto_affettato_10": {
-          "name": "cipollotto cortado",
+          "name": "cebolleta en rodajas",
           "note": null
         },
         "topping_alga_nori_11": {
@@ -432,7 +432,7 @@
           "note": null
         },
         "topping_cipollotto_affettato_10": {
-          "name": "Schnittlauch",
+          "name": "Frühlingszwiebel, in Ringe geschnitten",
           "note": null
         },
         "topping_alga_nori_11": {
@@ -497,7 +497,7 @@
           "note": null
         },
         "topping_cipollotto_affettato_10": {
-          "name": "Cebola cortada",
+          "name": "cebola de rama cortada às rodelas",
           "note": null
         },
         "topping_alga_nori_11": {

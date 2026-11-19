@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000098",
-  "contentVersion": 5,
+  "contentVersion": 6,
   "status": "published",
   "inspirationTitle": "Cooking Papa",
   "animeReferences": [
@@ -324,7 +324,7 @@
           "note": null
         },
         "semi_di_sesamo_tostate_e_cipollotto_tritato_per_gu_2_cipollotto_tritato_per_guar": {
-          "name": "gehackte Zwiebel zum Garnieren",
+          "name": "gehackte Frühlingszwiebel zum Garnieren",
           "note": null
         }
       },
@@ -371,7 +371,7 @@
           "note": null
         },
         "semi_di_sesamo_tostate_e_cipollotto_tritato_per_gu_2_cipollotto_tritato_per_guar": {
-          "name": "cebola picada para decorar",
+          "name": "cebola de rama picada para decorar",
           "note": null
         }
       },

@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000156",
-  "contentVersion": 7,
+  "contentVersion": 8,
   "status": "published",
   "inspirationTitle": "Ramen Daisuki Koizumi-san",
   "animeReferences": [
@@ -418,7 +418,7 @@
           "note": null
         },
         "mais_dolce_e_cipollotto_fresco_per_guarnire_2_cipollotto_fresco_per_guarnire": {
-          "name": "cebola fresca para decorar",
+          "name": "cebola de rama fresca para decorar",
           "note": null
         }
       },

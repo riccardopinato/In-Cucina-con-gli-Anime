@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000075",
-  "contentVersion": 5,
+  "contentVersion": 6,
   "status": "published",
   "inspirationTitle": "Persona 5",
   "animeReferences": [
@@ -265,7 +265,7 @@
           "note": null
         },
         "cipollotto_fresco_affettato": {
-          "name": "cipollotto fresco cortado",
+          "name": "cebolleta fresca en rodajas",
           "note": null
         }
       },
@@ -319,7 +319,7 @@
           "note": null
         },
         "cipollotto_fresco_affettato": {
-          "name": "Ciboulette frais coupé",
+          "name": "cébette fraîche émincée",
           "note": null
         }
       },
@@ -373,7 +373,7 @@
           "note": null
         },
         "cipollotto_fresco_affettato": {
-          "name": "Schnittlauch, frisch geschnitten",
+          "name": "frische Frühlingszwiebel, in Ringe geschnitten",
           "note": null
         }
       },
@@ -427,7 +427,7 @@
           "note": null
         },
         "cipollotto_fresco_affettato": {
-          "name": "cebola fresca cortada",
+          "name": "cebola de rama fresca cortada às rodelas",
           "note": null
         }
       },

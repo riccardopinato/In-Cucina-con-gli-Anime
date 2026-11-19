@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000118",
-  "contentVersion": 5,
+  "contentVersion": 6,
   "status": "published",
   "inspirationTitle": "Jujutsu Kaisen",
   "animeReferences": [
@@ -215,7 +215,7 @@
           "note": null
         },
         "finitura_cipollotto_affettato_6": {
-          "name": "cipollotto cortado",
+          "name": "cebolleta en rodajas",
           "note": null
         },
         "finitura_karashi_7": {
@@ -303,7 +303,7 @@
           "note": null
         },
         "finitura_cipollotto_affettato_6": {
-          "name": "Schnittlauch",
+          "name": "Frühlingszwiebel, in Ringe geschnitten",
           "note": null
         },
         "finitura_karashi_7": {
@@ -347,7 +347,7 @@
           "note": null
         },
         "finitura_cipollotto_affettato_6": {
-          "name": "Cebola cortada",
+          "name": "cebola de rama cortada às rodelas",
           "note": null
         },
         "finitura_karashi_7": {

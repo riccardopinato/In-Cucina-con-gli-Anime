@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000082",
-  "contentVersion": 5,
+  "contentVersion": 6,
   "status": "published",
   "inspirationTitle": "Yuru Camp△",
   "animeReferences": [
@@ -151,7 +151,7 @@
           "note": null
         },
         "cipollotti": {
-          "name": "onions",
+          "name": "spring onions",
           "note": null
         },
         "funghi_shiitake": {
@@ -331,7 +331,7 @@
           "note": null
         },
         "cipollotti": {
-          "name": "ciboulettes",
+          "name": "cébettes",
           "note": null
         },
         "funghi_shiitake": {

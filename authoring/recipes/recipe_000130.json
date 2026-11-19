@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000130",
-  "contentVersion": 6,
+  "contentVersion": 7,
   "status": "published",
   "inspirationTitle": "Emiya-san Chi no Kyou no Gohan",
   "animeReferences": [
@@ -291,7 +291,7 @@
           "note": null
         },
         "cipollotto_fresco_affettato_finemente": {
-          "name": "Ciboulette frais coupé finement",
+          "name": "cébette fraîche finement émincée",
           "note": null
         }
       },
@@ -340,7 +340,7 @@
           "note": null
         },
         "cipollotto_fresco_affettato_finemente": {
-          "name": "Zwiebeln, frisch, fein geschnitten",
+          "name": "frische Frühlingszwiebel, fein geschnitten",
           "note": null
         }
       },
@@ -389,7 +389,7 @@
           "note": null
         },
         "cipollotto_fresco_affettato_finemente": {
-          "name": "Cebola recém cortada finamente",
+          "name": "cebola de rama fresca, cortada em rodelas finas",
           "note": null
         }
       },

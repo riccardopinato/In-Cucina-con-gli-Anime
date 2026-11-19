@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000073",
-  "contentVersion": 3,
+  "contentVersion": 4,
   "status": "published",
   "inspirationTitle": "Emiya-san Chi no Kyou no Gohan",
   "animeReferences": [
@@ -235,7 +235,7 @@
           "note": null
         },
         "cipollotto": {
-          "name": "Cipollotto (solo parte verde)",
+          "name": "cebolleta (solo la parte verde)",
           "note": null
         },
         "sake": {
@@ -341,7 +341,7 @@
           "note": null
         },
         "cipollotto": {
-          "name": "Zwiebel (nur grün)",
+          "name": "Frühlingszwiebel (nur der grüne Teil)",
           "note": null
         },
         "sake": {
@@ -394,7 +394,7 @@
           "note": null
         },
         "cipollotto": {
-          "name": "cebola (apenas parte verde)",
+          "name": "cebola de rama (apenas a parte verde)",
           "note": null
         },
         "sake": {

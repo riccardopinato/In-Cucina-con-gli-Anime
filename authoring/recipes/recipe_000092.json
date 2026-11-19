@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000092",
-  "contentVersion": 5,
+  "contentVersion": 6,
   "status": "published",
   "inspirationTitle": "Gintama",
   "animeReferences": [
@@ -316,7 +316,7 @@
           "note": null
         },
         "cipollotto_affettati": {
-          "name": "Zwiebeln, geschnitten",
+          "name": "Frühlingszwiebeln, in Ringe geschnitten",
           "note": null
         },
         "salsa_di_soia": {

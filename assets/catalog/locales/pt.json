@@ -2820,7 +2820,7 @@
           "note": null
         },
         "cipollotto_fresco_affettato": {
-          "name": "cebola fresca cortada",
+          "name": "cebola de rama fresca cortada às rodelas",
           "note": null
         },
         "uovo_fresche": {
@@ -3151,7 +3151,7 @@
           "note": null
         },
         "cipollotto_fresco_affettato": {
-          "name": "cebola fresca cortada",
+          "name": "cebola de rama fresca cortada às rodelas",
           "note": null
         },
         "alga_nori": {
@@ -3253,7 +3253,7 @@
           "note": null
         },
         "cipollotto_freschi_affettati_finemente": {
-          "name": "Cebola recém cortada finamente",
+          "name": "cebolas de rama frescas, cortadas em rodelas finas",
           "note": null
         },
         "olio_di_sesamo": {
@@ -3758,7 +3758,7 @@
           "note": null
         },
         "cipollotto_fresco_tritato": {
-          "name": "cebola fresca picada",
+          "name": "cebola de rama fresca picada",
           "note": null
         }
       },
@@ -3860,7 +3860,7 @@
           "note": null
         },
         "cipollotto": {
-          "name": "cebola (apenas parte verde)",
+          "name": "cebola de rama (apenas a parte verde)",
           "note": null
         },
         "sake": {
@@ -3990,7 +3990,7 @@
           "note": null
         },
         "cipollotto_fresco_affettato": {
-          "name": "cebola fresca cortada",
+          "name": "cebola de rama fresca cortada às rodelas",
           "note": null
         }
       },
@@ -4048,7 +4048,7 @@
           "note": null
         },
         "cipollotto_tritato": {
-          "name": "cebola picada",
+          "name": "cebola de rama picada",
           "note": null
         },
         "katsuobushi": {
@@ -4143,7 +4143,7 @@
           "note": null
         },
         "cipollotto_tritato": {
-          "name": "cebola picada",
+          "name": "cebola de rama picada",
           "note": null
         },
         "ketchup": {
@@ -4402,11 +4402,11 @@
     },
     "recipe_000083": {
       "title": "Tsukemen — ramen para mergulhar em caldo concentrado",
-      "description": "Nos macarrão Tsukemen são drenados e servidos separados por um caldo concentrado de carne, traço e condimentos. Cada mordida de macarrão é mergulhada no molho picante; chashu e ovo marinado completam o serviço sem perder a consistência dos macarrão. O caldo concentrado é servido fervendo em uma tigela separada, enquanto os macarrão permanecem frios até o momento do mergulho.",
+      "description": "O tsukemen é servido com massa grossa separada de um caldo concentrado de porco e frango para molhar, temperado com molho de soja, mirin, vinagre de arroz, óleo picante e katsuobushi. Depois de cozida, a massa é lavada com água fria para retirar o amido da superfície e servida com chashu, meio ovo marinado e nori. Mergulha cada porção de massa fria no caldo quente apenas quando a fores comer.",
       "animeContext": "Esta receita inspira-se tematicamente em Ramen Daisuki Koizumi-san, Food Wars!. São associações editoriais, não alegações de aparições em episódios ou capítulos específicos.",
       "ingredientTexts": {
         "spessi_noodles_per_tsukemen_o_ramen": {
-          "name": "macarrão grosso para Tsukemen ou Ramen",
+          "name": "massa grossa para tsukemen ou ramen",
           "note": null
         },
         "fettine_di_carne_chashu_di_maiale": {
@@ -4418,11 +4418,11 @@
           "note": null
         },
         "brodo_di_maiale_pollo_concentrato": {
-          "name": "Brodo de porco/frango concentrado",
+          "name": "caldo concentrado de porco e frango",
           "note": null
         },
         "polvere_di_pesce": {
-          "name": "Pó de peixe (pobre Katsuobushi)",
+          "name": "katsuobushi em pó (bonito seco)",
           "note": null
         },
         "salsa_di_soia": {
@@ -4450,18 +4450,18 @@
           "note": null
         },
         "cipollotto": {
-          "name": "cebolinho",
+          "name": "cebola de rama",
           "note": null
         }
       },
       "stepTexts": {
-        "step_1": "Numa panela, reduza o caldo de porco e frango e deixe- o ferver até que se torne muito denso e saboroso.",
-        "step_2": "Combine molho de soja, Mirin, vinagre de arroz, óleo picante e pó de peixe Katsuobushi para dar um impulso umami intenso.",
-        "step_3": "Cozinhe os macarrão grossos em muita água fervente para o tempo indicado no pacote (normalmente 5-6 minutos).",
-        "step_4": "Esgote os fios de massa e enxague- os imediatamente sob água fria e gelo, trabalhando- os com as mãos para remover o amido de superfície e torná- los extremamente elásticos e firmes, drená- los bem.",
-        "step_5": "Coloque macarrão frio em um prato ou cesta de bambu com sobre o Chashu, o ovo marinado ao meio e a folha de Nori.",
-        "step_6": "Adicione o caldo fervente e concentre- se em uma tigela separada.",
-        "step_7": "Pegue um bloco de macarrão frio com pauzinhos, mergulhe- o no caldo de ebulição concentrado e prove- o imediatamente."
+        "step_1": "Deixa o caldo de porco e frango reduzir suavemente num tacho pequeno até ficar concentrado e saboroso.",
+        "step_2": "Junta molho de soja, mirin, vinagre de arroz, óleo picante e katsuobushi em pó para intensificar o sabor umami do caldo.",
+        "step_3": "Coze a massa grossa em bastante água a ferver pelo tempo indicado na embalagem, normalmente cerca de 5–6 minutos.",
+        "step_4": "Escorre a massa, passa-a bem por água corrente fria e arrefece-a com gelo, separando os fios delicadamente para retirar o amido da superfície. Escorre muito bem para manter uma textura firme e elástica.",
+        "step_5": "Dispõe a massa fria num prato ou tabuleiro de bambu com o chashu de porco, o ovo marinado cortado ao meio e uma folha de nori.",
+        "step_6": "Serve o caldo concentrado bem quente numa tigela separada.",
+        "step_7": "Pega em alguns fios de massa fria com pauzinhos, mergulha-os no caldo concentrado quente e come-os de imediato."
       }
     },
     "recipe_000084": {
@@ -4797,7 +4797,7 @@
           "note": null
         },
         "cipollotto_fresco_affettato": {
-          "name": "cebola fresca cortada",
+          "name": "cebola de rama fresca cortada às rodelas",
           "note": null
         },
         "alga_nori": {
@@ -5213,7 +5213,7 @@
           "note": null
         },
         "semi_di_sesamo_tostate_e_cipollotto_tritato_per_gu_2_cipollotto_tritato_per_guar": {
-          "name": "cebola picada para decorar",
+          "name": "cebola de rama picada para decorar",
           "note": null
         }
       },
@@ -5292,7 +5292,7 @@
           "note": null
         },
         "cipollotto_fresco_tritato": {
-          "name": "cebola fresca picada",
+          "name": "cebola de rama fresca picada",
           "note": null
         }
       },
@@ -5614,7 +5614,7 @@
           "note": null
         },
         "topping_cipollotto_affettato_10": {
-          "name": "Cebola cortada",
+          "name": "cebola de rama cortada às rodelas",
           "note": null
         },
         "topping_alga_nori_11": {
@@ -5783,7 +5783,7 @@
           "note": null
         },
         "finitura_cipollotto_fresco_affettato_5": {
-          "name": "cebola fresca cortada",
+          "name": "cebola de rama fresca cortada às rodelas",
           "note": null
         },
         "finitura_maionese_giapponese_kewpie_6": {
@@ -5863,7 +5863,7 @@
           "note": null
         },
         "cipollotto_e_semi_di_sesamo_1_cipollotto": {
-          "name": "cebolinho",
+          "name": "cebola de rama",
           "note": null
         },
         "cipollotto_e_semi_di_sesamo_2_semi_di_sesamo": {
@@ -6084,7 +6084,7 @@
           "note": null
         },
         "finitura_cipollotto_affettato_6": {
-          "name": "Cebola cortada",
+          "name": "cebola de rama cortada às rodelas",
           "note": null
         },
         "finitura_karashi_7": {
@@ -6302,7 +6302,7 @@
           "note": null
         },
         "uovo_sbattuto_e_cipollotto_2_cipollotto": {
-          "name": "cebolinho",
+          "name": "cebola de rama",
           "note": null
         }
       },
@@ -6603,7 +6603,7 @@
           "note": null
         },
         "cipollotto_fresco_affettato_finemente": {
-          "name": "Cebola recém cortada finamente",
+          "name": "cebola de rama fresca, cortada em rodelas finas",
           "note": null
         }
       },
@@ -6648,7 +6648,7 @@
           "note": null
         },
         "nori_a_striscioline_e_cipollotto_fresco_per_guarni_2_cipollotto_fresco_per_guarn": {
-          "name": "cebola fresca para decorar",
+          "name": "cebola de rama fresca para decorar",
           "note": null
         }
       },
@@ -6744,7 +6744,7 @@
           "note": null
         },
         "uovo_marinato_2_cipollotto_per_servire": {
-          "name": "cebola para servir",
+          "name": "cebola de rama para servir",
           "note": null
         }
       },
@@ -6784,7 +6784,7 @@
           "note": null
         },
         "cipollotto_e_alga_nori_a_striscioline_1_cipollotto": {
-          "name": "cebolinho",
+          "name": "cebola de rama",
           "note": null
         },
         "cipollotto_e_alga_nori_a_striscioline_2_alga_nori_a_striscioline": {
@@ -6968,7 +6968,7 @@
           "note": null
         },
         "cipollotto_tagliato_a_rondelle": {
-          "name": "Cebola cortada em lavadoras",
+          "name": "cebola de rama cortada às rodelas",
           "note": null
         }
       },
@@ -7401,7 +7401,7 @@
           "note": null
         },
         "germogli_di_soia_e_cipollotto_fresco_2_cipollotto_fresco": {
-          "name": "cebola fresca",
+          "name": "cebola de rama fresca",
           "note": null
         }
       },
@@ -7617,7 +7617,7 @@
           "note": null
         },
         "cipollotto_e_maionese_giapponese_1_cipollotto": {
-          "name": "cebolinho",
+          "name": "cebola de rama",
           "note": null
         },
         "cipollotto_e_maionese_giapponese_2_maionese_giapponese": {
@@ -7887,7 +7887,7 @@
           "note": null
         },
         "mais_dolce_e_cipollotto_fresco_per_guarnire_2_cipollotto_fresco_per_guarnire": {
-          "name": "cebola fresca para decorar",
+          "name": "cebola de rama fresca para decorar",
           "note": null
         }
       },

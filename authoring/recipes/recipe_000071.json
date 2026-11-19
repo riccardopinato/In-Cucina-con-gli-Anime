@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000071",
-  "contentVersion": 5,
+  "contentVersion": 6,
   "status": "published",
   "inspirationTitle": "Food Wars! (Shokugeki no Soma)",
   "animeReferences": [
@@ -373,7 +373,7 @@
           "note": null
         },
         "cipollotto_fresco_tritato": {
-          "name": "cipollotto fresco picado",
+          "name": "cebolleta fresca picada",
           "note": null
         }
       },
@@ -452,7 +452,7 @@
           "note": null
         },
         "cipollotto_fresco_tritato": {
-          "name": "Ciboulette frais haché",
+          "name": "cébette fraîche hachée",
           "note": null
         }
       },
@@ -610,7 +610,7 @@
           "note": null
         },
         "cipollotto_fresco_tritato": {
-          "name": "cebola fresca picada",
+          "name": "cebola de rama fresca picada",
           "note": null
         }
       },

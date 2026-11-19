@@ -4370,7 +4370,7 @@
           "note": null
         },
         "cipollotti": {
-          "name": "onions",
+          "name": "spring onions",
           "note": null
         },
         "funghi_shiitake": {
@@ -4402,27 +4402,27 @@
     },
     "recipe_000083": {
       "title": "Tsukemen — dipping ramen with concentrated broth",
-      "description": "In Tsukemen noodles are drained and served separated by a concentrated broth of meat, dash and condiments. Each bite of pasta is dipped in the hot sauce; chashu and marinated egg complete the service without losing the consistency of noodles. The concentrated broth is served boiling in a separate bowl, while the noodles remain cold until the time of the dip.",
+      "description": "Tsukemen serves thick noodles separately from a rich, concentrated pork-and-chicken dipping broth seasoned with soy sauce, mirin, rice vinegar, chilli oil and katsuobushi. Rinse the cooked noodles in cold water to remove surface starch, then arrange them with chashu, a halved marinated egg and nori. Dip each bite of cold noodles into the hot broth just before eating.",
       "animeContext": "This recipe is thematically inspired by Ramen Daisuki Koizumi-san, Food Wars!. These are editorial associations, not claims of appearances in specific episodes or chapters.",
       "ingredientTexts": {
         "spessi_noodles_per_tsukemen_o_ramen": {
-          "name": "thick noodles for Tsukemen or Ramen",
+          "name": "thick tsukemen or ramen noodles",
           "note": null
         },
         "fettine_di_carne_chashu_di_maiale": {
-          "name": "Pork Chashu meat slices",
+          "name": "sliced pork chashu",
           "note": null
         },
         "uovo_ajitsuke_tamago": {
-          "name": "marinated eggs Ajitsuke Tamago",
+          "name": "marinated ajitsuke tamago eggs",
           "note": null
         },
         "brodo_di_maiale_pollo_concentrato": {
-          "name": "Pork broth/concentrated chicken",
+          "name": "concentrated pork-and-chicken broth",
           "note": null
         },
         "polvere_di_pesce": {
-          "name": "Fish powder (poor Katsuobushi)",
+          "name": "katsuobushi (dried bonito) powder",
           "note": null
         },
         "salsa_di_soia": {
@@ -4446,7 +4446,7 @@
           "note": null
         },
         "germogli_di_bambu": {
-          "name": "bamboo sprouts (Menma)",
+          "name": "bamboo shoots (menma)",
           "note": null
         },
         "cipollotto": {
@@ -4455,13 +4455,13 @@
         }
       },
       "stepTexts": {
-        "step_1": "In a saucepan, reduce the pork and chicken broth and let it simmer until it becomes very dense and tasty.",
-        "step_2": "Combine soy sauce, Mirin, rice vinegar, spicy oil and Katsuobushi fish powder to give an intense umami boost.",
-        "step_3": "Cook the thick noodles in plenty of boiling water for the time indicated on the package (usually 5-6 minutes).",
-        "step_4": "Drain the noodles and rinse them immediately under running cold water and ice by working them with your hands to remove the surface starch and make them extremely elastic and firm, drain them well.",
-        "step_5": "Place cold noodles on a plate or bamboo basket with over the Chashu, the marinated egg in half and the Nori leaf.",
-        "step_6": "Add the boiling broth and concentrate in a separate bowl.",
-        "step_7": "Take a lock of cold noodles with chopsticks, dip it in the concentrated boiling broth and taste it immediately."
+        "step_1": "Simmer the pork-and-chicken broth in a small saucepan until reduced, concentrated and deeply savoury.",
+        "step_2": "Stir in soy sauce, mirin, rice vinegar, chilli oil and katsuobushi powder to give the dipping broth a rich umami flavour.",
+        "step_3": "Cook the thick noodles in plenty of boiling water according to the packet instructions, usually about 5–6 minutes.",
+        "step_4": "Drain the noodles, rinse thoroughly under cold running water and cool with ice while gently separating the strands to remove surface starch. Drain very well so the noodles stay firm and springy.",
+        "step_5": "Arrange the cold noodles on a plate or bamboo tray and top with sliced pork chashu, a halved marinated egg and nori.",
+        "step_6": "Pour the very hot, concentrated dipping broth into a separate small bowl.",
+        "step_7": "Pick up a few strands of cold noodles with chopsticks, dip them into the hot concentrated broth and eat immediately."
       }
     },
     "recipe_000084": {

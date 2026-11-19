@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000151",
-  "contentVersion": 4,
+  "contentVersion": 5,
   "status": "published",
   "inspirationTitle": "Dragon Ball",
   "animeReferences": [
@@ -295,7 +295,7 @@
           "note": null
         },
         "cipollotto_e_maionese_giapponese_1_cipollotto": {
-          "name": "cipollotto",
+          "name": "cebolleta",
           "note": null
         },
         "cipollotto_e_maionese_giapponese_2_maionese_giapponese": {
@@ -357,7 +357,7 @@
           "note": null
         },
         "cipollotto_e_maionese_giapponese_1_cipollotto": {
-          "name": "ciboulette",
+          "name": "cébette",
           "note": null
         },
         "cipollotto_e_maionese_giapponese_2_maionese_giapponese": {
@@ -419,7 +419,7 @@
           "note": null
         },
         "cipollotto_e_maionese_giapponese_1_cipollotto": {
-          "name": "Zwiebel",
+          "name": "Frühlingszwiebel",
           "note": null
         },
         "cipollotto_e_maionese_giapponese_2_maionese_giapponese": {
@@ -481,7 +481,7 @@
           "note": null
         },
         "cipollotto_e_maionese_giapponese_1_cipollotto": {
-          "name": "cebolinho",
+          "name": "cebola de rama",
           "note": null
         },
         "cipollotto_e_maionese_giapponese_2_maionese_giapponese": {

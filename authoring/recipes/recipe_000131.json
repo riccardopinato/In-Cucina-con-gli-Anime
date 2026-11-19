@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000131",
-  "contentVersion": 4,
+  "contentVersion": 5,
   "status": "published",
   "inspirationTitle": "March Comes in Like a Lion",
   "animeReferences": [
@@ -351,7 +351,7 @@
           "note": null
         },
         "nori_a_striscioline_e_cipollotto_fresco_per_guarni_2_cipollotto_fresco_per_guarn": {
-          "name": "cebola fresca para decorar",
+          "name": "cebola de rama fresca para decorar",
           "note": null
         }
       },

@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000123",
-  "contentVersion": 6,
+  "contentVersion": 7,
   "status": "published",
   "inspirationTitle": "Barakamon",
   "animeReferences": [
@@ -202,7 +202,7 @@
           "note": null
         },
         "uovo_sbattuto_e_cipollotto_2_cipollotto": {
-          "name": "cipollotto",
+          "name": "cebolleta",
           "note": null
         }
       },
@@ -242,7 +242,7 @@
           "note": null
         },
         "uovo_sbattuto_e_cipollotto_2_cipollotto": {
-          "name": "ciboulette",
+          "name": "cébette",
           "note": null
         }
       },
@@ -282,7 +282,7 @@
           "note": null
         },
         "uovo_sbattuto_e_cipollotto_2_cipollotto": {
-          "name": "Zwiebel",
+          "name": "Frühlingszwiebel",
           "note": null
         }
       },
@@ -322,7 +322,7 @@
           "note": null
         },
         "uovo_sbattuto_e_cipollotto_2_cipollotto": {
-          "name": "cebolinho",
+          "name": "cebola de rama",
           "note": null
         }
       },

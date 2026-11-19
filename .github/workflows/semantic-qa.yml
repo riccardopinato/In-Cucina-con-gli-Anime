@@ -8,6 +8,8 @@ on:
       - 'tool/semantic_qa_adapter.py'
       - 'tool/tests/test_semantic_qa_adapter.py'
       - 'tool/fast_track_recipe_inventory.py'
+      - 'tool/semantic_qa_food_glossary.py'
+      - 'tool/tests/test_semantic_qa_food_glossary.py'
       - 'tool/tests/test_fast_track_inventory_lexical.py'
       - '.github/workflows/semantic-qa.yml'
   push:
@@ -17,6 +19,8 @@ on:
       - 'tool/semantic_qa_adapter.py'
       - 'tool/tests/test_semantic_qa_adapter.py'
       - 'tool/fast_track_recipe_inventory.py'
+      - 'tool/semantic_qa_food_glossary.py'
+      - 'tool/tests/test_semantic_qa_food_glossary.py'
       - 'tool/tests/test_fast_track_inventory_lexical.py'
       - '.github/workflows/semantic-qa.yml'
   workflow_dispatch:
@@ -77,6 +81,10 @@ jobs:
                             "candidatesNotCertified": report["contextual_review_candidates"],
                             "issueCounts": report["issue_counts"]}))
           PY
+      - name: Source-bound culinary ingredient terminology QA (offline, zero API)
+        run: |
+          python3 -m unittest discover -s tool/tests -p 'test_semantic_qa_food_glossary.py' -v
+          python3 tool/semantic_qa_food_glossary.py --output build/semantic_qa/food_glossary.json
       - name: Preserve inspectable report without publishing source changes
         if: always()
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
@@ -85,5 +93,6 @@ jobs:
           path: |
             build/semantic_qa/report.json
             build/semantic_qa/cooking_inventory.json
+            build/semantic_qa/food_glossary.json
           if-no-files-found: ignore
           retention-days: 14

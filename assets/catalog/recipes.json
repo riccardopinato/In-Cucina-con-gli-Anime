@@ -5182,7 +5182,7 @@
     },
     {
       "id": "recipe_000055",
-      "contentVersion": 4,
+      "contentVersion": 5,
       "status": "published",
       "inspirationTitle": "Yuru Camp△",
       "animeReferences": [
@@ -5837,7 +5837,7 @@
     },
     {
       "id": "recipe_000061",
-      "contentVersion": 5,
+      "contentVersion": 6,
       "status": "published",
       "inspirationTitle": "Food Wars! - Shokugeki no Soma",
       "animeReferences": [
@@ -6118,7 +6118,7 @@
     },
     {
       "id": "recipe_000063",
-      "contentVersion": 5,
+      "contentVersion": 6,
       "status": "published",
       "inspirationTitle": "Dragon Ball",
       "animeReferences": [
@@ -6498,7 +6498,7 @@
     },
     {
       "id": "recipe_000066",
-      "contentVersion": 4,
+      "contentVersion": 5,
       "status": "published",
       "inspirationTitle": "Food Wars! - Shokugeki no Soma",
       "animeReferences": [
@@ -7058,7 +7058,7 @@
     },
     {
       "id": "recipe_000071",
-      "contentVersion": 5,
+      "contentVersion": 6,
       "status": "published",
       "inspirationTitle": "Food Wars! (Shokugeki no Soma)",
       "animeReferences": [
@@ -7344,7 +7344,7 @@
     },
     {
       "id": "recipe_000073",
-      "contentVersion": 3,
+      "contentVersion": 4,
       "status": "published",
       "inspirationTitle": "Emiya-san Chi no Kyou no Gohan",
       "animeReferences": [
@@ -7564,7 +7564,7 @@
     },
     {
       "id": "recipe_000075",
-      "contentVersion": 5,
+      "contentVersion": 6,
       "status": "published",
       "inspirationTitle": "Persona 5",
       "animeReferences": [
@@ -7678,7 +7678,7 @@
     },
     {
       "id": "recipe_000076",
-      "contentVersion": 4,
+      "contentVersion": 5,
       "status": "published",
       "inspirationTitle": "Demon Slayer (Kimetsu no Yaiba)",
       "animeReferences": [
@@ -7902,7 +7902,7 @@
     },
     {
       "id": "recipe_000078",
-      "contentVersion": 4,
+      "contentVersion": 5,
       "status": "published",
       "inspirationTitle": "Food Wars!",
       "animeReferences": [
@@ -8380,7 +8380,7 @@
     },
     {
       "id": "recipe_000082",
-      "contentVersion": 5,
+      "contentVersion": 6,
       "status": "published",
       "inspirationTitle": "Yuru Camp△",
       "animeReferences": [
@@ -8496,7 +8496,7 @@
     },
     {
       "id": "recipe_000083",
-      "contentVersion": 4,
+      "contentVersion": 5,
       "status": "published",
       "inspirationTitle": "Ramen Daisuki Koizumi-san",
       "animeReferences": [
@@ -9257,7 +9257,7 @@
     },
     {
       "id": "recipe_000090",
-      "contentVersion": 5,
+      "contentVersion": 6,
       "status": "published",
       "inspirationTitle": "Naruto",
       "animeReferences": [
@@ -9479,7 +9479,7 @@
     },
     {
       "id": "recipe_000092",
-      "contentVersion": 5,
+      "contentVersion": 6,
       "status": "published",
       "inspirationTitle": "Gintama",
       "animeReferences": [
@@ -10115,7 +10115,7 @@
     },
     {
       "id": "recipe_000098",
-      "contentVersion": 5,
+      "contentVersion": 6,
       "status": "published",
       "inspirationTitle": "Cooking Papa",
       "animeReferences": [
@@ -10293,7 +10293,7 @@
     },
     {
       "id": "recipe_000100",
-      "contentVersion": 5,
+      "contentVersion": 6,
       "status": "published",
       "inspirationTitle": "Persona 5",
       "animeReferences": [
@@ -11019,7 +11019,7 @@
     },
     {
       "id": "recipe_000108",
-      "contentVersion": 5,
+      "contentVersion": 6,
       "status": "published",
       "inspirationTitle": "Food Wars! (Shokugeki no Soma)",
       "animeReferences": [
@@ -11422,7 +11422,7 @@
     },
     {
       "id": "recipe_000112",
-      "contentVersion": 4,
+      "contentVersion": 5,
       "status": "published",
       "inspirationTitle": "Naruto",
       "animeReferences": [
@@ -11609,7 +11609,7 @@
     },
     {
       "id": "recipe_000114",
-      "contentVersion": 4,
+      "contentVersion": 5,
       "status": "published",
       "inspirationTitle": "Non Non Biyori",
       "animeReferences": [
@@ -12042,7 +12042,7 @@
     },
     {
       "id": "recipe_000118",
-      "contentVersion": 5,
+      "contentVersion": 6,
       "status": "published",
       "inspirationTitle": "Jujutsu Kaisen",
       "animeReferences": [
@@ -12525,7 +12525,7 @@
     },
     {
       "id": "recipe_000123",
-      "contentVersion": 6,
+      "contentVersion": 7,
       "status": "published",
       "inspirationTitle": "Barakamon",
       "animeReferences": [
@@ -13181,7 +13181,7 @@
     },
     {
       "id": "recipe_000130",
-      "contentVersion": 6,
+      "contentVersion": 7,
       "status": "published",
       "inspirationTitle": "Emiya-san Chi no Kyou no Gohan",
       "animeReferences": [
@@ -13286,7 +13286,7 @@
     },
     {
       "id": "recipe_000131",
-      "contentVersion": 4,
+      "contentVersion": 5,
       "status": "published",
       "inspirationTitle": "March Comes in Like a Lion",
       "animeReferences": [
@@ -13468,7 +13468,7 @@
     },
     {
       "id": "recipe_000133",
-      "contentVersion": 6,
+      "contentVersion": 7,
       "status": "published",
       "inspirationTitle": "Food Wars!",
       "animeReferences": [
@@ -13584,7 +13584,7 @@
     },
     {
       "id": "recipe_000134",
-      "contentVersion": 5,
+      "contentVersion": 6,
       "status": "published",
       "inspirationTitle": "La collina dei papaveri",
       "animeReferences": [
@@ -13968,7 +13968,7 @@
     },
     {
       "id": "recipe_000138",
-      "contentVersion": 5,
+      "contentVersion": 6,
       "status": "published",
       "inspirationTitle": "My Hero Academia",
       "animeReferences": [
@@ -14878,7 +14878,7 @@
     },
     {
       "id": "recipe_000147",
-      "contentVersion": 6,
+      "contentVersion": 7,
       "status": "published",
       "inspirationTitle": "Ramen Daisuki Koizumi-san",
       "animeReferences": [
@@ -15349,7 +15349,7 @@
     },
     {
       "id": "recipe_000151",
-      "contentVersion": 4,
+      "contentVersion": 5,
       "status": "published",
       "inspirationTitle": "Dragon Ball",
       "animeReferences": [
@@ -15902,7 +15902,7 @@
     },
     {
       "id": "recipe_000156",
-      "contentVersion": 7,
+      "contentVersion": 8,
       "status": "published",
       "inspirationTitle": "Ramen Daisuki Koizumi-san",
       "animeReferences": [

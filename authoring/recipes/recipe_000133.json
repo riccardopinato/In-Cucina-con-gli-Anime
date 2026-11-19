@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000133",
-  "contentVersion": 6,
+  "contentVersion": 7,
   "status": "published",
   "inspirationTitle": "Food Wars!",
   "animeReferences": [
@@ -287,7 +287,7 @@
           "note": null
         },
         "uovo_marinato_2_cipollotto_per_servire": {
-          "name": "Cipollotto para servir",
+          "name": "cebolleta para servir",
           "note": null
         }
       },
@@ -347,7 +347,7 @@
           "note": null
         },
         "uovo_marinato_2_cipollotto_per_servire": {
-          "name": "ciboulette pour servir",
+          "name": "cébette pour servir",
           "note": null
         }
       },
@@ -407,7 +407,7 @@
           "note": null
         },
         "uovo_marinato_2_cipollotto_per_servire": {
-          "name": "Zwiebel zum Servieren",
+          "name": "Frühlingszwiebel zum Servieren",
           "note": null
         }
       },
@@ -467,7 +467,7 @@
           "note": null
         },
         "uovo_marinato_2_cipollotto_per_servire": {
-          "name": "cebola para servir",
+          "name": "cebola de rama para servir",
           "note": null
         }
       },

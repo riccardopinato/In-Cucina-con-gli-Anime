@@ -1,7 +1,7 @@
 {
   "authoringVersion": 1,
   "id": "recipe_000063",
-  "contentVersion": 5,
+  "contentVersion": 6,
   "status": "published",
   "inspirationTitle": "Dragon Ball",
   "animeReferences": [
@@ -429,7 +429,7 @@
           "note": null
         },
         "cipollotto_freschi_affettati_finemente": {
-          "name": "Zwiebeln, frisch, fein geschnitten",
+          "name": "frische Frühlingszwiebeln, fein geschnitten",
           "note": null
         },
         "olio_di_sesamo": {
@@ -498,7 +498,7 @@
           "note": null
         },
         "cipollotto_freschi_affettati_finemente": {
-          "name": "Cebola recém cortada finamente",
+          "name": "cebolas de rama frescas, cortadas em rodelas finas",
           "note": null
         },
         "olio_di_sesamo": {
